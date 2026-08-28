@@ -149,6 +149,7 @@ def main():
     bottom = np.zeros(len(st))
     for m in SIX:
         ax.bar(x, st[m], bottom=bottom, label=m, width=20); bottom += st[m].values
+    ax.set_ylim(0, st[SIX].sum(axis=1).max() * 1.18)
     ax2 = ax.twinx(); ax2.plot(x, st["n_tokens"], color="black", lw=1, label="statement length (tokens)"); ax2.set_ylabel("tokens")
     for d, lab in EVENTS:
         ax.axvline(pd.to_datetime(d), color="grey", ls=":", lw=.8); ax.text(pd.to_datetime(d), ax.get_ylim()[1]*0.98, lab, rotation=90, fontsize=7, va="top")
