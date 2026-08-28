@@ -106,8 +106,7 @@ def main():
     phs.reindex(order_ph).to_csv(TAB / "D6_phase_contrast_statement.csv")
 
     # D7 validation sample: 200 stratified sentences for manual coding
-    samp = (df.groupby(["doc_type", "modal"], group_keys=False)
-              .apply(lambda g: g.sample(min(len(g), 9), random_state=7)))
+    samp = pd.concat([g.sample(min(len(g), 9), random_state=7) for _, g in df.groupby(["doc_type", "modal"])])
     samp = samp.sample(min(len(samp), 200), random_state=7)[["doc_id", "doc_type", "date", "modal", "head_verb", "subj_type", "neg", "cond", "reported", "sem_type", "sentence"]]
     samp["manual_head_verb_ok"] = ""; samp["manual_sem_type"] = ""; samp["note"] = ""
     samp.to_csv(TAB / "D7_validation_sample.csv", index=False)
@@ -143,7 +142,8 @@ def main():
     fig, axes = plt.subplots(2, 2, figsize=(13, 8))
     for ax, g in zip(axes.flat, GENRES):
         piv = subj[subj.doc_type == g].pivot(index="modal", columns="subj_type", values="share").reindex(index=SIX, columns=SUBJ_ORDER).fillna(0)
-        piv.plot(kind="barh", stacked=True, ax=ax, colormap="tab10", legend=(g == "statement")); ax.set_title(GENRE_LABEL[g]); ax.set_xlabel("share")
+        piv.plot(kind="barh", stacked=True, ax=ax, colormap="tab10", legend=False); ax.set_title(GENRE_LABEL[g]); ax.set_xlabel("share")
+        if g == "speech": ax.legend(loc="center left", bbox_to_anchor=(1.01, 0.5), fontsize=8)
     fig.suptitle("Subject type of the modal clause, by modal and genre"); fig.tight_layout(); fig.savefig(FIG / "D_fig3_subject_by_modal.png", dpi=160); plt.close(fig)
 
     fig, axes = plt.subplots(2, 2, figsize=(13, 8))

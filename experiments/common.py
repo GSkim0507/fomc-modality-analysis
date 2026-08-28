@@ -14,6 +14,13 @@ GENRE_LABEL = {"statement": "Statement", "minutes": "Minutes",
                "press_conf": "Press conference", "speech": "Chair speech"}
 START, END = "2014-01-01", "2026-12-31"
 
+# "statements" in the corpus that are NOT post-meeting FOMC statements (press releases about the
+# policy framework, implementation notes, Board facility announcements) — excluded from statement analyses.
+EXCLUDE_DOCS = {"statement_20191011",   # Statement Regarding Monetary Policy Implementation (reserve management purchases)
+                "statement_20200331",   # FIMA Repo Facility announcement (Board press release)
+                "statement_20200827",   # Statement on Longer-Run Goals — 2020 framework update announcement
+                "statement_20250822"}   # Statement on Longer-Run Goals — 2025 framework update announcement
+
 # Policy / framework events used to annotate time-series figures
 EVENTS = [
     ("2014-10-29", "QE3 ends"),
@@ -47,12 +54,35 @@ def phase_of(date: str) -> str:
             return name
     return "pre-2014"
 
+import re as _re
+_ECON = _re.compile(r"(inflation|econom|growth|activit|condition|price|rate|market|employ|labor|spend|invest|demand|supply|"
+                    r"output|wage|uncertaint|outlook|expectation|pressure|shock|policy|purchase|holding|balance|tariff|financ|"
+                    r"credit|dollar|yield|asset|securit|program|facilit|indicator|data|gdp|pce|cpi|payroll|sector|business|"
+                    r"household|consumer|bank|firm|measure|action|increase|decrease|cut|reduction|tightening|easing|stance|"
+                    r"path|level|target|tool|approach|framework|effect|impact|development|progress|recovery|expansion|slack)", _re.I)
+def refine_subj_type(lemma, text) -> str:
+    """Head-lemma-first subject typing (fixes 'the Committee's holdings' -> committee)."""
+    l = str(lemma).lower() if isinstance(lemma, str) else ""
+    t = str(text).lower() if isinstance(text, str) else ""
+    if l == "": return "none"
+    if l in {"committee", "fomc"}: return "committee"
+    if l in {"we", "i", "us", "our", "ourselves", "myself"}: return "we_I"
+    if l in {"fed", "reserve", "board", "system", "desk", "federal", "bank"} and ("fed" in t or "reserve" in t or "board" in t): return "fed"
+    if l in {"you", "they", "he", "she", "people", "participant", "member", "official", "president", "governor", "chair",
+             "chairman", "staff", "policymaker", "everyone", "anyone", "someone", "colleague", "economist", "one"}: return "person"
+    if l in {"it", "there", "this", "that", "these", "those", "which", "who", "what", "something", "nothing", "anything"}: return "it_there_rel"
+    if "risk" in l: return "risks"
+    if _ECON.search(l): return "econ"
+    return "other"
+
 def load_modals(window=True, six=True) -> pd.DataFrame:
     df = pd.read_csv(TAB / "modal_tokens.csv", low_memory=False)
+    df["subj_type"] = [refine_subj_type(a, b) for a, b in zip(df["subj_lemma"], df["subj_text"])]
     if window:
         df = df[(df["date"] >= START) & (df["date"] <= END)]
     if six:
         df = df[df["modal"].isin(SIX)]
+    df = df[~df["doc_id"].isin(EXCLUDE_DOCS)]
     df = df.assign(year=df["date"].str[:4].astype(int))
     return df
 
@@ -60,6 +90,7 @@ def load_docs(window=True) -> pd.DataFrame:
     d = pd.read_csv(TAB / "corpus_docs.csv")
     if window:
         d = d[(d["date"] >= START) & (d["date"] <= END)]
+    d = d[~d["doc_id"].isin(EXCLUDE_DOCS)]
     return d.assign(year=d["date"].str[:4].astype(int))
 
 # Verb semantic classes (Biber et al. 1999, ch. 5.2; extended with a policy-action class)

@@ -118,6 +118,52 @@ def main():
                        mean_duration=round(coh.duration.mean(), 2), max_duration=int(coh.duration.max()), share_one_off=round((coh.duration == 1).mean(), 3)))
     kmdf = pd.DataFrame(kmrows); kmdf.to_csv(TAB / "C4_km_survival_by_modal.csv", index=False)
 
+    # ---- 3b. retention-based half-life: of the constructions present at meeting t, what fraction is still
+    #          present at t+k (averaged over t)? Half-life = smallest k with retention <= 0.5 (linear interp).
+    pres_by_m = {i: set() for i in range(len(docs))}
+    for (m, v), ms in present.items():
+        for i in ms: pres_by_m[i].add((m, v))
+    sent_by_m = {i: set() for i in range(len(docs))}
+    for d, sub in sent.groupby("doc_id"):
+        sent_by_m[order[d]] = set(sub["canon"])
+    def retention(sets, maxk=24):
+        rows = []
+        for k in range(1, maxk + 1):
+            vals = []
+            for t in range(len(docs) - k):
+                base = sets[t]
+                if not base: continue
+                vals.append(len(base & sets[t + k]) / len(base))
+            rows.append((k, np.mean(vals) if vals else np.nan, len(vals)))
+        return pd.DataFrame(rows, columns=["k", "retention", "n_pairs"])
+    def half_life(ret):
+        r = ret.dropna()
+        below = r[r.retention <= 0.5]
+        if len(below) == 0: return np.inf
+        k1 = below["k"].iloc[0]; r1 = below["retention"].iloc[0]
+        if k1 == 1: return 1.0 * (0.5 / max(r1, 1e-9)) if r1 < 0.5 else 1.0
+        k0 = k1 - 1; r0 = r[r.k == k0]["retention"].iloc[0]
+        return k0 + (r0 - 0.5) / max(r0 - r1, 1e-9)
+    ret_rows = []
+    ret_all = retention(pres_by_m); ret_all["unit"] = "construction"; ret_all["modal"] = "ALL"; ret_rows.append(ret_all)
+    for m in SIX:
+        sets_m = {i: {c for c in cs if c[0] == m} for i, cs in pres_by_m.items()}
+        r = retention(sets_m); r["unit"] = "construction"; r["modal"] = m; ret_rows.append(r)
+    ret_sent = retention(sent_by_m); ret_sent["unit"] = "modal_sentence"; ret_sent["modal"] = "ALL"; ret_rows.append(ret_sent)
+    retdf = pd.concat(ret_rows); retdf.to_csv(TAB / "C4b_retention_curves.csv", index=False)
+    hl_rows = [dict(unit=u, modal=m, half_life_meetings=round(half_life(g), 2), retention_k1=round(g.retention.iloc[0], 3),
+                    retention_k8=round(g[g.k == 8].retention.iloc[0], 3)) for (u, m), g in retdf.groupby(["unit", "modal"])]
+    hl = pd.DataFrame(hl_rows); hl.to_csv(TAB / "C4c_retention_half_life.csv", index=False)
+    fig, ax = plt.subplots(figsize=(8, 5))
+    for (u, m), g in retdf.groupby(["unit", "modal"]):
+        if u == "modal_sentence": ax.plot(g.k, g.retention, color="black", lw=2.5, label=f"modal-bearing sentences (HL={half_life(g):.1f})")
+        elif m == "ALL": ax.plot(g.k, g.retention, color="grey", lw=2, ls="--", label=f"all modal+verb constructions (HL={half_life(g):.1f})")
+        else: ax.plot(g.k, g.retention, lw=1.2, label=f"{m} (HL={half_life(g):.1f})")
+    ax.axhline(0.5, color="grey", ls=":"); ax.set_xlabel("meetings ahead (k)"); ax.set_ylabel("mean retention")
+    ax.set_title("Retention of modal constructions / sentences across later FOMC statements (2014–2026)"); ax.legend(fontsize=8); ax.grid(alpha=.3)
+    fig.tight_layout(); fig.savefig(FIG / "C_fig1b_retention.png", dpi=160); plt.close(fig)
+    print("\nRetention half-lives:"); print(hl.to_string(index=False))
+
     # ---- 4. formulaic share by year and modal
     mods = mods.merge(sent[["doc_id", "sent_id", "formulaic"]], on=["doc_id", "sent_id"])
     fs = mods.groupby(["year", "modal"]).agg(n=("modal", "size"), formulaic=("formulaic", "sum")).reset_index()
