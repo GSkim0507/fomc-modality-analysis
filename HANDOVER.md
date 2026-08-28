@@ -37,6 +37,7 @@
 |---|---|---|---|
 | 2026-08-28 | 0 | 코퍼스·기존 분석·보고서·참고문헌 파악, venv 구축, 문서 골격 작성, GitHub 레포 생성 | 843537b |
 | 2026-08-28 | 1–3 | 기존 보고서 분석(docs/01), 세미나 초점·예비 검증·원인 진단(docs/02), 선행연구 분석·차별점(docs/03). 핵심 발견: Statement 조동사 추이는 정형 문장 편집 이벤트(should: 재투자 문장 2014-10~2017-05; would/could: 'would be prepared…could impede' 2020-09~전량)로 설명됨. Phase 5 OA 문헌 수집 에이전트 백그라운드 실행 중 | docs/01–03 커밋 |
+| 2026-08-28 | 6–7 | 문장 코퍼스 재구축(ftfy 인코딩 보정), 의존구문 기반 조동사 추출(32,584 토큰), 실험 A(후행 동사·collostruction), B(MK 추세·PELT 변화점·AR(1) 반감기·준양태), C(정형 문장·편집 이벤트·KM 생존·보유율 반감기), D(맥락·장르 χ²·의미 유형·의장·국면). 비회의 성명서 4건 제외. 종합 분석 docs/06 작성 | 62ebf7d, docs/06 |
 
 ## 5. 결정 사항 / 가정
 - D1. 분석 기간 2014-01-01 ~ 2026-04-29(코퍼스 마지막 회의). 2010–2013은 비교·강건성용으로만 사용.
@@ -46,4 +47,14 @@
 - D4. 조동사 판별은 spaCy `tag_ == "MD"` + 축약형(’ll/’d) 복원 + 표면형 정규화(ca n't 등).
 
 ## 6. 미해결 / 사용자 확인 필요
-- (없음 — 진행하면서 추가)
+- 비OA 논문 5편 원문 필요: Leech 2003, Millar 2009, Hyland 1996, Donohue 2006, Nuyts 2001 (docs/05 §2). 브라우저 수동 다운로드 4편: Cannon 2015, Doh et al. 2022, Resche 2004, VerbNet thesis (docs/05 §3).
+- 의미 유형(epistemic/deontic/dynamic) 휴리스틱은 저자 60문장 표본에서 ≈90% 일치. 논문 투고 전 2인 코딩(κ)으로 대체 권장 — `results/tables/D7_validation_sample.csv`(200문장)에 수작업 열 준비됨.
+- `experiments/common.py`의 동사 의미 부류 사전(VERB_CLASS)은 저자 정의. Biber et al.(1999) 원 분류표와 대조 검토 필요.
+
+## 7. 실행 방법(재현)
+```bash
+.venv/bin/python experiments/00_build_corpus.py      # ~4분: results/tables/corpus_{docs,sentences}.csv
+.venv/bin/python experiments/01_extract_modals.py    # ~6분: results/tables/modal_tokens.csv
+cd experiments && for s in 02 03 04 05; do ../.venv/bin/python ${s}_*.py; done   # 각 1분 내
+```
+출력 표 접두어: A(후행 동사) B(시계열) C(정형성·생존) D(맥락·장르). 그림은 results/figures/.
