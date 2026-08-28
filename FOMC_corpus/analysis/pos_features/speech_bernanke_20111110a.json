@@ -1,0 +1,399 @@
+{
+  "doc_id": "speech_bernanke_20111110a",
+  "doc_type": "speech",
+  "date": "2011-11-10",
+  "chair": "Bernanke",
+  "n_tokens": 2336,
+  "n_sents": 95,
+  "pos_counts": {
+    "NNP": 160,
+    "CD": 45,
+    ",": 145,
+    "IN": 309,
+    "DT": 213,
+    "NNPS": 8,
+    "CC": 106,
+    "PRP$": 45,
+    "PRP": 81,
+    "VBZ": 52,
+    "NN": 392,
+    "TO": 52,
+    "VB": 106,
+    "NNS": 194,
+    ".": 94,
+    "WP": 13,
+    "JJ": 187,
+    "VBP": 47,
+    "RB": 92,
+    "VBG": 70,
+    "JJR": 17,
+    ":": 19,
+    "MD": 27,
+    "VBN": 36,
+    "WRB": 5,
+    "VBD": 31,
+    "JJS": 9,
+    "POS": 12,
+    "WDT": 15,
+    "HYPH": 17,
+    "RP": 7,
+    "RBR": 4,
+    "``": 3,
+    "''": 3,
+    "$": 1,
+    "PDT": 3,
+    "LS": 1,
+    "-LRB-": 6,
+    "-RRB-": 6
+  },
+  "modal_count": 27,
+  "modal_lemma_counts": {
+    "could": 2,
+    "should": 2,
+    "may": 6,
+    "would": 3,
+    "will": 7,
+    "can": 6,
+    "must": 1
+  },
+  "modals_per_1000": 11.558,
+  "epistemic_count": 7,
+  "epistemic_lemma_counts": {
+    "expect": 1,
+    "certainly": 2,
+    "possible": 1,
+    "certain": 1,
+    "likely": 2
+  },
+  "epistemics_per_1000": 2.997,
+  "modal_instances": [
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 96,
+      "head_verb_surface": "achieve",
+      "head_verb_lemma": "achieve",
+      "left_3": "well ; servicemembers",
+      "right_3": "not achieve what",
+      "sentence": "I want to thank your family members as well; servicemembers could not achieve what they do without the support and sacrifices of their families."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 122,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "families . You",
+      "right_3": "all be proud",
+      "sentence": "You should all be proud of what you have accomplished and what you stand for."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 139,
+      "head_verb_surface": "wondering",
+      "head_verb_lemma": "wonder",
+      "left_3": ". \r\n \n\n\r\n  You",
+      "right_3": "be wondering why",
+      "sentence": "You may be wondering why the Chairman of the Federal Reserve would travel to Texas to speak at a military base."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 139,
+      "head_verb_surface": "travel",
+      "head_verb_lemma": "travel",
+      "left_3": "the Federal Reserve",
+      "right_3": "travel to Texas",
+      "sentence": "You may be wondering why the Chairman of the Federal Reserve would travel to Texas to speak at a military base."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 232,
+      "head_verb_surface": "struggling",
+      "head_verb_lemma": "struggle",
+      "left_3": ". Your hometowns",
+      "right_3": "be struggling with",
+      "sentence": "Your hometowns may be struggling with foreclosures."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 240,
+      "head_verb_surface": "had",
+      "head_verb_lemma": "have",
+      "left_3": "foreclosures . You",
+      "right_3": "have had difficulty",
+      "sentence": "You may have had difficulty getting a loan to buy a car or a house."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 256,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "house . You",
+      "right_3": "have family members",
+      "sentence": "You may have family members who have had trouble finding employment in a tough job market."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 273,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "market . You",
+      "right_3": "be worried about",
+      "sentence": "You may be worried about your own job prospects when the time comes for you to leave the military."
+    },
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 293,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "I thought I",
+      "right_3": "first say a",
+      "sentence": "So this morning I thought I'd first say a few words about what the Federal Reserve is doing to help strengthen our economy and increase economic opportunity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 403,
+      "head_verb_surface": "share",
+      "head_verb_lemma": "share",
+      "left_3": "practices . I",
+      "right_3": "also share a",
+      "sentence": "I will also share a few thoughts about what each of you can do to give yourself the best shot at a promising financial future."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 403,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "each of you",
+      "right_3": "do to give",
+      "sentence": "I will also share a few thoughts about what each of you can do to give yourself the best shot at a promising financial future."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 467,
+      "head_verb_surface": "resulted",
+      "head_verb_lemma": "result",
+      "left_3": "left unchecked ,",
+      "right_3": "have resulted in",
+      "sentence": "In 2008 and early 2009, the world suffered the worst financial crisis since the Great Depression, a crisis which, had it been left unchecked, would have resulted in a global financial meltdown and an economic collapse."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 723,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "people and businesses",
+      "right_3": "make financial decisions",
+      "sentence": "That rate is low enough that people and businesses can make financial decisions without having to worry too much about rising costs, but high enough to keep the economy away from deflation--falling wages and prices--which is both a cause and a symptom of an extremely weak economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 776,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": ", that it",
+      "right_3": "remain reasonably close",
+      "sentence": "Although spikes in oil and food prices, and other transitory factors, pushed inflation up earlier this year, inflation appears to be moderating, and we expect, based on the best information that we have today, that it will remain reasonably close to our objective of 2 percent or a bit less for the foreseeable future."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 902,
+      "head_verb_surface": "sustain",
+      "head_verb_lemma": "sustain",
+      "left_3": "the U.S. economy",
+      "right_3": "sustain an unemployment",
+      "sentence": "Right now, my colleagues on the Fed's policymaking committee estimate that the U.S. economy could sustain an unemployment rate of somewhere between 5 and 6 percent without generating a buildup of inflation pressures."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1145,
+      "head_verb_surface": "sell",
+      "head_verb_lemma": "sell",
+      "left_3": "spending . We",
+      "right_3": "sell the securities",
+      "sentence": "We will sell the securities back into the market or simply allow them to mature as part of the process of tightening monetary policy when the economy improves."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1216,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the current year",
+      "right_3": "be substantial as",
+      "sentence": "Last year and the year before, we returned a total of $125 billion of those earnings to the U.S. Treasury, and payments to the Treasury in the current year will be substantial as well."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1290,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "largest banks that",
+      "right_3": "put the financial",
+      "sentence": "We're working with the other agencies to significantly increase the financial reserves that banks--especially the largest banks that can put the financial system at risk--must hold against possible losses."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1290,
+      "head_verb_surface": "hold",
+      "head_verb_lemma": "hold",
+      "left_3": "at risk --",
+      "right_3": "hold against possible",
+      "sentence": "We're working with the other agencies to significantly increase the financial reserves that banks--especially the largest banks that can put the financial system at risk--must hold against possible losses."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1325,
+      "head_verb_surface": "undertake",
+      "head_verb_lemma": "undertake",
+      "left_3": "transactions that banks",
+      "right_3": "undertake and working",
+      "sentence": "The Fed and the other agencies also are toughening the restrictions on the kinds of financial transactions that banks can undertake and working to ensure that bankers' compensation packages do not give them incentives to take excessive risks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1382,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "economic shocks that",
+      "right_3": "occur in the",
+      "sentence": "And, importantly, we are working to increase the resilience of the financial system as a whole against financial and economic shocks that may occur in the future."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1412,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "new rules that",
+      "right_3": "make it easier",
+      "sentence": "We are also collaborating with the Federal Deposit Insurance Corporation to implement new rules that will make it easier for the government to unwind big financial firms if they get into trouble, rather than being faced with the terrible choice of either bailing them out or risking the collapse of the financial system if they fail."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1596,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "in this room",
+      "right_3": "be aware ,",
+      "sentence": "The people in this room should be aware, in particular, of the special rights and protections provided to military personnel by the Servicemembers Civil Relief Act."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2075,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": "that financial education",
+      "right_3": "pay off .",
+      "sentence": "Research by the Federal Reserve right here at Fort Bliss shows that financial education can pay off."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2257,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "out financial decisions",
+      "right_3": "make all the",
+      "sentence": "Making good, well-thought-out financial decisions can make all the difference to your financial future."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2403,
+      "head_verb_surface": "reassert",
+      "head_verb_lemma": "reassert",
+      "left_3": ", these strengths",
+      "right_3": "reassert themselves if",
+      "sentence": "Ultimately, these strengths will reassert themselves if our country takes the steps that are necessary to prepare for the future--for example, by putting the federal budget on a sustainable path and improving our primary and secondary education system."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2446,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "The Federal Reserve",
+      "right_3": "certainly do its",
+      "sentence": "The Federal Reserve will certainly do its part to help restore high rates of growth and employment in a context of price stability."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Although spikes in oil and food prices, and other transitory factors, pushed inflation up earlier this year, inflation appears to be moderating, and we expect, based on the best information that we have today, that it will remain reasonably close to our objective of 2 percent or a bit less for the foreseeable future."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But, regardless of whether the sustainable rate is 5 or 6 percent, with unemployment currently at 9 percent, our economy is certainly falling far short of maximum employment."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We're working with the other agencies to significantly increase the financial reserves that banks--especially the largest banks that can put the financial system at risk--must hold against possible losses."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Additionally, Department of Defense rules regulate the terms of certain kinds of high-cost loans to servicemembers and their families, such as payday loans, tax refund anticipation loans, and motor vehicle title loans."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "We found that soldiers who had taken the course were more likely to make smart financial choices, such as comparison shopping for major purchases, saving for retirement, and educating themselves about money management."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "They were less likely to make questionable financial decisions, like paying overdraft fees, taking out car title loans, and continually running credit card balances."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "The Federal Reserve will certainly do its part to help restore high rates of growth and employment in a context of price stability."
+    }
+  ]
+}

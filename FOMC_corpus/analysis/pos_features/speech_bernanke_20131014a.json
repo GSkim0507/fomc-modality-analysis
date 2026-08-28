@@ -1,0 +1,129 @@
+{
+  "doc_id": "speech_bernanke_20131014a",
+  "doc_type": "speech",
+  "date": "2013-10-14",
+  "chair": "Bernanke",
+  "n_tokens": 1411,
+  "n_sents": 49,
+  "pos_counts": {
+    "NNP": 153,
+    "CD": 24,
+    ",": 94,
+    "VBG": 31,
+    "NNS": 94,
+    "IN": 215,
+    "DT": 165,
+    "POS": 16,
+    "``": 1,
+    ":": 11,
+    "CC": 47,
+    "''": 1,
+    "-LRB-": 3,
+    "JJ": 144,
+    "NN": 220,
+    "-RRB-": 3,
+    "PRP": 20,
+    "VBZ": 25,
+    "TO": 22,
+    "VB": 34,
+    ".": 48,
+    "VBD": 37,
+    "WDT": 9,
+    "PRP$": 18,
+    "VBN": 39,
+    "VBP": 18,
+    "HYPH": 12,
+    "RB": 53,
+    "JJR": 5,
+    "RBR": 4,
+    "WRB": 5,
+    "RP": 2,
+    "MD": 5,
+    "WP": 1,
+    "JJS": 3,
+    "NNPS": 3
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "should": 2,
+    "must": 1,
+    "would": 2
+  },
+  "modals_per_1000": 3.544,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "unlikely": 1,
+    "probably": 1
+  },
+  "epistemics_per_1000": 1.417,
+  "modal_instances": [
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 489,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "course , we",
+      "right_3": "not be surprised",
+      "sentence": "Of course, we should not be surprised that central bank independence has contributed to Mexico's improved macroeconomic stability over the past two decades."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 917,
+      "head_verb_surface": "recognize",
+      "head_verb_lemma": "recognize",
+      "left_3": ". \r\n \n\n\r\n  We",
+      "right_3": "recognize , though",
+      "sentence": "We should recognize, though, that in democratic societies, central bank independence must be accompanied by accountability to the public and its representatives."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 917,
+      "head_verb_surface": "accompanied",
+      "head_verb_lemma": "accompany",
+      "left_3": "central bank independence",
+      "right_3": "be accompanied by",
+      "sentence": "We should recognize, though, that in democratic societies, central bank independence must be accompanied by accountability to the public and its representatives."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1428,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". \r\n \n\n\r\n  I",
+      "right_3": "be remiss if",
+      "sentence": "I would be remiss if, before ending, I did not note the strong leadership that Governor Agustín Carstens continues to provide at the Bank of Mexico."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1548,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "conclude , I",
+      "right_3": "like to congratulate",
+      "sentence": "To conclude, I would like to congratulate the Bank of Mexico on the 20th anniversary of its independence."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "Strong countercyclical policy actions of this type were unlikely to have been feasible in Mexico a few decades ago; with little in the way of inflation-fighting credibility and an immature financial sector, the monetary authority in earlier years was often forced to respond to a crisis by tightening monetary conditions, rather than loosening them, in an effort to limit capital flight, exchange rat"
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "As you probably know, the Federal Reserve is also celebrating an anniversary this year--the centennial of its founding."
+    }
+  ]
+}

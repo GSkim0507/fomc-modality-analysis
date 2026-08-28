@@ -1,0 +1,161 @@
+{
+  "doc_id": "speech_powell_20200619a",
+  "doc_type": "speech",
+  "date": "2020-06-19",
+  "chair": "Powell",
+  "n_tokens": 562,
+  "n_sents": 31,
+  "pos_counts": {
+    "NNP": 39,
+    "CD": 2,
+    ",": 29,
+    "NNPS": 1,
+    "IN": 77,
+    "``": 2,
+    "VBG": 17,
+    "DT": 50,
+    "''": 2,
+    "NN": 85,
+    "VBN": 17,
+    "-LRB-": 1,
+    "JJ": 48,
+    "-RRB-": 1,
+    "VBP": 21,
+    "PRP": 31,
+    "CC": 24,
+    "NNS": 36,
+    ".": 30,
+    "PRP$": 14,
+    "VBZ": 14,
+    "TO": 8,
+    "VB": 20,
+    "MD": 9,
+    "RB": 18,
+    "POS": 4,
+    "VBD": 11,
+    "RBR": 2,
+    "WRB": 4,
+    "JJR": 2,
+    "HYPH": 2,
+    ":": 1,
+    "JJS": 3,
+    "WP$": 1,
+    "WP": 1,
+    "WDT": 2,
+    "RP": 1,
+    "RBS": 1
+  },
+  "modal_count": 9,
+  "modal_lemma_counts": {
+    "will": 4,
+    "can": 5
+  },
+  "modals_per_1000": 16.014,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "likely": 1
+  },
+  "epistemics_per_1000": 1.779,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 63,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": ", so I",
+      "right_3": "keep my remarks",
+      "sentence": "My job today is to listen, so I will keep my remarks short."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 145,
+      "head_verb_surface": "transfer",
+      "head_verb_lemma": "transfer",
+      "left_3": "the pay scale",
+      "right_3": "transfer to higher",
+      "sentence": "And employers' input has influenced work across the Fed System, including the Cleveland Fed, as they look at how skills on the lower end of the pay scale can transfer to higher-earning jobs."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 423,
+      "head_verb_surface": "gloss",
+      "head_verb_lemma": "gloss",
+      "left_3": "national average that",
+      "right_3": "gloss over stark",
+      "sentence": "However, that is a national average that can gloss over stark realities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 471,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": ". \n\n We",
+      "right_3": "make our way",
+      "sentence": "We will make our way back from this, but it will take time and work."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 471,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ", but it",
+      "right_3": "take time and",
+      "sentence": "We will make our way back from this, but it will take time and work."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 508,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". Your feedback",
+      "right_3": "be an invaluable",
+      "sentence": "Your feedback can be an invaluable example for other communities with similar challenges."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 522,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "interconnected local economies",
+      "right_3": "be , and",
+      "sentence": "The Lordstown closure served as a reminder of how interconnected local economies can be, and other areas have experienced similar losses."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 545,
+      "head_verb_surface": "serve",
+      "head_verb_lemma": "serve",
+      "left_3": "many other areas",
+      "right_3": "all serve as",
+      "sentence": "Your work on diversifying the economy, on skills development, on small business support programs, and in so many other areas can all serve as models for others to replicate."
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 588,
+      "head_verb_surface": "bet",
+      "head_verb_lemma": "bet",
+      "left_3": "opportunity , I",
+      "right_3": "always bet on",
+      "sentence": "But given the opportunity, I'll always bet on the American people and on the kind of community resolve and dedication we're hearing about today."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The path ahead is likely to be challenging."
+    }
+  ]
+}

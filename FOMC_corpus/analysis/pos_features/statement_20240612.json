@@ -1,0 +1,169 @@
+{
+  "doc_id": "statement_20240612",
+  "doc_type": "statement",
+  "date": "2024-06-12",
+  "chair": "Powell",
+  "n_tokens": 380,
+  "n_sents": 19,
+  "pos_counts": {
+    "NNP": 61,
+    "CD": 16,
+    ",": 17,
+    "VBZ": 14,
+    "JJ": 31,
+    "NN": 64,
+    "IN": 42,
+    "NNS": 26,
+    "VBP": 4,
+    "VBN": 11,
+    "TO": 7,
+    "VB": 16,
+    "DT": 36,
+    ".": 17,
+    "CC": 13,
+    "EX": 1,
+    "POS": 3,
+    "JJR": 3,
+    "VBG": 9,
+    "PRP$": 4,
+    "RB": 6,
+    "VBD": 2,
+    "SYM": 4,
+    "MD": 7,
+    "PRP": 2,
+    "WDT": 1,
+    ":": 11,
+    "UH": 1,
+    "XX": 1,
+    "-RRB-": 1
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "will": 5,
+    "would": 1,
+    "could": 1
+  },
+  "modals_per_1000": 18.421,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "uncertain": 1,
+    "assess": 2,
+    "expect": 1
+  },
+  "epistemics_per_1000": 13.158,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 169,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "carefully assess incoming",
+      "sentence": "In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 201,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "not expect it",
+      "right_3": "be appropriate to",
+      "sentence": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue reducing its",
+      "sentence": "In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgageâbacked securities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 266,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 291,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 291,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 319,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee judges that the risks to achieving its employment and inflation goals have moved toward better balance over the past year."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

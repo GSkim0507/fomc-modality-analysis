@@ -1,0 +1,112 @@
+{
+  "doc_id": "speech_powell_20180927a",
+  "doc_type": "speech",
+  "date": "2018-09-27",
+  "chair": "Powell",
+  "n_tokens": 526,
+  "n_sents": 30,
+  "pos_counts": {
+    "NNP": 28,
+    "CD": 4,
+    ",": 31,
+    "NNPS": 6,
+    "IN": 58,
+    "DT": 63,
+    "NN": 72,
+    "JJ": 48,
+    ".": 29,
+    "VBP": 29,
+    "PRP": 28,
+    "NNS": 38,
+    "CC": 22,
+    "TO": 15,
+    "VB": 18,
+    "VBG": 13,
+    "WDT": 6,
+    "VBZ": 15,
+    "RB": 20,
+    "VBD": 7,
+    "WRB": 3,
+    "PRP$": 11,
+    "MD": 4,
+    "VBN": 8,
+    "POS": 1,
+    "JJS": 3,
+    ":": 1,
+    "RBR": 2,
+    "HYPH": 3,
+    "JJR": 4
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "will": 1,
+    "can": 3
+  },
+  "modals_per_1000": 7.605,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "believe": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 3.802,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 153,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "course , I",
+      "right_3": "be happy to",
+      "sentence": "And, of course, I will be happy to respond to questions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 239,
+      "head_verb_surface": "all",
+      "head_verb_lemma": "all",
+      "left_3": "doing all we",
+      "right_3": "to keep the",
+      "sentence": "Many of our country's economic challenges are beyond the scope of the Fed, but we are doing all we can to keep the economy strong and moving forward."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 270,
+      "head_verb_surface": "promote",
+      "head_verb_lemma": "promote",
+      "left_3": "best way we",
+      "right_3": "promote an environment",
+      "sentence": "That is the best way we can promote an environment in which every American has the opportunity to succeed."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 291,
+      "head_verb_surface": "set",
+      "head_verb_lemma": "set",
+      "left_3": "question : How",
+      "right_3": "we set monetary",
+      "sentence": "Each time we meet, we face the same question: How can we set monetary policy to best support job growth and low, steady inflation?"
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "These rates remain low, and my colleagues and I believe that this gradual return to normal is helping to sustain this strong economy for the longer-run benefit of all Americans."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In particular, we are holding the largest banks to much higher standards in the amount of capital and liquidity they hold and in the ways they assess and manage the risks they take."
+    }
+  ]
+}

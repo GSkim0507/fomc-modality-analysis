@@ -1,0 +1,990 @@
+{
+  "doc_id": "speech_yellen_20161014a",
+  "doc_type": "speech",
+  "date": "2016-10-14",
+  "chair": "Yellen",
+  "n_tokens": 6540,
+  "n_sents": 368,
+  "pos_counts": {
+    "NNP": 1295,
+    "CD": 334,
+    ",": 580,
+    "IN": 884,
+    "DT": 519,
+    "``": 75,
+    "JJ": 549,
+    "''": 68,
+    ":": 102,
+    "NNS": 418,
+    "CC": 305,
+    "NNPS": 75,
+    "NN": 946,
+    "VBN": 122,
+    "RB": 223,
+    "VBP": 100,
+    "VBG": 67,
+    "WRB": 17,
+    "VBZ": 107,
+    "VBD": 36,
+    ".": 381,
+    "TO": 68,
+    "VB": 218,
+    "HYPH": 62,
+    "RBR": 31,
+    "PRP$": 38,
+    "MD": 68,
+    "PRP": 47,
+    "WDT": 38,
+    "POS": 17,
+    "EX": 4,
+    "JJS": 4,
+    "UH": 1,
+    "JJR": 25,
+    "RBS": 7,
+    "WP": 11,
+    "PDT": 4,
+    "WP$": 3,
+    "RP": 9,
+    "-LRB-": 175,
+    "-RRB-": 175,
+    "SYM": 42,
+    "LS": 4,
+    "NFP": 1,
+    "XX": 1
+  },
+  "modal_count": 68,
+  "modal_lemma_counts": {
+    "might": 13,
+    "would": 17,
+    "will": 7,
+    "can": 12,
+    "may": 8,
+    "could": 9,
+    "should": 2
+  },
+  "modals_per_1000": 10.398,
+  "epistemic_count": 28,
+  "epistemic_lemma_counts": {
+    "probably": 1,
+    "potential": 6,
+    "expect": 3,
+    "likely": 5,
+    "possible": 3,
+    "certainly": 2,
+    "potentially": 1,
+    "clearly": 1,
+    "believe": 2,
+    "presumably": 1,
+    "perhaps": 2,
+    "unlikely": 1
+  },
+  "epistemics_per_1000": 4.281,
+  "modal_instances": [
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 110,
+      "head_verb_surface": "prove",
+      "head_verb_lemma": "prove",
+      "left_3": "and its aftermath",
+      "right_3": "well prove to",
+      "sentence": "More recently, the financial crisis and its aftermath might well prove to be a similar sort of turning point."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 131,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": ". Today I",
+      "right_3": "like to reflect",
+      "sentence": "Today I would like to reflect on some ways in which the events of the past few years have revealed limits in economists' understanding of the economy and suggest several important questions I hope the profession will try to answer."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 131,
+      "head_verb_surface": "try",
+      "head_verb_lemma": "try",
+      "left_3": "hope the profession",
+      "right_3": "try to answer",
+      "sentence": "Today I would like to reflect on some ways in which the events of the past few years have revealed limits in economists' understanding of the economy and suggest several important questions I hope the profession will try to answer."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 235,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "first question I",
+      "right_3": "like to pose",
+      "sentence": "The Influence of Demand on Aggregate Supply \r The first question I would like to pose concerns the distinction between aggregate supply and aggregate demand:  Are there circumstances in which changes in aggregate demand can have an appreciable, persistent effect on aggregate supply?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 235,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "in aggregate demand",
+      "right_3": "have an appreciable",
+      "sentence": "The Influence of Demand on Aggregate Supply \r The first question I would like to pose concerns the distinction between aggregate supply and aggregate demand:  Are there circumstances in which changes in aggregate demand can have an appreciable, persistent effect on aggregate supply?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 283,
+      "head_verb_surface": "answered",
+      "head_verb_lemma": "answer",
+      "left_3": ", most economists",
+      "right_3": "probably have answered",
+      "sentence": "Prior to the Great Recession, most economists would probably have answered this question with a qualified \"no.\""
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 304,
+      "head_verb_surface": "agreed",
+      "head_verb_lemma": "agree",
+      "left_3": ". \" They",
+      "right_3": "have broadly agreed",
+      "sentence": "They would have broadly agreed with Robert Solow that economic output over the longer term is primarily driven by supply--the amount of output of goods and services the economy is capable of producing, given its labor and capital resources and existing technologies."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 409,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "in aggregate demand",
+      "right_3": "have an appreciable",
+      "sentence": "This post-crisis experience suggests that changes in aggregate demand may have an appreciable, persistent effect on aggregate supply--that is, on potential output."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 439,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "in aggregate demand",
+      "right_3": "adversely affect the",
+      "sentence": "2    The idea that persistent shortfalls in aggregate demand could adversely affect the supply side of the economy--an effect commonly referred to as hysteresis--is not new; for example, the possibility was discussed back in the mid-1980s with regard to the performance of European labor markets."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 564,
+      "head_verb_surface": "expected",
+      "head_verb_lemma": "expect",
+      "left_3": "percent below what",
+      "right_3": "have been expected",
+      "sentence": "4   With regard to the U.S. experience, one study estimates that the level of potential output is now 7 percent below what would have been expected based on its pre-crisis trajectory, and it argues that much of this supply-side damage is attributable to several developments that likely occurred as a result of the deep recession and slow recovery."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 631,
+      "head_verb_surface": "explained",
+      "head_verb_lemma": "explain",
+      "left_3": "participation beyond what",
+      "right_3": "be explained by",
+      "sentence": "5   In particular, the study finds that in the wake of the crisis, the United States experienced a modest reduction in labor supply as a result of reduced immigration and a fall in labor force participation beyond what can be explained by cyclical conditions and demographic factors, as well as a marked slowdown in the estimated trend growth rate of labor productivity."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 741,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "ask whether it",
+      "right_3": "be possible to",
+      "sentence": "6    If we assume that hysteresis is in fact present to some degree after deep recessions, the natural next question is to ask whether it might be possible to reverse these adverse supply-side effects by temporarily running a \"high-pressure economy,\" with robust aggregate demand and a tight labor market."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 800,
+      "head_verb_surface": "identify",
+      "head_verb_lemma": "identify",
+      "left_3": "market . One",
+      "right_3": "certainly identify plausible",
+      "sentence": "One can certainly identify plausible ways in which this might occur."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 800,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "in which this",
+      "right_3": "occur . Increased",
+      "sentence": "One can certainly identify plausible ways in which this might occur."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 812,
+      "head_verb_surface": "raise",
+      "head_verb_lemma": "raise",
+      "left_3": "Increased business sales",
+      "right_3": "almost certainly raise",
+      "sentence": "Increased business sales would almost certainly raise the productive capacity of the economy by encouraging additional capital spending, especially if accompanied by reduced uncertainty about future prospects."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 841,
+      "head_verb_surface": "draw",
+      "head_verb_lemma": "draw",
+      "left_3": "tight labor market",
+      "right_3": "draw in potential",
+      "sentence": "In addition, a tight labor market might draw in potential workers who would otherwise sit on the sidelines and encourage job-to-job transitions that could also lead to more-efficient--and, hence, more-productive--job matches."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 841,
+      "head_verb_surface": "sit",
+      "head_verb_lemma": "sit",
+      "left_3": "potential workers who",
+      "right_3": "otherwise sit on",
+      "sentence": "In addition, a tight labor market might draw in potential workers who would otherwise sit on the sidelines and encourage job-to-job transitions that could also lead to more-efficient--and, hence, more-productive--job matches."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 841,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "job transitions that",
+      "right_3": "also lead to",
+      "sentence": "In addition, a tight labor market might draw in potential workers who would otherwise sit on the sidelines and encourage job-to-job transitions that could also lead to more-efficient--and, hence, more-productive--job matches."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 889,
+      "head_verb_surface": "yield",
+      "head_verb_lemma": "yield",
+      "left_3": ", strong demand",
+      "right_3": "potentially yield significant",
+      "sentence": "7   Finally, albeit more speculatively, strong demand could potentially yield significant productivity gains by, among other things, prompting higher levels of research and development spending and increasing the incentives to start new, innovative businesses."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 931,
+      "head_verb_surface": "reversed",
+      "head_verb_lemma": "reverse",
+      "left_3": "the possibility they",
+      "right_3": "be reversed --",
+      "sentence": "Hysteresis effects--and the possibility they might be reversed--could have important implications for the conduct of monetary and fiscal policy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 931,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "be reversed --",
+      "right_3": "have important implications",
+      "sentence": "Hysteresis effects--and the possibility they might be reversed--could have important implications for the conduct of monetary and fiscal policy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 955,
+      "head_verb_surface": "seem",
+      "head_verb_lemma": "seem",
+      "left_3": "example , hysteresis",
+      "right_3": "seem to make",
+      "sentence": "For example, hysteresis would seem to make it even more important for policymakers to act quickly and aggressively in response to a recession, because doing so would help to reduce the depth and persistence of the downturn, thereby limiting the supply-side damage that might otherwise ensue."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 955,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "because doing so",
+      "right_3": "help to reduce",
+      "sentence": "For example, hysteresis would seem to make it even more important for policymakers to act quickly and aggressively in response to a recession, because doing so would help to reduce the depth and persistence of the downturn, thereby limiting the supply-side damage that might otherwise ensue."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 955,
+      "head_verb_surface": "ensue",
+      "head_verb_lemma": "ensue",
+      "left_3": "side damage that",
+      "right_3": "otherwise ensue .",
+      "sentence": "For example, hysteresis would seem to make it even more important for policymakers to act quickly and aggressively in response to a recession, because doing so would help to reduce the depth and persistence of the downturn, thereby limiting the supply-side damage that might otherwise ensue."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1007,
+      "head_verb_surface": "reverse",
+      "head_verb_lemma": "reverse",
+      "left_3": "strong economic conditions",
+      "right_3": "partially reverse supply",
+      "sentence": "In addition, if strong economic conditions can partially reverse supply-side damage after it has occurred, then policymakers may want to aim at being more accommodative during recoveries than would be called for under the traditional view that supply is largely independent of demand."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1007,
+      "head_verb_surface": "want",
+      "head_verb_lemma": "want",
+      "left_3": ", then policymakers",
+      "right_3": "want to aim",
+      "sentence": "In addition, if strong economic conditions can partially reverse supply-side damage after it has occurred, then policymakers may want to aim at being more accommodative during recoveries than would be called for under the traditional view that supply is largely independent of demand."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1007,
+      "head_verb_surface": "called",
+      "head_verb_lemma": "call",
+      "left_3": "during recoveries than",
+      "right_3": "be called for",
+      "sentence": "In addition, if strong economic conditions can partially reverse supply-side damage after it has occurred, then policymakers may want to aim at being more accommodative during recoveries than would be called for under the traditional view that supply is largely independent of demand."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1078,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "too long ,",
+      "right_3": "have costs that",
+      "sentence": "8   From a policy perspective, we of course need to bear in mind that an accommodative monetary stance, if maintained too long, could have costs that exceed the benefits by increasing the risk of financial instability or undermining price stability."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1123,
+      "head_verb_surface": "suited",
+      "head_verb_lemma": "suit",
+      "left_3": "and other policies",
+      "right_3": "be better suited",
+      "sentence": "More generally, the benefits and potential costs of pursuing such a strategy remain hard to quantify, and other policies might be better suited to address damage to the supply side of the economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1160,
+      "head_verb_surface": "influence",
+      "head_verb_lemma": "influence",
+      "left_3": "in the economy",
+      "right_3": "influence aggregate economic",
+      "sentence": "Heterogeneity \r My second question asks whether individual differences within broad groups of actors in the economy can influence aggregate economic outcomes--in particular,  what effect does such heterogeneity have on aggregate demand?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1237,
+      "head_verb_surface": "assume",
+      "head_verb_lemma": "assume",
+      "left_3": "a macro model",
+      "right_3": "instead assume that",
+      "sentence": "For example, rather than explicitly modeling and then adding up the separate actions of a large number of different households, a macro model might instead assume that the behavior of a single \"average\" household can describe the aggregate behavior of all households."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1237,
+      "head_verb_surface": "describe",
+      "head_verb_lemma": "describe",
+      "left_3": "average \" household",
+      "right_3": "describe the aggregate",
+      "sentence": "For example, rather than explicitly modeling and then adding up the separate actions of a large number of different households, a macro model might instead assume that the behavior of a single \"average\" household can describe the aggregate behavior of all households."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1341,
+      "head_verb_surface": "curtailed",
+      "head_verb_lemma": "curtail",
+      "left_3": "in house prices",
+      "right_3": "have curtailed their",
+      "sentence": "Although households typically reduce their spending in response to wealth declines, the many households whose equity positions in their homes were actually driven  negative  by the reduction in house prices may have curtailed their spending even more sharply because of a markedly reduced ability to borrow."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1391,
+      "head_verb_surface": "shift",
+      "head_verb_lemma": "shift",
+      "left_3": "in turn ,",
+      "right_3": "shift the relationship",
+      "sentence": "Such a development, in turn, would shift the relationship between housing equity (which remained solidly positive in the aggregate) and consumer spending for the economy as a whole."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1424,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "an aggregate relationship",
+      "right_3": "be difficult to",
+      "sentence": "Such a shift in an aggregate relationship would be difficult to understand or predict without using disaggregated data and models."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1446,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "and firm heterogeneity",
+      "right_3": "help us better",
+      "sentence": "More generally, studying the effects of household and firm heterogeneity might help us better account for the severity of the recession and the slow recovery."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1473,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "finds that heterogeneity",
+      "right_3": "amplify the effects",
+      "sentence": "At the household level, recent research finds that heterogeneity can amplify the effects of adverse shocks, a result that is largely driven by households with very little net worth that sharply increase their savings in a recession."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1514,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", factors that",
+      "right_3": "be part of",
+      "sentence": "9   At the firm level, there is evidence that financial constraints had a particularly large adverse effect on employment at small firms and the start-up of new firms, factors that may be part of the explanation for the Great Recession's long duration and the subsequent slow recovery."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1569,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "investment and employment",
+      "right_3": "depend in part",
+      "sentence": "10   More generally, if larger firms seeking to expand have better access to credit than smaller ones, overall growth in investment and employment could depend in part on the distribution of sales across different types of businesses."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1610,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "these issues quantitatively",
+      "right_3": "likely require the",
+      "sentence": "Modeling any of these issues quantitatively will likely require the use of a heterogeneous-agent framework."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1629,
+      "head_verb_surface": "benefit",
+      "head_verb_lemma": "benefit",
+      "left_3": "affect the economy",
+      "right_3": "also benefit from",
+      "sentence": "Economists' understanding of how changes in fiscal and monetary policy affect the economy might also benefit from the recognition that households and firms are heterogeneous."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1742,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "agents more closely",
+      "right_3": "help us shed",
+      "sentence": "Studying monetary models with heterogeneous agents more closely could help us shed new light on these aspects of the monetary transmission mechanism."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2049,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "importantly -- what",
+      "right_3": "monetary policy and",
+      "sentence": "Finally--and most importantly--what can monetary policy and financial oversight do to reduce the frequency and severity of future crises?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2267,
+      "head_verb_surface": "prove",
+      "head_verb_lemma": "prove",
+      "left_3": "it something that",
+      "right_3": "ultimately prove transitory",
+      "sentence": "Is it something that will ultimately prove transitory once householdsfinish repairing their balance sheets or become more confident about their future prospects for employment and income?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2295,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "to thislatter question",
+      "right_3": "have significant implications",
+      "sentence": "15   The answer to thislatter question could have significant implications for the longer-run normal, or neutral, level of interest rates and thus for the conduct of monetary policy."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2379,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "of this framework",
+      "right_3": "go something like",
+      "sentence": "A simple description of this framework might go something like this: 16   Inflation is characterized by an underlying trend that has been essentially constant since the mid-1990s; previously, this trend seemed to drift over time, influenced by actual past inflation or other economic conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2535,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "addition , inflation",
+      "right_3": "tend to run",
+      "sentence": "In addition, inflation will tend to run above or below its underlying trend to the extent that resource utilization--which may serve as an indicator of firms' marginal costs--is persistently high or low."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2535,
+      "head_verb_surface": "serve",
+      "head_verb_lemma": "serve",
+      "left_3": "utilization -- which",
+      "right_3": "serve as an",
+      "sentence": "In addition, inflation will tend to run above or below its underlying trend to the extent that resource utilization--which may serve as an indicator of firms' marginal costs--is persistently high or low."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2753,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "employees , which",
+      "right_3": "help to explain",
+      "sentence": "Or does it perhaps reflect the well-documented reluctance--or, alternatively, limited ability--of firms to cut the nominal wages of their employees, which could help to explain the relatively moderate movements in inflation we saw during and after the recession? 19    Another gap in our knowledge about the nature of the inflation process concerns expectations."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2819,
+      "head_verb_surface": "related",
+      "head_verb_lemma": "related",
+      "left_3": "that actual inflation",
+      "right_3": "be most closely",
+      "sentence": "Although many theoretical models suggest that actual inflation should be most closely related to  short-run  inflation expectations, as an empirical matter, measures of  long-run  expectations appear to explain the data better."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3005,
+      "head_verb_surface": "influence",
+      "head_verb_lemma": "influence",
+      "left_3": "completely conform ?",
+      "right_3": "policymakers instead materially",
+      "sentence": "Can policymakers instead materially influence inflation expectations directly and quickly by simply announcing their intention to pursue a particular inflation goal in the future?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3090,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "'s inflation expectations",
+      "right_3": "be neither quick",
+      "sentence": "Although historical experience suggests that changing the public's inflation expectations would be neither quick nor easy, it is not clear which of these possibilities is correct."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3239,
+      "head_verb_surface": "needed",
+      "head_verb_lemma": "need",
+      "left_3": "other expectational strategies",
+      "right_3": "be needed again",
+      "sentence": "Moreover, these and other expectational strategies may be needed again in the future, given the likelihood that the global economy may continue to experience historically low interest rates, thereby making it unlikely that reductions in short-term interest rates alone would be an adequate response to a future recession."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3239,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "the global economy",
+      "right_3": "continue to experience",
+      "sentence": "Moreover, these and other expectational strategies may be needed again in the future, given the likelihood that the global economy may continue to experience historically low interest rates, thereby making it unlikely that reductions in short-term interest rates alone would be an adequate response to a future recession."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3239,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "interest rates alone",
+      "right_3": "be an adequate",
+      "sentence": "Moreover, these and other expectational strategies may be needed again in the future, given the likelihood that the global economy may continue to experience historically low interest rates, thereby making it unlikely that reductions in short-term interest rates alone would be an adequate response to a future recession."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3294,
+      "head_verb_surface": "strive",
+      "head_verb_lemma": "strive",
+      "left_3": "hope that researchers",
+      "right_3": "strive to improve",
+      "sentence": "24    For all of these reasons, I hope that researchers will strive to improve our understanding of inflation dynamics and its interactions with monetary policy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3323,
+      "head_verb_surface": "feed",
+      "head_verb_lemma": "feed",
+      "left_3": "those foreign effects",
+      "right_3": "feed back to",
+      "sentence": "International Linkages \r Before closing, let me mention one additional area where more study is needed--the effects of changes in U.S. monetary policy on financial and economic conditions in the rest of the world and the ways in which those foreign effects can feed back to influence conditions here at home."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3648,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "closing , I",
+      "right_3": "like to commend",
+      "sentence": "Conclusion \r In closing, I would like to commend the Federal Reserve Bank of Boston for organizing this conference and fostering research and debate on questions vital to our understanding of the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3683,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "Answering these questions",
+      "right_3": "help the Federal",
+      "sentence": "Answering these questions will help the Federal Reserve's efforts to promote a healthy economy, and I am grateful for the opportunity to speak to you today and be part of this important discussion."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 6424,
+      "head_verb_surface": "believe",
+      "head_verb_lemma": "believe",
+      "left_3": "Usable Macroeconomics We",
+      "right_3": "All Believe In",
+      "sentence": "\"Is There a Core of Usable Macroeconomics We Should All Believe In?\"  American Economic Review,  vol. 87"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 6901,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": "of these benefits",
+      "right_3": "show up as",
+      "sentence": "Importantly, not all of these benefits might show up as measured output, but they would nonetheless be welfare improving--for example, higher job satisfaction from better matches between workers and employers, as noted by Akerlof, Rose, and Yellen (1988)."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6901,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", but they",
+      "right_3": "nonetheless be welfare",
+      "sentence": "Importantly, not all of these benefits might show up as measured output, but they would nonetheless be welfare improving--for example, higher job satisfaction from better matches between workers and employers, as noted by Akerlof, Rose, and Yellen (1988)."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 6958,
+      "head_verb_surface": "seem",
+      "head_verb_lemma": "seem",
+      "left_3": "of the 1990s",
+      "right_3": "seem to provide",
+      "sentence": "For example, the experience of the 1990s might seem to provide a natural case study of whether reverse hysteresis is possible."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7471,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "More empirical work",
+      "right_3": "be useful to",
+      "sentence": "More empirical work would be useful to disentangle the spending effects that result from changes in credit conditions from those that result from movements in interest rates, as estimates of the latter likely often inadvertently incorporate the former."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7511,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "interest rate effects",
+      "right_3": "partially reflect the",
+      "sentence": "Most empirical models of the overall economy do not explicitly control for the influence of noninterest credit factors on consumption and investment; as a result, estimated interest rate effects will partially reflect the influence of these factors to the extent these factors are correlated with interest rates."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 7679,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "correlations and interactions",
+      "right_3": "explain why some",
+      "sentence": "Such correlations and interactions may explain why some types of spending appear to be more correlated with movements in  nominal  interest rates than with real interest rates; see Fair (2004, ch. 3) for evidence on this point."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7838,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "debt overhang alone",
+      "right_3": "not explain the",
+      "sentence": "Work by Justiniano, Primiceri, and Tambalotti (2015) suggests that debt overhang alone cannot explain the slow recovery from the Great Recession."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 8034,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "their preferred model",
+      "right_3": "explain the behavior",
+      "sentence": "Some adherents of either type of Phillips curve argue that their preferred model can explain the behavior of inflation during and after the financial crisis."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Prior to the Great Recession, most economists would probably have answered this question with a qualified \"no.\""
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "This post-crisis experience suggests that changes in aggregate demand may have an appreciable, persistent effect on aggregate supply--that is, on potential output."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "4   With regard to the U.S. experience, one study estimates that the level of potential output is now 7 percent below what would have been expected based on its pre-crisis trajectory, and it argues that much of this supply-side damage is attributable to several developments that likely occurred as a result of the deep recession and slow recovery."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "4   With regard to the U.S. experience, one study estimates that the level of potential output is now 7 percent below what would have been expected based on its pre-crisis trajectory, and it argues that much of this supply-side damage is attributable to several developments that likely occurred as a result of the deep recession and slow recovery."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "4   With regard to the U.S. experience, one study estimates that the level of potential output is now 7 percent below what would have been expected based on its pre-crisis trajectory, and it argues that much of this supply-side damage is attributable to several developments that likely occurred as a result of the deep recession and slow recovery."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The latter likely reflects an unusually slow pace of business capital accumulation since the crisis and, more conjecturally, the sharp decline in spending on research and development and the very slow pace of new firm formation in recent years."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "6    If we assume that hysteresis is in fact present to some degree after deep recessions, the natural next question is to ask whether it might be possible to reverse these adverse supply-side effects by temporarily running a \"high-pressure economy,\" with robust aggregate demand and a tight labor market."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "One can certainly identify plausible ways in which this might occur."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Increased business sales would almost certainly raise the productive capacity of the economy by encouraging additional capital spending, especially if accompanied by reduced uncertainty about future prospects."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In addition, a tight labor market might draw in potential workers who would otherwise sit on the sidelines and encourage job-to-job transitions that could also lead to more-efficient--and, hence, more-productive--job matches."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "7   Finally, albeit more speculatively, strong demand could potentially yield significant productivity gains by, among other things, prompting higher levels of research and development spending and increasing the incentives to start new, innovative businesses."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "More generally, the benefits and potential costs of pursuing such a strategy remain hard to quantify, and other policies might be better suited to address damage to the supply side of the economy."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Modeling any of these issues quantitatively will likely require the use of a heterogeneous-agent framework."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "11   I am glad to now see a greater emphasis on the possible macroeconomic consequences of heterogeneity, including in work by economists at the Federal Reserve."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "In light of the housing bubble and subsequent events, policymakers clearly need to better understand what kinds of developments contribute to financial crises."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "But I believe we have a lot more to learn about the ways in which changes in underwriting standards and other determinants of credit availability interact with interest rates to affect such things as consumer spending, housing demand and home prices, business investment (especially for small firms), and the formation of new firms."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In particular, the remarkable stability of various measures of expected inflation in recent years presumably represents the fruits of the Federal Reserve's sustained efforts since the early 1980s to bring down and then stabilize inflation at a low level."
+    },
+    {
+      "surface": "presumably",
+      "lemma": "presumably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "In particular, the remarkable stability of various measures of expected inflation in recent years presumably represents the fruits of the Federal Reserve's sustained efforts since the early 1980s to bring down and then stabilize inflation at a low level."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Or does it perhaps reflect the well-documented reluctance--or, alternatively, limited ability--of firms to cut the nominal wages of their employees, which could help to explain the relatively moderate movements in inflation we saw during and after the recession? 19    Another gap in our knowledge about the nature of the inflation process concerns expectations."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "21    Perhaps most importantly, we need to know more about the manner in which inflation expectations are formed and how monetary policy influences them."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The unusually explicit and extended guidance about the likely future path of the federal funds rate that was provided by the FOMC from 2011 through 2014 is an example of such a policy, as is the Bank of Japan's upward revision to its official inflation objective in 2013."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "Moreover, these and other expectational strategies may be needed again in the future, given the likelihood that the global economy may continue to experience historically low interest rates, thereby making it unlikely that reductions in short-term interest rates alone would be an adequate response to a future recession."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "\"Is There a Core of Usable Macroeconomics We Should All Believe In?\"  American Economic Review,  vol. 87"
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Fernald (2015), however, argues that much of the apparent slowdown in U.S. potential GDP growth began prior to the 2007-09 recession."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For example, the experience of the 1990s might seem to provide a natural case study of whether reverse hysteresis is possible."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "More empirical work would be useful to disentangle the spending effects that result from changes in credit conditions from those that result from movements in interest rates, as estimates of the latter likely often inadvertently incorporate the former."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In its simplest form, the Phillips curve relates inflation to expected inflation and the intensity of resource utilization in the economy."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For an early discussion of the potential macroeconomic effects of downward nominal wage rigidity, see Akerlof, Dickens, and Perry (1996)."
+    }
+  ]
+}

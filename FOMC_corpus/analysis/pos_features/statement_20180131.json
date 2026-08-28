@@ -1,0 +1,206 @@
+{
+  "doc_id": "statement_20180131",
+  "doc_type": "statement",
+  "date": "2018-01-31",
+  "chair": "Yellen",
+  "n_tokens": 448,
+  "n_sents": 17,
+  "pos_counts": {
+    "NNP": 49,
+    "CD": 14,
+    ",": 22,
+    "VBZ": 12,
+    "JJ": 51,
+    "NN": 91,
+    "IN": 56,
+    "VBD": 6,
+    "DT": 38,
+    "VBN": 17,
+    "TO": 8,
+    "VB": 16,
+    "CC": 21,
+    "VBG": 6,
+    ".": 16,
+    "NNS": 32,
+    "VBP": 7,
+    "HYPH": 5,
+    ":": 10,
+    "JJR": 2,
+    "RB": 6,
+    "PRP$": 3,
+    "MD": 8,
+    "RP": 1,
+    "POS": 1,
+    "SYM": 1,
+    "WDT": 2,
+    "NNPS": 1
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "will": 8
+  },
+  "modals_per_1000": 17.857,
+  "epistemic_count": 9,
+  "epistemic_lemma_counts": {
+    "expect": 7,
+    "assess": 1,
+    "likely": 1
+  },
+  "epistemics_per_1000": 20.089,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 153,
+      "head_verb_surface": "expand",
+      "head_verb_lemma": "expand",
+      "left_3": ", economic activity",
+      "right_3": "expand at a",
+      "sentence": "The Committee expects that, with further gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace and labor market conditions will remain strong."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 153,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "labor market conditions",
+      "right_3": "remain strong .",
+      "sentence": "The Committee expects that, with further gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace and labor market conditions will remain strong."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 291,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its objectives of maximum employment and 2 percent inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 331,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 366,
+      "head_verb_surface": "monitor",
+      "head_verb_lemma": "monitor",
+      "left_3": ". The Committee",
+      "right_3": "carefully monitor actual",
+      "sentence": "The Committee will carefully monitor actual and expected inflation developments relative to its symmetric inflation goal."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 383,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": "that economic conditions",
+      "right_3": "evolve in a",
+      "sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 383,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "a manner that",
+      "right_3": "warrant further gradual",
+      "sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 431,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "federal funds rate",
+      "right_3": "depend on the",
+      "sentence": "However, the actual path of the federal funds rate will depend on the economic outlook as informed by incoming data."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects that, with further gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace and labor market conditions will remain strong."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Inflation on a 12âmonth basis is expected to move up this year and to stabilize around the Committee's 2 percent objective over the medium term."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1â1/2 percent."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its objectives of maximum employment and 2 percent inflation."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its objectives of maximum employment and 2 percent inflation."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee will carefully monitor actual and expected inflation developments relative to its symmetric inflation goal."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run."
+    }
+  ]
+}

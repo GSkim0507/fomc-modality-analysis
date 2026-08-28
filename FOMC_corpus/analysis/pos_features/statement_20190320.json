@@ -1,0 +1,120 @@
+{
+  "doc_id": "statement_20190320",
+  "doc_type": "statement",
+  "date": "2019-03-20",
+  "chair": "Powell",
+  "n_tokens": 371,
+  "n_sents": 13,
+  "pos_counts": {
+    "NNP": 52,
+    "CD": 13,
+    ",": 21,
+    "VBZ": 10,
+    "JJ": 42,
+    "NN": 76,
+    "IN": 49,
+    "VBD": 7,
+    "DT": 26,
+    "CC": 17,
+    "VBN": 12,
+    "PRP$": 4,
+    ".": 12,
+    "RB": 3,
+    "NNS": 28,
+    "VBP": 4,
+    "JJR": 3,
+    "HYPH": 4,
+    ":": 11,
+    "TO": 5,
+    "VB": 8,
+    "SYM": 2,
+    "POS": 1,
+    "RBS": 1,
+    "MD": 4,
+    "PRP": 1,
+    "WP": 1,
+    "VBG": 3,
+    "NNPS": 1
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "will": 3,
+    "may": 1
+  },
+  "modals_per_1000": 10.782,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "likely": 1,
+    "assess": 1,
+    "expect": 1
+  },
+  "epistemics_per_1000": 8.086,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 248,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", the Committee",
+      "right_3": "be patient as",
+      "sentence": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 248,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "federal funds rate",
+      "right_3": "be appropriate to",
+      "sentence": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 290,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 332,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee continues to view sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective as the most likely outcomes."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

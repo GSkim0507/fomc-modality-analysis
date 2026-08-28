@@ -1,0 +1,183 @@
+{
+  "doc_id": "speech_yellen_20151112a",
+  "doc_type": "speech",
+  "date": "2015-11-12",
+  "chair": "Yellen",
+  "n_tokens": 627,
+  "n_sents": 22,
+  "pos_counts": {
+    "NNP": 56,
+    "CD": 11,
+    ",": 20,
+    "IN": 88,
+    "DT": 63,
+    "``": 3,
+    "CC": 33,
+    "''": 3,
+    "NN": 113,
+    "VBN": 14,
+    "NNPS": 1,
+    "JJ": 79,
+    "NNS": 50,
+    "XX": 10,
+    "-RRB-": 7,
+    "VBP": 14,
+    "SYM": 8,
+    ":": 6,
+    "VBZ": 10,
+    "RB": 18,
+    "-LRB-": 2,
+    "RP": 1,
+    "MD": 8,
+    "VB": 22,
+    ".": 19,
+    "PRP": 15,
+    "PRP$": 8,
+    "TO": 9,
+    "POS": 3,
+    "WDT": 4,
+    "VBG": 4,
+    "VBD": 5,
+    "WP": 1,
+    "HYPH": 2
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "may": 2,
+    "should": 1,
+    "will": 5
+  },
+  "modals_per_1000": 12.759,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "assess": 2,
+    "possible": 1,
+    "expect": 1,
+    "potential": 1
+  },
+  "epistemics_per_1000": 7.974,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 125,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 355,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Moreover , policymakers",
+      "right_3": "be mindful of",
+      "sentence": "Moreover, policymakers should be mindful of new channels for monetary policy transmission that may have emerged from the intricate economic and financial linkages in our global economy that were revealed by the crisis."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 355,
+      "head_verb_surface": "emerged",
+      "head_verb_lemma": "emerge",
+      "left_3": "policy transmission that",
+      "right_3": "have emerged from",
+      "sentence": "Moreover, policymakers should be mindful of new channels for monetary policy transmission that may have emerged from the intricate economic and financial linkages in our global economy that were revealed by the crisis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 453,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "the conference program",
+      "right_3": "surely provide a",
+      "sentence": "The presentations and discussions of the 12 academic papers on the conference program will surely provide a foundation for what I expect will be a stimulating discussion of important topics over the next two days."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 453,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "what I expect",
+      "right_3": "be a stimulating",
+      "sentence": "The presentations and discussions of the 12 academic papers on the conference program will surely provide a foundation for what I expect will be a stimulating discussion of important topics over the next two days."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 490,
+      "head_verb_surface": "deliver",
+      "head_verb_lemma": "deliver",
+      "left_3": "Vice Chairman Fischer",
+      "right_3": "deliver keynote remarks",
+      "sentence": "Looking ahead to later today, I am delighted that Vice Chairman Fischer will deliver keynote remarks on the exchange rate mechanism in the transmission of monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 601,
+      "head_verb_surface": "spur",
+      "head_verb_lemma": "spur",
+      "left_3": "next two days",
+      "right_3": "spur subsequent research",
+      "sentence": "I hope the work and ideas presented and discussed over the next two days will spur subsequent research on these issues and promote further collaboration among all of you."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 666,
+      "head_verb_surface": "add",
+      "head_verb_lemma": "add",
+      "left_3": "am sure ,",
+      "right_3": "add to our",
+      "sentence": "I want to thank our research conference committee for putting together this high-caliber research conference, which has gathered distinguished speakers and guests from around the world and, I am sure, will add to our understanding of the implementation and transmission of monetary policy."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The post-crisis period has offered policymakers an opportunity to assess a range of novel policy and operational issues associated with the conduct of monetary policy and the effectiveness of different policy options."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Finally, it is crucial to understand the effect of regulations and possible changes in financial intermediation on monetary policy implementation and transmission."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The presentations and discussions of the 12 academic papers on the conference program will surely provide a foundation for what I expect will be a stimulating discussion of important topics over the next two days."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Let me also say that I consider the topics covered during this conference highly relevant for the Federal Reserve System's ongoing efforts to evaluate potential long-run monetary policy implementation frameworks and to assess a number of issues related to the consideration of alternative frameworks."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Let me also say that I consider the topics covered during this conference highly relevant for the Federal Reserve System's ongoing efforts to evaluate potential long-run monetary policy implementation frameworks and to assess a number of issues related to the consideration of alternative frameworks."
+    }
+  ]
+}

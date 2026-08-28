@@ -1,0 +1,195 @@
+{
+  "doc_id": "speech_powell_20191009a",
+  "doc_type": "speech",
+  "date": "2019-10-09",
+  "chair": "Powell",
+  "n_tokens": 712,
+  "n_sents": 36,
+  "pos_counts": {
+    "NNP": 48,
+    "CD": 8,
+    ",": 40,
+    "IN": 71,
+    "DT": 58,
+    "NN": 96,
+    "''": 2,
+    "JJ": 57,
+    ".": 35,
+    "PRP": 39,
+    "VBP": 31,
+    "TO": 22,
+    "VB": 37,
+    "RB": 51,
+    "VBZ": 24,
+    "NNS": 50,
+    "VBG": 23,
+    "CC": 31,
+    "NNPS": 2,
+    "VBN": 16,
+    "PRP$": 21,
+    "HYPH": 6,
+    "MD": 10,
+    "RBR": 3,
+    "WP": 4,
+    "WRB": 4,
+    "JJR": 2,
+    "``": 1,
+    "WDT": 2,
+    "VBD": 2
+  },
+  "modal_count": 10,
+  "modal_lemma_counts": {
+    "could": 1,
+    "must": 1,
+    "can": 3,
+    "may": 1,
+    "might": 1,
+    "would": 2,
+    "will": 1
+  },
+  "modals_per_1000": 14.045,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "clearly": 1,
+    "possible": 1,
+    "believe": 1,
+    "obviously": 1
+  },
+  "epistemics_per_1000": 5.618,
+  "modal_instances": [
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 162,
+      "head_verb_surface": "doing",
+      "head_verb_lemma": "do",
+      "left_3": "ask if it",
+      "right_3": "be doing its",
+      "sentence": "One reason we are conducting this review is that it is always a good practice for any organization to occasionally take a step back and ask if it could be doing its job more effectively."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 198,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": ". But we",
+      "right_3": "pose that question",
+      "sentence": "But we must pose that question not just to ourselves."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 239,
+      "head_verb_surface": "hold",
+      "head_verb_lemma": "hold",
+      "left_3": "their elected representatives",
+      "right_3": "hold us accountable",
+      "sentence": "And we have an obligation to actively engage the people we serve so that they and their elected representatives can hold us accountable."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 428,
+      "head_verb_surface": "asking",
+      "head_verb_lemma": "ask",
+      "left_3": "good , you",
+      "right_3": "be asking ,",
+      "sentence": "While slow growth is obviously not good, you may be asking, \"What's wrong with low inflation and low interest rates?\""
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 454,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "? \" Low",
+      "right_3": "be good ,",
+      "sentence": "Low can be good, but when inflationâand, consequently, interest ratesâare too low, the Fed and other central banks have less room to cut rates to support the economy during downturns."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 490,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "examining strategies that",
+      "right_3": "better allow us",
+      "sentence": "So, in this review, we are examining strategies that might better allow us to symmetrically and sustainably achieve 2 percent inflation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 514,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ". Doing so",
+      "right_3": "help prevent inflation",
+      "sentence": "Doing so would help prevent inflation expectations among consumers, businesses, and investors from slipping too low, as they appear to have done in several advanced economies."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 544,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "virtuous circle ,",
+      "right_3": "help keep actual",
+      "sentence": "More-firmly anchored expectations, in a virtuous circle, would help keep actual inflation around our target, thus preserving our ability to change interest rates as appropriate to meet our mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 579,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "monetary policy tools",
+      "right_3": "be adequate when",
+      "sentence": "We are also looking at whether our existing monetary policy tools will be adequate when the next downturn comes."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 599,
+      "head_verb_surface": "improved",
+      "head_verb_lemma": "improve",
+      "left_3": "our communications practices",
+      "right_3": "be improved to",
+      "sentence": "Finally, we are asking whether our communications practices can be improved to better support the effectiveness of our policy."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Because Congress has granted the Federal Reserve significant protections from short-term political pressures, we have an obligation to clearly explain what we are doing and why."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Our job is to keep it there as long as possible."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "While we believe our strategy and tools have been and remain effective, the U.S. economy, like other advanced economies around the world, is facing some longer-term challengesâfrom low growth, low inflation, and low interest rates."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "While slow growth is obviously not good, you may be asking, \"What's wrong with low inflation and low interest rates?\""
+    }
+  ]
+}

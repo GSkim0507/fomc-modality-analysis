@@ -1,0 +1,98 @@
+{
+  "doc_id": "speech_powell_20190311a",
+  "doc_type": "speech",
+  "date": "2019-03-11",
+  "chair": "Powell",
+  "n_tokens": 658,
+  "n_sents": 23,
+  "pos_counts": {
+    "NNP": 58,
+    "CD": 3,
+    ",": 30,
+    "IN": 68,
+    "DT": 59,
+    "``": 1,
+    "''": 1,
+    "VBN": 11,
+    "-LRB-": 3,
+    "JJ": 52,
+    "NN": 98,
+    "-RRB-": 3,
+    "CC": 39,
+    "VBP": 35,
+    "PRP": 28,
+    "VBG": 7,
+    "TO": 19,
+    "VB": 31,
+    ".": 22,
+    "PRP$": 18,
+    "NNS": 66,
+    "WRB": 6,
+    "HYPH": 9,
+    "RB": 20,
+    "WDT": 8,
+    "VBZ": 13,
+    "POS": 6,
+    "JJR": 3,
+    "VBD": 3,
+    "JJS": 1,
+    "NNPS": 2,
+    "RBR": 1,
+    ":": 2,
+    "WP": 1,
+    "MD": 3
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "will": 2,
+    "can": 1
+  },
+  "modals_per_1000": 4.559,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "possible": 1
+  },
+  "epistemics_per_1000": 1.52,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 580,
+      "head_verb_surface": "speaking",
+      "head_verb_lemma": "speak",
+      "left_3": "CRA discussions ,",
+      "right_3": "be speaking to",
+      "sentence": "My colleague, Governor Brainard, who represents the Board in our interagency CRA discussions, will be speaking to you tomorrow, so I will leave it to her to discuss our efforts in detail."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 580,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": ", so I",
+      "right_3": "leave it to",
+      "sentence": "My colleague, Governor Brainard, who represents the Board in our interagency CRA discussions, will be speaking to you tomorrow, so I will leave it to her to discuss our efforts in detail."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 717,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "the Federal Reserve",
+      "right_3": "help .",
+      "sentence": "I hope you have a productive conference, and I look forward to our ongoing conversation about how the Federal Reserve can help."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I know that you all are very interested in the agencies' activities related to possible revisions to the current CRA regulations."
+    }
+  ]
+}

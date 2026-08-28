@@ -1,0 +1,70 @@
+{
+  "doc_id": "speech_yellen_20171004a",
+  "doc_type": "speech",
+  "date": "2017-10-04",
+  "chair": "Yellen",
+  "n_tokens": 628,
+  "n_sents": 18,
+  "pos_counts": {
+    "NNP": 66,
+    "CD": 7,
+    ",": 36,
+    "IN": 87,
+    "DT": 65,
+    "JJ": 43,
+    "CC": 36,
+    "VBN": 23,
+    "NNPS": 4,
+    "PRP": 22,
+    "VBP": 30,
+    "RB": 18,
+    "TO": 10,
+    "VB": 16,
+    "NN": 87,
+    ".": 18,
+    "NNS": 54,
+    "VBZ": 5,
+    "WRB": 3,
+    "JJS": 1,
+    "VBG": 18,
+    "PRP$": 6,
+    "POS": 2,
+    "WDT": 6,
+    "VBD": 9,
+    "HYPH": 3,
+    "RBR": 5,
+    "MD": 2,
+    "JJR": 4
+  },
+  "modal_count": 2,
+  "modal_lemma_counts": {
+    "will": 2
+  },
+  "modals_per_1000": 3.185,
+  "epistemic_count": 0,
+  "epistemic_lemma_counts": {},
+  "epistemics_per_1000": 0.0,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 357,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "estate transactions that",
+      "right_3": "no longer require",
+      "sentence": "Since that report, the Board of Governors, along with the Federal Deposit Insurance Corporation and the Office of the Comptroller of the Currency, has proposed a rule expanding the number of commercial real estate transactions that will no longer require an appraisal, allowing for a less detailed evaluation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 605,
+      "head_verb_surface": "hear",
+      "head_verb_lemma": "hear",
+      "left_3": "that the conference",
+      "right_3": "hear a presentation",
+      "sentence": "I am cheered to see that finance students at the University of Akron remain interested enough in community banking to participate in a case-study competition related to community banking, and I am pleased that the conference will hear a presentation of the winning case study."
+    }
+  ],
+  "epistemic_instances": []
+}

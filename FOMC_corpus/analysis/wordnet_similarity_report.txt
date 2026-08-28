@@ -1,0 +1,18 @@
+WordNet wup_similarity over modality lexicon
+============================================================
+words (with MSI epistemic certainty score):
+  certainty   score=1.0  cat=booster   -> certainty.n.01     : the state of being certain
+  conviction  score=1.0  cat=booster   -> conviction.n.01    : an unshakable belief in something without need for proof or evidence
+  assurance   score=0.9  cat=booster   -> assurance.n.01     : freedom from doubt; belief in yourself and your abilities
+  confidence  score=0.8  cat=booster   -> assurance.n.01     : freedom from doubt; belief in yourself and your abilities
+  likelihood  score=0.5  cat=hedge     -> likelihood.n.01    : the probability of a specified outcome
+  probability  score=0.5  cat=hedge     -> probability.n.01   : a measure of how likely it is that some event will occur; a number exp
+  possibility  score=0.3  cat=hedge     -> possibility.n.01   : a future prospect or potential
+  uncertainty  score=0.2  cat=hedge     -> uncertainty.n.01   : being unsettled or in doubt or dependent on chance
+  doubt       score=0.1  cat=hedge     -> doubt.n.01         : the state of being unsure of something
+  ambiguity   score=0.1  cat=hedge     -> ambiguity.n.01     : an expression whose meaning cannot be determined from its context
+
+mean similarity within boosters (n=12):   0.608
+mean similarity within hedges   (n=30):   0.367
+mean similarity between groups  (n=24):    0.411
+→ within-cluster > between-cluster confirms semantic separation

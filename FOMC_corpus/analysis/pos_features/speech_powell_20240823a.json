@@ -1,0 +1,489 @@
+{
+  "doc_id": "speech_powell_20240823a",
+  "doc_type": "speech",
+  "date": "2024-08-23",
+  "chair": "Powell",
+  "n_tokens": 3925,
+  "n_sents": 235,
+  "pos_counts": {
+    "NNP": 546,
+    "CD": 189,
+    ",": 274,
+    "CC": 167,
+    "IN": 563,
+    "VBG": 67,
+    "DT": 340,
+    "''": 22,
+    "JJ": 302,
+    "NN": 651,
+    "VBN": 107,
+    "NNS": 241,
+    "POS": 14,
+    "JJS": 11,
+    "RB": 154,
+    "HYPH": 22,
+    "VBP": 44,
+    ".": 231,
+    "VBZ": 68,
+    "RBR": 11,
+    "WDT": 11,
+    "VBD": 117,
+    "PRP$": 50,
+    "TO": 33,
+    "VB": 108,
+    "WRB": 14,
+    "PRP": 45,
+    "MD": 30,
+    "-LRB-": 66,
+    "-RRB-": 66,
+    "RP": 11,
+    "NNPS": 20,
+    "JJR": 12,
+    ":": 27,
+    "EX": 5,
+    "SYM": 2,
+    "WP": 5,
+    "``": 25,
+    "RBS": 1,
+    "FW": 2,
+    "LS": 1,
+    "PDT": 1
+  },
+  "modal_count": 30,
+  "modal_lemma_counts": {
+    "will": 11,
+    "can": 5,
+    "may": 2,
+    "would": 11,
+    "could": 1
+  },
+  "modals_per_1000": 7.643,
+  "epistemic_count": 14,
+  "epistemic_lemma_counts": {
+    "unlikely": 1,
+    "clearly": 2,
+    "judge": 1,
+    "likely": 3,
+    "expect": 4,
+    "possible": 1,
+    "project": 1,
+    "anticipate": 1
+  },
+  "epistemics_per_1000": 3.567,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 169,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "Today , I",
+      "right_3": "begin by addressing",
+      "sentence": "Today, I will begin by addressing the current economic situation and the path ahead for monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 188,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "policy . I",
+      "right_3": "then turn to",
+      "sentence": "I will then turn to a discussion of economic events since the pandemic arrived, exploring why inflation rose to levels not seen in a generation, and why it has fallen so much while unemployment has remained low."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 451,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "to society that",
+      "right_3": "come from a",
+      "sentence": "Turning to employment, in the years just prior to the pandemic, we saw the significant benefits to society that can come from a long period of strong labor market conditions: low unemployment, high participation, historically low racial employment gaps, and, with inflation low and stable, healthy real wage gains that were increasingly concentrated among those with lower incomes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 730,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the labor market",
+      "right_3": "be a source",
+      "sentence": "It seems unlikely that the labor market will be a source of elevated inflationary pressures anytime soon."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 836,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "of rate cuts",
+      "right_3": "depend on incoming",
+      "sentence": "The direction of travel is clear, and the timing and pace of rate cuts will depend on incoming data, the evolving outlook, and the balance of risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 868,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ". \n\n We",
+      "right_3": "do everything we",
+      "sentence": "We will do everything we can to support a strong labor market as we make further progress toward price stability."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 868,
+      "head_verb_surface": "everything",
+      "head_verb_lemma": "everything",
+      "left_3": "do everything we",
+      "right_3": "to support a",
+      "sentence": "We will do everything we can to support a strong labor market as we make further progress toward price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 889,
+      "head_verb_surface": "get",
+      "head_verb_lemma": "get",
+      "left_3": "that the economy",
+      "right_3": "get back to",
+      "sentence": "With an appropriate dialing back of policy restraint, there is good reason to think that the economy will get back to 2 percent inflation while maintaining a strong labor market."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 921,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "any risks we",
+      "right_3": "face , including",
+      "sentence": "The current level of our policy rate gives us ample room to respond to any risks we may face, including the risk of unwelcome further weakening in labor market conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1024,
+      "head_verb_surface": "analyzed",
+      "head_verb_lemma": "analyze",
+      "left_3": ". This period",
+      "right_3": "be analyzed and",
+      "sentence": "This period will be analyzed and debated long after we are gone."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1302,
+      "head_verb_surface": "return",
+      "head_verb_lemma": "return",
+      "left_3": "The labor force",
+      "right_3": "not return to",
+      "sentence": "The labor force would not return to its pre-pandemic trend until mid-2023 ( figure 3 )."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1421,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "- related factors",
+      "right_3": "not be persistent",
+      "sentence": "My colleagues and I judged at the outset that these pandemic-related factors would not be persistent and, thus, that the sudden rise in inflation was likely to pass through fairly quickly without the need for a monetary policy responseâin short, that the inflation would be transitory."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1421,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that the inflation",
+      "right_3": "be transitory .",
+      "sentence": "My colleagues and I judged at the outset that these pandemic-related factors would not be persistent and, thus, that the sudden rise in inflation was likely to pass through fairly quickly without the need for a monetary policy responseâin short, that the inflation would be transitory."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1473,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "anchored , it",
+      "right_3": "be appropriate for",
+      "sentence": "Standard thinking has long been that, as long as inflation expectations remain well anchored, it can be appropriate for central banks to look through a temporary rise in inflation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1531,
+      "head_verb_surface": "improve",
+      "head_verb_lemma": "improve",
+      "left_3": "that supply conditions",
+      "right_3": "improve reasonably quickly",
+      "sentence": "8  The common expectation was that supply conditions would improve reasonably quickly, that the rapid recovery in demand would run its course, and that demand would rotate back from goods to services, bringing inflation down."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1531,
+      "head_verb_surface": "run",
+      "head_verb_lemma": "run",
+      "left_3": "recovery in demand",
+      "right_3": "run its course",
+      "sentence": "8  The common expectation was that supply conditions would improve reasonably quickly, that the rapid recovery in demand would run its course, and that demand would rotate back from goods to services, bringing inflation down."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1531,
+      "head_verb_surface": "rotate",
+      "head_verb_lemma": "rotate",
+      "left_3": "and that demand",
+      "right_3": "rotate back from",
+      "sentence": "8  The common expectation was that supply conditions would improve reasonably quickly, that the rapid recovery in demand would run its course, and that demand would rotate back from goods to services, bringing inflation down."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1653,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "and that it",
+      "right_3": "require a strong",
+      "sentence": "It became clear that the high inflation was not transitory, and that it would require a strong policy response if inflation expectations were to remain well anchored."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1991,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "that addressing inflation",
+      "right_3": "bring some pain",
+      "sentence": "At this podium two years ago, I discussed the possibility that addressing inflation could bring some pain in the form of higher unemployment and slower growth."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2019,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "inflation under control",
+      "right_3": "require a recession",
+      "sentence": "Some argued that getting inflation under control would require a recession and a lengthy period of high unemployment."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2341,
+      "head_verb_surface": "return",
+      "head_verb_lemma": "return",
+      "left_3": "view that inflation",
+      "right_3": "return to its",
+      "sentence": "Standard economic models have long reflected the view that inflation will return to its objective when product and labor markets are balancedâwithout the need for economic slackâso long as inflation expectations are anchored at our objective."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2409,
+      "head_verb_surface": "hold",
+      "head_verb_lemma": "hold",
+      "left_3": "the inflation anchor",
+      "right_3": "hold . Concerns",
+      "sentence": "It was far from assured that the inflation anchor would hold."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2421,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "view that disinflation",
+      "right_3": "require slack in",
+      "sentence": "Concerns over de-anchoring contributed to the view that disinflation would require slack in the economy and specifically in the labor market."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2445,
+      "head_verb_surface": "facilitate",
+      "head_verb_lemma": "facilitate",
+      "left_3": "bank actions ,",
+      "right_3": "facilitate disinflation without",
+      "sentence": "An important takeaway from recent experience is that anchored inflation expectations, reinforced by vigorous central bank actions, can facilitate disinflation without the need for slack."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2581,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "the central bank",
+      "right_3": "bring about 2",
+      "sentence": "Disinflation while preserving labor market strength is only possible with anchored inflation expectations, which reflect the public's confidence that the central bank will bring about 2 percent inflation over time."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2635,
+      "head_verb_surface": "vary",
+      "head_verb_lemma": "vary",
+      "left_3": ". Your mileage",
+      "right_3": "vary . \n\n",
+      "sentence": "Your mileage may vary."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2705,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "year , we",
+      "right_3": "be open to",
+      "sentence": "As we begin this process later this year, we will be open to criticism and new ideas, while preserving the strengths of our framework."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3784,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "July 2024 and",
+      "right_3": "be used to",
+      "sentence": "Data for the consumer price index and producer price index are available through July 2024 and can be used to estimate the level of the PCE price index through July."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3892,
+      "head_verb_surface": "issued",
+      "head_verb_lemma": "issue",
+      "left_3": "data , which",
+      "right_3": "be issued in",
+      "sentence": "On August 21, the Bureau of Labor Statistics released the preliminary estimate of the upcoming annual benchmark revision to the establishment survey data, which will be issued in February 2025."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4719,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "emphasizing that disinflation",
+      "right_3": "require economic slack",
+      "sentence": "For example, Ball, Leigh, and Mishra (2022) and Cecchetti and others (2023) present analyses emphasizing that disinflation would require economic slack."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "It seems unlikely that the labor market will be a source of elevated inflationary pressures anytime soon."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Clearly, this was nothing like the slow recovery after the Global Financial Crisis."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "My colleagues and I judged at the outset that these pandemic-related factors would not be persistent and, thus, that the sudden rise in inflation was likely to pass through fairly quickly without the need for a monetary policy responseâin short, that the inflation would be transitory."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "My colleagues and I judged at the outset that these pandemic-related factors would not be persistent and, thus, that the sudden rise in inflation was likely to pass through fairly quickly without the need for a monetary policy responseâin short, that the inflation would be transitory."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Monthly readings for core inflation declined every month from April to September 2021, although progress came slower than expected ( figure 5 )."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The improvements in supply conditions and rotation in demand from goods to services were taking much longer than expected, in part due to further COVID waves in the U.S. 10  And COVID continued to disrupt production globally, including through new and extended lockdowns in China."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The unwinding of these factors took much longer than expected but ultimately played a large role in the subsequent disinflation."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Disinflation while preserving labor market strength is only possible with anchored inflation expectations, which reflect the public's confidence that the central bank will bring about 2 percent inflation over time."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "The limits of our knowledgeâso clearly evident during the pandemicâdemand humility and a questioning spirit focused on learning lessons from the past and applying them flexibly to our current challenges."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Federal Reserve Board staff's estimate of the labor force makes two adjustments to the Bureau of Labor Statistics' published estimates: (i) reweighing Current Population Survey respondents such that the labor force estimates in all years reflect the Census Bureau's latest vintage of population estimates; and (ii) accounting for net immigration that is likely not fully reflected in the Census B"
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The pre-pandemic trend described here is calculated by appending the CBO's January 2020 projected labor force growth from the start of the pandemic through 2024:Q2 onto the level of the labor force just before the start of the pandemic."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Clarida (forthcoming) notes how central banks around the world faced a sharp rise in the relative price of goods and chose, at least initially, to accommodate the price pressures with an expected transitory increase in inflation."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "By late 2021, anticipated increases in labor force participation had not yet materialized, likely owing, in part, to the rise of the Delta and Omicron COVID variants."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "By late 2021, anticipated increases in labor force participation had not yet materialized, likely owing, in part, to the rise of the Delta and Omicron COVID variants."
+    }
+  ]
+}

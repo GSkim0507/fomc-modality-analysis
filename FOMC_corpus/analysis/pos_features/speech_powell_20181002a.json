@@ -1,0 +1,778 @@
+{
+  "doc_id": "speech_powell_20181002a",
+  "doc_type": "speech",
+  "date": "2018-10-02",
+  "chair": "Powell",
+  "n_tokens": 4646,
+  "n_sents": 240,
+  "pos_counts": {
+    "NNP": 387,
+    "CD": 204,
+    ",": 275,
+    "CC": 169,
+    "IN": 695,
+    "DT": 499,
+    "NN": 843,
+    "``": 30,
+    ".": 239,
+    "''": 24,
+    "PRP": 77,
+    "VBZ": 136,
+    "TO": 52,
+    "VB": 169,
+    "RB": 212,
+    "JJ": 360,
+    "-LRB-": 42,
+    "-RRB-": 41,
+    "VBN": 101,
+    "NNS": 265,
+    "VBD": 52,
+    "VBG": 83,
+    "VBP": 90,
+    "MD": 56,
+    "POS": 18,
+    "HYPH": 22,
+    "NNPS": 18,
+    "RBS": 5,
+    "PRP$": 24,
+    ":": 32,
+    "PDT": 1,
+    "RP": 14,
+    "WRB": 21,
+    "WP": 11,
+    "RBR": 15,
+    "JJR": 36,
+    "WDT": 20,
+    "EX": 4,
+    "JJS": 6,
+    "$": 3,
+    "FW": 1,
+    "SYM": 3,
+    "NFP": 1,
+    "LS": 1
+  },
+  "modal_count": 56,
+  "modal_lemma_counts": {
+    "will": 13,
+    "would": 10,
+    "can": 6,
+    "could": 14,
+    "should": 4,
+    "might": 4,
+    "may": 2,
+    "must": 2,
+    "need": 1
+  },
+  "modals_per_1000": 12.053,
+  "epistemic_count": 17,
+  "epistemic_lemma_counts": {
+    "likely": 4,
+    "believe": 4,
+    "presumably": 1,
+    "expect": 5,
+    "probably": 1,
+    "possible": 1,
+    "unlikely": 1
+  },
+  "epistemics_per_1000": 3.659,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 112,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "\n\n Today I",
+      "right_3": "focus on the",
+      "sentence": "Today I will focus on the Federal Reserve's ongoing efforts to promote maximum employment and stable prices."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 372,
+      "head_verb_surface": "pushing",
+      "head_verb_lemma": "push",
+      "left_3": "long , employers",
+      "right_3": "be pushing up",
+      "sentence": "2  Standard economic thinking has long offered an explanation for this: If unemployment were to remain this low for this long, employers would be pushing up wages as they compete for scarce workers, and rising labor costs would feed into moreârapid price inflation faced by consumers."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 372,
+      "head_verb_surface": "feed",
+      "head_verb_lemma": "feed",
+      "left_3": "rising labor costs",
+      "right_3": "feed into moreârapid",
+      "sentence": "2  Standard economic thinking has long offered an explanation for this: If unemployment were to remain this low for this long, employers would be pushing up wages as they compete for scarce workers, and rising labor costs would feed into moreârapid price inflation faced by consumers."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 424,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "at times it",
+      "right_3": "pose a fundamental",
+      "sentence": "This dynamic between unemployment and inflation is known as a Phillips curve relationship, and at times it can pose a fundamental tension between the two sides of the Fed's mandate to promote maximum employment and price stability."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 464,
+      "head_verb_surface": "reemerge",
+      "head_verb_lemma": "reemerge",
+      "left_3": "the background and",
+      "right_3": "reemerge at any",
+      "sentence": "Recent low inflation and unemployment have some analysts asking, \"Is the Phillips curve dead?\" 3  Others argue that the Phillips curve still lurks in the background and could reemerge at any time to exact revenge for low unemployment in the form of high inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 557,
+      "head_verb_surface": "exact",
+      "head_verb_lemma": "exact",
+      "left_3": "or that it",
+      "right_3": "soon exact revenge",
+      "sentence": "At the risk of spoiling the surprise, I do not see it as likely that the Phillips curve is dead, or that it will soon exact revenge."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 652,
+      "head_verb_surface": "beware",
+      "head_verb_lemma": "beware",
+      "left_3": "sense suggests we",
+      "right_3": "beware when forecasts",
+      "sentence": "Common sense suggests we should beware when forecasts predict events seldom before observed in the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 704,
+      "head_verb_surface": "explore",
+      "head_verb_lemma": "explore",
+      "left_3": "policy . I",
+      "right_3": "explore the FOMC",
+      "sentence": "I will explore the FOMC's monitoring and balancing of risks as well as our contingency planning for cases when risk becomes reality."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 794,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and stable inflation",
+      "right_3": ", if realized",
+      "sentence": "As the figure makes clear, a multiyear period with unemployment below 4 percent and stable inflation would, if realized, be unique in modern U.S. data."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1045,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "imagine that you",
+      "right_3": "see only the",
+      "sentence": "As a thought experiment, look at the right panel and imagine that you could see only the red line (inflation), and not the blue line (unemployment)."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1379,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "regions , you",
+      "right_3": "see some association",
+      "sentence": "Comparing the shaded and unshaded regions, you might see some association between slack and the minor ups and downs in inflation, but the pattern is not at all consistent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1474,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": "factors that I",
+      "right_3": "leave aside for",
+      "sentence": "A Simple Framework for Understanding Changes in the Jobs-Inflation Relationship \r A natural starting point is the simplest form of a Phillips curve equation, which posits that inflation this year is determined by some combination of current labor market slack, inflation last year, and some other factors that I will leave aside for this discussion ( figure 4 ): 7  $$$$ Inflation(t)=-B Slack(t)+C In"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1691,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "up , it",
+      "right_3": "tend to stay",
+      "sentence": "One implication of a large  C  is that, if a boom drives inflation up, it will tend to stay up unless offset by a subsequent bust."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2001,
+      "head_verb_surface": "avoid",
+      "head_verb_lemma": "avoid",
+      "left_3": ", so we",
+      "right_3": "avoid a return",
+      "sentence": "To provide a sound basis for monetary policy, it is important to understand what happened and why, so we can avoid a return to the bad old days of the 1970s."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2050,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "how central banks",
+      "right_3": ", presumably inadvertently",
+      "sentence": "9  To understand the mechanism, let us ask how central banks could, presumably inadvertently, amplify and extend the duration of inflation's response to labor market tightness."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2082,
+      "head_verb_surface": "ease",
+      "head_verb_lemma": "ease",
+      "left_3": "the central bank",
+      "right_3": "persistently \n ease",
+      "sentence": "To do so, the central bank could persistently  ease  the stance of monetary policy in response to an uptick in inflation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2107,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "central banker today",
+      "right_3": "intentionally do this",
+      "sentence": "No responsible central banker today would intentionally do this, but much research suggests that during the Great Inflation, misunderstandings about how the economy worked led the Fed effectively to behave in this manner."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2144,
+      "head_verb_surface": "believed",
+      "head_verb_lemma": "believe",
+      "left_3": "\n  Some policymakers",
+      "right_3": "have believed the",
+      "sentence": "10  Some policymakers may have believed the misguided notion that accommodating permanently higher inflation could purchase permanently higher employment."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2144,
+      "head_verb_surface": "purchase",
+      "head_verb_lemma": "purchase",
+      "left_3": "permanently higher inflation",
+      "right_3": "purchase permanently higher",
+      "sentence": "10  Some policymakers may have believed the misguided notion that accommodating permanently higher inflation could purchase permanently higher employment."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2231,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "which monetary policy",
+      "right_3": "amplify and extend",
+      "sentence": "\" 12  The channel through which monetary policy can amplify and extend inflation's response to shocks becomes even stronger when we take account of expectations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2260,
+      "head_verb_surface": "result",
+      "head_verb_lemma": "result",
+      "left_3": "blips in inflation",
+      "right_3": "result in ongoing",
+      "sentence": "If people come to expect that upward blips in inflation will result in ongoing higher inflation, they will build that view into wage and price decisions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2260,
+      "head_verb_surface": "build",
+      "head_verb_lemma": "build",
+      "left_3": "inflation , they",
+      "right_3": "build that view",
+      "sentence": "If people come to expect that upward blips in inflation will result in ongoing higher inflation, they will build that view into wage and price decisions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2288,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "inflation 's momentum",
+      "right_3": "require convincing people",
+      "sentence": "In this case, people's expectations become a force adding momentum to inflation, and breaking inflation's momentum can require convincing people to change their minds and behavior--never an easy task."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2428,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "labor market tightness",
+      "right_3": "naturally have smaller",
+      "sentence": "When monetary policy tends to offset shocks to inflation, rather than amplifying and extending them, and when people come to expect this policy response, a surprise rise or fall in labor market tightness will naturally have smaller and less persistent effects on inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2475,
+      "head_verb_surface": "account",
+      "head_verb_lemma": "account",
+      "left_3": "that this reasoning",
+      "right_3": "account for a",
+      "sentence": "Research suggests that this reasoning can account for a good deal of the change in the Phillips curve relationship."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2517,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "issues that I",
+      "right_3": "take up now",
+      "sentence": "We do not fully understand the causes and implications of these changes, which raises risk management issues that I will take up now."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2543,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": ", but What",
+      "right_3": "Go Wrong ?",
+      "sentence": "14  A Favorable Outlook, but What Could Go Wrong?"
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2651,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "But we still",
+      "right_3": "face the cautionary",
+      "sentence": "But we still must face the cautionary advice to beware when forecasts point to rarely seen outcomes."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2725,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "them . \n\n",
+      "right_3": "Inflation Expectations Become",
+      "sentence": "Could Inflation Expectations Become Unanchored?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2732,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": "that inflation expectations",
+      "right_3": "lose their anchor",
+      "sentence": "First is the risk that inflation expectations might lose their anchor."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2767,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "aware that it",
+      "right_3": "be very costly",
+      "sentence": "And we are aware that it could be very costly if those expectations were to drift materially."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2932,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "have been and",
+      "right_3": "remain alert for",
+      "sentence": "Thus, we have been and will remain alert for possible downward drift in expectations."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2948,
+      "head_verb_surface": "fallen",
+      "head_verb_lemma": "fall",
+      "left_3": ", the FOMC",
+      "right_3": "have fallen behind",
+      "sentence": "Some argue the contrary case--that by only gradually removing accommodation as the unemployment rate has fallen, the FOMC may have fallen behind the curve, thereby risking an upward drift in expectations."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3026,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "down . \n\n",
+      "right_3": "Inflation Pressures Move",
+      "sentence": "Could Inflation Pressures Move up More than Expected in a Hot Economy?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3040,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "the production chain",
+      "right_3": "lead to higher",
+      "sentence": "A second risk is that labor market tightness or tightness in other parts of the production chain might lead to higher inflation pressure than expected--the \"revenge of the Phillips curve\" scenario."
+    },
+    {
+      "surface": "need",
+      "lemma": "need",
+      "sent_idx": 3159,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "wage growth alone",
+      "right_3": "not be inflationary",
+      "sentence": "Further, higher wage growth alone need not be inflationary."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3450,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "or other inputs",
+      "right_3": "provide greater upward",
+      "sentence": "Thus, the FOMC takes seriously the possibility that tight markets for labor or other inputs could provide greater upward pressure on inflation than in the baseline outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3479,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the Phillips curve",
+      "right_3": "be unlikely to",
+      "sentence": "Our best estimates, however, suggest that so long as inflation expectations remain anchored, a modest steepening of the Phillips curve would be unlikely to cause a significant rise in inflation or demand a disruptive policy tightening."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3533,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "rate of unemployment",
+      "right_3": "be even lower",
+      "sentence": "Is the Natural Rate of Unemployment Lower Than Expected? \r A third risk--in this case an upside risk--is that the natural rate of unemployment could be even lower than current estimates."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3570,
+      "head_verb_surface": "removing",
+      "head_verb_lemma": "remove",
+      "left_3": "that the Fed",
+      "right_3": "be removing policy",
+      "sentence": "Some have argued that the Fed should be removing policy accommodation much more slowly, pushing the economy to see if the natural rate of unemployment is lower still."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3714,
+      "head_verb_surface": "imply",
+      "head_verb_lemma": "imply",
+      "left_3": "believe , that",
+      "right_3": "imply less upward",
+      "sentence": "If the natural rate is now materially lower than we believe, that would imply less upward pressure on inflation--the flip side of the \"revenge of the Phillips curve\" risk."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3769,
+      "head_verb_surface": "foreshorten",
+      "head_verb_lemma": "foreshorten",
+      "left_3": "accommodation too quickly",
+      "right_3": "needlessly foreshorten the",
+      "sentence": "Removing accommodation too quickly could needlessly foreshorten the expansion."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3779,
+      "head_verb_surface": "risk",
+      "head_verb_lemma": "risk",
+      "left_3": "Moving too slowly",
+      "right_3": "risk rising inflation",
+      "sentence": "Moving too slowly could risk rising inflation and inflation expectations."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3811,
+      "head_verb_surface": "emphasize",
+      "head_verb_lemma": "emphasize",
+      "left_3": "outlook , I",
+      "right_3": "emphasize that I",
+      "sentence": "In wrapping up this discussion of risks to the favorable outlook, I should emphasize that I have chosen to focus on three risks that are all associated with the Phillips curve."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3854,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "few , we",
+      "right_3": "consider the strength",
+      "sentence": "To name just a few, we must consider the strength of economies abroad, the effects of ongoing trade disputes, and financial stability issues."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4844,
+      "head_verb_surface": "doubt",
+      "head_verb_lemma": "doubt",
+      "left_3": "point that one",
+      "right_3": "doubt the assertion",
+      "sentence": "Herb Stein (1998) made the analogous point that one should doubt the assertion that some program will \"cause the economy to perform outside the range of its past experience\" (p. 217)."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4844,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "that some program",
+      "right_3": "\" cause the",
+      "sentence": "Herb Stein (1998) made the analogous point that one should doubt the assertion that some program will \"cause the economy to perform outside the range of its past experience\" (p. 217)."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4894,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "statements about inflation",
+      "right_3": "be four -",
+      "sentence": "Unless otherwise noted, all statements about inflation will be four-quarter percent changes in quarterly average data, and all statements about unemployment will be about the quarterly average unemployment rate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4894,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "statements about unemployment",
+      "right_3": "be about the",
+      "sentence": "Unless otherwise noted, all statements about inflation will be four-quarter percent changes in quarterly average data, and all statements about unemployment will be about the quarterly average unemployment rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5036,
+      "head_verb_surface": "die",
+      "head_verb_lemma": "die",
+      "left_3": "rise in inflation",
+      "right_3": "ultimately die out",
+      "sentence": "The text refers to when  C  is less than 1, in which case a rise in inflation would ultimately die out on its own."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5064,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "labor market tightness",
+      "right_3": "be permanent unless",
+      "sentence": "When  C  is 1, the Phillips curve is of the \"accelerationist\" variety, and any offsetting rise in inflation due to labor market tightness would be permanent unless offset by an equal amount of subsequent slack."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5306,
+      "head_verb_surface": "account",
+      "head_verb_lemma": "account",
+      "left_3": "with anchored expectations",
+      "right_3": "account well for",
+      "sentence": "Yellen (2017) gives a more detailed account of how a very flat Phillips curve with anchored expectations can account well for the recent inflation and unemployment data."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 5349,
+      "head_verb_surface": "precipitated",
+      "head_verb_lemma": "precipitate",
+      "left_3": "related to policy",
+      "right_3": "nonetheless have been",
+      "sentence": "Many changes not directly related to policy might nonetheless have been precipitated by the improvement in policy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5367,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "and that this",
+      "right_3": "help account for",
+      "sentence": "For example, Pfajfar and Roberts, (2018) present evidence that when inflation is more stable, people simply pay less attention to it and that this could help account for changes in the Phillips curve relationship."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5496,
+      "head_verb_surface": "affected",
+      "head_verb_lemma": "affect",
+      "left_3": "\" shortage \"",
+      "right_3": "have been affected",
+      "sentence": "It is unclear whether the number of important words like \"shortage\" would have been affected by that redesign, but if so, it would go in the direction of holding down the observed recent increase."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5496,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "so , it",
+      "right_3": "go in the",
+      "sentence": "It is unclear whether the number of important words like \"shortage\" would have been affected by that redesign, but if so, it would go in the direction of holding down the observed recent increase."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In addition, many forecasters are predicting that these favorable conditions are likely to continue."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "At the risk of spoiling the surprise, I do not see it as likely that the Phillips curve is dead, or that it will soon exact revenge."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "What is more likely, in my view, is that many factors, including better conduct of monetary policy over the past few decades, have greatly reduced, but not eliminated, the effects that tight labor markets have on inflation."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Like many, I believe better monetary policy has played a central role."
+    },
+    {
+      "surface": "presumably",
+      "lemma": "presumably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "9  To understand the mechanism, let us ask how central banks could, presumably inadvertently, amplify and extend the duration of inflation's response to labor market tightness."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "10  Some policymakers may have believed the misguided notion that accommodating permanently higher inflation could purchase permanently higher employment."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "11  Other policymakers misperceived the level of the natural rate of unemployment, which we now believe had shifted up markedly in the 1960s."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "If people come to expect that upward blips in inflation will result in ongoing higher inflation, they will build that view into wage and price decisions."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "When monetary policy tends to offset shocks to inflation, rather than amplifying and extending them, and when people come to expect this policy response, a surprise rise or fall in labor market tightness will naturally have smaller and less persistent effects on inflation."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "13  It is also likely that many other factors have contributed to changes in inflation dynamics over recent decades."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "As you probably know from our public communications, we carefully monitor survey- and market-based proxies for expectations, and we do not see evidence of a material shift in longer-term expectations ( figure 6 )."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Thus, we have been and will remain alert for possible downward drift in expectations."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Could Inflation Pressures Move up More than Expected in a Hot Economy?"
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "A second risk is that labor market tightness or tightness in other parts of the production chain might lead to higher inflation pressure than expected--the \"revenge of the Phillips curve\" scenario."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "Our best estimates, however, suggest that so long as inflation expectations remain anchored, a modest steepening of the Phillips curve would be unlikely to cause a significant rise in inflation or demand a disruptive policy tightening."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Is the Natural Rate of Unemployment Lower Than Expected? \r A third risk--in this case an upside risk--is that the natural rate of unemployment could be even lower than current estimates."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "If the natural rate is now materially lower than we believe, that would imply less upward pressure on inflation--the flip side of the \"revenge of the Phillips curve\" risk."
+    }
+  ]
+}

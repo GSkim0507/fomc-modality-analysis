@@ -1,0 +1,766 @@
+{
+  "doc_id": "speech_powell_20210827a",
+  "doc_type": "speech",
+  "date": "2021-08-27",
+  "chair": "Powell",
+  "n_tokens": 3925,
+  "n_sents": 208,
+  "pos_counts": {
+    "NNP": 319,
+    "CD": 173,
+    ",": 245,
+    "IN": 546,
+    "DT": 338,
+    "``": 13,
+    "''": 13,
+    "JJ": 317,
+    "NN": 681,
+    "VBN": 112,
+    "-LRB-": 41,
+    "-RRB-": 41,
+    "NNS": 287,
+    "VBP": 105,
+    "VBD": 44,
+    ".": 204,
+    "CC": 154,
+    "TO": 57,
+    "VB": 143,
+    "VBZ": 87,
+    "VBG": 90,
+    ":": 17,
+    "WP": 7,
+    "RB": 191,
+    "PRP": 59,
+    "MD": 48,
+    "RP": 15,
+    "PRP$": 32,
+    "WDT": 26,
+    "HYPH": 34,
+    "POS": 10,
+    "WRB": 7,
+    "RBS": 4,
+    "JJS": 5,
+    "PDT": 4,
+    "JJR": 33,
+    "RBR": 12,
+    "NNPS": 21,
+    "LS": 5,
+    "EX": 4
+  },
+  "modal_count": 48,
+  "modal_lemma_counts": {
+    "should": 5,
+    "will": 21,
+    "can": 8,
+    "may": 4,
+    "would": 5,
+    "could": 4,
+    "might": 1
+  },
+  "modals_per_1000": 12.229,
+  "epistemic_count": 26,
+  "epistemic_lemma_counts": {
+    "expect": 4,
+    "likely": 11,
+    "assess": 3,
+    "unlikely": 1,
+    "believe": 3,
+    "perhaps": 1,
+    "certainly": 1,
+    "anticipate": 1,
+    "probably": 1
+  },
+  "epistemics_per_1000": 6.624,
+  "modal_instances": [
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 173,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "time . We",
+      "right_3": "also keep in",
+      "sentence": "We should also keep in our thoughts those who have lost their lives from COVID, as well as their loved ones."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 343,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "today , I",
+      "right_3": "focus on the",
+      "sentence": "In my comments today, I will focus on the Fed's efforts to promote our maximum employment and price stability goals amid this upheaval, and suggest how lessons from history and a careful focus on incoming data and the evolving risks offer useful guidance for today's unique monetary policy challenges."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 566,
+      "head_verb_surface": "seen",
+      "head_verb_lemma": "see",
+      "left_3": "of the recovery",
+      "right_3": "further be seen",
+      "sentence": "The unevenness of the recovery can further be seen through the lens of the sectoral shift of spending into goodsâparticularly durable goods such as appliances, furniture, and carsâand away from services, particularly in-person services in areas such as travel and leisure ( figure 1 )."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 784,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "period . I",
+      "right_3": "turn now to",
+      "sentence": "I will turn now to a discussion of progress toward those goals."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 878,
+      "head_verb_surface": "fill",
+      "head_verb_lemma": "fill",
+      "left_3": "report that they",
+      "right_3": "not fill jobs",
+      "sentence": "The levels of job openings and quits are at record highs, and employers report that they cannot fill jobs fast enough to meet returning demand."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 907,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "for job seekers",
+      "right_3": "help the economy",
+      "sentence": "These favorable conditions for job seekers should help the economy cover the considerable remaining ground to reach maximum employment."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 997,
+      "head_verb_surface": "holding",
+      "head_verb_lemma": "hold",
+      "left_3": "some factors that",
+      "right_3": "be holding back",
+      "sentence": "With vaccinations rising, schools reopening, and enhanced unemployment benefits ending, some factors that may be holding back job seekers are likely fading."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1175,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": ", as I",
+      "right_3": "now discuss .",
+      "sentence": "The dynamics of inflation are complex, and we assess the inflation outlook from a number of different perspectives, as I will now discuss."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1360,
+      "head_verb_surface": "wash",
+      "head_verb_lemma": "wash",
+      "left_3": "measured inflation ,",
+      "right_3": "wash out over",
+      "sentence": "These effects, which are adding a few tenths to measured inflation, should wash out over time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1444,
+      "head_verb_surface": "concerned",
+      "head_verb_lemma": "concern",
+      "left_3": ") . We",
+      "right_3": "be concerned at",
+      "sentence": "We would be concerned at signs that inflationary pressures were spreading more broadly through the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1529,
+      "head_verb_surface": "pulling",
+      "head_verb_lemma": "pull",
+      "left_3": "used car prices",
+      "right_3": "soon be pulling",
+      "sentence": "If that continues, as many analysts predict, then used car prices will soon be pulling measured inflation down, as they did for much of the past decade."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1617,
+      "head_verb_surface": "starting",
+      "head_verb_lemma": "start",
+      "left_3": "now slowed and",
+      "right_3": "be starting to",
+      "sentence": "9  As supply problems have begun to resolve, inflation in durable goods other than autos has now slowed and may be starting to fall."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1644,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that durables inflation",
+      "right_3": "continue to contribute",
+      "sentence": "It seems unlikely that durables inflation will continue to contribute importantly over time to overall inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1661,
+      "head_verb_surface": "looking",
+      "head_verb_lemma": "look",
+      "left_3": "inflation . We",
+      "right_3": "be looking for",
+      "sentence": "We will be looking for evidence that supports or undercuts that expectation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1716,
+      "head_verb_surface": "pass",
+      "head_verb_lemma": "pass",
+      "left_3": "inflation , businesses",
+      "right_3": "likely pass those",
+      "sentence": "But if wage increases were to move materially and persistently above the levels of productivity gains and inflation, businesses would likely pass those increases on to customers, a process that could become the sort of \"wageâprice spiral\" seen at times in the past."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1716,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "a process that",
+      "right_3": "become the sort",
+      "sentence": "But if wage increases were to move materially and persistently above the levels of productivity gains and inflation, businesses would likely pass those increases on to customers, a process that could become the sort of \"wageâprice spiral\" seen at times in the past."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1765,
+      "head_verb_surface": "threaten",
+      "head_verb_lemma": "threaten",
+      "left_3": "wage increases that",
+      "right_3": "threaten excessive inflation",
+      "sentence": "10  Today we see little evidence of wage increases that might threaten excessive inflation ( figure 6 )."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1834,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "objective . We",
+      "right_3": "continue to monitor",
+      "sentence": "We will continue to monitor this carefully."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1845,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "anchored , policy",
+      "right_3": "and should look",
+      "sentence": "Longer-term inflation expectations \r Policymakers and analysts generally believe that, as long as longer-term inflation expectations remain anchored, policy can and should look through temporary swings in inflation."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1845,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "policy can and",
+      "right_3": "look through temporary",
+      "sentence": "Longer-term inflation expectations \r Policymakers and analysts generally believe that, as long as longer-term inflation expectations remain anchored, policy can and should look through temporary swings in inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2047,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": ", the Fed",
+      "right_3": "keep inflation close",
+      "sentence": "Longer-term inflation expectations have moved much less than actual inflation or near-term expectations, suggesting that households, businesses, and market participants also believe that current high inflation readings are likely to prove transitory and that, in any case, the Fed will keep inflation close to our 2 percent objective over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2274,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "likely that they",
+      "right_3": "continue to weigh",
+      "sentence": "It seems more likely that they will continue to weigh on inflation as the pandemic passes into history."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2294,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "14 \n\n We",
+      "right_3": "continue to monitor",
+      "sentence": "14  We will continue to monitor incoming inflation data against each of these assessments."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2420,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "Indeed , responding",
+      "right_3": "do more harm",
+      "sentence": "15  Indeed, responding may do more harm than good, particularly in an era where policy rates are much closer to the effective lower bound even in good times."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2452,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "policy on inflation",
+      "right_3": "come after a",
+      "sentence": "The main influence of monetary policy on inflation can come after a lag of a year or more."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2522,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "such a mistake",
+      "right_3": "be particularly harmful",
+      "sentence": "Today, with substantial slack remaining in the labor market and the pandemic continuing, such a mistake could be particularly harmful."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2545,
+      "head_verb_surface": "mean",
+      "head_verb_lemma": "mean",
+      "left_3": "periods of unemployment",
+      "right_3": "mean lasting harm",
+      "sentence": "We know that extended periods of unemployment can mean lasting harm to workers and to the productive capacity of the economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2568,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "that central banks",
+      "right_3": "not take for",
+      "sentence": "16  History also teaches, however, that central banks cannot take for granted that inflation due to transitory factors will fade."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2568,
+      "head_verb_surface": "fade",
+      "head_verb_lemma": "fade",
+      "left_3": "to transitory factors",
+      "right_3": "fade . The",
+      "sentence": "16  History also teaches, however, that central banks cannot take for granted that inflation due to transitory factors will fade."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2715,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "( FOMC )",
+      "right_3": "certainly respond and",
+      "sentence": "If sustained higher inflation were to become a serious concern, the Federal Open Market Committee (FOMC) would certainly respond and use our tools to assure that inflation runs at levels that are consistent with our goal."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2756,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "\n\n Incoming data",
+      "right_3": "provide more evidence",
+      "sentence": "Incoming data should provide more evidence that some of the supplyâdemand imbalances are improving, and more evidence of a continued moderation in inflation, particularly in goods and services prices that have been most affected by the pandemic."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2806,
+      "head_verb_surface": "learning",
+      "head_verb_lemma": "learn",
+      "left_3": ". And we",
+      "right_3": "be learning more",
+      "sentence": "And we will be learning more about the Delta variant's effects."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2916,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "said that we",
+      "right_3": "continue our asset",
+      "sentence": "We have said that we would continue our asset purchases at the current pace until we see substantial further progress toward our maximum employment and price stability goals, measured since last December, when we first articulated this guidance."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2984,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "anticipated , it",
+      "right_3": "be appropriate to",
+      "sentence": "At the FOMC's recent July meeting, I was of the view, as were most participants, that if the economy evolved broadly as anticipated, it could be appropriate to start reducing the pace of asset purchases this year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3055,
+      "head_verb_surface": "assessing",
+      "head_verb_lemma": "assess",
+      "left_3": "variant . We",
+      "right_3": "be carefully assessing",
+      "sentence": "We will be carefully assessing incoming data and the evolving risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3067,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "- term securities",
+      "right_3": "continue to support",
+      "sentence": "Even after our asset purchases end, our elevated holdings of longer-term securities will continue to support accommodative financial conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3091,
+      "head_verb_surface": "intended",
+      "head_verb_lemma": "intend",
+      "left_3": "in asset purchases",
+      "right_3": "not be intended",
+      "sentence": "The timing and pace of the coming reduction in asset purchases will not be intended to carry a direct signal regarding the timing of interest rate liftoff, for which we have articulated a different and substantially more stringent test."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3132,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "said that we",
+      "right_3": "continue to hold",
+      "sentence": "We have said that we will continue to hold the target range for the federal funds rate at its current level until the economy reaches conditions consistent with maximum employment, and inflation has reached 2 percent and is on track to moderately exceed 2 percent for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3182,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": ", and time",
+      "right_3": "tell whether we",
+      "sentence": "We have much ground to cover to reach maximum employment, and time will tell whether we have reached 2 percent inflation on a sustainable basis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3234,
+      "head_verb_surface": "end",
+      "head_verb_lemma": "end",
+      "left_3": ". But I",
+      "right_3": "end on a",
+      "sentence": "But I will end on a positive note."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3243,
+      "head_verb_surface": "deliver",
+      "head_verb_lemma": "deliver",
+      "left_3": "strong labor market",
+      "right_3": "deliver to our",
+      "sentence": "Before the pandemic, we all saw the extraordinary benefits that a strong labor market can deliver to our society."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4124,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "used car prices",
+      "right_3": "begin holding down",
+      "sentence": "Declines in used car prices would begin holding down 12-month inflation once most of the earlier price increases have fallen out of the 12-month window."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4229,
+      "head_verb_surface": "grow",
+      "head_verb_lemma": "grow",
+      "left_3": "constant . Wages",
+      "right_3": "grow slower or",
+      "sentence": "Wages may grow slower or faster than inflation plus productivity growth for extended periods because of changing structural factors without being reflected in inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4254,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "unit labor costs",
+      "right_3": "put upward pressure",
+      "sentence": "Ultimately, however, persistently rising real unit labor costs will put upward pressure on prices."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4278,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "means that it",
+      "right_3": "tend not to",
+      "sentence": "The way the CIE combines the underlying measures means that it will tend not to be affected by underlying movements that are unique to individual measures; the CIE will reflect movements that are more common across underlying measures."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4278,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "; the CIE",
+      "right_3": "reflect movements that",
+      "sentence": "The way the CIE combines the underlying measures means that it will tend not to be affected by underlying movements that are unique to individual measures; the CIE will reflect movements that are more common across underlying measures."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4457,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "now reversing and",
+      "right_3": "give rise to",
+      "sentence": "For an opposing view, see Goodhart and Pradhan (2020), who argue that the globalization and demographic factors that had been fueling global disinflationary forces are now reversing and could give rise to an inflationary period."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4578,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "sources of inflation",
+      "right_3": "cause using two",
+      "sentence": "Bodenstein, Erceg, and Guerrieri (2008) and Mishkin (2007) illustrate the problems that reacting to transitory sources of inflation can cause using two of the Board staff's models."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "As is typically the case, the recovery in employment has lagged that in output; nonetheless, employment gains have also come faster than expected."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "With vaccinations rising, schools reopening, and enhanced unemployment benefits ending, some factors that may be holding back job seekers are likely fading."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "But that concern is tempered by a number of factors that suggest that these elevated readings are likely to prove temporary."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The dynamics of inflation are complex, and we assess the inflation outlook from a number of different perspectives, as I will now discuss."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Energy prices, which rebounded with the strong recovery, added another 0.8 percentage point to headline inflation, and from long experience we expect the inflation effects of these increases to be transitory."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "8  This same dynamic of upward inflation pressure dissipating and, in some cases, reversing seems likely to play out in durables more generally."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "It seems unlikely that durables inflation will continue to contribute importantly over time to overall inflation."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Wages \r We also assess whether wage increases are consistent with 2 percent inflation over time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "But if wage increases were to move materially and persistently above the levels of productivity gains and inflation, businesses would likely pass those increases on to customers, a process that could become the sort of \"wageâprice spiral\" seen at times in the past."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Longer-term inflation expectations \r Policymakers and analysts generally believe that, as long as longer-term inflation expectations remain anchored, policy can and should look through temporary swings in inflation."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Longer-term inflation expectations have moved much less than actual inflation or near-term expectations, suggesting that households, businesses, and market participants also believe that current high inflation readings are likely to prove transitory and that, in any case, the Fed will keep inflation close to our 2 percent objective over time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Longer-term inflation expectations have moved much less than actual inflation or near-term expectations, suggesting that households, businesses, and market participants also believe that current high inflation readings are likely to prove transitory and that, in any case, the Fed will keep inflation close to our 2 percent objective over time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The pattern of low inflation likely reflects sustained disinflationary forces, including technology, globalization and perhaps demographic factors, as well as a stronger and more successful commitment by central banks to maintain price stability."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "The pattern of low inflation likely reflects sustained disinflationary forces, including technology, globalization and perhaps demographic factors, as well as a stronger and more successful commitment by central banks to maintain price stability."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "While the underlying global disinflationary factors are likely to evolve over time, there is little reason to think that they have suddenly reversed or abated."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "It seems more likely that they will continue to weigh on inflation as the pandemic passes into history."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The early days of stabilization policy in the 1950s taught monetary policymakers not to attempt to offset what are likely to be temporary fluctuations in inflation."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "If a central bank tightens policy in response to factors that turn out to be temporary, the main policy effects are likely to arrive after the need has passed."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "One likely contributing factor was that the public had come to generally expect higher inflationâone reason why we now monitor inflation expectations so carefully."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "One likely contributing factor was that the public had come to generally expect higher inflationâone reason why we now monitor inflation expectations so carefully."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "If sustained higher inflation were to become a serious concern, the Federal Open Market Committee (FOMC) would certainly respond and use our tools to assure that inflation runs at levels that are consistent with our goal."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We also expect to see continued strong job creation."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "For now, I believe that policy is well positioned; as always, we are prepared to adjust policy as appropriate to achieve our goals."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "At the FOMC's recent July meeting, I was of the view, as were most participants, that if the economy evolved broadly as anticipated, it could be appropriate to start reducing the pace of asset purchases this year."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We will be carefully assessing incoming data and the evolving risks."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "The lower inflation in durable goods is probably due to a number factors, including faster productivity growth in durable goods than in services and globalization."
+    }
+  ]
+}

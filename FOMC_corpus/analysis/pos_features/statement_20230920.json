@@ -1,0 +1,171 @@
+{
+  "doc_id": "statement_20230920",
+  "doc_type": "statement",
+  "date": "2023-09-20",
+  "chair": "Powell",
+  "n_tokens": 376,
+  "n_sents": 20,
+  "pos_counts": {
+    "NNP": 58,
+    "CD": 15,
+    ",": 18,
+    "VBZ": 10,
+    "JJ": 36,
+    "NN": 66,
+    "IN": 41,
+    "NNS": 28,
+    "VBP": 5,
+    "VBN": 9,
+    "VBG": 7,
+    "DT": 31,
+    ".": 18,
+    "CC": 17,
+    "JJR": 2,
+    "TO": 8,
+    "VB": 17,
+    "RP": 1,
+    "RB": 4,
+    "VBD": 3,
+    "SYM": 4,
+    "MD": 8,
+    "PRP$": 4,
+    "WDT": 3,
+    "HYPH": 1,
+    "POS": 2,
+    ":": 11,
+    "UH": 1,
+    "XX": 1,
+    "-RRB-": 1
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "will": 5,
+    "may": 1,
+    "would": 1,
+    "could": 1
+  },
+  "modals_per_1000": 21.277,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "likely": 1,
+    "uncertain": 1,
+    "assess": 2
+  },
+  "epistemics_per_1000": 10.638,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 154,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The Committee",
+      "right_3": "continue to assess",
+      "sentence": "The Committee will continue to assess additional information and its implications for monetary policy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 169,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "policy firming that",
+      "right_3": "be appropriate to",
+      "sentence": "In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 169,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ", the Committee",
+      "right_3": "take into account",
+      "sentence": "In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 221,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue reducing its",
+      "sentence": "In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 267,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 292,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 292,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 320,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The extent of these effects remains uncertain."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee will continue to assess additional information and its implications for monetary policy."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

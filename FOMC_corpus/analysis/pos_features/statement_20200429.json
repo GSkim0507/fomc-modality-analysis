@@ -1,0 +1,154 @@
+{
+  "doc_id": "statement_20200429",
+  "doc_type": "statement",
+  "date": "2020-04-29",
+  "chair": "Powell",
+  "n_tokens": 445,
+  "n_sents": 16,
+  "pos_counts": {
+    "NNP": 55,
+    "CD": 8,
+    ",": 19,
+    "VBZ": 9,
+    "JJ": 47,
+    "NN": 87,
+    "IN": 45,
+    "DT": 37,
+    "VBN": 10,
+    "VBG": 10,
+    "PRP$": 7,
+    "NNS": 37,
+    "TO": 13,
+    "VB": 20,
+    "RB": 11,
+    "CC": 28,
+    ".": 15,
+    "VBP": 4,
+    "JJR": 3,
+    "RP": 1,
+    "MD": 8,
+    "VBD": 4,
+    "PRP": 1,
+    "HYPH": 2,
+    ":": 9
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "will": 8
+  },
+  "modals_per_1000": 17.978,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "assess": 1
+  },
+  "epistemics_per_1000": 6.742,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 137,
+      "head_verb_surface": "weigh",
+      "head_verb_lemma": "weigh",
+      "left_3": "public health crisis",
+      "right_3": "weigh heavily on",
+      "sentence": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\n\n The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including information related to public health, as well as global developments and muted inflation pressures, and will use its tools and act as appropriate to support the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "pressures , and",
+      "right_3": "use its tools",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including information related to public health, as well as global developments and muted inflation pressures, and will use its tools and act as appropriate to support the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 277,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 316,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 352,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "the Federal Reserve",
+      "right_3": "continue to purchase",
+      "sentence": "To support the flow of credit to households and businesses, the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 403,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "Open Market Desk",
+      "right_3": "continue to offer",
+      "sentence": "In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 424,
+      "head_verb_surface": "monitor",
+      "head_verb_lemma": "monitor",
+      "left_3": ". The Committee",
+      "right_3": "closely monitor market",
+      "sentence": "The Committee will closely monitor market conditions and is prepared to adjust its plans as appropriate."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

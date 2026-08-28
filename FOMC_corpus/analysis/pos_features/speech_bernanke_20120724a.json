@@ -1,0 +1,150 @@
+{
+  "doc_id": "speech_bernanke_20120724a",
+  "doc_type": "speech",
+  "date": "2012-07-24",
+  "chair": "Bernanke",
+  "n_tokens": 1156,
+  "n_sents": 53,
+  "pos_counts": {
+    "NNP": 215,
+    "CD": 49,
+    ",": 106,
+    "JJ": 82,
+    "IN": 151,
+    "DT": 89,
+    "-LRB-": 19,
+    "NN": 171,
+    "-RRB-": 24,
+    "NNS": 94,
+    "XX": 10,
+    "VBP": 38,
+    "SYM": 14,
+    ":": 19,
+    "VBZ": 14,
+    "RB": 35,
+    "CC": 52,
+    "RP": 1,
+    "MD": 5,
+    "VB": 35,
+    "VBN": 17,
+    ".": 51,
+    "PRP": 25,
+    "TO": 13,
+    "PRP$": 11,
+    "VBG": 18,
+    "HYPH": 15,
+    "NNPS": 10,
+    "WRB": 2,
+    "JJR": 7,
+    "WDT": 7,
+    "EX": 1,
+    "POS": 3,
+    "RBR": 5,
+    "JJS": 4,
+    "VBD": 4,
+    "WP": 2,
+    "PDT": 1,
+    "LS": 1,
+    "``": 7,
+    "''": 7
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "may": 1,
+    "can": 3,
+    "will": 1
+  },
+  "modals_per_1000": 4.325,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "seemingly": 1,
+    "likely": 3
+  },
+  "epistemics_per_1000": 3.46,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 108,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 296,
+      "head_verb_surface": "improve",
+      "head_verb_lemma": "improve",
+      "left_3": "\r\n \n\n\r\n  So how",
+      "right_3": "we improve the",
+      "sentence": "So how can we improve the opportunities for all children and give them a chance to succeed in our ever-changing, globalized economy?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 616,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "that early interventions",
+      "right_3": "have a positive",
+      "sentence": "Careful studies demonstrate that early interventions can have a positive effect on young children from low-income families that lasts well into adulthood."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 769,
+      "head_verb_surface": "promise",
+      "head_verb_lemma": "promise",
+      "left_3": "few alternative investments",
+      "right_3": "promise that kind",
+      "sentence": "6   Very few alternative investments can promise that kind of return."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 933,
+      "head_verb_surface": "achieve",
+      "head_verb_lemma": "achieve",
+      "left_3": "I hope we",
+      "right_3": "one day achieve",
+      "sentence": "With your efforts and the efforts of others, I hope we will one day achieve the Children's Defense Fund's goal of a level educational playing field for all children."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "seemingly",
+      "lemma": "seemingly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "In doing so, we try never to forget that these seemingly sterile numbers are, in fact, reflections of the economic aspirations, opportunities, and well-being of millions of Americans."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Neuroscientists observe that if the first few years of a child's life include support for healthy development in families and communities, the child is more likely to succeed in school and to contribute to society as an adult."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Conversely, without support during these early years, a child is ultimately more likely to drop out of school, earn lower wages, depend on government programs, or be incarcerated."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "For example, analysis of one program showed that children who attended a high-quality half-day preschool program at ages 3 and 4 were, at age 40, more economically successful--for example, more likely to own their own homes--than nonparticipants in a control group."
+    }
+  ]
+}

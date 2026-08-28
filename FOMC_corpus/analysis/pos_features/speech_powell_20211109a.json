@@ -1,0 +1,188 @@
+{
+  "doc_id": "speech_powell_20211109a",
+  "doc_type": "speech",
+  "date": "2021-11-09",
+  "chair": "Powell",
+  "n_tokens": 1097,
+  "n_sents": 46,
+  "pos_counts": {
+    "NNP": 72,
+    "CD": 9,
+    ",": 63,
+    "IN": 163,
+    "DT": 118,
+    "CC": 62,
+    "VBN": 16,
+    "NNPS": 2,
+    "-LRB-": 3,
+    "JJ": 82,
+    "-RRB-": 8,
+    "NN": 146,
+    "NNS": 91,
+    "XX": 10,
+    "VBP": 45,
+    "SYM": 8,
+    ":": 5,
+    "VBZ": 12,
+    "RB": 59,
+    "RP": 4,
+    "MD": 9,
+    "VB": 41,
+    ".": 41,
+    "PRP": 46,
+    "TO": 25,
+    "POS": 5,
+    "PRP$": 20,
+    "WDT": 4,
+    "WRB": 8,
+    "VBG": 29,
+    "JJR": 3,
+    "WP": 4,
+    "JJS": 4,
+    "VBD": 14,
+    "RBR": 1,
+    "RBS": 2,
+    "HYPH": 5
+  },
+  "modal_count": 9,
+  "modal_lemma_counts": {
+    "may": 1,
+    "can": 2,
+    "would": 2,
+    "will": 4
+  },
+  "modals_per_1000": 8.204,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "possible": 1,
+    "assess": 2,
+    "perhaps": 1
+  },
+  "epistemics_per_1000": 3.646,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 141,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 275,
+      "head_verb_surface": "gather",
+      "head_verb_lemma": "gather",
+      "left_3": "day when we",
+      "right_3": "gather together again",
+      "sentence": "We are grateful for the time, energy, and insights you have committed to this work, and we look forward to the day when we can gather together again in person."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 310,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "discussions , I",
+      "right_3": "like to touch",
+      "sentence": "To kick off today's discussions, I would like to touch briefly on these subjects from two distinct perspectives."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 331,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "First , I",
+      "right_3": "discuss some of",
+      "sentence": "First, I will discuss some of the ways we at the Federal Reserve approach issues of persistent economic inequities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 352,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": ". Then I",
+      "right_3": "review some of",
+      "sentence": "Then I will review some of how we as central banks are addressing the issues around diversity and inclusion in economics as institutions and employers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 412,
+      "head_verb_surface": "held",
+      "head_verb_lemma": "hold",
+      "left_3": ", not only",
+      "right_3": "they be held",
+      "sentence": "If entrenched inequities prevent some Americans from participating fully in our labor markets, not only will they be held back from opportunities, but our economy overall will not realize its potential."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 412,
+      "head_verb_surface": "realize",
+      "head_verb_lemma": "realize",
+      "left_3": "our economy overall",
+      "right_3": "not realize its",
+      "sentence": "If entrenched inequities prevent some Americans from participating fully in our labor markets, not only will they be held back from opportunities, but our economy overall will not realize its potential."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 897,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "Next , I",
+      "right_3": "like to turn",
+      "sentence": "Diversity in Economics \r Next, I would like to turn to an issue facing many of us at this conferenceânamely, how central banks as institutions and employers grapple with and confront diversity and inclusion within economics."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1073,
+      "head_verb_surface": "feel",
+      "head_verb_lemma": "feel",
+      "left_3": "environment where staff",
+      "right_3": "feel comfortable at",
+      "sentence": "We are working to foster an inclusive workplace environment where staff can feel comfortable at work and to promote a similarly inclusive culture within the profession."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Policymaking \r Taking the first of these topics, we know, of course, that an economy is healthier and stronger when as many people as possible are able to work."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "While monetary policy does not target any particular group of people, when we assess whether we are at maximum employment, we purposely look at a wide range of indicators, and we are attentive to disparities in the labor market, rather than just the headline numbers."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We regularly meet with a broad range of groups as we assess the economy."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Whether you are a researcher bringing your analytical skills to bear, or you are on the front lines of improving the diversity of the economics pipeline, or perhaps you are in an institution where you are redoubling your efforts to attract diverse talent, your endeavors are making a difference."
+    }
+  ]
+}

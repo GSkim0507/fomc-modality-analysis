@@ -1,0 +1,596 @@
+{
+  "doc_id": "speech_yellen_20140501a",
+  "doc_type": "speech",
+  "date": "2014-05-01",
+  "chair": "Yellen",
+  "n_tokens": 3290,
+  "n_sents": 131,
+  "pos_counts": {
+    "NNP": 433,
+    "CD": 91,
+    ",": 182,
+    "IN": 427,
+    "DT": 273,
+    "NNPS": 34,
+    "VBP": 88,
+    "PRP": 75,
+    "VBG": 73,
+    "POS": 9,
+    "NN": 464,
+    ".": 130,
+    "JJ": 238,
+    "TO": 73,
+    "VB": 168,
+    "PRP$": 41,
+    "NNS": 296,
+    "CC": 115,
+    "WRB": 14,
+    "RB": 99,
+    "MD": 43,
+    "VBZ": 49,
+    "VBN": 72,
+    "``": 19,
+    "HYPH": 40,
+    "''": 16,
+    ":": 19,
+    "WDT": 33,
+    "RBR": 12,
+    "VBD": 34,
+    "JJS": 10,
+    "WP": 3,
+    "EX": 1,
+    "-LRB-": 35,
+    "-RRB-": 35,
+    "RP": 1,
+    "RBS": 3,
+    "$": 3,
+    "JJR": 12,
+    "LS": 3,
+    "PDT": 1,
+    "SYM": 7
+  },
+  "modal_count": 43,
+  "modal_lemma_counts": {
+    "will": 14,
+    "may": 8,
+    "must": 3,
+    "can": 5,
+    "would": 4,
+    "should": 6,
+    "could": 2,
+    "might": 1
+  },
+  "modals_per_1000": 13.07,
+  "epistemic_count": 11,
+  "epistemic_lemma_counts": {
+    "believe": 1,
+    "potential": 3,
+    "potentially": 1,
+    "assess": 1,
+    "possible": 3,
+    "expect": 2
+  },
+  "epistemics_per_1000": 3.343,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 83,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "particular , I",
+      "right_3": "discuss steps the",
+      "sentence": "In particular, I will discuss steps the Federal Reserve has taken to address the \"too-big-to-fail\" problem and how these steps affect community banks; I will describe how the Fed strives to improve our understanding of the unique role that community banks play in the economy; and then I'll show how we are using this knowledge to better tailor our supervisory expectations and approaches to communit"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 83,
+      "head_verb_surface": "describe",
+      "head_verb_lemma": "describe",
+      "left_3": "banks ; I",
+      "right_3": "describe how the",
+      "sentence": "In particular, I will discuss steps the Federal Reserve has taken to address the \"too-big-to-fail\" problem and how these steps affect community banks; I will describe how the Fed strives to improve our understanding of the unique role that community banks play in the economy; and then I'll show how we are using this knowledge to better tailor our supervisory expectations and approaches to communit"
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 83,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": "and then I",
+      "right_3": "show how we",
+      "sentence": "In particular, I will discuss steps the Federal Reserve has taken to address the \"too-big-to-fail\" problem and how these steps affect community banks; I will describe how the Fed strives to improve our understanding of the unique role that community banks play in the economy; and then I'll show how we are using this knowledge to better tailor our supervisory expectations and approaches to communit"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 163,
+      "head_verb_surface": "know",
+      "head_verb_lemma": "know",
+      "left_3": "\r\n \n\n\r\n  As you",
+      "right_3": "know , before",
+      "sentence": "As you may know, before I rejoined the Federal Reserve Board as Vice Chair in 2010, I had the privilege of serving for six years as president and chief executive of the Federal Reserve Bank of San Francisco."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 297,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "that the Fed",
+      "right_3": "do what it",
+      "sentence": "During the financial crisis, I saw firsthand the challenges that community banks faced in a crisis they did little to cause, and I have felt strongly ever since that the Fed must do what it can to ensure that the actions taken following the crisis do not place undue burdens on your institutions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 297,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "do what it",
+      "right_3": "to ensure that",
+      "sentence": "During the financial crisis, I saw firsthand the challenges that community banks faced in a crisis they did little to cause, and I have felt strongly ever since that the Fed must do what it can to ensure that the actions taken following the crisis do not place undue burdens on your institutions."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 500,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "expansion in lending",
+      "right_3": "be prudent ,",
+      "sentence": "While this expansion in lending must be prudent, on balance I consider this growth an encouraging sign of an improving economy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 569,
+      "head_verb_surface": "enjoy",
+      "head_verb_lemma": "enjoy",
+      "left_3": "that such firms",
+      "right_3": "enjoy as a",
+      "sentence": "1   Community banks share the interest we all have in reducing the systemic risk posed by firms that are large, complex, and interconnected, and also in reducing any potential competitive advantages that such firms may enjoy as a result of too-big-to-fail."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 622,
+      "head_verb_surface": "fail",
+      "head_verb_lemma": "fail",
+      "left_3": "systemically important firms",
+      "right_3": "fail and the",
+      "sentence": "The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act) addresses the too-big-to-fail issue through steps intended to limit both the likelihood that systemically important firms would fail and the potential damage from any that do."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 810,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "largest banking organizations",
+      "right_3": "have enough capital",
+      "sentence": "CCAR helps ensure that the largest banking organizations will have enough capital to continue operating through times of economic and financial stress."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 834,
+      "head_verb_surface": "apply",
+      "head_verb_lemma": "apply",
+      "left_3": "not , and",
+      "right_3": "not , apply",
+      "sentence": "2   To be clear, as the federal banking agencies have stated previously, these stress testing and capital planning requirements do not, and should not, apply to community banks."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1010,
+      "head_verb_surface": "impose",
+      "head_verb_lemma": "impose",
+      "left_3": "a systemic institution",
+      "right_3": "impose significant costs",
+      "sentence": "Because the failure of a systemic institution could impose significant costs on the financial system and the economy, the Board recently finalized a requirement for the eight large, globally systemic banks to meet a significantly higher leverage requirement than other banking organizations."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1072,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "and , we",
+      "right_3": "continue to watch",
+      "sentence": "We also need to ensure that the new rules are embedded in our supervision of the largest firms; and, we must continue to watch for emerging sources of systemic risk and take steps as appropriate to address these risks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1142,
+      "head_verb_surface": "posed",
+      "head_verb_lemma": "pose",
+      "left_3": "systemic vulnerabilities that",
+      "right_3": "be posed by",
+      "sentence": "5   We are carefully considering the systemic vulnerabilities that may be posed by overreliance on short-term wholesale funding and are weighing potential policy responses."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1170,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". While it",
+      "right_3": "be premature to",
+      "sentence": "While it would be premature to indicate whether or how we might address these vulnerabilities, I can say that few, if any, community banks are reliant on levels of short-term wholesale funding that could raise concerns about systemic risk, and regulators would carefully consider the ramifications of any action, including the effect on community banks."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1170,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "or how we",
+      "right_3": "address these vulnerabilities",
+      "sentence": "While it would be premature to indicate whether or how we might address these vulnerabilities, I can say that few, if any, community banks are reliant on levels of short-term wholesale funding that could raise concerns about systemic risk, and regulators would carefully consider the ramifications of any action, including the effect on community banks."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1170,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "vulnerabilities , I",
+      "right_3": "say that few",
+      "sentence": "While it would be premature to indicate whether or how we might address these vulnerabilities, I can say that few, if any, community banks are reliant on levels of short-term wholesale funding that could raise concerns about systemic risk, and regulators would carefully consider the ramifications of any action, including the effect on community banks."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1170,
+      "head_verb_surface": "raise",
+      "head_verb_lemma": "raise",
+      "left_3": "wholesale funding that",
+      "right_3": "raise concerns about",
+      "sentence": "While it would be premature to indicate whether or how we might address these vulnerabilities, I can say that few, if any, community banks are reliant on levels of short-term wholesale funding that could raise concerns about systemic risk, and regulators would carefully consider the ramifications of any action, including the effect on community banks."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1170,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": ", and regulators",
+      "right_3": "carefully consider the",
+      "sentence": "While it would be premature to indicate whether or how we might address these vulnerabilities, I can say that few, if any, community banks are reliant on levels of short-term wholesale funding that could raise concerns about systemic risk, and regulators would carefully consider the ramifications of any action, including the effect on community banks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1852,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that community bankers",
+      "right_3": "be interested in",
+      "sentence": "12    \r  We are also now using periodic newsletters and other communication tools to highlight information that community bankers may be interested in knowing and to provide information on how examiners will assess compliance with Federal Reserve policies."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1852,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": "on how examiners",
+      "right_3": "assess compliance with",
+      "sentence": "12    \r  We are also now using periodic newsletters and other communication tools to highlight information that community bankers may be interested in knowing and to provide information on how examiners will assess compliance with Federal Reserve policies."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1960,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "discuss how examiners",
+      "right_3": "typically address the",
+      "sentence": "14   These publications highlight key elements of specific supervisory topics and discuss how examiners will typically address the topic."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2056,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "ways that supervision",
+      "right_3": "be smarter ,",
+      "sentence": "At the same time, we are taking a fresh look at how we supervise community banks and possible ways that supervision can be smarter, more nimble, and more effective."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2152,
+      "head_verb_surface": "apply",
+      "head_verb_lemma": "apply",
+      "left_3": "which supervisory policies",
+      "right_3": "apply to community",
+      "sentence": "The first step is taking a disciplined approach to judging which supervisory policies should apply to community banking organizations."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2209,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "cases , it",
+      "right_3": "not make sense",
+      "sentence": "In other cases, it may not make sense to exclude community banking organizations entirely from the scope of a supervisory policy, but we may be able to scale expectations to the size and complexity of the supervisory portfolio, to minimize the burden where possible and appropriate."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2209,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", but we",
+      "right_3": "be able to",
+      "sentence": "In other cases, it may not make sense to exclude community banking organizations entirely from the scope of a supervisory policy, but we may be able to scale expectations to the size and complexity of the supervisory portfolio, to minimize the burden where possible and appropriate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2296,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "in this area",
+      "right_3": "increase costs with",
+      "sentence": "We have heard the concern that overly complex accounting rules in this area would increase costs with little benefit for the users of community bank financial statements."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2324,
+      "head_verb_surface": "implemented",
+      "head_verb_lemma": "implement",
+      "left_3": "reform efforts ,",
+      "right_3": "be implemented in",
+      "sentence": "We are working with the Financial Accounting Standards Board (FASB) to help ensure that the new standard, which is an important component of financial reform efforts, can be implemented in a reasonable and practical way for community banks."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2367,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "that its proposal",
+      "right_3": "not require community",
+      "sentence": "We have stressed to FASB that its proposal should not require community banks to utilize complex modeling processes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2386,
+      "head_verb_surface": "permit",
+      "head_verb_lemma": "permit",
+      "left_3": "a final standard",
+      "right_3": "permit loss -",
+      "sentence": "We expect that a final standard will permit loss-estimation techniques that build upon current credit-risk management techniques used by community banks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2413,
+      "head_verb_surface": "work",
+      "head_verb_lemma": "work",
+      "left_3": "15 \n \n We",
+      "right_3": "work with community",
+      "sentence": "15   We will work with community banks to help implement the new standard when it is final."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2432,
+      "head_verb_surface": "emphasize",
+      "head_verb_lemma": "emphasize",
+      "left_3": "our supervisory guidance",
+      "right_3": "emphasize that regulatory",
+      "sentence": "In addition, our supervisory guidance will emphasize that regulatory expectations for implementation of the standard will differ based on bank size and complexity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2432,
+      "head_verb_surface": "differ",
+      "head_verb_lemma": "differ",
+      "left_3": "of the standard",
+      "right_3": "differ based on",
+      "sentence": "In addition, our supervisory guidance will emphasize that regulatory expectations for implementation of the standard will differ based on bank size and complexity."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2484,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "Reserve System that",
+      "right_3": "allow our examiners",
+      "sentence": "For example, we are currently in the process of developing and adopting common technology tools across the Federal Reserve System that should allow our examiners to more effectively focus their time and enhance the consistency of our examination processes nationwide."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2527,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "community bank examiners",
+      "right_3": "be able to",
+      "sentence": "Furthermore, we are exploring ways that our community bank examiners may be able to complete more examination work off site."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2549,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "files , examiners",
+      "right_3": "be able to",
+      "sentence": "For example, for banks that have electronic loan files, examiners may be able to read these files off site rather than on the bank premises."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2615,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": ". These efforts",
+      "right_3": "reduce the disruption",
+      "sentence": "These efforts should reduce the disruption that an on-site examination can cause to a bank's day-to-day operations."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2615,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "- site examination",
+      "right_3": "cause to a",
+      "sentence": "These efforts should reduce the disruption that an on-site examination can cause to a bank's day-to-day operations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2691,
+      "head_verb_surface": "spend",
+      "head_verb_lemma": "spend",
+      "left_3": "expect that examiners",
+      "right_3": "spend less time",
+      "sentence": "We expect that examiners will spend less time on low-risk compliance issues at community banks, increasing the efficiency of our supervision and reducing regulatory burden on many community banks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2784,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that the subcommittee",
+      "right_3": "continue to play",
+      "sentence": "This subcommittee was formed several years ago under the direction of now former governors Betsy Duke and Sarah Bloom Raskin, and I want to assure you that the subcommittee will continue to play an important role in helping ensure that our supervisory policies make sense for community banks."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2834,
+      "head_verb_surface": "add",
+      "head_verb_lemma": "add",
+      "left_3": "banks . I",
+      "right_3": "also add that",
+      "sentence": "I should also add that we are working closely with our colleagues at the state level to help ensure that our supervisory approaches and methodologies are as consistent as possible."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2866,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that community banks",
+      "right_3": "continue to play",
+      "sentence": "Conclusion    In closing, let me repeat my strong belief that community banks will continue to play an important role in our financial system in the years ahead, serving the credit needs of the communities they are a part of and know so well."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2913,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "The Federal Reserve",
+      "right_3": "continue to promote",
+      "sentence": "The Federal Reserve will continue to promote a stronger and more resilient financial system, while carefully considering the effects of our actions on community banks and tailoring supervision appropriately."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I believe a healthy financial system relies on institutions of different sizes performing a variety of functions and serving different needs."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "1   Community banks share the interest we all have in reducing the systemic risk posed by firms that are large, complex, and interconnected, and also in reducing any potential competitive advantages that such firms may enjoy as a result of too-big-to-fail."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act) addresses the too-big-to-fail issue through steps intended to limit both the likelihood that systemically important firms would fail and the potential damage from any that do."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "One such risk that the Federal Reserve has been monitoring closely is the reliance of some firms on potentially volatile short-term wholesale funding."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "5   We are carefully considering the systemic vulnerabilities that may be posed by overreliance on short-term wholesale funding and are weighing potential policy responses."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "12    \r  We are also now using periodic newsletters and other communication tools to highlight information that community bankers may be interested in knowing and to provide information on how examiners will assess compliance with Federal Reserve policies."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "At the same time, we are taking a fresh look at how we supervise community banks and possible ways that supervision can be smarter, more nimble, and more effective."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In other cases, it may not make sense to exclude community banking organizations entirely from the scope of a supervisory policy, but we may be able to scale expectations to the size and complexity of the supervisory portfolio, to minimize the burden where possible and appropriate."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We expect that a final standard will permit loss-estimation techniques that build upon current credit-risk management techniques used by community banks."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We expect that examiners will spend less time on low-risk compliance issues at community banks, increasing the efficiency of our supervision and reducing regulatory burden on many community banks."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I should also add that we are working closely with our colleagues at the state level to help ensure that our supervisory approaches and methodologies are as consistent as possible."
+    }
+  ]
+}

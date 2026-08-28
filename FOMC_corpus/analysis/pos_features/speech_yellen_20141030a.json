@@ -1,0 +1,194 @@
+{
+  "doc_id": "speech_yellen_20141030a",
+  "doc_type": "speech",
+  "date": "2014-10-30",
+  "chair": "Yellen",
+  "n_tokens": 996,
+  "n_sents": 33,
+  "pos_counts": {
+    "NNP": 60,
+    "CD": 9,
+    ",": 45,
+    "IN": 155,
+    "DT": 123,
+    "NN": 137,
+    "PRP": 32,
+    "VBP": 43,
+    "RB": 31,
+    "JJ": 51,
+    "-LRB-": 1,
+    "-RRB-": 1,
+    "CC": 45,
+    "VBN": 27,
+    "PRP$": 10,
+    ".": 33,
+    "VBG": 30,
+    "TO": 22,
+    "VB": 31,
+    "NNS": 87,
+    "WRB": 12,
+    "MD": 7,
+    "RBR": 9,
+    "VBZ": 29,
+    "JJR": 7,
+    "WP": 7,
+    "POS": 3,
+    "NNPS": 1,
+    "VBD": 12,
+    "EX": 4,
+    "RP": 3,
+    "WDT": 7,
+    "``": 1,
+    "''": 1,
+    ":": 1,
+    "RBS": 1,
+    "JJS": 2
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "will": 2,
+    "might": 2,
+    "may": 1,
+    "could": 2
+  },
+  "modals_per_1000": 7.028,
+  "epistemic_count": 7,
+  "epistemic_lemma_counts": {
+    "believe": 3,
+    "possible": 1,
+    "likely": 1,
+    "certain": 1,
+    "foresee": 1
+  },
+  "epistemics_per_1000": 7.028,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 92,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that the results",
+      "right_3": "be more meaningful",
+      "sentence": "When conducting a survey, economists understand that the results will be more meaningful when the diversity of the sample approaches the diversity of the population being studied."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 604,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "what undergrads who",
+      "right_3": "consider concentrating in",
+      "sentence": "It is worth knowing, for example, what undergrads who might consider concentrating in economics think about the curriculum and the employment prospects for economics majors compared with what those prospects actually are."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 639,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "To what extent",
+      "right_3": "the lack of",
+      "sentence": "To what extent might the lack of diversity among economics majors reflect a more general need to make basic economics more relevant and otherwise appealing to undergrads?"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 763,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the pipeline that",
+      "right_3": "be more noticeable",
+      "sentence": "Do the leaks from the pipeline that may be more noticeable for some groups reflect a broader lack of opportunity in academia?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 893,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "did all they",
+      "right_3": "have to understand",
+      "sentence": "When the public asks whether economists did all they could have to understand those threats, in part they are asking whether our profession did enough over the years to test ideas and assumptions that turned out in some cases to have been mistaken or misplaced."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 986,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that our profession",
+      "right_3": "be able to",
+      "sentence": "When this question is asked again someday, when economics is tested by future challenges, I hope that our profession will be able to say that we have done all we could to attract the best people and the best ideas."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 986,
+      "head_verb_surface": "all",
+      "head_verb_lemma": "all",
+      "left_3": "done all we",
+      "right_3": "to attract the",
+      "sentence": "When this question is asked again someday, when economics is tested by future challenges, I hope that our profession will be able to say that we have done all we could to attract the best people and the best ideas."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I believe decisions by the Federal Reserve Board and the Federal Open Market Committee are better because of the range of views and perspectives brought to the table by my fellow policymakers, and I have encouraged this approach to decisionmaking at all levels and throughout the Fed System."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As an employer, the Fed is very serious about meeting its obligation to provide equal opportunity, and I also believe that diversity makes the Fed more effective in carrying out its mission, for reasons such as the one I mentioned a moment ago."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "But this conference offers an important opportunity to investigate all of the possible factors that influence the extent of diversity among economists at the Federal Reserve and elsewhere, including those factors that are affecting the education and advancement of economists everywhere in the United States."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The AEA has also done important work documenting and investigating the \"leaky pipeline,\" trying to determine why some groups are more likely to abandon economics education and work before, and even after, receiving Ph.D.s."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "In reviewing the data on the representation and advancement of certain groups in the profession, there are differences in outcomes for women and minorities."
+    },
+    {
+      "surface": "foresee",
+      "lemma": "foresee",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "All of you know that there has been a fair amount of public debate in recent years about the health of the economics profession, prompted in part by the failure of many economists to comprehend the dire threats and foresee the damage of the financial crisis."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "That, I believe, is the very worthy goal of this conference, and I look forward to seeing it advanced by today's discussions and by the continuing commitment demonstrated by the AEA to diversity."
+    }
+  ]
+}

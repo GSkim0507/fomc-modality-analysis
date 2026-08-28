@@ -1,0 +1,174 @@
+{
+  "doc_id": "speech_bernanke_20131216a",
+  "doc_type": "speech",
+  "date": "2013-12-16",
+  "chair": "Bernanke",
+  "n_tokens": 1327,
+  "n_sents": 48,
+  "pos_counts": {
+    "NNP": 66,
+    "CD": 20,
+    ",": 82,
+    "IN": 182,
+    "DT": 131,
+    "NN": 210,
+    "VBG": 18,
+    "CC": 56,
+    "VBP": 17,
+    "PRP": 32,
+    ".": 46,
+    "VBD": 48,
+    "VBN": 34,
+    "TO": 33,
+    "VB": 56,
+    "PRP$": 22,
+    "JJ": 176,
+    "RB": 62,
+    "VBZ": 16,
+    "POS": 6,
+    "RBS": 3,
+    "NNS": 94,
+    ":": 7,
+    "RP": 3,
+    "MD": 5,
+    "WDT": 12,
+    "WP": 3,
+    "JJR": 8,
+    "JJS": 2,
+    "WRB": 3,
+    "RBR": 11,
+    "HYPH": 8,
+    "``": 2,
+    "''": 2,
+    "LS": 1,
+    "-LRB-": 2,
+    "XX": 1,
+    "-RRB-": 3
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "will": 2,
+    "can": 2,
+    "would": 1
+  },
+  "modals_per_1000": 3.768,
+  "epistemic_count": 7,
+  "epistemic_lemma_counts": {
+    "possible": 1,
+    "expect": 1,
+    "likely": 3,
+    "certainly": 1,
+    "clearly": 1
+  },
+  "epistemics_per_1000": 5.275,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 116,
+      "head_verb_surface": "offer",
+      "head_verb_lemma": "offer",
+      "left_3": "Nonetheless , I",
+      "right_3": "offer a few",
+      "sentence": "Nonetheless, I will offer a few thoughts on the past very eventful eight years."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1065,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "low as it",
+      "right_3": "practicably go ,",
+      "sentence": "With our short-term policy rate about as low as it can practicably go, we have sought to ease financial conditions further and provide additional impetus to the recovery by communicating both quantitatively about the likely future path of our policy rate and qualitatively about the likely evolution of our balance sheet."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1137,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". And I",
+      "right_3": "be remiss if",
+      "sentence": "And I would be remiss if I did not point out, especially with Paul and Alan here, that the Fed's recent communications innovations owe a great deal to developments like the monetary targeting framework devised under Chairman Volcker and the post-Federal Open Market Committee statement and qualitative forward guidance introduced under Chairman Greenspan."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1265,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "regulatory framework that",
+      "right_3": "help preserve stability",
+      "sentence": "The Federal Reserve found ways to carry out its traditional central bank functions in this environment, and we are working with other policymakers, domestically and internationally, to put in place a strengthened regulatory framework that will help preserve stability in the face of the complexity, interconnectedness, and innovation in our modern financial system."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1362,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ", improved communication",
+      "right_3": "help our policies",
+      "sentence": "As I already noted, improved communication can help our policies work better, whether through the disclosure of bank stress-test results or by helping the public and market participants better understand how monetary policy is likely to evolve."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The first stress tests, in 2009, and the public disclosure of their results made it possible for large U.S. banks to once again attract private capital."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Two years ago, we established 2 percent as our inflation goal, and we regularly communicate policymakers' views of the level of unemployment expected to correspond to maximum sustainable employment over time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "With our short-term policy rate about as low as it can practicably go, we have sought to ease financial conditions further and provide additional impetus to the recovery by communicating both quantitatively about the likely future path of our policy rate and qualitatively about the likely evolution of our balance sheet."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "With our short-term policy rate about as low as it can practicably go, we have sought to ease financial conditions further and provide additional impetus to the recovery by communicating both quantitatively about the likely future path of our policy rate and qualitatively about the likely evolution of our balance sheet."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But, at the same time, the crisis and the deep recession that followed occurred in an economic and financial environment that was certainly different, and in many ways more complex, than in the past."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "One of my personal objectives since I became Chairman has been to increase the transparency of the Fed--to more clearly explain how our policies are intended to work and the thinking behind our decisions."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "As I already noted, improved communication can help our policies work better, whether through the disclosure of bank stress-test results or by helping the public and market participants better understand how monetary policy is likely to evolve."
+    }
+  ]
+}

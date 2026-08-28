@@ -1,0 +1,641 @@
+{
+  "doc_id": "speech_powell_20251014a",
+  "doc_type": "speech",
+  "date": "2025-10-14",
+  "chair": "Powell",
+  "n_tokens": 4453,
+  "n_sents": 206,
+  "pos_counts": {
+    "NNP": 586,
+    "CD": 196,
+    ",": 268,
+    "VBG": 76,
+    "DT": 401,
+    "NN": 707,
+    "IN": 642,
+    "JJ": 314,
+    "VBP": 71,
+    "PRP": 71,
+    "RB": 170,
+    ".": 202,
+    "CC": 130,
+    "VBZ": 67,
+    "TO": 59,
+    "VB": 157,
+    "VBN": 100,
+    "NNS": 320,
+    "PRP$": 83,
+    "RBR": 22,
+    "WRB": 13,
+    "WP": 3,
+    ":": 25,
+    "POS": 24,
+    "VBD": 91,
+    "MD": 44,
+    "JJR": 20,
+    "$": 28,
+    "JJS": 5,
+    "RBS": 3,
+    "-LRB-": 49,
+    "-RRB-": 49,
+    "WDT": 14,
+    "HYPH": 28,
+    "RP": 4,
+    "``": 29,
+    "EX": 2,
+    "NNPS": 36,
+    "XX": 1,
+    "WP$": 1,
+    "LS": 1,
+    "''": 23,
+    "SYM": 1
+  },
+  "modal_count": 44,
+  "modal_lemma_counts": {
+    "may": 4,
+    "will": 17,
+    "can": 3,
+    "would": 10,
+    "could": 6,
+    "should": 3,
+    "might": 1
+  },
+  "modals_per_1000": 9.881,
+  "epistemic_count": 15,
+  "epistemic_lemma_counts": {
+    "expect": 3,
+    "uncertain": 1,
+    "likely": 3,
+    "perhaps": 1,
+    "believe": 1,
+    "clearly": 1,
+    "judge": 2,
+    "potential": 1,
+    "anticipate": 2
+  },
+  "epistemics_per_1000": 3.369,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 140,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "but that comparison",
+      "right_3": "be unfairâto dentists",
+      "sentence": "A colleague recently compared this topic to a trip to the dentist, but that comparison may be unfairâto dentists."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 162,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "Today , I",
+      "right_3": "discuss the essential",
+      "sentence": "1  Today, I will discuss the essential role our balance sheet played during the pandemic, along with some lessons learned."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 186,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": "learned . I",
+      "right_3": "then review our",
+      "sentence": "I will then review our ample reserves implementation framework and the progress we have made toward normalizing the size of our balance sheet."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 210,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": "sheet . I",
+      "right_3": "conclude with some",
+      "sentence": "I will conclude with some brief remarks on the economic outlook."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 345,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": "only the Fed",
+      "right_3": "create them .",
+      "sentence": "Reserves are the safest and most liquid asset in the financial system, and only the Fed can create them."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 906,
+      "head_verb_surface": "withdraw",
+      "head_verb_lemma": "withdraw",
+      "left_3": "that the Fed",
+      "right_3": "not prematurely withdraw",
+      "sentence": "\" 8  That guidance provided assurance that the Fed would not prematurely withdraw support while the economic recovery remained fragile amid unprecedented conditions."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 981,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": "that asset purchases",
+      "right_3": "conclude by mid",
+      "sentence": "At our next meeting in December, we doubled the pace of the taper and said that asset purchases would conclude by mid-March of 2022."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1268,
+      "head_verb_surface": "haveâstopped",
+      "head_verb_lemma": "haveâstopped",
+      "left_3": "hindsight , we",
+      "right_3": "haveâand perhaps should",
+      "sentence": "13  With the clarity of hindsight, we could haveâand perhaps should haveâstopped asset purchases sooner."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1268,
+      "head_verb_surface": "haveâstopped",
+      "head_verb_lemma": "haveâstopped",
+      "left_3": "could haveâand perhaps",
+      "right_3": "haveâstopped asset purchases",
+      "sentence": "13  With the clarity of hindsight, we could haveâand perhaps should haveâstopped asset purchases sooner."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1301,
+      "head_verb_surface": "unwind",
+      "head_verb_lemma": "unwind",
+      "left_3": "knew that we",
+      "right_3": "unwind purchases relatively",
+      "sentence": "We knew that we could unwind purchases relatively quickly once we ended them, which is exactly what we did."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1372,
+      "head_verb_surface": "made",
+      "head_verb_lemma": "make",
+      "left_3": "\n  Stopping sooner",
+      "right_3": "have made some",
+      "sentence": "15  Stopping sooner could have made some difference, but not likely enough to fundamentally alter the trajectory of the economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1395,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "suggest that we",
+      "right_3": "be more nimble",
+      "sentence": "Nonetheless, our experience since 2020 does suggest that we can be more nimble in our use of the balance sheet, and more confident that our communications will foster appropriate expectations among market participants given their growing experience with these tools."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1395,
+      "head_verb_surface": "foster",
+      "head_verb_lemma": "foster",
+      "left_3": "that our communications",
+      "right_3": "foster appropriate expectations",
+      "sentence": "Nonetheless, our experience since 2020 does suggest that we can be more nimble in our use of the balance sheet, and more confident that our communications will foster appropriate expectations among market participants given their growing experience with these tools."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1439,
+      "head_verb_surface": "explained",
+      "head_verb_lemma": "explain",
+      "left_3": "argued that we",
+      "right_3": "have better explained",
+      "sentence": "Some have also argued that we could have better explained the purpose of asset purchases in real time."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1816,
+      "head_verb_surface": "approach",
+      "head_verb_lemma": "approach",
+      "left_3": "19 \n  We",
+      "right_3": "approach that point",
+      "sentence": "19  We may approach that point in coming months, and we are closely monitoring a wide range of indicators to inform this decision."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1899,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "discount window ,",
+      "right_3": "help contain funding",
+      "sentence": "Moreover, the tools of our implementation framework, including the standing repo facility and the discount window, will help contain funding pressures and keep the federal funds rate within our target range through this transition to lower reserve levels."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2078,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "- run composition",
+      "right_3": "be a topic",
+      "sentence": "The longer-run composition will be a topic of Committee discussion."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2091,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "our desired composition",
+      "right_3": "occur gradually and",
+      "sentence": "Transition to our desired composition will occur gradually and predictably, giving market participants time to adjust and minimizing the risk of market disruption."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2272,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "Our net income",
+      "right_3": "soon turn positive",
+      "sentence": "Our net income will soon turn positive again, as it typically has been throughout our history."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2316,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": ", the Fed",
+      "right_3": "lose control over",
+      "sentence": "If our ability to pay interest on reserves and other liabilities were eliminated, the Fed would lose control over rates."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2338,
+      "head_verb_surface": "calibrated",
+      "head_verb_lemma": "calibrate",
+      "left_3": "of monetary policy",
+      "right_3": "no longer be",
+      "sentence": "The stance of monetary policy would no longer be appropriately calibrated to economic conditions and would push the economy away from our employment and price stability goals."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2338,
+      "head_verb_surface": "push",
+      "head_verb_lemma": "push",
+      "left_3": "economic conditions and",
+      "right_3": "push the economy",
+      "sentence": "The stance of monetary policy would no longer be appropriately calibrated to economic conditions and would push the economy away from our employment and price stability goals."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2366,
+      "head_verb_surface": "needed",
+      "head_verb_lemma": "need",
+      "left_3": "period of time",
+      "right_3": "be needed to",
+      "sentence": "To restore rate control, large sales of securities over a short period of time would be needed to shrink our balance sheet and the quantity of reserves in the system."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2398,
+      "head_verb_surface": "strain",
+      "head_verb_lemma": "strain",
+      "left_3": "of these sales",
+      "right_3": "strain Treasury market",
+      "sentence": "The volume and speed of these sales could strain Treasury market functioning and compromise financial stability."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2415,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ". Market participants",
+      "right_3": "need to absorb",
+      "sentence": "Market participants would need to absorb the sales of Treasury securities and agency MBS, which would put upward pressure on the entire yield curve, raising borrowing costs for the Treasury and the private sector."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2415,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "MBS , which",
+      "right_3": "put upward pressure",
+      "sentence": "Market participants would need to absorb the sales of Treasury securities and agency MBS, which would put upward pressure on the entire yield curve, raising borrowing costs for the Treasury and the private sector."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2452,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the banking system",
+      "right_3": "be less resilient",
+      "sentence": "Even after that volatile and disruptive process, the banking system would be less resilient and more vulnerable to liquidity shocks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2500,
+      "head_verb_surface": "close",
+      "head_verb_lemma": "close",
+      "left_3": "Outlook \n\r\n I",
+      "right_3": "close with a",
+      "sentence": "Current Economic Conditions and Monetary Policy Outlook \r I will close with a brief discussion of the economy and the outlook for monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2556,
+      "head_verb_surface": "summarized",
+      "head_verb_lemma": "summarize",
+      "left_3": "insights , which",
+      "right_3": "be summarized in",
+      "sentence": "We also maintain a nationwide network of contacts through the Reserve Banks who provide valuable insights, which will be summarized in tomorrow's Beige Book."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2620,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "in economic activity",
+      "right_3": "be on a",
+      "sentence": "Data available prior to the shutdown, however, show that growth in economic activity may be on a somewhat firmer trajectory than expected."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2907,
+      "head_verb_surface": "stress",
+      "head_verb_lemma": "stress",
+      "left_3": "meeting . I",
+      "right_3": "stress again that",
+      "sentence": "I will stress again that these projections should be understood as representing a range of potential outcomes whose probabilities evolve as new information informs our meeting-by-meeting approach to policymaking."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2907,
+      "head_verb_surface": "understood",
+      "head_verb_lemma": "understand",
+      "left_3": "that these projections",
+      "right_3": "be understood as",
+      "sentence": "I will stress again that these projections should be understood as representing a range of potential outcomes whose probabilities evolve as new information informs our meeting-by-meeting approach to policymaking."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2941,
+      "head_verb_surface": "set",
+      "head_verb_lemma": "set",
+      "left_3": "policymaking . We",
+      "right_3": "set policy based",
+      "sentence": "We will set policy based on the evolution of the economic outlook and the balance of risks, rather than following a predetermined path."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3307,
+      "head_verb_surface": "establish",
+      "head_verb_lemma": "establish",
+      "left_3": "circumstances , we",
+      "right_3": "establish emergency liquidity",
+      "sentence": "In unusual and exigent circumstances, we may establish emergency liquidity facilities, in consultation with the Secretary of the Treasury."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3856,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "suggested the Fed",
+      "right_3": "soon reduce its",
+      "sentence": "The \"taper tantrum\" was a sharp market selloff in 2013 when Chair Ben Bernanke suggested the Fed might soon reduce its asset purchases, causing Treasury yields to spike and triggering volatility in financial markets."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4274,
+      "head_verb_surface": "fall",
+      "head_verb_lemma": "fall",
+      "left_3": "SOMA ) portfolio",
+      "right_3": "ultimately fall by",
+      "sentence": "For example, the median respondents to the Survey of Primary Dealers in June 2022 anticipated that the size of the System Open Market Account (SOMA) portfolio would ultimately fall by more than $2 trillion in less than three years, from its mid-2022 level of $8.5 trillion to $6.25 trillion by 2025:Q1."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4423,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\" \n Fed",
+      "right_3": "Be Sure to",
+      "sentence": "3â26, as well as Donald Kohn (2025), \" Fed Should Be Sure to Include Monetary Policy Tools in Forthcoming Framework Review ,\" Brookings Commentary, January 24."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4615,
+      "head_verb_surface": "evaporate",
+      "head_verb_lemma": "evaporate",
+      "left_3": "financial institutionsâfunding that",
+      "right_3": "rapidly evaporate in",
+      "sentence": "In this scarce regime, banks relied more heavily on unsecured borrowing from other financial institutionsâfunding that can rapidly evaporate in times of stress, as was evident in the GFC."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4767,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", reserve balances",
+      "right_3": "continue to gradually",
+      "sentence": "Once balance sheet runoff has ceased, reserve balances will continue to gradually decline as other Federal Reserve liabilities grow over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4790,
+      "head_verb_surface": "determine",
+      "head_verb_lemma": "determine",
+      "left_3": ", the Committee",
+      "right_3": "determine that reserve",
+      "sentence": "At some point, the Committee will determine that reserve balances have reached an appropriately ample level."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4808,
+      "head_verb_surface": "manage",
+      "head_verb_lemma": "manage",
+      "left_3": ", the Committee",
+      "right_3": "manage securities holdings",
+      "sentence": "Thereafter, the Committee will manage securities holdings as needed to maintain ample reserves over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4832,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "are declining and",
+      "right_3": "continue to do",
+      "sentence": "While reserves appear to remain abundant, they are declining and will continue to do so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4887,
+      "head_verb_surface": "translate",
+      "head_verb_lemma": "translate",
+      "left_3": "our securities holdings",
+      "right_3": "translate more directly",
+      "sentence": "Now, however, balances in that facility have declined to minimal levels, so further declines in our securities holdings will translate more directly into lower reserves."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5011,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": ", the Committee",
+      "right_3": ", at some",
+      "sentence": "As noted in the minutes of the May 2022 FOMC meeting, the Committee could, at some point, consider sales of agency MBS to accelerate progress toward a longer-run SOMA portfolio composed primarily of Treasury securities; see Federal Open Market Committee (2022), \" Minutes of the Federal Open Market Committee (PDF) \" (Washington: FOMC, May 3â4)."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "7  This source of policy accommodation was important as we had lowered the federal funds rate close to zero and expected it to remain there for some time."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In December 2020, as the economic outlook remained highly uncertain, the FOMC said that we expected to maintain that pace of purchases \"until substantial further progress has been made toward the Committee's maximum employment and price stability goals."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In December 2020, as the economic outlook remained highly uncertain, the FOMC said that we expected to maintain that pace of purchases \"until substantial further progress has been made toward the Committee's maximum employment and price stability goals."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "By then, it had become apparent that elevated inflation was not likely to go away without a strong monetary response."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "13  With the clarity of hindsight, we could haveâand perhaps should haveâstopped asset purchases sooner."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "15  Stopping sooner could have made some difference, but not likely enough to fundamentally alter the trajectory of the economy."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "But I believe our statements were reasonably clear about our objectives, which were to support and then sustain smooth market functioning and to help foster accommodative financial conditions."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "We clearly differentiated these financial stability operations from our monetary policy stance."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "18  Our long-stated plan is to stop balance sheet runoff when reserves are somewhat above the level we judge consistent with ample reserve conditions."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Data available prior to the shutdown, however, show that growth in economic activity may be on a somewhat firmer trajectory than expected."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "While the unemployment rate remained low through August, payroll gains have slowed sharply, likely in part due to a decline in labor force growth due to lower immigration and labor force participation."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As a result, we judged it appropriate to take another step toward a more neutral policy stance at our September meeting."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I will stress again that these projections should be understood as representing a range of potential outcomes whose probabilities evolve as new information informs our meeting-by-meeting approach to policymaking."
+    },
+    {
+      "surface": "anticipating",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Even before the taper in purchases was completed in 2022, markets were anticipating the rapid decline in the size of the balance sheet that we subsequently delivered."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "For example, the median respondents to the Survey of Primary Dealers in June 2022 anticipated that the size of the System Open Market Account (SOMA) portfolio would ultimately fall by more than $2 trillion in less than three years, from its mid-2022 level of $8.5 trillion to $6.25 trillion by 2025:Q1."
+    }
+  ]
+}

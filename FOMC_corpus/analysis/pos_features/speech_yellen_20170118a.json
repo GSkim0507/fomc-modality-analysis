@@ -1,0 +1,729 @@
+{
+  "doc_id": "speech_yellen_20170118a",
+  "doc_type": "speech",
+  "date": "2017-01-18",
+  "chair": "Yellen",
+  "n_tokens": 3125,
+  "n_sents": 151,
+  "pos_counts": {
+    "NNP": 62,
+    "CD": 57,
+    ",": 180,
+    "DT": 289,
+    "NNPS": 4,
+    "IN": 372,
+    "CC": 147,
+    "WRB": 23,
+    "PRP": 138,
+    "VBP": 105,
+    "VB": 148,
+    "HYPH": 21,
+    "NN": 521,
+    ":": 29,
+    "JJ": 272,
+    ".": 150,
+    "VBZ": 113,
+    "TO": 63,
+    "RB": 192,
+    "JJS": 11,
+    "NNS": 231,
+    "POS": 11,
+    "JJR": 32,
+    "VBD": 35,
+    "VBN": 58,
+    "PRP$": 60,
+    "VBG": 53,
+    "MD": 54,
+    "WP": 22,
+    "WDT": 22,
+    "RBS": 2,
+    "RP": 9,
+    "RBR": 15,
+    "``": 6,
+    "''": 6,
+    "UH": 2,
+    "EX": 4,
+    "SYM": 3,
+    "PDT": 2,
+    "-RRB-": 1,
+    "LS": 1
+  },
+  "modal_count": 54,
+  "modal_lemma_counts": {
+    "will": 16,
+    "may": 5,
+    "could": 6,
+    "can": 21,
+    "would": 3,
+    "might": 1,
+    "must": 2
+  },
+  "modals_per_1000": 17.28,
+  "epistemic_count": 14,
+  "epistemic_lemma_counts": {
+    "perhaps": 3,
+    "certain": 2,
+    "judge": 1,
+    "expect": 2,
+    "likely": 2,
+    "probably": 3,
+    "uncertain": 1
+  },
+  "epistemics_per_1000": 4.48,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 217,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "This afternoon I",
+      "right_3": "discuss some challenges",
+      "sentence": "This afternoon I will discuss some challenges we've faced in our recent deliberations and may face in the next few years."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 217,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "recent deliberations and",
+      "right_3": "face in the",
+      "sentence": "This afternoon I will discuss some challenges we've faced in our recent deliberations and may face in the next few years."
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 295,
+      "head_verb_surface": "mention",
+      "head_verb_lemma": "mention",
+      "left_3": "responsibilities . I",
+      "right_3": "mention our principal",
+      "sentence": "I'll mention our principal duties and then focus on one--monetary policy, the responsibility that gets the most public attention."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 362,
+      "head_verb_surface": "choke",
+      "head_verb_lemma": "choke",
+      "left_3": "financial crises that",
+      "right_3": "choke off credit",
+      "sentence": "We monitor the financial system as a whole and promote its stability to help avoid financial crises that could choke off credit to consumers and businesses."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 515,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": "But monetary policy",
+      "right_3": "not , by",
+      "sentence": "But monetary policy cannot, by itself, create a healthy economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 529,
+      "head_verb_surface": "educate",
+      "head_verb_lemma": "educate",
+      "left_3": "economy . It",
+      "right_3": "not , for",
+      "sentence": "It cannot, for instance, educate young people, generate technological breakthroughs, make workers and businesses more productive, or address the root causes of inequality."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 585,
+      "head_verb_surface": "influence",
+      "head_verb_lemma": "influence",
+      "left_3": "and borrows --",
+      "right_3": "influence these more",
+      "sentence": "Regulatory policy and fiscal policy--the decisions by the Administration and the Congress about how much and how the government spends, taxes, and borrows--can influence these more fundamental economic pillars."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 622,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "what monetary policy",
+      "right_3": "not do .",
+      "sentence": "I've said what monetary policy cannot do."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 632,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ". But what",
+      "right_3": "it do ?",
+      "sentence": "But what can it do?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 638,
+      "head_verb_surface": "lean",
+      "head_verb_lemma": "lean",
+      "left_3": "do ? It",
+      "right_3": "lean against damaging",
+      "sentence": "It can lean against damaging fluctuations in the economy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 706,
+      "head_verb_surface": "know",
+      "head_verb_lemma": "know",
+      "left_3": ". As you",
+      "right_3": "know , the",
+      "sentence": "As you may know, the interest rate that we target is the federal funds rate, the rate banks charge each other for overnight loans."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 875,
+      "head_verb_surface": "graduated",
+      "head_verb_lemma": "graduate",
+      "left_3": "opportunities . Others",
+      "right_3": "have just graduated",
+      "sentence": "Others may have just graduated and have started looking for a job or have decided to return to working--for instance, when their child starts school."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 973,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Or suitable jobs",
+      "right_3": "be available but",
+      "sentence": "Or suitable jobs may be available but are not close to where they and their families live."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1024,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "of employment that",
+      "right_3": "be sustained in",
+      "sentence": "After taking account of both frictional and structural unemployment, what unemployment rate is roughly equivalent to the maximum level of employment that can be sustained in the longer run?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1055,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "? The rate",
+      "right_3": "change over time",
+      "sentence": "The rate can change over time as the economy evolves, but, for now, many economists, including my colleagues at the Fed and me, judge that it is around 4-3/4 percent."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1419,
+      "head_verb_surface": "feed",
+      "head_verb_lemma": "feed",
+      "left_3": "decades . Deflation",
+      "right_3": "feed on itself",
+      "sentence": "Deflation can feed on itself, leading to economic stagnation or worse."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1445,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". And it",
+      "right_3": "be very hard",
+      "sentence": "And it can be very hard on borrowers, who find themselves repaying their loans with dollars that are worth more than the dollars they originally borrowed."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1473,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": "Great Depression who",
+      "right_3": "n't pay their",
+      "sentence": "I am sure we all remember learning in school about farm families in the Great Depression who couldn't pay their mortgages and lost their homes and their livelihoods when crop prices fell persistently."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2035,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "confidence the economy",
+      "right_3": "continue to improve",
+      "sentence": "It was the second such step--the first came a year earlier--and reflects our confidence the economy will continue to improve."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2061,
+      "head_verb_surface": "love",
+      "head_verb_lemma": "love",
+      "left_3": "many of you",
+      "right_3": "love to know",
+      "sentence": "Now, many of you would love to know exactly when the next rate increase is coming and how high rates will rise."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2061,
+      "head_verb_surface": "rise",
+      "head_verb_lemma": "rise",
+      "left_3": "how high rates",
+      "right_3": "rise . The",
+      "sentence": "Now, many of you would love to know exactly when the next rate increase is coming and how high rates will rise."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 2085,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "is , I",
+      "right_3": "n't tell you",
+      "sentence": "The simple truth is, I can't tell you because it will depend on how the economy actually evolves over coming months."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2085,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "you because it",
+      "right_3": "depend on how",
+      "sentence": "The simple truth is, I can't tell you because it will depend on how the economy actually evolves over coming months."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2109,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "and its path",
+      "right_3": "take surprising twists",
+      "sentence": "The economy is vast and vastly complex, and its path can take surprising twists and turns."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2127,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "What I \n",
+      "right_3": "\n tell you",
+      "sentence": "What I  can  tell you is what we expect--along with a very large caveat that our interest rate expectations will change as our outlook for the economy changes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2127,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "interest rate expectations",
+      "right_3": "change as our",
+      "sentence": "What I  can  tell you is what we expect--along with a very large caveat that our interest rate expectations will change as our outlook for the economy changes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2245,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "our objectives ,",
+      "right_3": "keep the economy",
+      "sentence": "It is the rate that, once the economy has reached our objectives, will keep the economy on an even keel."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2357,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "measures , there",
+      "right_3": "still be some",
+      "sentence": "In addition, inflation is still running below our 2 percent objective, and, by some measures, there may still be some room for progress in the job market."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2422,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "includes people who",
+      "right_3": "like a job",
+      "sentence": "It includes people who would like a job but have been too discouraged to look for one and people who are working part time but would rather work full time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2422,
+      "head_verb_surface": "work",
+      "head_verb_lemma": "work",
+      "left_3": "part time but",
+      "right_3": "rather work full",
+      "sentence": "It includes people who would like a job but have been too discouraged to look for one and people who are working part time but would rather work full time."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2490,
+      "head_verb_surface": "risk",
+      "head_verb_lemma": "risk",
+      "left_3": "the neutral rate",
+      "right_3": "risk a nasty",
+      "sentence": "Waiting too long to begin moving toward the neutral rate could risk a nasty surprise down the road--either too much inflation, financial instability, or both."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2520,
+      "head_verb_surface": "forced",
+      "head_verb_lemma": "force",
+      "left_3": "scenario , we",
+      "right_3": "be forced to",
+      "sentence": "In that scenario, we could be forced to raise interest rates rapidly, which in turn could push the economy into a new recession."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2520,
+      "head_verb_surface": "push",
+      "head_verb_lemma": "push",
+      "left_3": "which in turn",
+      "right_3": "push the economy",
+      "sentence": "In that scenario, we could be forced to raise interest rates rapidly, which in turn could push the economy into a new recession."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2688,
+      "head_verb_surface": "double",
+      "head_verb_lemma": "double",
+      "left_3": "standard of living",
+      "right_3": "double roughly every",
+      "sentence": "With productivity growth of 2 percent a year, the average standard of living will double roughly every 35 years."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2709,
+      "head_verb_surface": "hope",
+      "head_verb_lemma": "hope",
+      "left_3": "means our children",
+      "right_3": "reasonably hope to",
+      "sentence": "That means our children can reasonably hope to be better off economically than we are now."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2726,
+      "head_verb_surface": "double",
+      "head_verb_lemma": "double",
+      "left_3": "standard of living",
+      "right_3": "double only every",
+      "sentence": "But productivity growth of 1 percent a year means the average standard of living will double only every 70 years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2824,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "to which they",
+      "right_3": "continue to do",
+      "sentence": "While each of these factors has likely played a role in slowing productivity growth, the extent to which they will continue to do so is an open question."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2874,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "are stable ,",
+      "right_3": "be significantly slower",
+      "sentence": "First, it implies that the economy's usual rate of output growth, when employment is at its maximum and prices are stable, will be significantly slower than the post-World War II average."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2912,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": ", implies businesses",
+      "right_3": "see less need",
+      "sentence": "Slower economic growth, in turn, implies businesses will see less need to invest in expansion."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2930,
+      "head_verb_surface": "feel",
+      "head_verb_lemma": "feel",
+      "left_3": "families and individuals",
+      "right_3": "feel the need",
+      "sentence": "And it implies families and individuals will feel the need to save more and spend less."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 2980,
+      "head_verb_surface": "measure",
+      "head_verb_lemma": "measure",
+      "left_3": ". Although we",
+      "right_3": "n't directly measure",
+      "sentence": "Although we can't directly measure the neutral interest rate, it is something that can be estimated in retrospect."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2980,
+      "head_verb_surface": "estimated",
+      "head_verb_lemma": "estimate",
+      "left_3": "is something that",
+      "right_3": "be estimated in",
+      "sentence": "Although we can't directly measure the neutral interest rate, it is something that can be estimated in retrospect."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3051,
+      "head_verb_surface": "thinking",
+      "head_verb_lemma": "think",
+      "left_3": ". \n\n You",
+      "right_3": "be thinking ,",
+      "sentence": "You might be thinking, what does this discussion of rather esoteric concepts such as the neutral rate mean to me?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3073,
+      "head_verb_surface": "creep",
+      "head_verb_lemma": "creep",
+      "left_3": "credit card likely",
+      "right_3": "creep higher ,",
+      "sentence": "If you are a borrower, it means that, although the interest rates you pay on, say, your auto loan or mortgage or credit card likely will creep higher, they probably will not increase dramatically."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3073,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": ", they probably",
+      "right_3": "not increase dramatically",
+      "sentence": "If you are a borrower, it means that, although the interest rates you pay on, say, your auto loan or mortgage or credit card likely will creep higher, they probably will not increase dramatically."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3113,
+      "head_verb_surface": "inch",
+      "head_verb_lemma": "inch",
+      "left_3": "rates you earn",
+      "right_3": "inch higher after",
+      "sentence": "Likewise, if you are a saver, the rates you earn could inch higher after a while, but probably not by a lot."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 3167,
+      "head_verb_surface": "emphasize",
+      "head_verb_lemma": "emphasize",
+      "left_3": "rates . I",
+      "right_3": "n't emphasize strongly",
+      "sentence": "I can't emphasize strongly enough, though, that we are not trying to help one of those groups at the expense of the other."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 3255,
+      "head_verb_surface": "set",
+      "head_verb_lemma": "set",
+      "left_3": "house : You",
+      "right_3": "n't just set",
+      "sentence": "Figuring out what the neutral interest rate is and setting the right path toward it is not like setting the thermostat in a house: You can't just set the temperature at 68 degrees and walk away."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3294,
+      "head_verb_surface": "base",
+      "head_verb_lemma": "base",
+      "left_3": "sometimes , we",
+      "right_3": "base our decisions",
+      "sentence": "And, because changes in monetary policy affect the economy with long lags sometimes, we must base our decisions on our best forecasts of an uncertain future."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3323,
+      "head_verb_surface": "reassess",
+      "head_verb_lemma": "reassess",
+      "left_3": "Thus , we",
+      "right_3": "continually reassess and",
+      "sentence": "Thus, we must continually reassess and adjust our policies based on what we learn."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3380,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "pressures so we",
+      "right_3": "focus on what",
+      "sentence": "The structure established for the Federal Reserve back then intentionally insulates us from short-term political pressures so we can focus on what's best for the American economy in the longer run."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3415,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "available , we",
+      "right_3": "do just that",
+      "sentence": "I promise you, with the sometimes imperfect information and evidence we have available, we will do just that by making the best decisions we can, as objectively as we can."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3415,
+      "head_verb_surface": "decisions",
+      "head_verb_lemma": "decision",
+      "left_3": "best decisions we",
+      "right_3": ", as objectively",
+      "sentence": "I promise you, with the sometimes imperfect information and evidence we have available, we will do just that by making the best decisions we can, as objectively as we can."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3415,
+      "head_verb_surface": "objectively",
+      "head_verb_lemma": "objectively",
+      "left_3": "objectively as we",
+      "right_3": ". \n\n Thank",
+      "sentence": "I promise you, with the sometimes imperfect information and evidence we have available, we will do just that by making the best decisions we can, as objectively as we can."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Perhaps because of our shared origins in the Progressive Era, a period of reform in American life, we hold certain values in common."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Perhaps because of our shared origins in the Progressive Era, a period of reform in American life, we hold certain values in common."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Perhaps, though, it is best to start by stepping back and asking, what is--and, importantly, what isn't--our job as the nation's central bank?"
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "There are always a certain number of people who are temporarily between jobs after having recently lost a job or having left one voluntarily to pursue better opportunities."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Sometimes people are ready and willing to work, but their skills, perhaps because of technological advances, are not a good fit for the jobs that are available."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The rate can change over time as the economy evolves, but, for now, many economists, including my colleagues at the Fed and me, judge that it is around 4-3/4 percent."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "What I  can  tell you is what we expect--along with a very large caveat that our interest rate expectations will change as our outlook for the economy changes."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "That said, as of last month, I and most of my colleagues--the other members of the Fed Board in Washington and the presidents of the 12 regional Federal Reserve Banks--were expecting to increase our federal funds rate target a few times a year until, by the end of 2019, it is close to our estimate of its longer-run neutral rate of 3 percent."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "While each of these factors has likely played a role in slowing productivity growth, the extent to which they will continue to do so is an open question."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "And, as we have increasingly realized, it has probably been trending down for a while now."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "If you are a borrower, it means that, although the interest rates you pay on, say, your auto loan or mortgage or credit card likely will creep higher, they probably will not increase dramatically."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "If you are a borrower, it means that, although the interest rates you pay on, say, your auto loan or mortgage or credit card likely will creep higher, they probably will not increase dramatically."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Likewise, if you are a saver, the rates you earn could inch higher after a while, but probably not by a lot."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And, because changes in monetary policy affect the economy with long lags sometimes, we must base our decisions on our best forecasts of an uncertain future."
+    }
+  ]
+}

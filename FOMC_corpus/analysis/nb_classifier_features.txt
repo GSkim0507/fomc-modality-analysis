@@ -1,0 +1,32 @@
+NLTK NaiveBayesClassifier — FOMC Statement hawkish vs dovish
+================================================================
+corpus: 28 labeled FOMC Statements
+  hawkish = 16
+  dovish  = 12
+feature set (symmetric difference of top-500 FreqDist): 180
+train/test split: 22/6
+train accuracy = 0.864
+test  accuracy = 1.000
+
+Most informative features (수업 9강 패턴):
+Most Informative Features
+         contains(lower) = True           dovish : hawkis =      6.1 : 1.0
+         contains(about) = True           dovish : hawkis =      3.3 : 1.0
+         contains(lower) = False          hawkis : dovish =      2.6 : 1.0
+      contains(although) = True           dovish : hawkis =      2.3 : 1.0
+       contains(exports) = True           dovish : hawkis =      2.3 : 1.0
+         contains(first) = True           dovish : hawkis =      2.3 : 1.0
+       contains(quarter) = True           dovish : hawkis =      2.3 : 1.0
+       contains(running) = True           dovish : hawkis =      2.3 : 1.0
+         contains(muted) = False          hawkis : dovish =      1.8 : 1.0
+     contains(achieving) = True           hawkis : dovish =      1.7 : 1.0
+       contains(collins) = True           hawkis : dovish =      1.7 : 1.0
+         contains(susan) = True           hawkis : dovish =      1.7 : 1.0
+    contains(imbalances) = False          dovish : hawkis =      1.6 : 1.0
+      contains(pandemic) = False          dovish : hawkis =      1.6 : 1.0
+        contains(robust) = False          dovish : hawkis =      1.6 : 1.0
+        contains(supply) = False          dovish : hawkis =      1.6 : 1.0
+           contains(act) = False          hawkis : dovish =      1.5 : 1.0
+       contains(sustain) = False          hawkis : dovish =      1.5 : 1.0
+       contains(appears) = True           dovish : hawkis =      1.4 : 1.0
+          contains(down) = True           dovish : hawkis =      1.4 : 1.0

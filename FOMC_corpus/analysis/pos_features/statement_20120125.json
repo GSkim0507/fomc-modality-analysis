@@ -1,0 +1,148 @@
+{
+  "doc_id": "statement_20120125",
+  "doc_type": "statement",
+  "date": "2012-01-25",
+  "chair": "Bernanke",
+  "n_tokens": 436,
+  "n_sents": 15,
+  "pos_counts": {
+    "NNP": 54,
+    "CD": 5,
+    ",": 15,
+    "VBZ": 18,
+    "JJ": 47,
+    "NN": 70,
+    "IN": 59,
+    "VBD": 7,
+    "DT": 37,
+    "VBN": 11,
+    "VBG": 12,
+    "RB": 11,
+    ".": 15,
+    "NNS": 31,
+    "VBP": 5,
+    "TO": 17,
+    "VB": 20,
+    "CC": 14,
+    "JJR": 3,
+    "HYPH": 3,
+    "PRP$": 7,
+    "MD": 3,
+    "WDT": 2,
+    "POS": 1,
+    ":": 11,
+    "JJS": 1,
+    "WP": 1
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "will": 3
+  },
+  "modals_per_1000": 6.881,
+  "epistemic_count": 8,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "anticipate": 3,
+    "judge": 1,
+    "likely": 2
+  },
+  "epistemics_per_1000": 18.349,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 122,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "the unemployment rate",
+      "right_3": "decline only gradually",
+      "sentence": "The Committee expects economic growth over coming quarters to be modest and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 174,
+      "head_verb_surface": "run",
+      "head_verb_lemma": "run",
+      "left_3": "quarters , inflation",
+      "right_3": "run at levels",
+      "sentence": "The Committee also anticipates that over coming quarters, inflation will run at levels at or below those consistent with the Committee's dual mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 367,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": ". The Committee",
+      "right_3": "regularly review the",
+      "sentence": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate to promote a stronger economic recovery in a context of price stability."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects economic growth over coming quarters to be modest and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects economic growth over coming quarters to be modest and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee expects economic growth over coming quarters to be modest and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee also anticipates that over coming quarters, inflation will run at levels at or below those consistent with the Committee's dual mandate."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "To support a stronger economic recovery and to help ensure that inflation, over time, is at levels consistent with the dual mandate, the Committee expects to maintain a highly accommodative stance for monetary policy."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In particular, the Committee decided today to keep the target range for the federal funds rate at 0 to 1/4 percent and currently anticipates that economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In particular, the Committee decided today to keep the target range for the federal funds rate at 0 to 1/4 percent and currently anticipates that economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Voting against the action was Jeffrey M. Lacker, who preferred to omit the description of the time period over which economic conditions are likely to warrant exceptionally low levels of the federal funds rate."
+    }
+  ]
+}

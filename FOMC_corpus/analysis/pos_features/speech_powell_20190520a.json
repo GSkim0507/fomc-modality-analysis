@@ -1,0 +1,644 @@
+{
+  "doc_id": "speech_powell_20190520a",
+  "doc_type": "speech",
+  "date": "2019-05-20",
+  "chair": "Powell",
+  "n_tokens": 3462,
+  "n_sents": 186,
+  "pos_counts": {
+    "NNP": 318,
+    "CD": 71,
+    ",": 226,
+    "CC": 140,
+    "PRP$": 38,
+    "IN": 447,
+    "``": 14,
+    "VBG": 82,
+    "DT": 308,
+    ":": 25,
+    "WP": 5,
+    "VBZ": 81,
+    "JJ": 336,
+    "NN": 547,
+    "NNPS": 19,
+    "VBN": 82,
+    "PRP": 58,
+    "TO": 44,
+    "VB": 113,
+    "RB": 164,
+    "POS": 4,
+    ".": 185,
+    "NNS": 347,
+    "VBP": 110,
+    "VBD": 26,
+    "MD": 38,
+    "''": 14,
+    "WDT": 18,
+    "JJR": 24,
+    "-LRB-": 44,
+    "-RRB-": 44,
+    "RBR": 14,
+    "RBS": 8,
+    "HYPH": 43,
+    "EX": 5,
+    "PDT": 1,
+    "JJS": 5,
+    "$": 3,
+    "RP": 6,
+    "WRB": 8,
+    "LS": 2,
+    "WP$": 1,
+    "SYM": 2
+  },
+  "modal_count": 38,
+  "modal_lemma_counts": {
+    "will": 6,
+    "would": 6,
+    "should": 4,
+    "could": 11,
+    "may": 3,
+    "can": 6,
+    "might": 2
+  },
+  "modals_per_1000": 10.976,
+  "epistemic_count": 23,
+  "epistemic_lemma_counts": {
+    "likely": 2,
+    "certainly": 2,
+    "assess": 6,
+    "potential": 7,
+    "possible": 3,
+    "clearly": 1,
+    "expect": 1,
+    "potentially": 1
+  },
+  "epistemics_per_1000": 6.644,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 123,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "evening , I",
+      "right_3": "focus on the",
+      "sentence": "This evening, I will focus on the implications of the increase in business debt over the past decade and review the steps the Federal Reserve and other agencies are taking to understand and limit the associated risks."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 208,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "financial system that",
+      "right_3": "lead to broad",
+      "sentence": "To preview my conclusions, as of now, business debt does not present the kind of elevated risks to the stability of the financial system that would lead to broad harm to households and businesses should conditions deteriorate."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 208,
+      "head_verb_surface": "deteriorate",
+      "head_verb_lemma": "deteriorate",
+      "left_3": "households and businesses",
+      "right_3": "conditions deteriorate .",
+      "sentence": "To preview my conclusions, as of now, business debt does not present the kind of elevated risks to the stability of the financial system that would lead to broad harm to households and businesses should conditions deteriorate."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 248,
+      "head_verb_surface": "stress",
+      "head_verb_lemma": "stress",
+      "left_3": "of debt certainly",
+      "right_3": "stress borrowers if",
+      "sentence": "At the same time, the level of debt certainly could stress borrowers if the economy weakens."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 440,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "a level that",
+      "right_3": "give businesses and",
+      "sentence": "Business debt has clearly reached a level that should give businesses and investors reason to pause and reflect."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 459,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "overly indebted firms",
+      "right_3": "well face severe",
+      "sentence": "If financial and economic conditions were to deteriorate, overly indebted firms could well face severe strains."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 591,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "bubble . \n\n",
+      "right_3": "the increase in",
+      "sentence": "Could the increase in business debt pose greater risks to the financial system than currently appreciated?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 899,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": ", some firms",
+      "right_3": "face challenges .",
+      "sentence": "But if a downturn were to arrive unexpectedly, some firms would face challenges."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 964,
+      "head_verb_surface": "downgraded",
+      "head_verb_lemma": "downgrade",
+      "left_3": "of these borrowers",
+      "right_3": "be downgraded into",
+      "sentence": "In a downturn, some of these borrowers could be downgraded into high-yield territory, which would require some investors to sell their holdings, thereby confronting traditional high-yield investors with a sudden influx of bonds."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 964,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "territory , which",
+      "right_3": "require some investors",
+      "sentence": "In a downturn, some of these borrowers could be downgraded into high-yield territory, which would require some investors to sell their holdings, thereby confronting traditional high-yield investors with a sudden influx of bonds."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1155,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "to protect lenders",
+      "right_3": "be an endangered",
+      "sentence": "With leveraged loans, covenants intended to protect lenders may be an endangered species; more loans now feature high debt-to-earnings ratios; and the use of optimistic projections including \"earnings add-backs\" is becoming more common."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1320,
+      "head_verb_surface": "react",
+      "head_verb_lemma": "react",
+      "left_3": "result , investors",
+      "right_3": "react to financial",
+      "sentence": "As a result, investors may react to financial stress by trying to redeem their shares before the funds have sold their most liquid assets."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1346,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "in turn ,",
+      "right_3": "lead to widespread",
+      "sentence": "Widespread redemptions by investors, in turn, could lead to widespread price pressures, which could affect all holders of loans, including CLOs and those that hold CLOs."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1346,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "pressures , which",
+      "right_3": "affect all holders",
+      "sentence": "Widespread redemptions by investors, in turn, could lead to widespread price pressures, which could affect all holders of loans, including CLOs and those that hold CLOs."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1378,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "\n\r\n As you",
+      "right_3": "see , there",
+      "sentence": "Risks to Financial Stability: Using the Framework Deployed since the Crisis \r As you can see, there are similarities to the subprime mortgage crisis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1592,
+      "head_verb_surface": "forced",
+      "head_verb_lemma": "force",
+      "left_3": "much , they",
+      "right_3": "be forced to",
+      "sentence": "If households or businesses have borrowed too much, they will be forced to cut back spending and investing or even default if their incomes fall or the value of the collateral backing their loans declines."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1629,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": "appetite and ,",
+      "right_3": "investors lose that",
+      "sentence": "Valuation pressures give us a sense of overall risk appetite and, should investors lose that appetite, how far prices could fall."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1629,
+      "head_verb_surface": "fall",
+      "head_verb_lemma": "fall",
+      "left_3": "how far prices",
+      "right_3": "fall . If",
+      "sentence": "Valuation pressures give us a sense of overall risk appetite and, should investors lose that appetite, how far prices could fall."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1671,
+      "head_verb_surface": "cut",
+      "head_verb_lemma": "cut",
+      "left_3": "best , they",
+      "right_3": "cut back on",
+      "sentence": "At best, they will cut back on lending to other borrowers, dragging the economy down."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1689,
+      "head_verb_surface": "fail",
+      "head_verb_lemma": "fail",
+      "left_3": "worst , they",
+      "right_3": "fail , which",
+      "sentence": "At worst, they will fail, which can lead to severe economic damage to households and businesses."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1689,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "fail , which",
+      "right_3": "lead to severe",
+      "sentence": "At worst, they will fail, which can lead to severe economic damage to households and businesses."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2193,
+      "head_verb_surface": "expected",
+      "head_verb_lemma": "expect",
+      "left_3": "strong risk appetiteâas",
+      "right_3": "be expected given",
+      "sentence": "All of these developments point to strong risk appetiteâas might be expected given the strong economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2240,
+      "head_verb_surface": "undermine",
+      "head_verb_lemma": "undermine",
+      "left_3": ", whose collapse",
+      "right_3": "undermine collateral values",
+      "sentence": "While borrowing by businesses has been strong, it is not fueling excessive prices or investment in a critical sector such as housing, whose collapse would undermine collateral values and lead to outsized losses."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2486,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "the largest banks",
+      "right_3": "remain above the",
+      "sentence": "The most recent stress tests indicate that, even after the losses from the scenario, capital levels at the largest banks would remain above the levels those banks had before the crisis."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2628,
+      "head_verb_surface": "force",
+      "head_verb_lemma": "force",
+      "left_3": ", so they",
+      "right_3": "not , through",
+      "sentence": "And CLOs, which have facilitated the growth of leveraged loans, have stable funding: Investors commit funds for lengthy periods, so they cannot, through withdrawals, force CLOs to sell assets at distressed prices."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2729,
+      "head_verb_surface": "learn",
+      "head_verb_lemma": "learn",
+      "left_3": "still . We",
+      "right_3": "always learn more",
+      "sentence": "We can always learn more about financial markets, and we will always act to address emerging risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2729,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": ", and we",
+      "right_3": "always act to",
+      "sentence": "We can always learn more about financial markets, and we will always act to address emerging risks."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2833,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "together so we",
+      "right_3": "collectively see that",
+      "sentence": "We recognize that each regulator directly sees only a part of the larger picture, and we are working to stitch these parts together so we can collectively see that larger picture and the risks it holds."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2920,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", but this",
+      "right_3": "be just a",
+      "sentence": "Business debt growth has moderated somewhat since early 2018, but this might be just a pause."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2938,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "strong fundamentals ,",
+      "right_3": "increase vulnerabilities appreciably",
+      "sentence": "Another sharp increase in debt, unless supported by strong fundamentals, could increase vulnerabilities appreciably."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2955,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "on these vulnerabilitiesâas",
+      "right_3": "the Federal Reserve",
+      "sentence": "Businesses, investors, and lenders need to focus on these vulnerabilitiesâas will the Federal Reserve."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2973,
+      "head_verb_surface": "benefit",
+      "head_verb_lemma": "benefit",
+      "left_3": "around the world",
+      "right_3": "benefit greatly from",
+      "sentence": "In addition, regulators, investors, and market participants around the world would benefit greatly from more information on who is bearing the ultimate risk associated with CLOs."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3053,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "downturn institutions anywhere",
+      "right_3": "find themselves under",
+      "sentence": "That is certainly good news for domestic banks, but in a downturn institutions anywhere could find themselves under pressure, especially those with inadequate loss-absorbing capacity or runnable short-term financing."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3284,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": ", some businesses",
+      "right_3": "come under severe",
+      "sentence": "As a result, some businesses may come under severe financial strain if the economy deteriorates."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3301,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "leveraged business sector",
+      "right_3": "amplify any economic",
+      "sentence": "A highly leveraged business sector could amplify any economic downturn as companies are forced to lay off workers and cut back on investments."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3432,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Third , we",
+      "right_3": "not be satisfied",
+      "sentence": "Third, we cannot be satisfied with our current level of knowledge about these markets, particularly the vulnerability of financial institutions to potential losses and the possible strains on market liquidity and prices should investors exit investment vehicles holding leveraged loans."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3432,
+      "head_verb_surface": "vehicles",
+      "head_verb_lemma": "vehicle",
+      "left_3": "liquidity and prices",
+      "right_3": "investors exit investment",
+      "sentence": "Third, we cannot be satisfied with our current level of knowledge about these markets, particularly the vulnerability of financial institutions to potential losses and the possible strains on market liquidity and prices should investors exit investment vehicles holding leveraged loans."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3490,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "how their behavior",
+      "right_3": "potentially amplify stress",
+      "sentence": "This commitment includes coordination with other domestic and international agencies to understand who is participating in business lending and how their behavior could potentially amplify stress events."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "At the moment, the truth is likely somewhere in the middle."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "At the same time, the level of debt certainly could stress borrowers if the economy weakens."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Federal Reserve continues to assess the potential amplification of such stresses on borrowers to the broader economy through possible vulnerabilities in the financial system, and I currently see such risks as moderate."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The Federal Reserve continues to assess the potential amplification of such stresses on borrowers to the broader economy through possible vulnerabilities in the financial system, and I currently see such risks as moderate."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The Federal Reserve continues to assess the potential amplification of such stresses on borrowers to the broader economy through possible vulnerabilities in the financial system, and I currently see such risks as moderate."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Business debt has clearly reached a level that should give businesses and investors reason to pause and reflect."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Most importantly, the financial system today appears strong enough to handle potential business-sector losses, which was manifestly not the case a decade ago with subprime mortgages."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We are also taking multiple steps to better understand and address the potential risks."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In conjunction with other U.S. regulatory agencies, both domestically through the Financial Stability Oversight Council (FSOC) and internationally through the Financial Stability Board (FSB), we are monitoring developments, assessing unknowns, and working to develop a clearer picture."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "As with the mortgage boom, the business debt story begins with rapid growth of debt to new highs and a surge in lending to risky borrowers made possible by aggressive underwriting using securitization vehicles."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Board of Governors meets at least four times a year to assess threats to the financial system and is constantly monitoring developments."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We use a checklist of potential financial vulnerabilities that we have described elsewhere, most recently in the  Financial Stability Report  we published earlier this month."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing financial stability risks, we constantly consult our four-point checklist: borrowing by businesses and households, valuation pressures, leverage in the financial system, and funding risk."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "All of these developments point to strong risk appetiteâas might be expected given the strong economy."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In the pre-crisis environment, supervisors focused more on the most likely outcomes, not on these tail risks."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We take the risks from business debt seriously but think that the financial system appears strong enough to handle potential losses."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "That is certainly good news for domestic banks, but in a downturn institutions anywhere could find themselves under pressure, especially those with inadequate loss-absorbing capacity or runnable short-term financing."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "To complement the quantitative analysis in our stress tests, our supervisors have been qualitatively assessing how well banks are managing the risks associated with leveraged lending."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Third, we cannot be satisfied with our current level of knowledge about these markets, particularly the vulnerability of financial institutions to potential losses and the possible strains on market liquidity and prices should investors exit investment vehicles holding leveraged loans."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Third, we cannot be satisfied with our current level of knowledge about these markets, particularly the vulnerability of financial institutions to potential losses and the possible strains on market liquidity and prices should investors exit investment vehicles holding leveraged loans."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "This commitment includes coordination with other domestic and international agencies to understand who is participating in business lending and how their behavior could potentially amplify stress events."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Assessing the Macroeconomic Impact of the Transition to Stronger Capital and Liquidity Requirements  (final report) (PDF) ."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For research on the role of credit, house prices, and other factors as indicators for potential financial instability, see Borio and Lowe (2002); Schularick and Taylor (2012); Jordà, Schularick, and Taylor (2016); and Kiley (2018)."
+    }
+  ]
+}

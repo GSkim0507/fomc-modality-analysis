@@ -1,0 +1,649 @@
+{
+  "doc_id": "speech_powell_20190823a",
+  "doc_type": "speech",
+  "date": "2019-08-23",
+  "chair": "Powell",
+  "n_tokens": 4160,
+  "n_sents": 217,
+  "pos_counts": {
+    "NNP": 411,
+    "CD": 154,
+    ",": 265,
+    "NNS": 238,
+    "IN": 573,
+    "DT": 446,
+    "``": 29,
+    "NNPS": 17,
+    "''": 26,
+    "NN": 714,
+    "VBN": 107,
+    "POS": 11,
+    "VBZ": 81,
+    "CC": 157,
+    "VBP": 89,
+    "PRP$": 42,
+    "TO": 64,
+    "VB": 144,
+    "JJ": 361,
+    ".": 215,
+    "RB": 142,
+    "PRP": 87,
+    "MD": 44,
+    "WRB": 14,
+    "VBG": 102,
+    "JJS": 11,
+    "HYPH": 24,
+    "JJR": 26,
+    "VBD": 79,
+    "WP": 10,
+    ":": 14,
+    "WDT": 24,
+    "RBR": 9,
+    "-LRB-": 48,
+    "-RRB-": 48,
+    "RP": 8,
+    "LS": 2,
+    "NFP": 5,
+    "RBS": 5,
+    "PDT": 1,
+    "EX": 2,
+    "SYM": 1,
+    "XX": 1
+  },
+  "modal_count": 44,
+  "modal_lemma_counts": {
+    "will": 15,
+    "can": 15,
+    "may": 5,
+    "would": 3,
+    "must": 2,
+    "could": 2,
+    "should": 1,
+    "might": 1
+  },
+  "modals_per_1000": 10.577,
+  "epistemic_count": 16,
+  "epistemic_lemma_counts": {
+    "believe": 2,
+    "possible": 2,
+    "judge": 2,
+    "unlikely": 1,
+    "assess": 3,
+    "likely": 4,
+    "uncertain": 1,
+    "perhaps": 1
+  },
+  "epistemics_per_1000": 3.846,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 74,
+      "head_verb_surface": "describe",
+      "head_verb_lemma": "describe",
+      "left_3": ", and I",
+      "right_3": "describe how we",
+      "sentence": "From this perspective, our economy is now in a favorable place, and I will describe how we are working to sustain these conditions in the face of significant risks we have been monitoring."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 243,
+      "head_verb_surface": "recall",
+      "head_verb_lemma": "recall",
+      "left_3": "the best anyone",
+      "right_3": "recall . We",
+      "sentence": "People who live and work in low- and middle-income communities tell us that this job market is the best anyone can recall."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 379,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "what monetary policy",
+      "right_3": "do to sustain",
+      "sentence": "Our challenge now is to do what monetary policy can do to sustain the expansion so that the benefits of the strong jobs market extend to more of those still left behind, and so that inflation is centered firmly around 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 424,
+      "head_verb_surface": "explore",
+      "head_verb_lemma": "explore",
+      "left_3": "\n\n Today I",
+      "right_3": "explore what history",
+      "sentence": "Today I will explore what history tells us about sustaining long, steady expansions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 499,
+      "head_verb_surface": "divide",
+      "head_verb_lemma": "divide",
+      "left_3": "since . I",
+      "right_3": "divide the history",
+      "sentence": "I will divide the history since World War II into three eras organized around some well-known \"Greats.\""
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 547,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": ", and time",
+      "right_3": "tell what \"",
+      "sentence": "The third era is still under way, and time will tell what \"Greats\" may emerge."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 547,
+      "head_verb_surface": "emerge",
+      "head_verb_lemma": "emerge",
+      "left_3": "\" Greats \"",
+      "right_3": "emerge . \n\n",
+      "sentence": "The third era is still under way, and time will tell what \"Greats\" may emerge."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 582,
+      "head_verb_surface": "resist",
+      "head_verb_lemma": "resist",
+      "left_3": "a central bank",
+      "right_3": "resist the temptations",
+      "sentence": "The first era raises the question whether a central bank can resist the temptations that led to the Great Inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 662,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "remarks , I",
+      "right_3": "discuss the current",
+      "sentence": "Near the end of my remarks, I will discuss the current context, and the ways these questions are shaping policy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 932,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "that central bankers",
+      "right_3": "find it difficult",
+      "sentence": "But many believed that central bankers would find it difficult to ignore the temptation of short-term employment gains at the cost of higher inflation down the road."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1287,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "and global events",
+      "right_3": "pose the main",
+      "sentence": "7  By the turn of the century, it was beginning to look like financial excesses and global events would pose the main threats to stability in this new era rather than overheating and rising inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1454,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "discussing this era",
+      "right_3": "be on a",
+      "sentence": "My focus in discussing this era will be on a \"new normal\" that is becoming apparent in the wake of the crisis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1479,
+      "head_verb_surface": "forward",
+      "head_verb_lemma": "forward",
+      "left_3": "crisis . I",
+      "right_3": "fast - forward",
+      "sentence": "I will fast-forward past the early years of the expansion and pick up the story in December 2015."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1726,
+      "head_verb_surface": "observed",
+      "head_verb_lemma": "observe",
+      "left_3": "move unpredictably and",
+      "right_3": "not be directly",
+      "sentence": "Unlike celestial stars, these stars move unpredictably and cannot be directly observed."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1741,
+      "head_verb_surface": "judge",
+      "head_verb_lemma": "judge",
+      "left_3": "observed . We",
+      "right_3": "judge their locations",
+      "sentence": "We must judge their locations as best we can based on incoming data and then add an element of risk management to be able to use them as guides."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1741,
+      "head_verb_surface": "based",
+      "head_verb_lemma": "base",
+      "left_3": "as best we",
+      "right_3": "based on incoming",
+      "sentence": "We must judge their locations as best we can based on incoming data and then add an element of risk management to be able to use them as guides."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1855,
+      "head_verb_surface": "demand",
+      "head_verb_lemma": "demand",
+      "left_3": ", however ,",
+      "right_3": "demand more fundamental",
+      "sentence": "The significant fall in r*, however, may demand more fundamental change."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1870,
+      "head_verb_surface": "run",
+      "head_verb_lemma": "run",
+      "left_3": "that interest rates",
+      "right_3": "run , on",
+      "sentence": "A lower r* combined with low inflation means that interest rates will run, on average, significantly closer to their effective lower bound."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1897,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": "is how we",
+      "right_3": "best support maximum",
+      "sentence": "The key question raised by this era, then, is how we can best support maximum employment and price stability in a world with a low neutral interest rate."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1957,
+      "head_verb_surface": "avoid",
+      "head_verb_lemma": "avoid",
+      "left_3": "whether the Fed",
+      "right_3": "avoid excessive inflation",
+      "sentence": "The first era raised the question of whether the Fed can avoid excessive inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2094,
+      "head_verb_surface": "prevent",
+      "head_verb_lemma": "prevent",
+      "left_3": "day , we",
+      "right_3": "not prevent people",
+      "sentence": "At the end of the day, we cannot prevent people from finding ways to take excessive financial risks."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2115,
+      "head_verb_surface": "work",
+      "head_verb_lemma": "work",
+      "left_3": ". But we",
+      "right_3": "work to make",
+      "sentence": "But we can work to make sure that they bear the costs of their decisions, and that the financial system as a whole continues to function effectively."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2259,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": ", the Fed",
+      "right_3": "best support the",
+      "sentence": "That leaves the third question of how, in this low r* world, the Fed can best support the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2298,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "challenges . I",
+      "right_3": "begin with the",
+      "sentence": "I will begin with the current context."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2306,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "ways , it",
+      "right_3": "be useful to",
+      "sentence": "Because today's setting is both challenging and unique in many ways, it may be useful to lay out some general principles for assessing and implementing appropriate policy and to describe how we have been applying those principles."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2433,
+      "head_verb_surface": "attempt",
+      "head_verb_lemma": "attempt",
+      "left_3": ", the Committee",
+      "right_3": "attempt to look",
+      "sentence": "Because the most important effects of monetary policy are felt with uncertain lags of a year or more, the Committee must attempt to look through what may be passing developments and focus on things that seem likely to affect the outlook over time or that pose a material risk of doing so."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2433,
+      "head_verb_surface": "passing",
+      "head_verb_lemma": "pass",
+      "left_3": "look through what",
+      "right_3": "be passing developments",
+      "sentence": "Because the most important effects of monetary policy are felt with uncertain lags of a year or more, the Committee must attempt to look through what may be passing developments and focus on things that seem likely to affect the outlook over time or that pose a material risk of doing so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2528,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "interest . It",
+      "right_3": "at times be",
+      "sentence": "It will at times be appropriate for us to tilt policy one way or the other because of prominent risks."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2549,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "representatives in Congress",
+      "right_3": "provide oversight and",
+      "sentence": "Finally, we have a responsibility to explain what we are doing and why we are doing it so the American people and their elected representatives in Congress can provide oversight and hold us accountable."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2643,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "employment and inflation",
+      "right_3": "also affect the",
+      "sentence": "In principle, anything that affects the outlook for employment and inflation could also affect the appropriate stance of monetary policy, and that could include uncertainty about trade policy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2643,
+      "head_verb_surface": "include",
+      "head_verb_lemma": "include",
+      "left_3": ", and that",
+      "right_3": "include uncertainty about",
+      "sentence": "In principle, anything that affects the outlook for employment and inflation could also affect the appropriate stance of monetary policy, and that could include uncertainty about trade policy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2692,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "confidence , it",
+      "right_3": "not provide a",
+      "sentence": "Moreover, while monetary policy is a powerful tool that works to support consumer spending, business investment, and public confidence, it cannot provide a settled rulebook for international trade."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2726,
+      "head_verb_surface": "try",
+      "head_verb_lemma": "try",
+      "left_3": "trade . We",
+      "right_3": ", however ,",
+      "sentence": "We can, however, try to look through what may be passing events, focus on how trade developments are affecting the outlook, and adjust policy to promote our objectives."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2726,
+      "head_verb_surface": "passing",
+      "head_verb_lemma": "pass",
+      "left_3": "look through what",
+      "right_3": "be passing events",
+      "sentence": "We can, however, try to look through what may be passing events, focus on how trade developments are affecting the outlook, and adjust policy to promote our objectives."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3176,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "developments , we",
+      "right_3": "act as appropriate",
+      "sentence": "Based on our assessment of the implications of these developments, we will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3317,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "crisis , we",
+      "right_3": "again see fundamental",
+      "sentence": "As we look back over the decade since the end of the financial crisis, we can again see fundamental economic changes that call for a reassessment of our policy framework."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3444,
+      "head_verb_surface": "expand",
+      "head_verb_lemma": "expand",
+      "left_3": "asking whether we",
+      "right_3": "expand our toolkit",
+      "sentence": "We are examining the monetary policy tools we have used both in calm times and in crisis, and we are asking whether we should expand our toolkit."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3473,
+      "head_verb_surface": "improve",
+      "head_verb_lemma": "improve",
+      "left_3": "at how we",
+      "right_3": "improve the communication",
+      "sentence": "In addition, we are looking at how we might improve the communication of our policy framework."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3554,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "at which we",
+      "right_3": "discuss these questions",
+      "sentence": "We have begun a series of FOMC meetings at which we will discuss these questions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3570,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "questions . We",
+      "right_3": "continue reporting on",
+      "sentence": "We will continue reporting on our discussions in the FOMC minutes and share our conclusions when we finish the review next year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3594,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": ". \n\n I",
+      "right_3": "conclude by saying",
+      "sentence": "I will conclude by saying that we are deeply committed to fulfilling our mandate in this challenging era, and I look forward to the valuable insights that will, I am confident, be shared at this symposium."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3594,
+      "head_verb_surface": "shared",
+      "head_verb_lemma": "share",
+      "left_3": "valuable insights that",
+      "right_3": ", I am",
+      "sentence": "I will conclude by saying that we are deeply committed to fulfilling our mandate in this challenging era, and I look forward to the valuable insights that will, I am confident, be shared at this symposium."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3828,
+      "head_verb_surface": "trust",
+      "head_verb_lemma": "trust",
+      "left_3": ". \" Whom",
+      "right_3": "We Trust to",
+      "sentence": "\"Whom Can We Trust to Run The Fed?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4795,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "in the economy",
+      "right_3": "have been too",
+      "sentence": "Regarding declaring the 2001 recession, the NBER Business Cycle Dating Committee stated, \"Before the [September 11] attacks, it is possible that the decline in the economy would have been too mild to qualify as a recession\" (NBER, 2001, p. 8)."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "But many believed that central bankers would find it difficult to ignore the temptation of short-term employment gains at the cost of higher inflation down the road."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "6  Anchored inflation expectations helped make this win-win outcome possible, by giving the Fed latitude to support employment when necessary without destabilizing inflation."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We must judge their locations as best we can based on incoming data and then add an element of risk management to be able to use them as guides."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "Nonetheless, in the unlikely event that signs of too-high inflation return, we have proven tools to address such a situation."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We have not seen unsustainable borrowing, financial booms, or other excesses of the sort that occurred at times during the Great Moderation, and I continue to judge overall financial stability risks to be moderate."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Because today's setting is both challenging and unique in many ways, it may be useful to lay out some general principles for assessing and implementing appropriate policy and to describe how we have been applying those principles."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Through the FOMC's setting of the federal funds rate target range and our communications about the likely path forward for policy and the economy, we seek to influence broader financial conditions to promote maximum employment and price stability."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In forming judgments about the appropriate stance of policy, the Committee digests a broad range of data and other information to assess the current state of the economy, the most likely outlook for the future, and meaningful risks to that outlook."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In forming judgments about the appropriate stance of policy, the Committee digests a broad range of data and other information to assess the current state of the economy, the most likely outlook for the future, and meaningful risks to that outlook."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Because the most important effects of monetary policy are felt with uncertain lags of a year or more, the Committee must attempt to look through what may be passing developments and focus on things that seem likely to affect the outlook over time or that pose a material risk of doing so."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Because the most important effects of monetary policy are felt with uncertain lags of a year or more, the Committee must attempt to look through what may be passing developments and focus on things that seem likely to affect the outlook over time or that pose a material risk of doing so."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "This approach is illustrated by the way incoming data have shaped the likely path of policy this year."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Turning to the current context, we are carefully watching developments as we assess their implications for the U.S. outlook and the path of monetary policy."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Like Bernanke (2004), I believe that better policy was an important factor behind the better outcomes, perhaps allowing other factors to show through."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Like Bernanke (2004), I believe that better policy was an important factor behind the better outcomes, perhaps allowing other factors to show through."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Regarding declaring the 2001 recession, the NBER Business Cycle Dating Committee stated, \"Before the [September 11] attacks, it is possible that the decline in the economy would have been too mild to qualify as a recession\" (NBER, 2001, p. 8)."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "doc_id": "statement_20191211",
+  "doc_type": "statement",
+  "date": "2019-12-11",
+  "chair": "Powell",
+  "n_tokens": 337,
+  "n_sents": 13,
+  "pos_counts": {
+    "NNP": 50,
+    "CD": 12,
+    ",": 18,
+    "VBZ": 10,
+    "JJ": 38,
+    "NN": 72,
+    "IN": 40,
+    "VBD": 6,
+    "DT": 26,
+    "CC": 15,
+    "VBN": 10,
+    "VBG": 7,
+    ".": 12,
+    "NNS": 23,
+    "VBP": 5,
+    "HYPH": 4,
+    ":": 10,
+    "JJR": 1,
+    "RB": 1,
+    "PRP$": 3,
+    "TO": 5,
+    "VB": 7,
+    "POS": 1,
+    "MD": 3,
+    "PRP": 1,
+    "NNPS": 1
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "will": 3
+  },
+  "modals_per_1000": 8.902,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "assess": 2,
+    "expect": 1
+  },
+  "epistemics_per_1000": 11.869,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 211,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target range for the federal funds rate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 252,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 294,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee judges that the current stance of monetary policy is appropriate to support sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective."
+    },
+    {
+      "surface": "assesses",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target range for the federal funds rate."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

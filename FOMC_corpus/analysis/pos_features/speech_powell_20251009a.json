@@ -1,0 +1,95 @@
+{
+  "doc_id": "speech_powell_20251009a",
+  "doc_type": "speech",
+  "date": "2025-10-09",
+  "chair": "Powell",
+  "n_tokens": 324,
+  "n_sents": 19,
+  "pos_counts": {
+    "NNP": 41,
+    "CD": 5,
+    ",": 9,
+    "IN": 41,
+    "DT": 26,
+    "-LRB-": 3,
+    "JJ": 27,
+    "NN": 46,
+    "-RRB-": 8,
+    "NNS": 27,
+    "XX": 10,
+    "VBP": 20,
+    "SYM": 8,
+    ":": 5,
+    "VBZ": 2,
+    "RB": 10,
+    "CC": 14,
+    "RP": 1,
+    "MD": 2,
+    "VB": 10,
+    "VBN": 6,
+    ".": 14,
+    "PRP": 18,
+    "VBG": 9,
+    "PDT": 2,
+    "WDT": 1,
+    "VBD": 3,
+    "TO": 5,
+    "PRP$": 3,
+    "WRB": 2,
+    "POS": 2,
+    "HYPH": 1,
+    "JJR": 1
+  },
+  "modal_count": 2,
+  "modal_lemma_counts": {
+    "may": 1,
+    "could": 1
+  },
+  "modals_per_1000": 6.173,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "possible": 1,
+    "clearly": 1
+  },
+  "epistemics_per_1000": 6.173,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 111,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 158,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "'m traveling and",
+      "right_3": "not be with",
+      "sentence": "I am sorry that I'm traveling and could not be with you today."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Thank you also to all the Board staff that made this event possible."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "I saw this clearly when I led the Board's community and regional bank subcommittee as a governor."
+    }
+  ]
+}

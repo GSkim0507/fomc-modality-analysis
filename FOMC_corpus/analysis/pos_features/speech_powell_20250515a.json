@@ -1,0 +1,530 @@
+{
+  "doc_id": "speech_powell_20250515a",
+  "doc_type": "speech",
+  "date": "2025-05-15",
+  "chair": "Powell",
+  "n_tokens": 2955,
+  "n_sents": 131,
+  "pos_counts": {
+    "NNP": 319,
+    "CD": 170,
+    ",": 185,
+    "IN": 443,
+    "DT": 300,
+    "JJ": 215,
+    "VBN": 87,
+    "NNS": 173,
+    "NN": 479,
+    "XX": 10,
+    "-RRB-": 38,
+    "VBP": 39,
+    "SYM": 9,
+    ":": 19,
+    "VBZ": 42,
+    "RB": 104,
+    "CC": 83,
+    "-LRB-": 34,
+    "RP": 5,
+    "MD": 33,
+    "VB": 101,
+    ".": 125,
+    "PRP": 63,
+    "TO": 29,
+    "POS": 11,
+    "VBD": 77,
+    "RBR": 19,
+    "PRP$": 38,
+    "VBG": 50,
+    "NNPS": 20,
+    "JJR": 16,
+    "HYPH": 28,
+    "WDT": 20,
+    "WP": 3,
+    "WRB": 8,
+    "JJS": 5,
+    "EX": 3,
+    "``": 21,
+    "''": 21,
+    "RBS": 2,
+    "LS": 1
+  },
+  "modal_count": 33,
+  "modal_lemma_counts": {
+    "may": 3,
+    "will": 9,
+    "should": 1,
+    "would": 13,
+    "could": 4,
+    "might": 1,
+    "must": 1,
+    "can": 1
+  },
+  "modals_per_1000": 11.168,
+  "epistemic_count": 15,
+  "epistemic_lemma_counts": {
+    "possible": 2,
+    "clearly": 1,
+    "believe": 2,
+    "probably": 1,
+    "likely": 4,
+    "forecast": 1,
+    "potentially": 1,
+    "potential": 1,
+    "anticipate": 2
+  },
+  "epistemics_per_1000": 5.076,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 112,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 161,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that this work",
+      "right_3": "continue today in",
+      "sentence": "Thomas Laubach's research and support of the Federal Open Market Committee (FOMC) helped us better understand monetary policy, and it is fitting that this work will continue today in his name."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 288,
+      "head_verb_surface": "reconsider",
+      "head_verb_lemma": "reconsider",
+      "left_3": "current review we",
+      "right_3": "reconsider aspects of",
+      "sentence": "In the current review we will reconsider aspects of our strategic framework in light of the experience of the last five years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 311,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "years . We",
+      "right_3": "also consider possible",
+      "sentence": "We will also consider possible enhancements to the Committee's policy communication tools, regarding forecasts, uncertainty, and risks."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 553,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\n  A framework",
+      "right_3": "be robust to",
+      "sentence": "3  A framework should be robust to a broad range of conditions, but also needs to be updated periodically as the economy and our understanding of it evolve."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 614,
+      "head_verb_surface": "repeat",
+      "head_verb_lemma": "repeat",
+      "left_3": "said that we",
+      "right_3": "repeat such reviews",
+      "sentence": "4  In 2019, we changed that practice, conducting our first-ever public review, and said that we would repeat such reviews at roughly five-year intervals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 751,
+      "head_verb_surface": "capture",
+      "head_verb_lemma": "capture",
+      "left_3": ". If I",
+      "right_3": "capture that era",
+      "sentence": "If I could capture that era with one statistic, it would be that the policy rate had been stuck at the lower bound for seven long years following the onset of the Global Financial Crisis in late 2008 ( figure 2 )."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 751,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "statistic , it",
+      "right_3": "be that the",
+      "sentence": "If I could capture that era with one statistic, it would be that the policy rate had been stuck at the lower bound for seven long years following the onset of the Global Financial Crisis in late 2008 ( figure 2 )."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 828,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", where it",
+      "right_3": "be when the",
+      "sentence": "Seven months later, we began reducing it, leaving the rate at 1.6 percent in late 2019, where it would be when the pandemic arrived a few months later."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 891,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "downturn , we",
+      "right_3": "be right back",
+      "sentence": "The sense at that time was that when the economy next experienced even a mild downturn, we would be right back at the lower bound, probably for another extended period."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 924,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "the pain that",
+      "right_3": "bring . Inflation",
+      "sentence": "The postâfinancial crisis decade had demonstrated the pain that could bring."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 936,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "bring . Inflation",
+      "right_3": "likely decline in",
+      "sentence": "Inflation would likely decline in a weak economy, raising real interest rates as nominal rates are pinned at zero."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 957,
+      "head_verb_surface": "weigh",
+      "head_verb_lemma": "weigh",
+      "left_3": "Higher real rates",
+      "right_3": "further weigh on",
+      "sentence": "Higher real rates would further weigh on job growth and reinforce the downward pressure on inflation and inflation expectations."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1016,
+      "head_verb_surface": "aim",
+      "head_verb_lemma": "aim",
+      "left_3": "percent , we",
+      "right_3": "likely aim to",
+      "sentence": "5  Given the downside risks to employment and inflation from proximity to the lower bound and the need to anchor longer-term inflation expectations at 2 percent, we said that following periods in which inflation has been running persistently below 2 percent, we would likely aim to achieve inflation moderately above 2 percent for some time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1078,
+      "head_verb_surface": "informed",
+      "head_verb_lemma": "inform",
+      "left_3": "that policy decisions",
+      "right_3": "be informed by",
+      "sentence": "We also concluded that policy decisions would be informed by assessments of \"shortfalls\" rather than \"deviations\" from maximum employment."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1122,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "labor market tightness",
+      "right_3": "not , in",
+      "sentence": "6  Rather, it signaled that apparent labor market tightness would not, in isolation, be enough to trigger a policy response, unless the Committee believed that, if left unchecked, it would lead to unwelcome inflationary pressure."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1122,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "unchecked , it",
+      "right_3": "lead to unwelcome",
+      "sentence": "6  Rather, it signaled that apparent labor market tightness would not, in isolation, be enough to trigger a policy response, unless the Committee believed that, if left unchecked, it would lead to unwelcome inflationary pressure."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1166,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "level of employment",
+      "right_3": "bring about the",
+      "sentence": "This change reflected our experience with long expansions that featured historically low unemployment amid low and stable inflation, suggesting that a policy approach that carefully probed for the maximum level of employment could bring about the benefits of a strong labor market without risking price stability."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1342,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "\n  And that",
+      "right_3": "well have been",
+      "sentence": "And that might well have been the case had the pandemic not intervened."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1574,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "and our review",
+      "right_3": "reflect our assessment",
+      "sentence": "The economic environment has changed significantly since 2020, and our review will reflect our assessment of those changes."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1652,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "Higher real rates",
+      "right_3": "also reflect the",
+      "sentence": "12  Higher real rates may also reflect the possibility that inflation could be more volatile going forward than in the inter-crisis period of the 2010s."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1652,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "possibility that inflation",
+      "right_3": "be more volatile",
+      "sentence": "12  Higher real rates may also reflect the possibility that inflation could be more volatile going forward than in the inter-crisis period of the 2010s."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1681,
+      "head_verb_surface": "entering",
+      "head_verb_lemma": "enter",
+      "left_3": "2010s . We",
+      "right_3": "be entering a",
+      "sentence": "We may be entering a period of more frequent, and potentially more persistent, supply shocksâa difficult challenge for the economy and for central banks."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1774,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": "While the framework",
+      "right_3": "evolve , some",
+      "sentence": "While the framework must evolve, some elements of it are timeless."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1870,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "anchor , it",
+      "right_3": "not have been",
+      "sentence": "More recently, without that anchor, it would not have been possible to achieve a roughly 5 percentage point disinflation without a spike in unemployment."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2035,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "they thought it",
+      "right_3": "be appropriate to",
+      "sentence": "In our discussions so far, participants have indicated that they thought it would be appropriate to reconsider the language around shortfalls."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2075,
+      "head_verb_surface": "ensure",
+      "head_verb_lemma": "ensure",
+      "left_3": "targeting . We",
+      "right_3": "ensure that our",
+      "sentence": "We will ensure that our new consensus statement is robust to a wide range of economic environments and developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2096,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "statement , we",
+      "right_3": "also consider potential",
+      "sentence": "In addition to revising the consensus statement, we will also consider potential enhancements to our formal policy communications, particularly regarding the role of forecasts and uncertainty."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2246,
+      "head_verb_surface": "examine",
+      "head_verb_lemma": "examine",
+      "left_3": "outlook . We",
+      "right_3": "examine ways to",
+      "sentence": "We will examine ways to improve along that dimension as we move forward."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2273,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "the conversations that",
+      "right_3": "occur over the",
+      "sentence": "We have been looking forward to the conversations that will occur over the next two days."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2290,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ". These discussions",
+      "right_3": "help broaden and",
+      "sentence": "These discussions will help broaden and deepen our thinking about these issues, and they are critical to the success of these reviews."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2517,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\" the Committee",
+      "right_3": "be concerned if",
+      "sentence": "An exception was in January 2016, when the statement was amended to highlight the symmetric nature of the Committee's 2 percent longer-run objective by noting, among other small changes, that \"the Committee would be concerned if inflation were running persistently above or below this objective\" (paragraph 3)."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3555,
+      "head_verb_surface": "found",
+      "head_verb_lemma": "find",
+      "left_3": "recent survey results",
+      "right_3": "be found on",
+      "sentence": "The survey has been conducted every four years since 2016, and the most recent survey results can be found on the Brookings Institution's website at  https://www.brookings.edu/articles/grading-fed-communications-a-2024-survey-of-fed-watchers ."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We will also consider possible enhancements to the Committee's policy communication tools, regarding forecasts, uncertainty, and risks."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "1  The language in the opening paragraph, which has never changed, articulates our commitment to fulfilling our congressional mandate and to explaining clearly what we are doing and why ( figure 1 )."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe that frequency is appropriate to reassess structural features of the economy and to engage with the public, practitioners, and academics on the performance of our framework."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "The sense at that time was that when the economy next experienced even a mild downturn, we would be right back at the lower bound, probably for another extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Inflation would likely decline in a weak economy, raising real interest rates as nominal rates are pinned at zero."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "5  Given the downside risks to employment and inflation from proximity to the lower bound and the need to anchor longer-term inflation expectations at 2 percent, we said that following periods in which inflation has been running persistently below 2 percent, we would likely aim to achieve inflation moderately above 2 percent for some time."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "6  Rather, it signaled that apparent labor market tightness would not, in isolation, be enough to trigger a policy response, unless the Committee believed that, if left unchecked, it would lead to unwelcome inflationary pressure."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The economic conditions that brought us close to the lower bound and drove the changes in our consensus statement were thought to be rooted in slow-moving global factors that were likely to persist for an extended periodâat least until our next five-year review."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Through the end of 2021, FOMC participants continued to forecast that inflation was likely to subside fairly quickly in 2022, with only a moderate increase in our policy rate."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Through the end of 2021, FOMC participants continued to forecast that inflation was likely to subside fairly quickly in 2022, with only a moderate increase in our policy rate."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "We may be entering a period of more frequent, and potentially more persistent, supply shocksâa difficult challenge for the economy and for central banks."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "More recently, without that anchor, it would not have been possible to achieve a roughly 5 percentage point disinflation without a spike in unemployment."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In addition to revising the consensus statement, we will also consider potential enhancements to our formal policy communications, particularly regarding the role of forecasts and uncertainty."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In December 2021, the median SEP projection anticipated core inflation declining from 4.4 percent in 2021 to 2.7 percent in 2022, while the federal funds rate projection for the end of 2022 was 0.9 percent, below its longer-run estimate of 2.5 percent."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Similarly, the December 2021 Survey of Primary Dealers as well as the December 2021 Blue Chip consensus anticipated core inflation in 2022 of 2.5 percent and 2.6 percent, respectively, alongside average projections of short-term interest rates that remained below 1 percent throughout 2022."
+    }
+  ]
+}

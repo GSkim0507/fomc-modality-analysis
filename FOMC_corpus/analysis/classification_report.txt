@@ -1,0 +1,29 @@
+Documents (doc_type=statement): 39
+Class balance: {'hawkish': 16, 'dovish': 12, 'neutral': 11}
+Features (32): ['msi_modal_density', 'msi_epistemic_density', 'msi_total_density', 'msi_avg_modal_strength', 'msi_avg_epistemic_strength', 'msi_signed_per_1000', 'modal_count', 'epistemic_count', 'mod_can', 'mod_constraintsâ\x80\x94would', 'mod_contactâ\x80\x94would', 'mod_could', 'mod_employmentâ\x80\x94would', 'mod_help', 'mod_hispanicsâ\x80\x94would', 'mod_hospitalityâ\x80\x94would', 'mod_indebtednessâ\x80\x94could', 'mod_may', 'mod_might', 'mod_must', 'mod_need', 'mod_nextâ\x80\x94after', 'mod_ought', 'mod_pricesâ\x80\x94would', 'mod_servicesâ\x80\x94would', 'mod_shall', 'mod_should', 'mod_will', 'mod_would', 'mod_’d', 'mod_’ll', 'mod_’s']
+
+Cross-validation: Leave-One-Out
+
+=== LogReg ===
+              precision    recall  f1-score   support
+
+      dovish      0.700     0.583     0.636        12
+     hawkish      0.733     0.688     0.710        16
+     neutral      0.571     0.727     0.640        11
+
+    accuracy                          0.667        39
+   macro avg      0.668     0.666     0.662        39
+weighted avg      0.677     0.667     0.667        39
+
+
+=== RandomForest ===
+              precision    recall  f1-score   support
+
+      dovish      0.500     0.500     0.500        12
+     hawkish      0.632     0.750     0.686        16
+     neutral      0.500     0.364     0.421        11
+
+    accuracy                          0.564        39
+   macro avg      0.544     0.538     0.536        39
+weighted avg      0.554     0.564     0.554        39
+

@@ -1,0 +1,2986 @@
+{
+  "doc_id": "transcript_20220126",
+  "doc_type": "press_conf_transcript",
+  "date": "2022-01-26",
+  "chair": "Powell",
+  "n_tokens": 10013,
+  "n_sents": 640,
+  "pos_counts": {
+    "NNP": 547,
+    "CD": 206,
+    ",": 719,
+    "POS": 35,
+    "IN": 1234,
+    ".": 637,
+    "JJ": 526,
+    "NN": 1323,
+    "DT": 1004,
+    "PRP": 801,
+    "VBP": 536,
+    "RB": 656,
+    "VBN": 136,
+    "VBG": 255,
+    "NNS": 491,
+    "WDT": 69,
+    "VBZ": 277,
+    ":": 191,
+    "CC": 388,
+    "VBD": 134,
+    "PRP$": 110,
+    "MD": 242,
+    "VB": 506,
+    "TO": 205,
+    "RP": 45,
+    "HYPH": 28,
+    "RBR": 32,
+    "JJR": 71,
+    "NNPS": 4,
+    "JJS": 14,
+    "WP": 51,
+    "EX": 35,
+    "XX": 21,
+    "-RRB-": 17,
+    "WRB": 47,
+    "_SP": 1,
+    "UH": 17,
+    "PDT": 7,
+    "``": 5,
+    "''": 9,
+    "RBS": 4,
+    "LS": 1,
+    "NFP": 1,
+    "-LRB-": 1
+  },
+  "modal_count": 242,
+  "modal_lemma_counts": {
+    "would": 46,
+    "will": 65,
+    "may": 10,
+    "should": 15,
+    "can": 32,
+    "could": 15,
+    "’ll": 42,
+    "’d": 6,
+    "’s": 7,
+    "might": 4
+  },
+  "modals_per_1000": 24.169,
+  "epistemic_count": 59,
+  "epistemic_lemma_counts": {
+    "expect": 23,
+    "uncertain": 6,
+    "anticipate": 1,
+    "believe": 1,
+    "perhaps": 3,
+    "certainly": 2,
+    "possible": 4,
+    "clearly": 3,
+    "likely": 3,
+    "obviously": 2,
+    "certain": 1,
+    "possibly": 1,
+    "obvious": 1,
+    "project": 1,
+    "probably": 2,
+    "potential": 2,
+    "assess": 2,
+    "forecast": 1
+  },
+  "epistemics_per_1000": 5.892,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 67,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "in this rate",
+      "right_3": "soon be \n",
+      "sentence": "Today, in support of these goals, the Federal Open Market Committee kept its policy  interest rate near zero and stated its expectation that an increase in this rate would soon be  appropriate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 133,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": ". As I",
+      "right_3": "\n explain ,",
+      "sentence": "As I will  explain, against a backdrop of elevated inflation and a strong labor market, our policy has been  adapting to the evolving economic environment, and it will continue to do so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 133,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", and it",
+      "right_3": "continue to do",
+      "sentence": "As I will  explain, against a backdrop of elevated inflation and a strong labor market, our policy has been  adapting to the evolving economic environment, and it will continue to do so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "weigh",
+      "head_verb_lemma": "weigh",
+      "left_3": "the Omicron variant",
+      "right_3": "surely weigh on",
+      "sentence": "The recent sharp rise in COVID cases associated  with the Omicron variant will surely weigh on economic growth this quarter."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 274,
+      "head_verb_surface": "affected",
+      "head_verb_lemma": "affect",
+      "left_3": "activity more broadly",
+      "right_3": "also be affected",
+      "sentence": "And activity more broadly may also be affected as many workers are unable to report for work  because of illness, quarantines, or caregiving needs."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 303,
+      "head_verb_surface": "drop",
+      "head_verb_lemma": "drop",
+      "left_3": "expect that cases",
+      "right_3": "drop off rapidly",
+      "sentence": "Fortunately, health experts are finding that the Omicron variant has not been as virulent  as previous strains of the virus, and they expect that cases will drop off rapidly."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 336,
+      "head_verb_surface": "well",
+      "head_verb_lemma": "well",
+      "left_3": "the economic effects",
+      "right_3": "as well ,",
+      "sentence": "If the wave  passes quickly, the economic effects should as well, and we would see a return to strong growth."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 336,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": ", and we",
+      "right_3": "see a return",
+      "sentence": "If the wave  passes quickly, the economic effects should as well, and we would see a return to strong growth."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 599,
+      "head_verb_surface": "seeking",
+      "head_verb_lemma": "seek",
+      "left_3": ", some who",
+      "right_3": "otherwise would be",
+      "sentence": "In addition, some who would otherwise would be  seeking work report that they are out of the labor force because of factors related to the  pandemic, including caregiving needs and ongoing concerns about the virus."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 599,
+      "head_verb_surface": "seeking",
+      "head_verb_lemma": "seek",
+      "left_3": "who would otherwise",
+      "right_3": "be \n seeking",
+      "sentence": "In addition, some who would otherwise would be  seeking work report that they are out of the labor force because of factors related to the  pandemic, including caregiving needs and ongoing concerns about the virus."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 639,
+      "head_verb_surface": "prolong",
+      "head_verb_lemma": "prolong",
+      "left_3": "of the virus",
+      "right_3": "well prolong these",
+      "sentence": "The current wave  of the virus may well prolong these effects."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 713,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "how quickly production",
+      "right_3": "respond to higher",
+      "sentence": "In particular, bottlenecks and supply constraints are  limiting how quickly production can respond to higher demand in the near term."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 808,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "[ growth ]",
+      "right_3": "put upward pressure",
+      "sentence": "Wages have also risen briskly, and we are attentive to the risks that  persistent real wage growth in excess of productivity [growth] could put upward pressure on  inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 892,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "best thing we",
+      "right_3": "do to support",
+      "sentence": "In addition, we  believe that the best thing we can do to support continued labor market gains is to promote a long  expansion, and that will require price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 892,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": ", and that",
+      "right_3": "require price stability",
+      "sentence": "In addition, we  believe that the best thing we can do to support continued labor market gains is to promote a long  expansion, and that will require price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 937,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": ". \n We",
+      "right_3": "use our tools",
+      "sentence": "We will use our tools both to support the economy and a strong labor market and to prevent  higher inflation from becoming entrenched."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 962,
+      "head_verb_surface": "watching",
+      "head_verb_lemma": "watch",
+      "left_3": ". And we",
+      "right_3": "be watching carefully",
+      "sentence": "And we’ll be watching carefully to see whether the  economy is evolving in line with expectations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1084,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "we expect it",
+      "right_3": "soon be appropriate",
+      "sentence": "That is why we are phasing  out our asset purchases and why we expect it will soon be appropriate to raise the target range for  the federal funds rate."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1166,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "ways . We",
+      "right_3": "need to be",
+      "sentence": "We’ll need to be nimble so that we can respond to the full range of plausible  outcomes."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1166,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "so that we",
+      "right_3": "respond to the",
+      "sentence": "We’ll need to be nimble so that we can respond to the full range of plausible  outcomes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1186,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "mind , we",
+      "right_3": "remain attentive to",
+      "sentence": "With this in mind, we will remain attentive to risks, including the risk that high  inflation is more persistent than expected, and are prepared to respond as appropriate to achieve  our goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1225,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "of principles that",
+      "right_3": "provide a \n",
+      "sentence": "To provide greater clarity about our approach for reducing the size of the Federal  Reserve’s balance sheet, today the Committee issued a set of principles that will provide a  foundation for our future decisions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1264,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "balance sheet \n",
+      "right_3": "occur after the",
+      "sentence": "[In] these high-level principles, [we] clarify that the federal  funds rate is our primary means of adjusting monetary policy and that reducing our balance sheet  will occur after the process of raising interest rates has begun."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1310,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "begun . Reductions",
+      "right_3": "occur over time",
+      "sentence": "Reductions will occur over time  in a predictable manner primarily through adjustments to reinvestments so that securities roll off  our balance sheet."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1370,
+      "head_verb_surface": "guided",
+      "head_verb_lemma": "guide",
+      "left_3": "our balance sheet",
+      "right_3": "be guided by",
+      "sentence": "Our decisions to reduce our balance sheet will be guided by our maximum-employment  and price-stability goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1392,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "regard , we",
+      "right_3": "be prepared to",
+      "sentence": "In that regard, we will be prepared to adjust any of the details of our  approach to balance sheet management in light of economic and financial developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1446,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": ". And we",
+      "right_3": "discuss these matters",
+      "sentence": "And we will discuss these matters in upcoming meetings and  provide additional information at the appropriate time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1497,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "\n Federal Reserve",
+      "right_3": "do everything we",
+      "sentence": "We at the  Federal Reserve will do everything we can to achieve our maximum-employment and price- stability goals."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1497,
+      "head_verb_surface": "everything",
+      "head_verb_lemma": "everything",
+      "left_3": "do everything we",
+      "right_3": "to achieve our",
+      "sentence": "We at the  Federal Reserve will do everything we can to achieve our maximum-employment and price- stability goals."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1555,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "question , we",
+      "right_3": "go to Chris",
+      "sentence": "For the first question, we’ll go to Chris Rugaber at the  Associated Press."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1587,
+      "head_verb_surface": "hike",
+      "head_verb_lemma": "hike",
+      "left_3": "that the Fed",
+      "right_3": "hike rates perhaps",
+      "sentence": "So it’s  expected that the Fed will hike rates perhaps every other meeting, but certainly in the past, the  Fed has hiked at every meeting."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1651,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "note , \n",
+      "right_3": "the Fed consider",
+      "sentence": "And, on that note,  would the Fed consider front-loading some of its rate hikes, even if it doesn’t raise at every  meeting?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1751,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "again that we",
+      "right_3": "be humble and",
+      "sentence": "And I stress again that we’ll be humble and nimble."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1780,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", and I",
+      "right_3": "say also that",
+      "sentence": "So—and, and I’ll say also that we’re going to be  guided by the data."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1801,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", what I",
+      "right_3": "say is that",
+      "sentence": "In fact, what I’ll say is that we’re going to be led by the incoming data and  the evolving outlook, which we’ll try to communicate as clearly as possible, moving steadily and  transparency—transparently."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1801,
+      "head_verb_surface": "try",
+      "head_verb_lemma": "try",
+      "left_3": ", which we",
+      "right_3": "try to communicate",
+      "sentence": "In fact, what I’ll say is that we’re going to be led by the incoming data and  the evolving outlook, which we’ll try to communicate as clearly as possible, moving steadily and  transparency—transparently."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2000,
+      "head_verb_surface": "characterize",
+      "head_verb_lemma": "characterize",
+      "left_3": "curious whether you",
+      "right_3": "characterize where we",
+      "sentence": "And I’m curious whether you would characterize where we’re at  right now as maximum employment."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2031,
+      "head_verb_surface": "raise",
+      "head_verb_lemma": "raise",
+      "left_3": "that the Fed",
+      "right_3": "raise rates ,",
+      "sentence": "[are] on the table this year, do you think that the Fed can raise rates, bring inflation under control  without hurting jobs and wages?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2080,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "\n So I",
+      "right_3": "say — and",
+      "sentence": "So I would say—and this view is widely held on the Committee—that both sides of the mandate  are calling for us to move steadily away from the very highly accommodative policies we put in  place during the challenging economic conditions that the economy faced earlier in the  pandemic."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2136,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ". And I",
+      "right_3": "say that most",
+      "sentence": "And I would say that most FOMC participants agree that labor market conditions are  consistent with maximum employment in the sense of the highest level of employment that is  consistent with price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2182,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "judgment that it",
+      "right_3": "soon be appropriate",
+      "sentence": "And, and, again, very  broad support on the Committee for the judgment that it will soon be appropriate to raise the  target range for the federal funds rate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2217,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": ", maximum employment",
+      "right_3": ", will evolve",
+      "sentence": "The other thing is, maximum employment will, will evolve over time and through the  course of the business cycle."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2217,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": "employment will ,",
+      "right_3": "evolve over time",
+      "sentence": "The other thing is, maximum employment will, will evolve over time and through the  course of the business cycle."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2240,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "now , it",
+      "right_3": "well increase .",
+      "sentence": "In the particular situation we’re in now, it may well increase."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2255,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "with stable prices",
+      "right_3": "increase . \n",
+      "sentence": "Max—the level of maximum—of employment that’s consistent with stable prices may increase."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2274,
+      "head_verb_surface": "rises",
+      "head_verb_lemma": "rise",
+      "left_3": "hope that it",
+      "right_3": ", as more",
+      "sentence": "And we hope that it will, as more people come back into the labor market, as participation  gradually rises."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2297,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "’re broadly contemplating",
+      "right_3": "be supportive of",
+      "sentence": "And the policy path that we’re broadly contemplating would be supportive of  that comment—that outcome as well."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2351,
+      "head_verb_surface": "ask",
+      "head_verb_lemma": "ask",
+      "left_3": "ask whether we",
+      "right_3": "— \n whether",
+      "sentence": "So you ask whether we can— whether we can raise rates and, and move to less accommodative, and even tight, financial   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 7 of 28    conditions without hurting the labor market."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2351,
+      "head_verb_surface": "raise",
+      "head_verb_lemma": "raise",
+      "left_3": "\n whether we",
+      "right_3": "raise rates and",
+      "sentence": "So you ask whether we can— whether we can raise rates and, and move to less accommodative, and even tight, financial   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 7 of 28    conditions without hurting the labor market."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2516,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "is that we",
+      "right_3": "— we can",
+      "sentence": "So this is a very, very strong  labor market, and my strong sense is that we can—we can—we can move rates up without,  without having to, you know, severely undermine it."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2516,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "can — we",
+      "right_3": "— we can",
+      "sentence": "So this is a very, very strong  labor market, and my strong sense is that we can—we can—we can move rates up without,  without having to, you know, severely undermine it."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2516,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "can — we",
+      "right_3": "move rates up",
+      "sentence": "So this is a very, very strong  labor market, and my strong sense is that we can—we can—we can move rates up without,  without having to, you know, severely undermine it."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2560,
+      "head_verb_surface": "point",
+      "head_verb_lemma": "point",
+      "left_3": "\n I also",
+      "right_3": "point out that",
+      "sentence": "I also would point out that there are—there are other forces at work this year, which  should also help bring down inflation, we hope, including improvement on the supply side,  which will ultimately come."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2560,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ", which \n",
+      "right_3": "also help bring",
+      "sentence": "I also would point out that there are—there are other forces at work this year, which  should also help bring down inflation, we hope, including improvement on the supply side,  which will ultimately come."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2560,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": ", \n which",
+      "right_3": "ultimately come .",
+      "sentence": "I also would point out that there are—there are other forces at work this year, which  should also help bring down inflation, we hope, including improvement on the supply side,  which will ultimately come."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2612,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "impulse to growth",
+      "right_3": "be significantly lower",
+      "sentence": "And also, fiscal policy is  going to be less supportive of, of growth this year—not of the level of economic activity, but the  fiscal impulse to growth will be significantly lower."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2651,
+      "head_verb_surface": "working",
+      "head_verb_lemma": "work",
+      "left_3": "forces — which",
+      "right_3": "\n be working",
+      "sentence": "So there are multiple forces—which should  be working over the course of the year for inflation to come down."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2835,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "around how you",
+      "right_3": "use this tool",
+      "sentence": "And, finally, how much   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 8 of 28    disagreement is there around how you should use this tool, including active sales rather than  passive sales or changes in the composition of reinvestments?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2979,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "actual decisions we",
+      "right_3": "make about the",
+      "sentence": "And those are meant to guide the actual decisions we’ll make about the pace and  about all of the questions that you’re, you’re asking."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3010,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that this process",
+      "right_3": ", will be",
+      "sentence": "And I expect that this process will, will be something that we spend time on in coming  meetings."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3010,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "process will ,",
+      "right_3": "be something that",
+      "sentence": "And I expect that this process will, will be something that we spend time on in coming  meetings."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 3031,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "meetings . I",
+      "right_3": "n’t tell you",
+      "sentence": "I can’t tell you how many."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 3039,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "many . I",
+      "right_3": "n’t tell you",
+      "sentence": "I can’t tell you how long it will take."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3039,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "how long it",
+      "right_3": "take . But",
+      "sentence": "I can’t tell you how long it will take."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3050,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "time , we",
+      "right_3": "provide additional information",
+      "sentence": "But—and then, you  know, at the appropriate time, we’ll provide additional information."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3130,
+      "head_verb_surface": "turning",
+      "head_verb_lemma": "turn",
+      "left_3": "meeting , we",
+      "right_3": "be turning to",
+      "sentence": "And at the next meeting, we’ll be turning to, you know, more  of the details that you’re—that you’re asking about."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3160,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ". \n I",
+      "right_3": "say this .",
+      "sentence": "I would say this."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 3174,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "bigger . I",
+      "right_3": "say it has",
+      "sentence": "I’d say it has a shorter duration  than the last time."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 3238,
+      "head_verb_surface": "’s",
+      "head_verb_lemma": "’s",
+      "left_3": "that , it",
+      "right_3": "really — it",
+      "sentence": "But beyond that, it’s really—it’s really not appropriate for me  to speculate exactly what that would be."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 3238,
+      "head_verb_surface": "’s",
+      "head_verb_lemma": "’s",
+      "left_3": "really — it",
+      "right_3": "really not appropriate",
+      "sentence": "But beyond that, it’s really—it’s really not appropriate for me  to speculate exactly what that would be."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3238,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "exactly what that",
+      "right_3": "be . And",
+      "sentence": "But beyond that, it’s really—it’s really not appropriate for me  to speculate exactly what that would be."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3262,
+      "head_verb_surface": "point",
+      "head_verb_lemma": "point",
+      "left_3": "— but I",
+      "right_3": "point you to",
+      "sentence": "And, and—but I would point you to principle number  one, which is “the Committee views changes in the target range for the federal funds rate as its  primary means of adjusting the stance of monetary policy.”"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3381,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": ", if I",
+      "right_3": "follow on that",
+      "sentence": "So, if I could follow on that, raising rates and reducing the balance  sheet both restrain the economy, both tighten monetary policy."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3408,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "policy . How",
+      "right_3": "we think about",
+      "sentence": "How should we think about the  relationship between the two?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3594,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": "the pattern we",
+      "right_3": "follow is to",
+      "sentence": "So, again, our—I think our—the pattern we’ll follow is to—is to arrive at a, you know, a  timing and a pace and composition and all those things and then announce that with advance  notice, and, and it will—it will start in the background."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3594,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": ", and it",
+      "right_3": "— it will",
+      "sentence": "So, again, our—I think our—the pattern we’ll follow is to—is to arrive at a, you know, a  timing and a pace and composition and all those things and then announce that with advance  notice, and, and it will—it will start in the background."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3594,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "will — it",
+      "right_3": "start in the",
+      "sentence": "So, again, our—I think our—the pattern we’ll follow is to—is to arrive at a, you know, a  timing and a pace and composition and all those things and then announce that with advance  notice, and, and it will—it will start in the background."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3655,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "And then we",
+      "right_3": "look to have",
+      "sentence": "And then we’ll look to have that just  running in the background and have—and have the interest rates, again, be the active tool of  monetary policy."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 3699,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "plan . I",
+      "right_3": "n’t tell you",
+      "sentence": "I can’t tell you much more about any of the— any of the very good issues about size, pace, composition, those sorts of things."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3730,
+      "head_verb_surface": "turning",
+      "head_verb_lemma": "turn",
+      "left_3": ". But we",
+      "right_3": "be \n turning",
+      "sentence": "But we’ll be  turning to all of those at coming meetings."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3757,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": ". Now we",
+      "right_3": "go to Neil",
+      "sentence": "Now we’ll go to Neil Irwin."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3806,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "alarming or that",
+      "right_3": "affect the trajectory",
+      "sentence": "Sir, I was wondering if the volatility we’ve seen in financial markets in the last few weeks strikes  you as anything alarming or that might affect the trajectory of policy."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3840,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "tightened some ,",
+      "right_3": "that be desirable",
+      "sentence": "Conversely, to the degree  that financial conditions have tightened some, might that be desirable in some ways in achieving  your, your tightening goals?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4034,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "seen , I",
+      "right_3": "say this .",
+      "sentence": "In terms of what we’ve seen, I would say this."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 4319,
+      "head_verb_surface": "stipulate",
+      "head_verb_lemma": "stipulate",
+      "left_3": "I know you",
+      "right_3": "n’t stipulate the",
+      "sentence": "I know you can’t stipulate the path, but  how should we think about the criteria for the next step and the next step?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4319,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "but \n how",
+      "right_3": "we think about",
+      "sentence": "I know you can’t stipulate the path, but  how should we think about the criteria for the next step and the next step?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4371,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": ", and we",
+      "right_3": "make that decision",
+      "sentence": "We haven’t made a decision yet, and we’ll make that decision at the March meeting."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4390,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "meeting . We",
+      "right_3": "\n make a",
+      "sentence": "We’ll  make a decision whether to raise the federal funds rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4404,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "rate . I",
+      "right_3": "say that the",
+      "sentence": "I would say that the Committee is, is of a  mind to, to raise the federal funds rate at the March meeting, assuming that conditions are  appropriate for doing so."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4459,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that that \n",
+      "right_3": "be temporary .",
+      "sentence": "But we do expect some softening in the economy from Omicron, but we think that that  should be temporary."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4481,
+      "head_verb_surface": "that",
+      "head_verb_lemma": "that",
+      "left_3": "that the economy",
+      "right_3": "— the underlying",
+      "sentence": "And we think that the economy should—the underlying strength of the  economy should, you know, should, should—show through fairly quickly after that."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4481,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": "the \n economy",
+      "right_3": ", you know",
+      "sentence": "And we think that the economy should—the underlying strength of the  economy should, you know, should, should—show through fairly quickly after that."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4481,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": "you know ,",
+      "right_3": ", should —",
+      "sentence": "And we think that the economy should—the underlying strength of the  economy should, you know, should, should—show through fairly quickly after that."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4481,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": ", should ,",
+      "right_3": "— show through",
+      "sentence": "And we think that the economy should—the underlying strength of the  economy should, you know, should, should—show through fairly quickly after that."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4516,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": ". If I",
+      "right_3": "follow just on",
+      "sentence": "If I could follow just on a related question, the December  SEPs had this copacetic sort of set of circumstances where inflation comes down without the  federal funds rate ever getting over the estimate of neutral."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4618,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "number of factors",
+      "right_3": "be — it",
+      "sentence": "So a number of factors would be—it’s not just monetary policy—a number of   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 12 of 28    factors are supporting a decline in inflation, as I mentioned."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 4618,
+      "head_verb_surface": "supporting",
+      "head_verb_lemma": "support",
+      "left_3": "be — it",
+      "right_3": "not just monetary",
+      "sentence": "So a number of factors would be—it’s not just monetary policy—a number of   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 12 of 28    factors are supporting a decline in inflation, as I mentioned."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4667,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". Fiscal policy",
+      "right_3": "be — will",
+      "sentence": "Fiscal policy will be—will provide  significantly less of an impulse to growth."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4667,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "will be —",
+      "right_3": "provide \n significantly",
+      "sentence": "Fiscal policy will be—will provide  significantly less of an impulse to growth."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4683,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "\n that it",
+      "right_3": "come slower than",
+      "sentence": "We do expect this year—although we do expect now  that it will come slower than, than we had expected and hoped—that there will be relief on the  supply side."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4683,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "— that there",
+      "right_3": "be relief on",
+      "sentence": "We do expect this year—although we do expect now  that it will come slower than, than we had expected and hoped—that there will be relief on the  supply side."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4720,
+      "head_verb_surface": "lower",
+      "head_verb_lemma": "lower",
+      "left_3": ", too ,",
+      "right_3": "— should lower",
+      "sentence": "So that, too, should—should lower the supply-side barriers, which are a big part of  the story of why inflation is high."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4720,
+      "head_verb_surface": "lower",
+      "head_verb_lemma": "lower",
+      "left_3": ", should —",
+      "right_3": "lower the supply",
+      "sentence": "So that, too, should—should lower the supply-side barriers, which are a big part of  the story of why inflation is high."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4750,
+      "head_verb_surface": "becoming",
+      "head_verb_lemma": "become",
+      "left_3": ", monetary policy",
+      "right_3": "be becoming significantly",
+      "sentence": "In addition, monetary policy will be becoming significantly  less accommodative."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4764,
+      "head_verb_surface": "asking",
+      "head_verb_lemma": "ask",
+      "left_3": "know , we",
+      "right_3": ", we ’ll",
+      "sentence": "So the question is—you know, we’ll, we’ll be asking this question all year long, and that  will be, are things turning out as we expect?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4764,
+      "head_verb_surface": "asking",
+      "head_verb_lemma": "ask",
+      "left_3": "’ll , we",
+      "right_3": "be asking this",
+      "sentence": "So the question is—you know, we’ll, we’ll be asking this question all year long, and that  will be, are things turning out as we expect?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4764,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and that \n",
+      "right_3": "be , are",
+      "sentence": "So the question is—you know, we’ll, we’ll be asking this question all year long, and that  will be, are things turning out as we expect?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4799,
+      "head_verb_surface": "react",
+      "head_verb_lemma": "react",
+      "left_3": "expected ; we",
+      "right_3": "react to that",
+      "sentence": "There’s a case that, for whatever reason, the  economy slows more and inflation slows more than expected; we’ll react to that."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4827,
+      "head_verb_surface": "react",
+      "head_verb_lemma": "react",
+      "left_3": ", then we",
+      "right_3": "react to that",
+      "sentence": "If, instead, we  see inflation at a higher level or a more persistent level, then we’ll react to that."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 4965,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "\n and you",
+      "right_3": "n’t begin balance",
+      "sentence": "The  technical question is, if, if you’re going to discuss balance sheet at the next upcoming meetings  and you won’t begin balance sheet reduction until after you begin rate hikes, it seems to  technically mean that you won’t or can’t begin balance sheet reduction until the summer."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 4965,
+      "head_verb_surface": "mean",
+      "head_verb_lemma": "mean",
+      "left_3": "mean that you",
+      "right_3": "n’t or ca",
+      "sentence": "The  technical question is, if, if you’re going to discuss balance sheet at the next upcoming meetings  and you won’t begin balance sheet reduction until after you begin rate hikes, it seems to  technically mean that you won’t or can’t begin balance sheet reduction until the summer."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 4965,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "wo n’t or",
+      "right_3": "n’t begin balance",
+      "sentence": "The  technical question is, if, if you’re going to discuss balance sheet at the next upcoming meetings  and you won’t begin balance sheet reduction until after you begin rate hikes, it seems to  technically mean that you won’t or can’t begin balance sheet reduction until the summer."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5035,
+      "head_verb_surface": "raising",
+      "head_verb_lemma": "raise",
+      "left_3": "— that you",
+      "right_3": "possibly be raising",
+      "sentence": "Second of all, you suggested that, that the—with balance sheet running in the  background—that you would possibly be raising rates and running off the balance sheet at the   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 13 of 28    same time."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 5123,
+      "head_verb_surface": "running",
+      "head_verb_lemma": "run",
+      "left_3": "sheet and it",
+      "right_3": "n’t be running",
+      "sentence": "But the statement on the balance sheet principles  says “the Committee is prepared to adjust any of the details of its approach” based on “economic  and financial developments,” which suggests there’s something of a reaction function associated  to the balance sheet and it won’t be running in the background."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5183,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "background . So",
+      "right_3": "you give us",
+      "sentence": "So can you give us any sense of  the discussion or staff presentation on what is the reaction function surrounding the balance  sheet?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5233,
+      "head_verb_surface": "remember",
+      "head_verb_lemma": "remember",
+      "left_3": "\n So you",
+      "right_3": "remember during the",
+      "sentence": "So you’ll remember during the last cycle that this process of building up and then shrinking the  balance sheet is a complicated one, and it involves, inevitably, surprises."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5434,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": ", that we",
+      "right_3": "use — determine",
+      "sentence": "So, you know, the idea that, for example, the federal funds rate is  the primary means of adjusting the stance of policy, that we’ll use—determine the timing and  pace of reducing the size of the balance sheet to foster the dual mandate, that we’ll begin to  reduce the size after we begin the process of raising rates, and on and on like that."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5434,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": ", that we",
+      "right_3": "begin to \n",
+      "sentence": "So, you know, the idea that, for example, the federal funds rate is  the primary means of adjusting the stance of policy, that we’ll use—determine the timing and  pace of reducing the size of the balance sheet to foster the dual mandate, that we’ll begin to  reduce the size after we begin the process of raising rates, and on and on like that."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5512,
+      "head_verb_surface": "proceed",
+      "head_verb_lemma": "proceed",
+      "left_3": "describe how we",
+      "right_3": "proceed . \n\n",
+      "sentence": "I mean, that— those are all the things that, that try to describe how we will proceed."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5758,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "ways that I",
+      "right_3": "think this ,",
+      "sentence": "And so those are some of the ways that I would think this, this lays out our, you know, the way  we—the way we’re thinking about this."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 5794,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "timing , I",
+      "right_3": "n’t really help",
+      "sentence": "In terms of the timing, I can’t really help you."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5822,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "we’re — I",
+      "right_3": "say we are",
+      "sentence": "So we’re—I would say we are, we’re going to have another discussion at, at the next  meeting."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5846,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "is , we",
+      "right_3": "have at least",
+      "sentence": "And my guess is, we’ll have at least one other discussion at the meeting after that."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5866,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "know , we",
+      "right_3": ", we ’ll",
+      "sentence": "And, you know, we’ll, we’ll tell you as we make progress."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5866,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "’ll , we",
+      "right_3": "tell you as",
+      "sentence": "And, you know, we’ll, we’ll tell you as we make progress."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5883,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": ". And we",
+      "right_3": ", you know",
+      "sentence": "And we’ll, you know, we’ll start the  process of allowing runoff and shrinking the balance sheet at what we find to be the appropriate  time."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5883,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "know , we",
+      "right_3": "start the \n",
+      "sentence": "And we’ll, you know, we’ll start the  process of allowing runoff and shrinking the balance sheet at what we find to be the appropriate  time."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5915,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "I wish I",
+      "right_3": "say more .",
+      "sentence": "It’s—I wish I could say more."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5935,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "details that we",
+      "right_3": "\n have at",
+      "sentence": "And we  actually haven’t even really had the, the important discussions on a lot of the details that we will  have at coming meetings."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6038,
+      "head_verb_surface": "elaborate",
+      "head_verb_lemma": "elaborate",
+      "left_3": "wondering if you",
+      "right_3": "elaborate on what",
+      "sentence": "And I’m wondering if you can elaborate on what are the risks to the  elusive soft landing."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6087,
+      "head_verb_surface": "file",
+      "head_verb_lemma": "file",
+      "left_3": "you and I",
+      "right_3": "file our tax",
+      "sentence": "You know,  Robert Kaplan’s disclosure of his securities transactions—and in a couple of months, Chair  Powell, or maybe sooner, you and I will file our tax returns."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6124,
+      "head_verb_surface": "list",
+      "head_verb_lemma": "list",
+      "left_3": ". And we",
+      "right_3": "list transactions and",
+      "sentence": "And we’ll list transactions and all  kinds of things."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6136,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "transactions , we",
+      "right_3": "put dates .",
+      "sentence": "And next to those transactions, we’ll put dates."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 6189,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "mean , why",
+      "right_3": "n’t he give",
+      "sentence": "I mean, why can’t he give us the  dates?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6202,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "\n dates ?",
+      "right_3": "you help us",
+      "sentence": "Will you help us get the dates of those transactions?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6264,
+      "head_verb_surface": "prolonged",
+      "head_verb_lemma": "prolong",
+      "left_3": "we ’re seeing",
+      "right_3": "be prolonged ,",
+      "sentence": "There’s a risk that, that the high inflation we’re seeing will be prolonged,  and there’s a risk that it will move even higher."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6264,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "risk that it",
+      "right_3": "move even higher",
+      "sentence": "There’s a risk that, that the high inflation we’re seeing will be prolonged,  and there’s a risk that it will move even higher."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6511,
+      "head_verb_surface": "gone",
+      "head_verb_lemma": "go",
+      "left_3": "expansion . It",
+      "right_3": "have gone on",
+      "sentence": "It could have gone on for years were it  not hit by the pandemic."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 6528,
+      "head_verb_surface": "love",
+      "head_verb_lemma": "love",
+      "left_3": "\n So we",
+      "right_3": "love to find",
+      "sentence": "So we’d love to find a way to get back to that."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6606,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". And COVID",
+      "right_3": "continue to evolve",
+      "sentence": "And COVID can continue to evolve, and it’s just—we have to accept that it’s not over,  and the risks to it can slow down growth."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 6606,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ", and it",
+      "right_3": "just — we",
+      "sentence": "And COVID can continue to evolve, and it’s just—we have to accept that it’s not over,  and the risks to it can slow down growth."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 6606,
+      "head_verb_surface": "accept",
+      "head_verb_lemma": "accept",
+      "left_3": "accept that it",
+      "right_3": "not over ,",
+      "sentence": "And COVID can continue to evolve, and it’s just—we have to accept that it’s not over,  and the risks to it can slow down growth."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6606,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "risks to it",
+      "right_3": "slow down growth",
+      "sentence": "And COVID can continue to evolve, and it’s just—we have to accept that it’s not over,  and the risks to it can slow down growth."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6639,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". And that",
+      "right_3": "be — that",
+      "sentence": "And that would be—that’s sort of a downside risk  from a growth standpoint."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6657,
+      "head_verb_surface": "point",
+      "head_verb_lemma": "point",
+      "left_3": "standpoint . I",
+      "right_3": "point to —",
+      "sentence": "I would point to—you know, another, another risk is just further,  further problems in the supply chains, which could slow down activity."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6657,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "chains , which",
+      "right_3": "slow down activity",
+      "sentence": "I would point to—you know, another, another risk is just further,  further problems in the supply chains, which could slow down activity."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 6687,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "- COVID policy",
+      "right_3": "cause more \n",
+      "sentence": "And you see the  situation in China as a situation there where that’s—their no-COVID policy may cause more  lockdowns, is likely to, and that may play into—may play into more problems in supply chains."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 6687,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": ", and that",
+      "right_3": "play into —",
+      "sentence": "And you see the  situation in China as a situation there where that’s—their no-COVID policy may cause more  lockdowns, is likely to, and that may play into—may play into more problems in supply chains."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 6687,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": "play into —",
+      "right_3": "play into more",
+      "sentence": "And you see the  situation in China as a situation there where that’s—their no-COVID policy may cause more  lockdowns, is likely to, and that may play into—may play into more problems in supply chains."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 6760,
+      "head_verb_surface": "forget",
+      "head_verb_lemma": "forget",
+      "left_3": "can’t — we",
+      "right_3": "n’t forget that",
+      "sentence": "And we, you know, we can’t—we can’t forget that there are risks on both sides."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6790,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "’s what I",
+      "right_3": "say . \n",
+      "sentence": "That’s what I would say."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 6881,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "really — I",
+      "right_3": "n’t help you",
+      "sentence": "And I don’t—I really—I can’t help you here today on this issue."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 6900,
+      "head_verb_surface": "sorry",
+      "head_verb_lemma": "sorry",
+      "left_3": "’m sorry I",
+      "right_3": "n’t . \n",
+      "sentence": "And I’m sorry I can’t."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6923,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "you . We",
+      "right_3": "go to Jeanna",
+      "sentence": "We’ll go to Jeanna now."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6969,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "wonder if you",
+      "right_3": "tell us a",
+      "sentence": "I wonder if you could tell us a little bit about where your thinking on inflation stands  today."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6989,
+      "head_verb_surface": "sink",
+      "head_verb_lemma": "sink",
+      "left_3": "projecting that inflation",
+      "right_3": "sort of sink",
+      "sentence": "You know, the last time we saw an SEP back in September, we saw that you and your  colleagues were projecting that inflation would sort of sink back down quite close to target by  the end of the year."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7069,
+      "head_verb_surface": "talk",
+      "head_verb_lemma": "talk",
+      "left_3": "wonder if you",
+      "right_3": "talk a little",
+      "sentence": "And I also wonder if you could talk a little bit about the pathway to getting to that  deceleration."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 7124,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ". So I",
+      "right_3": "say , you",
+      "sentence": "So I’d say, you know, since, since the December meeting, I would  say that the inflation situation is about the same but probably slightly worse."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7124,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "meeting , I",
+      "right_3": "\n say that",
+      "sentence": "So I’d say, you know, since, since the December meeting, I would  say that the inflation situation is about the same but probably slightly worse."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 7156,
+      "head_verb_surface": "inclined",
+      "head_verb_lemma": "incline",
+      "left_3": "worse . I",
+      "right_3": "be inclined to",
+      "sentence": "I’d be inclined to  raise my own estimate of 2022 core PCE inflation—let’s just go with that—by a few tenths  today."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7344,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ", our policy",
+      "right_3": "have to address",
+      "sentence": "And I think to the extent the  situation deteriorates further, our policy will have to address that, if it deteriorates meaningfully  further, either in the time dimension or in the size of the inflation dimension."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7397,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "part of this",
+      "right_3": "be that us",
+      "sentence": "January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 18 of 28    I—as I mentioned, though, I think it’s—part of this will be that us, the Fed, moving away  from a very highly accommodative policy to a substantially less accommodative policy and then,  over time, to a policy that’s not accommodative, in time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7471,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "know when that",
+      "right_3": "be . \n",
+      "sentence": "I don’t know when that will be."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7526,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\n That impulse",
+      "right_3": "be less ,",
+      "sentence": "That impulse will be less, in fact, will be—will be negative this year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7526,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "in fact ,",
+      "right_3": "be — will",
+      "sentence": "That impulse will be less, in fact, will be—will be negative this year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7526,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "will be —",
+      "right_3": "be negative this",
+      "sentence": "That impulse will be less, in fact, will be—will be negative this year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7552,
+      "head_verb_surface": "get",
+      "head_verb_lemma": "get",
+      "left_3": "is , we",
+      "right_3": "eventually get relief",
+      "sentence": "The other one is, we will eventually get relief on the supply side."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7567,
+      "head_verb_surface": "cleared",
+      "head_verb_lemma": "clear",
+      "left_3": "the \n ports",
+      "right_3": "be cleared up",
+      "sentence": "And, you know, the  ports will be cleared up."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7580,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". And there",
+      "right_3": "be semiconductors and",
+      "sentence": "And there will be semiconductors and things like that."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7614,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that high inflation",
+      "right_3": "be more persistent",
+      "sentence": "And that, I  think, does raise, raise the risk that high inflation will be more persistent."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 7635,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "do think we",
+      "right_3": "come \n off",
+      "sentence": "I do think we’ll come  off of the highs that we saw in the early part of this episode in the—in the spring last year."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 7685,
+      "head_verb_surface": "watching",
+      "head_verb_lemma": "watch",
+      "left_3": "And so we",
+      "right_3": "be \n watching",
+      "sentence": "And so we’ll be  watching that."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 7715,
+      "head_verb_surface": "’s",
+      "head_verb_lemma": "’s",
+      "left_3": "percent . It",
+      "right_3": "also \n to",
+      "sentence": "It’s also  to provide enough support to keep the labor market healthy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7730,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that that strength",
+      "right_3": "continue . There",
+      "sentence": "The labor market is very, very  strong right now, and I think that that strength will continue."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7847,
+      "head_verb_surface": "clearly",
+      "head_verb_lemma": "clearly",
+      "left_3": "clearly as we",
+      "right_3": ". But we",
+      "sentence": "And we’re going to communicate as clearly as we can."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 7985,
+      "head_verb_surface": "interpret",
+      "head_verb_lemma": "interpret",
+      "left_3": "sufficiently ? And",
+      "right_3": "we interpret this",
+      "sentence": "And should we interpret this approach as  a departure from the gradual pace that we saw during the last hiking cycle?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 8031,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "and what I",
+      "right_3": "tell you now",
+      "sentence": "And, and what I can tell you now, though, is that we fully appreciate that this is a  different situation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8126,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "persistently than we",
+      "right_3": "like . We",
+      "sentence": "Right now, we have inflation running substantially above 2 percent and, and, you know,  more persistently than we would like."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8389,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "there who \n",
+      "right_3": "come back into",
+      "sentence": "So we think there’s, there’s a pool of people out there who  could come back into the labor force."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 8413,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", and it",
+      "right_3": "not — it",
+      "sentence": "But it’s not happening very quickly, and it may not—it  may continue to not happen very quickly as long as the pandemic is on[going]."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 8413,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "— it \n",
+      "right_3": "continue to not",
+      "sentence": "But it’s not happening very quickly, and it may not—it  may continue to not happen very quickly as long as the pandemic is on[going]."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 8479,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": ". And we",
+      "right_3": "begin to address",
+      "sentence": "And we’ll begin to address them as we—as we move into the  March meeting and meetings after that."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 8534,
+      "head_verb_surface": "talk",
+      "head_verb_lemma": "talk",
+      "left_3": "wondering if you",
+      "right_3": "talk to us",
+      "sentence": "I’m wondering if you can talk to us about any metrics that the Fed uses to assess how  inflation affects different groups of Americans, especially lower-, lower-income earners?"
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 8569,
+      "head_verb_surface": "measure",
+      "head_verb_lemma": "measure",
+      "left_3": "underestimates , or",
+      "right_3": "n’t effectively measure",
+      "sentence": "And  are you worried that the Fed underestimates, or can’t effectively measure, the impact of inflation  on some of the most vulnerable households?"
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 8605,
+      "head_verb_surface": "’s",
+      "head_verb_lemma": "’",
+      "left_3": ". So it",
+      "right_3": ", it ’s",
+      "sentence": "So it’s, it’s more a matter of—I think the problem that we’re—that  we’re talking about here is really that people who are on fixed incomes who are living paycheck  to paycheck, they’re spending most or all of their—of, of what they’re earning on food, gasoline,  rent, heating their—heating, things like that, basic necessities."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 8985,
+      "head_verb_surface": "moving",
+      "head_verb_lemma": "move",
+      "left_3": "the \n Fed",
+      "right_3": "be moving too",
+      "sentence": "Some investors fear that the  Fed might be moving too late."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 9028,
+      "head_verb_surface": "worked",
+      "head_verb_lemma": "work",
+      "left_3": "supply chain issues",
+      "right_3": "be worked out",
+      "sentence": "And as a follow to that—because I have problems with the mute button—as a follow to  that, you testified that the supply chain issues could be worked out by the end of the year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9076,
+      "head_verb_surface": "last",
+      "head_verb_lemma": "last",
+      "left_3": "chip \n shortage",
+      "right_3": "last into 2023",
+      "sentence": "The CEO of Ford, though, told Fox Business today that the chip  shortage will last into 2023."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9097,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "you said inflation",
+      "right_3": "start to ease",
+      "sentence": "So today you said inflation will start to ease this year."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 9109,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "to when we",
+      "right_3": "see that relief",
+      "sentence": "I want to  drill down and get a timeline that you see as to when we could see that relief."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9138,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "I , I",
+      "right_3": "not say that",
+      "sentence": "So I, I would not say that I would expect the supply chain issues to  be completely worked out by the end of this year."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9138,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "say that I",
+      "right_3": "expect the supply",
+      "sentence": "So I, I would not say that I would expect the supply chain issues to  be completely worked out by the end of this year."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9180,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ". What I",
+      "right_3": "say , and",
+      "sentence": "What I would say, and I have been saying, is that I expect progress to be made in the  second half of this year, mainly—progress because we’re not making much progress."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9219,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "metrics , you",
+      "right_3": "find some that",
+      "sentence": "If you  look at a ton of metrics, you can find some that suggest that delivery times are shorter and  inventories in some industries moving up."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9287,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "time . I",
+      "right_3": "think they ’ll",
+      "sentence": "I would think they’ll go more than through 2023."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 9287,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "would think they",
+      "right_3": "go more than",
+      "sentence": "I would think they’ll go more than through 2023."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9299,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "late , I",
+      "right_3": "just say this",
+      "sentence": "January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 22 of 28    In terms of—so in terms of being too late, I would just say this."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9335,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "possibility that inflation",
+      "right_3": "continue to run",
+      "sentence": "We—our policy needs to  be positioned to address the full range of plausible outcomes, as I said, and particularly the  possibility that inflation will continue to run higher, more persistently than we’d expected."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9451,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the precise path",
+      "right_3": "be . But",
+      "sentence": "It isn’t possible to sit down here today  and tell you with any confidence what the—what the precise path will be."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 9572,
+      "head_verb_surface": "i",
+      "head_verb_lemma": "i",
+      "left_3": "Chairman . I",
+      "right_3": "like to sort",
+      "sentence": "I’d like to sort of weave some of the  strands of your answers together and ask you, as you start to reverse policy, what your goal is."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9644,
+      "head_verb_surface": "stop",
+      "head_verb_lemma": "stop",
+      "left_3": "breaker that \n",
+      "right_3": "stop you from",
+      "sentence": "And because you said we  have to protect the employment part of your mandate, is there some sort of circuit breaker that  would stop you from raising interest rates on the employment side?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9689,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "so that we",
+      "right_3": "do that ,",
+      "sentence": "There’s no—there’s nothing in our framework about having  inflation run below 2 percent so that we would do that, try to achieve that outcome."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9810,
+      "head_verb_surface": "anchored",
+      "head_verb_lemma": "anchor",
+      "left_3": "inflation \n expectations",
+      "right_3": "be anchored at",
+      "sentence": "And if inflation doesn’t average 2 percent over time, then it’s not clear why inflation  expectations would be anchored at 2 percent."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9904,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "mean , I",
+      "right_3": "say you have",
+      "sentence": "I mean, I would say you have a tremendously  strong labor market."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10020,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": "know , that",
+      "right_3": "also \n leave",
+      "sentence": "And we’re trying to do that in a process that, that, that accomplishes—you know, that will also  leave the labor market in a very strong position."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10054,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "knows what that",
+      "right_3": "take . \n",
+      "sentence": "And no one really knows what that will take."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10065,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "Again , I",
+      "right_3": "say that it",
+      "sentence": "Again, I would say that it isn’t just monetary policy that’s helping inflation get down."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10084,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "down . It",
+      "right_3": "be \n supply",
+      "sentence": "It’ll be  supply-side improvements, and it’ll be less, less fiscal, you know, less fiscal impulse in all  likelihood."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10084,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", and it",
+      "right_3": "be less ,",
+      "sentence": "It’ll be  supply-side improvements, and it’ll be less, less fiscal, you know, less fiscal impulse in all  likelihood."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10114,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "but monetary policy",
+      "right_3": "do our job",
+      "sentence": "So—but monetary policy will do our job."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 10137,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the two goals",
+      "right_3": "be in tension",
+      "sentence": "And a situation where, where the two goals are—the two goals can be in tension is a difficult  one."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 10270,
+      "head_verb_surface": "does",
+      "head_verb_lemma": "do",
+      "left_3": ". If I",
+      "right_3": "— if I",
+      "sentence": "If I could—if I could follow up, does the danger of tightening too  much as policy works its way into the economy with a lag mean that you should go back to being  more forecast dependent in making decisions, rather than the state dependency you’ve been  using as a framework for the last year and a half or so?  CHAIR POWELL."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 10270,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": "— if I",
+      "right_3": "follow up ,",
+      "sentence": "If I could—if I could follow up, does the danger of tightening too  much as policy works its way into the economy with a lag mean that you should go back to being  more forecast dependent in making decisions, rather than the state dependency you’ve been  using as a framework for the last year and a half or so?  CHAIR POWELL."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 10270,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "mean that you",
+      "right_3": "go back to",
+      "sentence": "If I could—if I could follow up, does the danger of tightening too  much as policy works its way into the economy with a lag mean that you should go back to being  more forecast dependent in making decisions, rather than the state dependency you’ve been  using as a framework for the last year and a half or so?  CHAIR POWELL."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10342,
+      "head_verb_surface": "wait",
+      "head_verb_lemma": "wait",
+      "left_3": "market , we",
+      "right_3": "wait to see",
+      "sentence": "State dependency was particularly around the thought that if we—if  we saw a very strong labor market, we would wait to see actual inflation—actual inflation before  we tightened."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 10378,
+      "head_verb_surface": "tightening",
+      "head_verb_lemma": "tighten",
+      "left_3": "time , we",
+      "right_3": "\n been tightening",
+      "sentence": "And so that was a very state-dependent thought because, for a long time, we’d  been tightening on the expectation of high inflation, which never appeared."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10425,
+      "head_verb_surface": "monitoring",
+      "head_verb_lemma": "monitor",
+      "left_3": "situation , we",
+      "right_3": "be clearly monitoring",
+      "sentence": "So in this particular situation, we will be clearly monitoring  incoming data as well as the evolving outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10571,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "But what I",
+      "right_3": "\n say is",
+      "sentence": "But what I would  say is this."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 10580,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", and it",
+      "right_3": "be a really",
+      "sentence": "The—if you remember what it felt like at the beginning of the pandemic, literally the  global economy shutting down in large part, including our own economy, and people going to  their homes for weeks on end in masks, and there are no vaccines, and it could be a really long   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 25 of 28    time to get them, you know."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10718,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "powerful . People",
+      "right_3": "— there’ll always",
+      "sentence": "People will—there’ll always be flaws in these things."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 10910,
+      "head_verb_surface": "on",
+      "head_verb_lemma": "on",
+      "left_3": "as \n we",
+      "right_3": "on . \n",
+      "sentence": "So—and  these are serious problems, very serious problems that we, you know, we’re working as hard as  we can on."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10957,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "years , we",
+      "right_3": "look back at",
+      "sentence": "And—but look, in  25 years, we’ll look back at this incident, which will be a, you know, 2-, 3-, 4-, 5-year period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10957,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "incident , which",
+      "right_3": "be a ,",
+      "sentence": "And—but look, in  25 years, we’ll look back at this incident, which will be a, you know, 2-, 3-, 4-, 5-year period."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10995,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "\n And we",
+      "right_3": "say , you",
+      "sentence": "And we’ll say, you know, we’ll have a—we’ll have a much better basis to make a judgment  about the actions that people took."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10995,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "know , we",
+      "right_3": "have a —",
+      "sentence": "And we’ll say, you know, we’ll have a—we’ll have a much better basis to make a judgment  about the actions that people took."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 11055,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "I guess I",
+      "right_3": "have to leave",
+      "sentence": "And I guess I’ll have to leave it at that."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 11067,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I hope I",
+      "right_3": "be around to",
+      "sentence": "I  look for—I hope I’ll be around to see how that looks in 25 years."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 11137,
+      "head_verb_surface": "flatten",
+      "head_verb_lemma": "flatten",
+      "left_3": "yield \n curve",
+      "right_3": "flatten , or",
+      "sentence": "Chair Powell, some investors are expecting the yield  curve could flatten, or even invert, after rate hikes begin."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11160,
+      "head_verb_surface": "worry",
+      "head_verb_lemma": "worry",
+      "left_3": "hikes begin .",
+      "right_3": "that worry you",
+      "sentence": "Would that worry you, and how  important is that risk in the Fed’s consideration for adjusting policy?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 11224,
+      "head_verb_surface": "know",
+      "head_verb_lemma": "know",
+      "left_3": ", and you",
+      "right_3": "know that from",
+      "sentence": "But it is something that we watch, and, and you will know that from when we had this  issue a few years ago."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11282,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "one thing I",
+      "right_3": "say . \n",
+      "sentence": "So that’s,  that’s one thing I would say."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 11423,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": "JEAN YUNG .",
+      "right_3": "I follow up",
+      "sentence": "Can I follow up real quick and ask, if it—if it did invert, would you tie it  to U.S. fundamentals?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11423,
+      "head_verb_surface": "tie",
+      "head_verb_lemma": "tie",
+      "left_3": "did invert ,",
+      "right_3": "you tie it",
+      "sentence": "Can I follow up real quick and ask, if it—if it did invert, would you tie it  to U.S. fundamentals?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11449,
+      "head_verb_surface": "driven",
+      "head_verb_lemma": "drive",
+      "left_3": "fundamentals ? Or",
+      "right_3": "it be driven",
+      "sentence": "Or would it be driven by a much broader set of factors?"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 11500,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "around the world",
+      "right_3": "put \n something",
+      "sentence": "And it—and the fact that our  rates are so much higher than, than other risk-free sovereign rates around the world may put  something of a ceiling on our—on our rates."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11545,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": ". But it",
+      "right_3": "really depend on",
+      "sentence": "But it would really depend on the— on the facts and circumstances at that time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11614,
+      "head_verb_surface": "describe",
+      "head_verb_lemma": "describe",
+      "left_3": "normalize rates ,",
+      "right_3": "you describe what",
+      "sentence": "Within the  context of just the broad effort to normalize rates, would you describe what you want to do as a  gradual hiking?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11702,
+      "head_verb_surface": "describe",
+      "head_verb_lemma": "describe",
+      "left_3": "POWELL . I",
+      "right_3": "describe what we",
+      "sentence": "I would describe what we’re doing along these lines."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 11799,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\n what that",
+      "right_3": "be . It",
+      "sentence": "And we, we have—we’re going to write down in March our next assessment of  what that might be."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 11900,
+      "head_verb_surface": "doing",
+      "head_verb_lemma": "do",
+      "left_3": "something that we",
+      "right_3": "also be doing",
+      "sentence": "And that’s, that’s something that we will also be doing as appropriate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 12141,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "POWELL . I",
+      "right_3": "just say this",
+      "sentence": "I would just say this."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 12353,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", I \n",
+      "right_3": "say . \n",
+      "sentence": "But, overall, the financial stability vulnerabilities are manageable—are manageable, I  would say."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Fortunately, health experts are finding that the Omicron variant has not been as virulent  as previous strains of the virus, and they expect that cases will drop off rapidly."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "That said, the implications for the economy remain uncertain."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Over time, there are good reasons to expect some  further improvements in participation and employment."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "These problems  have been larger and longer lasting than anticipated, exacerbated by waves of the virus."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Like most forecasters, we continue to expect inflation to decline over the course of  the year."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In addition, we  believe that the best thing we can do to support continued labor market gains is to promote a long  expansion, and that will require price stability."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "That is why we are phasing  out our asset purchases and why we expect it will soon be appropriate to raise the target range for  the federal funds rate."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Of course, the economic outlook remains highly uncertain."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With this in mind, we will remain attentive to risks, including the risk that high  inflation is more persistent than expected, and are prepared to respond as appropriate to achieve  our goals."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "So it’s  expected that the Fed will hike rates perhaps every other meeting, but certainly in the past, the  Fed has hiked at every meeting."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "So it’s  expected that the Fed will hike rates perhaps every other meeting, but certainly in the past, the  Fed has hiked at every meeting."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "So it’s  expected that the Fed will hike rates perhaps every other meeting, but certainly in the past, the  Fed has hiked at every meeting."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "So, as I—as I referred to in my opening statement, it’s—it  is not possible to predict with much confidence exactly what path for our policy rate is going to  prove appropriate."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "In fact, what I’ll say is that we’re going to be led by the incoming data and  the evolving outlook, which we’ll try to communicate as clearly as possible, moving steadily and  transparency—transparently."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In fact, what I’ll say is that we’re going to be led by the incoming data and  the evolving outlook, which we’ll try to communicate as clearly as possible, moving steadily and  transparency—transparently."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "And these differences are likely to have important implications for the  appropriate pace of policy adjustments."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "And also, along those same lines, obviously rate hikes"
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The timing and pace of that are uncertain."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We do realize that the timing  and pace of that are, are highly uncertain and that inflation has persisted longer than we—than  we thought."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "And I expect that this process will, will be something that we spend time on in coming  meetings."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "So—and I  think that leads you to—and I said, I’ve said this—being willing to move sooner than we did the  last time and also perhaps faster."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Balance sheet [policy] is, is still a  relatively new thing for, for the markets and for us, so we’re less certain about that."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We, you know, we said at our last meeting  we published the Summary of Economic Projections, the median of which—the median  participant expected three rate increases this year."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Surveys show that market  participants are expecting a balance sheet runoff to begin, you know, at the appropriate time,  sometime later this year perhaps."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Surveys show that market  participants are expecting a balance sheet runoff to begin, you know, at the appropriate time,  sometime later this year perhaps."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "But we do expect some softening in the economy from Omicron, but we think that that  should be temporary."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I think the path is highly uncertain and that we’re committed to using  our tools to make sure that inflation, high inflation that we’re seeing, does not become  entrenched."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We do expect this year—although we do expect now  that it will come slower than, than we had expected and hoped—that there will be relief on the  supply side."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We do expect this year—although we do expect now  that it will come slower than, than we had expected and hoped—that there will be relief on the  supply side."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We do expect this year—although we do expect now  that it will come slower than, than we had expected and hoped—that there will be relief on the  supply side."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "So the question is—you know, we’ll, we’ll be asking this question all year long, and that  will be, are things turning out as we expect?"
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "There’s a case that, for whatever reason, the  economy slows more and inflation slows more than expected; we’ll react to that."
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Second of all, you suggested that, that the—with balance sheet running in the  background—that you would possibly be raising rates and running off the balance sheet at the   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 13 of 28    same time."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "So I—you know, the one risk is  that inflation risks are still to the upside in the views of most FOMC participants and, certainly,  in my view as well."
+    },
+    {
+      "surface": "obvious",
+      "lemma": "obvious",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "We  saw wages persistently higher for people at the lower end, and there, there really was no obvious   January 26, 2022   Chair Powell’s Press Conference    FINAL  Page 16 of 28    imbalance in the economy that threatened that expansion."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "And you see the  situation in China as a situation there where that’s—their no-COVID policy may cause more  lockdowns, is likely to, and that may play into—may play into more problems in supply chains."
+    },
+    {
+      "surface": "projecting",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "You know, the last time we saw an SEP back in September, we saw that you and your  colleagues were projecting that inflation would sort of sink back down quite close to target by  the end of the year."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Like, how do—how do we get from here, 7 percent CPI, to where you expect to be  at the end of the year?"
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "So I’d say, you know, since, since the December meeting, I would  say that the inflation situation is about the same but probably slightly worse."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "It’s probably gotten just a—just a bit worse, and that’s been the pattern."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Now, what  we’re learning is, it’s just taking much longer, so I think—longer than expected."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And we’re also—you know, we  realize, I think, as everyone does, that this outlook is quite uncertain and that we’re going to have  to adapt."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "And we’re going to communicate as clearly as we can."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We have growth—even in forecasts, even in the  somewhat reduced forecast for 2022—we still see growth higher than, substantially higher than  what we estimate to be the potential growth rate."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I’m wondering if you can talk to us about any metrics that the Fed uses to assess how  inflation affects different groups of Americans, especially lower-, lower-income earners?"
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "So I, I would not say that I would expect the supply chain issues to  be completely worked out by the end of this year."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "I do not expect them, and I have not expected  them."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "I do not expect them, and I have not expected  them."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "What I would say, and I have been saying, is that I expect progress to be made in the  second half of this year, mainly—progress because we’re not making much progress."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We—our policy needs to  be positioned to address the full range of plausible outcomes, as I said, and particularly the  possibility that inflation will continue to run higher, more persistently than we’d expected."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "It isn’t possible to sit down here today  and tell you with any confidence what the—what the precise path will be."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "And I think those differences are likely to be reflected in—in the policy that we  implement."
+    },
+    {
+      "surface": "forecasting",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "I mean, people who are forecasting growth think potential growth is"
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I mean, people who are forecasting growth think potential growth is"
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "So in this particular situation, we will be clearly monitoring  incoming data as well as the evolving outlook."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Chair Powell, some investors are expecting the yield  curve could flatten, or even invert, after rate hikes begin."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "And we take it into account, along with many other financial conditions,  as we try to assess the implications of all those conditions for the economic outlook."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Obviously,  U.S. long-term sovereign debt is an—is an important global asset."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And I  wouldn’t—I don’t think it’s possible to say exactly how this is going to go."
+    }
+  ]
+}

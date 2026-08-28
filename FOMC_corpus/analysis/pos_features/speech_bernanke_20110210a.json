@@ -1,0 +1,798 @@
+{
+  "doc_id": "speech_bernanke_20110210a",
+  "doc_type": "speech",
+  "date": "2011-02-10",
+  "chair": "Bernanke",
+  "n_tokens": 4482,
+  "n_sents": 194,
+  "pos_counts": {
+    "NNP": 406,
+    "CD": 160,
+    ",": 288,
+    "NNPS": 33,
+    "IN": 655,
+    "NN": 711,
+    "DT": 374,
+    "POS": 10,
+    "JJ": 342,
+    "VBD": 27,
+    "JJR": 34,
+    "NNS": 469,
+    "RB": 207,
+    "CC": 176,
+    "PRP": 44,
+    "VBZ": 66,
+    "VB": 176,
+    "WP": 9,
+    "VBP": 130,
+    "PRP$": 33,
+    "VBN": 142,
+    ".": 189,
+    "VBG": 85,
+    "RP": 10,
+    "WDT": 23,
+    "JJS": 8,
+    "WRB": 14,
+    "MD": 56,
+    "TO": 75,
+    ":": 41,
+    "HYPH": 43,
+    "RBS": 3,
+    "RBR": 9,
+    "$": 6,
+    "-LRB-": 50,
+    "-RRB-": 50,
+    "``": 17,
+    "''": 17,
+    "LS": 1,
+    "SYM": 7
+  },
+  "modal_count": 56,
+  "modal_lemma_counts": {
+    "will": 11,
+    "may": 16,
+    "can": 11,
+    "might": 3,
+    "could": 13,
+    "should": 1,
+    "would": 1
+  },
+  "modals_per_1000": 12.494,
+  "epistemic_count": 20,
+  "epistemic_lemma_counts": {
+    "potential": 6,
+    "likely": 3,
+    "uncertain": 2,
+    "believe": 1,
+    "obviously": 1,
+    "forecast": 1,
+    "expect": 1,
+    "potentially": 3,
+    "assess": 2
+  },
+  "epistemics_per_1000": 4.462,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 180,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "to where it",
+      "right_3": "need to be",
+      "sentence": "Although the precipitous declines in construction that began in 2006 are, thankfully, now behind us, homebuilding remains depressed in most areas, relative both to where it was before the downturn and to where it will need to be to meet the needs of a growing population in the longer term."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 338,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "My remarks today",
+      "right_3": "focus on current",
+      "sentence": "My remarks today will focus on current housing market conditions and on how housing problems have affected borrowers, lenders, communities, and the broader economy."
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 366,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "economy . I",
+      "right_3": "also discuss some",
+      "sentence": "I'll also discuss some specific sources of our housing problems, including tight conditions in the mortgage market and the overhang of foreclosed and vacant homes."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 694,
+      "head_verb_surface": "reduced",
+      "head_verb_lemma": "reduce",
+      "left_3": "uncertain job prospects",
+      "right_3": "have reduced the",
+      "sentence": "High unemployment and uncertain job prospects may have reduced the willingness of some households to commit to homeownership."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 713,
+      "head_verb_surface": "return",
+      "head_verb_lemma": "return",
+      "left_3": "to which I",
+      "right_3": "return later .",
+      "sentence": "Availability of mortgage credit is an important constraint, to which I will return later."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 729,
+      "head_verb_surface": "viewed",
+      "head_verb_lemma": "view",
+      "left_3": "Additionally , housing",
+      "right_3": "no longer be",
+      "sentence": "Additionally, housing may no longer be viewed as the secure investment it once was thought to be, given uncertainty about future home prices and the economy more generally."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 974,
+      "head_verb_surface": "revolve",
+      "head_verb_lemma": "revolve",
+      "left_3": "next several years",
+      "right_3": "revolve around the",
+      "sentence": "The narrative of the housing market over the next several years will revolve around the resolution of those imbalances."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1072,
+      "head_verb_surface": "diminish",
+      "head_verb_lemma": "diminish",
+      "left_3": "geographically concentrated ,",
+      "right_3": "diminish the values",
+      "sentence": "Foreclosures, particularly when they are geographically concentrated, can diminish the values of nearby properties."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1110,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "or vacant properties",
+      "right_3": ", in turn",
+      "sentence": "Deteriorating or vacant properties can, in turn, directly affect the quality of life in a neighborhood, for example, by leading to increases in vandalism or crime."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1161,
+      "head_verb_surface": "started",
+      "head_verb_lemma": "start",
+      "left_3": "A vicious circle",
+      "right_3": "get started :",
+      "sentence": "A vicious circle can get started: Increasing vacancies together with decreasing tax revenue and consequent cutbacks in services can further depress home prices, putting the goal of neighborhood stabilization even further out of reach."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1161,
+      "head_verb_surface": "depress",
+      "head_verb_lemma": "depress",
+      "left_3": "cutbacks in services",
+      "right_3": "further depress home",
+      "sentence": "A vicious circle can get started: Increasing vacancies together with decreasing tax revenue and consequent cutbacks in services can further depress home prices, putting the goal of neighborhood stabilization even further out of reach."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1346,
+      "head_verb_surface": "reducing",
+      "head_verb_lemma": "reduce",
+      "left_3": "in housing wealth",
+      "right_3": "be reducing consumer",
+      "sentence": "5   Based on those estimates, it appears that recent declines in housing wealth may be reducing consumer spending between $200 billion and $375 billion per year."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1452,
+      "head_verb_surface": "tap",
+      "head_verb_lemma": "tap",
+      "left_3": "on their mortgages",
+      "right_3": "not tap home",
+      "sentence": "It reduces financial flexibility: Homeowners who are underwater on their mortgages cannot tap home equity to pay for emergency health expenses or their children's college educations."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1482,
+      "head_verb_surface": "affected",
+      "head_verb_lemma": "affect",
+      "left_3": "educations . Mobility",
+      "right_3": "be affected to",
+      "sentence": "Mobility may be affected to some degree; underwater borrowers who have difficulty selling their homes may find it more difficult to move to take new jobs."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1482,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "selling their homes",
+      "right_3": "find it more",
+      "sentence": "Mobility may be affected to some degree; underwater borrowers who have difficulty selling their homes may find it more difficult to move to take new jobs."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1510,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "with underwater mortgages",
+      "right_3": "find it difficult",
+      "sentence": "Moreover, homeowners with underwater mortgages may find it difficult or impossible to take advantage of low interest rates by refinancing their mortgages, even if they are current on their payments."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1544,
+      "head_verb_surface": "holding",
+      "head_verb_lemma": "hold",
+      "left_3": "and mortgage markets",
+      "right_3": "also be holding",
+      "sentence": "6    \r  The state of housing and mortgage markets may also be holding back the recovery of our financial system and the normalization of credit conditions."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1670,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", some lenders",
+      "right_3": "be inclined to",
+      "sentence": "On the margin, though, some lenders might be inclined to respond to losses by tightening credit terms or being more cautious about extending loans rather than by raising additional capital."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1937,
+      "head_verb_surface": "meet",
+      "head_verb_lemma": "meet",
+      "left_3": "potential borrowers who",
+      "right_3": "meet the underwriting",
+      "sentence": "For example, mortgage originators appear to be reluctant to extend credit to some potential borrowers who could meet the underwriting standards currently set by the government-sponsored enterprises (GSEs)."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1971,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "though such loans",
+      "right_3": "be within the",
+      "sentence": "Indeed, fewer than half of lenders are offering mortgages to borrowers with a FICO score of 620 and a down payment of 10 percent, even though such loans could be within the GSE purchase parameters."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2010,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "number of possibilities",
+      "right_3": "explain this reluctance",
+      "sentence": "10   A number of possibilities could explain this reluctance to lend."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2023,
+      "head_verb_surface": "obtain",
+      "head_verb_lemma": "obtain",
+      "left_3": "cases , borrowers",
+      "right_3": "not obtain private",
+      "sentence": "In some cases, borrowers cannot obtain private mortgage insurance required by the GSEs."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2039,
+      "head_verb_surface": "damping",
+      "head_verb_lemma": "damp",
+      "left_3": "private mortgage insurers",
+      "right_3": "be damping mortgage",
+      "sentence": "Thus, the weakened finances of private mortgage insurers could be damping mortgage credit availability for some potential borrowers."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2059,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "cases , lenders",
+      "right_3": "be concerned about",
+      "sentence": "In other cases, lenders may be concerned about high servicing costs if mortgages become delinquent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2103,
+      "head_verb_surface": "enforced",
+      "head_verb_lemma": "enforce",
+      "left_3": "about how they",
+      "right_3": "be enforced going",
+      "sentence": "These contracts were designed to protect the GSEs or other purchasers of loans, but originators appear uncertain about how they will be enforced going forward and thus have been very cautious about making loans that could be viewed as less than perfect from an underwriting perspective."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2103,
+      "head_verb_surface": "viewed",
+      "head_verb_lemma": "view",
+      "left_3": "making loans that",
+      "right_3": "be viewed as",
+      "sentence": "These contracts were designed to protect the GSEs or other purchasers of loans, but originators appear uncertain about how they will be enforced going forward and thus have been very cautious about making loans that could be viewed as less than perfect from an underwriting perspective."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2151,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "and regulators alike",
+      "right_3": "look carefully at",
+      "sentence": "Learning from our experience with securitizations over the past decade, lenders and regulators alike should look carefully at rules and practices that may unduly diminish the origination of prudently underwritten mortgages."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2151,
+      "head_verb_surface": "diminish",
+      "head_verb_lemma": "diminish",
+      "left_3": "and practices that",
+      "right_3": "unduly diminish the",
+      "sentence": "Learning from our experience with securitizations over the past decade, lenders and regulators alike should look carefully at rules and practices that may unduly diminish the origination of prudently underwritten mortgages."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2202,
+      "head_verb_surface": "discouraged",
+      "head_verb_lemma": "discourage",
+      "left_3": "label securitization market",
+      "right_3": "have discouraged lenders",
+      "sentence": "The difficulty of funding loans in the private-label securitization market may have discouraged lenders from originating loans to some borrowers who may be creditworthy but may not exactly fit the criteria of the GSEs or the Federal Housing Administration (FHA)."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2202,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "some borrowers who",
+      "right_3": "be creditworthy but",
+      "sentence": "The difficulty of funding loans in the private-label securitization market may have discouraged lenders from originating loans to some borrowers who may be creditworthy but may not exactly fit the criteria of the GSEs or the Federal Housing Administration (FHA)."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2202,
+      "head_verb_surface": "fit",
+      "head_verb_lemma": "fit",
+      "left_3": "be creditworthy but",
+      "right_3": "not exactly fit",
+      "sentence": "The difficulty of funding loans in the private-label securitization market may have discouraged lenders from originating loans to some borrowers who may be creditworthy but may not exactly fit the criteria of the GSEs or the Federal Housing Administration (FHA)."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2377,
+      "head_verb_surface": "prevent",
+      "head_verb_lemma": "prevent",
+      "left_3": "- time homebuyers",
+      "right_3": "prevent current homeowners",
+      "sentence": "12   Moreover, the lack of demand from first-time homebuyers may prevent current homeowners from moving up to larger homes, for example, to accommodate growing families."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2425,
+      "head_verb_surface": "had",
+      "head_verb_lemma": "have",
+      "left_3": "than they otherwise",
+      "right_3": "have had .",
+      "sentence": "Because some creditworthy households are finding it difficult to obtain mortgage credit or to refinance, the strong actions taken by the Federal Reserve to put downward pressure on longer-term rates and to improve financial conditions have had less effect on the housing sector and overall economic activity than they otherwise would have had."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2483,
+      "head_verb_surface": "solved",
+      "head_verb_lemma": "solve",
+      "left_3": "tight mortgage credit",
+      "right_3": "not be solved",
+      "sentence": "The problem of tight mortgage credit will not be solved easily or quickly."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2626,
+      "head_verb_surface": "prevented",
+      "head_verb_lemma": "prevent",
+      "left_3": "not all foreclosures",
+      "right_3": "be prevented .",
+      "sentence": "But unfortunately, not all foreclosures can be prevented."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2668,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "in whether anything",
+      "right_3": "be done to",
+      "sentence": "Therefore, we have seen increased interest in whether anything can be done to reduce the overhang of empty and foreclosed homes."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2775,
+      "head_verb_surface": "added",
+      "head_verb_lemma": "add",
+      "left_3": "million foreclosed properties",
+      "right_3": "be added to",
+      "sentence": "Although it is difficult to forecast future REO flows, we estimate that an additional 1 million foreclosed properties could be added to the REO held by banks, guarantors, and servicers in each of the next few years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2816,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". These inflows",
+      "right_3": "continue to exert",
+      "sentence": "These inflows will continue to exert downward pressure on home prices."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2889,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "rising , it",
+      "right_3": "make sense in",
+      "sentence": "With home prices falling and rents rising, it could make sense in some markets to turn some of the foreclosed homes into rental properties."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3002,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "some REO holders",
+      "right_3": "come out ahead",
+      "sentence": "The comparison suggests that some REO holders might come out ahead by renting, rather than by selling, some of their properties."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3027,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "market rents --",
+      "right_3": ", in some",
+      "sentence": "Moreover, keeping paying tenants in homes--including leasing to the former owners at market rents--may, in some cases, be the best way to maintain property values and the quality of neighborhoods."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3065,
+      "head_verb_surface": "minimize",
+      "head_verb_lemma": "minimize",
+      "left_3": "- rental programs",
+      "right_3": "potentially also minimize",
+      "sentence": "REO-to-rental programs could potentially also minimize the amount of time that a vacant property languishes in REO inventory."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3088,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "appropriately structured programs",
+      "right_3": "help some involuntary",
+      "sentence": "That is, appropriately structured programs could help some involuntary renters become owners again by giving them options to purchase the homes they are renting."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3181,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "many REO properties",
+      "right_3": "not be appropriate",
+      "sentence": "In addition, many REO properties may not be appropriate for REO-to-rental programs, either because they are in very poor condition or because they are not part of a sufficiently large cluster of properties to allow for economies of scale in their management."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3247,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a scale that",
+      "right_3": "be large enough",
+      "sentence": "As of early November 2011, about 60 metropolitan areas each had at least 250 REO properties for sale by the GSEs and the FHA--a scale that could be large enough to realize efficiency gains."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3406,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "\r\n \n\n\r\n  Other options",
+      "right_3": "help with foreclosed",
+      "sentence": "Other options can help with foreclosed houses that have low value and are in poor condition, homes that are not likely to be dealt with adequately through the private market."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3438,
+      "head_verb_surface": "handle",
+      "head_verb_lemma": "handle",
+      "left_3": ", land banks",
+      "right_3": "handle some of",
+      "sentence": "For example, land banks could handle some of these properties."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3475,
+      "head_verb_surface": "rehabilitated",
+      "head_verb_lemma": "rehabilitate",
+      "left_3": "properties . Properties",
+      "right_3": "be rehabilitated as",
+      "sentence": "Properties may be rehabilitated as rental or owner-occupied housing or, in extreme cases, demolished, depending on the needs of individual markets."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3585,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "approaches that policymakers",
+      "right_3": "consider to help",
+      "sentence": "REO-to-rental programs, land banks, and other neighborhood stabilization efforts are just a few examples of the approaches that policymakers could consider to help facilitate the adjustment of the housing market."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3648,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "with alternative approaches",
+      "right_3": "help find the",
+      "sentence": "Experimentation with alternative approaches could help find the best way forward."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3683,
+      "head_verb_surface": "obtain",
+      "head_verb_lemma": "obtain",
+      "left_3": "potentially creditworthy homebuyers",
+      "right_3": "not obtain mortgages",
+      "sentence": "Many local markets have an overhang of empty and foreclosed homes, and many potentially creditworthy homebuyers cannot obtain mortgages."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3726,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "implement policies that",
+      "right_3": "help the housing",
+      "sentence": "For these reasons, and because the troubled housing market depresses construction activity and employment, we need to continue to develop and implement policies that will help the housing sector get back on its feet."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3763,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "No single solution",
+      "right_3": "be sufficient .",
+      "sentence": "No single solution will be sufficient."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3770,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": "the housing market",
+      "right_3": "pay dividends in",
+      "sentence": "But sustained efforts to address the many interlocking factors holding back the housing market will pay dividends in the long run."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4792,
+      "head_verb_surface": "backed",
+      "head_verb_lemma": "back",
+      "left_3": "prime mortgages that",
+      "right_3": "be backed by",
+      "sentence": "Surveys since then have yet to provide evidence of unwinding that tightness even for prime mortgages that can be backed by guarantees from Fannie Mae, Freddie Mac, or the Federal Housing Administration."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 5023,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "tradeoffs that policymakers",
+      "right_3": "take into account",
+      "sentence": "For a discussion of some of the tradeoffs that policymakers might take into account in considering whether to expand these efforts to reduce the overhang of empty and foreclosed homes further, see Board of Governors, \"The U.S. Housing Market\" (see note 1)."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For the past few years, the actual and potential supply of single-family homes has greatly exceeded the effective demand."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Looking ahead, the relatively high rate of foreclosures is likely to continue for a while, putting additional homes on the market and dislocating families and disrupting communities in the process."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "High unemployment and uncertain job prospects may have reduced the willingness of some households to commit to homeownership."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "While estimates vary, homeowners are believed to spend somewhere between $3 and $5 per year less for every $100 of housing value lost."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For example, mortgage originators appear to be reluctant to extend credit to some potential borrowers who could meet the underwriting standards currently set by the government-sponsored enterprises (GSEs)."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Thus, the weakened finances of private mortgage insurers could be damping mortgage credit availability for some potential borrowers."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "These contracts were designed to protect the GSEs or other purchasers of loans, but originators appear uncertain about how they will be enforced going forward and thus have been very cautious about making loans that could be viewed as less than perfect from an underwriting perspective."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Potential first-time homebuyers have been disproportionately affected by the very tight conditions in mortgage markets."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Lending to potential first-time homebuyers has dropped precipitously, even in parts of the country where unemployment rates and housing conditions are better than the national average."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "But the slow recovery of the housing market and the economy, continued uncertainty surrounding the future of the GSEs and the regulatory environment for mortgage lending, the likely continued absence of a private-label market, and more cautious attitudes by lenders are all barriers to rapid normalization of the flow of mortgage credit."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "This work is obviously very important."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Although it is difficult to forecast future REO flows, we estimate that an additional 1 million foreclosed properties could be added to the REO held by banks, guarantors, and servicers in each of the next few years."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "16   We have compared computations of the expected annual cash flows from renting properties to the discounted prices that REO property holders typically receive when selling a home."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "REO-to-rental programs could potentially also minimize the amount of time that a vacant property languishes in REO inventory."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "As I noted, not all REO properties are appropriate for rental, but many do appear to be physically adequate and potentially attractive to tenants."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Other options can help with foreclosed houses that have low value and are in poor condition, homes that are not likely to be dealt with adequately through the private market."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Many local markets have an overhang of empty and foreclosed homes, and many potentially creditworthy homebuyers cannot obtain mortgages."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Empirical evidence on bank capital shocks affecting the level of economic output is provided in Macroeconomic Assessment Group (2010),  Assessing the Macroeconomic Impact of the Transition to Stronger Capital and Liquidity Requirements  (PDF) , final report (Basel, Switzerland: Bank for International Settlements, December)."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Credit scores are used to inform lenders when they assess an individual's credit risk."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Other potential approaches include loan modification programs, principal reduction protocols, and the use of short sales and deeds-in-lieu of foreclosure."
+    }
+  ]
+}

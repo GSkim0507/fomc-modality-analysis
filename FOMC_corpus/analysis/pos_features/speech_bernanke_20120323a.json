@@ -1,0 +1,131 @@
+{
+  "doc_id": "speech_bernanke_20120323a",
+  "doc_type": "speech",
+  "date": "2012-03-23",
+  "chair": "Bernanke",
+  "n_tokens": 703,
+  "n_sents": 28,
+  "pos_counts": {
+    "NNP": 118,
+    "CD": 25,
+    ",": 60,
+    "IN": 90,
+    "DT": 76,
+    ":": 8,
+    "RB": 17,
+    "CC": 44,
+    "NNS": 54,
+    "PRP": 11,
+    "VBZ": 5,
+    "PRP$": 7,
+    "NN": 78,
+    "TO": 9,
+    "VB": 26,
+    "``": 7,
+    "''": 7,
+    "WDT": 3,
+    "VBN": 12,
+    ".": 29,
+    "VBP": 15,
+    "MD": 6,
+    "VBG": 16,
+    "JJ": 74,
+    "VBD": 2,
+    "JJR": 3,
+    "RP": 2,
+    "WRB": 1,
+    "JJS": 1,
+    "RBS": 1,
+    "RBR": 1,
+    "POS": 3,
+    "LS": 1,
+    "SYM": 1,
+    "-LRB-": 11,
+    "-RRB-": 11,
+    "HYPH": 1,
+    "NNPS": 4
+  },
+  "modal_count": 6,
+  "modal_lemma_counts": {
+    "will": 5,
+    "should": 1
+  },
+  "modals_per_1000": 8.535,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "obviously": 1
+  },
+  "epistemics_per_1000": 1.422,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 90,
+      "head_verb_surface": "foster",
+      "head_verb_lemma": "foster",
+      "left_3": "that the conference",
+      "right_3": "foster discussion among",
+      "sentence": "1   We hope that the conference will foster discussion among policymakers and researchers about the evolving challenges facing central banks around the world."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 115,
+      "head_verb_surface": "feature",
+      "head_verb_lemma": "feature",
+      "left_3": ", the conference",
+      "right_3": "feature original research",
+      "sentence": "To help get that discussion started, the conference will feature original research on monetary policy, macroprudential regulation, and the provision of liquidity, topics that are obviously highly relevant to the public policy missions of the Federal Reserve and other central banks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 161,
+      "head_verb_surface": "published",
+      "head_verb_lemma": "publish",
+      "left_3": "from this conference",
+      "right_3": "be published in",
+      "sentence": "The proceedings from this conference will be published in a special issue of the journal and disseminated to researchers in central banks and academic institutions worldwide."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 418,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "outpouring of research",
+      "right_3": "help shape future",
+      "sentence": "This outpouring of research will help shape future central bank doctrine and policy approaches and, most importantly, should help central banks better carry out their mission to promote the public welfare."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 418,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "most importantly ,",
+      "right_3": "help central banks",
+      "sentence": "This outpouring of research will help shape future central bank doctrine and policy approaches and, most importantly, should help central banks better carry out their mission to promote the public welfare."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 559,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the policy panel",
+      "right_3": "surely be very",
+      "sentence": "4    \r  The discussants' remarks, the general discussions, and the policy panel will surely be very helpful in identifying fruitful directions for further research."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "To help get that discussion started, the conference will feature original research on monetary policy, macroprudential regulation, and the provision of liquidity, topics that are obviously highly relevant to the public policy missions of the Federal Reserve and other central banks."
+    }
+  ]
+}

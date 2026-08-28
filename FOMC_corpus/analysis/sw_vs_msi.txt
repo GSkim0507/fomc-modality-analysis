@@ -1,0 +1,50 @@
+=== Paper A — Shapiro-Wilson hawk/dove score ===
+
+Documents scored: 535   total tokens: 2,446,733
+
+[Genre means per 1k tokens]
+                       inflation  employment  tightening  accommodation  lm_neg  lm_pos  sw_hawk_minus_dove
+doc_type                                                                                                   
+minutes                    14.00        7.32        5.98           5.09   17.92    9.87               11.59
+press_conf_transcript       9.18        6.43        3.16           3.74   15.27    9.76                4.93
+speech                      6.62        5.88        2.90           3.16   20.80   16.18                2.80
+statement                  22.67       14.03        3.68           8.45   12.06   16.04                1.89
+
+[Convergent validity — SW × MSI across all docs]
+  sw_hawk_minus_dove     × msi_avg_modal_strength  Pearson r=-0.023 (p=5.951e-01)
+  sw_hawk_minus_dove     × msi_signed_per_1000     Pearson r=-0.071 (p=9.989e-02)
+  sw_hawk_score          × msi_signed_per_1000     Pearson r=+0.372 (p=5.801e-19)
+
+[Predictive validity — SW × dot-plot Δ — Statement, n=39]
+  Δ × sw_hawk_minus_dove      Pearson r=+0.295 (p=0.068)  Spearman ρ=+0.191 (p=0.245)
+  Δ × sw_hawk_score           Pearson r=+0.239 (p=0.143)  Spearman ρ=+0.266 (p=0.102)
+  Δ × sw_dove_score           Pearson r=-0.240 (p=0.141)  Spearman ρ=-0.244 (p=0.134)
+  Δ × inflation               Pearson r=-0.115 (p=0.484)  Spearman ρ=-0.180 (p=0.274)
+  Δ × employment              Pearson r=-0.160 (p=0.331)  Spearman ρ=-0.259 (p=0.111)
+  Δ × tightening              Pearson r=+0.549 (p=0.000) ★  Spearman ρ=+0.618 (p=0.000)
+  Δ × accommodation           Pearson r=-0.312 (p=0.053)  Spearman ρ=-0.251 (p=0.123)
+  Δ × lm_neg                  Pearson r=+0.106 (p=0.522)  Spearman ρ=+0.113 (p=0.495)
+  Δ × lm_pos                  Pearson r=-0.014 (p=0.935)  Spearman ρ=-0.046 (p=0.780)
+
+[SW-only classifier — LOOCV, Statement]
+              precision    recall  f1-score   support
+
+      dovish      0.455     0.417     0.435        12
+     hawkish      0.625     0.625     0.625        16
+     neutral      0.250     0.273     0.261        11
+
+    accuracy                          0.462        39
+   macro avg      0.443     0.438     0.440        39
+weighted avg      0.467     0.462     0.464        39
+
+
+[SW + MSI combined — LOOCV, Statement]
+              precision    recall  f1-score   support
+
+      dovish      0.556     0.417     0.476        12
+     hawkish      0.562     0.562     0.562        16
+     neutral      0.286     0.364     0.320        11
+
+    accuracy                          0.462        39
+   macro avg      0.468     0.448     0.453        39
+weighted avg      0.482     0.462     0.468        39

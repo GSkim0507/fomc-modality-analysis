@@ -1,0 +1,132 @@
+{
+  "doc_id": "speech_powell_20191007a",
+  "doc_type": "speech",
+  "date": "2019-10-07",
+  "chair": "Powell",
+  "n_tokens": 814,
+  "n_sents": 39,
+  "pos_counts": {
+    "NNP": 150,
+    "CD": 13,
+    ",": 58,
+    "IN": 110,
+    "DT": 99,
+    "NN": 116,
+    "``": 6,
+    "NNPS": 7,
+    ":": 6,
+    "''": 2,
+    "VBP": 12,
+    "PRP": 29,
+    ".": 39,
+    "VBZ": 11,
+    "JJ": 46,
+    "TO": 16,
+    "VB": 29,
+    "PDT": 1,
+    "POS": 10,
+    "RB": 35,
+    "VBN": 9,
+    "VBD": 31,
+    "NNS": 23,
+    "VBG": 7,
+    "CC": 24,
+    "MD": 5,
+    "PRP$": 14,
+    "WRB": 3,
+    "RBR": 2,
+    "JJR": 2,
+    "WP": 2,
+    "HYPH": 6,
+    "RBS": 1,
+    "JJS": 2,
+    "WDT": 4,
+    "LS": 1,
+    "-LRB-": 1,
+    "-RRB-": 1
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "will": 2,
+    "would": 1,
+    "should": 1,
+    "must": 1
+  },
+  "modals_per_1000": 6.143,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "anticipate": 1,
+    "perhaps": 1
+  },
+  "epistemics_per_1000": 2.457,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 140,
+      "head_verb_surface": "remind",
+      "head_verb_lemma": "remind",
+      "left_3": ". The documentary",
+      "right_3": "remind us of",
+      "sentence": "The documentary will remind us of Marriner's immense contribution not just to the region, but also to our nation during the Great Depression, World War II, and thereafter."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 183,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "today . I",
+      "right_3": "like to especially",
+      "sentence": "I would like to especially recognize Marriner's grandson, Chip Eccles; Marriner's nephew, Spencer Eccles; and Spencer's daughter, Hope Eccles."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 342,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "the federal government",
+      "right_3": "act forcefully to",
+      "sentence": "As the Depression deepened, he presciently recognized that the federal government should act forcefully to put people back to work and stimulate business."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 831,
+      "head_verb_surface": "learn",
+      "head_verb_lemma": "learn",
+      "left_3": "career . You",
+      "right_3": "learn much more",
+      "sentence": "You will learn much more in the film we are about to see."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 845,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the central bank",
+      "right_3": "be absolutely free",
+      "sentence": "In closing, I leave you with this statement from Marriner, inscribed on a plaque in the Eccles Building: \"The management of the central bank must be absolutely free from the dangers of control by politics and by private interests, singly or combined.\""
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In a speech delivered here in Utah in 1932, Marriner asked what was the purpose of an economic system if not to allow those willing and able to work the opportunity to do so, to \"guarantee to them sustenance for their families and protection against want and destitution.\" 1  His ideas helped form the basis of Franklin D. Roosevelt's New Deal and anticipated the not-yet-published tenets of British "
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "And, perhaps most importantly from my perspective as Fed Chair, he is responsible more than any other person for the fact that the United States today has an independent central bankâa central bank able to make decisions in the long-term best interest of the economy, without regard to the political pressures of the moment."
+    }
+  ]
+}

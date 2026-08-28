@@ -1,0 +1,140 @@
+{
+  "doc_id": "speech_powell_20210817a",
+  "doc_type": "speech",
+  "date": "2021-08-17",
+  "chair": "Powell",
+  "n_tokens": 680,
+  "n_sents": 37,
+  "pos_counts": {
+    "NNP": 28,
+    "CD": 4,
+    ",": 31,
+    "NNPS": 1,
+    "IN": 89,
+    "DT": 72,
+    ":": 1,
+    "JJ": 51,
+    "NN": 88,
+    "CC": 34,
+    "-LRB-": 1,
+    "-RRB-": 1,
+    "VBP": 37,
+    "PRP": 44,
+    "NNS": 42,
+    "PRP$": 18,
+    "VBG": 10,
+    "RB": 41,
+    ".": 36,
+    "WP": 3,
+    "VBZ": 20,
+    "TO": 19,
+    "VB": 33,
+    "VBN": 23,
+    "PDT": 1,
+    "JJR": 5,
+    "RBR": 2,
+    "MD": 7,
+    "EX": 1,
+    "HYPH": 6,
+    "WDT": 2,
+    "RP": 1,
+    "JJS": 2,
+    "WRB": 1,
+    "RBS": 1
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "would": 1,
+    "must": 1,
+    "should": 1,
+    "will": 4
+  },
+  "modals_per_1000": 10.294,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "believe": 1
+  },
+  "epistemics_per_1000": 1.471,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 189,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "teachers . It",
+      "right_3": "be important to",
+      "sentence": "It would be important to mention this in any year, but especially now, in the 17th month of our upended reality."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 309,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "pitfalls . That",
+      "right_3": "have been especially",
+      "sentence": "That must have been especially tough without the day-to-day interactions that help you connect."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 444,
+      "head_verb_surface": "feel",
+      "head_verb_lemma": "feel",
+      "left_3": "extraordinary . You",
+      "right_3": "all feel proud",
+      "sentence": "You should all feel proud."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 512,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "some of you",
+      "right_3": "use those tools",
+      "sentence": "And I hope some of you will use those tools in public service."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 557,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": ". \n\n You",
+      "right_3": "see the world",
+      "sentence": "You will see the world differently than your predecessors."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 620,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "I hope this",
+      "right_3": "cause you to",
+      "sentence": "I hope this will cause you to think about how you want to make your mark, knowing that things do change, and sometimes they change quickly."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 650,
+      "head_verb_surface": "result",
+      "head_verb_lemma": "result",
+      "left_3": "believe that it",
+      "right_3": "result in an",
+      "sentence": "This is an extraordinary time, and I believe that it will result in an extraordinary generation."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "This is an extraordinary time, and I believe that it will result in an extraordinary generation."
+    }
+  ]
+}

@@ -1,0 +1,1406 @@
+{
+  "doc_id": "speech_yellen_20140416a",
+  "doc_type": "speech",
+  "date": "2014-04-16",
+  "chair": "Yellen",
+  "n_tokens": 5377,
+  "n_sents": 226,
+  "pos_counts": {
+    "NNP": 560,
+    "CD": 287,
+    ",": 364,
+    "CC": 121,
+    "DT": 572,
+    "IN": 783,
+    "RB": 221,
+    "NNS": 250,
+    "NN": 943,
+    "WDT": 28,
+    "VBD": 100,
+    "JJ": 416,
+    "VBZ": 128,
+    "VBN": 136,
+    ".": 214,
+    "JJR": 47,
+    "VBP": 60,
+    "TO": 77,
+    "VB": 220,
+    "VBG": 77,
+    "PRP$": 49,
+    "PRP": 69,
+    "WRB": 26,
+    "HYPH": 45,
+    "MD": 83,
+    "-LRB-": 53,
+    "-RRB-": 53,
+    "POS": 31,
+    "JJS": 7,
+    "WP": 8,
+    "RP": 5,
+    "SYM": 10,
+    "UH": 7,
+    "NNPS": 44,
+    "EX": 9,
+    "RBR": 20,
+    "LS": 2,
+    "RBS": 3,
+    "``": 55,
+    "''": 45,
+    ":": 25,
+    "$": 3,
+    "FW": 3,
+    "PDT": 1,
+    "XX": 2
+  },
+  "modal_count": 83,
+  "modal_lemma_counts": {
+    "will": 29,
+    "must": 6,
+    "may": 9,
+    "would": 16,
+    "can": 4,
+    "might": 8,
+    "should": 6,
+    "could": 5
+  },
+  "modals_per_1000": 15.436,
+  "epistemic_count": 61,
+  "epistemic_lemma_counts": {
+    "project": 6,
+    "likely": 14,
+    "foresee": 1,
+    "uncertain": 4,
+    "judge": 2,
+    "believe": 4,
+    "anticipate": 7,
+    "assess": 4,
+    "probably": 1,
+    "expect": 15,
+    "seemingly": 1,
+    "forecast": 1,
+    "potentially": 1
+  },
+  "epistemics_per_1000": 11.345,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 191,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "\r\n \n\n\r\n  Today I",
+      "right_3": "discuss how my",
+      "sentence": "Today I will discuss how my colleagues on the Federal Open Market Committee (FOMC) and I view the state of the economy and how this view is likely to shape our efforts to promote a return to maximum employment in a context of price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 239,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "stability . I",
+      "right_3": "start with the",
+      "sentence": "I will start with the FOMC's outlook, which foresees a gradual return over the next two to three years of economic conditions consistent with its mandate."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 269,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "and effective policy",
+      "right_3": "respond to significant",
+      "sentence": "While monetary policy discussions naturally begin with a baseline outlook, the path of the economy is uncertain, and effective policy must respond to significant unexpected twists and turns the economy may take."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 269,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "turns the economy",
+      "right_3": "take . My",
+      "sentence": "While monetary policy discussions naturally begin with a baseline outlook, the path of the economy is uncertain, and effective policy must respond to significant unexpected twists and turns the economy may take."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 304,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "primary focus today",
+      "right_3": "be on how",
+      "sentence": "My primary focus today will be on how the FOMC's monetary policy framework has evolved to best support the recovery through those twists and turns, and what this framework is likely to imply as the recovery progresses."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 634,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "continue , inflation",
+      "right_3": "gradually move back",
+      "sentence": "We anticipate that, as the effects of transitory factors subside and as labor market gains continue, inflation will gradually move back toward 2 percent."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 700,
+      "head_verb_surface": "approaching",
+      "head_verb_lemma": "approach",
+      "left_3": ", the economy",
+      "right_3": "be approaching what",
+      "sentence": "2   If this forecast was to become reality, the economy would be approaching what my colleagues"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 745,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of central bankers",
+      "right_3": "be a lot",
+      "sentence": "Of course, if the economy obediently followed our forecasts, the job of central bankers would be a lot easier and their speeches would be a lot shorter."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 745,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and their speeches",
+      "right_3": "be a lot",
+      "sentence": "Of course, if the economy obediently followed our forecasts, the job of central bankers would be a lot easier and their speeches would be a lot shorter."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 775,
+      "head_verb_surface": "ask",
+      "head_verb_lemma": "ask",
+      "left_3": ", so I",
+      "right_3": "ask your indulgence",
+      "sentence": "Alas, the economy is often not so compliant, so I will ask your indulgence for a few more minutes."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 901,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "with maximum employment",
+      "right_3": "be difficult to",
+      "sentence": "One of the FOMC's objectives is to promote a return to maximum employment, but exactly what conditions are consistent with maximum employment can be difficult to assess."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 963,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "nearer , it",
+      "right_3": "be necessary for",
+      "sentence": "But as the attainment of our maximum employment goal draws nearer, it will be necessary for the FOMC to form a more nuanced judgment about when the recovery of the labor market will be materially complete."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 963,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the labor market",
+      "right_3": "be materially complete",
+      "sentence": "But as the attainment of our maximum employment goal draws nearer, it will be necessary for the FOMC to form a more nuanced judgment about when the recovery of the labor market will be materially complete."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1001,
+      "head_verb_surface": "based",
+      "head_verb_lemma": "base",
+      "left_3": "inherently uncertain and",
+      "right_3": "be based on",
+      "sentence": "As the FOMC's statement on longer-term goals and policy strategy emphasizes, these judgments are inherently uncertain and must be based on a wide range of indicators."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1033,
+      "head_verb_surface": "refer",
+      "head_verb_lemma": "refer",
+      "left_3": "3 \n \n\n\r\n  I",
+      "right_3": "refer to the",
+      "sentence": "3    \r  I will refer to the shortfall in employment relative to its mandate-consistent level as labor market slack, and there are a number of different indicators of this slack."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1112,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "outlook , it",
+      "right_3": "take more than",
+      "sentence": "This shortfall remains significant, and in our baseline outlook, it will take more than two years to close."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1134,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "suggest that there",
+      "right_3": "be more slack",
+      "sentence": "4    \r  Other data suggest that there may be more slack in labor markets than indicated by the unemployment rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1155,
+      "head_verb_surface": "prefer",
+      "head_verb_lemma": "prefer",
+      "left_3": "part time but",
+      "right_3": "prefer to work",
+      "sentence": "For example, the share of the workforce that is working part time but would prefer to work full time remains quite high by historical standards."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1229,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "to which it",
+      "right_3": "decline in a",
+      "sentence": "5   There is ongoing debate about why long-term unemployment remains so high and the degree to which it might decline in a more robust economy."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1258,
+      "head_verb_surface": "fall",
+      "head_verb_lemma": "fall",
+      "left_3": "- term unemployment",
+      "right_3": "fall appreciably if",
+      "sentence": "As I argued more fully in a recent speech, I believe that long-term unemployment might fall appreciably if economic conditions were stronger."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1285,
+      "head_verb_surface": "signal",
+      "head_verb_lemma": "signal",
+      "left_3": "labor force participation",
+      "right_3": "also signal additional",
+      "sentence": "6    \r  The low level of labor force participation may also signal additional slack that is not reflected in the headline unemployment rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1309,
+      "head_verb_surface": "expected",
+      "head_verb_lemma": "expect",
+      "left_3": "rate . Participation",
+      "right_3": "be expected to",
+      "sentence": "Participation would be expected to fall because of the aging of the population, but the decline steepened in the recovery."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1331,
+      "head_verb_surface": "join",
+      "head_verb_lemma": "join",
+      "left_3": "the labor market",
+      "right_3": "join or rejoin",
+      "sentence": "Although economists differ over what share of those currently outside the labor market might join or rejoin the labor force in a stronger economy, my own view is that some portion of the decline in participation likely represents labor market slack."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1419,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ", the FOMC",
+      "right_3": "need to monitor",
+      "sentence": "As the extent of slack we see today diminishes, however, the FOMC will need to monitor these and other labor market indicators closely to judge how much slack remains and, therefore, how accommodative monetary policy should be."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1419,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "accommodative monetary policy",
+      "right_3": "be . \r\n \n\n",
+      "sentence": "As the extent of slack we see today diminishes, however, the FOMC will need to monitor these and other labor market indicators closely to judge how much slack remains and, therefore, how accommodative monetary policy should be."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1510,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "below 2 percent",
+      "right_3": "pose risks to",
+      "sentence": "As the most recent FOMC statement emphasizes, inflation persistently below 2 percent could pose risks to economic performance."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1531,
+      "head_verb_surface": "push",
+      "head_verb_lemma": "push",
+      "left_3": "adverse economic developments",
+      "right_3": "more easily push",
+      "sentence": "The FOMC strives to avoid inflation slipping too far below its 2 percent objective because, at very low inflation rates, adverse economic developments could more easily push the economy into deflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1565,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "starts , deflation",
+      "right_3": "become entrenched and",
+      "sentence": "The limited historical experience with deflation shows that, once it starts, deflation can become entrenched and associated with prolonged periods of very weak economic performance."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1646,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "firms , which",
+      "right_3": "put a drag",
+      "sentence": "9   Further, with longer-term inflation expectations anchored near 2 percent in recent years, persistent inflation well below this expected value increases the real burden of debt for households and firms, which may put a drag on economic activity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1692,
+      "head_verb_surface": "mention",
+      "head_verb_lemma": "mention",
+      "left_3": ". \r\n \n\n\r\n  I",
+      "right_3": "mention two considerations",
+      "sentence": "I will mention two considerations that will be important in assessing whether inflation is likely to move back to 2 percent as the economy recovers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1692,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "two considerations that",
+      "right_3": "be important in",
+      "sentence": "I will mention two considerations that will be important in assessing whether inflation is likely to move back to 2 percent as the economy recovers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1718,
+      "head_verb_surface": "exert",
+      "head_verb_lemma": "exert",
+      "left_3": "diminishes , it",
+      "right_3": "exert less of",
+      "sentence": "First, we anticipate that, as labor market slack diminishes, it will exert less of a drag on inflation."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1761,
+      "head_verb_surface": "watch",
+      "head_verb_lemma": "watch",
+      "left_3": "inflation . We",
+      "right_3": "therefore watch carefully",
+      "sentence": "We must therefore watch carefully to see whether diminishing slack is helping return inflation to our objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1780,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "that inflation expectations",
+      "right_3": "remain well anchored",
+      "sentence": "10   Second, our baseline projection rests on the view that inflation expectations will remain well anchored near 2 percent and provide a natural pull back to that level."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1811,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "is something we",
+      "right_3": "continue to assess",
+      "sentence": "But the strength of that pull in the unprecedented conditions we continue to face is something we must continue to assess."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1834,
+      "head_verb_surface": "threaten",
+      "head_verb_lemma": "threaten",
+      "left_3": "aware that inflation",
+      "right_3": "also threaten to",
+      "sentence": "Finally, the FOMC is well aware that inflation could also threaten to rise substantially  above  2 percent."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1855,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", but we",
+      "right_3": "always be prepared",
+      "sentence": "At present, I rate the chances of this happening as significantly below the chances of inflation persisting below 2 percent, but we must always be prepared to respond to such unexpected outcomes, which leads us to my third question."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1899,
+      "head_verb_surface": "push",
+      "head_verb_lemma": "push",
+      "left_3": "\r\n \n\n What factors",
+      "right_3": "push the recovery",
+      "sentence": "What factors may push the recovery off track?"
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1909,
+      "head_verb_surface": "asking",
+      "head_verb_lemma": "ask",
+      "left_3": "so the Committee",
+      "right_3": "always be asking",
+      "sentence": "Myriad factors continuously buffet the economy, so the Committee must always be asking, \"What factors may be pushing the recovery off track?\""
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1909,
+      "head_verb_surface": "pushing",
+      "head_verb_lemma": "push",
+      "left_3": "\" What factors",
+      "right_3": "be pushing the",
+      "sentence": "Myriad factors continuously buffet the economy, so the Committee must always be asking, \"What factors may be pushing the recovery off track?\""
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2077,
+      "head_verb_surface": "fall",
+      "head_verb_lemma": "fall",
+      "left_3": "the unemployment rate",
+      "right_3": "fall steadily to",
+      "sentence": "Private-sector forecasters polled in the April 2010 Blue Chip survey were predicting that the unemployment rate would fall steadily to 8.6 percent in the final quarter of 2011."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2185,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "that the rate",
+      "right_3": "remain in the",
+      "sentence": "12   By July 2010, however, with growth disappointing and the FOMC expressing concerns about softening in both growth and inflation, the Blue Chip forecast of the federal funds rate in mid-2011 had fallen to 0.8 percent, and by October the forecasters expected that the rate would remain in the range of 0 to 25 basis points throughout 2011, as turned out to be the case."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2406,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "stating that conditions",
+      "right_3": "likely warrant exceptionally",
+      "sentence": "In response to signs of slowing economic activity, in August 2011 the FOMC for the first time expressed its forward guidance in terms of the calendar, stating that conditions would likely warrant exceptionally low levels for the federal funds rate at least through mid-2013."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2600,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": ". Now I",
+      "right_3": "turn from the",
+      "sentence": "Now I will turn from the task of monitoring to the policy response."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2615,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "the central bank",
+      "right_3": "respond to evolving",
+      "sentence": "Policy Challenges in an Unprecedented Recovery  Fundamental to modern thinking on central banking is the idea that monetary policy is more effective when the public better understands and anticipates how the central bank will respond to evolving economic conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2656,
+      "head_verb_surface": "adjust",
+      "head_verb_lemma": "adjust",
+      "left_3": "clear how it",
+      "right_3": "adjust its policy",
+      "sentence": "Specifically, it is important for the central bank to make clear how it will adjust its policy stance in response to unforeseen economic developments in a manner that reduces or blunts potentially harmful consequences."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2692,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "manner , it",
+      "right_3": "tend to respond",
+      "sentence": "If the public understands and expects policymakers to behave in this systematically stabilizing manner, it will tend to respond less to such developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2717,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ". Monetary policy",
+      "right_3": "thus have an",
+      "sentence": "Monetary policy will thus have an \"automatic stabilizer\" effect that operates through private-sector expectations."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2762,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "circumstances , policy",
+      "right_3": "be most effective",
+      "sentence": "But by responding to changing circumstances, policy can be most effective at  reducing  uncertainty about the course of inflation and employment."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2844,
+      "head_verb_surface": "described",
+      "head_verb_lemma": "describe",
+      "left_3": "to those shocks",
+      "right_3": "be described with",
+      "sentence": "Many studies confirmed that the appropriate response of policy to those shocks could be described with a fair degree of accuracy by a simple rule linking the federal funds rate to the shortfall or excess of employment and inflation relative to their desired values."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2904,
+      "head_verb_surface": "react",
+      "head_verb_lemma": "react",
+      "left_3": "that monetary policy",
+      "right_3": "react in a",
+      "sentence": "The idea that monetary policy should react in a systematic manner in order to blunt the effects of shocks has remained central in the FOMC's policymaking during this recovery."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2995,
+      "head_verb_surface": "adjusted",
+      "head_verb_lemma": "adjust",
+      "left_3": "how these tools",
+      "right_3": "be adjusted in",
+      "sentence": "There are no time-tested guidelines for how these tools should be adjusted in response to changes in the outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3119,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "expected that conditions",
+      "right_3": "warrant keeping the",
+      "sentence": "In December 2008, for example, the FOMC said it expected that conditions would warrant keeping the federal funds rate near zero for \"some time.\""
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3206,
+      "head_verb_surface": "signal",
+      "head_verb_lemma": "signal",
+      "left_3": "of communication that",
+      "right_3": "signal how and",
+      "sentence": "\" 19   This fixed, calendar-based guidance had the virtue of simplicity, but it lacked the automatic stabilizer property of communication that would signal how and why the stance of policy and forward guidance might change as developments unfolded, and as we learned about the extent of the need for accommodation."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3206,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "and forward guidance",
+      "right_3": "change as developments",
+      "sentence": "\" 19   This fixed, calendar-based guidance had the virtue of simplicity, but it lacked the automatic stabilizer property of communication that would signal how and why the stance of policy and forward guidance might change as developments unfolded, and as we learned about the extent of the need for accommodation."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3265,
+      "head_verb_surface": "add",
+      "head_verb_lemma": "add",
+      "left_3": ", and I",
+      "right_3": "add , other",
+      "sentence": "More recently, the Federal Reserve, and I might add, other central banks around the world, have sought to incorporate this automatic stabilizer feature in their communications."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3297,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "federal funds rate",
+      "right_3": "remain near zero",
+      "sentence": "20   In December 2012, the Committee reformulated its forward guidance, stating that it anticipated that the federal funds rate would remain near zero at least as long as the unemployment rate remained above 6-1/2 percent, inflation over the period between one and two years ahead was projected to be no more than half a percentage point above the Committee's objective, and longer-term inflation exp"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3377,
+      "head_verb_surface": "count",
+      "head_verb_lemma": "count",
+      "left_3": "public that it",
+      "right_3": "count on a",
+      "sentence": "This guidance emphasized to the public that it could count on a near-zero federal funds rate at least until substantial progress in the recovery had been achieved, however long that might take."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3377,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "however long that",
+      "right_3": "take . When",
+      "sentence": "This guidance emphasized to the public that it could count on a near-zero federal funds rate at least until substantial progress in the recovery had been achieved, however long that might take."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3413,
+      "head_verb_surface": "reached",
+      "head_verb_lemma": "reach",
+      "left_3": "1/2 percent threshold",
+      "right_3": "not be reached",
+      "sentence": "When these thresholds were announced, the unemployment rate was reported to be 7.7 percent, and the Committee projected that the 6-1/2 percent threshold would not be reached for another 2-1/2 years--in mid-2015."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3454,
+      "head_verb_surface": "based",
+      "head_verb_lemma": "base",
+      "left_3": "begin removing accommodation",
+      "right_3": "be based on",
+      "sentence": "The Committee emphasized that these numerical criteria were not triggers for raising the federal funds rate, and Chairman Bernanke stated that, ultimately, any decision to begin removing accommodation would be based on a wide range of indicators."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3509,
+      "head_verb_surface": "adjusted",
+      "head_verb_lemma": "adjust",
+      "left_3": "proviso that they",
+      "right_3": "be adjusted .",
+      "sentence": "The initial asset purchase programs had fixed time and quantity limits, although those limits came with a proviso that they might be adjusted."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3562,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "indicated that purchases",
+      "right_3": "continue , providing",
+      "sentence": "When the program began, the rate of purchases was $85 billion per month, and the Committee indicated that purchases would continue, providing that inflation remained well behaved, until there was a substantial improvement in the outlook for the labor market."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3609,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": ", the Committee",
+      "right_3": "likely reduce the",
+      "sentence": "22    \r  Based on the cumulative progress toward maximum employment since the initiation of the program and the improvement in the outlook for the labor market, the FOMC began reducing the pace of asset purchases last December, stating that \"[i]f incoming information broadly supports the Committee's expectation of ongoing improvement in labor market conditions and inflation moving back toward its "
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3715,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "purchases as warranted",
+      "right_3": "the outlook change",
+      "sentence": "Consistent with my theme today, however, the FOMC statement underscores that purchases are not on a preset course--the FOMC stands ready to adjust the pace of purchases as warranted should the outlook change materially."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3782,
+      "head_verb_surface": "cross",
+      "head_verb_lemma": "cross",
+      "left_3": "the unemployment rate",
+      "right_3": "soon cross the",
+      "sentence": "While one of the main motivations for this change was that the unemployment rate might soon cross the 6-1/2 percent threshold, the new formulation is also well suited to help the FOMC explain policy adjustments that may arise in response to changes in the outlook."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3782,
+      "head_verb_surface": "arise",
+      "head_verb_lemma": "arise",
+      "left_3": "policy adjustments that",
+      "right_3": "arise in response",
+      "sentence": "While one of the main motivations for this change was that the unemployment rate might soon cross the 6-1/2 percent threshold, the new formulation is also well suited to help the FOMC explain policy adjustments that may arise in response to changes in the outlook."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3831,
+      "head_verb_surface": "note",
+      "head_verb_lemma": "note",
+      "left_3": "outlook . I",
+      "right_3": "note that the",
+      "sentence": "I should note that the change in the forward guidance did not indicate a change in the Committee's policy intentions, but instead was made to clarify the Committee's thinking about policy as the economy continues to recover."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3872,
+      "head_verb_surface": "apply",
+      "head_verb_lemma": "apply",
+      "left_3": "that the FOMC",
+      "right_3": "apply in making",
+      "sentence": "The new guidance provides a general description of the framework that the FOMC will apply in making decisions about the timing of liftoff."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3896,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": "\" the Committee",
+      "right_3": "assess progress ,",
+      "sentence": "Specifically, in determining how long to maintain the current target range of 0 to 25 basis points for the federal funds rate, \"the Committee will assess progress, both realized and expected, toward its objectives of maximum employment and 2 percent inflation."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4012,
+      "head_verb_surface": "based",
+      "head_verb_lemma": "base",
+      "left_3": "decisions about liftoff",
+      "right_3": "not be based",
+      "sentence": "The new guidance also reaffirms the FOMC's view that decisions about liftoff should not be based on any one indicator, but that it will take into account a wide range of information on the labor market, inflation, and financial developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4012,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "but that it",
+      "right_3": "take into account",
+      "sentence": "The new guidance also reaffirms the FOMC's view that decisions about liftoff should not be based on any one indicator, but that it will take into account a wide range of information on the labor market, inflation, and financial developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4085,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "and financial conditions",
+      "right_3": "likely warrant maintaining",
+      "sentence": "At present, the Committee anticipates that economic and financial conditions will likely warrant maintaining the current range \"for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\" 25    "
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4085,
+      "head_verb_surface": "operate",
+      "head_verb_lemma": "operate",
+      "left_3": "fully how policy",
+      "right_3": "operate in the",
+      "sentence": "At present, the Committee anticipates that economic and financial conditions will likely warrant maintaining the current range \"for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\" 25    "
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4085,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "that economic conditions",
+      "right_3": ", for some",
+      "sentence": "At present, the Committee anticipates that economic and financial conditions will likely warrant maintaining the current range \"for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\" 25    "
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4206,
+      "head_verb_surface": "grow",
+      "head_verb_lemma": "grow",
+      "left_3": "of the economy",
+      "right_3": "grow more slowly",
+      "sentence": "FOMC participants have cited different reasons for this view, but many of the reasons involve persistent effects of the financial crisis and the possibility that the productive capacity of the economy will grow more slowly, at least for a time, than it did, on average, before the crisis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4260,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "our economic objectives",
+      "right_3": "likely require low",
+      "sentence": "The expectation that the achievement of our economic objectives will likely require low real interest rates for some time is again not confined to the United States but is shared broadly across many advanced economies."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4297,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": "a forecast and",
+      "right_3": "evolve as we",
+      "sentence": "26   Of course, this guidance is a forecast and will evolve as we gain further evidence about how the economy is operating in the wake of the crisis and ensuing recession."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4396,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". But it",
+      "right_3": "be much better",
+      "sentence": "But it will be much better news when this objective is reached."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4414,
+      "head_verb_surface": "stay",
+      "head_verb_lemma": "stay",
+      "left_3": "FOMC and I",
+      "right_3": "stay focused on",
+      "sentence": "and I will stay focused on doing the Federal Reserve's part to promote this goal."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4965,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "zero lower bound",
+      "right_3": "have little economic",
+      "sentence": "If firms' and households' spending decisions depended only on longer-term interest rates, temporarily higher short-term real interest rates due to low inflation at a time that nominal interest rates are constrained by the zero lower bound would have little economic effects, provided that these higher short-term real interest rates would be expected to be compensated by lower short-term real intere"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4965,
+      "head_verb_surface": "expected",
+      "head_verb_lemma": "expect",
+      "left_3": "real interest rates",
+      "right_3": "be expected to",
+      "sentence": "If firms' and households' spending decisions depended only on longer-term interest rates, temporarily higher short-term real interest rates due to low inflation at a time that nominal interest rates are constrained by the zero lower bound would have little economic effects, provided that these higher short-term real interest rates would be expected to be compensated by lower short-term real intere"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5041,
+      "head_verb_surface": "induce",
+      "head_verb_lemma": "induce",
+      "left_3": ", low inflation",
+      "right_3": "induce meaningful economic",
+      "sentence": "However, to the extent that these spending decisions depend in part on shorter-term real interest rates, low inflation can induce meaningful economic costs."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "It is a reminder of how far we have to go, however, that this long-awaited outcome is projected to be more than two years away."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Today I will discuss how my colleagues on the Federal Open Market Committee (FOMC) and I view the state of the economy and how this view is likely to shape our efforts to promote a return to maximum employment in a context of price stability."
+    },
+    {
+      "surface": "foresees",
+      "lemma": "foresee",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "I will start with the FOMC's outlook, which foresees a gradual return over the next two to three years of economic conditions consistent with its mandate."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "While monetary policy discussions naturally begin with a baseline outlook, the path of the economy is uncertain, and effective policy must respond to significant unexpected twists and turns the economy may take."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "My primary focus today will be on how the FOMC's monetary policy framework has evolved to best support the recovery through those twists and turns, and what this framework is likely to imply as the recovery progresses."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In recent months, some indicators have been notably weak, requiring us to judge whether the data are signaling a material change in the outlook."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "and I generally believe that a significant part of the recent softness was weather related."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "To some extent, the low rate of inflation seems due to influences that are likely to be temporary, including a deceleration in consumer energy prices and outright declines in core import prices in recent quarters."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We anticipate that, as the effects of transitory factors subside and as labor market gains continue, inflation will gradually move back toward 2 percent."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Three Big Questions for the FOMC  Because the course of the economy is uncertain, monetary policymakers need to carefully watch for signs that it is diverging from the baseline outlook and then respond in a systematic way."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Let me turn first to monitoring and discuss three questions I believe are likely to loom large in the FOMC's ongoing assessment of where we are on the path back to maximum employment and price stability."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Let me turn first to monitoring and discuss three questions I believe are likely to loom large in the FOMC's ongoing assessment of where we are on the path back to maximum employment and price stability."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "One of the FOMC's objectives is to promote a return to maximum employment, but exactly what conditions are consistent with maximum employment can be difficult to assess."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "As the FOMC's statement on longer-term goals and policy strategy emphasizes, these judgments are inherently uncertain and must be based on a wide range of indicators."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Probably the best single indicator is the unemployment rate."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As I argued more fully in a recent speech, I believe that long-term unemployment might fall appreciably if economic conditions were stronger."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Participation would be expected to fall because of the aging of the population, but the decline steepened in the recovery."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Although economists differ over what share of those currently outside the labor market might join or rejoin the labor force in a stronger economy, my own view is that some portion of the decline in participation likely represents labor market slack."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As the extent of slack we see today diminishes, however, the FOMC will need to monitor these and other labor market indicators closely to judge how much slack remains and, therefore, how accommodative monetary policy should be."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "A second question that is likely to figure heavily in our assessment of the recovery is whether inflation is moving back toward the FOMC's 2 percent longer-run objective, as envisioned in our baseline outlook."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "9   Further, with longer-term inflation expectations anchored near 2 percent in recent years, persistent inflation well below this expected value increases the real burden of debt for households and firms, which may put a drag on economic activity."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I will mention two considerations that will be important in assessing whether inflation is likely to move back to 2 percent as the economy recovers."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "I will mention two considerations that will be important in assessing whether inflation is likely to move back to 2 percent as the economy recovers."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "First, we anticipate that, as labor market slack diminishes, it will exert less of a drag on inflation."
+    },
+    {
+      "surface": "seemingly",
+      "lemma": "seemingly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "However, during the recovery, very high levels of slack have seemingly not generated strong downward pressure on inflation."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "But the strength of that pull in the unprecedented conditions we continue to face is something we must continue to assess."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "For example, over the nearly 5 years of the recovery, the economy has been affected by greater-than-expected fiscal drag in the United States and by spillovers from the sovereign debt and banking problems of some euro-area countries."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In April 2010, Blue Chip forecasters not only expected falling unemployment, they also expected the FOMC to soon begin raising the federal funds rate."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In April 2010, Blue Chip forecasters not only expected falling unemployment, they also expected the FOMC to soon begin raising the federal funds rate."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Indeed, they expected the federal funds rate to reach 1.3 percent by the second quarter of 2011."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "12   By July 2010, however, with growth disappointing and the FOMC expressing concerns about softening in both growth and inflation, the Blue Chip forecast of the federal funds rate in mid-2011 had fallen to 0.8 percent, and by October the forecasters expected that the rate would remain in the range of 0 to 25 basis points throughout 2011, as turned out to be the case."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Thus, while the reductions in the unemployment rate through 2011 were roughly as forecast in early 2010, this improvement only came about with the FOMC providing a considerably higher level of accommodation than originally anticipated."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In April 2011, Blue Chip forecasters expected the unemployment rate to fall to 7.9 percent by the fourth quarter of 2012, with the FOMC expected to have already raised the federal funds rate to near 1 percent by mid-2012."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In April 2011, Blue Chip forecasters expected the unemployment rate to fall to 7.9 percent by the fourth quarter of 2012, with the FOMC expected to have already raised the federal funds rate to near 1 percent by mid-2012."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "As it turned out, the unemployment rate forecast was once more remarkably accurate, but again this was associated with considerably more accommodation than anticipated."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In response to signs of slowing economic activity, in August 2011 the FOMC for the first time expressed its forward guidance in terms of the calendar, stating that conditions would likely warrant exceptionally low levels for the federal funds rate at least through mid-2013."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Thus, in both 2011 and 2012, the unemployment rate actually declined by about as much as had been forecast the previous year, but only after unexpected weakness prompted additional accommodative steps by the Federal Reserve."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In both cases, I believe that the FOMC's decision to respond to signs of weakness with significant additional accommodation played an important role in helping to keep the projected labor market recovery on track."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In both cases, I believe that the FOMC's decision to respond to signs of weakness with significant additional accommodation played an important role in helping to keep the projected labor market recovery on track."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "16   These episodes illustrate what I described earlier as a vital aspect of effective monetary policymaking: monitor the economy for signs that events are unfolding in a materially different manner than expected and adjust policy in response in a systematic manner."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Policy Challenges in an Unprecedented Recovery  Fundamental to modern thinking on central banking is the idea that monetary policy is more effective when the public better understands and anticipates how the central bank will respond to evolving economic conditions."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Specifically, it is important for the central bank to make clear how it will adjust its policy stance in response to unforeseen economic developments in a manner that reduces or blunts potentially harmful consequences."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "If the public understands and expects policymakers to behave in this systematically stabilizing manner, it will tend to respond less to such developments."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "It is important to note that tying the response of policy to the economy necessarily makes the future course of the federal funds rate uncertain."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "But because both the tools and the economic conditions have been unfamiliar, it has also been critical that the FOMC communicate how it expects to deploy its tools in response to material changes in the outlook."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In December 2008, for example, the FOMC said it expected that conditions would warrant keeping the federal funds rate near zero for \"some time.\""
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "20   In December 2012, the Committee reformulated its forward guidance, stating that it anticipated that the federal funds rate would remain near zero at least as long as the unemployment rate remained above 6-1/2 percent, inflation over the period between one and two years ahead was projected to be no more than half a percentage point above the Committee's objective, and longer-term inflation exp"
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "20   In December 2012, the Committee reformulated its forward guidance, stating that it anticipated that the federal funds rate would remain near zero at least as long as the unemployment rate remained above 6-1/2 percent, inflation over the period between one and two years ahead was projected to be no more than half a percentage point above the Committee's objective, and longer-term inflation exp"
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "When these thresholds were announced, the unemployment rate was reported to be 7.7 percent, and the Committee projected that the 6-1/2 percent threshold would not be reached for another 2-1/2 years--in mid-2015."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "22    \r  Based on the cumulative progress toward maximum employment since the initiation of the program and the improvement in the outlook for the labor market, the FOMC began reducing the pace of asset purchases last December, stating that \"[i]f incoming information broadly supports the Committee's expectation of ongoing improvement in labor market conditions and inflation moving back toward its "
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Specifically, in determining how long to maintain the current target range of 0 to 25 basis points for the federal funds rate, \"the Committee will assess progress, both realized and expected, toward its objectives of maximum employment and 2 percent inflation."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Specifically, in determining how long to maintain the current target range of 0 to 25 basis points for the federal funds rate, \"the Committee will assess progress, both realized and expected, toward its objectives of maximum employment and 2 percent inflation."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "\" 24   In other words, the larger the shortfall of employment or inflation from their respective objectives, and the slower the projected progress toward those objectives, the longer the current target range for the federal funds rate is likely to be maintained."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "\" 24   In other words, the larger the shortfall of employment or inflation from their respective objectives, and the slower the projected progress toward those objectives, the longer the current target range for the federal funds rate is likely to be maintained."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Along with this general framework, the FOMC provided an assessment of what that framework implies for the likely path of policy under the baseline outlook."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "At present, the Committee anticipates that economic and financial conditions will likely warrant maintaining the current range \"for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\" 25    "
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "At present, the Committee anticipates that economic and financial conditions will likely warrant maintaining the current range \"for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\" 25    "
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "At present, the Committee anticipates that economic and financial conditions will likely warrant maintaining the current range \"for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\" 25    "
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "At present, the Committee anticipates that economic and financial conditions will likely warrant maintaining the current range \"for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\" 25    "
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The expectation that the achievement of our economic objectives will likely require low real interest rates for some time is again not confined to the United States but is shared broadly across many advanced economies."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "If firms' and households' spending decisions depended only on longer-term interest rates, temporarily higher short-term real interest rates due to low inflation at a time that nominal interest rates are constrained by the zero lower bound would have little economic effects, provided that these higher short-term real interest rates would be expected to be compensated by lower short-term real intere"
+    }
+  ]
+}

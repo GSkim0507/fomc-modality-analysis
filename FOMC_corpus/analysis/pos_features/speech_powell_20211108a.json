@@ -1,0 +1,167 @@
+{
+  "doc_id": "speech_powell_20211108a",
+  "doc_type": "speech",
+  "date": "2021-11-08",
+  "chair": "Powell",
+  "n_tokens": 802,
+  "n_sents": 41,
+  "pos_counts": {
+    "NNP": 78,
+    "CD": 19,
+    ",": 45,
+    "IN": 114,
+    "DT": 79,
+    "CC": 44,
+    "NN": 127,
+    "VBN": 19,
+    "NNPS": 6,
+    "-LRB-": 7,
+    "JJ": 51,
+    "-RRB-": 12,
+    "NNS": 69,
+    "XX": 10,
+    "VBP": 18,
+    "SYM": 9,
+    ":": 7,
+    "VBZ": 8,
+    "RB": 24,
+    "RP": 3,
+    "MD": 9,
+    "VB": 31,
+    ".": 36,
+    "PRP": 12,
+    "TO": 12,
+    "POS": 7,
+    "VBG": 16,
+    "PRP$": 9,
+    "WP": 7,
+    "WRB": 3,
+    "VBD": 21,
+    "HYPH": 5,
+    "JJS": 2,
+    "RBS": 1,
+    "JJR": 4,
+    "RBR": 5,
+    "LS": 2,
+    "$": 1,
+    "WDT": 1,
+    "EX": 1,
+    "``": 4,
+    "''": 2
+  },
+  "modal_count": 9,
+  "modal_lemma_counts": {
+    "may": 1,
+    "will": 6,
+    "would": 1,
+    "can": 1
+  },
+  "modals_per_1000": 11.222,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "likely": 1
+  },
+  "epistemics_per_1000": 1.247,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 130,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 206,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "panelists , who",
+      "right_3": "address a range",
+      "sentence": "We have gathered an impressive lineup of speakers and panelists, who will address a range of timely and important issues."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 229,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "conference , I",
+      "right_3": "give a brief",
+      "sentence": "To open the conference, I will give a brief tour of the important research on display here, then discuss how the pandemic has affected the economy along gender lines."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 262,
+      "head_verb_surface": "exploring",
+      "head_verb_lemma": "explore",
+      "left_3": "speakers and panelists",
+      "right_3": "be exploring a",
+      "sentence": "Research \r The speakers and panelists will be exploring a wide range of topics, from a historical review of gender issues and the economy to how someone's education optionsâand the financing of those choicesâaffect that person's early career and financial stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 307,
+      "head_verb_surface": "looking",
+      "head_verb_lemma": "look",
+      "left_3": "Speakers and panelists",
+      "right_3": "also be looking",
+      "sentence": "Speakers and panelists will also be looking at the influence of family and caregiving on career advancement and will discuss timely topics of wealth and retirement."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 307,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "career advancement and",
+      "right_3": "discuss timely topics",
+      "sentence": "Speakers and panelists will also be looking at the influence of family and caregiving on career advancement and will discuss timely topics of wealth and retirement."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 654,
+      "head_verb_surface": "cover",
+      "head_verb_lemma": "cover",
+      "left_3": "or schooling disruptions",
+      "right_3": "cover a $",
+      "sentence": "Only 37 percent of mothers who reported not working or working less because of childcare or schooling disruptions would cover a $400 expense with cash or its equivalent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 685,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "during this era",
+      "right_3": "help inform how",
+      "sentence": "As households and the economy continue to recover, the lessons learned during this era will help inform how policymakers and communities work to bridge those gaps."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 713,
+      "head_verb_surface": "realize",
+      "head_verb_lemma": "realize",
+      "left_3": "economy , which",
+      "right_3": "only realize its",
+      "sentence": "Long-standing disparities weigh on the productive capacity of our economy, which can only realize its full potential if everyone has a solid chance to contribute to, and to reap the benefits of, broad-reaching prosperity."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Mothers of small children were more likely to exit the labor force during the pandemic compared with previous periods."
+    }
+  ]
+}

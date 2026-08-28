@@ -1,0 +1,149 @@
+{
+  "doc_id": "statement_20220126",
+  "doc_type": "statement",
+  "date": "2022-01-26",
+  "chair": "Powell",
+  "n_tokens": 456,
+  "n_sents": 20,
+  "pos_counts": {
+    "NNP": 52,
+    "CD": 13,
+    ",": 17,
+    "VBZ": 5,
+    "JJ": 42,
+    "NN": 79,
+    "IN": 62,
+    "NNPS": 1,
+    "CC": 19,
+    "VBP": 9,
+    "VBN": 10,
+    "TO": 14,
+    "VB": 20,
+    ".": 19,
+    "DT": 47,
+    "NNS": 38,
+    "RBS": 3,
+    "RB": 10,
+    "VBG": 9,
+    "JJR": 1,
+    "VBD": 5,
+    "PRP": 2,
+    "MD": 7,
+    "PRP$": 2,
+    "$": 2,
+    "POS": 3,
+    "WDT": 1,
+    ":": 8
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "will": 5,
+    "would": 1,
+    "could": 1
+  },
+  "modals_per_1000": 15.351,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "assess": 1
+  },
+  "epistemics_per_1000": 6.579,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 229,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Committee expects it",
+      "right_3": "soon be appropriate",
+      "sentence": "With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 285,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": ", the Committee",
+      "right_3": "increase its holdings",
+      "sentence": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgageâbacked securities by at least $10 billion per month."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 320,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "holdings of securities",
+      "right_3": "continue to foster",
+      "sentence": "The Federal Reserve's ongoing purchases and holdings of securities will continue to foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 354,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 379,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 379,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 407,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Progress on vaccinations and an easing of supply constraints are expected to support continued gains in economic activity and employment as well as a reduction in inflation."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

@@ -1,0 +1,2684 @@
+{
+  "doc_id": "transcript_20200429",
+  "doc_type": "press_conf_transcript",
+  "date": "2020-04-29",
+  "chair": "Powell",
+  "n_tokens": 8422,
+  "n_sents": 471,
+  "pos_counts": {
+    "NNP": 491,
+    "CD": 134,
+    ",": 568,
+    "POS": 34,
+    "IN": 994,
+    ".": 469,
+    "JJ": 504,
+    "NN": 961,
+    "NNS": 462,
+    "VBG": 172,
+    "PRP": 679,
+    "MD": 222,
+    "VB": 475,
+    "TO": 210,
+    "DT": 798,
+    "CC": 323,
+    "WDT": 66,
+    "VBP": 448,
+    "RB": 598,
+    "VBZ": 209,
+    "RBS": 5,
+    "VBD": 111,
+    "PRP$": 93,
+    "WP": 49,
+    "VBN": 144,
+    "JJS": 5,
+    "RP": 41,
+    ":": 247,
+    "HYPH": 24,
+    "RBR": 26,
+    "JJR": 43,
+    "WRB": 55,
+    "NNPS": 2,
+    "UH": 26,
+    "EX": 30,
+    "``": 5,
+    "''": 3,
+    "PDT": 8,
+    "-RRB-": 3,
+    "XX": 4,
+    "$": 3
+  },
+  "modal_count": 222,
+  "modal_lemma_counts": {
+    "would": 29,
+    "should": 9,
+    "can": 48,
+    "will": 77,
+    "could": 11,
+    "may": 9,
+    "’ll": 28,
+    "might": 8,
+    "’s": 2,
+    "’d": 1
+  },
+  "modals_per_1000": 26.36,
+  "epistemic_count": 47,
+  "epistemic_lemma_counts": {
+    "expect": 6,
+    "likely": 2,
+    "uncertain": 10,
+    "possible": 6,
+    "potential": 4,
+    "probably": 8,
+    "obviously": 1,
+    "certain": 1,
+    "unlikely": 2,
+    "certainly": 2,
+    "believe": 1,
+    "anticipate": 1,
+    "assess": 1,
+    "potentially": 1,
+    "clearly": 1
+  },
+  "epistemics_per_1000": 5.581,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 43,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "today . I",
+      "right_3": "like to begin",
+      "sentence": "I would like to begin  by acknowledging the tragic loss and tremendous hardship that people are experiencing both  here in the United States and around the world."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 266,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "society , we",
+      "right_3": "do everything we",
+      "sentence": "As a society, we should do everything we can to provide relief  to those who are suffering for the public good."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 266,
+      "head_verb_surface": "everything",
+      "head_verb_lemma": "everything",
+      "left_3": "do everything we",
+      "right_3": "to provide relief",
+      "sentence": "As a society, we should do everything we can to provide relief  to those who are suffering for the public good."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 445,
+      "head_verb_surface": "drop",
+      "head_verb_lemma": "drop",
+      "left_3": ", economic activity",
+      "right_3": "\n likely drop",
+      "sentence": "Overall, economic activity will  likely drop at an unprecedented rate in the second quarter."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 482,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "uncertain \n and",
+      "right_3": "depend in large",
+      "sentence": "Both the depth and the duration of the economic downturn are extraordinarily uncertain  and will depend in large part on how quickly the virus is brought under control."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 512,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "\n the downturn",
+      "right_3": "also depend on",
+      "sentence": "The severity of  the downturn will also depend on the policy actions taken at all levels of government to cushion  the blow and to support the recovery when the public health crisis passes."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 667,
+      "head_verb_surface": "stop",
+      "head_verb_lemma": "stop",
+      "left_3": "lowering interest rates",
+      "right_3": "not stop the",
+      "sentence": "Of course, lowering interest rates cannot stop the sharp drop in economic activity caused  by closures and other forms of social distancing."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 693,
+      "head_verb_surface": "spur",
+      "head_verb_lemma": "spur",
+      "left_3": "And low rates",
+      "right_3": "not effectively spur",
+      "sentence": "And low rates will not effectively spur the  economy if those rates do not feed through to broader financial conditions or if households and  businesses are unable to get credit."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 754,
+      "head_verb_surface": "forced",
+      "head_verb_lemma": "force",
+      "left_3": "credit , families",
+      "right_3": "be forced to",
+      "sentence": "Without access  to credit, families can be forced to cut back on necessities and could lose their homes."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 754,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": "on necessities and",
+      "right_3": "lose their homes",
+      "sentence": "Without access  to credit, families can be forced to cut back on necessities and could lose their homes."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 776,
+      "head_verb_surface": "forced",
+      "head_verb_lemma": "force",
+      "left_3": ". \n Businesses",
+      "right_3": "be forced to",
+      "sentence": "Businesses can be forced to downsize or close, resulting in further losses of jobs and incomes  and worsening the downturn."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 966,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "purchases . We",
+      "right_3": "\n continue our",
+      "sentence": "We will  continue our purchases of Treasury and agency mortgage-backed securities as needed."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 983,
+      "head_verb_surface": "offer",
+      "head_verb_lemma": "offer",
+      "left_3": ", the purchases",
+      "right_3": "offer — will",
+      "sentence": "While the  primary purpose of these securities purchases is to preserve smooth market functioning and  effective policy transmission, the purchases will offer—will also foster more accommodative  financial conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 983,
+      "head_verb_surface": "foster",
+      "head_verb_lemma": "foster",
+      "left_3": "will offer —",
+      "right_3": "also foster more",
+      "sentence": "While the  primary purpose of these securities purchases is to preserve smooth market functioning and  effective policy transmission, the purchases will offer—will also foster more accommodative  financial conditions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1078,
+      "head_verb_surface": "improve",
+      "head_verb_lemma": "improve",
+      "left_3": ", the programs",
+      "right_3": "improve market functioning",
+      "sentence": "In addition, by serving as a backstop to key credit  markets, the programs can improve market functioning by increasing the willingness of private  lenders to extend credit."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1167,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "Treasury . We",
+      "right_3": "continue to use",
+      "sentence": "We will continue to use these powers   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 4 of 24    forcefully, proactively, and aggressively until we’re confident that we are solidly on the road to  recovery."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1215,
+      "head_verb_surface": "stress",
+      "head_verb_lemma": "stress",
+      "left_3": ". \n I",
+      "right_3": "stress that these",
+      "sentence": "I would stress that these are lending powers and not spending powers."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1228,
+      "head_verb_surface": "grant",
+      "head_verb_lemma": "grant",
+      "left_3": ". The Fed",
+      "right_3": "not \n grant",
+      "sentence": "The Fed cannot  grant money to particular beneficiaries."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1239,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "beneficiaries . We",
+      "right_3": "only make loans",
+      "sentence": "We can only make loans to solvent entities that the— with the expectation that the loans will be repaid."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1239,
+      "head_verb_surface": "repaid",
+      "head_verb_lemma": "repay",
+      "left_3": "that the loans",
+      "right_3": "be repaid .",
+      "sentence": "We can only make loans to solvent entities that the— with the expectation that the loans will be repaid."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1261,
+      "head_verb_surface": "benefit",
+      "head_verb_lemma": "benefit",
+      "left_3": ". Many borrowers",
+      "right_3": "benefit from our",
+      "sentence": "Many borrowers will benefit from our  programs, as will the overall economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1261,
+      "head_verb_surface": "benefit",
+      "head_verb_lemma": "benefit",
+      "left_3": "programs , as",
+      "right_3": "the overall economy",
+      "sentence": "Many borrowers will benefit from our  programs, as will the overall economy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1276,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a loan that",
+      "right_3": "be difficult \n",
+      "sentence": "But for many others, getting a loan that may be difficult  to repay may not be the answer."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1276,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\n to repay",
+      "right_3": "not be the",
+      "sentence": "But for many others, getting a loan that may be difficult  to repay may not be the answer."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1297,
+      "head_verb_surface": "needed",
+      "head_verb_lemma": "need",
+      "left_3": "direct fiscal support",
+      "right_3": "be needed .",
+      "sentence": "In these cases, direct fiscal support may be needed."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1308,
+      "head_verb_surface": "direct",
+      "head_verb_lemma": "direct",
+      "left_3": "society , \n",
+      "right_3": "direct our collective",
+      "sentence": "Elected  officials have the power to tax and spend and to make decisions about where we, as a society,  should direct our collective resources."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1355,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "This direct support",
+      "right_3": "make a critical",
+      "sentence": "This direct support can make a critical difference not just  in helping families and businesses in a time of need, but also in limiting long-lasting damage to  our economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1391,
+      "head_verb_surface": "all",
+      "head_verb_lemma": "all",
+      "left_3": "doing all we",
+      "right_3": "to help American",
+      "sentence": "At the Fed, we’re doing all we can to help American families and businesses weather this  difficult period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1413,
+      "head_verb_surface": "reopen",
+      "head_verb_lemma": "reopen",
+      "left_3": "control , businesses",
+      "right_3": "reopen , and",
+      "sentence": "When the spread of the virus is under control, businesses will reopen, and  people will come back to work."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1413,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "and \n people",
+      "right_3": "come back to",
+      "sentence": "When the spread of the virus is under control, businesses will reopen, and  people will come back to work."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1436,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "work . We",
+      "right_3": "continue to use",
+      "sentence": "We will continue to use our tools to assure that the recovery,  when it comes, will be as robust as possible."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1436,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "it comes ,",
+      "right_3": "be as robust",
+      "sentence": "We will continue to use our tools to assure that the recovery,  when it comes, will be as robust as possible."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1461,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", and I",
+      "right_3": "be glad to",
+      "sentence": "Thank you, and I’ll be glad to take your questions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1496,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ", what more",
+      "right_3": "you realistically do",
+      "sentence": "You guys  have cut rates to zero, you’re buying up huge quantities of government debt—I guess the  question is, what more can you realistically do to help the economy, and where do you see a need  for Congress to step in?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1577,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "it comes ,",
+      "right_3": "be as robust",
+      "sentence": "We’re going to use them, as I mentioned,   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 5 of 24    forcefully, proactively, and aggressively until we’re confident that we’re solidly on the road to  recovery and also to assure that that recovery, when it comes, will be as robust as possible."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 1646,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "needed , we",
+      "right_3": "use them .",
+      "sentence": "As  long as needed, we’ll use them."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1657,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ". And I",
+      "right_3": "just say ,",
+      "sentence": "And I would just say, we have a number of dimensions on  which we can still provide support to the economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1657,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "\n which we",
+      "right_3": "still provide support",
+      "sentence": "And I would just say, we have a number of dimensions on  which we can still provide support to the economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1698,
+      "head_verb_surface": "expanded",
+      "head_verb_lemma": "expand",
+      "left_3": "limit . They",
+      "right_3": "be expanded as",
+      "sentence": "They can be expanded as appropriate, and we can do new ones."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1698,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ", and we",
+      "right_3": "do new ones",
+      "sentence": "They can be expanded as appropriate, and we can do new ones."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1713,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\n So we",
+      "right_3": "continue to be",
+      "sentence": "So we can continue to be part of the answer."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1725,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "answer . \n",
+      "right_3": "there be a",
+      "sentence": "Will there be a need to do more, though?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1736,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that — that",
+      "right_3": "be “ yes",
+      "sentence": "I think the answer to that—that will be “yes.”"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1750,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "” I \n",
+      "right_3": "say , Congress",
+      "sentence": "I  would say, Congress has also reacted quite aggressively and strongly with the Cares Act and  other laws—several other laws."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1803,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ". But I",
+      "right_3": "say that it",
+      "sentence": "But I would say that it may well be the case that the economy will need more support  from all of us if the—if the recovery is to be a robust one."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1803,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "say that it",
+      "right_3": "well be the",
+      "sentence": "But I would say that it may well be the case that the economy will need more support  from all of us if the—if the recovery is to be a robust one."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1803,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "that the economy",
+      "right_3": "need more support",
+      "sentence": "But I would say that it may well be the case that the economy will need more support  from all of us if the—if the recovery is to be a robust one."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1863,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "elected officials \n",
+      "right_3": "consider in order",
+      "sentence": "I  want to follow up on Jeanna’s question and ask, what specifically do you think elected officials  should consider in order to help return or hasten a stronger return to full employment?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1900,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "meeting today that",
+      "right_3": "be used to",
+      "sentence": "And what  policy tools did you discuss at your meeting today that might be used to stop a deflationary  spiral?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1949,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", if I",
+      "right_3": "say , legislative",
+      "sentence": "So in terms of, if I can say, legislative priorities, we don’t—we’re not  responsible for fiscal policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1973,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "policy . Those",
+      "right_3": "be decisions for",
+      "sentence": "Those will be decisions for Congress to make."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1982,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ". But I",
+      "right_3": "say that \n",
+      "sentence": "But I would say that  policies that protect workers, businesses, and households from avoidable insolvency, that keep  businesses going so that they’re able to produce goods and—and to either hold on to their   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 6 of 24    employees or quickly rehire them, those are going to be key policies."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2056,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "policies . They",
+      "right_3": "come with a",
+      "sentence": "They’ll come with a hefty  price tag, but we would come out of this event eventually with—with a stronger economy and  with less long-run damage to the economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2056,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": ", but we",
+      "right_3": "come out of",
+      "sentence": "They’ll come with a hefty  price tag, but we would come out of this event eventually with—with a stronger economy and  with less long-run damage to the economy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2093,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ", \n Congress",
+      "right_3": "do over time",
+      "sentence": "So that’s—that’s a key thing that—that, really,  Congress could do over time."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2115,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "of what we",
+      "right_3": "do , I",
+      "sentence": "In terms of what we can do, I mentioned, we have our—our credit facilities are—are  wide open."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2140,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "open . We",
+      "right_3": "do more on",
+      "sentence": "We can do more on that front."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2148,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "monetary policy \n",
+      "right_3": "look like over",
+      "sentence": "In addition, you know, we’ve had—we’ve had  extensive discussions, as I’ve mentioned—done a lot of thinking about what monetary policy  might look like over—in coming months over a range of potential scenarios for the economy."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2198,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "right where it",
+      "right_3": "be for now",
+      "sentence": "We do think that our—our policy stance today is right where it should be for now."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2217,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "said that we",
+      "right_3": "keep them there",
+      "sentence": "As you know,  we cut rates to the effective lower bound, we—and we’ve said that we’ll keep them there until  we’re confident that the economy has weathered the effects of the outbreak and is on track to  achieve our goals."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2293,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", and I",
+      "right_3": "say that we",
+      "sentence": "So we’re doing those  things, and I would say that we’ll continue to use our tools as needs be."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2293,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "say that we",
+      "right_3": "continue to use",
+      "sentence": "So we’re doing those  things, and I would say that we’ll continue to use our tools as needs be."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2364,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "and maybe you",
+      "right_3": "explain what the",
+      "sentence": "And—and maybe you could explain what the context is now of the purchases  that will be made and the amounts that are to come."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2364,
+      "head_verb_surface": "made",
+      "head_verb_lemma": "make",
+      "left_3": "purchases \n that",
+      "right_3": "be made and",
+      "sentence": "And—and maybe you could explain what the context is now of the purchases  that will be made and the amounts that are to come."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2393,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "out there \n",
+      "right_3": "be best for",
+      "sentence": "The second question I have is, are—is the Federal Reserve really taking enough risk to  help households and businesses here, in that you just said that the programs that are out there  may be best for those who are able to repay loans."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2443,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "helping those who",
+      "right_3": "need \n it",
+      "sentence": "But—so don’t you have a series of programs   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 7 of 24    essentially lending only to those able to repay, which is essentially helping those who may need  it the least?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2537,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "about what we",
+      "right_3": "do in the",
+      "sentence": "We’ve had discussions,  as I’ve mentioned, over time and done quite a bit of thinking about what we might do in the  future."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2601,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the \n economy",
+      "right_3": "be on ,",
+      "sentence": "There are a range of potential paths the  economy could be on, and I think as—as the time approaches for—then we’ll—you know, we’ll  address your first question, which is about asset purchases."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2601,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "know , we",
+      "right_3": "\n address your",
+      "sentence": "There are a range of potential paths the  economy could be on, and I think as—as the time approaches for—then we’ll—you know, we’ll  address your first question, which is about asset purchases."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2706,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": ", and you",
+      "right_3": "see that they",
+      "sentence": "And  there are a number of aspects under section 13(3), and you can see that they’ve permitted us to, I  think, move very quickly and move into areas where we’ve never been before and do so quite  aggressively."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 2799,
+      "head_verb_surface": "lend",
+      "head_verb_lemma": "lend",
+      "left_3": "— and we",
+      "right_3": "n’t lend to",
+      "sentence": "And if you read section 13(3) of the Dodd- Frank—or, the Federal Reserve Act, and I know you have, it does require that—that we be  secured to our satisfaction, and—and we can’t lend to insolvent companies."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 2890,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "grants . We",
+      "right_3": "n’t make grants",
+      "sentence": "We can’t make grants."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2920,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "know , we",
+      "right_3": "do what we",
+      "sentence": "April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 8 of 24    We—you know, we can do what we can do, and we will do it to the absolute limit of  those powers."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2920,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "do what we",
+      "right_3": "do , and",
+      "sentence": "April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 8 of 24    We—you know, we can do what we can do, and we will do it to the absolute limit of  those powers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2920,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ", and we",
+      "right_3": "do it to",
+      "sentence": "April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 8 of 24    We—you know, we can do what we can do, and we will do it to the absolute limit of  those powers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2965,
+      "head_verb_surface": "we’ll",
+      "head_verb_lemma": "we’ll",
+      "left_3": "powers . We",
+      "right_3": "— we’ll keep",
+      "sentence": "We will—we’ll keep at it."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2973,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "— we \n",
+      "right_3": "be at it",
+      "sentence": "And you—I just want people to know that we’ll—we  will be at it with—with the legal authorities that we have until we get through this thing."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3007,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": ". We \n",
+      "right_3": "keep using our",
+      "sentence": "We  will keep using our authorities."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3015,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", and there",
+      "right_3": "be a \n",
+      "sentence": "But there are authorities that we don’t have, and there may be a  need for those authorities to be used as well as ours."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3107,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "? Anything you",
+      "right_3": "\n give us",
+      "sentence": "Anything you can  give us—a sense on timing?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3171,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "to recovery .",
+      "right_3": "you give any",
+      "sentence": "Can you give any more guidance on how you all see this  recovery taking shape?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3196,
+      "head_verb_surface": "operating",
+      "head_verb_lemma": "operate",
+      "left_3": "being finalized and",
+      "right_3": "be operating ,",
+      "sentence": "So, in terms of those facilities, the corporate credit facilities  are near being finalized and will be operating, I would say, soon—fairly soon."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3196,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "operating , I",
+      "right_3": "say , soon",
+      "sentence": "So, in terms of those facilities, the corporate credit facilities  are near being finalized and will be operating, I would say, soon—fairly soon."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3290,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", \n there",
+      "right_3": "be at least",
+      "sentence": "I think, with Main Street,  there’ll be at least a couple of different kinds of lending going on there."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 3356,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I think we",
+      "right_3": "be at —",
+      "sentence": "So I think we’ll be at—we’ll   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 9 of 24    probably be continuing to work and expand Main Street for some time, but it won’t be done quite  as quickly."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 3356,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": ", but it",
+      "right_3": "n’t be done",
+      "sentence": "So I think we’ll be at—we’ll   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 9 of 24    probably be continuing to work and expand Main Street for some time, but it won’t be done quite  as quickly."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3408,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "I think ,",
+      "right_3": "be done fairly",
+      "sentence": "But the first part of it, I think, will be done fairly quickly."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3445,
+      "head_verb_surface": "weigh",
+      "head_verb_lemma": "weigh",
+      "left_3": "public health crisis",
+      "right_3": "weigh heavily on",
+      "sentence": "It  says: “[The] ongoing public health crisis will weigh heavily on economic activity, employment,  and inflation in the near term and poses considerable risks to the economic outlook over the  medium term.”"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3544,
+      "head_verb_surface": "point",
+      "head_verb_lemma": "point",
+      "left_3": ". And I",
+      "right_3": "point to a",
+      "sentence": "And I would point to a couple of—of  risks to the outlook that—what we were thinking of."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3573,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". How long",
+      "right_3": "it take \n",
+      "sentence": "How long will it take  to get it under control?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3585,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "under control ?",
+      "right_3": "there be additional",
+      "sentence": "Will there be additional outbreaks?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3591,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "additional outbreaks ?",
+      "right_3": "there be drugs",
+      "sentence": "Will there be drugs that can either  treat it or—or a vaccine of some kind?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3591,
+      "head_verb_surface": "treat",
+      "head_verb_lemma": "treat",
+      "left_3": "be drugs that",
+      "right_3": "either \n treat",
+      "sentence": "Will there be drugs that can either  treat it or—or a vaccine of some kind?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3659,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": ", that person",
+      "right_3": "— can lose",
+      "sentence": "The first is just  workers who—if one is unemployed for an extended period, that person can—can lose the skills  that are needed, can lose touch with the labor force, and have difficulty restarting his or her  career."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3659,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": "person can —",
+      "right_3": "lose the skills",
+      "sentence": "The first is just  workers who—if one is unemployed for an extended period, that person can—can lose the skills  that are needed, can lose touch with the labor force, and have difficulty restarting his or her  career."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3659,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": "are needed ,",
+      "right_3": "lose touch with",
+      "sentence": "The first is just  workers who—if one is unemployed for an extended period, that person can—can lose the skills  that are needed, can lose touch with the labor force, and have difficulty restarting his or her  career."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3797,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", that \n",
+      "right_3": "be damaging to",
+      "sentence": "And if we see an unnecessary—unnecessary insolvencies, a wave of those, that  could be damaging to the performance of the economy over time."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3826,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "have policies that",
+      "right_3": "address those things",
+      "sentence": "So the good news is that we   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 10 of 24    have policies, as I mentioned in my remarks—we have policies that can address those things, but  not perfectly."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3885,
+      "head_verb_surface": "point",
+      "head_verb_lemma": "point",
+      "left_3": "third thing I",
+      "right_3": "point to is",
+      "sentence": "The third thing I would point to is just the global dimension."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3898,
+      "head_verb_surface": "weigh",
+      "head_verb_lemma": "weigh",
+      "left_3": ", too ,",
+      "right_3": "weigh on U.S.",
+      "sentence": "This is a very global  phenomenon, and you are—we’re seeing economic data from around the globe which is very,  very negative, and that, too, can weigh on U.S. economic performance over time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3940,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", \n I",
+      "right_3": "say , just",
+      "sentence": "I—you know,  I would say, just on the U.S.—on the U.S. economy, there are things you can say, one can say."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3940,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "are things you",
+      "right_3": "say , one",
+      "sentence": "I—you know,  I would say, just on the U.S.—on the U.S. economy, there are things you can say, one can say."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3940,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "say , one",
+      "right_3": "say . \n",
+      "sentence": "I—you know,  I would say, just on the U.S.—on the U.S. economy, there are things you can say, one can say."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4032,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": ", but we",
+      "right_3": "go through a",
+      "sentence": "The next phases are more uncertain, highly uncertain, but we will go through a phase  starting fairly soon where we begin to reopen the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4061,
+      "head_verb_surface": "pick",
+      "head_verb_lemma": "pick",
+      "left_3": "economic activity \n",
+      "right_3": "pick up as",
+      "sentence": "And probably the economic activity  will pick up as consumer spending picks up."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4091,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "lot . It",
+      "right_3": "begin to pick",
+      "sentence": "It’ll begin to pick up as people start to return to their normal patterns of  spending."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 4110,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "are that it",
+      "right_3": "n’t go right",
+      "sentence": "But the chances are that it won’t go right back to where we were, because people  will—until they’re confident of—that the virus is well and truly under control, then they will be  somewhat probably reluctant to—to undertake certain kinds of activity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4110,
+      "head_verb_surface": "’re",
+      "head_verb_lemma": "’re",
+      "left_3": "because people \n",
+      "right_3": "— until they",
+      "sentence": "But the chances are that it won’t go right back to where we were, because people  will—until they’re confident of—that the virus is well and truly under control, then they will be  somewhat probably reluctant to—to undertake certain kinds of activity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4110,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", then they",
+      "right_3": "be \n somewhat",
+      "sentence": "But the chances are that it won’t go right back to where we were, because people  will—until they’re confident of—that the virus is well and truly under control, then they will be  somewhat probably reluctant to—to undertake certain kinds of activity."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4164,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". So it",
+      "right_3": "take some \n",
+      "sentence": "So it may take some  time for us to get back—it probably will take some time for us to get back to—you know, to a  more normal level of unemployment and—and, ultimately, to maximum employment."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4164,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "— it probably",
+      "right_3": "take some time",
+      "sentence": "So it may take some  time for us to get back—it probably will take some time for us to get back to—you know, to a  more normal level of unemployment and—and, ultimately, to maximum employment."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4263,
+      "head_verb_surface": "strengthen",
+      "head_verb_lemma": "strengthen",
+      "left_3": "under what circumstances",
+      "right_3": "you \n strengthen",
+      "sentence": "And given the risks that you just outlined, under what circumstances would you  strengthen the Fed’s commitment to keep rates at the lower bound?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4540,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "— and I",
+      "right_3": "say the same",
+      "sentence": "So we don’t see—we see our  current stance and our current guidance—and I would say the same thing about asset  purchases—we see them as appropriate."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 4575,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "what monetary policy",
+      "right_3": "look like over",
+      "sentence": "I’ve—I’ve also mentioned now a couple times that we  have done a lot of thinking about what monetary policy might look like over coming months, and  that would, you know, depend on—on where we are in—in a range of potential economic  scenarios."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4575,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "and \n that",
+      "right_3": ", you know",
+      "sentence": "I’ve—I’ve also mentioned now a couple times that we  have done a lot of thinking about what monetary policy might look like over coming months, and  that would, you know, depend on—on where we are in—in a range of potential economic  scenarios."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4690,
+      "head_verb_surface": "expand",
+      "head_verb_lemma": "expand",
+      "left_3": "\n then we",
+      "right_3": "expand them .",
+      "sentence": "So we’ve said that if—if demand for our facilities is greater than we’ve estimated,  then we’ll expand them."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 4725,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". So it",
+      "right_3": "n’t be the",
+      "sentence": "So it won’t be the way the—the  Paycheck Protection Program is, where there’s a specific amount allocated—appropriated for it,  and—and then there’s no more money."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4764,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "That’s — that",
+      "right_3": "be unlikely to",
+      "sentence": "That’s—that will be unlikely to happen here unless we  exhaust Treasury’s equity, and we’re a long way from doing that."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4792,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "second thing I",
+      "right_3": "say is —",
+      "sentence": "April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 12 of 24    The second thing I would say is—and you’ve all seen this—is when we announce these  facilities—and I mentioned this in my remarks—it’s not just the actual lending"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4870,
+      "head_verb_surface": "’ve",
+      "head_verb_lemma": "’ve",
+      "left_3": "\n companies that",
+      "right_3": "’ve had to",
+      "sentence": "And many  companies that would’ve had to come to the Fed have now been able to finance themselves  privately since we announced the—the initial term sheet on—on these facilities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5031,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": ". And we",
+      "right_3": "follow through to",
+      "sentence": "And we will follow through to validate that—that  announcement effect."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5098,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "of the year",
+      "right_3": "see \n a",
+      "sentence": "You said earlier, I think, that you thought the second half of the year could see  a pretty robust rebound."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5339,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "I — I",
+      "right_3": "say , there",
+      "sentence": "But I—I will say, there—I think there are a few things that you can say about—about the  path ahead."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5339,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "things that you",
+      "right_3": "say about —",
+      "sentence": "But I—I will say, there—I think there are a few things that you can say about—about the  path ahead."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5457,
+      "head_verb_surface": "enter",
+      "head_verb_lemma": "enter",
+      "left_3": "So then we",
+      "right_3": "enter this new",
+      "sentence": "So then we will enter this new phase, and we—we’re just beginning to maybe do that,  where we will—formal measures that require social distancing will be rolled back gradually and  at different paces in different parts of the country."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5457,
+      "head_verb_surface": "where",
+      "head_verb_lemma": "where",
+      "left_3": "\n where we",
+      "right_3": "— formal measures",
+      "sentence": "So then we will enter this new phase, and we—we’re just beginning to maybe do that,  where we will—formal measures that require social distancing will be rolled back gradually and  at different paces in different parts of the country."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5457,
+      "head_verb_surface": "rolled",
+      "head_verb_lemma": "roll",
+      "left_3": "require social distancing",
+      "right_3": "be rolled back",
+      "sentence": "So then we will enter this new phase, and we—we’re just beginning to maybe do that,  where we will—formal measures that require social distancing will be rolled back gradually and  at different paces in different parts of the country."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5505,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "the \n economy",
+      "right_3": "begin to recover",
+      "sentence": "And, in time, this—during this period, the  economy will begin to recover."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5524,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "recover . People",
+      "right_3": "come out of",
+      "sentence": "People will come out of their homes, start to spend again."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5537,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "again . We",
+      "right_3": "\n see unemployment",
+      "sentence": "We’ll  see unemployment go down, we’ll see economic activity pick up."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5537,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "down , we",
+      "right_3": "see economic activity",
+      "sentence": "We’ll  see unemployment go down, we’ll see economic activity pick up."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5553,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "know , when",
+      "right_3": "\n that be",
+      "sentence": "And, you know, when will  that be?"
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 5571,
+      "head_verb_surface": "let",
+      "head_verb_lemma": "let",
+      "left_3": ", that it",
+      "right_3": "in the third",
+      "sentence": "But let’s just say, for this purpose, that it’s in the third quarter."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5590,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that — that",
+      "right_3": "be a fairly",
+      "sentence": "So, as I mentioned earlier, that—that could be a fairly, you know, a large increase."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5612,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", the increase",
+      "right_3": "also be substantially",
+      "sentence": "Given the— given the size of the fall, the increase could also be substantially large, although it’s unlikely that  it would bring us quickly, quickly all the way back to pre-crisis levels."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5612,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "that \n it",
+      "right_3": "bring us quickly",
+      "sentence": "Given the— given the size of the fall, the increase could also be substantially large, although it’s unlikely that  it would bring us quickly, quickly all the way back to pre-crisis levels."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5684,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "some point you",
+      "right_3": "have — you",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5684,
+      "head_verb_surface": "gone",
+      "head_verb_lemma": "go",
+      "left_3": "- distancing measures",
+      "right_3": "— will be",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5684,
+      "head_verb_surface": "gone",
+      "head_verb_lemma": "go",
+      "left_3": "measures will —",
+      "right_3": "be gone ,",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5684,
+      "head_verb_surface": "left",
+      "head_verb_lemma": "leave",
+      "left_3": ", but you",
+      "right_3": "still be left",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5684,
+      "head_verb_surface": "people",
+      "head_verb_lemma": "people",
+      "left_3": "of people who",
+      "right_3": "— who will",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5684,
+      "head_verb_surface": "worry",
+      "head_verb_lemma": "worry",
+      "left_3": "will — who",
+      "right_3": "worry and probably",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5773,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "time . You",
+      "right_3": "think that behavior",
+      "sentence": "You would think that behavior will change as people gain confidence."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5773,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "think that behavior",
+      "right_3": "change as people",
+      "sentence": "You would think that behavior will change as people gain confidence."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5785,
+      "head_verb_surface": "regain",
+      "head_verb_lemma": "regain",
+      "left_3": "the sooner people",
+      "right_3": "regain that confidence",
+      "sentence": "So the— the sooner we get the virus under control, the sooner people can regain that confidence and  regain their economic activity."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 5812,
+      "head_verb_surface": "happen",
+      "head_verb_lemma": "happen",
+      "left_3": "about when that",
+      "right_3": "happen \n and",
+      "sentence": "I think trying to be really precise about when that might happen  and what the numbers might look like is—I think it’s very tough to do that."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 5812,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "what the numbers",
+      "right_3": "look like is",
+      "sentence": "I think trying to be really precise about when that might happen  and what the numbers might look like is—I think it’s very tough to do that."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 5925,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "and that it",
+      "right_3": "take years from",
+      "sentence": "Do you  worry that this recession is going to fall hardest on those workers who’ve struggled and just got  job gains in the last year or two, and that it may take years from now before there are  opportunities for them again?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6140,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "do what we",
+      "right_3": "to avoid longer",
+      "sentence": "All  the more need for our urgent response—and also that of Congress, which has been urgent and  large—and to do what we can to avoid longer-run damage to the economy, which is what I—I   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 15 of 24    mentioned earlier."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6238,
+      "head_verb_surface": "everything",
+      "head_verb_lemma": "everything",
+      "left_3": "\n everything we",
+      "right_3": "to avoid that",
+      "sentence": "And I think it is important that we do  everything we can to avoid that longer-run damage and try to get back to where we were,  because I do very much have that concern."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6387,
+      "head_verb_surface": "work",
+      "head_verb_lemma": "work",
+      "left_3": "facilities , which",
+      "right_3": "also work through",
+      "sentence": "For the Main Street lending facilities, which will also work through banks, what  lessons are you taking away from that?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 6436,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", whether that",
+      "right_3": "be a concern",
+      "sentence": "And I was just wondering,  for Republicans that are starting to get worried about how much fiscal spending they’re having to  do in this crisis, you know, whether that should be a concern for them."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6516,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that the demand",
+      "right_3": "be quite as",
+      "sentence": "So I don’t know  that the demand will be quite as strong as—as it has been for the PPP."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 6546,
+      "head_verb_surface": "run",
+      "head_verb_lemma": "run",
+      "left_3": "is , we",
+      "right_3": "n’t run out",
+      "sentence": "And  the second thing is, we won’t run out of money."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 6561,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", so there",
+      "right_3": "n’t \n be",
+      "sentence": "You know, it’s not a limited pot, so there won’t  be this incentive to try to get there first and that sort of thing."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6591,
+      "head_verb_surface": "try",
+      "head_verb_lemma": "try",
+      "left_3": "we — we",
+      "right_3": "\n very much",
+      "sentence": "So I’m—I’m hopeful we—we will  very much try to learn as much as possible from that facility and from all the other ones, too."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6622,
+      "head_verb_surface": "trying",
+      "head_verb_lemma": "try",
+      "left_3": ", so we",
+      "right_3": "certainly be trying",
+      "sentence": "We  have a lot to learn here, so we’ll certainly be trying to do that."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6756,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "do what we",
+      "right_3": "to support the",
+      "sentence": "This is the time to use the great fiscal power of the  United States to—to do what we can to support the economy and try to get through this with as  little damage to the longer-run productive capacity of the economy as possible."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6807,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "\n The time",
+      "right_3": "come again —",
+      "sentence": "The time will come again—and reasonably soon, I think—where we can—where we can  think about a long-term way to get our fiscal house in order."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6807,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "— where we",
+      "right_3": "— where we",
+      "sentence": "The time will come again—and reasonably soon, I think—where we can—where we can  think about a long-term way to get our fiscal house in order."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6807,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "— where we",
+      "right_3": "\n think about",
+      "sentence": "The time will come again—and reasonably soon, I think—where we can—where we can  think about a long-term way to get our fiscal house in order."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7035,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a therapeutic drug",
+      "right_3": "be ready ,",
+      "sentence": "You know, so we don’t—we’re not in a position to make, you know,  a reliable assessment of when a vaccine or a therapeutic drug would be ready, and so we’re not  going to set our policies based on—on our estimate of that."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7089,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "support that we",
+      "right_3": "with the tools",
+      "sentence": "We’re going to just provide the   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 17 of 24    support that we can with the tools that we have, and we’re going to keep doing that until—until  the recovery’s well under way."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7218,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "sheet , which",
+      "right_3": "then become operative",
+      "sentence": "And so, we’re—as I mentioned, we’re very close to announcing a  new term sheet, which will then become operative fairly quickly."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 7247,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": ", that we",
+      "right_3": "\n keep —",
+      "sentence": "My guess is, though, that we’ll  keep—we’ll keep looking to add products and add different kinds of borrowers to that as we go."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 7372,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "think that we",
+      "right_3": "have very high",
+      "sentence": "but,  you know, there are analysts who think that we’ll have very high unemployment until even the  end of next year, as high as 9 percent."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7405,
+      "head_verb_surface": "talk",
+      "head_verb_lemma": "talk",
+      "left_3": ", what —",
+      "right_3": "you just talk",
+      "sentence": "And, at this point, what—can you just talk a little bit more  about what you see as the path of employment in the coming months and into next year?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7446,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "what the number",
+      "right_3": "be . When",
+      "sentence": "So unemployment’s going to go up to a high number in the  second quarter—uncertain what the number will be."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 7495,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "country , we",
+      "right_3": "see the social",
+      "sentence": "And the— so sometime fairly soon here, and probably gradually and at different paces at different parts of  the country, we’ll see the social-distancing measures rolled back."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7531,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "back . People",
+      "right_3": "begin to spend",
+      "sentence": "People will begin to spend  more money."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7551,
+      "head_verb_surface": "hired",
+      "head_verb_lemma": "hire",
+      "left_3": "happen , people",
+      "right_3": "get hired back",
+      "sentence": "And once that starts to  happen, people will get hired back and unemployment will go back down."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7551,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "back and unemployment",
+      "right_3": "go back down",
+      "sentence": "And once that starts to  happen, people will get hired back and unemployment will go back down."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 7571,
+      "head_verb_surface": "get",
+      "head_verb_lemma": "get",
+      "left_3": "n’t think it",
+      "right_3": "get \n\n April",
+      "sentence": "I don’t think it’ll get   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 18 of 24    anywhere near the historically low levels that we had in—as recently as February, 3½ percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7616,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "\n think it",
+      "right_3": "take some time",
+      "sentence": "I  think it will take some time for that to happen, for us to get back to anything that resembles  maximum employment."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7664,
+      "head_verb_surface": "fast",
+      "head_verb_lemma": "fast",
+      "left_3": "fast as we",
+      "right_3": ". Not faster",
+      "sentence": "We want to get  that—that recovery going and get people back to work as fast as we can."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7686,
+      "head_verb_surface": "faster",
+      "head_verb_lemma": "fast",
+      "left_3": "faster than we",
+      "right_3": ", \n but",
+      "sentence": "Not faster than we can,  but as fast as we can."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7686,
+      "head_verb_surface": "fast",
+      "head_verb_lemma": "fast",
+      "left_3": "fast as we",
+      "right_3": ". The main",
+      "sentence": "Not faster than we can,  but as fast as we can."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7757,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", but we",
+      "right_3": "— we will",
+      "sentence": "And, you know,  it’s—again, the path of it is highly uncertain, but we will—we will be there with our tools,  supporting the economy and supporting that recovery."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7757,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "will — we",
+      "right_3": "be there with",
+      "sentence": "And, you know,  it’s—again, the path of it is highly uncertain, but we will—we will be there with our tools,  supporting the economy and supporting that recovery."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7825,
+      "head_verb_surface": "weather",
+      "head_verb_lemma": "weather",
+      "left_3": "capital so they",
+      "right_3": "weather an economic",
+      "sentence": "so they could weather an economic shock."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 7866,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "CHAIR POWELL .",
+      "right_3": "you just say",
+      "sentence": "Can you just say that part—you’re a little bit low volume."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7886,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "kind of steps",
+      "right_3": "we take to",
+      "sentence": "What kind of steps could we take to help the economy as a  whole be more resilient to this kind of exogenous shock?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7947,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "think the time",
+      "right_3": "come for a",
+      "sentence": "I—I  think the time will come for a careful assessment of the answers to those questions."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 7991,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I think we",
+      "right_3": "be \n at",
+      "sentence": "And I think we’ll be  at that for a while."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 8005,
+      "head_verb_surface": "point",
+      "head_verb_lemma": "point",
+      "left_3": ", but I",
+      "right_3": "point to a",
+      "sentence": "April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 19 of 24    You know, but I’d point to a couple of directions."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8093,
+      "head_verb_surface": "rush",
+      "head_verb_lemma": "rush",
+      "left_3": "don’t — I",
+      "right_3": "n’t rush in",
+      "sentence": "And I don’t—I wouldn’t rush in with prudential  regulation into the capital markets."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 8159,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "there — there",
+      "right_3": "no doubt be",
+      "sentence": "But there—there will no doubt be— with this—the size and force of this shock will no doubt reveal weaknesses in the financial  architecture, and we’ll have to go to work on those."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 8159,
+      "head_verb_surface": "reveal",
+      "head_verb_lemma": "reveal",
+      "left_3": "of this shock",
+      "right_3": "no doubt reveal",
+      "sentence": "But there—there will no doubt be— with this—the size and force of this shock will no doubt reveal weaknesses in the financial  architecture, and we’ll have to go to work on those."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 8159,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ", and we",
+      "right_3": "have to go",
+      "sentence": "But there—there will no doubt be— with this—the size and force of this shock will no doubt reveal weaknesses in the financial  architecture, and we’ll have to go to work on those."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 8293,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "But \n we",
+      "right_3": "need to —",
+      "sentence": "But  we will need to—ideally, you would go into an unexpected shock like this with a—with a much  stronger fiscal—fiscal posture."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8293,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "ideally , you",
+      "right_3": "go into an",
+      "sentence": "But  we will need to—ideally, you would go into an unexpected shock like this with a—with a much  stronger fiscal—fiscal posture."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 8335,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "anticipate that we",
+      "right_3": "see any kind",
+      "sentence": "Mr. Chairman, given the demand drop, demand shock, and the  drop in oil prices, do you anticipate that we might see any kind of deflation, even for a very short  period, that would require a Fed response?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8335,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "period , that",
+      "right_3": "require a Fed",
+      "sentence": "Mr. Chairman, given the demand drop, demand shock, and the  drop in oil prices, do you anticipate that we might see any kind of deflation, even for a very short  period, that would require a Fed response?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 8381,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "PCE , how",
+      "right_3": "\n people think",
+      "sentence": "If we get a negative print on CPI or PCE, how should  people think about that?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8424,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "economy , there",
+      "right_3": "be financial stability",
+      "sentence": "And I know you said that this isn’t the time to worry about moral   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 20 of 24    hazard, but do you worry, with the size of stimulus that you and the Congress are putting into the  economy, there could be financial stability problems as this goes along?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 8517,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "concern that we",
+      "right_3": "see deflation ,",
+      "sentence": "And during the Global Financial Crisis, there was a  concern that we might see deflation, but it didn’t happen."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 8541,
+      "head_verb_surface": "is",
+      "head_verb_lemma": "be",
+      "left_3": ", as it",
+      "right_3": "when demand is",
+      "sentence": "Inflation expect—inflation tended to  move down a little bit, as it will when demand is weak."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8614,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "So , I",
+      "right_3": "say , as",
+      "sentence": "So, I would say, as long as inflation expectations remain anchored, then we shouldn’t see  deflation."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 8614,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": ", then we",
+      "right_3": "n’t see \n",
+      "sentence": "So, I would say, as long as inflation expectations remain anchored, then we shouldn’t see  deflation."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 8652,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". So we",
+      "right_3": "be there to",
+      "sentence": "So we’ll be there to work on that."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8673,
+      "head_verb_surface": "hope",
+      "head_verb_lemma": "hope",
+      "left_3": "I — I",
+      "right_3": "hope that people",
+      "sentence": "If— if low energy prices—very low energy prices were to—were to drop headline inflation negative,  I—I would hope that people would see through that—and we’ll be monitoring it very carefully— would see through it, though, and look to core, which is a better predictor of future inflation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8673,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "hope that people",
+      "right_3": "see through that",
+      "sentence": "If— if low energy prices—very low energy prices were to—were to drop headline inflation negative,  I—I would hope that people would see through that—and we’ll be monitoring it very carefully— would see through it, though, and look to core, which is a better predictor of future inflation."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 8673,
+      "head_verb_surface": "monitoring",
+      "head_verb_lemma": "monitor",
+      "left_3": "— and we",
+      "right_3": "be monitoring it",
+      "sentence": "If— if low energy prices—very low energy prices were to—were to drop headline inflation negative,  I—I would hope that people would see through that—and we’ll be monitoring it very carefully— would see through it, though, and look to core, which is a better predictor of future inflation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8673,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "carefully — \n",
+      "right_3": "see through it",
+      "sentence": "If— if low energy prices—very low energy prices were to—were to drop headline inflation negative,  I—I would hope that people would see through that—and we’ll be monitoring it very carefully— would see through it, though, and look to core, which is a better predictor of future inflation."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 8739,
+      "head_verb_surface": "keeping",
+      "head_verb_lemma": "keep",
+      "left_3": "say , we",
+      "right_3": "be keeping very",
+      "sentence": "So,  needless to say, we’ll be keeping very close track of that."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 8776,
+      "head_verb_surface": "trying",
+      "head_verb_lemma": "try",
+      "left_3": "particular , it",
+      "right_3": "just — markets",
+      "sentence": "We’re  not—we’re not focused on the level of asset prices in particular, it’s just—markets are trying to  price in something that is so uncertain as to be unknowable, which is the path of this virus  globally and its effect on the economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9186,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "job markets that",
+      "right_3": "keep \n unemployment",
+      "sentence": "So are you worried about structural changes in job markets that would keep  unemployment high and, therefore, potentially beyond the ability of the Fed to do anything  about, which is something that was debated, as you know, after the last recession, and then  eventually, of course, the unemployment rate did go lower than people thought?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9483,
+      "head_verb_surface": "doing",
+      "head_verb_lemma": "do",
+      "left_3": "doing what we",
+      "right_3": "to prevent that",
+      "sentence": "And so that’s why—as I mentioned,  that’s why the urgency in doing what we can to prevent that longer-run damage."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 9522,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "way . We",
+      "right_3": "n’t be able",
+      "sentence": "We won’t be able to limit all of it, but we do have the tools to—to do what we  can to—to keep people in touch with the labor force and working and also out of insolvency, too."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9522,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "what we \n",
+      "right_3": "to — to",
+      "sentence": "We won’t be able to limit all of it, but we do have the tools to—to do what we  can to—to keep people in touch with the labor force and working and also out of insolvency, too."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 9569,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": "fair that people",
+      "right_3": "lose everything they",
+      "sentence": "It doesn’t seem fair that people should lose everything they have, including their homes, over  this."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9590,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "nonetheless , there",
+      "right_3": "be some of",
+      "sentence": "So, nonetheless, there will be some of that."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 9805,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "Okay , we",
+      "right_3": "go to Nancy",
+      "sentence": "Okay, we’ll go to Nancy Marshall-Genzer for the last question."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9833,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "wondering what you",
+      "right_3": "say to savers",
+      "sentence": "Chair  Powell, I’m wondering what you would say to savers who are hurt by very low interest rates and   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 23 of 24    maybe going into investments maybe in the stock market that aren’t so great for them."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9891,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "wondering if you",
+      "right_3": "give us any",
+      "sentence": "And also,  I’m wondering if you can give us any more of a clue as to how long you think we’re going to  have interest rates near zero."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10012,
+      "head_verb_surface": "benefit",
+      "head_verb_lemma": "benefit",
+      "left_3": ", your saver",
+      "right_3": "benefit from that",
+      "sentence": "If your saver owns a home or  has a 401(k), your saver will benefit from that."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 10126,
+      "head_verb_surface": "stop",
+      "head_verb_lemma": "stop",
+      "left_3": ", but that",
+      "right_3": "n’t stop us",
+      "sentence": "And that’s not to say  they’re good for every single person, but that shouldn’t stop us from doing what we think is—is  good for the whole."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10176,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "know , we",
+      "right_3": "turn to \n",
+      "sentence": "You know, we will turn to  questions like that soon enough."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10190,
+      "head_verb_surface": "stay",
+      "head_verb_lemma": "stay",
+      "left_3": "how long we",
+      "right_3": "stay and under",
+      "sentence": "But the—in terms of how long we’ll stay and under what  conditions we’ll stay at the effective lower bound, those are just exactly the things we’re  thinking about."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10190,
+      "head_verb_surface": "stay",
+      "head_verb_lemma": "stay",
+      "left_3": "\n conditions we",
+      "right_3": "stay at the",
+      "sentence": "But the—in terms of how long we’ll stay and under what  conditions we’ll stay at the effective lower bound, those are just exactly the things we’re  thinking about."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10237,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "said that we",
+      "right_3": "keep our rates",
+      "sentence": "We’ve said that we’ll keep our rates where they are  until we’re confident that the economy has weathered the effects of the outbreak and is on track  to achieve our—our goals."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10283,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", but it",
+      "right_3": "be — that",
+      "sentence": "We’re leaving—we’re not changing that   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 24 of 24    guidance today, you know, but it’ll be—that means we’re going to be very patient."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Next week’s jobs report is expected to show that the unemployment rate,  which was at 50-year lows just two months ago, has surged into double digits."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Manufacturing output fell sharply in March and is likely to drop even more   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 2 of 24    rapidly this month, as many factories have temporarily closed."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Overall, economic activity will  likely drop at an unprecedented rate in the second quarter."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Both the depth and the duration of the economic downturn are extraordinarily uncertain  and will depend in large part on how quickly the virus is brought under control."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We stated then and again today that we expect to maintain  interest rates at this level until we’re confident that the economy has weathered recent events and  is on track to achieve our maximum-employment and price-stability goals."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We will continue to use our tools to assure that the recovery,  when it comes, will be as robust as possible."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We’re going to use them, as I mentioned,   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 5 of 24    forcefully, proactively, and aggressively until we’re confident that we’re solidly on the road to  recovery and also to assure that that recovery, when it comes, will be as robust as possible."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In addition, you know, we’ve had—we’ve had  extensive discussions, as I’ve mentioned—done a lot of thinking about what monetary policy  might look like over—in coming months over a range of potential scenarios for the economy."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "There are a range of potential paths the  economy could be on, and I think as—as the time approaches for—then we’ll—you know, we’ll  address your first question, which is about asset purchases."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "So I think we’ll be at—we’ll   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 9 of 24    probably be continuing to work and expand Main Street for some time, but it won’t be done quite  as quickly."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "So the “medium”—but what we meant by that, “over the medium term”—so,  obviously, what we’re talking about is, you know, not right now, in the very near term."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The next phases are more uncertain, highly uncertain, but we will go through a phase  starting fairly soon where we begin to reopen the economy."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The next phases are more uncertain, highly uncertain, but we will go through a phase  starting fairly soon where we begin to reopen the economy."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "And probably the economic activity  will pick up as consumer spending picks up."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "But the chances are that it won’t go right back to where we were, because people  will—until they’re confident of—that the virus is well and truly under control, then they will be  somewhat probably reluctant to—to undertake certain kinds of activity."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "But the chances are that it won’t go right back to where we were, because people  will—until they’re confident of—that the virus is well and truly under control, then they will be  somewhat probably reluctant to—to undertake certain kinds of activity."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "So it may take some  time for us to get back—it probably will take some time for us to get back to—you know, to a  more normal level of unemployment and—and, ultimately, to maximum employment."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Then, on the credit facilities, what kind of demand are you  expecting for the programs that were set up under the Cares Act, and are you expecting them to  rapidly reach capacity like the PPP plan did?"
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Then, on the credit facilities, what kind of demand are you  expecting for the programs that were set up under the Cares Act, and are you expecting them to  rapidly reach capacity like the PPP plan did?"
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We  think, if you look at surveys, you look at market pricing, the market expects us to—to be there  for a good while, and that’s appropriate."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I’ve—I’ve also mentioned now a couple times that we  have done a lot of thinking about what monetary policy might look like over coming months, and  that would, you know, depend on—on where we are in—in a range of potential economic  scenarios."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "That’s—that will be unlikely to happen here unless we  exhaust Treasury’s equity, and we’re a long way from doing that."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And do you think a steady recovery is  really possible until a vaccine’s developed, given the patchwork of measures we’ve seen taken  around the states?"
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "You know, as you know, economic forecasts are always uncertain."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Today they’re unusually uncertain, and that’s—that’s really because so much of the performance  of the economy depends on the path of the virus and the success of the measures we take to   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 13 of 24    control it, our success in reopening the economy, and also the time it takes to develop new drugs."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We’re not experts on those  things either, but what the experts tell us is that the outcomes are highly uncertain."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "Given the— given the size of the fall, the increase could also be substantially large, although it’s unlikely that  it would bring us quickly, quickly all the way back to pre-crisis levels."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "I think then, after that period, at some point you will have—you know, the kind of formal  social-distancing measures will—will be gone, but you’ll still be left with, probably, a level of   April 29, 2020   Chair Powell’s Press Conference    FINAL  Page 14 of 24    caution on the part of people who will—who will worry and probably keep worrying for some— for some time."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "So I’m—I’m hopeful we—we will  very much try to learn as much as possible from that facility and from all the other ones, too."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "We  have a lot to learn here, so we’ll certainly be trying to do that."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "This is the time to use the great fiscal power of the  United States to—to do what we can to support the economy and try to get through this with as  little damage to the longer-run productive capacity of the economy as possible."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And we’re—we’re well aware of the importance of—of doing it as quickly as possible."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I know you said that it’s highly uncertain"
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "So unemployment’s going to go up to a high number in the  second quarter—uncertain what the number will be."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "And the— so sometime fairly soon here, and probably gradually and at different paces at different parts of  the country, we’ll see the social-distancing measures rolled back."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And, you know,  it’s—again, the path of it is highly uncertain, but we will—we will be there with our tools,  supporting the economy and supporting that recovery."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "You know, it’s an extraordinary, extraordinary shock, unlike  anything, certainly, that’s happened in my lifetime."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Now, we have the fiscal capacity to deal with it, I believe."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Mr. Chairman, given the demand drop, demand shock, and the  drop in oil prices, do you anticipate that we might see any kind of deflation, even for a very short  period, that would require a Fed response?"
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Inflation expect—inflation tended to  move down a little bit, as it will when demand is weak."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We’re  not—we’re not focused on the level of asset prices in particular, it’s just—markets are trying to  price in something that is so uncertain as to be unknowable, which is the path of this virus  globally and its effect on the economy."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The market is assessing risks,  lenders are lending, borrowers are borrowing, asset prices are moving in response to events."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "You did talk about potential loss of skills  over time."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "So are you worried about structural changes in job markets that would keep  unemployment high and, therefore, potentially beyond the ability of the Fed to do anything  about, which is something that was debated, as you know, after the last recession, and then  eventually, of course, the unemployment rate did go lower than people thought?"
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "So the longer  one is unemployed, the harder it gets, I think—and we’ve probably all seen this in our lives—the  harder it is to get back into the workforce and get back to where you were, if you ever do get  back to where you were."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "So, you know—but I do think we are—we’re clearly moving into areas  where there is more risk than there has been in the past."
+    }
+  ]
+}

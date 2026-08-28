@@ -1,0 +1,112 @@
+{
+  "doc_id": "statement_20180801",
+  "doc_type": "statement",
+  "date": "2018-08-01",
+  "chair": "Powell",
+  "n_tokens": 333,
+  "n_sents": 14,
+  "pos_counts": {
+    "NNP": 45,
+    "CD": 13,
+    ",": 18,
+    "VBZ": 8,
+    "JJ": 39,
+    "NN": 75,
+    "IN": 41,
+    "VBD": 6,
+    "DT": 25,
+    "VBN": 10,
+    "TO": 4,
+    "VB": 6,
+    "CC": 17,
+    "VBG": 5,
+    ".": 13,
+    "NNS": 22,
+    "VBP": 5,
+    "RB": 4,
+    "HYPH": 2,
+    "JJR": 1,
+    "PRP$": 3,
+    "MD": 3,
+    "POS": 1,
+    "SYM": 1,
+    ":": 8
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "will": 3
+  },
+  "modals_per_1000": 9.009,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "expect": 3,
+    "assess": 1
+  },
+  "epistemics_per_1000": 12.012,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 139,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "federal funds rate",
+      "right_3": "be consistent with",
+      "sentence": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective over the medium term."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 252,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 294,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective over the medium term."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1-3/4 to 2 percent."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

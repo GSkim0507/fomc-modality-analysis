@@ -1,0 +1,141 @@
+{
+  "doc_id": "statement_20100623",
+  "doc_type": "statement",
+  "date": "2010-06-23",
+  "chair": "Bernanke",
+  "n_tokens": 368,
+  "n_sents": 13,
+  "pos_counts": {
+    "NNP": 41,
+    "CD": 4,
+    ",": 18,
+    "JJ": 43,
+    "NN": 70,
+    "IN": 41,
+    "VBD": 7,
+    "DT": 24,
+    "VBZ": 13,
+    "VBG": 12,
+    "CC": 16,
+    "RB": 13,
+    ".": 13,
+    "VBN": 9,
+    "JJR": 4,
+    ":": 10,
+    "NNS": 27,
+    "TO": 13,
+    "VB": 17,
+    "VBP": 5,
+    "RBR": 2,
+    "HYPH": 3,
+    "MD": 4,
+    "PRP$": 1,
+    "WP": 1,
+    "PRP": 1
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "will": 3,
+    "could": 1
+  },
+  "modals_per_1000": 10.87,
+  "epistemic_count": 6,
+  "epistemic_lemma_counts": {
+    "anticipate": 2,
+    "likely": 3,
+    "believe": 1
+  },
+  "epistemics_per_1000": 16.304,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 213,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "maintain the target",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 272,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 272,
+      "head_verb_surface": "employ",
+      "head_verb_lemma": "employ",
+      "left_3": "financial developments and",
+      "right_3": "employ its policy",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 350,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "warranted because it",
+      "right_3": "lead to a",
+      "sentence": "Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted because it could lead to a build-up of future imbalances and increase risks to longer-run macroeconomic and financial stability, while limiting the Committeeâs flexibility to begin raisi"
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Nonetheless, the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, although the pace of economic recovery is likely to be moderate for a time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Nonetheless, the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, although the pace of economic recovery is likely to be moderate for a time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted because it could lead to a build-up of future imbalances and increase risks to longer-run macroeconomic and financial stability, while limiting the Committeeâs flexibility to begin raisi"
+    }
+  ]
+}

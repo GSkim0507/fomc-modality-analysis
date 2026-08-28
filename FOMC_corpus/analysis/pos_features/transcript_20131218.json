@@ -1,0 +1,2849 @@
+{
+  "doc_id": "transcript_20131218",
+  "doc_type": "press_conf_transcript",
+  "date": "2013-12-18",
+  "chair": "Bernanke",
+  "n_tokens": 10971,
+  "n_sents": 543,
+  "pos_counts": {
+    "NNP": 620,
+    "CD": 288,
+    ",": 786,
+    "POS": 52,
+    "IN": 1404,
+    ".": 535,
+    "JJ": 742,
+    "NN": 1560,
+    "DT": 1051,
+    "-LRB-": 1,
+    "-RRB-": 2,
+    "VBD": 180,
+    "HYPH": 55,
+    "RBR": 28,
+    "PRP": 674,
+    "RB": 685,
+    "VBP": 494,
+    "PRP$": 126,
+    "VBG": 231,
+    "TO": 217,
+    "VB": 486,
+    "WDT": 118,
+    "VBZ": 292,
+    "NNS": 569,
+    "MD": 195,
+    "VBN": 248,
+    "JJR": 78,
+    "CC": 377,
+    "RP": 41,
+    "WRB": 55,
+    "$": 8,
+    "NNPS": 4,
+    "JJS": 23,
+    "PDT": 9,
+    "EX": 47,
+    "''": 10,
+    ":": 120,
+    "UH": 28,
+    "``": 9,
+    "WP": 34,
+    "FW": 2,
+    "RBS": 5,
+    "XX": 1
+  },
+  "modal_count": 195,
+  "modal_lemma_counts": {
+    "will": 55,
+    "can": 36,
+    "could": 26,
+    "would": 36,
+    "should": 5,
+    "’ll": 14,
+    "might": 10,
+    "may": 9,
+    "’s": 3,
+    "’d": 1
+  },
+  "modals_per_1000": 17.774,
+  "epistemic_count": 101,
+  "epistemic_lemma_counts": {
+    "likely": 9,
+    "project": 7,
+    "judge": 1,
+    "expect": 19,
+    "clearly": 4,
+    "potential": 2,
+    "certain": 4,
+    "anticipate": 6,
+    "probably": 7,
+    "certainly": 11,
+    "obviously": 14,
+    "believe": 3,
+    "perhaps": 7,
+    "assess": 2,
+    "possible": 4,
+    "unlikely": 1
+  },
+  "epistemics_per_1000": 9.206,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 93,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "target likely \n",
+      "right_3": "remain appropriate well",
+      "sentence": "The Committee also clarified its guidance on  interest rates, emphasizing that the current near-zero range for the federal funds rate target likely  will remain appropriate well past the time that the unemployment rate declines below  6½ percent, especially if projected inflation continues to run below the Committee’s 2 percent  longer-run goal."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 157,
+      "head_verb_surface": "judged",
+      "head_verb_lemma": "judge",
+      "left_3": "travel before conditions",
+      "right_3": "be \n judged",
+      "sentence": "Today’s policy actions reflect the Committee’s assessment that the economy is  continuing to make progress, but that it also has much farther to travel before conditions can be  judged normal."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 193,
+      "head_verb_surface": "pick",
+      "head_verb_lemma": "pick",
+      "left_3": "expect that growth",
+      "right_3": "pick up somewhat",
+      "sentence": "Notably, despite significant fiscal headwinds, the economy has been expanding  at a moderate pace, and we expect that growth will pick up somewhat in coming quarters, helped  by highly accommodative monetary policy and waning fiscal drag."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 344,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "below its objective",
+      "right_3": "pose risks to",
+      "sentence": "The  Committee recognizes that inflation persistently below its objective could pose risks to economic   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 2 of 31  performance and is monitoring inflation developments carefully for evidence that inflation will  move back toward its objective over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 344,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "evidence that inflation",
+      "right_3": "\n move back",
+      "sentence": "The  Committee recognizes that inflation persistently below its objective could pose risks to economic   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 2 of 31  performance and is monitoring inflation developments carefully for evidence that inflation will  move back toward its objective over time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 652,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "said that we",
+      "right_3": "continue purchases until",
+      "sentence": "When we began  the asset purchase program in September 2012, we said that we would continue purchases until  the outlook for the labor market had improved substantially in a context of price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 784,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "job market gains",
+      "right_3": "continue . For",
+      "sentence": "Recent economic indicators have increased our confidence that the  job market gains will continue."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 935,
+      "head_verb_surface": "purchasing",
+      "head_verb_lemma": "purchase",
+      "left_3": "January , we",
+      "right_3": "be purchasing $",
+      "sentence": "Starting in January, we will be purchasing $75 billion  of securities a month, reducing purchases of Treasuries and mortgage-backed securities by  $5 billion each."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 968,
+      "head_verb_surface": "expanding",
+      "head_verb_lemma": "expand",
+      "left_3": "reduction , we",
+      "right_3": "be still \n",
+      "sentence": "It is important to note though that, even after this reduction, we will be still  expanding our holdings of longer-term securities at a rapid pace."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 999,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "pace . We",
+      "right_3": "also continue to",
+      "sentence": "We will also continue to roll  over maturing Treasury securities and reinvest principal payments from the Federal Reserve’s  holdings of agency debt and agency mortgage-backed securities into agency mortgage-backed  securities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1038,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "- increasing holdings",
+      "right_3": "continue to put",
+      "sentence": "Our sizable and still-increasing holdings will continue to put downward pressure on  longer-term interest rates, support mortgage markets, and make financial conditions more  accommodative, which in turn should promote further progress in the labor market and help  move inflation back toward the Committee’s objective of 2 percent."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1038,
+      "head_verb_surface": "promote",
+      "head_verb_lemma": "promote",
+      "left_3": "which in turn",
+      "right_3": "promote further progress",
+      "sentence": "Our sizable and still-increasing holdings will continue to put downward pressure on  longer-term interest rates, support mortgage markets, and make financial conditions more  accommodative, which in turn should promote further progress in the labor market and help  move inflation back toward the Committee’s objective of 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1098,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "its economic objectives",
+      "right_3": "be sustained .",
+      "sentence": "Our modest reduction in the pace of asset purchases reflects the Committee’s belief that  progress toward its economic objectives will be sustained."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1123,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "inflation , we",
+      "right_3": "likely reduce the",
+      "sentence": "If the incoming data broadly support  the Committee’s outlook for employment and inflation, we will likely reduce the pace of  securities purchases in further measured steps at future meetings."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1187,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of asset purchases",
+      "right_3": "be \n deliberate",
+      "sentence": "Consequently, future adjustments to the pace of asset purchases will be  deliberate and dependent on incoming information."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1308,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "funds rate \n",
+      "right_3": "be appropriate at",
+      "sentence": "For  the past year, the Committee has said that the current low target range for the federal funds rate  would be appropriate at least as long as the unemployment rate remained above 6½ percent,  inflation was projected to be no more than half a percentage point above our 2 percent longer-run  goal, and longer-term inflation expectations remained well anchored."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1379,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "crossing a threshold",
+      "right_3": "not lead \n",
+      "sentence": "We have emphasized that  these numbers are thresholds, not triggers, meaning that crossing a threshold would not lead  automatically to an increase in the federal funds rate but would indicate only that it was  appropriate for the Committee to consider whether the broader economic outlook justified such  an increase."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1379,
+      "head_verb_surface": "indicate",
+      "head_verb_lemma": "indicate",
+      "left_3": "funds rate but",
+      "right_3": "indicate only that",
+      "sentence": "We have emphasized that  these numbers are thresholds, not triggers, meaning that crossing a threshold would not lead  automatically to an increase in the federal funds rate but would indicate only that it was  appropriate for the Committee to consider whether the broader economic outlook justified such  an increase."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1435,
+      "head_verb_surface": "reached",
+      "head_verb_lemma": "reach",
+      "left_3": "unemployment \n threshold",
+      "right_3": "be reached by",
+      "sentence": "With many FOMC participants now projecting that the 6½ percent unemployment  threshold will be reached by the end of 2014, the Committee decided to provide additional  information about how it expects its policies to evolve after the threshold is crossed."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1480,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "now anticipates it",
+      "right_3": "likely be appropriate",
+      "sentence": "Based on its assessment of current conditions and the outlook, which is informed by a  range of indicators, including measures of labor market conditions, financial conditions, and  inflation pressures, the Committee now anticipates it will likely be appropriate to maintain the  current federal funds rate target well past the time that the unemployment rate declines to below  6½ percent, especiall"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1562,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that there \n",
+      "right_3": "still be a",
+      "sentence": "In part,   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 5 of 31  this expectation reflects our assessment, based on a comprehensive set of indicators, that there  will still be a substantial amount of slack in the labor market when the unemployment rate falls  to 6½ percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1923,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", the process",
+      "right_3": "be \n deliberate",
+      "sentence": "However, the process will be  deliberate and data-dependent; asset purchases are not on a preset course."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2022,
+      "head_verb_surface": "ensure",
+      "head_verb_lemma": "ensure",
+      "left_3": "- term securities",
+      "right_3": "ensure that monetary",
+      "sentence": "The Federal Reserve’s enhanced guidance about its policy intentions and its  substantial and still-increasing holdings of longer-term securities will ensure that monetary  policy remains highly accommodative, consistent with the pursuit of its mandated objectives of  maximum employment and price stability."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2076,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "you . I",
+      "right_3": "be glad to",
+      "sentence": "I’ll be glad to take your questions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2099,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "that future reductions",
+      "right_3": "likely occur in",
+      "sentence": "Today was the first  reduction in asset purchases, and you just said that future reductions will likely occur in  measured steps, but are not on a predetermined course."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2132,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "predetermined course .",
+      "right_3": "you tell us",
+      "sentence": "Can you tell us any more about the  framework that you all plan to use to determine the size and the timing of those reductions?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2192,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that we take",
+      "right_3": "be data- \n",
+      "sentence": "Well, as I said, the steps that we take will be data- dependent."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2209,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\n imagine we",
+      "right_3": "continue to do",
+      "sentence": "If we’re making progress in terms of inflation and continued job gains—and I  imagine we’ll continue to do, probably at each meeting, a measured reduction—that would take  us to late in the year, certainly not by the middle of the year."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2209,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "reduction — that",
+      "right_3": "take \n us",
+      "sentence": "If we’re making progress in terms of inflation and continued job gains—and I  imagine we’ll continue to do, probably at each meeting, a measured reduction—that would take  us to late in the year, certainly not by the middle of the year."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2262,
+      "head_verb_surface": "skip",
+      "head_verb_lemma": "skip",
+      "left_3": "outcomes , we",
+      "right_3": "skip a meeting",
+      "sentence": "If the economy slows for some  reason or we are disappointed in the outcomes, we could skip a meeting or two."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2286,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "of course we",
+      "right_3": "go a bit",
+      "sentence": "On the other  side, if things really pick up, then of course we could go a bit faster, but my expectation is for  similar moderate steps going forward throughout most of 2014."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2339,
+      "head_verb_surface": "anticipate",
+      "head_verb_lemma": "anticipate",
+      "left_3": "increment that people",
+      "right_3": "\n anticipate ?",
+      "sentence": "When you say  “similar moderate steps going forward,” is $10 billion an increment that people should  anticipate?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2363,
+      "head_verb_surface": "anticipate",
+      "head_verb_lemma": "anticipate",
+      "left_3": "of 31 \n",
+      "right_3": "anticipate ? Finally",
+      "sentence": "And is equal amounts of mortgage-backed securities and Treasuries also what one   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 7 of 31  should anticipate?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2438,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", so that",
+      "right_3": "be the general",
+      "sentence": "On the first issue of $10 billion, again, we say we are  going to take further modest steps subsequently, so that would be the general range."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2488,
+      "head_verb_surface": "stop",
+      "head_verb_lemma": "stop",
+      "left_3": "dependent . We",
+      "right_3": "stop purchases if",
+      "sentence": "We could stop purchases if the  economy disappoints."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2498,
+      "head_verb_surface": "pick",
+      "head_verb_lemma": "pick",
+      "left_3": "disappoints . We",
+      "right_3": "pick them up",
+      "sentence": "We could pick them up somewhat if the economy is stronger.1  In terms of MBS versus Treasuries, we discussed that issue."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2627,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "at which we",
+      "right_3": "begin to look",
+      "sentence": "And so we were comfortable setting a 6.5 percent  unemployment rate as the point at which we would begin to look at a more broad set of labor  market indicators."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2709,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "wages . We",
+      "right_3": "n’t put it",
+      "sentence": "We couldn’t put it in terms of another  unemployment rate level, specifically."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2725,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I expect there",
+      "right_3": "be some time",
+      "sentence": "So, I expect there will be some time past the 6½ percent  before all of the other variables that we’ll be looking at will line up in a way that will give us  confidence that the labor market is strong enough to withstand the beginning of increases in  rates."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 2725,
+      "head_verb_surface": "looking",
+      "head_verb_lemma": "look",
+      "left_3": "variables that we",
+      "right_3": "be looking at",
+      "sentence": "So, I expect there will be some time past the 6½ percent  before all of the other variables that we’ll be looking at will line up in a way that will give us  confidence that the labor market is strong enough to withstand the beginning of increases in  rates."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2725,
+      "head_verb_surface": "line",
+      "head_verb_lemma": "line",
+      "left_3": "be looking at",
+      "right_3": "line up in",
+      "sentence": "So, I expect there will be some time past the 6½ percent  before all of the other variables that we’ll be looking at will line up in a way that will give us  confidence that the labor market is strong enough to withstand the beginning of increases in  rates."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2725,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "a way that",
+      "right_3": "give us \n",
+      "sentence": "So, I expect there will be some time past the 6½ percent  before all of the other variables that we’ll be looking at will line up in a way that will give us  confidence that the labor market is strong enough to withstand the beginning of increases in  rates."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2782,
+      "head_verb_surface": "stop",
+      "head_verb_lemma": "stop",
+      "left_3": ": “ We",
+      "right_3": "stop the reductions",
+      "sentence": "The Chairman meant to say: “We could stop the reductions in the pace of purchases if the economy  disappoints."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2805,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "disappoints . We",
+      "right_3": "reduce the pace",
+      "sentence": "We could reduce the pace of purchases somewhat more quickly if the economy is stronger.”"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2943,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "emphasize that it",
+      "right_3": "depend on our",
+      "sentence": "So that’s the order of the magnitude, I think, that people are currently expecting, but again  I emphasize that it will depend on our being persuaded that—over, across a broad range of  indicators—the labor market is sufficiently strong that we could begin to withdraw  accommodation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2943,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "strong that we",
+      "right_3": "begin to withdraw",
+      "sentence": "So that’s the order of the magnitude, I think, that people are currently expecting, but again  I emphasize that it will depend on our being persuaded that—over, across a broad range of  indicators—the labor market is sufficiently strong that we could begin to withdraw  accommodation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3032,
+      "head_verb_surface": "talk",
+      "head_verb_lemma": "talk",
+      "left_3": "next month .",
+      "right_3": "you talk about",
+      "sentence": "Can you talk about the role  that Janet Yellen played in formulating the policy that’s being laid out today, and what kind of  consistency the public can expect as we go into her tenure, assuming she’s confirmed, with the  program that you’re laying out today?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3032,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "consistency the public",
+      "right_3": "expect as we",
+      "sentence": "Can you talk about the role  that Janet Yellen played in formulating the policy that’s being laid out today, and what kind of  consistency the public can expect as we go into her tenure, assuming she’s confirmed, with the  program that you’re laying out today?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3087,
+      "head_verb_surface": "carry",
+      "head_verb_lemma": "carry",
+      "left_3": "out today ?",
+      "right_3": "it carry on",
+      "sentence": "Will it carry on under her leadership?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3099,
+      "head_verb_surface": "will",
+      "head_verb_lemma": "will",
+      "left_3": "Yes , it",
+      "right_3": ". I have",
+      "sentence": "Yes, it will."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3183,
+      "head_verb_surface": "believe",
+      "head_verb_lemma": "believe",
+      "left_3": "that , why",
+      "right_3": "we believe the",
+      "sentence": "Given that, why should we believe the Fed has a symmetric inflation target?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3198,
+      "head_verb_surface": "believe",
+      "head_verb_lemma": "believe",
+      "left_3": "particular , why",
+      "right_3": "we believe you",
+      "sentence": "And, in  particular, why should we believe you’re following an optimal policy—optimal control policy, as  you’ve said in the past—given that that would imply inflation going a bit above target at some  point?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3198,
+      "head_verb_surface": "imply",
+      "head_verb_lemma": "imply",
+      "left_3": "given that that",
+      "right_3": "imply inflation going",
+      "sentence": "And, in  particular, why should we believe you’re following an optimal policy—optimal control policy, as  you’ve said in the past—given that that would imply inflation going a bit above target at some  point?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3291,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "think that inflation",
+      "right_3": "gradually move \n",
+      "sentence": "We do think that inflation will gradually move  back to 2 percent, and we allow for the possibility, as you know, in our guidance that it could go  as high as 2½ percent."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3291,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "guidance that it",
+      "right_3": "go \n as",
+      "sentence": "We do think that inflation will gradually move  back to 2 percent, and we allow for the possibility, as you know, in our guidance that it could go  as high as 2½ percent."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3330,
+      "head_verb_surface": "rise",
+      "head_verb_lemma": "rise",
+      "left_3": "for why inflation",
+      "right_3": "rise . \n",
+      "sentence": "Even though inflation has been quite low in 2013, let me give you the  case for why inflation might rise."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3354,
+      "head_verb_surface": "reversed",
+      "head_verb_lemma": "reverse",
+      "left_3": "unusually low and",
+      "right_3": "be reversed .",
+      "sentence": "First, there are some special factors, such as health-care costs and some other things, that  have been unusually low and might be reversed."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3384,
+      "head_verb_surface": "picking",
+      "head_verb_lemma": "pick",
+      "left_3": "we now anticipate",
+      "right_3": "be picking up",
+      "sentence": "Secondly, if you look at the fundamentals for  inflation, including inflation expectations, whether measured by financial markets or surveys; if  you look at growth, which we now anticipate will be picking up both in the U.S. and  internationally; if you look at wages, which have been growing at 2 percent and a little bit higher  according to many indicators—all of these things suggest that inflat"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3384,
+      "head_verb_surface": "pick",
+      "head_verb_lemma": "pick",
+      "left_3": "suggest that inflation",
+      "right_3": "gradually pick up",
+      "sentence": "Secondly, if you look at the fundamentals for  inflation, including inflation expectations, whether measured by financial markets or surveys; if  you look at growth, which we now anticipate will be picking up both in the U.S. and  internationally; if you look at wages, which have been growing at 2 percent and a little bit higher  according to many indicators—all of these things suggest that inflat"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3496,
+      "head_verb_surface": "picked",
+      "head_verb_lemma": "pick",
+      "left_3": "to — inflation",
+      "right_3": "not be picked",
+      "sentence": "It’s not easy to—inflation cannot be picked up and moved where  you want it."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3581,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "control , it",
+      "right_3": "take a while",
+      "sentence": "Well, even under optimal control, it would take a while for  inflation—inflation is quite—can be quite inertial."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3581,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "is quite —",
+      "right_3": "be quite inertial",
+      "sentence": "Well, even under optimal control, it would take a while for  inflation—inflation is quite—can be quite inertial."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3606,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "inertial . It",
+      "right_3": "take quite a",
+      "sentence": "It can take quite a time to move."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3795,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "nothing more you",
+      "right_3": "do ? The",
+      "sentence": "You know, I mean, have you reached the limit of your policy tools, and is there  nothing more you can do?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3872,
+      "head_verb_surface": "solve",
+      "head_verb_lemma": "solve",
+      "left_3": "panacea . It",
+      "right_3": "n’t solve all",
+      "sentence": "It couldn’t solve all  our problems."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 3881,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "particular , it",
+      "right_3": "n’t do anything",
+      "sentence": "And, in particular, it can’t do anything about a slowing in potential growth, which  appears to have happened, at least to some extent."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 3911,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "extent . It",
+      "right_3": "n’t do much",
+      "sentence": "It can’t do much or anything about fiscal  policy, which is working in quite the opposite direction."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3932,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "bad as you",
+      "right_3": "— might think",
+      "sentence": "So, given those things, I think the  outcomes we’ve had are perhaps not as bad as you would—might think."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3932,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "you would —",
+      "right_3": "think . In",
+      "sentence": "So, given those things, I think the  outcomes we’ve had are perhaps not as bad as you would—might think."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4018,
+      "head_verb_surface": "accomplish",
+      "head_verb_lemma": "accomplish",
+      "left_3": "sure that we",
+      "right_3": "accomplish . So",
+      "sentence": "It says that monetary  policy appears to have succeeded in offsetting a good bit of that fiscal drag, which we were not  at all sure that we could accomplish."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4410,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "projections , you",
+      "right_3": "see we only",
+      "sentence": "As you look at our projections, you’ll see we only assume or project  a small pickup in growth going into next year."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4436,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "the labor market",
+      "right_3": "continue — \n",
+      "sentence": "But there was a pretty widespread view that there  was a reasonable expectation, first, that the recent gains in the labor market would continue— and, remember, we’re just beginning this process now, so by the time we complete this process, I  think it’s very likely that we’ll easily pass the hurdle of a substantial improvement in the outlook  for the labor market."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 4436,
+      "head_verb_surface": "pass",
+      "head_verb_lemma": "pass",
+      "left_3": "likely that we",
+      "right_3": "easily pass the",
+      "sentence": "But there was a pretty widespread view that there  was a reasonable expectation, first, that the recent gains in the labor market would continue— and, remember, we’re just beginning this process now, so by the time we complete this process, I  think it’s very likely that we’ll easily pass the hurdle of a substantial improvement in the outlook  for the labor market."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4602,
+      "head_verb_surface": "happen",
+      "head_verb_lemma": "happen",
+      "left_3": "I think that",
+      "right_3": "\n happen .",
+      "sentence": "I gave you some reasons why I think that will  happen."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4615,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "target , we",
+      "right_3": "take appropriate action",
+      "sentence": "But we take that very seriously, and if inflation does not show signs of returning to  target, we will take appropriate action."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4655,
+      "head_verb_surface": "recommend",
+      "head_verb_lemma": "recommend",
+      "left_3": "future , \n",
+      "right_3": "you recommend ,",
+      "sentence": "Mr. Chairman, now that  you have introduced tapering into the system, if the economy were to stumble again in the future,  would you recommend, or have you discussed with your colleagues, increasing bond buying in  the future?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4746,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "stimulus that you",
+      "right_3": "not be essentially",
+      "sentence": "Well, any type of stimulus that you would not be essentially  buying it back from the banks."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4797,
+      "head_verb_surface": "ask",
+      "head_verb_lemma": "ask",
+      "left_3": ". If you",
+      "right_3": "ask for it",
+      "sentence": "If you could ask for it."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4808,
+      "head_verb_surface": "ask",
+      "head_verb_lemma": "ask",
+      "left_3": ". If we",
+      "right_3": "ask for it",
+      "sentence": "If we could ask for it."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4871,
+      "head_verb_surface": "manage",
+      "head_verb_lemma": "manage",
+      "left_3": "zero , we",
+      "right_3": "manage our forward",
+      "sentence": "We have—with interest rates near zero, we can manage our forward  guidance, and I think that has been helpful, that’s been effective."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4901,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ". We probably",
+      "right_3": "do more \n",
+      "sentence": "We probably could do more  with that."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4910,
+      "head_verb_surface": "accept",
+      "head_verb_lemma": "accept",
+      "left_3": "point , markets",
+      "right_3": "not \n accept",
+      "sentence": "But there are limits to that as well because, beyond a certain point, markets may not  accept—you know, may not view the long-distance, way-ahead guidance as being credible."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4910,
+      "head_verb_surface": "view",
+      "head_verb_lemma": "view",
+      "left_3": "you know ,",
+      "right_3": "not view the",
+      "sentence": "But there are limits to that as well because, beyond a certain point, markets may not  accept—you know, may not view the long-distance, way-ahead guidance as being credible."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4950,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": ". We \n",
+      "right_3": "change the interest",
+      "sentence": "We  can change the interest rate we pay on reserves, which is something we’ve talked about."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4971,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "other thing I",
+      "right_3": "think of that",
+      "sentence": "December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 13 of 31  The other kind of thing that—the only other thing I can think of that amounts to a direct  infusion into the economy, if you will, is action similar to the British Funding for Lending  program, where they provided cheap funding to banks if the banks could show that they had  increased their lending to households or smal"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4971,
+      "head_verb_surface": "is",
+      "head_verb_lemma": "be",
+      "left_3": ", if you",
+      "right_3": ", is action",
+      "sentence": "December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 13 of 31  The other kind of thing that—the only other thing I can think of that amounts to a direct  infusion into the economy, if you will, is action similar to the British Funding for Lending  program, where they provided cheap funding to banks if the banks could show that they had  increased their lending to households or smal"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4971,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": "if the banks",
+      "right_3": "show that they",
+      "sentence": "December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 13 of 31  The other kind of thing that—the only other thing I can think of that amounts to a direct  infusion into the economy, if you will, is action similar to the British Funding for Lending  program, where they provided cheap funding to banks if the banks could show that they had  increased their lending to households or smal"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5056,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "businesses . We",
+      "right_3": ", in principle",
+      "sentence": "We could, in principle, do something  like that, and we’ve looked at that because we do have a discount window where we lend to  banks."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5132,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that there just",
+      "right_3": "n’t be any",
+      "sentence": "And so our sense was that there just wouldn’t be any take up on that program, at least  under current conditions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5239,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "things that we",
+      "right_3": "do , but",
+      "sentence": "So we do have a range of things that we can do, but we are already  being, I think, pretty aggressive."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5269,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "JARVIS . And",
+      "right_3": "you increase the",
+      "sentence": "And would you increase the bond purchases?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5375,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "of monetary policy",
+      "right_3": "have to say",
+      "sentence": "What do you think future historians of monetary policy will have to say about  your eight years at the Federal Reserve helm?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 5432,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "is “ I",
+      "right_3": "be interested to",
+      "sentence": "The answer to the  second question is “I’ll be interested to see.”"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5461,
+      "head_verb_surface": "cite",
+      "head_verb_lemma": "cite",
+      "left_3": "\n that I",
+      "right_3": "cite at the",
+      "sentence": "The—what we’ve showed—there’ve been two big changes, at least—more than two, but two  that I would cite at the Fed in the last few years, of course, the result, in many ways, of the crisis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5740,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\n think that",
+      "right_3": "be an issue",
+      "sentence": "And I  think that will be an issue—an area that monetary historians will be interested in exploring, as  well as monetary theorists and empirical studies."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5740,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that monetary historians",
+      "right_3": "be interested in",
+      "sentence": "And I  think that will be an issue—an area that monetary historians will be interested in exploring, as  well as monetary theorists and empirical studies."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 5781,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "signaling that you",
+      "right_3": "keep interest \n",
+      "sentence": "Bernanke, today, with one hand,  you’re giving the economy something by telling us that or signaling that you may keep interest  rates lower for longer than we previously thought."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 5870,
+      "head_verb_surface": "fueling",
+      "head_verb_lemma": "fuel",
+      "left_3": "less effective or",
+      "right_3": "be fueling \n",
+      "sentence": "Chairman Bernanke’s Press Conference  FINAL  Page 15 of 31  reduce the asset purchases is relatively less about an improved outlook for the economy and  perhaps more about the concern that the asset purchases are less effective or might be fueling  bubbles?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6017,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "although , I",
+      "right_3": "have to say",
+      "sentence": "And there  are concerns about effects on asset prices, although, I would have to say that’s another thing that  future monetary economists will want to be looking at very carefully."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6017,
+      "head_verb_surface": "want",
+      "head_verb_lemma": "want",
+      "left_3": "future monetary economists",
+      "right_3": "want to be",
+      "sentence": "And there  are concerns about effects on asset prices, although, I would have to say that’s another thing that  future monetary economists will want to be looking at very carefully."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6133,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "point , we",
+      "right_3": "begin to wind",
+      "sentence": "Our sense was once that  intermediate objective was attained—that is, when the economy had grown and was moving  forward—that, at that point, we could begin to wind down the secondary tool, the supplementary  tool, and achieve essentially the same amount of accommodation using interest rates and forward  guidance."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6286,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ". So we",
+      "right_3": "have a very",
+      "sentence": "So we’ll have a very substantial balance sheet, which we’ll   December 18, 2013"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6322,
+      "head_verb_surface": "keeping",
+      "head_verb_lemma": "keep",
+      "left_3": "guidance that we",
+      "right_3": "be keeping rates",
+      "sentence": "And now we’ve also clarified our guidance that we will be keeping rates low  well past unemployment of 6.5 percent."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6488,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "or \n actions",
+      "right_3": "the Committee take",
+      "sentence": "And then, specifically on inflation, what tools or  actions could the Committee take if inflation continues to run below your target or even falls  further?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6534,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": ". I \n",
+      "right_3": "n’t expect any",
+      "sentence": "I  wouldn’t expect any changes in the very near term."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6584,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "are things we",
+      "right_3": "do . We",
+      "sentence": "But there are things we can do."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6592,
+      "head_verb_surface": "strengthen",
+      "head_verb_lemma": "strengthen",
+      "left_3": "do . We",
+      "right_3": "strengthen \n the",
+      "sentence": "We can strengthen  the guidance in various ways."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6602,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that further strengthening",
+      "right_3": "be possible ,",
+      "sentence": "And while the view of the Committee was that the best way  forward today was in this more qualitative approach, which incorporates elements both of the  unemployment threshold and the inflation floor, that further strengthening would be possible,  and it’s something that has certainly not been ruled out."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6695,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "think that we",
+      "right_3": "provide a high",
+      "sentence": "So while, again, while we think that we can provide a high level of  accommodation with a somewhat slower pace—but still very high pace—of asset purchases and   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 17 of 31  our interest rate policy, we do have other things we can do if we need to ramp up again."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6695,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "other things we",
+      "right_3": "do if we",
+      "sentence": "So while, again, while we think that we can provide a high level of  accommodation with a somewhat slower pace—but still very high pace—of asset purchases and   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 17 of 31  our interest rate policy, we do have other things we can do if we need to ramp up again."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6769,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that the economy",
+      "right_3": "continue to make",
+      "sentence": "That  being said, we’re hopeful that the economy will continue to make progress, and that we’ll begin  to see the whites of the eyes of the end of the recovery and the beginning of the more normal  period of economic growth."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6769,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "and that we",
+      "right_3": "begin \n to",
+      "sentence": "That  being said, we’re hopeful that the economy will continue to make progress, and that we’ll begin  to see the whites of the eyes of the end of the recovery and the beginning of the more normal  period of economic growth."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6871,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "announcing that you",
+      "right_3": "do less rather",
+      "sentence": "And yet you are now announcing that you’ll do less rather than more."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6902,
+      "head_verb_surface": "talk",
+      "head_verb_lemma": "talk",
+      "left_3": "the decision .",
+      "right_3": "you talk about",
+      "sentence": "Can you talk about  why you are not erring on the side of doing more?"
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 6933,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "less . We",
+      "right_3": "see how \n",
+      "sentence": "We’ll see how  accommodation shapes up."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7058,
+      "head_verb_surface": "dispute",
+      "head_verb_lemma": "dispute",
+      "left_3": ". So I",
+      "right_3": "dispute \n the",
+      "sentence": "So I would dispute  the idea that we’re not providing a lot of accommodation to the economy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 7229,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "\n economy ,",
+      "right_3": "affect innovation ,",
+      "sentence": "They include, for example, the observation that financial crises tend to disrupt the  economy, may affect innovation, new products, new firms."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 7458,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Some of it",
+      "right_3": "just be a",
+      "sentence": "Some of it may just be a slower pace of underlying  potential, at least temporarily."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 7481,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "disappointing . It",
+      "right_3": "be that there",
+      "sentence": "It may be that there’s been  some bad luck—for example, the effects of the European crisis and the like."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 7547,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "good , it",
+      "right_3": "not been satisfactory",
+      "sentence": "It’s not been good, it’s not been satisfactory."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 7579,
+      "head_verb_surface": "get",
+      "head_verb_lemma": "get",
+      "left_3": "of young people",
+      "right_3": "n’t get the",
+      "sentence": "A lot of young people can’t get the  experience and entrée into the labor market."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 7597,
+      "head_verb_surface": "’s",
+      "head_verb_lemma": "’s",
+      "left_3": ", \n it",
+      "right_3": "perhaps , at",
+      "sentence": "But, I think, given all of the things that we faced,  it’s perhaps, at least in retrospect, not shocking that the recovery has been somewhat tepid."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7716,
+      "head_verb_surface": "talk",
+      "head_verb_lemma": "talk",
+      "left_3": ". So ,",
+      "right_3": "you talk a",
+      "sentence": "So, could you talk a little bit about that?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7766,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "actions . I",
+      "right_3": "say a couple",
+      "sentence": "I will say a couple of things about this deal."
+    },
+    {
+      "surface": "’s",
+      "lemma": "’s",
+      "sent_idx": 7820,
+      "head_verb_surface": "’s",
+      "head_verb_lemma": "’s",
+      "left_3": "Congress . It",
+      "right_3": "also , at",
+      "sentence": "It’s also, at least directionally, what I have  recommended in testimony, which is that it eases a bit the fiscal restraint in the next couple of  years, a period where the economy needs help to finish the recovery."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7943,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I think it",
+      "right_3": "be good for",
+      "sentence": "And I think it will be good for confidence if fiscal policy and congressional leaders work  together to—even if there’s—even if the outcomes are small, as this one was, it’s a good thing  that they are working cooperatively and making some progress."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8008,
+      "head_verb_surface": "liked",
+      "head_verb_lemma": "like",
+      "left_3": "— what rules",
+      "right_3": "you have liked",
+      "sentence": "As you  look back on the regulatory reform effort over the last several years—the rules that have been  completed, those that have yet to be finalized—what rules would you have liked to have seen  tougher?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8052,
+      "head_verb_surface": "liked",
+      "head_verb_lemma": "like",
+      "left_3": "perhaps , you",
+      "right_3": "have liked to",
+      "sentence": "And ones that, perhaps, you would have liked to have seen finished before you leave?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 8157,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "with surcharges that",
+      "right_3": "be part of",
+      "sentence": "So, for example, on the capital side, we have  imposed Basel III requirements, much tougher requirements, as you know, for the large banks,  with surcharges that will be part of that process."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 8434,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "this \n obviously",
+      "right_3": "have your opinions",
+      "sentence": "I mean, you and other observers who are writing about this and thinking about this  obviously will have your opinions."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8457,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", what I",
+      "right_3": "say about that",
+      "sentence": "But, I guess, what I would say about that is that we’re not  done."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 8494,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "’m sure they",
+      "right_3": "make a very",
+      "sentence": "And as we get these rules done and implement them, I’m sure they’ll make a very substantial  difference in the safety of the system, but whether more needs to be done—I’ll leave that as an  open question, and I think we’ll be working on this for some time."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 8494,
+      "head_verb_surface": "working",
+      "head_verb_lemma": "work",
+      "left_3": "I think we",
+      "right_3": "be working on",
+      "sentence": "And as we get these rules done and implement them, I’m sure they’ll make a very substantial  difference in the safety of the system, but whether more needs to be done—I’ll leave that as an  open question, and I think we’ll be working on this for some time."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 8688,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "see if you",
+      "right_3": "be willing to",
+      "sentence": "And I wanted  to see if you might be willing to impart some final words of wisdom to members of Congress as  they consider possible legislative changes."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8718,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "if anything ,",
+      "right_3": "they do to",
+      "sentence": "What, if anything, could they do to the structure of  the Federal Reserve, the mandate of the Federal Reserve—the dual mandate—that might help  Fed policy makers in the future?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 8718,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "mandate — that",
+      "right_3": "help \n Fed",
+      "sentence": "What, if anything, could they do to the structure of  the Federal Reserve, the mandate of the Federal Reserve—the dual mandate—that might help  Fed policy makers in the future?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8816,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "— that you",
+      "right_3": "do differently ,",
+      "sentence": "Is there a decision—with the benefit of hindsight—that you would do differently,  one change perhaps in a decisionmaking process that you’ve made, your fellow colleagues have  made here, that you think would have made a difference materially over the last eight years?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8816,
+      "head_verb_surface": "made",
+      "head_verb_lemma": "make",
+      "left_3": "that you think",
+      "right_3": "have made a",
+      "sentence": "Is there a decision—with the benefit of hindsight—that you would do differently,  one change perhaps in a decisionmaking process that you’ve made, your fellow colleagues have  made here, that you think would have made a difference materially over the last eight years?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 9057,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "they think \n",
+      "right_3": "be done better",
+      "sentence": "Chairman Bernanke’s Press Conference  FINAL  Page 22 of 31  we are by all means willing to work with Congress to see if there’s anything that they think  might be done better or in a more effective way."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9111,
+      "head_verb_surface": "recognize",
+      "head_verb_lemma": "recognize",
+      "left_3": "the central bank",
+      "right_3": ", of course",
+      "sentence": "I hope that those reviewing the central bank will, of course, recognize that central  banking is an old activity."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9196,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "issues and who",
+      "right_3": "make good suggestions",
+      "sentence": "I mean, there are a lot of people with a lot of expertise on this,  and I hope that, as we talk about these issues, that we are bringing in serious people who  understand these issues and who can make good suggestions."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 9320,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "course , we",
+      "right_3": "n’t do anything",
+      "sentence": "Of course, we can’t do anything  about long-run employment opportunities, but we can help the economy recover more quickly."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9320,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ", but we",
+      "right_3": "help the economy",
+      "sentence": "Of course, we can’t do anything  about long-run employment opportunities, but we can help the economy recover more quickly."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9355,
+      "head_verb_surface": "note",
+      "head_verb_lemma": "note",
+      "left_3": "valuable . I",
+      "right_3": "note , by",
+      "sentence": "I would note, by the way, that at the current moment, it doesn’t  really matter whether we have one mandate or two, because we’re below our inflation target and  we—unemployment is above where we’d like it to be."
+    },
+    {
+      "surface": "’d",
+      "lemma": "’d",
+      "sent_idx": 9355,
+      "head_verb_surface": "we",
+      "head_verb_lemma": "we",
+      "left_3": "above where we",
+      "right_3": "like it to",
+      "sentence": "I would note, by the way, that at the current moment, it doesn’t  really matter whether we have one mandate or two, because we’re below our inflation target and  we—unemployment is above where we’d like it to be."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 9575,
+      "head_verb_surface": "prevented",
+      "head_verb_lemma": "prevent",
+      "left_3": "or not we",
+      "right_3": "have prevented or",
+      "sentence": "Whether or not we could have prevented or done more about it, that’s another question."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9617,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "obviously , it",
+      "right_3": "have been good",
+      "sentence": "Most of the mortgages had been made, but, obviously, it would have been good to  have recognized that earlier and try to take more preventive action."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9648,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "\n everything we",
+      "right_3": "think of ,",
+      "sentence": "That being said, we’ve done  everything we can think of, essentially, to strengthen the Fed’s ability to monitor the financial  markets, to take actions to stabilize the economy and the financial system."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 9814,
+      "head_verb_surface": "seeing",
+      "head_verb_lemma": "see",
+      "left_3": "the reasons we",
+      "right_3": "be \n seeing",
+      "sentence": "And then the broader question—your predecessor, Dr.  Greenspan, in his new book argues that long-term investment—one of the reasons we may be  seeing such a slow economy is that people are afraid debt and deficits are reducing long-term  investment."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10068,
+      "head_verb_surface": "stay",
+      "head_verb_lemma": "stay",
+      "left_3": "I believe ,",
+      "right_3": "stay in Washington",
+      "sentence": "But I think for the immediate future, my wife and I, I believe, will stay in Washington for  a bit of time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10096,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "than we \n",
+      "right_3": "like . I",
+      "sentence": "About investment, I think there are a lot of reasons why investment is weaker than we  would like."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10247,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "- term debt",
+      "right_3": "affect investment \n",
+      "sentence": "Usually, you think that the way that a deficit or a long-term debt would affect investment  would be through what’s called “crowding out”—that is, raising interest rates."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10247,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "affect investment \n",
+      "right_3": "be through what",
+      "sentence": "Usually, you think that the way that a deficit or a long-term debt would affect investment  would be through what’s called “crowding out”—that is, raising interest rates."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 10282,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "rates — we",
+      "right_3": "have many problems",
+      "sentence": "But high interest  rates—we may have many problems, but high interest rates is not our problem right now."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10396,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "of 31 \n",
+      "right_3": ", and if",
+      "sentence": "Chairman Bernanke’s Press Conference  FINAL  Page 25 of 31  will, and if exports increase, as they seem to be doing, then we’ll probably see greater investment  as well."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10396,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": ", then we",
+      "right_3": "probably see greater",
+      "sentence": "Chairman Bernanke’s Press Conference  FINAL  Page 25 of 31  will, and if exports increase, as they seem to be doing, then we’ll probably see greater investment  as well."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10455,
+      "head_verb_surface": "considered",
+      "head_verb_lemma": "consider",
+      "left_3": "policy statement says",
+      "right_3": "be considered in",
+      "sentence": "One of the factors that your policy statement says will be considered in assessing  the future pace of asset purchases is the cost and efficacy of those purchases."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 10485,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "— or you",
+      "right_3": "say , cost",
+      "sentence": "To what extent has  the—or you might say, cost and benefits—to what extent has that calculation already changed?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10538,
+      "head_verb_surface": "to",
+      "head_verb_lemma": "to",
+      "left_3": "to what extent",
+      "right_3": ", you know",
+      "sentence": "Not just bubbles, but to what extent will, you know, the  whole consideration of threats to financial stability come into play, as well as the potential for  losses on the Fed’s own portfolio?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10583,
+      "head_verb_surface": "answer",
+      "head_verb_lemma": "answer",
+      "left_3": ". So I",
+      "right_3": "answer your question",
+      "sentence": "So I will answer your question, and I’ll try and help maybe  do a better job on Binya’s question as well."
+    },
+    {
+      "surface": "’ll",
+      "lemma": "’ll",
+      "sent_idx": 10583,
+      "head_verb_surface": "try",
+      "head_verb_lemma": "try",
+      "left_3": ", and I",
+      "right_3": "try and help",
+      "sentence": "So I will answer your question, and I’ll try and help maybe  do a better job on Binya’s question as well."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 10678,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "that the Fed",
+      "right_3": "have losses in",
+      "sentence": "The possible—it’s very unlikely  that the Fed will have losses in any comprehensive sense."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 10761,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". But it",
+      "right_3": "be that if",
+      "sentence": "But it could be that if  interest rates rise quickly, for example, that we would be in a situation of not giving remittances  to the Treasury for a couple of years, and that would create problems, no doubt, for the Fed in  terms of congressional response."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10761,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", that we",
+      "right_3": "be in a",
+      "sentence": "But it could be that if  interest rates rise quickly, for example, that we would be in a situation of not giving remittances  to the Treasury for a couple of years, and that would create problems, no doubt, for the Fed in  terms of congressional response."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 10761,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": ", and that",
+      "right_3": "create problems ,",
+      "sentence": "But it could be that if  interest rates rise quickly, for example, that we would be in a situation of not giving remittances  to the Treasury for a couple of years, and that would create problems, no doubt, for the Fed in  terms of congressional response."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 10817,
+      "head_verb_surface": "manage",
+      "head_verb_lemma": "manage",
+      "left_3": "we understand and",
+      "right_3": "manage the effects",
+      "sentence": "December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 26 of 31  There are issues of how well we understand and can manage the effects of asset  purchases."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 11091,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": "summer , they",
+      "right_3": "create some bumpiness",
+      "sentence": "We don’t think that that’s happened to an extent  which is a danger to the system, except other than that when those positions unwind, like we saw  over the summer, they can create some bumpiness in interest rate markets, in particular."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 11141,
+      "head_verb_surface": "is",
+      "head_verb_lemma": "be",
+      "left_3": ", where we",
+      "right_3": ", that we",
+      "sentence": "Our  general philosophy on financial stability issues is, where we can, that we try to address it first  and foremost by making sure that the banking system and the financial system are as strong as  possible—if banks have a lot of capital, they can withstand losses, for example—and by using  whatever other tools we have to try to avoid bubbles or other kinds of financial risks."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 11141,
+      "head_verb_surface": "withstand",
+      "head_verb_lemma": "withstand",
+      "left_3": "capital , they",
+      "right_3": "withstand losses ,",
+      "sentence": "Our  general philosophy on financial stability issues is, where we can, that we try to address it first  and foremost by making sure that the banking system and the financial system are as strong as  possible—if banks have a lot of capital, they can withstand losses, for example—and by using  whatever other tools we have to try to avoid bubbles or other kinds of financial risks."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 11220,
+      "head_verb_surface": "ignore",
+      "head_verb_lemma": "ignore",
+      "left_3": "think that you",
+      "right_3": "completely ignore financial",
+      "sentence": "That being  said, I don’t think that you can completely ignore financial stability concerns in monetary policy  because we can’t control them perfectly, and there may be situations when financial instability   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 27 of 31  has implications for our mandate, which is jobs and inflation, which we saw, of course, in the  Great Recession"
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 11220,
+      "head_verb_surface": "control",
+      "head_verb_lemma": "control",
+      "left_3": "\n because we",
+      "right_3": "n’t control them",
+      "sentence": "That being  said, I don’t think that you can completely ignore financial stability concerns in monetary policy  because we can’t control them perfectly, and there may be situations when financial instability   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 27 of 31  has implications for our mandate, which is jobs and inflation, which we saw, of course, in the  Great Recession"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 11220,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", and there",
+      "right_3": "be situations when",
+      "sentence": "That being  said, I don’t think that you can completely ignore financial stability concerns in monetary policy  because we can’t control them perfectly, and there may be situations when financial instability   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 27 of 31  has implications for our mandate, which is jobs and inflation, which we saw, of course, in the  Great Recession"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 11310,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I think it",
+      "right_3": "be many years",
+      "sentence": "I think it will be many years before central banks have completely worked out exactly  how best to deal with financial instability questions."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11364,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "that . I",
+      "right_3": "\n say at",
+      "sentence": "I would  say at this point, though, that the asset purchases program—the last one—is well on its way to  meeting our economic objective, and I am very pleased that we’re able to, over time, wind down  this program, slowing the pace of purchases on current plans, because we reached our objective  rather than because the costs or efficacy issues became important."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 11604,
+      "head_verb_surface": "happened",
+      "head_verb_lemma": "happen",
+      "left_3": "know , what",
+      "right_3": "have happened in",
+      "sentence": "You have to  obviously ask yourself, you know, what would have happened in the absence of the policy?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 11815,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "\n And you",
+      "right_3": "see how it",
+      "sentence": "And you can see how it works."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 11899,
+      "head_verb_surface": "disagree",
+      "head_verb_lemma": "disagree",
+      "left_3": "think that we",
+      "right_3": "very reasonably disagree",
+      "sentence": "So I do think it’s been effective, but the precise size of the impact is  something I think that we can very reasonably disagree about, and that work will continue on."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 11899,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "and that work",
+      "right_3": "continue on .",
+      "sentence": "So I do think it’s been effective, but the precise size of the impact is  something I think that we can very reasonably disagree about, and that work will continue on."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 11991,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "many more people",
+      "right_3": "see their benefits",
+      "sentence": "Unemployment benefits, as you know, are expiring  shortly for more than a million people, and many more people will see their benefits end next  year."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 12034,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "what effect \n",
+      "right_3": "you expect that",
+      "sentence": "And, secondly, what effect  would you expect that will have on the unemployment rate?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 12034,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "you expect that",
+      "right_3": "have on the",
+      "sentence": "And, secondly, what effect  would you expect that will have on the unemployment rate?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 12052,
+      "head_verb_surface": "knock",
+      "head_verb_lemma": "knock",
+      "left_3": "unemployment rate ?",
+      "right_3": "it — if",
+      "sentence": "Could it—if those people drop out  of the labor force, then could that knock the employment rate down quite a bit?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 12052,
+      "head_verb_surface": "knock",
+      "head_verb_lemma": "knock",
+      "left_3": "force , then",
+      "right_3": "that knock the",
+      "sentence": "Could it—if those people drop out  of the labor force, then could that knock the employment rate down quite a bit?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 12242,
+      "head_verb_surface": "qualify",
+      "head_verb_lemma": "qualify",
+      "left_3": "who are —",
+      "right_3": "no longer qualify",
+      "sentence": "On the other side, it—probably some folks who are—can no longer qualify for  unemployment benefits will just drop out of the labor force, and that will bring the  unemployment rate down, but, for some sense, the wrong reason."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 12242,
+      "head_verb_surface": "drop",
+      "head_verb_lemma": "drop",
+      "left_3": "\n unemployment benefits",
+      "right_3": "just drop out",
+      "sentence": "On the other side, it—probably some folks who are—can no longer qualify for  unemployment benefits will just drop out of the labor force, and that will bring the  unemployment rate down, but, for some sense, the wrong reason."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 12242,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": ", and that",
+      "right_3": "bring the \n",
+      "sentence": "On the other side, it—probably some folks who are—can no longer qualify for  unemployment benefits will just drop out of the labor force, and that will bring the  unemployment rate down, but, for some sense, the wrong reason."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 12292,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "overall , it",
+      "right_3": "have — it",
+      "sentence": "So, overall, it will have—it  could have a very small effect on the measured unemployment rate."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 12292,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "— it \n",
+      "right_3": "have a very",
+      "sentence": "So, overall, it will have—it  could have a very small effect on the measured unemployment rate."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 12550,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "so good or",
+      "right_3": "be better .",
+      "sentence": "We need to explain why certain approaches are not so good or might be better."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 12723,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". And it",
+      "right_3": "be very interesting",
+      "sentence": "And it would be very interesting to have a thorough discussion of many  of the issues involved that the Fed has been engaged in."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 12749,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I hope it",
+      "right_3": "be on a",
+      "sentence": "But, again, I hope it will be on a high  level that uses the best and most qualified people debating, you know, what changes, if any, are  needed and—or, you know, what’s being done right."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 12849,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "you think government",
+      "right_3": "help alleviate that",
+      "sentence": "And to what extent do  you think government can help alleviate that in this environment?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 13034,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "The \n Fed",
+      "right_3": "address that ,",
+      "sentence": "The  Fed can address that, to some extent, if—you know, if we’re able to get the economy closer to   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 31 of 31  full employment, then some people who are discouraged or who have been unemployed for a  long time might find that they have opportunities to rejoin the labor market."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 13034,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "\n long time",
+      "right_3": "find that they",
+      "sentence": "The  Fed can address that, to some extent, if—you know, if we’re able to get the economy closer to   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 31 of 31  full employment, then some people who are discouraged or who have been unemployed for a  long time might find that they have opportunities to rejoin the labor market."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 13180,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "think that we",
+      "right_3": "\n most directly",
+      "sentence": "There are many, many  factors that affect participation—employment, wages, and so on, but the one I think that we can  most directly affect is the skill level of our workforce."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee also clarified its guidance on  interest rates, emphasizing that the current near-zero range for the federal funds rate target likely  will remain appropriate well past the time that the unemployment rate declines below  6½ percent, especially if projected inflation continues to run below the Committee’s 2 percent  longer-run goal."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee also clarified its guidance on  interest rates, emphasizing that the current near-zero range for the federal funds rate target likely  will remain appropriate well past the time that the unemployment rate declines below  6½ percent, especially if projected inflation continues to run below the Committee’s 2 percent  longer-run goal."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Today’s policy actions reflect the Committee’s assessment that the economy is  continuing to make progress, but that it also has much farther to travel before conditions can be  judged normal."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Notably, despite significant fiscal headwinds, the economy has been expanding  at a moderate pace, and we expect that growth will pick up somewhat in coming quarters, helped  by highly accommodative monetary policy and waning fiscal drag."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "At the same time,  the recovery clearly remains far from complete, with unemployment still elevated and with both  underemployment and long-term unemployment still major concerns."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "We have also seen  ongoing declines in labor force participation, which likely reflect not only longer-term  influences, such as the aging of the population, but also discouragement on the part of potential  workers."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We have also seen  ongoing declines in labor force participation, which likely reflect not only longer-term  influences, such as the aging of the population, but also discouragement on the part of potential  workers."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "FOMC participants generally expect economic growth to  pick up somewhat over the next few years."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "With fiscal restraint likely diminishing and with signs that household spending  is picking up, we expect economic growth to be strong enough to support further job gains."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With fiscal restraint likely diminishing and with signs that household spending  is picking up, we expect economic growth to be strong enough to support further job gains."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "If the incoming data broadly support  the Committee’s outlook for employment and inflation, we will likely reduce the pace of  securities purchases in further measured steps at future meetings."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Of course, continued progress   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 4 of 31  is by no means certain."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "For  the past year, the Committee has said that the current low target range for the federal funds rate  would be appropriate at least as long as the unemployment rate remained above 6½ percent,  inflation was projected to be no more than half a percentage point above our 2 percent longer-run  goal, and longer-term inflation expectations remained well anchored."
+    },
+    {
+      "surface": "projecting",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With many FOMC participants now projecting that the 6½ percent unemployment  threshold will be reached by the end of 2014, the Committee decided to provide additional  information about how it expects its policies to evolve after the threshold is crossed."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With many FOMC participants now projecting that the 6½ percent unemployment  threshold will be reached by the end of 2014, the Committee decided to provide additional  information about how it expects its policies to evolve after the threshold is crossed."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Based on its assessment of current conditions and the outlook, which is informed by a  range of indicators, including measures of labor market conditions, financial conditions, and  inflation pressures, the Committee now anticipates it will likely be appropriate to maintain the  current federal funds rate target well past the time that the unemployment rate declines to below  6½ percent, especiall"
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Based on its assessment of current conditions and the outlook, which is informed by a  range of indicators, including measures of labor market conditions, financial conditions, and  inflation pressures, the Committee now anticipates it will likely be appropriate to maintain the  current federal funds rate target well past the time that the unemployment rate declines to below  6½ percent, especiall"
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Based on its assessment of current conditions and the outlook, which is informed by a  range of indicators, including measures of labor market conditions, financial conditions, and  inflation pressures, the Committee now anticipates it will likely be appropriate to maintain the  current federal funds rate target well past the time that the unemployment rate declines to below  6½ percent, especiall"
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee is determined to avoid inflation that is too low as well as inflation that is too  high, and it anticipates keeping rates low at least until it sees inflation clearly moving back  toward its 2 percent objective."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "The Committee is determined to avoid inflation that is too low as well as inflation that is too  high, and it anticipates keeping rates low at least until it sees inflation clearly moving back  toward its 2 percent objective."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Although the central tendency of the projected unemployment rate  for the fourth quarter of next year encompasses 6½ percent, 15 of 17 FOMC participants do not  expect a rate increase before 2015."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Although the central tendency of the projected unemployment rate  for the fourth quarter of next year encompasses 6½ percent, 15 of 17 FOMC participants do not  expect a rate increase before 2015."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "If incoming information supports the Committee’s  expectation of further progress toward its objectives, the Committee is likely to reduce the pace  of monthly purchases in further measured steps in future meetings."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The FOMC also  provided additional guidance on future short-term interest rates, stating that it expects to   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 6 of 31  maintain the federal funds target in its current near-zero range well past the time that the  unemployment rate falls below 6½ percent, especially if projected inflation continues to run  below 2 percent."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The FOMC also  provided additional guidance on future short-term interest rates, stating that it expects to   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 6 of 31  maintain the federal funds target in its current near-zero range well past the time that the  unemployment rate falls below 6½ percent, especially if projected inflation continues to run  below 2 percent."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Today was the first  reduction in asset purchases, and you just said that future reductions will likely occur in  measured steps, but are not on a predetermined course."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "And  previously you had said that you expect the program to end altogether by the middle of next year."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Is that still a likely scenario?"
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "If we’re making progress in terms of inflation and continued job gains—and I  imagine we’ll continue to do, probably at each meeting, a measured reduction—that would take  us to late in the year, certainly not by the middle of the year."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "If we’re making progress in terms of inflation and continued job gains—and I  imagine we’ll continue to do, probably at each meeting, a measured reduction—that would take  us to late in the year, certainly not by the middle of the year."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "When you say  “similar moderate steps going forward,” is $10 billion an increment that people should  anticipate?"
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "And is equal amounts of mortgage-backed securities and Treasuries also what one   December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 7 of 31  should anticipate?"
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "It obviously doesn’t make a great deal of difference in the end to how much we  hold."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "It’s probably  the best single indicator that we have."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "So, I expect there will be some time past the 6½ percent  before all of the other variables that we’ll be looking at will line up in a way that will give us  confidence that the labor market is strong enough to withstand the beginning of increases in  rates."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "The SEP, the Survey of Economic Projections, which were distributed, obviously that’s  individual assessments and not the Committee’s collective view."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The SEP shows that the 6.5 percent  is expected by a large number of people to be reached about at the end of next year, end of 2014."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "So that’s the order of the magnitude, I think, that people are currently expecting, but again  I emphasize that it will depend on our being persuaded that—over, across a broad range of  indicators—the labor market is sufficiently strong that we could begin to withdraw  accommodation."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Can you talk about the role  that Janet Yellen played in formulating the policy that’s being laid out today, and what kind of  consistency the public can expect as we go into her tenure, assuming she’s confirmed, with the  program that you’re laying out today?"
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Given that, why should we believe the Fed has a symmetric inflation target?"
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "And, in  particular, why should we believe you’re following an optimal policy—optimal control policy, as  you’ve said in the past—given that that would imply inflation going a bit above target at some  point?"
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Secondly, if you look at the fundamentals for  inflation, including inflation expectations, whether measured by financial markets or surveys; if  you look at growth, which we now anticipate will be picking up both in the U.S. and  internationally; if you look at wages, which have been growing at 2 percent and a little bit higher  according to many indicators—all of these things suggest that inflat"
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "It takes—it requires, obviously, some luck and some good policy."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And, in particular, it can’t do anything about a slowing in potential growth, which  appears to have happened, at least to some extent."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "So, given those things, I think the  outcomes we’ve had are perhaps not as bad as you would—might think."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In particular, as I’ve  mentioned many times, the Congressional Budget Office assessed the fiscal drag in 2013 as  being about 1½ percentage points of growth."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "So, we’re certainly not giving up."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In our guidance today—  December 18, 2013  Chairman Bernanke’s Press Conference  FINAL  Page 11 of 31  we strengthened our guidance to make clear that we expect to keep rates low well beyond the  point that unemployment hits 6½ percent."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Well, certainly, it’s a very—it was a very important  decision, and we debated it quite extensively."
+    },
+    {
+      "surface": "project",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "As you look at our projections, you’ll see we only assume or project  a small pickup in growth going into next year."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "But there was a pretty widespread view that there  was a reasonable expectation, first, that the recent gains in the labor market would continue— and, remember, we’re just beginning this process now, so by the time we complete this process, I  think it’s very likely that we’ll easily pass the hurdle of a substantial improvement in the outlook  for the labor market."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "We probably could do more  with that."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "But there are limits to that as well because, beyond a certain point, markets may not  accept—you know, may not view the long-distance, way-ahead guidance as being credible."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But, clearly, this is—unless you put aside the Depression, where monetary policy was, on  the whole, pretty passive—this is the first—one of the first examples, at least, of aggressive  monetary policy taking place in a near-zero interest rate environment."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Chairman Bernanke’s Press Conference  FINAL  Page 15 of 31  reduce the asset purchases is relatively less about an improved outlook for the economy and  perhaps more about the concern that the asset purchases are less effective or might be fueling  bubbles?"
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "So, our view was—in  September 2012—was that we had interest rates already low, and they were expected to stay low  for a good long time."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "The total amount of  assets that we acquire are probably more than was—certainly more than what was expected in  September 2012 or in June 2013."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "The total amount of  assets that we acquire are probably more than was—certainly more than what was expected in  September 2012 or in June 2013."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The total amount of  assets that we acquire are probably more than was—certainly more than what was expected in  September 2012 or in June 2013."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Has there been any other further discussion on perhaps adding a  lower bound to the inflation target as well?"
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "I  wouldn’t expect any changes in the very near term."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We want to see how much accommodation  we have and whether it’s sufficient, whether the economy is continuing to grow, and inflation is  moving back toward target, as we anticipate."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And while the view of the Committee was that the best way  forward today was in this more qualitative approach, which incorporates elements both of the  unemployment threshold and the inflation floor, that further strengthening would be possible,  and it’s something that has certainly not been ruled out."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "And while the view of the Committee was that the best way  forward today was in this more qualitative approach, which incorporates elements both of the  unemployment threshold and the inflation floor, that further strengthening would be possible,  and it’s something that has certainly not been ruled out."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "But while we are slowing asset purchases a bit, again, we expect the  total balance sheet to be quite large and maintained for—at a large level for a long time."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "And we  expect to keep rates low for a very long time."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Obviously, we still have a  labor market where it’s not easy for people to find work."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "But, I think, given all of the things that we faced,  it’s perhaps, at least in retrospect, not shocking that the recovery has been somewhat tepid."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "One is that, relative to where we were in  September and October, it certainly is nice that there’s been a bipartisan deal, and that it looks  like it’s going to pass both houses of Congress."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But it’s certainly a better  situation than we had in September and October, or in January during the fiscal cliff, for that  matter."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "And ones that, perhaps, you would have liked to have seen finished before you leave?"
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Yes, the system is certainly safer, and one indication of that  is the amount of capital that large banks hold."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Beyond that, we’re looking at a leverage ratio, of course, that we expect to complete  fairly soon, the possibility of having debt required at the holding company to assist in a  resolution, we’re looking at capital for—to backstop firms that rely heavily on short-term  wholesale funding."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "I mean, you and other observers who are writing about this and thinking about this  obviously will have your opinions."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And I wanted  to see if you might be willing to impart some final words of wisdom to members of Congress as  they consider possible legislative changes."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "And just a final  question for you, sir, as you get set to leave and perhaps your last news conference here—you  talked a little bit about your frustrations, the headwinds that you faced through the course of your  eight years."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Is there a decision—with the benefit of hindsight—that you would do differently,  one change perhaps in a decisionmaking process that you’ve made, your fellow colleagues have  made here, that you think would have made a difference materially over the last eight years?"
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Obviously, we were  slow to recognize the crisis."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Most of the mortgages had been made, but, obviously, it would have been good to  have recognized that earlier and try to take more preventive action."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "But I think for the immediate future, my wife and I, I believe, will stay in Washington for  a bit of time."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Chairman Bernanke’s Press Conference  FINAL  Page 25 of 31  will, and if exports increase, as they seem to be doing, then we’ll probably see greater investment  as well."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "One of the factors that your policy statement says will be considered in assessing  the future pace of asset purchases is the cost and efficacy of those purchases."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The possible—it’s very unlikely  that the Fed will have losses in any comprehensive sense."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "The possible—it’s very unlikely  that the Fed will have losses in any comprehensive sense."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "So, over any period of time, clearly, the Fed is actually  making a good bit of money for the taxpayer and for the government."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "I think that, you know, obviously there are some financial stability issues involved there."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "We look at the possibility that asset purchases have led to bubbly pricing in certain markets or in  excessive leverage or excessive risk-taking."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Our  general philosophy on financial stability issues is, where we can, that we try to address it first  and foremost by making sure that the banking system and the financial system are as strong as  possible—if banks have a lot of capital, they can withstand losses, for example—and by using  whatever other tools we have to try to avoid bubbles or other kinds of financial risks."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Certainly, the first line of defense for us is  regulatory and other types of measures, but we do have to pay some attention to that."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "You have to  obviously ask yourself, you know, what would have happened in the absence of the policy?"
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "And, secondly, what effect  would you expect that will have on the unemployment rate?"
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Well, obviously it has a big economic effect on those  directly affected, you know, who are receiving benefits, and we do have an unusually large  number of long-term unemployed people in the United States now, which is obviously a major  concern and one that I cited in my opening remarks."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Well, obviously it has a big economic effect on those  directly affected, you know, who are receiving benefits, and we do have an unusually large  number of long-term unemployed people in the United States now, which is obviously a major  concern and one that I cited in my opening remarks."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "The effects of ending extended  unemployment benefits, quantitatively, for the economy overall, are probably not very large  because they work in two directions."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "People receiving unemployment  benefits obviously tend to spend a very high fraction of their income."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "On the other side, it—probably some folks who are—can no longer qualify for  unemployment benefits will just drop out of the labor force, and that will bring the  unemployment rate down, but, for some sense, the wrong reason."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "We need to explain why certain approaches are not so good or might be better."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But,  obviously, they represent the public, and they certainly have every right to set the terms on which  the Federal Reserve operates and so on."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But,  obviously, they represent the public, and they certainly have every right to set the terms on which  the Federal Reserve operates and so on."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "That being said, there certainly is a portion of the decline in participation, which is  related to people dropping out of the labor force because they are discouraged, because their  skills have become obsolete, because they’ve lost attachment to the labor force, and so on."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But that, I think, is one of the  biggest challenges that our society faces, and if we don’t address it, then we’re going to see a  larger and larger number of people who are either unemployed, underemployed, or working at  very low wages, which obviously is not something we want to see."
+    }
+  ]
+}

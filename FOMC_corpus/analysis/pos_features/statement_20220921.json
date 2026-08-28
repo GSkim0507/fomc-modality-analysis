@@ -1,0 +1,129 @@
+{
+  "doc_id": "statement_20220921",
+  "doc_type": "statement",
+  "date": "2022-09-21",
+  "chair": "Powell",
+  "n_tokens": 341,
+  "n_sents": 15,
+  "pos_counts": {
+    "NNP": 63,
+    "CD": 10,
+    ",": 16,
+    "VBZ": 8,
+    "JJ": 32,
+    "NN": 59,
+    "IN": 39,
+    "NNS": 24,
+    "VBP": 5,
+    "CC": 16,
+    ".": 14,
+    "VBN": 8,
+    "DT": 28,
+    "VBG": 10,
+    "JJR": 3,
+    "POS": 4,
+    "RB": 3,
+    "TO": 5,
+    "VB": 10,
+    "VBD": 4,
+    "SYM": 1,
+    "MD": 6,
+    "PRP$": 2,
+    "HYPH": 1,
+    "WDT": 2,
+    ":": 11
+  },
+  "modal_count": 6,
+  "modal_lemma_counts": {
+    "will": 4,
+    "would": 1,
+    "could": 1
+  },
+  "modals_per_1000": 17.595,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "anticipate": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 5.865,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 137,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the target range",
+      "right_3": "be appropriate .",
+      "sentence": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent and anticipates that ongoing increases in the target range will be appropriate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 176,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue reducing its",
+      "sentence": "In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 236,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 261,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 261,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 289,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent and anticipates that ongoing increases in the target range will be appropriate."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

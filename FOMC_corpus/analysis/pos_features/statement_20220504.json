@@ -1,0 +1,154 @@
+{
+  "doc_id": "statement_20220504",
+  "doc_type": "statement",
+  "date": "2022-05-04",
+  "chair": "Powell",
+  "n_tokens": 405,
+  "n_sents": 19,
+  "pos_counts": {
+    "NNP": 61,
+    "CD": 10,
+    ",": 19,
+    "VBZ": 8,
+    "JJ": 40,
+    "NN": 76,
+    "IN": 50,
+    "VBD": 8,
+    "RP": 2,
+    "DT": 39,
+    "CC": 16,
+    "VBN": 10,
+    ".": 17,
+    "NNS": 27,
+    "VBP": 6,
+    "RB": 4,
+    "VBG": 9,
+    "JJR": 3,
+    "TO": 10,
+    "VB": 14,
+    "HYPH": 2,
+    "PRP$": 2,
+    "MD": 5,
+    "POS": 3,
+    "WDT": 2,
+    ":": 8
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "will": 3,
+    "would": 1,
+    "could": 1
+  },
+  "modals_per_1000": 12.346,
+  "epistemic_count": 6,
+  "epistemic_lemma_counts": {
+    "uncertain": 1,
+    "likely": 2,
+    "expect": 1,
+    "anticipate": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 14.815,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 202,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the target range",
+      "right_3": "be appropriate .",
+      "sentence": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent and anticipates that ongoing increases in the target range will be appropriate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 292,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 317,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committeeâs goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 317,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committeeâs goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 344,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The implications for the U.S. economy are highly uncertain."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The invasion and related events are creating additional upward pressure on inflation and are likely to weigh on economic activity."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With appropriate firming in the stance of monetary policy, the Committee expects inflation to return to its 2 percent objective and the labor market to remain strong."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent and anticipates that ongoing increases in the target range will be appropriate."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

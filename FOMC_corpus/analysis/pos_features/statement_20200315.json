@@ -1,0 +1,182 @@
+{
+  "doc_id": "statement_20200315",
+  "doc_type": "statement",
+  "date": "2020-03-15",
+  "chair": "Powell",
+  "n_tokens": 726,
+  "n_sents": 28,
+  "pos_counts": {
+    "NNP": 76,
+    "CD": 20,
+    ",": 31,
+    "VBZ": 13,
+    "JJ": 65,
+    "NN": 147,
+    "IN": 86,
+    "DT": 62,
+    "VBN": 23,
+    "NNS": 70,
+    "CC": 36,
+    "VBD": 16,
+    "VBG": 8,
+    ".": 27,
+    "VBP": 9,
+    "RB": 14,
+    "RBR": 1,
+    "HYPH": 7,
+    ":": 9,
+    "JJR": 2,
+    "PRP$": 11,
+    "TO": 18,
+    "VB": 28,
+    "MD": 10,
+    "RP": 1,
+    "PRP": 1,
+    "POS": 3,
+    "WDT": 1,
+    "RBS": 2,
+    "$": 2,
+    "WP": 1,
+    "SYM": 2
+  },
+  "modal_count": 10,
+  "modal_lemma_counts": {
+    "will": 9,
+    "can": 1
+  },
+  "modals_per_1000": 13.774,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "assess": 1
+  },
+  "epistemics_per_1000": 4.132,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 208,
+      "head_verb_surface": "weigh",
+      "head_verb_lemma": "weigh",
+      "left_3": "of the coronavirus",
+      "right_3": "weigh on economic",
+      "sentence": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 288,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ". This action",
+      "right_3": "help support economic",
+      "sentence": "This action will help support economic activity, strong labor market conditions, and inflation returning to the Committee's symmetric 2 percent objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 314,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\n\n The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including information related to public health, as well as global developments and muted inflation pressures, and will use its tools and act as appropriate to support the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 314,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "pressures , and",
+      "right_3": "use its tools",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including information related to public health, as well as global developments and muted inflation pressures, and will use its tools and act as appropriate to support the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 361,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 400,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 469,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "months the Committee",
+      "right_3": "increase its holdings",
+      "sentence": "To support the smooth functioning of markets for Treasury securities and agency mortgage-backed securities that are central to the flow of credit to households and businesses, over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 532,
+      "head_verb_surface": "reinvest",
+      "head_verb_lemma": "reinvest",
+      "left_3": ". The Committee",
+      "right_3": "also reinvest all",
+      "sentence": "The Committee will also reinvest all principal payments from the Federal Reserve's holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 580,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The Committee",
+      "right_3": "continue to closely",
+      "sentence": "The Committee will continue to closely monitor market conditions and is prepared to adjust its plans as appropriate."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 755,
+      "head_verb_surface": "found",
+      "head_verb_lemma": "find",
+      "left_3": ". More information",
+      "right_3": "be found on",
+      "sentence": "More information can be found on the Federal Reserve Board's  website ."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

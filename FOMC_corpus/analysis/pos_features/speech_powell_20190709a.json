@@ -1,0 +1,220 @@
+{
+  "doc_id": "speech_powell_20190709a",
+  "doc_type": "speech",
+  "date": "2019-07-09",
+  "chair": "Powell",
+  "n_tokens": 758,
+  "n_sents": 35,
+  "pos_counts": {
+    "NNP": 69,
+    "CD": 20,
+    ",": 58,
+    "NNPS": 4,
+    "-LRB-": 5,
+    "IN": 95,
+    "JJ": 57,
+    "NN": 111,
+    "-RRB-": 10,
+    "``": 3,
+    ":": 7,
+    "DT": 67,
+    "CC": 40,
+    "''": 3,
+    "NNS": 64,
+    "XX": 10,
+    "VBP": 26,
+    "SYM": 8,
+    "VBZ": 8,
+    "RB": 34,
+    "RP": 2,
+    "MD": 10,
+    "VB": 44,
+    "VBN": 12,
+    ".": 31,
+    "PRP": 26,
+    "VBG": 17,
+    "PRP$": 7,
+    "RBS": 1,
+    "TO": 20,
+    "HYPH": 5,
+    "JJR": 5,
+    "VBD": 8,
+    "WP": 2,
+    "WDT": 2,
+    "$": 1,
+    "WRB": 3,
+    "POS": 2,
+    "LS": 1
+  },
+  "modal_count": 10,
+  "modal_lemma_counts": {
+    "may": 2,
+    "will": 5,
+    "might": 1,
+    "would": 1,
+    "can": 1
+  },
+  "modals_per_1000": 13.193,
+  "epistemic_count": 6,
+  "epistemic_lemma_counts": {
+    "perhaps": 1,
+    "assess": 1,
+    "anticipate": 1,
+    "expect": 1,
+    "unlikely": 1,
+    "believe": 1
+  },
+  "epistemics_per_1000": 7.916,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 121,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 214,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "function , they",
+      "right_3": "need to evolve",
+      "sentence": "But if stress tests are to continue to serve their critical function, they will need to evolve in the years ahead to keep pace with the ever-changing financial system, as they have since the first round of tests in 2009."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 509,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ", stress testing",
+      "right_3": "need to keep",
+      "sentence": "As financial institutions and the financial system evolve, stress testing will need to keep up."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 526,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "itself , it",
+      "right_3": "do so in",
+      "sentence": "When the next episode of financial instability presents itself, it may do so in a messy and unexpected way."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 547,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "way . Banks",
+      "right_3": "need to be",
+      "sentence": "Banks will need to be ready not just for expected risks, but for unexpected ones."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 564,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ", the tests",
+      "right_3": "need to vary",
+      "sentence": "Thus, the tests will need to vary from year to year, and to explore even quite unlikely scenarios."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 609,
+      "head_verb_surface": "encourage",
+      "head_verb_lemma": "encourage",
+      "left_3": "banks . We",
+      "right_3": "also , inadvertently",
+      "sentence": "We might also, inadvertently, encourage the development of a banking system where, over time, all banks would look much alike rather than the banking system we want and need, one with diverse institutions with different business models."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 609,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": ", all banks",
+      "right_3": "look much alike",
+      "sentence": "We might also, inadvertently, encourage the development of a banking system where, over time, all banks would look much alike rather than the banking system we want and need, one with diverse institutions with different business models."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 652,
+      "head_verb_surface": "let",
+      "head_verb_lemma": "let",
+      "left_3": ". We simply",
+      "right_3": "n't let these",
+      "sentence": "We simply can't let these things happen."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 743,
+      "head_verb_surface": "sharpen",
+      "head_verb_lemma": "sharpen",
+      "left_3": "and healthy debate",
+      "right_3": "sharpen our thinking",
+      "sentence": "I strongly believe that diverse perspectives and healthy debate will sharpen our thinking and lead us to better answers."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Stress testing is perhaps the most successful supervisory innovation of the post-crisis era."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Banks have gotten much better at assessing and managing their risks, effectively tracking commitments across their organizations, anticipating capital needs, and planning for different scenarios."
+    },
+    {
+      "surface": "anticipating",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Banks have gotten much better at assessing and managing their risks, effectively tracking commitments across their organizations, anticipating capital needs, and planning for different scenarios."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Banks will need to be ready not just for expected risks, but for unexpected ones."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "Thus, the tests will need to vary from year to year, and to explore even quite unlikely scenarios."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I strongly believe that diverse perspectives and healthy debate will sharpen our thinking and lead us to better answers."
+    }
+  ]
+}

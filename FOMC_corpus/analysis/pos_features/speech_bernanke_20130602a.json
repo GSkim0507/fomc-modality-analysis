@@ -1,0 +1,498 @@
+{
+  "doc_id": "speech_bernanke_20130602a",
+  "doc_type": "speech",
+  "date": "2013-06-02",
+  "chair": "Bernanke",
+  "n_tokens": 1888,
+  "n_sents": 105,
+  "pos_counts": {
+    "NNP": 65,
+    "CD": 22,
+    ",": 130,
+    "DT": 170,
+    "NNPS": 2,
+    "IN": 226,
+    "PRP": 123,
+    "VBZ": 58,
+    "JJ": 149,
+    "TO": 40,
+    "VB": 100,
+    "RB": 135,
+    ".": 106,
+    "VBP": 66,
+    "VBN": 35,
+    "NNS": 110,
+    "VBD": 36,
+    "NN": 236,
+    "PRP$": 41,
+    "CC": 92,
+    "``": 6,
+    "RBR": 12,
+    "MD": 36,
+    "JJS": 15,
+    "VBG": 39,
+    "WP": 24,
+    "POS": 5,
+    "UH": 3,
+    "WDT": 11,
+    ":": 18,
+    "JJR": 6,
+    "HYPH": 11,
+    "LS": 10,
+    "RBS": 6,
+    "''": 4,
+    "WRB": 8,
+    "RP": 7,
+    "EX": 1,
+    "-LRB-": 2,
+    "-RRB-": 1,
+    "PDT": 1
+  },
+  "modal_count": 36,
+  "modal_lemma_counts": {
+    "can": 6,
+    "will": 19,
+    "should": 2,
+    "would": 5,
+    "may": 2,
+    "might": 2
+  },
+  "modals_per_1000": 19.068,
+  "epistemic_count": 8,
+  "epistemic_lemma_counts": {
+    "believe": 2,
+    "expect": 2,
+    "seemingly": 1,
+    "probably": 2,
+    "possibly": 1
+  },
+  "epistemics_per_1000": 4.237,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 62,
+      "head_verb_surface": "accommodate",
+      "head_verb_lemma": "accommodate",
+      "left_3": "positions than we",
+      "right_3": "accommodate . \"",
+      "sentence": "I wrote recently to inquire about the status of my leave from the university, and the letter I got back began, \"Regrettably, Princeton receives many more qualified applicants for faculty positions than we can accommodate."
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 102,
+      "head_verb_surface": "extend",
+      "head_verb_lemma": "extend",
+      "left_3": "1 \n \r\n \n\n\r\n  I",
+      "right_3": "extend my best",
+      "sentence": "\" 1  \r    \r  I'll extend my best wishes to the seniors later, but first I want to congratulate the parents and families here."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 175,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": ", as they",
+      "right_3": "have been .",
+      "sentence": "He and his spouse were very proud of that accomplishment, as they should have been."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 224,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "cliff . I",
+      "right_3": "say that he",
+      "sentence": "I should say that he always added that he would do it all over again in a minute."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 224,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "added that he",
+      "right_3": "do it all",
+      "sentence": "I should say that he always added that he would do it all over again in a minute."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 293,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "I thought I",
+      "right_3": "use my few",
+      "sentence": "I don't have that kind of confidence, and, anyway, coveting your neighbor's ox or donkey is not the problem it used to be, so I thought I would use my few minutes today to make Ten Suggestions, or maybe just Ten Observations, about the world and your lives after Princeton."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 500,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "knows where they",
+      "right_3": "be in 10",
+      "sentence": "Life is amazingly unpredictable; any 22-year-old who thinks he or she knows where they will be in 10 years, much less in 30, is simply lacking imagination."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 668,
+      "head_verb_surface": "get",
+      "head_verb_lemma": "get",
+      "left_3": ". If you",
+      "right_3": "get them to",
+      "sentence": "If you can get them to open up, they will tell you that today they are happy and satisfied in various measures, or not, and their personal stories will be filled with highs and lows and in-betweens."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 668,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": "up , they",
+      "right_3": "tell you that",
+      "sentence": "If you can get them to open up, they will tell you that today they are happy and satisfied in various measures, or not, and their personal stories will be filled with highs and lows and in-betweens."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 668,
+      "head_verb_surface": "filled",
+      "head_verb_lemma": "fill",
+      "left_3": "their personal stories",
+      "right_3": "be filled with",
+      "sentence": "If you can get them to open up, they will tell you that today they are happy and satisfied in various measures, or not, and their personal stories will be filled with highs and lows and in-betweens."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 711,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "those life stories",
+      "right_3": "in almost all",
+      "sentence": "But, I am willing to bet, those life stories will in almost all cases be quite different, in large and small ways, from what they expected when they started out."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 821,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ". Whatever life",
+      "right_3": "have in store",
+      "sentence": "Whatever life may have in store for you, each of you has a grand, lifelong project, and that is the development of yourself as a human being."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 868,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "start . What",
+      "right_3": "you do with",
+      "sentence": "What will you do with it?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 875,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "with it ?",
+      "right_3": "you keep learning",
+      "sentence": "Will you keep learning and thinking hard and critically about the most important questions?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 890,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "important questions ?",
+      "right_3": "you become an",
+      "sentence": "Will you become an emotionally stronger person, more generous, more loving, more ethical?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 907,
+      "head_verb_surface": "involve",
+      "head_verb_lemma": "involve",
+      "left_3": "more ethical ?",
+      "right_3": "you involve yourself",
+      "sentence": "Will you involve yourself actively and constructively in the world?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 918,
+      "head_verb_surface": "happen",
+      "head_verb_lemma": "happen",
+      "left_3": "? Many things",
+      "right_3": "happen in your",
+      "sentence": "Many things will happen in your lives, pleasant and not so pleasant, but, paraphrasing a Woodrow Wilson School adage from the time I was here, \"Wherever you go, there you are.\""
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 957,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "the loftiest achievements",
+      "right_3": "n't bring you",
+      "sentence": "If you are not happy with yourself, even the loftiest achievements won't bring you much satisfaction."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1007,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "meritocratic , meritocracies",
+      "right_3": "be fairer and",
+      "sentence": "Putting aside the reality that no system, including our own, is really entirely meritocratic, meritocracies may be fairer and more efficient than some alternatives."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1168,
+      "head_verb_surface": "forgive",
+      "head_verb_lemma": "forgive",
+      "left_3": "sure my rabbi",
+      "right_3": "forgive me for",
+      "sentence": "As the Gospel of Luke says (and I am sure my rabbi will forgive me for quoting the New Testament in a good cause): \"From everyone to whom much has been given, much will be required; and from the one to whom much has been entrusted, even more will be demanded\" (Luke 12:48, New Revised Standard Version Bible)."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1168,
+      "head_verb_surface": "required",
+      "head_verb_lemma": "require",
+      "left_3": "given , much",
+      "right_3": "be required ;",
+      "sentence": "As the Gospel of Luke says (and I am sure my rabbi will forgive me for quoting the New Testament in a good cause): \"From everyone to whom much has been given, much will be required; and from the one to whom much has been entrusted, even more will be demanded\" (Luke 12:48, New Revised Standard Version Bible)."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1168,
+      "head_verb_surface": "demanded",
+      "head_verb_lemma": "demand",
+      "left_3": ", even more",
+      "right_3": "be demanded \"",
+      "sentence": "As the Gospel of Luke says (and I am sure my rabbi will forgive me for quoting the New Testament in a good cause): \"From everyone to whom much has been given, much will be required; and from the one to whom much has been entrusted, even more will be demanded\" (Luke 12:48, New Revised Standard Version Bible)."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1237,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "curve , you",
+      "right_3": "say . \r\n \n\n\r\n ",
+      "sentence": "Kind of grading on the curve, you might say."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1310,
+      "head_verb_surface": "agree",
+      "head_verb_lemma": "agree",
+      "left_3": "most of us",
+      "right_3": "agree that people",
+      "sentence": "I think most of us would agree that people who have, say, little formal schooling but labor honestly and diligently to help feed, clothe, and educate their families are deserving of greater respect--and help, if necessary--than many people who are superficially more successful."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1387,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "sociology , I",
+      "right_3": "as well say",
+      "sentence": "Since I have covered what I know about sociology, I might as well say something about political science as well."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 1409,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "but I just",
+      "right_3": "n't keep up",
+      "sentence": "In regard to politics, I have always liked Lily Tomlin's line, in paraphrase: \"I try to be cynical, but I just can't keep up.\""
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1710,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "is that it",
+      "right_3": "help kill ideas",
+      "sentence": "However, careful economic analysis does have one important benefit, which is that it can help kill ideas that are completely logically inconsistent or wildly at variance with the data."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1757,
+      "head_verb_surface": "believe",
+      "head_verb_lemma": "believe",
+      "left_3": ", because you",
+      "right_3": "n't believe me",
+      "sentence": "I'm not going to tell you that money doesn't matter, because you wouldn't believe me anyway."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1903,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "success , you",
+      "right_3": "be able to",
+      "sentence": "I hope that as you develop your own definition of success, you will be able to do so, if you wish, with a close companion on your journey."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1963,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "attraction -- where",
+      "right_3": "Hollywood and Madison",
+      "sentence": "Don't get me wrong, I am all for beauty, romance, and sexual attraction--where would Hollywood and Madison Avenue be without them?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2008,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "two of you",
+      "right_3": "have a long",
+      "sentence": "The two of you will have a long trip together, I hope, and you will need each other's support and sympathy more times than you can count."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2008,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ", and you",
+      "right_3": "need each other",
+      "sentence": "The two of you will have a long trip together, I hope, and you will need each other's support and sympathy more times than you can count."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2008,
+      "head_verb_surface": "count",
+      "head_verb_lemma": "count",
+      "left_3": "times than you",
+      "right_3": "count . Speaking",
+      "sentence": "The two of you will have a long trip together, I hope, and you will need each other's support and sympathy more times than you can count."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 2039,
+      "head_verb_surface": "imagine",
+      "head_verb_lemma": "imagine",
+      "left_3": "years , I",
+      "right_3": "n't imagine any",
+      "sentence": "Speaking as somebody who has been happily married for 35 years, I can't imagine any choice more consequential for a lifelong journey than the choice of a traveling companion."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2084,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": ". A time",
+      "right_3": "come when you",
+      "sentence": "A time will come when you will want your own grown-up, busy, hyper-successful children to call you."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2084,
+      "head_verb_surface": "want",
+      "head_verb_lemma": "want",
+      "left_3": "come when you",
+      "right_3": "want your own",
+      "sentence": "A time will come when you will want your own grown-up, busy, hyper-successful children to call you."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I find it difficult to believe that it's been almost 11 years since I departed these halls for Washington."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Ask them, back when they were graduating 25, 30, or 40 years ago, where they expected to be today."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "But, I am willing to bet, those life stories will in almost all cases be quite different, in large and small ways, from what they expected when they started out."
+    },
+    {
+      "surface": "seemingly",
+      "lemma": "seemingly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Does the fact that our lives are so influenced by chance and seemingly small decisions and actions mean that there is no point to planning, to striving?"
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "A meritocracy is a system in which the people who are the luckiest in their health and genetic endowment; luckiest in terms of family support, encouragement, and, probably, income; luckiest in their educational and career opportunities; and luckiest in so many other ways difficult to enumerate--these are the folks who reap the largest rewards."
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Honest error in the face of complex and possibly intractable problems is a far more important source of bad results than are bad motives."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I'm not going to tell you that money doesn't matter, because you wouldn't believe me anyway."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "They're probably worth exactly what you paid for them."
+    }
+  ]
+}

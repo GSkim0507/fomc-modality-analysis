@@ -1,0 +1,810 @@
+{
+  "doc_id": "speech_powell_20200827a",
+  "doc_type": "speech",
+  "date": "2020-08-27",
+  "chair": "Powell",
+  "n_tokens": 5448,
+  "n_sents": 309,
+  "pos_counts": {
+    "NNP": 865,
+    "CD": 231,
+    ",": 385,
+    "NNPS": 59,
+    "CC": 180,
+    "DT": 508,
+    "POS": 24,
+    "IN": 742,
+    "``": 39,
+    "VBG": 107,
+    "NN": 843,
+    "RB": 176,
+    ":": 42,
+    "NNS": 313,
+    "''": 35,
+    "JJ": 389,
+    "VBN": 129,
+    "-LRB-": 92,
+    "-RRB-": 92,
+    "VBP": 63,
+    "PRP": 70,
+    ".": 311,
+    "RBS": 8,
+    "MD": 52,
+    "VB": 190,
+    "PRP$": 103,
+    "HYPH": 49,
+    "RBR": 23,
+    "VBD": 112,
+    "JJR": 27,
+    "WDT": 37,
+    "VBZ": 98,
+    "RP": 10,
+    "TO": 70,
+    "JJS": 7,
+    "WP": 8,
+    "WRB": 21,
+    "EX": 2,
+    "PDT": 1,
+    "SYM": 7,
+    "LS": 1
+  },
+  "modal_count": 52,
+  "modal_lemma_counts": {
+    "will": 18,
+    "would": 9,
+    "can": 12,
+    "might": 3,
+    "could": 5,
+    "should": 2,
+    "may": 2,
+    "must": 1
+  },
+  "modals_per_1000": 9.545,
+  "epistemic_count": 26,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "assess": 3,
+    "likely": 3,
+    "clearly": 2,
+    "uncertain": 2,
+    "potential": 3,
+    "expect": 4,
+    "anticipate": 1,
+    "certainly": 2,
+    "believe": 4,
+    "possible": 1
+  },
+  "epistemics_per_1000": 4.772,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 101,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", this year",
+      "right_3": "be no exception",
+      "sentence": "Judging by the agenda and the papers, this year will be no exception."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 199,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "\n  Today I",
+      "right_3": "discuss our review",
+      "sentence": "2  Today I will discuss our review, the changes in the economy that motivated us to undertake it, and our revised statement, which encapsulates the main conclusions of the review."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 235,
+      "head_verb_surface": "foster",
+      "head_verb_lemma": "foster",
+      "left_3": "and communications that",
+      "right_3": "best foster achievement",
+      "sentence": "Evolution of the Fed's Monetary Policy Framework \r We began this public review in early 2019 to assess the monetary policy strategy, tools, and communications that would best foster achievement of our congressionally assigned goals of maximum employment and price stability over the years ahead in service to the American people."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 763,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "nonmonetary factors that",
+      "right_3": "change over time",
+      "sentence": "7  Because the structure of the labor market is strongly influenced by nonmonetary factors that can change over time, the Committee did not set a numerical objective for maximum employment."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 859,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "new normal \"",
+      "right_3": "bring were quite",
+      "sentence": "8  Motivation for the Review \r The completion of the original consensus statement in January 2012 occurred early on in the recovery from the Global Financial Crisis, when notions of what the \"new normal\" might bring were quite uncertain."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 934,
+      "head_verb_surface": "enhance",
+      "head_verb_lemma": "enhance",
+      "left_3": "policy framework that",
+      "right_3": "enhance our ability",
+      "sentence": "A key purpose of our review has been to take stock of the lessons learned over this period and identify any further changes in our monetary policy framework that could enhance our ability to achieve our maximum-employment and price-stability objectives in the years ahead."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1295,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\n  The result",
+      "right_3": "be worse economic",
+      "sentence": "12  The result can be worse economic outcomes in terms of both employment and price stability, with the costs of such outcomes likely falling hardest on those least able to bear them."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1396,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "suggested that it",
+      "right_3": "keep falling .",
+      "sentence": "Having declined significantly in the five years following the crisis, the labor force participation rate flattened out and began rising even though the aging of the population suggested that it should keep falling."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1432,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "Global Financial Crisis",
+      "right_3": "cause permanent structural",
+      "sentence": "13  For individuals in their prime working years, the participation rate fully retraced its post-crisis decline, defying earlier assessments that the Global Financial Crisis might cause permanent structural damage to the labor market."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1598,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that these gains",
+      "right_3": "continue . It",
+      "sentence": "Before the pandemic, there was every reason to expect that these gains would continue."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1614,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "national goal that",
+      "right_3": "require a range",
+      "sentence": "It is hard to overstate the benefits of sustaining a strong labor market, a key national goal that will require a range of policies in addition to supportive monetary policy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1825,
+      "head_verb_surface": "holding",
+      "head_verb_lemma": "hold",
+      "left_3": "global disinflationary pressures",
+      "right_3": "have been holding",
+      "sentence": "17  In addition, longer-term inflation expectations, which we have long seen as an important driver of actual inflation, and global disinflationary pressures may have been holding down inflation more than was generally anticipated."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1900,
+      "head_verb_surface": "want",
+      "head_verb_lemma": "want",
+      "left_3": "that the Fed",
+      "right_3": "want to push",
+      "sentence": "Many find it counterintuitive that the Fed would want to push up inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1969,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "persistently too low",
+      "right_3": "pose serious risks",
+      "sentence": "However, inflation that is persistently too low can pose serious risks to the economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1985,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "its desired level",
+      "right_3": "lead to an",
+      "sentence": "Inflation that runs below its desired level can lead to an unwelcome fall in longer-term inflation expectations, which, in turn, can pull actual inflation even lower, resulting in an adverse cycle of ever-lower inflation and inflation expectations."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1985,
+      "head_verb_surface": "pull",
+      "head_verb_lemma": "pull",
+      "left_3": "in turn ,",
+      "right_3": "pull actual inflation",
+      "sentence": "Inflation that runs below its desired level can lead to an unwelcome fall in longer-term inflation expectations, which, in turn, can pull actual inflation even lower, resulting in an adverse cycle of ever-lower inflation and inflation expectations."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2075,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": ", interest rates",
+      "right_3": "decline in tandem",
+      "sentence": "But if inflation expectations fall below our 2 percent objective, interest rates would decline in tandem."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2093,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "turn , we",
+      "right_3": "have less scope",
+      "sentence": "In turn, we would have less scope to cut interest rates to boost employment during an economic downturn, further diminishing our capacity to stabilize the economy through cutting interest rates."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2126,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "in , it",
+      "right_3": "be very difficult",
+      "sentence": "We have seen this adverse dynamic play out in other major economies around the world and have learned that once it sets in, it can be very difficult to overcome."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2158,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "do what we",
+      "right_3": "to prevent such",
+      "sentence": "We want to do what we can to prevent such a dynamic from happening here."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2646,
+      "head_verb_surface": "promote",
+      "head_verb_lemma": "promote",
+      "left_3": "that we believe",
+      "right_3": "best promote our",
+      "sentence": "Our new consensus statement, like its predecessor, explains how we interpret the mandate Congress has given us and describes the broad framework that we believe will best promote our maximum-employment and price-stability goals."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2791,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that monetary policy",
+      "right_3": "be forward looking",
+      "sentence": "Finally, we continue to believe that monetary policy must be forward looking, taking into account the expectations of households and businesses and the lags in monetary policy's effect on the economy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2826,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "financial system that",
+      "right_3": "impede the attainment",
+      "sentence": "Thus, our policy actions continue to depend on the economic outlook as well as the risks to the outlook, including potential risks to the financial system that could impede the attainment of our goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3003,
+      "head_verb_surface": "informed",
+      "head_verb_lemma": "inform",
+      "left_3": "our policy decision",
+      "right_3": "be informed by",
+      "sentence": "In addition, our revised statement says that our policy decision will be informed by our \"assessments of the  shortfalls  of employment from its maximum level\" rather than by \" deviations  from its maximum level\" as in our previous statement."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3052,
+      "head_verb_surface": "appear",
+      "head_verb_lemma": "appear",
+      "left_3": "\n  This change",
+      "right_3": "appear subtle ,",
+      "sentence": "24  This change may appear subtle, but it reflects our view that a robust job market can be sustained without causing an outbreak of inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3052,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "robust job market",
+      "right_3": "be sustained without",
+      "sentence": "24  This change may appear subtle, but it reflects our view that a robust job market can be sustained without causing an outbreak of inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3134,
+      "head_verb_surface": "run",
+      "head_verb_lemma": "run",
+      "left_3": "forward , employment",
+      "right_3": "run at or",
+      "sentence": "The change to \"shortfalls\" clarifies that, going forward, employment can run at or above real-time estimates of its maximum level without causing concern, unless accompanied by signs of unwanted increases in inflation or the emergence of other risks that could impede the attainment of our goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3134,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "other risks that",
+      "right_3": "impede the attainment",
+      "sentence": "The change to \"shortfalls\" clarifies that, going forward, employment can run at or above real-time estimates of its maximum level without causing concern, unless accompanied by signs of unwanted increases in inflation or the emergence of other risks that could impede the attainment of our goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3189,
+      "head_verb_surface": "seek",
+      "head_verb_lemma": "seek",
+      "left_3": "now , we",
+      "right_3": "actively seek to",
+      "sentence": "25  Of course, when employment is below its maximum level, as is clearly the case now, we will actively seek to minimize that shortfall by using our tools to support economic growth and job creation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3263,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "our dual mandate",
+      "right_3": "be most effective",
+      "sentence": "Our statement emphasizes that our actions to achieve both sides of our dual mandate will be most effective if longer-term inflation expectations remain well anchored at 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3294,
+      "head_verb_surface": "average",
+      "head_verb_lemma": "average",
+      "left_3": "time , inflation",
+      "right_3": "average less than",
+      "sentence": "However, if inflation runs below 2 percent following economic downturns but never moves above 2 percent even when the economy is strong, then, over time, inflation will average less than 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3331,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "Households and businesses",
+      "right_3": "come to expect",
+      "sentence": "Households and businesses will come to expect this result, meaning that inflation expectations would tend to move below our inflation goal and pull realized inflation down."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3331,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "that inflation expectations",
+      "right_3": "tend to move",
+      "sentence": "Households and businesses will come to expect this result, meaning that inflation expectations would tend to move below our inflation goal and pull realized inflation down."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3359,
+      "head_verb_surface": "ensue",
+      "head_verb_lemma": "ensue",
+      "left_3": "adverse dynamics that",
+      "right_3": "ensue , our",
+      "sentence": "To prevent this outcome and the adverse dynamics that could ensue, our new statement indicates that we will seek to achieve inflation that averages 2 percent over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3359,
+      "head_verb_surface": "seek",
+      "head_verb_lemma": "seek",
+      "left_3": "indicates that we",
+      "right_3": "seek to achieve",
+      "sentence": "To prevent this outcome and the adverse dynamics that could ensue, our new statement indicates that we will seek to achieve inflation that averages 2 percent over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3389,
+      "head_verb_surface": "aim",
+      "head_verb_lemma": "aim",
+      "left_3": "appropriate monetary policy",
+      "right_3": "likely aim to",
+      "sentence": "Therefore, following periods when inflation has been running below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3447,
+      "head_verb_surface": "viewed",
+      "head_verb_lemma": "view",
+      "left_3": ", our approach",
+      "right_3": "be viewed as",
+      "sentence": "Thus, our approach could be viewed as a flexible form of average inflation targeting."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3464,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "appropriate monetary policy",
+      "right_3": "continue to reflect",
+      "sentence": "26  Our decisions about appropriate monetary policy will continue to reflect a broad array of considerations and will not be dictated by any formula."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3464,
+      "head_verb_surface": "dictated",
+      "head_verb_lemma": "dictate",
+      "left_3": "of considerations and",
+      "right_3": "not be dictated",
+      "sentence": "26  Our decisions about appropriate monetary policy will continue to reflect a broad array of considerations and will not be dictated by any formula."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3490,
+      "head_verb_surface": "hesitate",
+      "head_verb_lemma": "hesitate",
+      "left_3": "goal , we",
+      "right_3": "not hesitate to",
+      "sentence": "Of course, if excessive inflationary pressures were to build or inflation expectations were to ratchet above levels consistent with our goal, we would not hesitate to act."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3611,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "policy , we",
+      "right_3": "remain highly focused",
+      "sentence": "In conducting monetary policy, we will remain highly focused on fostering as strong a labor market as possible for the benefit of all Americans."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3637,
+      "head_verb_surface": "seek",
+      "head_verb_lemma": "seek",
+      "left_3": ". And we",
+      "right_3": "steadfastly seek to",
+      "sentence": "And we will steadfastly seek to achieve a 2 percent inflation rate over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3728,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": ", future reviews",
+      "right_3": "allow us to",
+      "sentence": "And with the ever-changing economy, future reviews will allow us to take a step back, reflect on what we have learned, and adapt our practices as we strive to achieve our dual-mandate goals."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3992,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "Work ? How",
+      "right_3": "They Help ?",
+      "sentence": "How Might They Help? \" Finance and Economics Discussion Series 2020-068."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 4460,
+      "head_verb_surface": "afford",
+      "head_verb_lemma": "afford",
+      "left_3": "\" \n We",
+      "right_3": "n't Afford Not",
+      "sentence": "\" We Can't Afford Not To ,\" speech delivered at the National Press Club Virtual Event, Washington, June 15."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4728,
+      "head_verb_surface": "evaluate",
+      "head_verb_lemma": "evaluate",
+      "left_3": ". \" \n",
+      "right_3": "the Federal Reserve",
+      "sentence": "\" Should the Federal Reserve Regularly Evaluate Its Monetary Policy Framework?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6471,
+      "head_verb_surface": "induce",
+      "head_verb_lemma": "induce",
+      "left_3": "of ELB recessions",
+      "right_3": "induce longer run",
+      "sentence": "The analysis of how alternative strategies that succeed in reducing the frequency and/or severity of ELB recessions can induce longer run beneficial effects on economic inequality is presented in Feiveson and others (2020)."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6519,
+      "head_verb_surface": "mitigate",
+      "head_verb_lemma": "mitigate",
+      "left_3": "that the Committee",
+      "right_3": "mitigate \" deviations",
+      "sentence": "The 2012 statement noted that the Committee would mitigate \"deviations\" of employment from the Committee's assessments of its maximum level, suggesting that the Committee would actively seek to lower employment if it assessed that employment was above the Committee's estimate of its maximum level."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6519,
+      "head_verb_surface": "seek",
+      "head_verb_lemma": "seek",
+      "left_3": "that the Committee",
+      "right_3": "actively seek to",
+      "sentence": "The 2012 statement noted that the Committee would mitigate \"deviations\" of employment from the Committee's assessments of its maximum level, suggesting that the Committee would actively seek to lower employment if it assessed that employment was above the Committee's estimate of its maximum level."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6657,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The SEP",
+      "right_3": "continue to report",
+      "sentence": "The SEP will continue to report FOMC participants' estimates of the longer-run level of the unemployment rate, as such information remains a useful, albeit highly incomplete, input into our policy deliberations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6725,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "inflation and employment",
+      "right_3": "tend to be",
+      "sentence": "The literature has emphasized that the proximity of interest rates to the effective lower bound poses an asymmetric challenge for monetary policy, increasing the likelihood that inflation and employment will tend to be too low."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6762,
+      "head_verb_surface": "found",
+      "head_verb_lemma": "find",
+      "left_3": "related literature ,",
+      "right_3": "be found in",
+      "sentence": "An extensive discussion about how these issues affect the design of monetary policy, as well as the relevant related literature, can be found in Duarte and others (2020), Arias and others (2020), and Hebden and others (2020)."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judging",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Judging by the agenda and the papers, this year will be no exception."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Evolution of the Fed's Monetary Policy Framework \r We began this public review in early 2019 to assess the monetary policy strategy, tools, and communications that would best foster achievement of our congressionally assigned goals of maximum employment and price stability over the years ahead in service to the American people."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Since then, prior to the current pandemic-induced downturn, a series of historically long expansions had been more likely to end with episodes of financial instability, prompting essential efforts to substantially increase the strength and resilience of the financial system."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "This emphasis on transparency reflected what was then a new appreciation that policy is most effective when it is clearly understood by the public."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "8  Motivation for the Review \r The completion of the original consensus statement in January 2012 occurred early on in the recovery from the Global Financial Crisis, when notions of what the \"new normal\" might bring were quite uncertain."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For example, since January 2012, the median estimate of potential growth from FOMC participants has fallen from 2.5 percent to 1.8 percent (see  figure 1 )."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Some slowing in growth relative to earlier decades was to be expected, reflecting slowing population growth and the aging of the population."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "This rate is not affected by monetary policy but instead is driven by fundamental factors in the economy, including demographics and productivity growthâthe same factors that drive potential economic growth."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "12  The result can be worse economic outcomes in terms of both employment and price stability, with the costs of such outcomes likely falling hardest on those least able to bear them."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Before the pandemic, there was every reason to expect that these gains would continue."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "17  In addition, longer-term inflation expectations, which we have long seen as an important driver of actual inflation, and global disinflationary pressures may have been holding down inflation more than was generally anticipated."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "And we are certainly mindful that higher prices for essential items, such as food, gasoline, and shelter, add to the burdens faced by many families, especially those struggling with lost jobs and incomes."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "This dynamic is a problem because expected inflation feeds directly into the general level of interest rates."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "The federated structure of the Federal Reserve, reflected in the FOMC, ensures that we always have a diverse range of perspectives on monetary policy, and that is certainly the case today."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Our new consensus statement, like its predecessor, explains how we interpret the mandate Congress has given us and describes the broad framework that we believe will best promote our maximum-employment and price-stability goals."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We continue to believe that specifying a numerical goal for employment is unwise, because the maximum level of employment is not directly measurable and changes over time for reasons unrelated to monetary policy."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Finally, we continue to believe that monetary policy must be forward looking, taking into account the expectations of households and businesses and the lags in monetary policy's effect on the economy."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Thus, our policy actions continue to depend on the economic outlook as well as the risks to the outlook, including potential risks to the financial system that could impede the attainment of our goals."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "25  Of course, when employment is below its maximum level, as is clearly the case now, we will actively seek to minimize that shortfall by using our tools to support economic growth and job creation."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Households and businesses will come to expect this result, meaning that inflation expectations would tend to move below our inflation goal and pull realized inflation down."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Therefore, following periods when inflation has been running below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In conducting monetary policy, we will remain highly focused on fostering as strong a labor market as possible for the benefit of all Americans."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe that conducting a review at regular intervals is a good institutional practice, providing valuable feedback and enhancing transparency and accountability."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "A discussion of various concepts of unemployment rate benchmarks that are frequently used by policymakers for assessing the current state of the economy is presented in Crump and others (2020)."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The 2012 statement noted that the Committee would mitigate \"deviations\" of employment from the Committee's assessments of its maximum level, suggesting that the Committee would actively seek to lower employment if it assessed that employment was above the Committee's estimate of its maximum level."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In addition, because real-time estimates are highly uncertain, we no longer refer to estimates of the natural rate of unemployment from the SEP in our consensus statement."
+    }
+  ]
+}

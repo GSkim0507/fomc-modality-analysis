@@ -1,0 +1,595 @@
+{
+  "doc_id": "speech_bernanke_20110928a",
+  "doc_type": "speech",
+  "date": "2011-09-28",
+  "chair": "Bernanke",
+  "n_tokens": 5164,
+  "n_sents": 269,
+  "pos_counts": {
+    "NNP": 590,
+    "CD": 204,
+    ",": 394,
+    "NNS": 426,
+    "IN": 778,
+    "NNPS": 16,
+    "DT": 435,
+    "JJ": 501,
+    "``": 35,
+    "NN": 803,
+    "''": 35,
+    ".": 285,
+    "PRP": 49,
+    "VBP": 95,
+    "TO": 57,
+    "VB": 153,
+    "POS": 21,
+    "PRP$": 23,
+    "RB": 200,
+    "HYPH": 44,
+    "VBN": 146,
+    "CC": 192,
+    "VBZ": 99,
+    "JJR": 31,
+    "VBG": 150,
+    "RBS": 7,
+    "JJS": 10,
+    "MD": 46,
+    "WP": 7,
+    "RBR": 20,
+    ":": 48,
+    "WRB": 16,
+    "VBD": 53,
+    "RP": 11,
+    "WDT": 35,
+    "UH": 1,
+    "-LRB-": 80,
+    "-RRB-": 80,
+    "EX": 3,
+    "PDT": 1,
+    "WP$": 1,
+    "$": 1,
+    "FW": 1,
+    "SYM": 15,
+    "NFP": 24
+  },
+  "modal_count": 46,
+  "modal_lemma_counts": {
+    "will": 9,
+    "can": 15,
+    "would": 4,
+    "may": 6,
+    "should": 7,
+    "must": 3,
+    "could": 2
+  },
+  "modals_per_1000": 8.908,
+  "epistemic_count": 7,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "likely": 1,
+    "certain": 3,
+    "potentially": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 1.356,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 162,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "\n \n Today I",
+      "right_3": "discuss what the",
+      "sentence": "1   Today I will discuss what the experience of the emerging markets teaches us about the sources of economic growth and conclude with some thoughts about the prospects for future growth in this critical part of the global economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 437,
+      "head_verb_surface": "scratch",
+      "head_verb_lemma": "scratch",
+      "left_3": ", and I",
+      "right_3": "only scratch the",
+      "sentence": "The answer is complex, of course, and I can only scratch the surface of these issues today; but I hope to lay out some key themes and provide some food for thought."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 719,
+      "head_verb_surface": "predicted",
+      "head_verb_lemma": "predict",
+      "left_3": "relative to what",
+      "right_3": "be predicted based",
+      "sentence": "Notably, emerging Asian economies have tended to outperform, relative to what would be predicted based solely on their levels of income per person, say, 30 years ago."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 899,
+      "head_verb_surface": "divided",
+      "head_verb_lemma": "divide",
+      "left_3": "list of recommendations",
+      "right_3": "usefully be divided",
+      "sentence": "Williamson's original list of recommendations can usefully be divided into three categories: first, steps to increase  macroeconomic stability , such as reducing fiscal deficits (which had caused high inflation in many countries), broadening the tax base, and reallocating government resources to build human and physical capital; second, actions to increase the role of  markets  in the economy, suc"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1112,
+      "head_verb_surface": "learn",
+      "head_verb_lemma": "learn",
+      "left_3": "many , we",
+      "right_3": "learn something about",
+      "sentence": "By comparing current views with those described by Williamson in 1990, and accepted by many, we may learn something about which ideas have held up and which have been modified or refuted by recent events."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1150,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "events . I",
+      "right_3": "take in turn",
+      "sentence": "I will take in turn the three groups of policies that make up the Washington Consensus."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1437,
+      "head_verb_surface": "agree",
+      "head_verb_lemma": "agree",
+      "left_3": "most observers today",
+      "right_3": "agree that carefully",
+      "sentence": "The basic idea here has held up pretty well; most observers today would agree that carefully managed liberalization--the substitution of markets for bureaucratic control of the economy--is necessary for sustained growth."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1578,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": ", as I",
+      "right_3": "discuss in a",
+      "sentence": "However, as I will discuss in a moment, experience has also shown that the success of reform programs may depend crucially on how the transition to greater market orientation is managed, and in particular on how market reforms are sequenced, issues on which the Washington Consensus is largely silent."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1578,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "of reform programs",
+      "right_3": "depend crucially on",
+      "sentence": "However, as I will discuss in a moment, experience has also shown that the success of reform programs may depend crucially on how the transition to greater market orientation is managed, and in particular on how market reforms are sequenced, issues on which the Washington Consensus is largely silent."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1660,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "these factors too",
+      "right_3": "be important for",
+      "sentence": "The evidence suggests that these factors too can be important for development."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1874,
+      "head_verb_surface": "highlight",
+      "head_verb_lemma": "highlight",
+      "left_3": "1990 . I",
+      "right_3": "highlight three specific",
+      "sentence": "I will highlight three specific lessons."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2009,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "and bank regulation",
+      "right_3": "be put in",
+      "sentence": "This experience suggests that measures to strengthen banks and bank regulation should be put in place before the domestic market is opened to capital flows from abroad."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2227,
+      "head_verb_surface": "developed",
+      "head_verb_lemma": "develop",
+      "left_3": "compliance tools ,",
+      "right_3": "be sufficiently developed",
+      "sentence": "The broader lesson is that institutional arrangements, ranging from accounting rules to regulatory frameworks to tax-compliance tools, must be sufficiently developed to ensure that reforms are successful."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2317,
+      "head_verb_surface": "achieved",
+      "head_verb_lemma": "achieve",
+      "left_3": "gains in productivity",
+      "right_3": "be achieved by",
+      "sentence": "For emerging market economies, which tend to lag behind in technological sophistication, rapid gains in productivity can be achieved by adapting state-of-the-art technologies already developed by the advanced economies rather than by having to develop these technologies from scratch."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2725,
+      "head_verb_surface": "achieved",
+      "head_verb_lemma": "achieve",
+      "left_3": "efficiency gains that",
+      "right_3": "be achieved in",
+      "sentence": "Economies of scale refer to the efficiency gains that can be achieved in some industries when production is run at a very large scale."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2750,
+      "head_verb_surface": "arise",
+      "head_verb_lemma": "arise",
+      "left_3": ". These gains",
+      "right_3": "arise because of",
+      "sentence": "These gains may arise because of the nature of the technologies involved--as, for example, in steel manufacturing."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2775,
+      "head_verb_surface": "arise",
+      "head_verb_lemma": "arise",
+      "left_3": "some cases they",
+      "right_3": "also arise because",
+      "sentence": "But in some cases they can also arise because of the need to develop a critical mass of skilled workers and specialized suppliers."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2856,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", isolated firm",
+      "right_3": "not likely be",
+      "sentence": "13   A single, isolated firm would not likely be as productive."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2870,
+      "head_verb_surface": "arise",
+      "head_verb_lemma": "arise",
+      "left_3": ", scale economies",
+      "right_3": "arise in the",
+      "sentence": "Thus, scale economies can arise in the development of knowledge centers, like research universities, or in the building of large-scale infrastructure, like a national highway system."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2975,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "Encouraging international trade",
+      "right_3": "also help countries",
+      "sentence": "15    \r  Encouraging international trade can also help countries capture the benefits of scale."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3014,
+      "head_verb_surface": "exploited",
+      "head_verb_lemma": "exploit",
+      "left_3": "economies of scale",
+      "right_3": "be more fully",
+      "sentence": "Access to global markets has enabled production to expand to levels where economies of scale could be more fully exploited."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3035,
+      "head_verb_surface": "gained",
+      "head_verb_lemma": "gain",
+      "left_3": ". Additional efficiencies",
+      "right_3": "sometimes be gained",
+      "sentence": "Additional efficiencies can sometimes be gained when countries specialize in particular stages of a good's production."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3053,
+      "head_verb_surface": "processed",
+      "head_verb_lemma": "process",
+      "left_3": ", which themselves",
+      "right_3": "be further processed",
+      "sentence": "They import parts and components from other countries and use them to produce new products, which themselves may be further processed or assembled in still other countries."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3148,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": "economies of scale",
+      "right_3": ", in some",
+      "sentence": "The existence of economies of scale may, in some circumstances, also create a rationale for targeted government interventions in the economy--in other words, industrial policy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3179,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "- scale industries",
+      "right_3": "not be able",
+      "sentence": "The premise of industrial policy is that large-scale industries may not be able to get off the ground without government support or protection, given the substantial start-up costs and the existence of more-efficient competitors in other countries."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3255,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "But such interventions",
+      "right_3": "be double -",
+      "sentence": "16   But such interventions can be double-edged swords."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3393,
+      "head_verb_surface": "draw",
+      "head_verb_lemma": "draw",
+      "left_3": "\n\r\n  What implications",
+      "right_3": "we draw for",
+      "sentence": "Lessons and Implications for the Future \r  What implications can we draw for longer-term prospects for growth in the emerging market economies?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3442,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "emerging market economies",
+      "right_3": "be able to",
+      "sentence": "This fact suggests that the emerging market economies should be able to maintain relatively high growth rates for some years to come, as they continue to catch up to the advanced economies."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3476,
+      "head_verb_surface": "lose",
+      "head_verb_lemma": "lose",
+      "left_3": "sophisticated , they",
+      "right_3": "gradually lose the",
+      "sentence": "But over time, as the emerging market countries become wealthier and technologically more sophisticated, they will gradually lose the advantages of starting from behind."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3503,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": ", their growth",
+      "right_3": "slow as returns",
+      "sentence": "Even with continued strong policies, their growth will slow as returns to capital investments diminish and the most profitable opportunities are exploited."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3528,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "wages in manufacturing",
+      "right_3": "make production and",
+      "sentence": "18   For example, over time, rising wages in manufacturing should make production and investment in China and other East Asian nations less attractive."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3555,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": ", technological progress",
+      "right_3": "slow as the",
+      "sentence": "Also, technological progress will slow as the process of importing foreign technologies reaches its limits, forcing greater reliance on innovation in emerging countries themselves."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3582,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "aging populations ,",
+      "right_3": "also slow economic",
+      "sentence": "Resource and environmental constraints, as well as aging populations, should also slow economic growth."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3599,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "slowdown in growth",
+      "right_3": "be the inevitable",
+      "sentence": "But in many ways, such a slowdown in growth will be the inevitable result of progress--the culmination of a successful catching up process--and in that respect should be viewed as a consequence of success, not of failure."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3599,
+      "head_verb_surface": "viewed",
+      "head_verb_lemma": "view",
+      "left_3": "in that respect",
+      "right_3": "be viewed as",
+      "sentence": "But in many ways, such a slowdown in growth will be the inevitable result of progress--the culmination of a successful catching up process--and in that respect should be viewed as a consequence of success, not of failure."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3644,
+      "head_verb_surface": "challenged",
+      "head_verb_lemma": "challenge",
+      "left_3": "emerging markets also",
+      "right_3": "be challenged by",
+      "sentence": "Many emerging markets also will be challenged by their reliance on trade to drive growth."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3754,
+      "head_verb_surface": "view",
+      "head_verb_lemma": "view",
+      "left_3": "many of them",
+      "right_3": "no longer view",
+      "sentence": "In fact, with the emerging market economies accounting for a large and growing share of global activity, many of them can no longer view themselves as small, open economies whose actions have little effect on their neighbors."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3886,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": ". These forums",
+      "right_3": "be used by",
+      "sentence": "These forums should be used by advanced economies and emerging economies alike to meet their respective responsibilities to the global economy in a spirit of cooperation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3914,
+      "head_verb_surface": "draw",
+      "head_verb_lemma": "draw",
+      "left_3": ", what lessons",
+      "right_3": "we draw about",
+      "sentence": "So, what lessons can we draw about the Washington Consensus and, more generally, about the experience of the dynamic emerging market economies over the past decades?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3982,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "years , we",
+      "right_3": "see that Williamson",
+      "sentence": "However, with the experience and perspective of the past 20 years, we can see that Williamson's recommendations were not complete."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 4006,
+      "head_verb_surface": "sequenced",
+      "head_verb_lemma": "sequence",
+      "left_3": "complete . Reforms",
+      "right_3": "be sequenced and",
+      "sentence": "Reforms must be sequenced and implemented appropriately to have their desired effects."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 4019,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "successful development framework",
+      "right_3": "take into account",
+      "sentence": "And a successful development framework must take into account that activities such as the adaptation of advanced technologies and the harnessing economies of scale are often critical to economic growth and depend on a host of institutional conditions, such as an educated workforce, to be fully effective."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4070,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "the United States",
+      "right_3": "do well to",
+      "sentence": "Indeed, advanced economies like the United States would do well to re-learn some of the lessons from the experiences of the emerging market economies, such as the importance of disciplined fiscal policies, the benefits of open trade, the need to encourage private capital formation while undertaking necessary public investments, the high returns to education and to promoting technological advances,"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4154,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": "market economies ,",
+      "right_3": "pay significant dividends",
+      "sentence": "As the advanced economies look for ways of enhancing longer-term growth, a re-reading of Williamson's original Washington Consensus, combined with close attention to the experiences of successful emerging market economies, could pay significant dividends."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 5005,
+      "head_verb_surface": "noted",
+      "head_verb_lemma": "note",
+      "left_3": ". ) It",
+      "right_3": "be noted that",
+      "sentence": "It should be noted that increasing the share of the public budget devoted to education was advocated by the Washington Consensus."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5054,
+      "head_verb_surface": "exploited",
+      "head_verb_lemma": "exploit",
+      "left_3": "economies of scale",
+      "right_3": "be continuously exploited",
+      "sentence": "This idea whereby economies of scale can be continuously exploited by the sharing of ideas and \"learning-by-doing\" is one source of what is called \"endogenous growth\" in the economics literature."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "4   Writing about Latin America, Williamson outlined a list of 10 broad policies to promote economic development that he judged as commanding, at the time he wrote, substantial support between both economists and policymakers."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "13   A single, isolated firm would not likely be as productive."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "For example, India's IT industry is clustered in certain regions, such as Bangalore, around some of the more successful and high-quality institutes of technology in the country."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Indeed, government support for certain industries does seem to have played a role in several of the best-performing emerging market economies, including China and Korea."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "But in many cases, similar interventions have failed or crowded out the development of other, potentially more profitable industries."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Recent research by Eichengreen and others (2011) draws on cross-country evidence to show that the pace of a country's economic growth tends to slow once its level of real per capita income crosses a certain threshold."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "\" The Washington Consensus: Assessing a Damaged Brand ,\" World Bank Policy Research Working Paper No. 5316."
+    }
+  ]
+}

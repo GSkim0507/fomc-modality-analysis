@@ -1,0 +1,181 @@
+{
+  "doc_id": "speech_powell_20250602a",
+  "doc_type": "speech",
+  "date": "2025-06-02",
+  "chair": "Powell",
+  "n_tokens": 1324,
+  "n_sents": 58,
+  "pos_counts": {
+    "NNP": 137,
+    "CD": 17,
+    ",": 86,
+    "IN": 183,
+    "DT": 137,
+    "JJ": 146,
+    "NNS": 121,
+    "NN": 189,
+    "XX": 10,
+    "-RRB-": 8,
+    "VBP": 27,
+    "SYM": 8,
+    ":": 8,
+    "VBZ": 18,
+    "RB": 37,
+    "CC": 73,
+    "-LRB-": 3,
+    "RP": 6,
+    "MD": 7,
+    "VB": 43,
+    "VBN": 22,
+    ".": 54,
+    "PRP": 25,
+    "TO": 25,
+    "VBG": 29,
+    "PRP$": 15,
+    "VBD": 32,
+    "JJS": 1,
+    "RBS": 1,
+    "NNPS": 3,
+    "RBR": 6,
+    "POS": 3,
+    "WDT": 8,
+    "WRB": 5,
+    "JJR": 1,
+    "HYPH": 2,
+    "``": 1,
+    "''": 1,
+    "WP": 2,
+    "PDT": 2,
+    "LS": 1
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "may": 1,
+    "will": 4,
+    "could": 1,
+    "can": 1
+  },
+  "modals_per_1000": 5.287,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "undoubtedly": 1,
+    "potentially": 1,
+    "anticipate": 1,
+    "assess": 2
+  },
+  "epistemics_per_1000": 3.776,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 111,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 245,
+      "head_verb_surface": "miss",
+      "head_verb_lemma": "miss",
+      "left_3": "economists . We",
+      "right_3": "miss him .",
+      "sentence": "We will miss him."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 458,
+      "head_verb_surface": "kick",
+      "head_verb_lemma": "kick",
+      "left_3": ". Today I",
+      "right_3": "kick off this",
+      "sentence": "Today I will kick off this conference by briefly reviewing why the division was created and highlighting a few of its many accomplishments over the years, before turning you over to a robust set of presentations and panels."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 604,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "foreign economic relations",
+      "right_3": "undoubtedly continue to",
+      "sentence": "A 1948 memo proposing to create this division stated, \"Problems of international economics and finance have become increasingly large, complex, and significant in recent years, and our foreign economic relations will undoubtedly continue to give rise to issues of the first magnitude.\""
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1264,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "analytical products that",
+      "right_3": "be used to",
+      "sentence": "1  These periods of acute financial stress and uncertainty prompted the division to develop new tools and analytical products that could be used to understand and respond to the events unfolding on the ground."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1370,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": "Conclusion \n\r\n I",
+      "right_3": "conclude by saying",
+      "sentence": "Conclusion \r I will conclude by saying that, for 75 years, nine Fed chairs and countless Board members have greatly benefited from the guidance and counsel of IF staffâand not just when responding to crisis."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1482,
+      "head_verb_surface": "deliver",
+      "head_verb_lemma": "deliver",
+      "left_3": "so that we",
+      "right_3": "deliver on our",
+      "sentence": "And, finally, thank you again to all the current and former IF staff for what you have done and continue to do to help us be a globally knowledgeable and responsive central bank, so that we can deliver on our dual mandate for all Americans."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "undoubtedly",
+      "lemma": "undoubtedly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "A 1948 memo proposing to create this division stated, \"Problems of international economics and finance have become increasingly large, complex, and significant in recent years, and our foreign economic relations will undoubtedly continue to give rise to issues of the first magnitude.\""
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "However, the end of the Bretton Woods era in the 1970s fundamentally changed the conduct of monetary policy, as policymakers had to understand the effects of potentially more volatile movements of the U.S. dollar on American families and businesses."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Understanding this complex and interconnected web is essential for us to anticipate the path of employment and inflation."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "These models have proven useful for understanding how international shocks transmit through the economy and financial markets, for assessing risks and uncertainties through alternative scenarios, and for better comprehending the implications of various shocks for the U.S. and global economy."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "For instance, the division has devised new methods to measure and assess the effect of various types of uncertainty on economic activity, including new indexes that were built to track geopolitical risk, inflation, trade policy, and economic uncertainty."
+    }
+  ]
+}

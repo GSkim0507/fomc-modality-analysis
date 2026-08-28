@@ -1,0 +1,1212 @@
+{
+  "doc_id": "speech_bernanke_20121120a",
+  "doc_type": "speech",
+  "date": "2012-11-20",
+  "chair": "Bernanke",
+  "n_tokens": 5054,
+  "n_sents": 175,
+  "pos_counts": {
+    "NNP": 402,
+    "CD": 146,
+    ",": 297,
+    "DT": 525,
+    "CC": 184,
+    "IN": 714,
+    "JJ": 459,
+    "NN": 866,
+    ".": 175,
+    "PRP": 55,
+    "VBP": 98,
+    "TO": 79,
+    "VB": 209,
+    "PRP$": 42,
+    "NNS": 370,
+    "RB": 260,
+    "VBG": 86,
+    "WP": 7,
+    "VBZ": 100,
+    "VBN": 153,
+    "MD": 80,
+    "WDT": 38,
+    "-LRB-": 34,
+    "-RRB-": 34,
+    "HYPH": 44,
+    "RBR": 15,
+    "JJR": 43,
+    "VBD": 48,
+    "WRB": 13,
+    "RP": 12,
+    "POS": 20,
+    ":": 55,
+    "JJS": 6,
+    "SYM": 13,
+    "LS": 2,
+    "EX": 3,
+    "NNPS": 26,
+    "RBS": 2,
+    "``": 21,
+    "''": 17
+  },
+  "modal_count": 80,
+  "modal_lemma_counts": {
+    "will": 24,
+    "would": 13,
+    "can": 8,
+    "should": 11,
+    "may": 15,
+    "must": 2,
+    "could": 6,
+    "might": 1
+  },
+  "modals_per_1000": 15.829,
+  "epistemic_count": 41,
+  "epistemic_lemma_counts": {
+    "anticipate": 2,
+    "obviously": 1,
+    "likely": 10,
+    "potential": 9,
+    "probably": 3,
+    "expect": 8,
+    "perhaps": 1,
+    "potentially": 1,
+    "certainly": 1,
+    "clearly": 1,
+    "uncertain": 1,
+    "project": 1,
+    "judge": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 8.112,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 95,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "My remarks today",
+      "right_3": "focus on the",
+      "sentence": "My remarks today will focus on the reasons for the disappointingly slow pace of economic recovery in the United States and the policy actions that have been taken by the Federal Open Market Committee (FOMC) to support the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 137,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "addition , I",
+      "right_3": "discuss some important",
+      "sentence": "In addition, I will discuss some important economic challenges our country faces as we close out 2012 and move into 2013--in particular, the challenge of putting federal government finances on a sustainable path in the longer run while avoiding actions that would endanger the economic recovery in the near term."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 137,
+      "head_verb_surface": "endanger",
+      "head_verb_lemma": "endanger",
+      "left_3": "avoiding actions that",
+      "right_3": "endanger the economic",
+      "sentence": "In addition, I will discuss some important economic challenges our country faces as we close out 2012 and move into 2013--in particular, the challenge of putting federal government finances on a sustainable path in the longer run while avoiding actions that would endanger the economic recovery in the near term."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 320,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "and I think",
+      "right_3": "be sustained once",
+      "sentence": "This decline is obviously welcome, but it has taken a long time to achieve that progress, and the unemployment rate is still well above both its level prior to the onset of the recession and the level that my colleagues and I think can be sustained once a full recovery has been achieved."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 376,
+      "head_verb_surface": "deemed",
+      "head_verb_lemma": "deem",
+      "left_3": "the labor market",
+      "right_3": "be deemed healthy",
+      "sentence": "Moreover, many other features of the jobs market, including the historically high level of long-term unemployment, the large number of people working part time because they have not been able to find full-time jobs, and the decline in labor force participation, reinforce the conclusion that we have some way to go before the labor market can be deemed healthy again."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 572,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "and product markets",
+      "right_3": "continue to restrain",
+      "sentence": "1  Because ongoing slack in labor and product markets should continue to restrain wage and price increases, and with the public's inflation expectations continuing to be well anchored, inflation over the next few years is likely to remain close to or a little below the Committee's objective."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 705,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "accompany them ,",
+      "right_3": "reduce an economy",
+      "sentence": "While this result allows for many interpretations, one possibility is that financial crises, or the deep recessions that typically accompany them, may reduce an economy's potential growth rate, at least for a time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 775,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "of potential output",
+      "right_3": "help explain why",
+      "sentence": "In particular, slower growth of potential output would help explain why the unemployment rate has declined in the face of the relatively modest output gains we have seen during the recovery."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 848,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "of potential output",
+      "right_3": "have recently been",
+      "sentence": "So the fact that unemployment has declined in recent years despite economic growth at about 2 percent suggests that the growth rate of potential output must have recently been lower than the roughly 2-1/2 percent rate that appeared to be in place before the crisis."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 897,
+      "head_verb_surface": "slowed",
+      "head_verb_lemma": "slow",
+      "left_3": "the financial crisis",
+      "right_3": "have slowed the",
+      "sentence": "3  \r  There are a number of ways in which the financial crisis could have slowed the rate of growth of the economy's potential."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 923,
+      "head_verb_surface": "exacerbated",
+      "head_verb_lemma": "exacerbate",
+      "left_3": "related industries ,",
+      "right_3": "have exacerbated for",
+      "sentence": "For example, the extraordinarily severe job losses that followed the crisis, especially in housing-related industries, may have exacerbated for a time the extent of mismatch between the jobs available and the skills and locations of the unemployed."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 993,
+      "head_verb_surface": "pushed",
+      "head_verb_lemma": "push",
+      "left_3": ". These factors",
+      "right_3": "have pushed up",
+      "sentence": "These factors may have pushed up to some degree the so-called natural rate of unemployment--the rate of unemployment that can be sustained under normal conditionsââand reduced labor force participation as well."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 993,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "of unemployment that",
+      "right_3": "be sustained under",
+      "sentence": "These factors may have pushed up to some degree the so-called natural rate of unemployment--the rate of unemployment that can be sustained under normal conditionsââand reduced labor force participation as well."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1029,
+      "head_verb_surface": "restrained",
+      "head_verb_lemma": "restrain",
+      "left_3": "potential output --",
+      "right_3": "also have been",
+      "sentence": "The pace of productivity gainsââanother key determinant of growth in potential output--may also have been restrained by the crisis, as business investment declined sharply during the recession; and increases in risk aversion and uncertainty, together with tight credit conditions, may have impeded the commercial application of new technologies and slowed the pace of business formation."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1029,
+      "head_verb_surface": "impeded",
+      "head_verb_lemma": "impede",
+      "left_3": "credit conditions ,",
+      "right_3": "have impeded the",
+      "sentence": "The pace of productivity gainsââanother key determinant of growth in potential output--may also have been restrained by the crisis, as business investment declined sharply during the recession; and increases in risk aversion and uncertainty, together with tight credit conditions, may have impeded the commercial application of new technologies and slowed the pace of business formation."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1092,
+      "head_verb_surface": "grown",
+      "head_verb_lemma": "grow",
+      "left_3": "'s potential output",
+      "right_3": "have grown more",
+      "sentence": "Importantly, however, although the nation's potential output may have grown more slowly than expected in recent years, this slowing seems at best a partial explanation of the disappointing pace of the economic recovery."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1130,
+      "head_verb_surface": "increased",
+      "head_verb_lemma": "increase",
+      "left_3": "rate of unemployment",
+      "right_3": "have increased somewhat",
+      "sentence": "In particular, even though the natural rate of unemployment may have increased somewhat, a variety of evidence suggests that any such increase has been modest, and that substantial slack remains in the labor market."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1188,
+      "head_verb_surface": "imply",
+      "head_verb_lemma": "imply",
+      "left_3": "because greater mismatch",
+      "right_3": "imply that the",
+      "sentence": "That pattern suggests a broad-based shortfall in demand rather than a substantial increase in mismatch between available jobs and workers, because greater mismatch would imply that the demand for workers would be strong in some regions and industries, not weak almost across the board."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1188,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "demand for workers",
+      "right_3": "be strong in",
+      "sentence": "That pattern suggests a broad-based shortfall in demand rather than a substantial increase in mismatch between available jobs and workers, because greater mismatch would imply that the demand for workers would be strong in some regions and industries, not weak almost across the board."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1237,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "problem , we",
+      "right_3": "expect to see",
+      "sentence": "Likewise, if a mismatch of jobs and workers is the predominant problem, we would expect to see wage pressures developing in those regions and industries where labor demand is strong; in fact, wage gains have been quite subdued in most industries and parts of the country."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1359,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": ", which I",
+      "right_3": "discuss further ,",
+      "sentence": "A likely explanation, which I will discuss further, is that the economy has been faced with a variety of headwinds that have hindered what otherwise might have been a stronger cyclical rebound."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1359,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "hindered what otherwise",
+      "right_3": "have been a",
+      "sentence": "A likely explanation, which I will discuss further, is that the economy has been faced with a variety of headwinds that have hindered what otherwise might have been a stronger cyclical rebound."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1394,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "so , we",
+      "right_3": "take some encouragement",
+      "sentence": "If so, we may take some encouragement from the likelihood that there are potentially two sources of faster GDP growth in the future."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1419,
+      "head_verb_surface": "fade",
+      "head_verb_lemma": "fade",
+      "left_3": "on potential output",
+      "right_3": "fade as the",
+      "sentence": "First, the effects of the crisis on potential output should fade as the economy continues to heal."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1441,
+      "head_verb_surface": "pick",
+      "head_verb_lemma": "pick",
+      "left_3": "expect , growth",
+      "right_3": "pick up further",
+      "sentence": "And second, if the headwinds begin to dissipate, as I expect, growth should pick up further as many who are currently unemployed or out of the labor force find work."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1678,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", residential investment",
+      "right_3": "be a source",
+      "sentence": "These developments are encouraging, and it seems likely that, on net, residential investment will be a source of economic growth and new jobs over the next couple of years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2238,
+      "head_verb_surface": "position",
+      "head_verb_lemma": "position",
+      "left_3": "balance sheet improvements",
+      "right_3": "position banks to",
+      "sentence": "Banks' capital positions and overall asset quality have improved substantially over the past several years, and, over time, these balance sheet improvements will position banks to extend considerably more credit to bank-dependent borrowers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2404,
+      "head_verb_surface": "resolved",
+      "head_verb_lemma": "resolve",
+      "left_3": "the problems there",
+      "right_3": "be resolved are",
+      "sentence": "The elevated levels of stress in European economies and uncertainty about how the problems there will be resolved are adding to the risks that U.S. financial institutions, businesses, and households must consider when making lending and investment decisions."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2404,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": ", and households",
+      "right_3": "consider when making",
+      "sentence": "The elevated levels of stress in European economies and uncertainty about how the problems there will be resolved are adding to the risks that U.S. financial institutions, businesses, and households must consider when making lending and investment decisions."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2513,
+      "head_verb_surface": "purchase",
+      "head_verb_lemma": "purchase",
+      "left_3": "under which it",
+      "right_3": "purchase the sovereign",
+      "sentence": "In particular, the European Central Bank's new Outright Monetary Transactions program, under which it could purchase the sovereign debt of vulnerable euro-area countries who agree to meet prescribed conditions, has helped ease market concerns about those countries."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2578,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "global financial conditions",
+      "right_3": "depend in part",
+      "sentence": "Further improvement in global financial conditions will depend in part on the extent to which European policymakers follow through on these initiatives."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2602,
+      "head_verb_surface": "intensify",
+      "head_verb_lemma": "intensify",
+      "left_3": "and one that",
+      "right_3": "intensify in force",
+      "sentence": "A third headwind to the recovery--and one that may intensify in force in coming quarters--is U.S. fiscal policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2789,
+      "head_verb_surface": "outweigh",
+      "head_verb_lemma": "outweigh",
+      "left_3": "on GDP growth",
+      "right_3": "outweigh the positive",
+      "sentence": "Indeed, under almost any plausible scenario, next year the drag from federal fiscal policy on GDP growth will outweigh the positive effects on growth from fiscal expansion at the state and local level."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2891,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "and the Administration",
+      "right_3": "need to protect",
+      "sentence": "First, the Congress and the Administration will need to protect the economy from the full brunt of the severe fiscal tightening at the beginning of next year that is built into current law--the so-called fiscal cliff."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2933,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "offsetting changes ,",
+      "right_3": "pose a substantial",
+      "sentence": "The realization of all of the automatic tax increases and spending cuts that make up the fiscal cliff, absent offsetting changes, would pose a substantial threat to the recovery--indeed, by the reckoning of the Congressional Budget Office (CBO) and that of many outside observers, a fiscal shock of that size would send the economy toppling back into recession."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2933,
+      "head_verb_surface": "send",
+      "head_verb_lemma": "send",
+      "left_3": "of that size",
+      "right_3": "send the economy",
+      "sentence": "The realization of all of the automatic tax increases and spending cuts that make up the fiscal cliff, absent offsetting changes, would pose a substantial threat to the recovery--indeed, by the reckoning of the Congressional Budget Office (CBO) and that of many outside observers, a fiscal shock of that size would send the economy toppling back into recession."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3000,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "new year it",
+      "right_3": "be necessary to",
+      "sentence": "Second, early in the new year it will be necessary to approve an increase in the federal debt limit to avoid any possibility of a catastrophic default on the nation's Treasury securities and other obligations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3038,
+      "head_verb_surface": "recall",
+      "head_verb_lemma": "recall",
+      "left_3": ". As you",
+      "right_3": "recall , the",
+      "sentence": "As you will recall, the threat of default in the summer of 2011 fueled economic uncertainty and badly damaged confidence, even though an agreement ultimately was reached."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3068,
+      "head_verb_surface": "impose",
+      "head_verb_lemma": "impose",
+      "left_3": "this time around",
+      "right_3": "impose even heavier",
+      "sentence": "A failure to reach a timely agreement this time around could impose even heavier economic and financial costs."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3088,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "decisions , they",
+      "right_3": "keep two objectives",
+      "sentence": "As fiscal policymakers face these critical decisions, they should keep two objectives in mind."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3164,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the budget deficit",
+      "right_3": "still be greater",
+      "sentence": "However, the CBO projects that, under a plausible set of policy assumptions, the budget deficit would still be greater than 4 percent of GDP in 2018, assuming the economy has returned to its potential by then."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3205,
+      "head_verb_surface": "return",
+      "head_verb_lemma": "return",
+      "left_3": "debt to GDP",
+      "right_3": "subsequently return to",
+      "sentence": "Moreover, under the CBO projection, the deficit and the ratio of federal debt to GDP would subsequently return to an upward trend."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3231,
+      "head_verb_surface": "understand",
+      "head_verb_lemma": "understand",
+      "left_3": "course , we",
+      "right_3": "all understand that",
+      "sentence": "9  Of course, we should all understand that long-term projections of ever-increasing deficits will never actually come to pass, because the willingness of lenders to continue to fund the government can only be sustained by responsible fiscal plans and actions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3231,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "- increasing deficits",
+      "right_3": "never actually come",
+      "sentence": "9  Of course, we should all understand that long-term projections of ever-increasing deficits will never actually come to pass, because the willingness of lenders to continue to fund the government can only be sustained by responsible fiscal plans and actions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3231,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "fund the government",
+      "right_3": "only be sustained",
+      "sentence": "9  Of course, we should all understand that long-term projections of ever-increasing deficits will never actually come to pass, because the willingness of lenders to continue to fund the government can only be sustained by responsible fiscal plans and actions."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3325,
+      "head_verb_surface": "ignore",
+      "head_verb_lemma": "ignore",
+      "left_3": "sustainability , they",
+      "right_3": "not ignore a",
+      "sentence": "Even as fiscal policymakers address the urgent issue of longer-run fiscal sustainability, they should not ignore a second key objective: to avoid unnecessarily adding to the headwinds that are already holding back the economic recovery."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3377,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": "early next year",
+      "right_3": "support the transition",
+      "sentence": "Preventing a sudden and severe contraction in fiscal policy early next year will support the transition of the economy back to full employment; a stronger economy will in turn reduce the deficit and contribute to achieving long-term fiscal sustainability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3377,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "a stronger economy",
+      "right_3": "in turn reduce",
+      "sentence": "Preventing a sudden and severe contraction in fiscal policy early next year will support the transition of the economy back to full employment; a stronger economy will in turn reduce the deficit and contribute to achieving long-term fiscal sustainability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3420,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a path that",
+      "right_3": "be sustainable in",
+      "sentence": "At the same time, a credible plan to put the federal budget on a path that will be sustainable in the long run could help keep longer-term interest rates low and boost household and business confidence, thereby supporting economic growth today."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3420,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "the long run",
+      "right_3": "help keep longer",
+      "sentence": "At the same time, a credible plan to put the federal budget on a path that will be sustainable in the long run could help keep longer-term interest rates low and boost household and business confidence, thereby supporting economic growth today."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3467,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "find fiscal solutions",
+      "right_3": "not be easy",
+      "sentence": "Coming together to find fiscal solutions will not be easy, but the stakes are high."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3484,
+      "head_verb_surface": "addressed",
+      "head_verb_lemma": "address",
+      "left_3": "term budget situation",
+      "right_3": "be addressed appears",
+      "sentence": "Uncertainty about how the fiscal cliff, the raising of the debt limit, and the longer-term budget situation will be addressed appears already to be affecting private spending and investment decisions and may be contributing to an increased sense of caution in financial markets, with adverse effects on the economy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3484,
+      "head_verb_surface": "contributing",
+      "head_verb_lemma": "contribute",
+      "left_3": "investment decisions and",
+      "right_3": "be contributing to",
+      "sentence": "Uncertainty about how the fiscal cliff, the raising of the debt limit, and the longer-term budget situation will be addressed appears already to be affecting private spending and investment decisions and may be contributing to an increased sense of caution in financial markets, with adverse effects on the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3539,
+      "head_verb_surface": "prolong",
+      "head_verb_lemma": "prolong",
+      "left_3": "difficult policy choices",
+      "right_3": "only prolong and",
+      "sentence": "Continuing to push off difficult policy choices will only prolong and intensify these uncertainties."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3554,
+      "head_verb_surface": "influenced",
+      "head_verb_lemma": "influence",
+      "left_3": "general public likely",
+      "right_3": "also be influenced",
+      "sentence": "Moreover, while the details of whatever agreement is reached to resolve the fiscal cliff are important, the economic confidence of both market participants and the general public likely will also be influenced by the extent to which our political system proves able to deliver a reasonable solution with a minimum of uncertainty and delay."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3611,
+      "head_verb_surface": "win",
+      "head_verb_lemma": "win",
+      "left_3": "term solutions that",
+      "right_3": "win sufficient political",
+      "sentence": "Finding long-term solutions that can win sufficient political support to be enacted may take some time, but meaningful progress toward this end can be achieved now if policymakers are willing to think creatively and work together constructively."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3611,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "to be enacted",
+      "right_3": "take some time",
+      "sentence": "Finding long-term solutions that can win sufficient political support to be enacted may take some time, but meaningful progress toward this end can be achieved now if policymakers are willing to think creatively and work together constructively."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3611,
+      "head_verb_surface": "achieved",
+      "head_verb_lemma": "achieve",
+      "left_3": "toward this end",
+      "right_3": "be achieved now",
+      "sentence": "Finding long-term solutions that can win sufficient political support to be enacted may take some time, but meaningful progress toward this end can be achieved now if policymakers are willing to think creatively and work together constructively."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3666,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "\r\n \n\n\r\n  Monetary policy",
+      "right_3": "do little to",
+      "sentence": "Monetary policy can do little to reverse the effects that the financial crisis may have had on the economy's productive potential."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3666,
+      "head_verb_surface": "had",
+      "head_verb_lemma": "have",
+      "left_3": "the financial crisis",
+      "right_3": "have had on",
+      "sentence": "Monetary policy can do little to reverse the effects that the financial crisis may have had on the economy's productive potential."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3806,
+      "head_verb_surface": "purchase",
+      "head_verb_lemma": "purchase",
+      "left_3": "the Federal Reserve",
+      "right_3": "purchase additional agency",
+      "sentence": "Most recently, after the September FOMC meeting, we announced that the Federal Reserve would purchase additional agency mortgage-backed securities (MBS) and continue with the program to extend the maturity of our Treasury holdings."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3847,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "additional asset purchases",
+      "right_3": "put downward pressure",
+      "sentence": "10  These additional asset purchases should put downward pressure on longer-term interest rates and make broader financial conditions more accommodative."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3904,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "indicated that we",
+      "right_3": "continue purchasing MBS",
+      "sentence": "In announcing this decision, we also indicated that we would continue purchasing MBS, undertake additional purchases of longer-term securities, and employ our other policy tools until we judge that the outlook for the labor market has improved substantially in a context of price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4023,
+      "head_verb_surface": "warranted",
+      "head_verb_lemma": "warrant",
+      "left_3": "federal funds rate",
+      "right_3": "likely be warranted",
+      "sentence": "In addition to announcing new purchases of MBS, at our September meeting we extended our guidance for how long we expect that exceptionally low levels for the federal funds rate will likely be warranted at least through the middle of 2015."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4066,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "of monetary policy",
+      "right_3": "remain appropriate for",
+      "sentence": "By pushing the expected period of low rates further into the future, we are not saying that we expect the economy to remain weak until mid-2015; rather, we expect--as we indicated in our September statement--that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4129,
+      "head_verb_surface": "want",
+      "head_verb_lemma": "want",
+      "left_3": "words , we",
+      "right_3": "want to be",
+      "sentence": "13  In other words, we will want to be sure that the recovery is established before we begin to normalize policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4153,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "that such assurances",
+      "right_3": "reduce uncertainty and",
+      "sentence": "We hope that such assurances will reduce uncertainty and increase confidence among households and businesses, thereby providing additional support for economic growth and job creation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4247,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "while monetary policy",
+      "right_3": "help support the",
+      "sentence": "As I have said before, however, while monetary policy can help support the economic recovery, it is by no means a panacea for our economic ills."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4313,
+      "head_verb_surface": "increased",
+      "head_verb_lemma": "increase",
+      "left_3": ". Such uncertainties",
+      "right_3": "only be increased",
+      "sentence": "Such uncertainties will only be increased by discord and delay."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4324,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "the recovery --",
+      "right_3": "help make the",
+      "sentence": "In contrast, cooperation and creativity to deliver fiscal clarity--in particular, a plan for resolving the nation's longer-term budgetary issues without harming the recovery--could help make the new year a very good one for the American economy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4653,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "during the recovery",
+      "right_3": "also reflect a",
+      "sentence": "Some of the decline in unemployment during the recovery could also reflect a reversal of the especially large increases that occurred during the deepest part of the recession, when firms appeared to cut their workforces by greater numbers than would normally be associated with the decline in GDP."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4653,
+      "head_verb_surface": "associated",
+      "head_verb_lemma": "associate",
+      "left_3": "greater numbers than",
+      "right_3": "normally be associated",
+      "sentence": "Some of the decline in unemployment during the recovery could also reflect a reversal of the especially large increases that occurred during the deepest part of the recession, when firms appeared to cut their workforces by greater numbers than would normally be associated with the decline in GDP."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4750,
+      "head_verb_surface": "contributed",
+      "head_verb_lemma": "contribute",
+      "left_3": "unemployment insurance benefits",
+      "right_3": "have contributed to",
+      "sentence": "A reduction in the number of people receiving extended or emergency unemployment insurance benefits may have contributed to the decline in unemployment as well."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 5042,
+      "head_verb_surface": "fade",
+      "head_verb_lemma": "fade",
+      "left_3": "the labor market",
+      "right_3": "fade as the",
+      "sentence": "For example, mismatch problems in the labor market should fade as the economy strengthens, a further rise in business investment would contribute to faster growth in the capital stock, and an improving economy should cause investors to become less risk averse."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5042,
+      "head_verb_surface": "contribute",
+      "head_verb_lemma": "contribute",
+      "left_3": "in business investment",
+      "right_3": "contribute to faster",
+      "sentence": "For example, mismatch problems in the labor market should fade as the economy strengthens, a further rise in business investment would contribute to faster growth in the capital stock, and an improving economy should cause investors to become less risk averse."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 5042,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "an improving economy",
+      "right_3": "cause investors to",
+      "sentence": "For example, mismatch problems in the labor market should fade as the economy strengthens, a further rise in business investment would contribute to faster growth in the capital stock, and an improving economy should cause investors to become less risk averse."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 5351,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "to private investors",
+      "right_3": "affect the prices",
+      "sentence": "Because different classes of financial assets are not perfect substitutes in investors' portfolios, changes in the supplies of various assets available to private investors may affect the prices and yields of those assets."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 5387,
+      "head_verb_surface": "raise",
+      "head_verb_lemma": "raise",
+      "left_3": "for example ,",
+      "right_3": "raise the prices",
+      "sentence": "Thus, the Federal Reserve's purchases of Treasury securities, for example, should raise the prices and lower the yields of those securities; moreover, as investors rebalance their portfolios by replacing the Treasury securities sold to the Federal Reserve with other assets, the prices of those other assets should rise and their yields decline as well."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 5387,
+      "head_verb_surface": "rise",
+      "head_verb_lemma": "rise",
+      "left_3": "those other assets",
+      "right_3": "rise and their",
+      "sentence": "Thus, the Federal Reserve's purchases of Treasury securities, for example, should raise the prices and lower the yields of those securities; moreover, as investors rebalance their portfolios by replacing the Treasury securities sold to the Federal Reserve with other assets, the prices of those other assets should rise and their yields decline as well."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 5449,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "our asset purchases",
+      "right_3": "also act as",
+      "sentence": "An increase in our asset purchases may also act as a signal that we intend to pursue a persistently more accommodative policy stance than previously thought, thereby lowering investors' expectations for the future path of the federal funds rate and putting additional downward pressure on longer-term interest rates."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Recovery from the Financial Crisis and Recession \r  The economy has continued to recover from the financial crisis and recession, but the pace of recovery has been slower than FOMC participants and many others had hoped or anticipated when I spoke here about three years ago."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "This decline is obviously welcome, but it has taken a long time to achieve that progress, and the unemployment rate is still well above both its level prior to the onset of the recession and the level that my colleagues and I think can be sustained once a full recovery has been achieved."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "1  Because ongoing slack in labor and product markets should continue to restrain wage and price increases, and with the public's inflation expectations continuing to be well anchored, inflation over the next few years is likely to remain close to or a little below the Committee's objective."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "While this result allows for many interpretations, one possibility is that financial crises, or the deep recessions that typically accompany them, may reduce an economy's potential growth rate, at least for a time."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The accumulating evidence does appear consistent with the financial crisis and the associated recession having reduced the potential growth rate of our economy somewhat during the past few years."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In particular, slower growth of potential output would help explain why the unemployment rate has declined in the face of the relatively modest output gains we have seen during the recovery."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "So the fact that unemployment has declined in recent years despite economic growth at about 2 percent suggests that the growth rate of potential output must have recently been lower than the roughly 2-1/2 percent rate that appeared to be in place before the crisis."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Meanwhile, the very high level of long-term unemployment has probably led to some loss of skills and labor force attachment among those workers."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The pace of productivity gainsââanother key determinant of growth in potential output--may also have been restrained by the crisis, as business investment declined sharply during the recession; and increases in risk aversion and uncertainty, together with tight credit conditions, may have impeded the commercial application of new technologies and slowed the pace of business formation."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Importantly, however, although the nation's potential output may have grown more slowly than expected in recent years, this slowing seems at best a partial explanation of the disappointing pace of the economic recovery."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Importantly, however, although the nation's potential output may have grown more slowly than expected in recent years, this slowing seems at best a partial explanation of the disappointing pace of the economic recovery."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Likewise, if a mismatch of jobs and workers is the predominant problem, we would expect to see wage pressures developing in those regions and industries where labor demand is strong; in fact, wage gains have been quite subdued in most industries and parts of the country."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "4  Indeed, as I indicated earlier, the consensus among my colleagues on the FOMC is that the unemployment rate is still well above its longer-run sustainable level, perhaps by 2 to 2-1/2 percentage points or so."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "A likely explanation, which I will discuss further, is that the economy has been faced with a variety of headwinds that have hindered what otherwise might have been a stronger cyclical rebound."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "If so, we may take some encouragement from the likelihood that there are potentially two sources of faster GDP growth in the future."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "First, the effects of the crisis on potential output should fade as the economy continues to heal."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "And second, if the headwinds begin to dissipate, as I expect, growth should pick up further as many who are currently unemployed or out of the labor force find work."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "These developments are encouraging, and it seems likely that, on net, residential investment will be a source of economic growth and new jobs over the next couple of years."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Notably, lenders have maintained tight terms and conditions on mortgage loans, even for potential borrowers with relatively good credit."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Unfortunately, while some tightening of the terms of mortgage credit was certainly an appropriate response to the earlier excesses, the pendulum appears to have swung too far, restraining the pace of recovery in the housing sector."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "While these headwinds on both the supply and demand sides of the housing market have clearly started to abate, the recovery in the housing sector is likely to remain moderate by historical standards."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "While these headwinds on both the supply and demand sides of the housing market have clearly started to abate, the recovery in the housing sector is likely to remain moderate by historical standards."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "A second set of headwinds stems from the financial conditions facing potential borrowers in credit and capital markets."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Nonetheless, banks have been conservative in extending loans to many consumers and some businesses, likely even beyond the restrictions on the supply of mortgage lending that I noted earlier."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "This situation, of course, was not anticipated when the U.S. recovery began in 2009."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "However, the overall effect of federal fiscal policy on the economy, both in the near term and in the longer run, remains quite uncertain and depends on how policymakers meet two daunting fiscal challenges--one by the start of the new year and the other no later than the spring."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The budget deficit, which peaked at about 10 percent of GDP in 2009 and now stands at about 7 percent of GDP, is expected to narrow further in the coming years as the economy continues to recover."
+    },
+    {
+      "surface": "projects",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "However, the CBO projects that, under a plausible set of policy assumptions, the budget deficit would still be greater than 4 percent of GDP in 2018, assuming the economy has returned to its potential by then."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Moreover, while the details of whatever agreement is reached to resolve the fiscal cliff are important, the economic confidence of both market participants and the general public likely will also be influenced by the extent to which our political system proves able to deliver a reasonable solution with a minimum of uncertainty and delay."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In announcing this decision, we also indicated that we would continue purchasing MBS, undertake additional purchases of longer-term securities, and employ our other policy tools until we judge that the outlook for the labor market has improved substantially in a context of price stability."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Although it is still too early to assess the full effects of our most recent policy actions, yields on corporate bonds and agency MBS have fallen significantly, on balance, since the FOMC's announcement."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In addition to announcing new purchases of MBS, at our September meeting we extended our guidance for how long we expect that exceptionally low levels for the federal funds rate will likely be warranted at least through the middle of 2015."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In addition to announcing new purchases of MBS, at our September meeting we extended our guidance for how long we expect that exceptionally low levels for the federal funds rate will likely be warranted at least through the middle of 2015."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "By pushing the expected period of low rates further into the future, we are not saying that we expect the economy to remain weak until mid-2015; rather, we expect--as we indicated in our September statement--that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "By pushing the expected period of low rates further into the future, we are not saying that we expect the economy to remain weak until mid-2015; rather, we expect--as we indicated in our September statement--that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "By pushing the expected period of low rates further into the future, we are not saying that we expect the economy to remain weak until mid-2015; rather, we expect--as we indicated in our September statement--that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "That said, GDP growth in excess of potential is probably not the whole explanation for the decline in unemployment."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "In addition, while the changing relationship between job vacancies and unemployment--the shift in the Beveridge curve--probably does point to some greater difficulty matching jobs with workers, factors other than mismatch likely explain some of that shift."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In addition, while the changing relationship between job vacancies and unemployment--the shift in the Beveridge curve--probably does point to some greater difficulty matching jobs with workers, factors other than mismatch likely explain some of that shift."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "For example, according to the April 2012 Senior Loan Officer Opinion Survey on Bank Lending, about one-half of lenders reported that they were \"somewhat less likely\" or \"much less likely\" than in 2006 to originate a mortgage to a borrower with a FICO score of 680 and a 10 percent down payment."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "For example, according to the April 2012 Senior Loan Officer Opinion Survey on Bank Lending, about one-half of lenders reported that they were \"somewhat less likely\" or \"much less likely\" than in 2006 to originate a mortgage to a borrower with a FICO score of 680 and a 10 percent down payment."
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "doc_id": "speech_yellen_20150303a",
+  "doc_type": "speech",
+  "date": "2015-03-03",
+  "chair": "Yellen",
+  "n_tokens": 4373,
+  "n_sents": 172,
+  "pos_counts": {
+    "NNP": 405,
+    "CD": 88,
+    ",": 238,
+    "VBG": 78,
+    "DT": 439,
+    "NN": 577,
+    "IN": 574,
+    "NNPS": 23,
+    "JJ": 443,
+    "VBP": 106,
+    "PRP": 104,
+    "TO": 95,
+    "VB": 185,
+    "VBZ": 100,
+    "RB": 171,
+    ".": 169,
+    "VBN": 106,
+    "NNS": 390,
+    "WDT": 40,
+    "CC": 192,
+    "POS": 30,
+    "VBD": 52,
+    "MD": 47,
+    "PDT": 3,
+    "WRB": 14,
+    "JJS": 13,
+    "``": 28,
+    "''": 26,
+    "HYPH": 31,
+    "RP": 5,
+    "PRP$": 50,
+    "JJR": 15,
+    ":": 15,
+    "WP": 2,
+    "WP$": 2,
+    "RBR": 21,
+    "EX": 1,
+    "RBS": 13,
+    "-LRB-": 17,
+    "-RRB-": 17,
+    "$": 1,
+    "LS": 1,
+    "FW": 2,
+    "SYM": 2
+  },
+  "modal_count": 47,
+  "modal_lemma_counts": {
+    "would": 7,
+    "could": 3,
+    "may": 9,
+    "might": 2,
+    "should": 5,
+    "will": 9,
+    "must": 3,
+    "can": 9
+  },
+  "modals_per_1000": 10.748,
+  "epistemic_count": 15,
+  "epistemic_lemma_counts": {
+    "believe": 3,
+    "anticipate": 2,
+    "potential": 2,
+    "expect": 4,
+    "assess": 1,
+    "possible": 1,
+    "likely": 1,
+    "perhaps": 1
+  },
+  "epistemics_per_1000": 3.43,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 90,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I thought it",
+      "right_3": "be appropriate to",
+      "sentence": "Given New York's preeminence as a center of global finance, I thought it would be appropriate to discuss just such a topic, which is how the Federal Reserve oversees the largest financial institutions, many of which are headquartered or have a major presence here, and how that oversight has strengthened since the financial crisis."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 475,
+      "head_verb_surface": "sustain",
+      "head_verb_lemma": "sustain",
+      "left_3": "whether these institutions",
+      "right_3": "sustain losses in",
+      "sentence": "Doubts quickly mounted about whether these institutions could sustain losses in the value of many assets they held."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 564,
+      "head_verb_surface": "appeared",
+      "head_verb_lemma": "appear",
+      "left_3": "While this approach",
+      "right_3": "have appeared to",
+      "sentence": "While this approach may have appeared to be an easy source of profit, it had the disadvantage of leaving those banks exposed to devastating runs if short-term funding dried up, as it did in the crisis."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 653,
+      "head_verb_surface": "damage",
+      "head_verb_lemma": "damage",
+      "left_3": "how severely they",
+      "right_3": "damage the financial",
+      "sentence": "Government agencies, including the Fed, failed to recognize the extent of the risks or how severely they could damage the financial system and the economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 739,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "whose financial distress",
+      "right_3": "pose a significant",
+      "sentence": "Generally, I have in mind those firms whose financial distress would pose a significant risk to financial stability--firms that are, in that sense, \"systemically important.\""
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 772,
+      "head_verb_surface": "include",
+      "head_verb_lemma": "include",
+      "left_3": ". \" This",
+      "right_3": "include U.S. banking",
+      "sentence": "This would include U.S. banking organizations with large, complex, and often international operations; foreign banking organizations with extensive U.S. operations; and other large and complex financial firms."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1094,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of whether there",
+      "right_3": "be pervasive shortcomings",
+      "sentence": "These incidents, both individually and in their totality, raise legitimate questions of whether there may be pervasive shortcomings in the values of large financial firms that might undermine their safety and soundness."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1094,
+      "head_verb_surface": "undermine",
+      "head_verb_lemma": "undermine",
+      "left_3": "financial firms that",
+      "right_3": "undermine their safety",
+      "sentence": "These incidents, both individually and in their totality, raise legitimate questions of whether there may be pervasive shortcomings in the values of large financial firms that might undermine their safety and soundness."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1238,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "intently as we",
+      "right_3": "have at the",
+      "sentence": "To use an apt metaphor, we looked closely at the trees and not as intently as we should have at the forest."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1262,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "undergirds everything I",
+      "right_3": "discuss today ,",
+      "sentence": "One of the most fundamental changes in the Fed's oversight of large institutions since the crisis, a principle that undergirds everything I will discuss today, is elevating the importance of financial stability in that oversight."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1325,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": "rules that firms",
+      "right_3": "follow . Regulation",
+      "sentence": "On the one hand, regulation refers primarily to the rules that firms must follow."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1422,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": "the regulations firms",
+      "right_3": "follow , establishes",
+      "sentence": "The Federal Reserve Board writes the regulations firms must follow, establishes supervisory policies and, in close collaboration with the 12 regional Reserve Banks, is deeply engaged in the supervision of large financial institutions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1599,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "5 \n \n We",
+      "right_3": "use statutory authorities",
+      "sentence": "5   We will use statutory authorities to ensure that we avoid a one-size-fits-all approach as we promulgate rules and regulations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1627,
+      "head_verb_surface": "communicate",
+      "head_verb_lemma": "communicate",
+      "left_3": "work , we",
+      "right_3": "communicate to the",
+      "sentence": "As we continue this work, we will communicate to the Congress should we identify discrete issues that may benefit from further clarification or technical changes without undermining safety and soundness, such as those addressed by Congress last year related to capital requirements for insurance companies."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1627,
+      "head_verb_surface": "identify",
+      "head_verb_lemma": "identify",
+      "left_3": "to the Congress",
+      "right_3": "we identify discrete",
+      "sentence": "As we continue this work, we will communicate to the Congress should we identify discrete issues that may benefit from further clarification or technical changes without undermining safety and soundness, such as those addressed by Congress last year related to capital requirements for insurance companies."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1627,
+      "head_verb_surface": "benefit",
+      "head_verb_lemma": "benefit",
+      "left_3": "discrete issues that",
+      "right_3": "benefit from further",
+      "sentence": "As we continue this work, we will communicate to the Congress should we identify discrete issues that may benefit from further clarification or technical changes without undermining safety and soundness, such as those addressed by Congress last year related to capital requirements for insurance companies."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1700,
+      "head_verb_surface": "note",
+      "head_verb_lemma": "note",
+      "left_3": "States , I",
+      "right_3": "also note that",
+      "sentence": "6   While my emphasis today is on steps taken in the United States, I should also note that we work closely with our international colleagues to ensure that standards for systemically important financial firms are raised globally as well."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1766,
+      "head_verb_surface": "describe",
+      "head_verb_lemma": "describe",
+      "left_3": ". \r\n \n\n\r\n  I",
+      "right_3": "briefly describe five",
+      "sentence": "I will briefly describe five regulatory changes that have been among the most important in helping the Federal Reserve improve its oversight of the largest institutions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1882,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "show that they",
+      "right_3": "continue to operate",
+      "sentence": "Third, large firms are now required to show that they can continue to operate safely and serve their customers in stressful conditions similar to those that occurred during the crisis, an exercise known as stress testing."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1921,
+      "head_verb_surface": "threaten",
+      "head_verb_lemma": "threaten",
+      "left_3": "such a failure",
+      "right_3": "threaten financial stability",
+      "sentence": "Fourth, under the Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), Congress authorized a new regime, known as \"resolution,\" to manage the failure of large firms in an orderly manner and reduce the chances that such a failure would threaten financial stability."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2166,
+      "head_verb_surface": "managing",
+      "head_verb_lemma": "manage",
+      "left_3": "firms we supervise",
+      "right_3": "be managing their",
+      "sentence": "We have substantially raised our expectations for how well the firms we supervise should be managing their risks, maintaining internal controls, and exercising governance."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2276,
+      "head_verb_surface": "disclosed",
+      "head_verb_lemma": "disclose",
+      "left_3": "The latest results",
+      "right_3": "be disclosed in",
+      "sentence": "7   The latest results will be disclosed in the coming days."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2313,
+      "head_verb_surface": "affected",
+      "head_verb_lemma": "affect",
+      "left_3": "'s capital position",
+      "right_3": "be affected by",
+      "sentence": "8   Using information on a bank's finances and operations, these tests gauge how a firm's capital position would be affected by hypothetical scenarios covering a range of adverse economic and financial conditions."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2350,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "that such problems",
+      "right_3": "affect the stability",
+      "sentence": "Such tests show the potential harm faced by individual banks in stressful conditions and thus the potential that such problems could affect the stability of the financial system."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2491,
+      "head_verb_surface": "restrict",
+      "head_verb_lemma": "restrict",
+      "left_3": "planning , we",
+      "right_3": "restrict the firm",
+      "sentence": "If the Federal Reserve is not satisfied with the results from capital stress tests or identifies shortcomings in a firm's capital planning, we may restrict the firm's ability to pay dividends, buy back shares, or take other actions that would reduce its capital base."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2491,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "other actions that",
+      "right_3": "reduce its capital",
+      "sentence": "If the Federal Reserve is not satisfied with the results from capital stress tests or identifies shortcomings in a firm's capital planning, we may restrict the firm's ability to pay dividends, buy back shares, or take other actions that would reduce its capital base."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2611,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "effort , we",
+      "right_3": "require large firms",
+      "sentence": "Through this effort, we can require large firms to take specific actions to bolster their liquidity or enhance the way they manage their liquidity risks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2772,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "among firms that",
+      "right_3": "pose risks to",
+      "sentence": "First, by looking at firms both individually and collectively, it helps ensure supervisors are well positioned to identify issues at individual firms as well as trends across and interconnections among firms that may pose risks to financial stability."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2937,
+      "head_verb_surface": "guarantee",
+      "head_verb_lemma": "guarantee",
+      "left_3": ", but we",
+      "right_3": "not guarantee their",
+      "sentence": "The Federal Reserve has significant responsibilities for supervising large financial institutions, but we cannot guarantee their stability on our own."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3026,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "generally . It",
+      "right_3": "also provide information",
+      "sentence": "It can also provide information and perspective about firms whose supervision we may share with other agencies or governments."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3026,
+      "head_verb_surface": "share",
+      "head_verb_lemma": "share",
+      "left_3": "whose supervision we",
+      "right_3": "share with other",
+      "sentence": "It can also provide information and perspective about firms whose supervision we may share with other agencies or governments."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3069,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "regulation and supervision",
+      "right_3": "be independent of",
+      "sentence": "To be effective, regulation and supervision must be independent of the entities subject to oversight."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3086,
+      "head_verb_surface": "know",
+      "head_verb_lemma": "know",
+      "left_3": "oversight . You",
+      "right_3": "know or have",
+      "sentence": "You may know or have heard the term \"regulatory capture.\""
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3099,
+      "head_verb_surface": "represent",
+      "head_verb_lemma": "represent",
+      "left_3": "public interest it",
+      "right_3": "represent . \n",
+      "sentence": "Regulatory capture is when a regulatory agency advances the interests of the industry it is supposed to oversee rather than the broader public interest it should represent."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3128,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "capture , which",
+      "right_3": "occur in the",
+      "sentence": "11   Regulatory capture, which may occur in the oversight of any industry, can happen in both intentional and inadvertent ways."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3128,
+      "head_verb_surface": "happen",
+      "head_verb_lemma": "happen",
+      "left_3": "any industry ,",
+      "right_3": "happen in both",
+      "sentence": "11   Regulatory capture, which may occur in the oversight of any industry, can happen in both intentional and inadvertent ways."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3152,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "expectation government officials",
+      "right_3": "have of future",
+      "sentence": "The most blatant ways involve tangible conflicts of interest--for example the expectation government officials might have of future rewards from the industry they oversee."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3576,
+      "head_verb_surface": "watching",
+      "head_verb_lemma": "watch",
+      "left_3": ", and supervisors",
+      "right_3": "be watching closely",
+      "sentence": "But large firms still have room for improvement in this area, and supervisors will be watching closely."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3626,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "has taken and",
+      "right_3": "continue to take",
+      "sentence": "The Fed has taken and will continue to take swift and meaningful action to ensure that firms focus on their risk-management practices and continue to strengthen them."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3808,
+      "head_verb_surface": "enable",
+      "head_verb_lemma": "enable",
+      "left_3": "large firms that",
+      "right_3": "enable us to",
+      "sentence": "These reviews allow us to identify common themes and unacceptable practices among large firms that will enable us to take consistent and effective action."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3834,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "a large firm",
+      "right_3": "pose to the",
+      "sentence": "Lastly, I believe the resolution authority enacted by the Congress and our work with the FDIC on the orderly resolution of large institutions are reducing the problem of firms considered \"too big to fail\" by addressing the risks a failure of a large firm would pose to the financial system."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3888,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": "coming months which",
+      "right_3": "leave firms and",
+      "sentence": "The plans developed by the largest firms to date still have a number of shortcomings, but the Federal Reserve has asked for and expects these institutions to make substantial progress in the coming months which will leave firms and the government better positioned to manage the failure of a large institution in an orderly way."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3946,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "to do whatever",
+      "right_3": "be done to",
+      "sentence": "13    \r  The goal, through this and other actions I have described today, is to do whatever can be done to avert the dire threat and lasting damage of a severe financial crisis."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3982,
+      "head_verb_surface": "eliminate",
+      "head_verb_lemma": "eliminate",
+      "left_3": "crisis . We",
+      "right_3": "not eliminate the",
+      "sentence": "We cannot eliminate the possibility of another crisis, but we can make a crisis less likely and less damaging by limiting excessive risk-taking by firms we oversee and by helping ensure that the most systemically important firms are better prepared to weather a crisis."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3982,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": ", but we",
+      "right_3": "make a crisis",
+      "sentence": "We cannot eliminate the possibility of another crisis, but we can make a crisis less likely and less damaging by limiting excessive risk-taking by firms we oversee and by helping ensure that the most systemically important firms are better prepared to weather a crisis."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4066,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "many other banks",
+      "right_3": "continue to serve",
+      "sentence": "By working to promote the safety and soundness of large firms, the Federal Reserve is trying to ensure that these and many other banks can continue to serve the people of New York and every community in America."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4196,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": ". This list",
+      "right_3": "evolve based on",
+      "sentence": "This list may evolve based on changes in firms' relative systemic importance."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I believe all Americans share a common interest in working to make sure that our financial system is strong, resilient, and able to serve a healthy and growing economy."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In the run-up to the crisis, large firms failed to adequately anticipate and manage risks that grew and concentrated in their increasingly sprawling, diverse, and complex operations."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Further doubts were raised about whether these firms had enough cash and other liquid assets to meet the immediate or potential demands of short-term creditors and large institutional customers."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The checks and balances that were widely expected to prevent excessive risk-taking by large financial firms--regulatory oversight and market discipline--did not do so."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Investors failed to anticipate and understand the risks of large financial institutions' activities that materialized during the crisis."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Fed expects the banks it oversees, including the largest banks, to be financially sound."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "It is unfortunate that I need to underscore this, but we expect the firms we oversee to follow the law and to operate in an ethical manner."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We significantly enhanced the manner by which we assess whether these firms have sufficient capital and liquidity and are meeting new regulatory requirements in this area."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Such tests show the potential harm faced by individual banks in stressful conditions and thus the potential that such problems could affect the stability of the financial system."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Results of Improved Supervision \r  I believe the changes I have described have significantly improved the strength and stability of large financial institutions and the financial system."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Likewise, requiring firms to plan for their possible demise and orderly resolution has forced them to think more carefully about the sustainability of their business models and corporate structures."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Lastly, I believe the resolution authority enacted by the Congress and our work with the FDIC on the orderly resolution of large institutions are reducing the problem of firms considered \"too big to fail\" by addressing the risks a failure of a large firm would pose to the financial system."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The plans developed by the largest firms to date still have a number of shortcomings, but the Federal Reserve has asked for and expects these institutions to make substantial progress in the coming months which will leave firms and the government better positioned to manage the failure of a large institution in an orderly way."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "We cannot eliminate the possibility of another crisis, but we can make a crisis less likely and less damaging by limiting excessive risk-taking by firms we oversee and by helping ensure that the most systemically important firms are better prepared to weather a crisis."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "A body of economic literature addresses regulatory capture, with perhaps one of the most influential works being George J. Stigler (1971), \" The Theory of Economic Regulation ,\"  Bell Journal of Economics and Management Science , vol. 2 (Spring), pp. 3-21."
+    }
+  ]
+}

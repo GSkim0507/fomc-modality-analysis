@@ -1,0 +1,120 @@
+{
+  "doc_id": "statement_20190619",
+  "doc_type": "statement",
+  "date": "2019-06-19",
+  "chair": "Powell",
+  "n_tokens": 384,
+  "n_sents": 14,
+  "pos_counts": {
+    "NNP": 49,
+    "CD": 15,
+    ",": 21,
+    "VBZ": 8,
+    "JJ": 36,
+    "NN": 83,
+    "IN": 50,
+    "VBD": 7,
+    "DT": 32,
+    "CC": 17,
+    "VBG": 6,
+    ".": 13,
+    "NNS": 27,
+    "VBP": 6,
+    "VBN": 13,
+    "TO": 7,
+    "VB": 10,
+    "RP": 1,
+    "RBR": 1,
+    "HYPH": 4,
+    ":": 9,
+    "JJR": 1,
+    "RB": 3,
+    "PRP$": 4,
+    "SYM": 2,
+    "POS": 1,
+    "RBS": 1,
+    "MD": 4,
+    "NNPS": 1,
+    "WP": 1
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "will": 4
+  },
+  "modals_per_1000": 10.417,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "likely": 1,
+    "assess": 1,
+    "expect": 1
+  },
+  "epistemics_per_1000": 7.812,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "monitor",
+      "head_verb_lemma": "monitor",
+      "left_3": ", the Committee",
+      "right_3": "closely monitor the",
+      "sentence": "In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "economic outlook and",
+      "right_3": "act as appropriate",
+      "sentence": "In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 279,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 321,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee continues to view sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective as the most likely outcomes, but uncertainties about this outlook have increased."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

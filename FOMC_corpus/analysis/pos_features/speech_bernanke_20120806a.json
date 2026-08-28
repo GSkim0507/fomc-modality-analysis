@@ -1,0 +1,273 @@
+{
+  "doc_id": "speech_bernanke_20120806a",
+  "doc_type": "speech",
+  "date": "2012-08-06",
+  "chair": "Bernanke",
+  "n_tokens": 1757,
+  "n_sents": 74,
+  "pos_counts": {
+    "NNP": 182,
+    "CD": 50,
+    ",": 118,
+    "IN": 264,
+    "DT": 131,
+    "JJ": 164,
+    "CC": 92,
+    "-LRB-": 19,
+    "NN": 325,
+    "-RRB-": 25,
+    "NNS": 152,
+    "XX": 11,
+    "VBP": 44,
+    "SYM": 12,
+    ":": 17,
+    "VBZ": 32,
+    "RB": 50,
+    "RP": 2,
+    "MD": 15,
+    "VB": 62,
+    "VBN": 34,
+    ".": 70,
+    "PRP": 27,
+    "TO": 29,
+    "RBR": 4,
+    "WP": 4,
+    "WDT": 18,
+    "RBS": 1,
+    "PRP$": 13,
+    "VBD": 12,
+    "VBG": 32,
+    "WRB": 3,
+    "``": 16,
+    "''": 14,
+    "HYPH": 29,
+    "POS": 9,
+    "JJR": 10,
+    "EX": 1,
+    "JJS": 2,
+    "LS": 1,
+    "NNPS": 2
+  },
+  "modal_count": 15,
+  "modal_lemma_counts": {
+    "may": 2,
+    "can": 2,
+    "might": 2,
+    "must": 1,
+    "will": 3,
+    "should": 2,
+    "would": 1,
+    "could": 2
+  },
+  "modals_per_1000": 8.537,
+  "epistemic_count": 6,
+  "epistemic_lemma_counts": {
+    "likely": 3,
+    "certainly": 1,
+    "forecast": 1,
+    "project": 1
+  },
+  "epistemics_per_1000": 3.415,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 115,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 195,
+      "head_verb_surface": "estimate",
+      "head_verb_lemma": "estimate",
+      "left_3": "for which we",
+      "right_3": "best estimate and",
+      "sentence": "More subtly, what we decide to measure, or are able to measure, has important effects on the choices we make, since it is natural to focus on those objectives for which we can best estimate and document the effects of our decisions."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 380,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "measurement , we",
+      "right_3": "start by reminding",
+      "sentence": "As we think about new directions for economic measurement, we might start by reminding ourselves of the purpose of economics."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 417,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "   That definition",
+      "right_3": "indeed be the",
+      "sentence": "That definition may indeed be the \"what,\" but it certainly is not the \"why."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 460,
+      "head_verb_surface": "encompass",
+      "head_verb_lemma": "encompass",
+      "left_3": "Economic measurement accordingly",
+      "right_3": "encompass measures of",
+      "sentence": "Economic measurement accordingly must encompass measures of well-being and its determinants."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 644,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "many of you",
+      "right_3": "discuss this week",
+      "sentence": "But, as many of you will discuss this week, aggregate statistics can sometimes mask important information."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 644,
+      "head_verb_surface": "mask",
+      "head_verb_lemma": "mask",
+      "left_3": ", aggregate statistics",
+      "right_3": "sometimes mask important",
+      "sentence": "But, as many of you will discuss this week, aggregate statistics can sometimes mask important information."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 733,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "is that we",
+      "right_3": "increase the attention",
+      "sentence": "One implication is that we should increase the attention paid to microeconomic data, which better capture the diversity of experience across households and firms."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 760,
+      "head_verb_surface": "seek",
+      "head_verb_lemma": "seek",
+      "left_3": "is that we",
+      "right_3": "seek better and",
+      "sentence": "Another implication, however, is that we should seek better and more-direct measurements of economic well-being, the ultimate objective of our policy decisions."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 941,
+      "head_verb_surface": "suggest",
+      "head_verb_lemma": "suggest",
+      "left_3": "standard utility theory",
+      "right_3": "suggest . \n",
+      "sentence": "Interestingly, income and wealth do contribute to self-reported happiness, but the relationship is more complex and context-dependent than standard utility theory would suggest."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1204,
+      "head_verb_surface": "followed",
+      "head_verb_lemma": "follow",
+      "left_3": "life indicators that",
+      "right_3": ", at least",
+      "sentence": "Taking the measurement of well-being in a cross-country framework, the Organisation for Economic Co-operation and Development (OECD), as part of its OECD Better Life Initiative, has created a \"better life index\" that allows a side-by-side comparison of countries according to various quality-of-life indicators that could, at least in principle, be followed over time."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1282,
+      "head_verb_surface": "developed",
+      "head_verb_lemma": "develop",
+      "left_3": "and that accordingly",
+      "right_3": "be developed and",
+      "sentence": "4     Other somewhat-more-conventional economic indicators that bear on quality of life, and that accordingly might be developed and followed in more detail, include changes in the distribution of income, wealth, or consumption; the degree of upward mobility in material measures of well-being; indications of job security and confidence about future employment prospects; and households' liquidity b"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1365,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of these indicators",
+      "right_3": "be useful in",
+      "sentence": "All of these indicators could be useful in measuring economic progress or setbacks as well as in explaining economic decisionmaking or projecting future economic outcomes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1392,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "well - being",
+      "right_3": "likely lead to",
+      "sentence": "Continued work on the measurement of economic well-being will likely lead to greater recognition by economists of the contributions of psychology--an area that has been explored by pioneers like 2002 Nobel laureate Daniel Kahneman."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1675,
+      "head_verb_surface": "yield",
+      "head_verb_lemma": "yield",
+      "left_3": "you are doing",
+      "right_3": "accordingly yield significant",
+      "sentence": "\" 7     As I said at the beginning, good economic analysis and policymaking depend on good measurement, and the work you are doing will accordingly yield significant benefits."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Evolving technologies that allow economists to gather new types of data and to manipulate millions of data points are just one factor among several that are likely to transform the field in coming years."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "That definition may indeed be the \"what,\" but it certainly is not the \"why."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Federal Reserve has a statutory mandate to foster maximum employment and price stability, which motivates our extensive efforts to monitor and forecast measures of employment and inflation."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Exclusive attention to aggregate numbers is likely to paint an incomplete picture of what many individuals are experiencing."
+    },
+    {
+      "surface": "projecting",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "All of these indicators could be useful in measuring economic progress or setbacks as well as in explaining economic decisionmaking or projecting future economic outcomes."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Continued work on the measurement of economic well-being will likely lead to greater recognition by economists of the contributions of psychology--an area that has been explored by pioneers like 2002 Nobel laureate Daniel Kahneman."
+    }
+  ]
+}

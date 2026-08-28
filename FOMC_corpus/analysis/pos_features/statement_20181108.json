@@ -1,0 +1,113 @@
+{
+  "doc_id": "statement_20181108",
+  "doc_type": "statement",
+  "date": "2018-11-08",
+  "chair": "Powell",
+  "n_tokens": 328,
+  "n_sents": 13,
+  "pos_counts": {
+    "NNP": 48,
+    "CD": 12,
+    ",": 18,
+    "VBZ": 9,
+    "JJ": 35,
+    "NN": 71,
+    "IN": 43,
+    "VBD": 6,
+    "DT": 24,
+    "VBN": 11,
+    "TO": 5,
+    "VB": 7,
+    "CC": 15,
+    "VBG": 4,
+    ".": 12,
+    "NNS": 21,
+    "VBP": 4,
+    "RB": 3,
+    "PRP$": 4,
+    "RBR": 1,
+    "HYPH": 2,
+    "JJR": 1,
+    "MD": 3,
+    "POS": 1,
+    "SYM": 1,
+    ":": 9
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "will": 3
+  },
+  "modals_per_1000": 9.146,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "expect": 3,
+    "assess": 1
+  },
+  "epistemics_per_1000": 12.195,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 153,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "federal funds rate",
+      "right_3": "be consistent with",
+      "sentence": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective over the medium term."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 243,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 285,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective over the medium term."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 2 to 2-1/4 percent."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "doc_id": "speech_bernanke_20130710a",
+  "doc_type": "speech",
+  "date": "2013-07-10",
+  "chair": "Bernanke",
+  "n_tokens": 7172,
+  "n_sents": 434,
+  "pos_counts": {
+    "NNP": 1492,
+    "CD": 433,
+    ",": 593,
+    "DT": 754,
+    "IN": 963,
+    ":": 113,
+    "NNPS": 57,
+    "NN": 983,
+    "``": 63,
+    "JJ": 509,
+    "NNS": 392,
+    "VBD": 184,
+    "CC": 245,
+    "''": 67,
+    "VBN": 164,
+    "PRP": 50,
+    "MD": 47,
+    "VB": 234,
+    "TO": 92,
+    "VBG": 94,
+    "POS": 42,
+    "VBP": 46,
+    ".": 458,
+    "PRP$": 46,
+    "HYPH": 51,
+    "WRB": 17,
+    "RB": 193,
+    "WDT": 41,
+    "VBZ": 68,
+    "JJR": 20,
+    "RP": 8,
+    "JJS": 4,
+    "WP": 10,
+    "RBS": 5,
+    "RBR": 20,
+    "-LRB-": 171,
+    "-RRB-": 176,
+    "SYM": 45,
+    "XX": 2,
+    "NFP": 8,
+    "LS": 1
+  },
+  "modal_count": 47,
+  "modal_lemma_counts": {
+    "would": 10,
+    "will": 7,
+    "shall": 1,
+    "should": 10,
+    "could": 5,
+    "can": 8,
+    "may": 2,
+    "might": 2,
+    "must": 2
+  },
+  "modals_per_1000": 6.553,
+  "epistemic_count": 15,
+  "epistemic_lemma_counts": {
+    "believe": 2,
+    "clearly": 2,
+    "apparently": 1,
+    "possible": 1,
+    "perhaps": 2,
+    "certainly": 1,
+    "potential": 2,
+    "judge": 1,
+    "possibly": 1,
+    "foresee": 1,
+    "likely": 1
+  },
+  "epistemics_per_1000": 2.091,
+  "modal_instances": [
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 0,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "Share \n\n I",
+      "right_3": "like to thank",
+      "sentence": "July 10, 2013  A Century of U.S. Central Banking: Goals, Frameworks, Accountability  \r  \r  \r  \r  \r  \r  \r  \r  \r  \r  Chairman Ben S. Bernanke\r    At the \"The First 100 Years of the Federal Reserve: The Policy Record, Lessons Learned, and Prospects for the Future,\" a conference sponsored by the National Bureau of Economic Research, Cambridge, Massachusetts  Share  I'd like to thank the National Burea"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 101,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "my remarks today",
+      "right_3": "take a historical",
+      "sentence": "In keeping with the spirit of the conference, my remarks today will take a historical perspective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 119,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": "perspective . I",
+      "right_3": "leave discussion of",
+      "sentence": "I will leave discussion of current policy to today's question-and-answer session and, of course, to my congressional testimony next week."
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 148,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "Today , I",
+      "right_3": "discuss the evolution",
+      "sentence": "Today, I'll discuss the evolution over the past 100 years of three key aspects of Federal Reserve policymaking: the goals of policy, the policy framework, and accountability and communication."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": "future . I",
+      "right_3": "pay particular attention",
+      "sentence": "I will pay particular attention to several key episodes of the Fed's history, all of which have been referred to in various contexts with the adjective \"Great\" attached to them: the Great Experiment of the Federal Reserve's founding, the Great Depression, the Great Inflation and subsequent disinflation, the Great Moderation, and the recent Great Recession."
+    },
+    {
+      "surface": "shall",
+      "lemma": "shall",
+      "sent_idx": 297,
+      "head_verb_surface": "stopped",
+      "head_verb_lemma": "stop",
+      "left_3": "it enormous injury",
+      "right_3": "be stopped .",
+      "sentence": "The Great Experiment \r In the words of one of the authors of the Federal Reserve Act, Robert Latham Owen, the Federal Reserve was established to \"provide a means by which periodic panics which shake the American Republic and do it enormous injury shall be stopped."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 445,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "in turn ,",
+      "right_3": "then be able",
+      "sentence": "3   The new institution was intended to relieve such strains by providing an \"elastic\" currency--that is, by providing liquidity as needed to individual member banks through the discount window; commercial banks, in turn, would then be able to accommodate their customers."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 496,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "of the Fed",
+      "right_3": "help prevent future",
+      "sentence": "Interestingly, although congressional advocates hoped the creation of the Fed would help prevent future panics, they did not fully embrace the idea that the Fed should help end ongoing panics by serving as lender of last resort, as had been recommended by the British economist and writer Walter Bagehot. 4   Legislators imposed limits on the Federal Reserve's ability to lend in response to panics, "
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 496,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "that the Fed",
+      "right_3": "help end ongoing",
+      "sentence": "Interestingly, although congressional advocates hoped the creation of the Fed would help prevent future panics, they did not fully embrace the idea that the Fed should help end ongoing panics by serving as lender of last resort, as had been recommended by the British economist and writer Walter Bagehot. 4   Legislators imposed limits on the Federal Reserve's ability to lend in response to panics, "
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 496,
+      "head_verb_surface": "accept",
+      "head_verb_lemma": "accept",
+      "left_3": "that the Fed",
+      "right_3": "accept . \n",
+      "sentence": "Interestingly, although congressional advocates hoped the creation of the Fed would help prevent future panics, they did not fully embrace the idea that the Fed should help end ongoing panics by serving as lender of last resort, as had been recommended by the British economist and writer Walter Bagehot. 4   Legislators imposed limits on the Federal Reserve's ability to lend in response to panics, "
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1178,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of whether it",
+      "right_3": "be a private",
+      "sentence": "As this audience knows, when the Federal Reserve was established, the question of whether it should be a private or a public institution was highly contentious."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1309,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "this new institution",
+      "right_3": "provide financial and",
+      "sentence": "While the founders of the Federal Reserve hoped that this new institution would provide financial and hence economic stability, the policy framework and the institutional structure would prove inadequate to the challenges the Fed would soon face."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1309,
+      "head_verb_surface": "prove",
+      "head_verb_lemma": "prove",
+      "left_3": "the institutional structure",
+      "right_3": "prove inadequate to",
+      "sentence": "While the founders of the Federal Reserve hoped that this new institution would provide financial and hence economic stability, the policy framework and the institutional structure would prove inadequate to the challenges the Fed would soon face."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1309,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "challenges the Fed",
+      "right_3": "soon face .",
+      "sentence": "While the founders of the Federal Reserve hoped that this new institution would provide financial and hence economic stability, the policy framework and the institutional structure would prove inadequate to the challenges the Fed would soon face."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1547,
+      "head_verb_surface": "drawn",
+      "head_verb_lemma": "draw",
+      "left_3": "an effective leader",
+      "right_3": "have drawn on",
+      "sentence": "Whether valid or not, this hypothesis raises the interesting question of what intellectual framework an effective leader would have drawn on at the time to develop and justify a more activist monetary policy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1621,
+      "head_verb_surface": "said",
+      "head_verb_lemma": "say",
+      "left_3": "\n \n The same",
+      "right_3": "be said for",
+      "sentence": "15   The same can be said for the real bills doctrine, which apparently led policymakers to conclude, on the basis of low nominal interest rates and low borrowings from the Fed, that monetary policy was appropriately supportive and that further actions would be fruitless."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1621,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that further actions",
+      "right_3": "be fruitless .",
+      "sentence": "15   The same can be said for the real bills doctrine, which apparently led policymakers to conclude, on the basis of low nominal interest rates and low borrowings from the Fed, that monetary policy was appropriately supportive and that further actions would be fruitless."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1704,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "17 \n \n It",
+      "right_3": "be that the",
+      "sentence": "17   It may be that the Federal Reserve suffered less from lack of leadership in the 1930s than from the lack of an intellectual framework for understanding what was happening and what needed to be done."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1906,
+      "head_verb_surface": "return",
+      "head_verb_lemma": "return",
+      "left_3": "that high unemployment",
+      "right_3": "return after World",
+      "sentence": "With respect to goals, the high unemployment of the Depression--and the fear that high unemployment would return after World War II--elevated the maintenance of full employment as a goal of macroeconomic policy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2066,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "how monetary policy",
+      "right_3": "affect real activity",
+      "sentence": "\" 21    The policy framework to support this new approach reflected the development of macroeconomic theories--including the work of Knut Wicksell, Irving Fisher, Ralph Hawtrey, Dennis Robertson, and John Maynard Keynes--that laid the foundations for understanding how monetary policy could affect real activity and employment and help reduce cyclical fluctuations."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2507,
+      "head_verb_surface": "mitigated",
+      "head_verb_lemma": "mitigate",
+      "left_3": "\n \n\n Two mechanisms",
+      "right_3": "have mitigated the",
+      "sentence": "23    Two mechanisms might have mitigated the damage from that mistaken optimism."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2521,
+      "head_verb_surface": "helped",
+      "head_verb_lemma": "help",
+      "left_3": "1950s -- certainly",
+      "right_3": "have helped .",
+      "sentence": "First, a stronger policy response to inflation--more like that observed in the 1950s--certainly would have helped."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2544,
+      "head_verb_surface": "reacted",
+      "head_verb_lemma": "react",
+      "left_3": ", Fed policymakers",
+      "right_3": "have reacted to",
+      "sentence": "24   Second, Fed policymakers could have reacted to continued high readings on inflation by adopting a more realistic assessment of the economy's productive potential."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3101,
+      "head_verb_surface": "ignored",
+      "head_verb_lemma": "ignore",
+      "left_3": "the financial system",
+      "right_3": "be ignored when",
+      "sentence": "In retrospect, it is clear that macroeconomists--both inside and outside central banks--relied too heavily during that period on variants of the so-called Modigliani-Miller theorem, an implication of which is that the details of the structure of the financial system can be ignored when analyzing the behavior of the broader economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3414,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": "37 \n \n\n One",
+      "right_3": "not look back",
+      "sentence": "37    One cannot look back at the Great Moderation today without asking whether the sustained economic stability of the period somehow promoted the excessive risk-taking that followed."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3446,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "to building risks",
+      "right_3": "have some truth",
+      "sentence": "The idea that this long period of calm lulled investors, financial firms, and financial regulators into paying insufficient attention to building risks must have some truth in it."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3477,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": "n't think we",
+      "right_3": "conclude , though",
+      "sentence": "I don't think we should conclude, though, that we therefore should not strive to achieve economic stability."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3477,
+      "head_verb_surface": "strive",
+      "head_verb_lemma": "strive",
+      "left_3": "that we therefore",
+      "right_3": "not strive to",
+      "sentence": "I don't think we should conclude, though, that we therefore should not strive to achieve economic stability."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3498,
+      "head_verb_surface": "regard",
+      "head_verb_lemma": "regard",
+      "left_3": "and financial regulators",
+      "right_3": "regard safeguarding financial",
+      "sentence": "Rather, the right conclusion is that, even in (or perhaps, especially in) stable and prosperous times, monetary policymakers and financial regulators should regard safeguarding financial stability to be of equal importance as--indeed, a necessary prerequisite for--maintaining macroeconomic stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3549,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "Macroeconomists and historians",
+      "right_3": "continue to debate",
+      "sentence": "Macroeconomists and historians will continue to debate the sources of the remarkable economic performance during the Great Moderation."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3614,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "managed monetary policy",
+      "right_3": "be necessary for",
+      "sentence": "However, we have learned in recent years that while well-managed monetary policy may be necessary for economic stability, it is not sufficient."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3687,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". What lessons",
+      "right_3": "we take for",
+      "sentence": "What lessons should we take for the future from this experience, particularly in the context of a century of Federal Reserve history?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3712,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "severe financial instability",
+      "right_3": "do grave damage",
+      "sentence": "The financial crisis and the ensuing Great Recession reminded us of a lesson that we learned both in the 19th century and during the Depression but had forgotten to some extent, which is that severe financial instability can do grave damage to the broader economy."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3759,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "a central bank",
+      "right_3": "take into account",
+      "sentence": "The implication is that a central bank must take into account risks to financial stability if it is to help achieve good macroeconomic performance."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3852,
+      "head_verb_surface": "enhance",
+      "head_verb_lemma": "enhance",
+      "left_3": "39 \n \n\n How",
+      "right_3": "a central bank",
+      "sentence": "How should a central bank enhance financial stability?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4490,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "about how policy",
+      "right_3": "respond to economic",
+      "sentence": "The provision of additional information about policy plans has helped Fed policymakers deal with the constraint posed by the effective lower bound on short-term interest rates; in particular, by offering guidance about how policy will respond to economic developments, the Committee has been able to increase policy accommodation, even when the short-term interest rate is near zero and cannot be mea"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4490,
+      "head_verb_surface": "reduced",
+      "head_verb_lemma": "reduce",
+      "left_3": "near zero and",
+      "right_3": "not be meaningfully",
+      "sentence": "The provision of additional information about policy plans has helped Fed policymakers deal with the constraint posed by the effective lower bound on short-term interest rates; in particular, by offering guidance about how policy will respond to economic developments, the Committee has been able to increase policy accommodation, even when the short-term interest rate is near zero and cannot be mea"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 4714,
+      "head_verb_surface": "described",
+      "head_verb_lemma": "describe",
+      "left_3": "conclusion is what",
+      "right_3": "be described as",
+      "sentence": "The broader conclusion is what might be described as the overriding lesson of the Federal Reserve's history: that central banking doctrine and practice are never static."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4743,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "around the world",
+      "right_3": "have to continue",
+      "sentence": "We and other central banks around the world will have to continue to work hard to adapt to events, new ideas, and changes in the economic and financial environment."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 5572,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "\n How Independent",
+      "right_3": "a Central Bank",
+      "sentence": "\" How Independent Should a Central Bank Be?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5758,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ". \" \n",
+      "right_3": "Financial Innovation Help",
+      "sentence": "\" Can Financial Innovation Help to Explain the Reduced Volatility of Economic Activity? \"  Journal of Monetary Economics , vol. 53 (January), pp."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 7815,
+      "head_verb_surface": "arise",
+      "head_verb_lemma": "arise",
+      "left_3": "varying situations as",
+      "right_3": "arise in the",
+      "sentence": "Return to text  2.  Per a review of the 1929 book  Wall Street and Washington  in the  New York Times , \"The Federal Reserve System has from the first necessarily been a great experiment, bound to adjust its general policies to the requirements of such novel and varying situations as should arise in the course of our financial history and which could not possibly be foreseen\" (Noyes, 1929)."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7815,
+      "head_verb_surface": "foreseen",
+      "head_verb_lemma": "foresee",
+      "left_3": "history and which",
+      "right_3": "not possibly be",
+      "sentence": "Return to text  2.  Per a review of the 1929 book  Wall Street and Washington  in the  New York Times , \"The Federal Reserve System has from the first necessarily been a great experiment, bound to adjust its general policies to the requirements of such novel and varying situations as should arise in the course of our financial history and which could not possibly be foreseen\" (Noyes, 1929)."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 7970,
+      "head_verb_surface": "addressed",
+      "head_verb_lemma": "address",
+      "left_3": "that a panic",
+      "right_3": "be addressed by",
+      "sentence": "Bagehot ([1873] 1897) is the source of the classic dictum that a panic should be addressed by the central bank, by lending freely at a penalty rate."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8220,
+      "head_verb_surface": "undo",
+      "head_verb_lemma": "undo",
+      "left_3": "The Federal Reserve",
+      "right_3": "undo the effects",
+      "sentence": "The Federal Reserve could undo the effects of gold inflows on the domestic money supply through open market operations, discussed later."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 8658,
+      "head_verb_surface": "regarded",
+      "head_verb_lemma": "regard",
+      "left_3": "Reserve Reform Act",
+      "right_3": "be regarded as",
+      "sentence": "Thus, the interest rate goal of the Federal Reserve Reform Act can be regarded as subsumed within the dual mandate."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9326,
+      "head_verb_surface": "found",
+      "head_verb_lemma": "find",
+      "left_3": "\n  The statement",
+      "right_3": "be found at",
+      "sentence": "The statement can be found at  www.federalreserve.gov/newsevents/press/monetary/20120125c.htm ."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The changes over time in these three areas provide a useful perspective, I believe, on how the role and functioning of the Federal Reserve have changed since its founding in 1913, as well as some lessons for the present and for the future."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "The degree to which the gold standard actually constrained U.S. monetary policy during the early 1930s is debated; but the gold standard philosophy clearly did not encourage the sort of highly expansionary policies that were needed."
+    },
+    {
+      "surface": "apparently",
+      "lemma": "apparently",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "15   The same can be said for the real bills doctrine, which apparently led policymakers to conclude, on the basis of low nominal interest rates and low borrowings from the Fed, that monetary policy was appropriately supportive and that further actions would be fruitless."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "20   For example, legislators described the intent of the Banking Act of 1935 as follows: \"To increase the ability of the banking system to promote stability of employment and business, insofar as this is possible within the scope of monetary action and credit administration."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "At the same time, the Federal Reserve became less focused on its original mandate of preserving financial stability, perhaps in part because it felt superseded by the creation during the 1930s of the Federal Deposit Insurance Corporation and the Securities and Exchange Commission, along with other reforms intended to make the financial system more stable."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "First, a stronger policy response to inflation--more like that observed in the 1950s--certainly would have helped."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Moreover, by the end of the decade, lack of commitment to controlling inflation had clearly resulted in inflation expectations becoming \"unanchored,\" with high estimates of trend inflation embedded in longer-term interest rates."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "By the end of the 1970s, Federal Reserve officials increasingly accepted the view that inflation is a monetary phenomenon, at least in the medium and longer term; they became more alert to the risks of excessive optimism about the economy's potential output; and they placed renewed emphasis on the distinction between realââthat is, inflation-adjustedââand nominal interest rates."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "They believed, for example, that the ability to take markets by surprise was important for influencing financial conditions."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Rather, the right conclusion is that, even in (or perhaps, especially in) stable and prosperous times, monetary policymakers and financial regulators should regard safeguarding financial stability to be of equal importance as--indeed, a necessary prerequisite for--maintaining macroeconomic stability."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "41   In that statement, the Committee indicated that it judged that inflation at a rate of 2 percent (as measured by the annual change in the price index for personal consumption expenditures) is most consistent over the longer run with the FOMC's dual mandate."
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Return to text  2.  Per a review of the 1929 book  Wall Street and Washington  in the  New York Times , \"The Federal Reserve System has from the first necessarily been a great experiment, bound to adjust its general policies to the requirements of such novel and varying situations as should arise in the course of our financial history and which could not possibly be foreseen\" (Noyes, 1929)."
+    },
+    {
+      "surface": "foreseen",
+      "lemma": "foresee",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Return to text  2.  Per a review of the 1929 book  Wall Street and Washington  in the  New York Times , \"The Federal Reserve System has from the first necessarily been a great experiment, bound to adjust its general policies to the requirements of such novel and varying situations as should arise in the course of our financial history and which could not possibly be foreseen\" (Noyes, 1929)."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For example, section 10B enhanced the powers of the Federal Reserve to lend to member banks, and sections 13(3) and 13(13) enabled the Federal Reserve to provide short-term credit to a wide range of potential borrowers in specific circumstances."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The dual mandate refers to the first two goals, and the long-term interest rate goal is viewed as likely to emerge from the macroeconomic environment associated with achievement of the employment and price stability goals (Mishkin, 2007)."
+    }
+  ]
+}

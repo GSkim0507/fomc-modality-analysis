@@ -1,0 +1,534 @@
+{
+  "doc_id": "speech_powell_20191125a",
+  "doc_type": "speech",
+  "date": "2019-11-25",
+  "chair": "Powell",
+  "n_tokens": 2675,
+  "n_sents": 120,
+  "pos_counts": {
+    "NNP": 150,
+    "CD": 86,
+    ",": 148,
+    "NN": 471,
+    "IN": 397,
+    "DT": 267,
+    "NNS": 194,
+    "JJ": 217,
+    "PRP$": 40,
+    "CC": 97,
+    "PRP": 62,
+    "-LRB-": 22,
+    "-RRB-": 22,
+    "VBP": 58,
+    "VBN": 58,
+    "VBG": 74,
+    "HYPH": 21,
+    "RB": 148,
+    "WRB": 13,
+    ".": 120,
+    "VBD": 50,
+    "VBZ": 59,
+    "MD": 36,
+    "VB": 90,
+    ":": 11,
+    "JJS": 3,
+    "EX": 2,
+    "TO": 28,
+    "RP": 10,
+    "JJR": 23,
+    "NNPS": 14,
+    "POS": 5,
+    "RBR": 11,
+    "WDT": 14,
+    "PDT": 2,
+    "AFX": 1,
+    "``": 11,
+    "NFP": 7,
+    "''": 13,
+    "WP": 1,
+    "RBS": 1,
+    "LS": 1
+  },
+  "modal_count": 36,
+  "modal_lemma_counts": {
+    "might": 2,
+    "will": 7,
+    "may": 1,
+    "should": 1,
+    "can": 10,
+    "would": 10,
+    "could": 5
+  },
+  "modals_per_1000": 13.458,
+  "epistemic_count": 12,
+  "epistemic_lemma_counts": {
+    "likely": 3,
+    "certain": 1,
+    "believe": 3,
+    "unlikely": 1,
+    "assess": 1,
+    "expect": 2,
+    "clearly": 1
+  },
+  "epistemics_per_1000": 4.486,
+  "modal_instances": [
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 72,
+      "head_verb_surface": "promote",
+      "head_verb_lemma": "promote",
+      "left_3": "the Federal Reserve",
+      "right_3": "better promote the",
+      "sentence": "As part of that review, we held  Fed Listens  events around the country where representatives from a wide range of groups have been telling us how the economy is working for them and the people they represent and how the Federal Reserve might better promote the goals Congress has set for us: maximum employment and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 311,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": ". Tonight I",
+      "right_3": "begin by discussing",
+      "sentence": "Tonight I will begin by discussing the Fed's policy actions over the past year to support the favorable outlook."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 332,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": ". Then I",
+      "right_3": "turn to two",
+      "sentence": "Then I will turn to two important opportunities for further gains from this expansion: maintaining a stable and reliable pace of 2 percent inflation and spreading the benefits of employment more widely."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 515,
+      "head_verb_surface": "describe",
+      "head_verb_lemma": "describe",
+      "left_3": "dull . I",
+      "right_3": "describe how we",
+      "sentence": "I will describe how we grappled with incoming information and made important monetary policy changes through the year to help keep the favorable outlook on track."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 588,
+      "head_verb_surface": "spread",
+      "head_verb_lemma": "spread",
+      "left_3": "that the weakness",
+      "right_3": "spread more broadly",
+      "sentence": "While weaker foreign growth does not necessarily translate into similar weakness here, it does hurt our exporters and presents a risk that the weakness may spread more broadly."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 724,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "oil prices and",
+      "right_3": "not affect inflation",
+      "sentence": "Some of the softness in overall inflation is the result of a fall in oil prices and should not affect inflation going forward."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 845,
+      "head_verb_surface": "known",
+      "head_verb_lemma": "know",
+      "left_3": "our policy decisions",
+      "right_3": "not be known",
+      "sentence": "In addition, the precise timing and size of the effects of our policy decisions cannot be known in real time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1006,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "interest rate that",
+      "right_3": "be neutralâneither restraining",
+      "sentence": "One of these is the interest rate that would be neutralâneither restraining the economy nor pushing it upward."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1041,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "above r *",
+      "right_3": "tend to restrain",
+      "sentence": "A policy rate above r* would tend to restrain economic activity, while a setting below r* would tend to speed up the economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1041,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "below r *",
+      "right_3": "tend to speed",
+      "sentence": "A policy rate above r* would tend to restrain economic activity, while a setting below r* would tend to speed up the economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1068,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": "of unemployment that",
+      "right_3": "not create upward",
+      "sentence": "A second benchmark is the natural rate of unemployment, which is the lowest rate of unemployment that would not create upward pressure on inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1110,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": ") . You",
+      "right_3": "think of r",
+      "sentence": "You can think of r* and u* as two of the main stars by which we navigate."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1130,
+      "head_verb_surface": "rely",
+      "head_verb_lemma": "rely",
+      "left_3": "world , policymakers",
+      "right_3": "rely on these",
+      "sentence": "In an ideal world, policymakers could rely on these stars like mariners before the advent of GPS."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1149,
+      "head_verb_surface": "observe",
+      "head_verb_lemma": "observe",
+      "left_3": "night , we",
+      "right_3": "not directly observe",
+      "sentence": "But, unlike celestial stars on a clear night, we cannot directly observe these stars, and their values change in ways that are difficult to track in real time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1240,
+      "head_verb_surface": "suggest",
+      "head_verb_lemma": "suggest",
+      "left_3": "lower r *",
+      "right_3": "suggest that monetary",
+      "sentence": "4  Taken at face value, a lower r* would suggest that monetary policy is providing somewhat less support for employment and inflation than previously believed, and the fall in u* would suggest that the labor market was less tight than believed."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1240,
+      "head_verb_surface": "suggest",
+      "head_verb_lemma": "suggest",
+      "left_3": "in u *",
+      "right_3": "suggest that the",
+      "sentence": "4  Taken at face value, a lower r* would suggest that monetary policy is providing somewhat less support for employment and inflation than previously believed, and the fall in u* would suggest that the labor market was less tight than believed."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1288,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "5 \n  Both",
+      "right_3": "help explain the",
+      "sentence": "5  Both could help explain the weakness in inflation."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1299,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "policy interest rate",
+      "right_3": "be appropriate .",
+      "sentence": "As with the revised jobs data, these revised estimates of the stars were not a game changer for policy, but they provided another reason why a somewhat lower setting of our policy interest rate might be appropriate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1425,
+      "head_verb_surface": "felt",
+      "head_verb_lemma": "feel",
+      "left_3": "monetary policy actions",
+      "right_3": "be felt over",
+      "sentence": "The full effects of these monetary policy actions will be felt over time, but we believe they are already helping to support consumer and business sentiment and boosting spending in interest-sensitive sectors, such as housing and consumer durable goods."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1516,
+      "head_verb_surface": "monitoring",
+      "head_verb_lemma": "monitor",
+      "left_3": "ahead , we",
+      "right_3": "be monitoring the",
+      "sentence": "Looking ahead, we will be monitoring the effects of our policy actions, along with other information bearing on the outlook, as we assess the appropriate path of the target range for the federal funds rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1555,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "outlook , we",
+      "right_3": "respond accordingly .",
+      "sentence": "Of course, if developments emerge that cause a material reassessment of our outlook, we would respond accordingly."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1584,
+      "head_verb_surface": "wrap",
+      "head_verb_lemma": "wrap",
+      "left_3": ". \n\n I",
+      "right_3": "wrap up with",
+      "sentence": "I will wrap up with two areas where we have an opportunity to build on our gains."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1640,
+      "head_verb_surface": "rise",
+      "head_verb_lemma": "rise",
+      "left_3": "expected that inflation",
+      "right_3": "gradually rise as",
+      "sentence": "We had long expected that inflation would gradually rise as the expansion continued, and, as I noted, both overall and core inflation ran at rates consistent with our goal for much of 2018."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1769,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "persistently below target",
+      "right_3": "lead to an",
+      "sentence": "Around the world, however, we have seen that inflation running persistently below target can lead to an unhealthy dynamic in which inflation expectations drift down, pulling actual inflation further down."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1803,
+      "head_verb_surface": "pull",
+      "head_verb_lemma": "pull",
+      "left_3": ". Lower inflation",
+      "right_3": ", in turn",
+      "sentence": "Lower inflation can, in turn, pull interest rates to ever-lower levels."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1819,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "way , it",
+      "right_3": "make it harder",
+      "sentence": "The experience of Japan, and now the euro area, suggests that this dynamic is very difficult to reverse, and once under way, it can make it harder for a central bank to support its economy by further lowering interest rates."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1896,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "households and businesses",
+      "right_3": "reasonably expect 2",
+      "sentence": "We are strongly committed to symmetrically and sustainably achieving our 2 percent inflation objective so that in making long-term plans, households and businesses can reasonably expect 2 percent inflation over time."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1975,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "so that employees",
+      "right_3": "do their jobs",
+      "sentence": "We have heard about companies, communities, and schools working together to help employees build skillsâand of employers working creatively to structure jobs so that employees can do their jobs while coping with the demands of family and life beyond the workplace."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2324,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "prime age participation",
+      "right_3": "be still higher",
+      "sentence": "But prime age participation could be still higher."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2500,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": ". The Fed",
+      "right_3": "play a role",
+      "sentence": "The Fed can play a role in this effort by steadfastly pursuing our goals of maximum employment and price stability."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2521,
+      "head_verb_surface": "spur",
+      "head_verb_lemma": "spur",
+      "left_3": "policy , that",
+      "right_3": "spur further progress",
+      "sentence": "The research literature suggests a variety of policies, beyond the scope of monetary policy, that could spur further progress by better preparing people to meet the challenges of technological innovation and global competition and by supporting and rewarding labor force participation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2566,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "\n  These policies",
+      "right_3": "bring immense benefits",
+      "sentence": "6  These policies could bring immense benefits both to the lives of workers and families directly affected and to the strength of the economy overall."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2639,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "materially , policy",
+      "right_3": "change as well",
+      "sentence": "If the outlook changes materially, policy will change as well."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2670,
+      "head_verb_surface": "fill",
+      "head_verb_lemma": "fill",
+      "left_3": "policies , we",
+      "right_3": "fill it further",
+      "sentence": "With the right policies, we can fill it further, building on the gains so far and spreading the benefits more broadly to all Americans."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2938,
+      "head_verb_surface": "call",
+      "head_verb_lemma": "call",
+      "left_3": "of the stars",
+      "right_3": ", by standard",
+      "sentence": "Taken literally, the revised estimates of the stars would, by standard rules of thumb, call for a somewhat lower federal funds rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2964,
+      "head_verb_surface": "call",
+      "head_verb_lemma": "call",
+      "left_3": "and u *",
+      "right_3": "call for a",
+      "sentence": "For example, using the Taylor (1993) rule and using Okun's law to state the rule in terms of the unemployment gap with a coefficient of 1 instead of the output gap with a coefficient of 0.5, the shift in r* and u* would call for a 50 basis point reduction in the federal funds rate."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In August, the Bureau of Labor Statistics previewed a likely revision to its count of payroll job creation for the 12 months ended March 2019."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "On a monthly basis, job gains were likely about 170,000 per month, rather than 210,000."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "In doing so, we often refer to certain benchmarks."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "4  Taken at face value, a lower r* would suggest that monetary policy is providing somewhat less support for employment and inflation than previously believed, and the fall in u* would suggest that the labor market was less tight than believed."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "4  Taken at face value, a lower r* would suggest that monetary policy is providing somewhat less support for employment and inflation than previously believed, and the fall in u* would suggest that the labor market was less tight than believed."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "First, we signaled that increases in our short-term interest rate were unlikely."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The full effects of these monetary policy actions will be felt over time, but we believe they are already helping to support consumer and business sentiment and boosting spending in interest-sensitive sectors, such as housing and consumer durable goods."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook of moderate economic growth, a strong labor market, and inflation near our symmetric 2 percent objective."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Looking ahead, we will be monitoring the effects of our policy actions, along with other information bearing on the outlook, as we assess the appropriate path of the target range for the federal funds rate."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We had long expected that inflation would gradually rise as the expansion continued, and, as I noted, both overall and core inflation ran at rates consistent with our goal for much of 2018."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We are strongly committed to symmetrically and sustainably achieving our 2 percent inflation objective so that in making long-term plans, households and businesses can reasonably expect 2 percent inflation over time."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "These stories show clearly in the job market data."
+    }
+  ]
+}

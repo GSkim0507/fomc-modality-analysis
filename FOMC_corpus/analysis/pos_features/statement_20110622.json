@@ -1,0 +1,190 @@
+{
+  "doc_id": "statement_20110622",
+  "doc_type": "statement",
+  "date": "2011-06-22",
+  "chair": "Bernanke",
+  "n_tokens": 468,
+  "n_sents": 17,
+  "pos_counts": {
+    "NNP": 56,
+    "CD": 6,
+    ",": 18,
+    "JJ": 45,
+    "NN": 81,
+    "IN": 57,
+    "VBD": 5,
+    "DT": 41,
+    "VBZ": 16,
+    "VBG": 9,
+    "RB": 16,
+    "RBR": 1,
+    "VBN": 10,
+    ".": 17,
+    "NNS": 32,
+    "VBP": 6,
+    "JJR": 6,
+    "WDT": 2,
+    "TO": 15,
+    "VB": 22,
+    "CC": 21,
+    "RP": 3,
+    "HYPH": 2,
+    "PRP$": 8,
+    ":": 13,
+    "MD": 7,
+    "POS": 1,
+    "$": 1,
+    "JJS": 1
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "will": 7
+  },
+  "modals_per_1000": 14.957,
+  "epistemic_count": 8,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "anticipate": 3,
+    "likely": 2,
+    "judge": 1
+  },
+  "epistemics_per_1000": 17.094,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 247,
+      "head_verb_surface": "subside",
+      "head_verb_lemma": "subside",
+      "left_3": "anticipates that inflation",
+      "right_3": "subside to levels",
+      "sentence": "Inflation has moved up recently, but the Committee anticipates that inflation will subside to levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price increases dissipate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 288,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to pay",
+      "sentence": "However, the Committee will continue to pay close attention to the evolution of inflation and inflation expectations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 397,
+      "head_verb_surface": "complete",
+      "head_verb_lemma": "complete",
+      "left_3": "   The Committee",
+      "right_3": "complete its purchases",
+      "sentence": "The Committee will complete its purchases of $600 billion of longer-term Treasury securities by the end of this month and will maintain its existing policy of reinvesting principal payments from its securities holdings."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 397,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "this month and",
+      "right_3": "maintain its existing",
+      "sentence": "The Committee will complete its purchases of $600 billion of longer-term Treasury securities by the end of this month and will maintain its existing policy of reinvesting principal payments from its securities holdings."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 435,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": "   The Committee",
+      "right_3": "regularly review the",
+      "sentence": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 459,
+      "head_verb_surface": "monitor",
+      "head_verb_lemma": "monitor",
+      "left_3": " \r\n \n\n\r\n  The Committee",
+      "right_3": "monitor the economic",
+      "sentence": "The Committee will monitor the economic outlook and financial developments and will act as needed to best foster maximum employment and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 459,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "financial developments and",
+      "right_3": "act as needed",
+      "sentence": "The Committee will monitor the economic outlook and financial developments and will act as needed to best foster maximum employment and price stability."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "June 22, 2011  FOMC statement  For immediate release \r  \r    Share  \r  Information received since the Federal Open Market Committee met in April indicates that the economic recovery is continuing at a moderate pace, though somewhat more slowly than the Committee had expected."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Also, recent labor market indicators have been weaker than anticipated."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The slower pace of the recovery reflects in part factors that are likely to be temporary, including the damping effect of higher food and energy prices on consumer purchasing power and spending as well as supply chain disruptions associated with the tragic events in Japan."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The unemployment rate remains elevated; however, the Committee expects the pace of recovery to pick up over coming quarters and the unemployment rate to resume its gradual decline toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The unemployment rate remains elevated; however, the Committee expects the pace of recovery to pick up over coming quarters and the unemployment rate to resume its gradual decline toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Inflation has moved up recently, but the Committee anticipates that inflation will subside to levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price increases dissipate."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee continues to anticipate that economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee continues to anticipate that economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    }
+  ]
+}

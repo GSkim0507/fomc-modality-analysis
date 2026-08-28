@@ -1,0 +1,733 @@
+{
+  "doc_id": "speech_bernanke_20121115a",
+  "doc_type": "speech",
+  "date": "2012-11-15",
+  "chair": "Bernanke",
+  "n_tokens": 4016,
+  "n_sents": 169,
+  "pos_counts": {
+    "NNP": 261,
+    "CD": 95,
+    ",": 233,
+    "NNS": 388,
+    "IN": 557,
+    "CC": 191,
+    "NNPS": 17,
+    "DT": 347,
+    "JJ": 329,
+    "NN": 664,
+    ".": 165,
+    "PRP": 68,
+    "MD": 55,
+    "VB": 168,
+    "TO": 76,
+    "VBG": 101,
+    "RB": 173,
+    "WDT": 29,
+    "VBZ": 73,
+    "POS": 15,
+    "PRP$": 49,
+    "VBP": 115,
+    "VBN": 120,
+    "WRB": 12,
+    "RBS": 2,
+    "VBD": 36,
+    "RP": 7,
+    ":": 30,
+    "JJS": 6,
+    "JJR": 42,
+    "HYPH": 36,
+    "EX": 1,
+    "$": 1,
+    "-LRB-": 16,
+    "-RRB-": 16,
+    "RBR": 14,
+    "WP": 8,
+    "PDT": 1,
+    "``": 12,
+    "''": 6,
+    "LS": 1,
+    "SYM": 2
+  },
+  "modal_count": 55,
+  "modal_lemma_counts": {
+    "would": 7,
+    "will": 14,
+    "must": 8,
+    "should": 3,
+    "can": 13,
+    "could": 2,
+    "may": 7,
+    "ought": 1
+  },
+  "modals_per_1000": 13.695,
+  "epistemic_count": 13,
+  "epistemic_lemma_counts": {
+    "potential": 4,
+    "believe": 1,
+    "likely": 4,
+    "certainly": 1,
+    "obviously": 1,
+    "assess": 1,
+    "perhaps": 1
+  },
+  "epistemics_per_1000": 3.237,
+  "modal_instances": [
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 35,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "afternoon . I",
+      "right_3": "like to thank",
+      "sentence": "I'd like to thank John Bryant and Operation HOPE for inviting me to speak today."
+    },
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 52,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "today . I",
+      "right_3": "also like to",
+      "sentence": "I'd also like to congratulate Operation HOPE and the Ebenezer Baptist Church on the grand opening of the HOPE Financial Dignity Center, which holds the promise of becoming a tremendous resource for the people of Atlanta and sits next to Martin Luther King's home church."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 142,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", and we",
+      "right_3": "continue to use",
+      "sentence": "At the Federal Reserve, we understand the depth of the problem and the need for action, and we will continue to use the policy tools that we have to help support economic recovery."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 178,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "effective , policymakers",
+      "right_3": "take into account",
+      "sentence": "We also know that the burdens of a weak economy and the benefits of economic growth often are not equally shared, and that, to be truly effective, policymakers must take into account how their decisions affect the least advantaged, not just the economy as a whole."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 230,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "My remarks today",
+      "right_3": "focus on an",
+      "sentence": "My remarks today will focus on an important part of our economy, the housing sector."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 281,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": ". As I",
+      "right_3": "discuss , for",
+      "sentence": "As I will discuss, for the first time in a number of years, the housing sector is improving, adding to growth and jobs."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 346,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "challenge is met",
+      "right_3": "help determine the",
+      "sentence": "The degree to which that challenge is met will help determine the strength and sustainability of the economic recovery and the extent to which its benefits are broadly felt."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 735,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "market , we",
+      "right_3": "not be satisfied",
+      "sentence": "So, although there are good reasons to be encouraged by the recent direction of the housing market, we should not be satisfied with the progress we have seen so far."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 985,
+      "head_verb_surface": "inflict",
+      "head_verb_lemma": "inflict",
+      "left_3": "Importantly , foreclosures",
+      "right_3": "inflict economic damage",
+      "sentence": "Importantly, foreclosures can inflict economic damage beyond the personal suffering and dislocation that accompany them."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1093,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "strengthening housing market",
+      "right_3": "help to gradually",
+      "sentence": "A strengthening housing market will help to gradually undo that damage, but the process has only begun."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1369,
+      "head_verb_surface": "rely",
+      "head_verb_lemma": "rely",
+      "left_3": "many current homeowners",
+      "right_3": "not rely as",
+      "sentence": "In addition, the fall in home prices means that many current homeowners cannot rely as much as they could in the past on tapping their existing home equity to trade up to larger or better homes, while underwater homeowners may be financially unable to move from their current homes."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1369,
+      "head_verb_surface": "much",
+      "head_verb_lemma": "much",
+      "left_3": "much as they",
+      "right_3": "in the past",
+      "sentence": "In addition, the fall in home prices means that many current homeowners cannot rely as much as they could in the past on tapping their existing home equity to trade up to larger or better homes, while underwater homeowners may be financially unable to move from their current homes."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1369,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "while underwater homeowners",
+      "right_3": "be financially unable",
+      "sentence": "In addition, the fall in home prices means that many current homeowners cannot rely as much as they could in the past on tapping their existing home equity to trade up to larger or better homes, while underwater homeowners may be financially unable to move from their current homes."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1518,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "reported that they",
+      "right_3": "be much less",
+      "sentence": "For example, in April nearly 60 percent of lenders reported that they would be much less likely, relative to 2006, to originate a conforming home-purchase mortgage to a borrower with a 10 percent down payment and a credit score of 620--a traditional marker for those with weaker credit histories."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1740,
+      "head_verb_surface": "constrained",
+      "head_verb_lemma": "constrain",
+      "left_3": "for new purchases",
+      "right_3": "be constrained because",
+      "sentence": "Also, some evidence suggests that mortgage originations for new purchases may be constrained because of processing capacity, as high levels of refinancing have drawn on the same personnel who would otherwise be available for handling loans for purchase."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1740,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "same personnel who",
+      "right_3": "otherwise be available",
+      "sentence": "Also, some evidence suggests that mortgage originations for new purchases may be constrained because of processing capacity, as high levels of refinancing have drawn on the same personnel who would otherwise be available for handling loans for purchase."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1876,
+      "head_verb_surface": "preventing",
+      "head_verb_lemma": "prevent",
+      "left_3": "tight lending standards",
+      "right_3": "now be preventing",
+      "sentence": "However, it seems likely at this point that the pendulum has swung too far the other way, and that overly tight lending standards may now be preventing creditworthy borrowers from buying homes, thereby slowing the revival in housing and impeding the economic recovery."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1924,
+      "head_verb_surface": "restore",
+      "head_verb_lemma": "restore",
+      "left_3": "solutions exist that",
+      "right_3": ", on their",
+      "sentence": "Policy Responses \r  The factors contributing to reduced mortgage lending and lower rates of homeownership are varied and complex; no simple solutions exist that can, on their own, restore the housing market to health."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2108,
+      "head_verb_surface": "rented",
+      "head_verb_lemma": "rent",
+      "left_3": "the acquired properties",
+      "right_3": "then be rented",
+      "sentence": "To explore ways to address the number of foreclosed homes standing empty, the Federal Housing Finance Agency, which supervises the GSEs, undertook a pilot initiative that made it easier for qualified investors to purchase pools of foreclosed properties from Fannie Mae; the acquired properties would then be rented for a specified number of years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2231,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "new rules that",
+      "right_3": "provide mortgage lenders",
+      "sentence": "The Federal Housing Finance Agency recently announced new rules that will provide mortgage lenders greater clarity about the conditions under which they will be required to buy back defaulted mortgages from Fannie Mae and Freddie Mac or otherwise address origination problems."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2231,
+      "head_verb_surface": "required",
+      "head_verb_lemma": "require",
+      "left_3": "under which they",
+      "right_3": "be required to",
+      "sentence": "The Federal Housing Finance Agency recently announced new rules that will provide mortgage lenders greater clarity about the conditions under which they will be required to buy back defaulted mortgages from Fannie Mae and Freddie Mac or otherwise address origination problems."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2273,
+      "head_verb_surface": "result",
+      "head_verb_lemma": "result",
+      "left_3": "This greater clarity",
+      "right_3": "result in reduced",
+      "sentence": "This greater clarity may result in reduced concern about putback risk, which in turn should increase the willingness of lenders to make new loans."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2273,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "which in turn",
+      "right_3": "increase the willingness",
+      "sentence": "This greater clarity may result in reduced concern about putback risk, which in turn should increase the willingness of lenders to make new loans."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2342,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Although regulatory policy",
+      "right_3": "be important for",
+      "sentence": "Although regulatory policy will be important for restoring a fully functioning housing and mortgage market, the strength of the overall economic recovery is crucial as well."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2586,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "stating that we",
+      "right_3": "continue actions to",
+      "sentence": "In September, we took the added step of stating that we will continue actions to put downward pressure on longer-term interest rates until the outlook for the job market improves substantially in a context of price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2627,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "result , they",
+      "right_3": "become more willing",
+      "sentence": "Our hope is that our statement provides individuals, families, businesses, and financial markets greater confidence about the Federal Reserve's commitment to promoting a sustainable recovery with price stability and that, as a result, they will become more willing to invest, hire and spend."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2715,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "some potential borrowers",
+      "right_3": "face the added",
+      "sentence": "While the economic recovery and regulatory policy affect access to credit for all households, some potential borrowers may face the added burden of discrimination."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2822,
+      "head_verb_surface": "charge",
+      "head_verb_lemma": "charge",
+      "left_3": "prices than they",
+      "right_3": "to comparable nonminority",
+      "sentence": "Two types of discrimination continue to have particular significance to mortgage markets: One is redlining, in which mortgage lenders discriminate against minority neighborhoods, and the other is pricing discrimination, in which lenders charge minorities higher loan prices than they would to comparable nonminority borrowers."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2948,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "However , government",
+      "right_3": "only be part",
+      "sentence": "However, government can only be part of the solution; in the remainder of my remarks I will discuss what others can do, including potential homeowners themselves."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2948,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "my remarks I",
+      "right_3": "discuss what others",
+      "sentence": "However, government can only be part of the solution; in the remainder of my remarks I will discuss what others can do, including potential homeowners themselves."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2948,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "discuss what others",
+      "right_3": "do , including",
+      "sentence": "However, government can only be part of the solution; in the remainder of my remarks I will discuss what others can do, including potential homeowners themselves."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3003,
+      "head_verb_surface": "afford",
+      "head_verb_lemma": "afford",
+      "left_3": "house than they",
+      "right_3": "afford , took",
+      "sentence": "Although many foreclosures resulted from job loss or other economic hardships, others occurred because people bought more of a house than they could afford, took out a loan that was not appropriate to their circumstances, or did not manage their resources well."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3049,
+      "head_verb_surface": "built",
+      "head_verb_lemma": "build",
+      "left_3": ". Future homeownership",
+      "right_3": "be built on",
+      "sentence": "Future homeownership must be built on a more solid foundation."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3060,
+      "head_verb_surface": "lie",
+      "head_verb_lemma": "lie",
+      "left_3": "building that foundation",
+      "right_3": "lie with lenders",
+      "sentence": "And while much of the responsibility for building that foundation must lie with lenders and with regulators, consumers must do their part as well by acquiring the information and financial knowledge they need to make sound decisions."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3060,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "regulators , consumers",
+      "right_3": "do their part",
+      "sentence": "And while much of the responsibility for building that foundation must lie with lenders and with regulators, consumers must do their part as well by acquiring the information and financial knowledge they need to make sound decisions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3110,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "and adults --",
+      "right_3": "provide people with",
+      "sentence": "Effective financial education--aimed at both youths and adults--can provide people with the knowledge they need."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3186,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "buy a home",
+      "right_3": "be consistent with",
+      "sentence": "More generally, the decision to buy a home must be consistent with a family's longer-term objectives, needs, and resources."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3212,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "sensible investing --",
+      "right_3": "help families maintain",
+      "sentence": "Good financial planning--including effective budgeting, adequate saving, and sensible investing--can help families maintain homeownership while also pursuing other important objectives, such as preparing for retirement or financial emergencies."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3248,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "financially informed households",
+      "right_3": "have a better",
+      "sentence": "And financially informed households will have a better chance to build wealth, reducing--in the case of minority households--the large wealth gap that exists between minorities and other groups."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3379,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "Sometimes a professional",
+      "right_3": "help , and",
+      "sentence": "Sometimes a professional can help, and people should not be afraid to seek advice at appropriate times."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3379,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", and people",
+      "right_3": "not be afraid",
+      "sentence": "Sometimes a professional can help, and people should not be afraid to seek advice at appropriate times."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3398,
+      "head_verb_surface": "involved",
+      "head_verb_lemma": "involve",
+      "left_3": ", an individual",
+      "right_3": "be involved in",
+      "sentence": "For example, an individual may be involved in buying a home--a complex and intimidating experience for many people--only once or twice in a lifetime."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3428,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "in the process",
+      "right_3": "make all the",
+      "sentence": "That's why advice from a housing counselor at the right point in the process can make all the difference."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3449,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ". Nonprofit organizations",
+      "right_3": "help prospective homeowners",
+      "sentence": "Nonprofit organizations can help prospective homeowners assess their readiness to purchase."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3461,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ", these nonprofits",
+      "right_3": "help aspiring homebuyers",
+      "sentence": "And, by providing useful information about how to search for a home, apply for financing, handle home maintenance, and prevent delinquency, these nonprofits can help aspiring homebuyers find the right home and maintain their mortgage payments."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3504,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "seen that counseling",
+      "right_3": "help consumers who",
+      "sentence": "11   We have also seen that counseling can help consumers who are facing delinquency or default."
+    },
+    {
+      "surface": "ought",
+      "lemma": "ought",
+      "sent_idx": 3567,
+      "head_verb_surface": "ought",
+      "head_verb_lemma": "ought",
+      "left_3": "homebuyers . It",
+      "right_3": "to be a",
+      "sentence": "It ought to be a lifelong undertaking, starting with children and teenagers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3886,
+      "head_verb_surface": "aid",
+      "head_verb_lemma": "aid",
+      "left_3": "improving housing market",
+      "right_3": "in turn aid",
+      "sentence": "An improving housing market will in turn aid the economic recovery while strengthening neighborhoods and increasing the financial well-being of families."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3910,
+      "head_verb_surface": "felt",
+      "head_verb_lemma": "feel",
+      "left_3": ". Our recovery",
+      "right_3": "be broadly felt",
+      "sentence": "Our recovery must be broadly felt to be complete, and families and communities that were already struggling before the crisis must be included in that recovery."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3910,
+      "head_verb_surface": "included",
+      "head_verb_lemma": "include",
+      "left_3": "before the crisis",
+      "right_3": "be included in",
+      "sentence": "Our recovery must be broadly felt to be complete, and families and communities that were already struggling before the crisis must be included in that recovery."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3938,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": ", \" We",
+      "right_3": "have all come",
+      "sentence": "As Dr. King is widely quoted to have said, \"We may have all come on different ships, but we're in the same boat now."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3967,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "The Federal Reserve",
+      "right_3": "continue to do",
+      "sentence": "\"\r    \r  The Federal Reserve will continue to do what we can to support the housing recovery, both through our monetary policy and our regulatory and supervisory actions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3967,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "do what we",
+      "right_3": "to support the",
+      "sentence": "\"\r    \r  The Federal Reserve will continue to do what we can to support the housing recovery, both through our monetary policy and our regulatory and supervisory actions."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3997,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": "the nonprofit sector",
+      "right_3": "play their part",
+      "sentence": "But, as I have discussed, not all of the responsibility lies with the government; households, the financial services industry, and those in the nonprofit sector must play their part as well."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4034,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "spirit , I",
+      "right_3": "like to close",
+      "sentence": "In that spirit, I would like to close by expressing my appreciation and admiration for the work that so many of you are doing to restore our neighborhoods and to help individuals and families regain a solid financial footing."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Unemployment, income loss, and income insecurity prevent many households from purchasing homes, and concerns about the future direction of the labor market, housing prices, and the economy more generally keep other potential buyers on the sidelines."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Although the decline in the number of willing and qualified potential homebuyers explains some of the contraction in mortgage lending of the past few years, I believe that tight credit nevertheless remains an important factor as well."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Although the decline in the number of willing and qualified potential homebuyers explains some of the contraction in mortgage lending of the past few years, I believe that tight credit nevertheless remains an important factor as well."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "For example, in April nearly 60 percent of lenders reported that they would be much less likely, relative to 2006, to originate a conforming home-purchase mortgage to a borrower with a 10 percent down payment and a credit score of 620--a traditional marker for those with weaker credit histories."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Certainly, some tightening of credit standards was an appropriate response to the lax lending conditions that prevailed in the years leading up to the peak in house prices."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "However, it seems likely at this point that the pendulum has swung too far the other way, and that overly tight lending standards may now be preventing creditworthy borrowers from buying homes, thereby slowing the revival in housing and impeding the economic recovery."
+    },
+    {
+      "surface": "obviously",
+      "lemma": "obviously",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Obviously, loss of employment or income makes it more difficult for families to pay their mortgages, maintain good credit histories, refinance their mortgages at lower rates, and avoid foreclosure."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "While the economic recovery and regulatory policy affect access to credit for all households, some potential borrowers may face the added burden of discrimination."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "However, government can only be part of the solution; in the remainder of my remarks I will discuss what others can do, including potential homeowners themselves."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "But we see another important advantage of financial education, which is that an economy with financially knowledgeable households is likely to be stronger, more equal, and more stable."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Nonprofit organizations can help prospective homeowners assess their readiness to purchase."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Borrowers in trouble who receive foreclosure counseling are relatively more likely to subsequently become current on their mortgage, receive a loan modification, and, ultimately, keep their home."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Despite, or perhaps because of, the broader economic challenges we face, it now seems to be a time of creativity and innovation in this field."
+    }
+  ]
+}

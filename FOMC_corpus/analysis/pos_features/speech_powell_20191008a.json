@@ -1,0 +1,834 @@
+{
+  "doc_id": "speech_powell_20191008a",
+  "doc_type": "speech",
+  "date": "2019-10-08",
+  "chair": "Powell",
+  "n_tokens": 4237,
+  "n_sents": 230,
+  "pos_counts": {
+    "NNP": 509,
+    "CD": 160,
+    ",": 259,
+    "HYPH": 31,
+    "IN": 603,
+    "DT": 400,
+    "``": 26,
+    "NNPS": 31,
+    "CC": 143,
+    ":": 28,
+    "VBG": 93,
+    "''": 24,
+    "NNS": 303,
+    "JJ": 319,
+    "VBP": 74,
+    "PRP": 88,
+    "NN": 690,
+    "TO": 48,
+    "VB": 145,
+    ".": 229,
+    "VBZ": 81,
+    "RB": 191,
+    "MD": 60,
+    "WP": 7,
+    "PRP$": 46,
+    "JJR": 27,
+    "VBN": 83,
+    "JJS": 5,
+    "RP": 9,
+    "VBD": 60,
+    "RBR": 10,
+    "WDT": 25,
+    "WRB": 15,
+    "-LRB-": 49,
+    "-RRB-": 49,
+    "POS": 9,
+    "RBS": 2,
+    "EX": 3,
+    "PDT": 3,
+    "SYM": 1,
+    "UH": 2,
+    "LS": 1,
+    "$": 1
+  },
+  "modal_count": 60,
+  "modal_lemma_counts": {
+    "will": 21,
+    "must": 1,
+    "can": 9,
+    "would": 12,
+    "might": 2,
+    "could": 1,
+    "may": 10,
+    "should": 4
+  },
+  "modals_per_1000": 14.161,
+  "epistemic_count": 19,
+  "epistemic_lemma_counts": {
+    "likely": 6,
+    "project": 1,
+    "assess": 3,
+    "judge": 3,
+    "possible": 1,
+    "potential": 1,
+    "perhaps": 1,
+    "possibly": 1,
+    "believe": 2
+  },
+  "epistemics_per_1000": 4.484,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 90,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "preset course and",
+      "right_3": "change as appropriate",
+      "sentence": "We say this to emphasize that policy is never on a preset course and will change as appropriate in response to incoming information."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 205,
+      "head_verb_surface": "sort",
+      "head_verb_lemma": "sort",
+      "left_3": "policymaking . We",
+      "right_3": "sort out in",
+      "sentence": "We must sort out in real time, as best we can, what the profound changes underway in the economy mean for issues such as the functioning of labor markets, the pace of productivity growth, and the forces driving inflation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 205,
+      "head_verb_surface": "best",
+      "head_verb_lemma": "well",
+      "left_3": "as best we",
+      "right_3": ", what the",
+      "sentence": "We must sort out in real time, as best we can, what the profound changes underway in the economy mean for issues such as the functioning of labor markets, the pace of productivity growth, and the forces driving inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 301,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": ". Today I",
+      "right_3": "pay tribute to",
+      "sentence": "Today I will pay tribute to the 100 years of dedicatedâand often behind the scenesâwork of those tracking change in the industrial landscape."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 326,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": ". \n\n I",
+      "right_3": "then turn to",
+      "sentence": "I will then turn to three challenges our dynamic economy is posing for policy at present: First, what would the consequences of a sharp rise in the price of oil be for the U.S. economy?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 326,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "First , what",
+      "right_3": "the consequences of",
+      "sentence": "I will then turn to three challenges our dynamic economy is posing for policy at present: First, what would the consequences of a sharp rise in the price of oil be for the U.S. economy?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 436,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "more provocatively ,",
+      "right_3": "the recent productivity",
+      "sentence": "Put more provocatively, might the recent productivity slowdown be an artifact of antiquated measurement?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 539,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "reported . I",
+      "right_3": "discuss how we",
+      "sentence": "I will discuss how we are using big data to improve our grasp of the job market in the face of such revisions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 587,
+      "head_verb_surface": "comment",
+      "head_verb_lemma": "comment",
+      "left_3": "them , I",
+      "right_3": "comment briefly on",
+      "sentence": "After exploring them, I will comment briefly on recent developments in money markets and on monetary policy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 633,
+      "head_verb_surface": "fuel",
+      "head_verb_lemma": "fuel",
+      "left_3": "years the war",
+      "right_3": "fuel profound growth",
+      "sentence": "World War I was breaking out in Europe, and over the next four years the war would fuel profound growth and transformation in the U.S. economy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 662,
+      "head_verb_surface": "seen",
+      "head_verb_lemma": "see",
+      "left_3": "\n  But you",
+      "right_3": "not have seen",
+      "sentence": "1  But you could not have seen this change in the gross national product data; the Department of Commerce did not publish those until 1942."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 959,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the United States",
+      "right_3": "be a net",
+      "sentence": "4  Oil exports have surged, imports have fallen ( figure 2 ), and the U.S. Energy Information Administration projects that this month, for the first time in many decades, the United States will be a net exporter of oil."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1044,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "price of oil",
+      "right_3": "have a strong",
+      "sentence": "Traditionally, we assessed that a sharp rise in the price of oil would have a strong negative effect on consumers and businesses and, hence, on the U.S. economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1076,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "higher oil price",
+      "right_3": "still cause dislocations",
+      "sentence": "Today a higher oil price would still cause dislocations and hardship for many, but with exports and imports nearly balanced, the higher price paid by consumers is roughly offset by higher earnings of workers and firms in the U.S. oil industry."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1120,
+      "head_verb_surface": "boost",
+      "head_verb_lemma": "boost",
+      "left_3": "sustained price rise",
+      "right_3": "quickly boost output",
+      "sentence": "Moreover, because it is now easier to ramp up oil production, a sustained price rise can quickly boost output, providing a shock absorber in the face of supply disruptions."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1153,
+      "head_verb_surface": "accompany",
+      "head_verb_lemma": "accompany",
+      "left_3": "geopolitical uncertainty that",
+      "right_3": "accompany higher oil",
+      "sentence": "Thus, setting aside the effects of geopolitical uncertainty that may accompany higher oil prices, we now judge that a price spike would likely have nearly offsetting effects on U.S. gross domestic product (GDP)."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1153,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "a price spike",
+      "right_3": "likely have nearly",
+      "sentence": "Thus, setting aside the effects of geopolitical uncertainty that may accompany higher oil prices, we now judge that a price spike would likely have nearly offsetting effects on U.S. gross domestic product (GDP)."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1192,
+      "head_verb_surface": "measure",
+      "head_verb_lemma": "measure",
+      "left_3": ". \n\n How",
+      "right_3": "We Measure Output",
+      "sentence": "How Should We Measure Output and Productivity?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1304,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ", and it",
+      "right_3": "take time for",
+      "sentence": "Periods of rapid change present particular challenges, and it can take time for the measurement system to adapt to fully and accurately reflect the changes in the economy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1345,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "that \" you",
+      "right_3": "see the computer",
+      "sentence": "In 1987, Nobel Prizeâwinning economist Robert Solow quipped that \"you can see the computer age everywhere but in the productivity statistics."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1426,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": "productivity boom that",
+      "right_3": "leave room for",
+      "sentence": "Where others saw capacity constraints and incipient inflation, Greenspan saw a productivity boom that would leave room for very low unemployment without inflation pressures."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1518,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "good as we",
+      "right_3": "like . Sound",
+      "sentence": "8  This episode illustrates a key challenge to making data-dependent policy in real time: Good decisions require good data, but the data in hand are seldom as good as we would like."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1637,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", the slowdown",
+      "right_3": "be real and",
+      "sentence": "First, the slowdown may be real and may persist indefinitely as productivity growth returns to moreânormal levels after a brief golden age."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1637,
+      "head_verb_surface": "persist",
+      "head_verb_lemma": "persist",
+      "left_3": "be real and",
+      "right_3": "persist indefinitely as",
+      "sentence": "First, the slowdown may be real and may persist indefinitely as productivity growth returns to moreânormal levels after a brief golden age."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1662,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", the slowdown",
+      "right_3": "instead be a",
+      "sentence": "10  Second, the slowdown may instead be a pause of the sort that often accompanies fundamental technological change, so that productivity gains from recent technology advances will appear over time as society adjusts."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1662,
+      "head_verb_surface": "appear",
+      "head_verb_lemma": "appear",
+      "left_3": "recent technology advances",
+      "right_3": "appear over time",
+      "sentence": "10  Second, the slowdown may instead be a pause of the sort that often accompanies fundamental technological change, so that productivity gains from recent technology advances will appear over time as society adjusts."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1700,
+      "head_verb_surface": "overstated",
+      "head_verb_lemma": "overstate",
+      "left_3": ", the slowdown",
+      "right_3": "be overstated ,",
+      "sentence": "11  Third, the slowdown may be overstated, perhaps greatly, because of measurement issues akin to those at work in the 1990s."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1727,
+      "head_verb_surface": "know",
+      "head_verb_lemma": "know",
+      "left_3": "point , we",
+      "right_3": "not know which",
+      "sentence": "12  At this point, we cannot know which of these views may gain widespread acceptance, and monetary policy will play no significant role in how this puzzle is resolved."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1727,
+      "head_verb_surface": "gain",
+      "head_verb_lemma": "gain",
+      "left_3": "of these views",
+      "right_3": "gain widespread acceptance",
+      "sentence": "12  At this point, we cannot know which of these views may gain widespread acceptance, and monetary policy will play no significant role in how this puzzle is resolved."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1727,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": "and monetary policy",
+      "right_3": "play no significant",
+      "sentence": "12  At this point, we cannot know which of these views may gain widespread acceptance, and monetary policy will play no significant role in how this puzzle is resolved."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1781,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "that welcome trend",
+      "right_3": "be sustained .",
+      "sentence": "Moreover, productivity growth seems to have moved up over the past year after a long period at very low levels; we do not know whether that welcome trend will be sustained."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1816,
+      "head_verb_surface": "understate",
+      "head_verb_lemma": "understate",
+      "left_3": "current official statistics",
+      "right_3": "understate productivity growth",
+      "sentence": "Recent research suggests that current official statistics may understate productivity growth by missing a significant part of the growing value we derive from fast internet connections and smartphones."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1866,
+      "head_verb_surface": "connected",
+      "head_verb_lemma": "connect",
+      "left_3": ") . We",
+      "right_3": "now be constantly",
+      "sentence": "We can now be constantly connected to the accumulated knowledge of humankind and receive near instantaneous updates on the lives of friends far and wide."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1916,
+      "head_verb_surface": "value",
+      "head_verb_lemma": "value",
+      "left_3": "priced . How",
+      "right_3": "we value the",
+      "sentence": "How should we value the luxury of never needing to ask for directions?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2001,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": ", GDP growth",
+      "right_3": "have been about",
+      "sentence": "14  Taking their accounting at face value, GDP growth would have been about 1/2 percentage point higher since 2007, which is an appreciable change and would be very good news."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2001,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "appreciable change and",
+      "right_3": "be very good",
+      "sentence": "14  Taking their accounting at face value, GDP growth would have been about 1/2 percentage point higher since 2007, which is an appreciable change and would be very good news."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2035,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "couple of decades",
+      "right_3": "also have been",
+      "sentence": "Growth over the previous couple of decades would also have been about 1/4 percentage point higher as well, implying that measurement issues of this sort likely account for only part of the productivity slowdown in current statistics."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2435,
+      "head_verb_surface": "refine",
+      "head_verb_lemma": "refine",
+      "left_3": "evidence that it",
+      "right_3": "refine our real",
+      "sentence": "16  While experience is still limited with the new measure, we find promising evidence that it can refine our real-time picture of job gains."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2519,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "in 2008 ,",
+      "right_3": "have been much",
+      "sentence": "Our new measure, had it been available in 2008, would have been much closer to the revised data, alerting us that the job situation might be considerably worse than the official data suggested."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2519,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the job situation",
+      "right_3": "be considerably worse",
+      "sentence": "Our new measure, had it been available in 2008, would have been much closer to the revised data, alerting us that the job situation might be considerably worse than the official data suggested."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2559,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "the new measure",
+      "right_3": "help us better",
+      "sentence": "We believe that the new measure may help us better understand job market conditions in real time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2626,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "The benchmark revision",
+      "right_3": "not directly affect",
+      "sentence": "The benchmark revision will not directly affect data for job gains since March, but experience with past revisions suggests that some part of the benchmark will likely carry forward."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2626,
+      "head_verb_surface": "carry",
+      "head_verb_lemma": "carry",
+      "left_3": "of the benchmark",
+      "right_3": "likely carry forward",
+      "sentence": "The benchmark revision will not directly affect data for job gains since March, but experience with past revisions suggests that some part of the benchmark will likely carry forward."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2657,
+      "head_verb_surface": "revised",
+      "head_verb_lemma": "revise",
+      "left_3": "past three months",
+      "right_3": "well be revised",
+      "sentence": "Thus, the currently reported job gains of 157,000 per month on average over the past three months may well be revised somewhat lower."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2838,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "up , I",
+      "right_3": "discuss recent developments",
+      "sentence": "Before wrapping up, I will discuss recent developments in money markets and the current stance of monetary policy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3048,
+      "head_verb_surface": "contributed",
+      "head_verb_lemma": "contribute",
+      "left_3": "range of factors",
+      "right_3": "have contributed to",
+      "sentence": "While a range of factors may have contributed to these developments, it is clear that without a sufficient quantity of reserves in the banking system, even routine increases in funding pressures can lead to outsized movements in money market interest rates."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3048,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "in funding pressures",
+      "right_3": "lead to outsized",
+      "sentence": "While a range of factors may have contributed to these developments, it is clear that without a sufficient quantity of reserves in the banking system, even routine increases in funding pressures can lead to outsized movements in money market interest rates."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3092,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": ". This volatility",
+      "right_3": "impede the effective",
+      "sentence": "This volatility can impede the effective implementation of monetary policy, and we are addressing it."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3109,
+      "head_verb_surface": "announce",
+      "head_verb_lemma": "announce",
+      "left_3": "colleagues and I",
+      "right_3": "soon announce measures",
+      "sentence": "Indeed, my colleagues and I will soon announce measures to add to the supply of reserves over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3179,
+      "head_verb_surface": "hesitate",
+      "head_verb_lemma": "hesitate",
+      "left_3": "course , we",
+      "right_3": "not hesitate to",
+      "sentence": "Of course, we will not hesitate to conduct temporary operations if needed to foster trading in the federal funds market at rates within the target range."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3265,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "point , we",
+      "right_3": "begin increasing our",
+      "sentence": "As we indicated in our March statement on balance sheet normalization, at some point, we will begin increasing our securities holdings to maintain an appropriate level of reserves."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3307,
+      "head_verb_surface": "confused",
+      "head_verb_lemma": "confuse",
+      "left_3": "reserve management purposes",
+      "right_3": "in no way",
+      "sentence": "I want to emphasize that growth of our balance sheet for reserve management purposes should in no way be confused with the large-scale asset purchase programs that we deployed after the financial crisis."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3343,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "to resolve them",
+      "right_3": "materially affect the",
+      "sentence": "Neither the recent technical issues nor the purchases of Treasury bills we are contemplating to resolve them should materially affect the stance of monetary policy, to which I now turn."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3623,
+      "head_verb_surface": "monitoring",
+      "head_verb_lemma": "monitor",
+      "left_3": ", and we",
+      "right_3": "be carefully monitoring",
+      "sentence": "The next FOMC meeting is several weeks away, and we will be carefully monitoring incoming information."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3641,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "information . We",
+      "right_3": "be data dependent",
+      "sentence": "We will be data dependent, assessing the outlook and risks to the outlook on a meeting-by-meeting basis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3664,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "account , we",
+      "right_3": "act as appropriate",
+      "sentence": "Taking all that into account, we will act as appropriate to support continued growth, a strong job market, and inflation moving back to our symmetric 2 percent objective."
+    },
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 4431,
+      "head_verb_surface": "watch",
+      "head_verb_lemma": "watch",
+      "left_3": ". \" We",
+      "right_3": "Better Watch Out",
+      "sentence": "\"We'd Better Watch Out,\"  New York Times Book Review,  July 12."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4650,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "the United States",
+      "right_3": "become a net",
+      "sentence": "The Energy Information Administration's Short-Term Energy Outlook (STEO; available at  https://www.eia.gov/outlooks/steo ), released on September 10, 2019, shows that the United States will become a net exporter of crude oil and liquid fuels by October 2019."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4697,
+      "head_verb_surface": "published",
+      "head_verb_lemma": "publish",
+      "left_3": "A new STEO",
+      "right_3": "be published today",
+      "sentence": "A new STEO will be published today."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 5040,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "in ways that",
+      "right_3": "reduce the revisions",
+      "sentence": "This episode motivated the BLS to revise their procedures in ways that will reduce the revisions in similar episodes in the future."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In August, the Bureau of Labor Statistics (BLS) announced that job gains over the year through March were likely a half-million lower than previously reported."
+    },
+    {
+      "surface": "projects",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "4  Oil exports have surged, imports have fallen ( figure 2 ), and the U.S. Energy Information Administration projects that this month, for the first time in many decades, the United States will be a net exporter of oil."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Traditionally, we assessed that a sharp rise in the price of oil would have a strong negative effect on consumers and businesses and, hence, on the U.S. economy."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Thus, setting aside the effects of geopolitical uncertainty that may accompany higher oil prices, we now judge that a price spike would likely have nearly offsetting effects on U.S. gross domestic product (GDP)."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Thus, setting aside the effects of geopolitical uncertainty that may accompany higher oil prices, we now judge that a price spike would likely have nearly offsetting effects on U.S. gross domestic product (GDP)."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The hard-working statisticians creating the official statistics regularly adapt the data sources and methods so that, insofar as possible, the measured data provide accurate indicators of the state of the economy."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "7  Chairman Alan Greenspan famously argued that the United States was experiencing the dawn of a new economy, and that potential and actual output were likely understated in official statistics."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "7  Chairman Alan Greenspan famously argued that the United States was experiencing the dawn of a new economy, and that potential and actual output were likely understated in official statistics."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In light of the uncertainty it faced, the Federal Open Market Committee (FOMC) judged that the appropriate riskâmanagement approach called for refraining from interest rate increases unless and until there were clearer signs of rising inflation."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "11  Third, the slowdown may be overstated, perhaps greatly, because of measurement issues akin to those at work in the 1990s."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As in the late 1990s, however, we are carefully assessing the implications of possibly mismeasured productivity gains."
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "As in the late 1990s, however, we are carefully assessing the implications of possibly mismeasured productivity gains."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Growth over the previous couple of decades would also have been about 1/4 percentage point higher as well, implying that measurement issues of this sort likely account for only part of the productivity slowdown in current statistics."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe that the new measure may help us better understand job market conditions in real time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The benchmark revision will not directly affect data for job gains since March, but experience with past revisions suggests that some part of the benchmark will likely carry forward."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Based on a range of data and analysis, including our new measure, we now judge that, even allowing for such a revision, job gains remain above the level required to provide jobs for new entrants to the jobs market over time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "FOMC participants continue to see a sustained expansion of economic activity, strong labor market conditions, and inflation near our symmetric 2 percent objective as most likely."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe that our policy actions are providing support for the outlook."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We will be data dependent, assessing the outlook and risks to the outlook on a meeting-by-meeting basis."
+    }
+  ]
+}

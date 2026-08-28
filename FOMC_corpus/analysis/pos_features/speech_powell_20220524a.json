@@ -1,0 +1,89 @@
+{
+  "doc_id": "speech_powell_20220524a",
+  "doc_type": "speech",
+  "date": "2022-05-24",
+  "chair": "Powell",
+  "n_tokens": 681,
+  "n_sents": 30,
+  "pos_counts": {
+    "NNP": 107,
+    "CD": 8,
+    ",": 35,
+    "IN": 97,
+    "DT": 50,
+    "VBN": 19,
+    "-LRB-": 4,
+    "JJ": 69,
+    "NN": 84,
+    "-RRB-": 9,
+    "NNS": 57,
+    "XX": 10,
+    "VBP": 21,
+    "SYM": 8,
+    ":": 10,
+    "VBZ": 13,
+    "RB": 17,
+    "CC": 31,
+    "RP": 2,
+    "MD": 2,
+    "VB": 18,
+    ".": 26,
+    "UH": 1,
+    "PRP": 18,
+    "TO": 12,
+    "PDT": 1,
+    "VBG": 18,
+    "PRP$": 16,
+    "EX": 1,
+    "JJR": 3,
+    "JJS": 2,
+    "WP": 2,
+    "RBS": 1,
+    "WDT": 4,
+    "VBD": 5,
+    "HYPH": 1
+  },
+  "modal_count": 2,
+  "modal_lemma_counts": {
+    "may": 1,
+    "must": 1
+  },
+  "modals_per_1000": 2.937,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "undoubtedly": 1
+  },
+  "epistemics_per_1000": 1.468,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 117,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 735,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "research and analysis",
+      "right_3": "reflect the specific",
+      "sentence": "The Federal Reserve works for all of us, and our research and analysis must reflect the specific needs and circumstances of all of our communities."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "undoubtedly",
+      "lemma": "undoubtedly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "There is undoubtedly more research and engagement to be done on the specific and unique economic needs of tribal nations and Indigenous communities."
+    }
+  ]
+}

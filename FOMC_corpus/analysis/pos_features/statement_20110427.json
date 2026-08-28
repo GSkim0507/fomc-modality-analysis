@@ -1,0 +1,154 @@
+{
+  "doc_id": "statement_20110427",
+  "doc_type": "statement",
+  "date": "2011-04-27",
+  "chair": "Bernanke",
+  "n_tokens": 473,
+  "n_sents": 16,
+  "pos_counts": {
+    "NNP": 54,
+    "CD": 6,
+    ",": 23,
+    "JJ": 49,
+    "NN": 80,
+    "IN": 64,
+    "VBD": 6,
+    "DT": 35,
+    "VBZ": 15,
+    "VBG": 10,
+    "CC": 23,
+    "NNS": 39,
+    "VBP": 9,
+    "RB": 8,
+    ".": 16,
+    "TO": 17,
+    "VB": 24,
+    "VBN": 9,
+    "RP": 2,
+    "JJR": 5,
+    "HYPH": 2,
+    "PRP$": 9,
+    "PRP": 1,
+    "MD": 6,
+    "$": 1,
+    "JJS": 1,
+    ":": 10
+  },
+  "modal_count": 6,
+  "modal_lemma_counts": {
+    "will": 6
+  },
+  "modals_per_1000": 12.685,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "expect": 1,
+    "anticipate": 2,
+    "likely": 1
+  },
+  "epistemics_per_1000": 10.571,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 218,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": ", but it",
+      "right_3": "pay close attention",
+      "sentence": "The Committee expects these effects to be transitory, but it will pay close attention to the evolution of inflation and inflation expectations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 308,
+      "head_verb_surface": "complete",
+      "head_verb_lemma": "complete",
+      "left_3": "securities holdings and",
+      "right_3": "complete purchases of",
+      "sentence": "In particular, the Committee is maintaining its existing policy of reinvesting principal payments from its securities holdings and will complete purchases of $600 billion of longer-term Treasury securities by the end of the current quarter."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 349,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": "   The Committee",
+      "right_3": "regularly review the",
+      "sentence": "The Committee will regularly review the size and composition of its securities holdings in light of incoming information and is prepared to adjust those holdings as needed to best foster maximum employment and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 386,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "maintain the target",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 445,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": " \r\n \n\n\r\n  The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 445,
+      "head_verb_surface": "employ",
+      "head_verb_lemma": "employ",
+      "left_3": "financial developments and",
+      "right_3": "employ its policy",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The unemployment rate remains elevated, and measures of underlying inflation continue to be somewhat low, relative to levels that the Committee judges to be consistent, over the longer run, with its dual mandate."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects these effects to be transitory, but it will pay close attention to the evolution of inflation and inflation expectations."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee continues to anticipate a gradual return to higher levels of resource utilization in a context of price stability."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    }
+  ]
+}

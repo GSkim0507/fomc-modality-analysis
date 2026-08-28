@@ -1,0 +1,181 @@
+{
+  "doc_id": "statement_20100127",
+  "doc_type": "statement",
+  "date": "2010-01-27",
+  "chair": "Bernanke",
+  "n_tokens": 568,
+  "n_sents": 18,
+  "pos_counts": {
+    "NNP": 86,
+    "CD": 20,
+    ",": 24,
+    "JJ": 53,
+    "NN": 94,
+    "IN": 76,
+    "VBD": 8,
+    "DT": 47,
+    "VBZ": 17,
+    "VBN": 16,
+    "TO": 17,
+    "VB": 23,
+    "CC": 21,
+    "VBG": 13,
+    ".": 18,
+    "NNS": 40,
+    "JJR": 4,
+    "RP": 2,
+    "RB": 8,
+    "VBP": 5,
+    "HYPH": 8,
+    "MD": 7,
+    "$": 4,
+    "PRP": 1,
+    "PRP$": 2,
+    "NNPS": 2,
+    ":": 10,
+    "WP": 1,
+    "RBR": 1
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "will": 7
+  },
+  "modals_per_1000": 12.324,
+  "epistemic_count": 7,
+  "epistemic_lemma_counts": {
+    "likely": 3,
+    "anticipate": 3,
+    "believe": 1
+  },
+  "epistemics_per_1000": 12.324,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 192,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "\n\n The Committee",
+      "right_3": "maintain the target",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 296,
+      "head_verb_surface": "executed",
+      "head_verb_lemma": "execute",
+      "left_3": "that these transactions",
+      "right_3": "be executed by",
+      "sentence": "In order to promote a smooth transition in markets, the Committee is gradually slowing the pace of these purchases, and it anticipates that these transactions will be executed by the end of the first quarter."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 334,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The Committee",
+      "right_3": "continue to evaluate",
+      "sentence": "The Committee will continue to evaluate its purchases of securities in light of the evolving economic outlook and conditions in financial markets."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 358,
+      "head_verb_surface": "closing",
+      "head_verb_lemma": "close",
+      "left_3": "the Federal Reserve",
+      "right_3": "be closing the",
+      "sentence": "In light of improved functioning of financial markets, the Federal Reserve will be closing the Asset-Backed Commercial Paper Money Market Mutual Fund Liquidity Facility, the Commercial Paper Funding Facility, the Primary Dealer Credit Facility, and the Term Securities Lending Facility on February 1, as previously announced."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 412,
+      "head_verb_surface": "expire",
+      "head_verb_lemma": "expire",
+      "left_3": "other central banks",
+      "right_3": "expire on February",
+      "sentence": "In addition, the temporary liquidity swap arrangements between the Federal Reserve and other central banks will expire on February 1."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 434,
+      "head_verb_surface": "offered",
+      "head_verb_lemma": "offer",
+      "left_3": "- day credit",
+      "right_3": "be offered on",
+      "sentence": "The Federal Reserve is in the process of winding down its Term Auction Facility: $50 billion in 28-day credit will be offered on February 8 and $25 billion in 28-day credit will be offered at the final auction on March 8."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 434,
+      "head_verb_surface": "offered",
+      "head_verb_lemma": "offer",
+      "left_3": "- day credit",
+      "right_3": "be offered at",
+      "sentence": "The Federal Reserve is in the process of winding down its Term Auction Facility: $50 billion in 28-day credit will be offered on February 8 and $25 billion in 28-day credit will be offered at the final auction on March 8."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Although the pace of economic recovery is likely to be moderate for a time, the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Although the pace of economic recovery is likely to be moderate for a time, the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "With substantial resource slack continuing to restrain cost pressures and with longer-term inflation expectations stable, inflation is likely to be subdued for some time."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In order to promote a smooth transition in markets, the Committee is gradually slowing the pace of these purchases, and it anticipates that these transactions will be executed by the end of the first quarter."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Voting against the policy action was Thomas M. Hoenig, who believed that economic and financial conditions had changed sufficiently that the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted."
+    }
+  ]
+}

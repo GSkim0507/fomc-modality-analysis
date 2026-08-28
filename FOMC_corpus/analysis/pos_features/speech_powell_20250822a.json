@@ -1,0 +1,732 @@
+{
+  "doc_id": "speech_powell_20250822a",
+  "doc_type": "speech",
+  "date": "2025-08-22",
+  "chair": "Powell",
+  "n_tokens": 4201,
+  "n_sents": 189,
+  "pos_counts": {
+    "NNP": 438,
+    "CD": 154,
+    ",": 270,
+    "CC": 139,
+    "DT": 403,
+    "IN": 584,
+    "NN": 773,
+    "NNPS": 38,
+    ":": 18,
+    "''": 32,
+    "JJ": 327,
+    "VBN": 97,
+    "VBZ": 97,
+    "NNS": 259,
+    ".": 184,
+    "POS": 11,
+    "HYPH": 45,
+    "RB": 175,
+    "RP": 12,
+    "PRP$": 78,
+    "TO": 62,
+    "VB": 144,
+    "VBG": 64,
+    "PRP": 74,
+    "MD": 45,
+    "JJR": 30,
+    "WDT": 22,
+    "VBD": 81,
+    "WRB": 16,
+    "SYM": 8,
+    "-LRB-": 39,
+    "-RRB-": 39,
+    "VBP": 56,
+    "EX": 4,
+    "WP": 6,
+    "RBR": 9,
+    "``": 36,
+    "PDT": 2,
+    "JJS": 6,
+    "RBS": 2,
+    "LS": 1
+  },
+  "modal_count": 45,
+  "modal_lemma_counts": {
+    "will": 17,
+    "may": 7,
+    "can": 7,
+    "could": 3,
+    "would": 8,
+    "might": 2,
+    "must": 1
+  },
+  "modals_per_1000": 10.712,
+  "epistemic_count": 25,
+  "epistemic_lemma_counts": {
+    "assess": 3,
+    "likely": 6,
+    "potential": 2,
+    "clearly": 1,
+    "expect": 1,
+    "potentially": 2,
+    "possible": 1,
+    "probably": 1,
+    "certain": 1,
+    "uncertain": 2,
+    "project": 1,
+    "believe": 4
+  },
+  "epistemics_per_1000": 5.951,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 137,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "today , I",
+      "right_3": "first address the",
+      "sentence": "In my remarks today, I will first address the current economic situation and the near-term outlook for monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 160,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "policy . I",
+      "right_3": "then turn to",
+      "sentence": "I will then turn to the results of our second public review of our monetary policy framework, as captured in the revised Statement on Longer-Run Goals and Monetary Policy Strategy that we released today."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 407,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "and regulatory policies",
+      "right_3": "also have important",
+      "sentence": "Over the longer run, changes in tax, spending, and regulatory policies may also have important implications for economic growth and productivity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 432,
+      "head_verb_surface": "settle",
+      "head_verb_lemma": "settle",
+      "left_3": "of these polices",
+      "right_3": "eventually settle and",
+      "sentence": "There is significant uncertainty about where all of these polices will eventually settle and what their lasting effects on the economy will be."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 432,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "on the economy",
+      "right_3": "be . \n\n",
+      "sentence": "There is significant uncertainty about where all of these polices will eventually settle and what their lasting effects on the economy will be."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 487,
+      "head_verb_surface": "work",
+      "head_verb_lemma": "work",
+      "left_3": "because monetary policy",
+      "right_3": "work to stabilize",
+      "sentence": "This distinction is critical because monetary policy can work to stabilize cyclical fluctuations but can do little to alter structural changes."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 487,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "cyclical fluctuations but",
+      "right_3": "do little to",
+      "sentence": "This distinction is critical because monetary policy can work to stabilize cyclical fluctuations but can do little to alter structural changes."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 789,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "materialize , they",
+      "right_3": "do so quickly",
+      "sentence": "And if those risks materialize, they can do so quickly in the form of sharply higher layoffs and rising unemployment."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1078,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that the effects",
+      "right_3": "be relatively short",
+      "sentence": "A reasonable base case is that the effects will be relatively short livedâa one-time shift in the price level."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1117,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". \" It",
+      "right_3": "continue to take",
+      "sentence": "It will continue to take time for tariff increases to work their way through supply chains and distribution networks."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1152,
+      "head_verb_surface": "spur",
+      "head_verb_lemma": "spur",
+      "left_3": "prices from tariffs",
+      "right_3": "spur a more",
+      "sentence": "It is also possible, however, that the upward pressure on prices from tariffs could spur a more lasting inflation dynamic, and that is a risk to be assessed and managed."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1240,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "that inflation expectations",
+      "right_3": "move up ,",
+      "sentence": "Another possibility is that inflation expectations could move up, dragging actual inflation with them."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1316,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "course , we",
+      "right_3": "not take the",
+      "sentence": "Of course, we cannot take the stability of inflation expectations for granted."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1331,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": ". Come what",
+      "right_3": ", we will",
+      "sentence": "Come what may, we will not allow a one-time increase in the price level to become an ongoing inflation problem."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1331,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "may , we",
+      "right_3": "not allow a",
+      "sentence": "Come what may, we will not allow a one-time increase in the price level to become an ongoing inflation problem."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1460,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "balance of risks",
+      "right_3": "warrant adjusting our",
+      "sentence": "Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1494,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": ". FOMC members",
+      "right_3": "make these decisions",
+      "sentence": "FOMC members will make these decisions, based solely on their assessment of the data and its implications for the economic outlook and the balance of risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1522,
+      "head_verb_surface": "deviate",
+      "head_verb_lemma": "deviate",
+      "left_3": "risks . We",
+      "right_3": "never deviate from",
+      "sentence": "We will never deviate from that approach."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1570,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": "to our framework",
+      "right_3": "support that mission",
+      "sentence": "We remain fully committed to fulfilling our statutory mandate, and the revisions to our framework will support that mission across a broad range of economic conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1962,
+      "head_verb_surface": "recall",
+      "head_verb_lemma": "recall",
+      "left_3": ". Many here",
+      "right_3": "recall the sluggish",
+      "sentence": "Many here will recall the sluggish growth and painfully slow recovery of that era."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1977,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "our policy rate",
+      "right_3": "be back at",
+      "sentence": "It appeared highly likely that if the economy experienced even a mild downturn, our policy rate would be back at the ELB very quickly, probably for another extended period."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2009,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "and inflation expectations",
+      "right_3": "then decline in",
+      "sentence": "Inflation and inflation expectations could then decline in a weak economy, raising real interest rates as nominal rates were pinned near zero."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2033,
+      "head_verb_surface": "weigh",
+      "head_verb_lemma": "weigh",
+      "left_3": "Higher real rates",
+      "right_3": "further weigh on",
+      "sentence": "Higher real rates would further weigh on job growth and reinforce the downward pressure on inflation and inflation expectations, triggering an adverse dynamic."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2059,
+      "head_verb_surface": "persist",
+      "head_verb_lemma": "persist",
+      "left_3": "global factors that",
+      "right_3": "persist for an",
+      "sentence": "The economic conditions that brought the policy rate to the ELB and drove the 2020 framework changes were thought to be rooted in slow-moving global factors that would persist for an extended periodâand might well have done so, if not for the pandemic."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2059,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "an extended periodâand",
+      "right_3": "well have done",
+      "sentence": "The economic conditions that brought the policy rate to the ELB and drove the 2020 framework changes were thought to be rooted in slow-moving global factors that would persist for an extended periodâand might well have done so, if not for the pandemic."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2158,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "that inflation expectations",
+      "right_3": "remain well anchored",
+      "sentence": "Drawing on an extensive literature on strategies to mitigate risks associated with the ELB, we adopted flexible average inflation targetingâa \"makeup\" strategy to ensure that inflation expectations would remain well anchored even with the ELB constraint."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2199,
+      "head_verb_surface": "aim",
+      "head_verb_lemma": "aim",
+      "left_3": "appropriate monetary policy",
+      "right_3": "likely aim to",
+      "sentence": "9  In particular, we said that, following periods when inflation had been running persistently below 2 percent, appropriate monetary policy would likely aim to achieve inflation moderately above 2 percent for some time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2268,
+      "head_verb_surface": "subside",
+      "head_verb_lemma": "subside",
+      "left_3": "thought that inflation",
+      "right_3": "subside fairly quickly",
+      "sentence": "Like most other central banks and private-sector analysts, through year-end 2021 we thought that inflation would subside fairly quickly without a sharp tightening in our policy stance  (figure 5) ."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2398,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "the inflation situation",
+      "right_3": "change rapidly in",
+      "sentence": "During this period, we saw that the inflation situation can change rapidly in the face of large shocks."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2457,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "view . We",
+      "right_3": "not say for",
+      "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level may now be higher than during the 2010s, reflecting changes in productivity, demographics, fiscal policy, and other factors that affect the balance between saving and investment  (figure 6) ."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2457,
+      "head_verb_surface": "settle",
+      "head_verb_lemma": "settle",
+      "left_3": "certain where rates",
+      "right_3": "settle out over",
+      "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level may now be higher than during the 2010s, reflecting changes in productivity, demographics, fiscal policy, and other factors that affect the balance between saving and investment  (figure 6) ."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2457,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "their neutral level",
+      "right_3": "now be higher",
+      "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level may now be higher than during the 2010s, reflecting changes in productivity, demographics, fiscal policy, and other factors that affect the balance between saving and investment  (figure 6) ."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2514,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "on the ELB",
+      "right_3": "have complicated communications",
+      "sentence": "During the review, we discussed how the 2020 statement's focus on the ELB may have complicated communications about our response to high inflation."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2540,
+      "head_verb_surface": "led",
+      "head_verb_lemma": "lead",
+      "left_3": "of economic conditions",
+      "right_3": "have led to",
+      "sentence": "We concluded that the emphasis on an overly specific set of economic conditions may have led to some confusion, and, as a result, we made several important changes to the consensus statement to reflect that insight."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2936,
+      "head_verb_surface": "mitigate",
+      "head_verb_lemma": "mitigate",
+      "left_3": "said that we",
+      "right_3": "mitigate \" shortfalls",
+      "sentence": "Third, our 2020 statement said that we would mitigate \"shortfalls,\" rather than \"deviations,\" from maximum employment."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3027,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "pressures , it",
+      "right_3": "not be necessary",
+      "sentence": "In the absence of inflationary pressures, it might not be necessary to tighten policy based solely on uncertain real-time estimates of the natural rate of unemployment."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3123,
+      "head_verb_surface": "run",
+      "head_verb_lemma": "run",
+      "left_3": "recognizes that employment",
+      "right_3": "at times run",
+      "sentence": "Instead, the revised document now states more precisely that \"the Committee recognizes that employment may at times run above real-time assessments of maximum employment without necessarily creating risks to price stability.\""
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3160,
+      "head_verb_surface": "warranted",
+      "head_verb_lemma": "warrant",
+      "left_3": ", preemptive action",
+      "right_3": "likely be warranted",
+      "sentence": "Of course, preemptive action would likely be warranted if tightness in the labor market or other factors pose risks to price stability."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3185,
+      "head_verb_surface": "achieved",
+      "head_verb_lemma": "achieve",
+      "left_3": "of employment that",
+      "right_3": "be achieved on",
+      "sentence": "The revised statement also notes that maximum employment is \"the highest level of employment that can be achieved on a sustained basis in a context of price stability.\""
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3305,
+      "head_verb_surface": "follow",
+      "head_verb_lemma": "follow",
+      "left_3": "circumstances , we",
+      "right_3": "follow a balanced",
+      "sentence": "In those circumstances, we will follow a balanced approach in promoting them."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3413,
+      "head_verb_surface": "promote",
+      "head_verb_lemma": "promote",
+      "left_3": "that we believe",
+      "right_3": "best promote maximum",
+      "sentence": "The document continues to explain how we interpret the mandate Congress has given us and describes the policy framework that we believe will best promote maximum employment and price stability."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 3444,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that monetary policy",
+      "right_3": "be forward looking",
+      "sentence": "We continue to believe that monetary policy must be forward looking and consider the lags in its effects on the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3903,
+      "head_verb_surface": "publish",
+      "head_verb_lemma": "publish",
+      "left_3": "of Labor Statistics",
+      "right_3": "publish a preliminary",
+      "sentence": "In early September, the Bureau of Labor Statistics will publish a preliminary estimate of benchmark revisions to the level of nonfarm payrolls as of March 2025, based on data from the Quarterly Census of Employment and Wages."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3943,
+      "head_verb_surface": "revised",
+      "head_verb_lemma": "revise",
+      "left_3": "of nonfarm payrolls",
+      "right_3": "be revised down",
+      "sentence": "Data available to date suggest that the level of nonfarm payrolls will be revised down materially."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3960,
+      "head_verb_surface": "incorporated",
+      "head_verb_lemma": "incorporate",
+      "left_3": "final benchmark revision",
+      "right_3": "be incorporated into",
+      "sentence": "The final benchmark revision will be incorporated into the monthly employment data in February 2026."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "2  This slowdown is much larger than assessed just a month ago, as the earlier figures for May and June were revised down substantially."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "As with the labor market, some of the slowing in GDP likely reflects slower growth of supply or potential output."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "As with the labor market, some of the slowing in GDP likely reflects slower growth of supply or potential output."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "4  The effects of tariffs on consumer prices are now clearly visible."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We expect those effects to accumulate over coming months, with high uncertainty about timing and amounts."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The question that matters for monetary policy is whether these price increases are likely to materially raise the risk of an ongoing inflation problem."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Moreover, tariff rates continue to evolve, potentially prolonging the adjustment process."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "It is also possible, however, that the upward pressure on prices from tariffs could spur a more lasting inflation dynamic, and that is a risk to be assessed and managed."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "It is also possible, however, that the upward pressure on prices from tariffs could spur a more lasting inflation dynamic, and that is a risk to be assessed and managed."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Given that the labor market is not particularly tight and faces increasing downside risks, that outcome does not seem likely."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "It appeared highly likely that if the economy experienced even a mild downturn, our policy rate would be back at the ELB very quickly, probably for another extended period."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "It appeared highly likely that if the economy experienced even a mild downturn, our policy rate would be back at the ELB very quickly, probably for another extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "9  In particular, we said that, following periods when inflation had been running persistently below 2 percent, appropriate monetary policy would likely aim to achieve inflation moderately above 2 percent for some time."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level may now be higher than during the 2010s, reflecting changes in productivity, demographics, fiscal policy, and other factors that affect the balance between saving and investment  (figure 6) ."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The difficulty of operating near the ELB remains a potential concern, but it is not our primary focus."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The use of \"shortfalls\" reflected the insight that our real-time assessments of the natural rate of unemploymentâand hence of \"maximum employment\"âare highly uncertain."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In the absence of inflationary pressures, it might not be necessary to tighten policy based solely on uncertain real-time estimates of the natural rate of unemployment."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Of course, preemptive action would likely be warranted if tightness in the labor market or other factors pose risks to price stability."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "We take into account the extent of departures from our goals and the potentially different time horizons over which each is projected to return to a level consistent with our dual mandate."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We take into account the extent of departures from our goals and the potentially different time horizons over which each is projected to return to a level consistent with our dual mandate."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The document continues to explain how we interpret the mandate Congress has given us and describes the policy framework that we believe will best promote maximum employment and price stability."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We continue to believe that monetary policy must be forward looking and consider the lags in its effects on the economy."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We continue to believe that setting a numerical goal for employment is unwise, because the maximum level of employment is not directly measurable and changes over time for reasons unrelated to monetary policy."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe that our commitment to this target is a key factor helping keep longer-term inflation expectations well anchored."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Assessing Maximum Employment ,\" Finance and Economics Discussion Series 2025-067 (Washington: Board of Governors of the Federal Reserve System, August)."
+    }
+  ]
+}

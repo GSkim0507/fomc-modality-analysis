@@ -1,0 +1,552 @@
+{
+  "doc_id": "speech_bernanke_20110323a",
+  "doc_type": "speech",
+  "date": "2011-03-23",
+  "chair": "Bernanke",
+  "n_tokens": 2994,
+  "n_sents": 100,
+  "pos_counts": {
+    "NNP": 174,
+    "CD": 30,
+    ",": 149,
+    "IN": 386,
+    "DT": 314,
+    "CC": 137,
+    "NNPS": 8,
+    "PRP": 83,
+    "VBZ": 68,
+    "NN": 422,
+    "TO": 61,
+    "VB": 117,
+    "RB": 146,
+    "-LRB-": 4,
+    "-RRB-": 4,
+    ".": 99,
+    "JJ": 313,
+    "WDT": 31,
+    "VBP": 81,
+    "VBN": 53,
+    "NNS": 296,
+    "PRP$": 50,
+    "JJR": 30,
+    "VBD": 28,
+    "HYPH": 35,
+    "VBG": 71,
+    "``": 2,
+    "''": 2,
+    "WRB": 6,
+    "JJS": 12,
+    "POS": 9,
+    "MD": 37,
+    "WP$": 1,
+    "$": 7,
+    "RBS": 7,
+    "RBR": 10,
+    "LS": 2,
+    ":": 4,
+    "RP": 3,
+    "PDT": 2,
+    "WP": 1
+  },
+  "modal_count": 37,
+  "modal_lemma_counts": {
+    "can": 3,
+    "may": 2,
+    "would": 6,
+    "will": 18,
+    "could": 2,
+    "should": 5,
+    "must": 1
+  },
+  "modals_per_1000": 12.358,
+  "epistemic_count": 13,
+  "epistemic_lemma_counts": {
+    "assess": 2,
+    "judge": 1,
+    "believe": 3,
+    "potential": 1,
+    "possible": 3,
+    "certainly": 1,
+    "possibly": 1,
+    "likely": 1
+  },
+  "epistemics_per_1000": 4.342,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 341,
+      "head_verb_surface": "add",
+      "head_verb_lemma": "add",
+      "left_3": "and those approaches",
+      "right_3": "add value ,",
+      "sentence": "The largest banks typically rely heavily on statistical models to assess borrowers' capital, collateral, and capacity to repay, and those approaches can add value, but banks whose headquarters and key decisionmakers are hundreds or thousands of miles away inevitably lack the in-depth local knowledge that community banks use to assess character and conditions when making credit decisions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 406,
+      "head_verb_surface": "matched",
+      "head_verb_lemma": "match",
+      "left_3": "their effectiveness and",
+      "right_3": "not be matched",
+      "sentence": "This advantage for community banks is fundamental to their effectiveness and cannot be matched by models or algorithms, no matter how sophisticated."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 431,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": "computer program Watson",
+      "right_3": "play a mean",
+      "sentence": "The IBM computer program Watson may play a mean game of Jeopardy, but I would not trust it to judge the creditworthiness of a fledgling local business or to build longstanding personal relationships with customers and borrowers."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 431,
+      "head_verb_surface": "trust",
+      "head_verb_lemma": "trust",
+      "left_3": ", but I",
+      "right_3": "not trust it",
+      "sentence": "The IBM computer program Watson may play a mean game of Jeopardy, but I would not trust it to judge the creditworthiness of a fledgling local business or to build longstanding personal relationships with customers and borrowers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 530,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "and those institutions",
+      "right_3": "continue to need",
+      "sentence": "As I'm sure you are all too aware, the financial crisis and its aftermath have hit some community banks especially hard, and those institutions will continue to need time to repair their balance sheets."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 568,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "yet where we",
+      "right_3": "like to be",
+      "sentence": "Although we are not yet where we would like to be, the good news is that many community banks are recovering and reporting stronger performance."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 785,
+      "head_verb_surface": "recall",
+      "head_verb_lemma": "recall",
+      "left_3": "Reserve \n\r\n  You",
+      "right_3": "recall that in",
+      "sentence": "Community Banks and the Federal Reserve \r  You may recall that in my remarks to this group last year, I noted that the decentralized structure of the Federal Reserve System, with 12 Reserve Banks and 24 branches located in cities across the country, was designed to ensure that local insights and information would be incorporated in the deliberations of both the Board and the Federal Open Market Co"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 785,
+      "head_verb_surface": "incorporated",
+      "head_verb_lemma": "incorporate",
+      "left_3": "insights and information",
+      "right_3": "be incorporated in",
+      "sentence": "Community Banks and the Federal Reserve \r  You may recall that in my remarks to this group last year, I noted that the decentralized structure of the Federal Reserve System, with 12 Reserve Banks and 24 branches located in cities across the country, was designed to ensure that local insights and information would be incorporated in the deliberations of both the Board and the Federal Open Market Co"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 857,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "roots level that",
+      "right_3": "be very difficult",
+      "sentence": "During the debates leading up to the passage of the Dodd-Frank Wall Street Reform and Consumer Protection Act, we emphasized that our supervisory responsibility for state-chartered banks that are members of the Federal Reserve System and bank holding companies of all sizes not only provides valuable economic information at the grass-roots level that would be very difficult to replace, it also give"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1026,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "country , we",
+      "right_3": "be able to",
+      "sentence": "We are delighted that, through our supervision, our gathering of economic intelligence, and the activities of our community affairs departments around the country, we will be able to remain fully engaged with grass-roots America."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1244,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "effect those proposals",
+      "right_3": "have on smaller",
+      "sentence": "1   In particular, the subcommittee is reviewing new policy proposals through the lens of the effect those proposals could have on smaller institutions, both in terms of safety and soundness and potential regulatory burden."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1336,
+      "head_verb_surface": "form",
+      "head_verb_lemma": "form",
+      "left_3": "announced that it",
+      "right_3": "form a Community",
+      "sentence": "In October, the Board announced that it would form a Community Depository Institutions Advisory Council to provide insight and information on the economy, lending conditions, and other issues of interest to community banks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1374,
+      "head_verb_surface": "meet",
+      "head_verb_lemma": "meet",
+      "left_3": "national council that",
+      "right_3": "meet with the",
+      "sentence": "2   To make this council as representative as possible, each of the 12 Reserve Banks now has its own local advisory council comprising representatives from banks, thrift institutions, and credit unions; one member from each local council serves on the national council that will meet with the Board twice a year in Washington."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1433,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "with the Board",
+      "right_3": "take place soon",
+      "sentence": "Local meetings have already begun, and the first meeting of the national council with the Board will take place soon."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1479,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the years ahead",
+      "right_3": "be to adapt",
+      "sentence": "Community Banks and Regulatory Reform \r  As you know, a key challenge for community banks in the years ahead will be to adapt to the changing regulatory environment, particularly the regulatory reforms contained in the Dodd-Frank Act, as well as the changes that will be associated with the Basel III reforms."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1479,
+      "head_verb_surface": "associated",
+      "head_verb_lemma": "associate",
+      "left_3": "the changes that",
+      "right_3": "be associated with",
+      "sentence": "Community Banks and Regulatory Reform \r  As you know, a key challenge for community banks in the years ahead will be to adapt to the changing regulatory environment, particularly the regulatory reforms contained in the Dodd-Frank Act, as well as the changes that will be associated with the Basel III reforms."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1580,
+      "head_verb_surface": "seeing",
+      "head_verb_lemma": "see",
+      "left_3": "the changes we",
+      "right_3": "be seeing in",
+      "sentence": "I think it is worth emphasizing that the changes we will be seeing in the financial regulatory architecture are principally directed at our largest and most complex financial firms, including nonbanks."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1613,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of the reforms",
+      "right_3": "be the creation",
+      "sentence": "Consequently, one benefit of the reforms should be the creation of a more level playing field for financial institutions of all sizes."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1651,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "that their failure",
+      "right_3": "pose a threat",
+      "sentence": "The recent financial crisis highlighted the fact that some financial firms had grown so large, leveraged, and interconnected that their failure could pose a threat to overall financial stability."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1903,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "- fail firms",
+      "right_3": "not be a",
+      "sentence": "A financial system dominated by too-big-to-fail firms cannot be a healthy financial system."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1981,
+      "head_verb_surface": "include",
+      "head_verb_lemma": "include",
+      "left_3": "- stringent standards",
+      "right_3": "include stronger capital",
+      "sentence": "These more-stringent standards will include stronger capital and leverage requirements, liquidity requirements, and single-counterparty credit limits, as well as requirements to periodically produce resolution plans and conduct stress tests."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2018,
+      "head_verb_surface": "fail",
+      "head_verb_lemma": "fail",
+      "left_3": "such a firm",
+      "right_3": "fail . In",
+      "sentence": "Our goal is to produce a well-integrated set of rules that meaningfully reduces the probability of failure of our largest, most complex financial firms and that minimizes the losses to the financial system and the economy if such a firm should fail."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2186,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": ". Basel III",
+      "right_3": "make the financial",
+      "sentence": "Basel III should make the financial system more stable and reduce the likelihood of future financial crises by requiring large banks to hold more and better-quality capital and more-robust liquidity buffers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2222,
+      "head_verb_surface": "benefit",
+      "head_verb_lemma": "benefit",
+      "left_3": "stable financial system",
+      "right_3": "benefit all banking",
+      "sentence": "A more stable financial system will benefit all banking institutions and, of course, our economy as a whole."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2262,
+      "head_verb_surface": "applied",
+      "head_verb_lemma": "apply",
+      "left_3": "these capital rules",
+      "right_3": "be applied for",
+      "sentence": "A central issue that we and the other banking agencies face in implementing Basel III in the United States is deciding how these capital rules will be applied for banks that are not systemic or internationally active."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2471,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "-- restrictions that",
+      "right_3": "disproportionately affect the",
+      "sentence": "The act also imposes new restrictions on the capital markets activities of banking firms--restrictions that will disproportionately affect the structure and profitability of the largest banking firms."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2501,
+      "head_verb_surface": "restrict",
+      "head_verb_lemma": "restrict",
+      "left_3": "called Volcker rule",
+      "right_3": "restrict the ability",
+      "sentence": "For example, the so-called Volcker rule will restrict the ability of banking firms to engage in proprietary trading of securities and derivatives and to invest in or sponsor private investment funds."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2564,
+      "head_verb_surface": "forced",
+      "head_verb_lemma": "force",
+      "left_3": "that the government",
+      "right_3": "not be forced",
+      "sentence": "A clear lesson of the past few years is that the government must not be forced to choose between bailing out a systemically important firm and having it fail in a disorderly and disruptive manner."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2698,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "financial firm safely",
+      "right_3": "likely always be",
+      "sentence": "Resolving a large, multinational financial firm safely will likely always be a difficult challenge, and a great deal of work remains to be done to make these new authorities fully effective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2732,
+      "head_verb_surface": "mitigate",
+      "head_verb_lemma": "mitigate",
+      "left_3": ", these changes",
+      "right_3": "mitigate moral hazard",
+      "sentence": "Ultimately, though, these changes will mitigate moral hazard in our financial system by reducing expectations of government support by the creditors and counterparties of large firms."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2761,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "I have described",
+      "right_3": "give us a",
+      "sentence": "Taken together, the measures I have described should give us a financial system that is safer, more efficient, and more equitable."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2972,
+      "head_verb_surface": "held",
+      "head_verb_lemma": "hold",
+      "left_3": "a depository institution",
+      "right_3": "be held to",
+      "sentence": "The Federal Reserve believes that any company that controls a depository institution should be held to appropriate prudential standards, including those for capital, liquidity, and risk management."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3038,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "economy , and",
+      "right_3": "remain governed by",
+      "sentence": "That said, we appreciate that thrift and bank holding companies differ in important ways, play different roles in our economy, and will remain governed by different statutes."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3069,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "statutes . We",
+      "right_3": "be mindful of",
+      "sentence": "We will be mindful of these differences and of the unique characteristics of the thrift industry as we develop our supervisory approach to thrift holding companies."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 3124,
+      "head_verb_surface": "mind",
+      "head_verb_lemma": "mind",
+      "left_3": "I know she",
+      "right_3": "n't mind my",
+      "sentence": "I know she won't mind my repeating that sentiment here, and I'm sure most of the community bankers in this room would wear those words as a badge of honor."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3124,
+      "head_verb_surface": "wear",
+      "head_verb_lemma": "wear",
+      "left_3": "in this room",
+      "right_3": "wear those words",
+      "sentence": "I know she won't mind my repeating that sentiment here, and I'm sure most of the community bankers in this room would wear those words as a badge of honor."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3212,
+      "head_verb_surface": "navigate",
+      "head_verb_lemma": "navigate",
+      "left_3": "that community banking",
+      "right_3": "successfully navigate these",
+      "sentence": "I am confident that community banking will successfully navigate these new challenges as well."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The largest banks typically rely heavily on statistical models to assess borrowers' capital, collateral, and capacity to repay, and those approaches can add value, but banks whose headquarters and key decisionmakers are hundreds or thousands of miles away inevitably lack the in-depth local knowledge that community banks use to assess character and conditions when making credit decisions."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The largest banks typically rely heavily on statistical models to assess borrowers' capital, collateral, and capacity to repay, and those approaches can add value, but banks whose headquarters and key decisionmakers are hundreds or thousands of miles away inevitably lack the in-depth local knowledge that community banks use to assess character and conditions when making credit decisions."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The IBM computer program Watson may play a mean game of Jeopardy, but I would not trust it to judge the creditworthiness of a fledgling local business or to build longstanding personal relationships with customers and borrowers."
+    },
+    {
+      "surface": "believes",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Although many of this committee's efforts in the wake of the financial crisis have understandably been focused on the largest and most complex banking organizations, the Board believes that it is important to sharpen our focus on smaller banking organizations as well."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "1   In particular, the subcommittee is reviewing new policy proposals through the lens of the effect those proposals could have on smaller institutions, both in terms of safety and soundness and potential regulatory burden."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "2   To make this council as representative as possible, each of the 12 Reserve Banks now has its own local advisory council comprising representatives from banks, thrift institutions, and credit unions; one member from each local council serves on the national council that will meet with the Board twice a year in Washington."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "We are certainly aware of and appreciate the concerns that community banks have about these regulatory changes, and, as I have just described, we have stepped up our efforts to understand those concerns and to respond to them as appropriate."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We recognize the importance of striking the right balance between promoting safety and soundness throughout the banking system and keeping the compliance costs for smaller banking firms as low as possible."
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Instead, we need the tools to resolve a failing firm in a manner that preserves market discipline--by ensuring that shareholders and creditors incur losses and that culpable managers are replaced--and that at the same time cushions the broader financial system from the possibly destabilizing effects of the firm's collapse."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Resolving a large, multinational financial firm safely will likely always be a difficult challenge, and a great deal of work remains to be done to make these new authorities fully effective."
+    },
+    {
+      "surface": "believes",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Federal Reserve believes that these are the right goals for reform."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We have been working closely with the Office of Thrift Supervision, the Office of the Comptroller of the Currency, and the Federal Deposit Insurance Corporation to make this transfer as smooth as possible, and progress so far has been good."
+    },
+    {
+      "surface": "believes",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Federal Reserve believes that any company that controls a depository institution should be held to appropriate prudential standards, including those for capital, liquidity, and risk management."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "doc_id": "speech_yellen_20171107a",
+  "doc_type": "speech",
+  "date": "2017-11-07",
+  "chair": "Yellen",
+  "n_tokens": 914,
+  "n_sents": 36,
+  "pos_counts": {
+    "NNP": 84,
+    "CD": 18,
+    ",": 51,
+    "VBG": 17,
+    "DT": 92,
+    "IN": 133,
+    "CC": 38,
+    "NNPS": 4,
+    "VBP": 9,
+    "PRP": 34,
+    "NN": 126,
+    "PDT": 1,
+    "JJ": 78,
+    "PRP$": 15,
+    "RB": 35,
+    "VBN": 18,
+    ".": 34,
+    "POS": 13,
+    "NNS": 55,
+    "TO": 22,
+    "VB": 36,
+    "MD": 7,
+    "VBD": 55,
+    "WDT": 6,
+    "WP": 4,
+    "``": 5,
+    "XX": 2,
+    "-RRB-": 3,
+    "JJR": 1,
+    "RBS": 1,
+    "WRB": 3,
+    "''": 3,
+    "RP": 1,
+    "UH": 1,
+    "VBZ": 5,
+    "RBR": 3,
+    "LS": 1,
+    "-LRB-": 2,
+    ":": 1,
+    "HYPH": 1,
+    "SYM": 1
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "would": 4,
+    "must": 2,
+    "will": 1
+  },
+  "modals_per_1000": 7.659,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "believe": 3,
+    "expect": 1,
+    "probably": 1
+  },
+  "epistemics_per_1000": 5.47,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 85,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "award , I",
+      "right_3": "also like to",
+      "sentence": "Sen. Douglas's contributions to ethics in government are an important aspect of that legacy, but since Ben and I are the first economists to win this award, I would also like to give due credit to Professor Douglas for his contributions to economics."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 165,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "methods that economists",
+      "right_3": "come to use",
+      "sentence": "This work demonstrated many of the methods that economists would come to use and continue to use to this day."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 222,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "economic theory that",
+      "right_3": "become the standard",
+      "sentence": "As one recent commentator put it, work such as Douglas's was part of \"a growing literature , , , [that] played an important role in shaping the approach to combining statistical methods and economic theory that would become the standard econometric practice in the later decades of the 20th century."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 583,
+      "head_verb_surface": "convince",
+      "head_verb_lemma": "convince",
+      "left_3": "out , how",
+      "right_3": "he convince people",
+      "sentence": "If he refused bribes and then had no money to hand out, how would he convince people that he wasn't simply refusing to share?"
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 912,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "interest . We",
+      "right_3": "act ethically ,",
+      "sentence": "We must act ethically, and we must demonstrate our ethical standards in ways that leave little room for doubt."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 912,
+      "head_verb_surface": "demonstrate",
+      "head_verb_lemma": "demonstrate",
+      "left_3": ", and we",
+      "right_3": "demonstrate our ethical",
+      "sentence": "We must act ethically, and we must demonstrate our ethical standards in ways that leave little room for doubt."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 934,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "that its leaders",
+      "right_3": "put the public",
+      "sentence": "I am grateful to share this award with Ben, and I am even more grateful for the example Paul Douglas set for ethics in government that has guided countless public officials since his day and also shaped the public's expectation that its leaders will put the public's interests first."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "He was raised with a strong sense of right and wrong and was heavily influenced by the philosopher John Stuart Mill to believe that ethical behavior was also an eminently practical approach to life."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Once elected to office, he faced the challenge of how to act ethically when corruption was so universal that the city's aldermen were expected to funnel large sums to their constituents, based on the presumption that all politicians were \"on the take.\""
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "In his memoir, Douglas admits that this and other ethical rules he imposed on himself were often a nuisance and, in some cases, probably went further than needed to demonstrate his honesty."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "But he believed that the public's trust was so fundamental to the effectiveness of government that such steps were appropriate."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "He strongly believed that these gift limits also made him more effective as a public servant, and he campaigned for legislation that ultimately led to the widespread requirement of financial disclosure and limits on accepting gifts."
+    }
+  ]
+}

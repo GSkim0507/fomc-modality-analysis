@@ -1,0 +1,174 @@
+{
+  "doc_id": "speech_powell_20241114a",
+  "doc_type": "speech",
+  "date": "2024-11-14",
+  "chair": "Powell",
+  "n_tokens": 981,
+  "n_sents": 48,
+  "pos_counts": {
+    "NNP": 41,
+    "CD": 19,
+    ",": 42,
+    "IN": 133,
+    "JJ": 86,
+    "NN": 199,
+    ".": 48,
+    "VBP": 28,
+    "PRP": 31,
+    "DT": 93,
+    "NNPS": 2,
+    "CC": 36,
+    "TO": 12,
+    "VB": 20,
+    "MD": 8,
+    "NNS": 62,
+    "VBG": 35,
+    "RB": 55,
+    "VBZ": 33,
+    "VBN": 30,
+    "PRP$": 25,
+    "HYPH": 3,
+    "POS": 1,
+    "JJS": 1,
+    "VBD": 6,
+    "JJR": 6,
+    "RBR": 6,
+    "RP": 5,
+    "WDT": 5,
+    "RBS": 1,
+    "WRB": 2,
+    "EX": 1,
+    ":": 1
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "will": 4,
+    "can": 1,
+    "could": 2,
+    "would": 1
+  },
+  "modals_per_1000": 8.155,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "believe": 1,
+    "expect": 2,
+    "assess": 1
+  },
+  "epistemics_per_1000": 4.077,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 64,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "today . I",
+      "right_3": "start with some",
+      "sentence": "I will start with some brief comments on the economy and monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 627,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that these rates",
+      "right_3": "continue to fluctuate",
+      "sentence": "We expect that these rates will continue to fluctuate in their recent ranges."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 788,
+      "head_verb_surface": "maintained",
+      "head_verb_lemma": "maintain",
+      "left_3": "the labor market",
+      "right_3": "be maintained ,",
+      "sentence": "We are confident that with an appropriate recalibration of our policy stance, strength in the economy and the labor market can be maintained, with inflation moving sustainably down to 2 percent."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 850,
+      "head_verb_surface": "hinder",
+      "head_verb_lemma": "hinder",
+      "left_3": "restraint too quickly",
+      "right_3": "hinder progress on",
+      "sentence": "We know that reducing policy restraint too quickly could hinder progress on inflation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 864,
+      "head_verb_surface": "weaken",
+      "head_verb_lemma": "weaken",
+      "left_3": "restraint too slowly",
+      "right_3": "unduly weaken economic",
+      "sentence": "At the same time, reducing policy restraint too slowly could unduly weaken economic activity and employment."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 905,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": "rate , we",
+      "right_3": "carefully assess incoming",
+      "sentence": "In considering additional adjustments to the target range for the federal funds rate, we will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 974,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "the policy rate",
+      "right_3": "depend on how",
+      "sentence": "Ultimately, the path of the policy rate will depend on how the incoming data and the economic outlook evolve."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1048,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "inflation . That",
+      "right_3": "be a highly",
+      "sentence": "That would be a highly desirable result for the communities, families, and businesses we serve."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Inflation has eased substantially from its peak, and we believe it is on a sustainable path to our 2 percent goal."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We expect that these rates will continue to fluctuate in their recent ranges."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With labor market conditions in rough balance and inflation expectations well anchored, I expect inflation to continue to come down toward our 2 percent objective, albeit on a sometimes-bumpy path."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In considering additional adjustments to the target range for the federal funds rate, we will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    }
+  ]
+}

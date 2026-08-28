@@ -1,0 +1,107 @@
+{
+  "doc_id": "speech_yellen_20140515a",
+  "doc_type": "speech",
+  "date": "2014-05-15",
+  "chair": "Yellen",
+  "n_tokens": 567,
+  "n_sents": 21,
+  "pos_counts": {
+    "NNP": 46,
+    "CD": 12,
+    ",": 31,
+    "NNPS": 3,
+    "CC": 21,
+    "DT": 58,
+    "IN": 71,
+    "VBP": 21,
+    "PRP": 18,
+    "HYPH": 2,
+    "JJ": 54,
+    "TO": 23,
+    "VB": 31,
+    "NN": 76,
+    "NNS": 38,
+    "RB": 20,
+    ".": 20,
+    "VBN": 16,
+    "MD": 3,
+    "POS": 2,
+    "VBD": 6,
+    "VBZ": 15,
+    "PRP$": 6,
+    "VBG": 9,
+    "RBR": 3,
+    ":": 2,
+    "JJR": 5,
+    "WDT": 6,
+    "JJS": 2,
+    "WP$": 1,
+    "LS": 1,
+    "-LRB-": 1,
+    "-RRB-": 1,
+    "``": 1,
+    "''": 1
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "will": 2,
+    "can": 1
+  },
+  "modals_per_1000": 5.291,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "believe": 1,
+    "certain": 1
+  },
+  "epistemics_per_1000": 3.527,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 75,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "have played and",
+      "right_3": "continue to play",
+      "sentence": "I am also grateful to be able to share a few thoughts on the important role I believe small businesses have played and will continue to play in America's recovery from the financial crisis and the Great Recession."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 461,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "that small businesses",
+      "right_3": "continue to play",
+      "sentence": "Although we have come far, it is also true that we have further to go to achieve a healthy economy, and I am certain that small businesses will continue to play a critical role in reaching that objective."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 566,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "so that you",
+      "right_3": "continue to help",
+      "sentence": "We at the Federal Reserve are keenly aware of your vital role, and we pledge to continue to do our part in promoting the recovery so that you can continue to help America grow and prosper."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I am also grateful to be able to share a few thoughts on the important role I believe small businesses have played and will continue to play in America's recovery from the financial crisis and the Great Recession."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Although we have come far, it is also true that we have further to go to achieve a healthy economy, and I am certain that small businesses will continue to play a critical role in reaching that objective."
+    }
+  ]
+}

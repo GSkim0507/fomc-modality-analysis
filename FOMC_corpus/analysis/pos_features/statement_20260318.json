@@ -1,0 +1,130 @@
+{
+  "doc_id": "statement_20260318",
+  "doc_type": "statement",
+  "date": "2026-03-18",
+  "chair": "Powell",
+  "n_tokens": 341,
+  "n_sents": 18,
+  "pos_counts": {
+    "NNP": 57,
+    "CD": 13,
+    ",": 15,
+    "VBZ": 8,
+    "JJ": 29,
+    "NN": 58,
+    "IN": 43,
+    "NNS": 25,
+    "VBP": 4,
+    "VBN": 7,
+    "VBG": 9,
+    "DT": 37,
+    ".": 16,
+    "CC": 10,
+    "RB": 5,
+    "TO": 5,
+    "VB": 12,
+    "JJR": 1,
+    "PRP$": 3,
+    "VBD": 5,
+    "MD": 5,
+    "WDT": 1,
+    "POS": 2,
+    ":": 10,
+    "WP": 1,
+    "UH": 1,
+    "XX": 1,
+    "-RRB-": 1,
+    "SYM": 2
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "will": 3,
+    "would": 1,
+    "could": 1
+  },
+  "modals_per_1000": 14.663,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "uncertain": 1,
+    "assess": 2
+  },
+  "epistemics_per_1000": 8.798,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 142,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "carefully assess incoming",
+      "sentence": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 198,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 223,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 223,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 251,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The implications of developments in the Middle East for the U.S. economy are uncertain."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

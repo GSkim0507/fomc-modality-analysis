@@ -1,0 +1,666 @@
+{
+  "doc_id": "speech_powell_20190604a",
+  "doc_type": "speech",
+  "date": "2019-06-04",
+  "chair": "Powell",
+  "n_tokens": 3375,
+  "n_sents": 183,
+  "pos_counts": {
+    "NNP": 493,
+    "CD": 127,
+    ",": 225,
+    "IN": 461,
+    "DT": 338,
+    "``": 28,
+    "CC": 142,
+    "NNPS": 21,
+    "''": 26,
+    "VBN": 70,
+    "JJ": 243,
+    "NN": 508,
+    ".": 184,
+    "PRP": 55,
+    "VBP": 50,
+    "RB": 111,
+    "TO": 47,
+    "VB": 136,
+    "VBZ": 56,
+    "HYPH": 38,
+    "PRP$": 36,
+    "NNS": 215,
+    "WRB": 19,
+    "MD": 49,
+    "VBG": 54,
+    "JJR": 19,
+    "WDT": 19,
+    "VBD": 59,
+    "WP": 9,
+    "RBR": 11,
+    "-LRB-": 60,
+    "-RRB-": 59,
+    "EX": 3,
+    "JJS": 7,
+    "POS": 14,
+    ":": 16,
+    "RP": 5,
+    "PDT": 2,
+    "RBS": 2,
+    "SYM": 1,
+    "LS": 1
+  },
+  "modal_count": 49,
+  "modal_lemma_counts": {
+    "can": 7,
+    "will": 17,
+    "might": 2,
+    "could": 7,
+    "would": 6,
+    "may": 3,
+    "should": 4,
+    "must": 3
+  },
+  "modals_per_1000": 14.519,
+  "epistemic_count": 12,
+  "epistemic_lemma_counts": {
+    "anticipate": 1,
+    "assess": 1,
+    "possible": 2,
+    "potential": 1,
+    "likely": 3,
+    "believe": 1,
+    "perhaps": 1,
+    "expect": 1,
+    "unlikely": 1
+  },
+  "epistemics_per_1000": 3.556,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 90,
+      "head_verb_surface": "serve",
+      "head_verb_lemma": "serve",
+      "left_3": "how monetary policy",
+      "right_3": "best serve the",
+      "sentence": "We have a distinguished group of experts from academics and other walks of life here to share perspectives on how monetary policy can best serve the public."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 136,
+      "head_verb_surface": "resolved",
+      "head_verb_lemma": "resolve",
+      "left_3": "when these issues",
+      "right_3": "be resolved .",
+      "sentence": "We do not know how or when these issues will be resolved."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 149,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "always , we",
+      "right_3": "act as appropriate",
+      "sentence": "We are closely monitoring the implications of these developments for the U.S. economic outlook and, as always, we will act as appropriate to sustain the expansion, with a strong labor market and inflation near our symmetric 2 percent objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 192,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "this conference ,",
+      "right_3": "focus on longer",
+      "sentence": "My comments today, like this conference, will focus on longer-run issues that will remain even as the issues of the moment evolve."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 192,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "run issues that",
+      "right_3": "remain even as",
+      "sentence": "My comments today, like this conference, will focus on longer-run issues that will remain even as the issues of the moment evolve."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 279,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "a central bank",
+      "right_3": "use to support",
+      "sentence": "1  They focused on many questions posed by low inflation and, in particular, on what unconventional tools a central bank might use to support the economy if interest rates fell to what we now call the effective lower bound (ELB)."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 386,
+      "head_verb_surface": "anticipated",
+      "head_verb_lemma": "anticipate",
+      "left_3": "at the conference",
+      "right_3": "not have anticipated",
+      "sentence": "2  Participants at the conference could not have anticipated that only 10 years later, the world would be engulfed in a deep financial crisis, with unemployment soaring and central banks around the world making extensive use of new strategies, tools, and ways to communicate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 386,
+      "head_verb_surface": "engulfed",
+      "head_verb_lemma": "engulf",
+      "left_3": ", the world",
+      "right_3": "be engulfed in",
+      "sentence": "2  Participants at the conference could not have anticipated that only 10 years later, the world would be engulfed in a deep financial crisis, with unemployment soaring and central banks around the world making extensive use of new strategies, tools, and ways to communicate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 437,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the ELBâand there",
+      "right_3": "be a next",
+      "sentence": "The next time policy rates hit the ELBâand there will be a next timeâit will not be a surprise."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 437,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a next timeâit",
+      "right_3": "not be a",
+      "sentence": "The next time policy rates hit the ELBâand there will be a next timeâit will not be a surprise."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 487,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "measures now that",
+      "right_3": "put us in",
+      "sentence": "Our obligation to the public we serve is to take those measures now that will put us in the best position deal with our next encounter with the ELB."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 597,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "many other engagements",
+      "right_3": "help us bring",
+      "sentence": "This conference and many other engagements will help us bring to bear the best thinking from policymakers and experts."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 617,
+      "head_verb_surface": "devote",
+      "head_verb_lemma": "devote",
+      "left_3": ", the FOMC",
+      "right_3": "devote time at",
+      "sentence": "Beginning later this year, the FOMC will devote time at a series of our regular meetings to assess lessons from these events, supported by staff analysis performed throughout the Federal Reserve System."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 652,
+      "head_verb_surface": "report",
+      "head_verb_lemma": "report",
+      "left_3": "System . We",
+      "right_3": "publicly report the",
+      "sentence": "We will publicly report the outcome of our discussions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 662,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "or learning more",
+      "right_3": "find information on",
+      "sentence": "In the meantime, anyone who is interested in participating or learning more can find information on the Federal Reserve Board's website."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 867,
+      "head_verb_surface": "fall",
+      "head_verb_lemma": "fall",
+      "left_3": "likelihood that rates",
+      "right_3": "fall to the",
+      "sentence": "6  The combination of lower real interest rates and low inflation translates into lower nominal rates and a much higher likelihood that rates will fall to the ELB in a downturn."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 901,
+      "head_verb_surface": "associated",
+      "head_verb_lemma": "associate",
+      "left_3": "extended ELB episodes",
+      "right_3": "be associated with",
+      "sentence": "As the experience of the past decade showed, extended ELB episodes can be associated with painfully high unemployment and slow growth or recession."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 926,
+      "head_verb_surface": "raise",
+      "head_verb_lemma": "raise",
+      "left_3": "inflation , which",
+      "right_3": "raise real interest",
+      "sentence": "Economic weakness puts downward pressure on inflation, which can raise real interest rates and reinforce the challenge of supporting needed job growth."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 968,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". This insensitivity",
+      "right_3": "be a blessing",
+      "sentence": "This insensitivity can be a blessing in avoiding deflation when unemployment is high, but it means that much greater labor market tightness may ultimately be required to bring inflation back to target in a recovery."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 968,
+      "head_verb_surface": "required",
+      "head_verb_lemma": "require",
+      "left_3": "labor market tightness",
+      "right_3": "ultimately be required",
+      "sentence": "This insensitivity can be a blessing in avoiding deflation when unemployment is high, but it means that much greater labor market tightness may ultimately be required to bring inflation back to target in a recovery."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1005,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "to lift inflation",
+      "right_3": "pose risks of",
+      "sentence": "Using monetary policy to push sufficiently hard on labor markets to lift inflation could pose risks of destabilizing excesses in financial markets or elsewhere."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1141,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "to persist ,",
+      "right_3": "bring us uncomfortably",
+      "sentence": "In this setting, a similar low-side surprise, if it were to persist, would bring us uncomfortably closer to the ELB."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1167,
+      "head_verb_surface": "precipitate",
+      "head_verb_lemma": "precipitate",
+      "left_3": "a robust economy",
+      "right_3": "precipitate a difficult",
+      "sentence": "My FOMC colleagues and I mustâand doâtake seriously the risk that inflation shortfalls that persist even in a robust economy could precipitate a difficult-to-arrest downward drift in inflation expectations."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1400,
+      "head_verb_surface": "meet",
+      "head_verb_lemma": "meet",
+      "left_3": "questions : \n\n",
+      "right_3": "the Federal Reserve",
+      "sentence": "Let me turn to the specifics of the review, which is focused on three questions:  Can the Federal Reserve best meet its statutory objectives with its existing monetary policy strategy, or should it consider strategies that aim to reverse past misses of the inflation objective?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1400,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "strategy , or",
+      "right_3": "it consider strategies",
+      "sentence": "Let me turn to the specifics of the review, which is focused on three questions:  Can the Federal Reserve best meet its statutory objectives with its existing monetary policy strategy, or should it consider strategies that aim to reverse past misses of the inflation objective?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1451,
+      "head_verb_surface": "expanded",
+      "head_verb_lemma": "expand",
+      "left_3": "stability , or",
+      "right_3": "the toolkit be",
+      "sentence": "Are the existing monetary policy tools adequate to achieve and maintain maximum employment and price stability, or should the toolkit be expanded?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1476,
+      "head_verb_surface": "improved",
+      "head_verb_lemma": "improve",
+      "left_3": "? \n\n How",
+      "right_3": "the FOMC 's",
+      "sentence": "How can the FOMC's communication of its policy framework and implementation be improved?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1543,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "whether the FOMC",
+      "right_3": "use makeup strategies",
+      "sentence": "The first question raises the issue of whether the FOMC should use makeup strategies in response to ELB risks."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1563,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "at leastâsuch strategies",
+      "right_3": "substantially reduce the",
+      "sentence": "By the time of the 1999 conference, research was beginning to show thatâin models, at leastâsuch strategies could substantially reduce the unemployment and other costs of ELB spells."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1629,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "credibly that it",
+      "right_3": "deliberately make up",
+      "sentence": "But what if the central bank promised credibly that it would deliberately make up for any lost inflation by stimulating the economy and temporarily pushing inflation modestly above the target?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1660,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "and investment that",
+      "right_3": "greatly reduce the",
+      "sentence": "In the models, the prospect of future stimulus promotes anticipatory consumption and investment that could greatly reduce the pain of being at the ELB. 9  Policymakers discussed this reasoning in the wake of the crisis, but neither the Fed nor any other major central bank chose to pursue such a policy."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1722,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "households and businesses",
+      "right_3": "go out on",
+      "sentence": "For makeup strategies to work, households and businesses must go out on a limb, so to speak, raising spending in the midst of a downturn."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1751,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "theory , they",
+      "right_3": "do this based",
+      "sentence": "In theory, they would do this based on their confidence that the central bank will deliver the makeup stimulus at some pointâperhaps years in the future."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1751,
+      "head_verb_surface": "deliver",
+      "head_verb_lemma": "deliver",
+      "left_3": "the central bank",
+      "right_3": "deliver the makeup",
+      "sentence": "In theory, they would do this based on their confidence that the central bank will deliver the makeup stimulus at some pointâperhaps years in the future."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1792,
+      "head_verb_surface": "moved",
+      "head_verb_lemma": "move",
+      "left_3": "times to come",
+      "right_3": "really have moved",
+      "sentence": "Despite the flattering nature of this assumption, crisis-era policymakers had major questions about whether their promise of good times to come would really have moved the hearts, minds, and pocketbooks of the public."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1831,
+      "head_verb_surface": "hope",
+      "head_verb_lemma": "hope",
+      "left_3": "downturnâa problem we",
+      "right_3": "hope to fix",
+      "sentence": "Part of the problem was that the groundwork had not been laid in advance of the downturnâa problem we could hope to fix well before next time."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1859,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "take actions that",
+      "right_3": "be objectionable from",
+      "sentence": "Policymakers also had deeper concerns about the legitimacy and effectiveness of attempting to bind some future FOMC to take actions that could be objectionable from a short-term perspective when the time came to deliver."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1922,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "actionable makeup strategy",
+      "right_3": "need to be",
+      "sentence": "To achieve buy-in by households and businesses, a comprehensible, credible, and actionable makeup strategy will need to be followed by years of central bank policy consistent with that strategy."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2046,
+      "head_verb_surface": "thought",
+      "head_verb_lemma": "think",
+      "left_3": "but that they",
+      "right_3": "not be thought",
+      "sentence": "My own view is that these policies provided meaningful support for demand, but that they should not be thought of as a perfect substitute for our traditional interest rate tool."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2129,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "which we hope",
+      "right_3": "be rare .",
+      "sentence": "We know that tools like these are likely to be needed in some form in future ELB spells, which we hope will be rare."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2186,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". Our plans",
+      "right_3": "take advantage of",
+      "sentence": "Our plans must take advantage of this growing understanding as assessments are refined."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2315,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "typical FOMC participant",
+      "right_3": "do if things",
+      "sentence": "A focus on the median forecast amounts to emphasizing what the typical FOMC participant would do if things go as expected."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2361,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "important policy message",
+      "right_3": "be about how",
+      "sentence": "15  In this environment, the most important policy message may be about how the central bank will respond to the unexpected rather than what it will do if there are no surprises."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2361,
+      "head_verb_surface": "respond",
+      "head_verb_lemma": "respond",
+      "left_3": "the central bank",
+      "right_3": "respond to the",
+      "sentence": "15  In this environment, the most important policy message may be about how the central bank will respond to the unexpected rather than what it will do if there are no surprises."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2361,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "than what it",
+      "right_3": "do if there",
+      "sentence": "15  In this environment, the most important policy message may be about how the central bank will respond to the unexpected rather than what it will do if there are no surprises."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2396,
+      "head_verb_surface": "react",
+      "head_verb_lemma": "react",
+      "left_3": "how the FOMC",
+      "right_3": "react to unexpected",
+      "sentence": "Unfortunately, at times the dot plot has distracted attention from the more important topic of how the FOMC will react to unexpected economic developments."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2422,
+      "head_verb_surface": "thought",
+      "head_verb_lemma": "think",
+      "left_3": "the median dot",
+      "right_3": "best be thought",
+      "sentence": "In times of high uncertainty, the median dot might best be thought of as the  least unlikely  outcome."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2470,
+      "head_verb_surface": "communicate",
+      "head_verb_lemma": "communicate",
+      "left_3": ", and we",
+      "right_3": "communicate them in",
+      "sentence": "We need the best tools and strategies possible for dealing with the challenges we now face, and we must communicate them in a clear and credible way."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3508,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the effective change",
+      "right_3": "be larger .",
+      "sentence": "Rachel and Summers (2019) give reasons why the effective change may be larger."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "2  Participants at the conference could not have anticipated that only 10 years later, the world would be engulfed in a deep financial crisis, with unemployment soaring and central banks around the world making extensive use of new strategies, tools, and ways to communicate."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Beginning later this year, the FOMC will devote time at a series of our regular meetings to assess lessons from these events, supported by staff analysis performed throughout the Federal Reserve System."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "4  Macroeconomists were puzzling over the flatness of the Phillips curve, the level of the natural rate of unemployment, and a possible acceleration in productivity growthâquestions that are also with us today."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "At the heart of the review is the evaluation of potential changes to our strategy designed to strengthen the credibility of our symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "My FOMC colleagues and I are committed to explaining why the use of these tools in the wake of the crisis was a prudent and effective approach to pursuing our congressional mandate and why tools like these are likely to be needed again."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe our current policy framework is working well, and we have made no decisions about particular changes."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In any case, we have a responsibility to thoroughly evaluate what mix of these tools is likely to work best when the next ELB episode arrives."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Perhaps it is time to retire the term \"unconventional\" when referring to tools that were used in the crisis."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "We know that tools like these are likely to be needed in some form in future ELB spells, which we hope will be rare."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "A focus on the median forecast amounts to emphasizing what the typical FOMC participant would do if things go as expected."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "In times of high uncertainty, the median dot might best be thought of as the  least unlikely  outcome."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We need the best tools and strategies possible for dealing with the challenges we now face, and we must communicate them in a clear and credible way."
+    }
+  ]
+}

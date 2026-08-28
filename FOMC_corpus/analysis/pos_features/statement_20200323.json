@@ -1,0 +1,137 @@
+{
+  "doc_id": "statement_20200323",
+  "doc_type": "statement",
+  "date": "2020-03-23",
+  "chair": "Powell",
+  "n_tokens": 636,
+  "n_sents": 20,
+  "pos_counts": {
+    "NNP": 111,
+    "CD": 14,
+    ",": 16,
+    "VBZ": 12,
+    "JJ": 42,
+    "NN": 105,
+    "IN": 73,
+    "DT": 56,
+    "VBN": 20,
+    "TO": 26,
+    "VB": 35,
+    "PRP$": 5,
+    "NNS": 66,
+    "CC": 23,
+    "RB": 10,
+    ".": 19,
+    "VBG": 9,
+    "HYPH": 14,
+    "MD": 7,
+    "JJR": 4,
+    "-LRB-": 3,
+    "-RRB-": 3,
+    "VBD": 4,
+    ":": 10,
+    "POS": 5,
+    "``": 2,
+    "WRB": 1,
+    "WDT": 1,
+    "VBP": 3,
+    "$": 1,
+    "RP": 1,
+    "SYM": 2,
+    "NNPS": 2
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "will": 5,
+    "can": 1,
+    "may": 1
+  },
+  "modals_per_1000": 11.006,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "assess": 1
+  },
+  "epistemics_per_1000": 1.572,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 88,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "The Federal Reserve",
+      "right_3": "continue to purchase",
+      "sentence": "The Federal Reserve will continue to purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of monetary policy to broader financial conditions."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 123,
+      "head_verb_surface": "include",
+      "head_verb_lemma": "include",
+      "left_3": ". The Committee",
+      "right_3": "include purchases of",
+      "sentence": "The Committee will include purchases of agency commercial mortgage-backed securities in its agency mortgage-backed security purchases."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 144,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "Open Market Desk",
+      "right_3": "continue to offer",
+      "sentence": "In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 165,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The Committee",
+      "right_3": "continue to closely",
+      "sentence": "The Committee will continue to closely monitor market conditions, and will assess the appropriate pace of its securities purchases at future meetings."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 165,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": "conditions , and",
+      "right_3": "assess the appropriate",
+      "sentence": "The Committee will continue to closely monitor market conditions, and will assess the appropriate pace of its securities purchases at future meetings."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 269,
+      "head_verb_surface": "found",
+      "head_verb_lemma": "find",
+      "left_3": ". More information",
+      "right_3": "be found on",
+      "sentence": "More information can be found on the Federal Reserve Board's  website ."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 662,
+      "head_verb_surface": "found",
+      "head_verb_lemma": "find",
+      "left_3": "operations and reinvestments",
+      "right_3": "be found on",
+      "sentence": "\"  More information regarding open market operations and reinvestments may be found on the Federal Reserve Bank of New York's  website ."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee will continue to closely monitor market conditions, and will assess the appropriate pace of its securities purchases at future meetings."
+    }
+  ]
+}

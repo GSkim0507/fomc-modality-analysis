@@ -1,0 +1,166 @@
+{
+  "doc_id": "speech_powell_20190509a",
+  "doc_type": "speech",
+  "date": "2019-05-09",
+  "chair": "Powell",
+  "n_tokens": 836,
+  "n_sents": 36,
+  "pos_counts": {
+    "NNP": 62,
+    "CD": 34,
+    ",": 47,
+    "IN": 123,
+    "DT": 83,
+    ":": 4,
+    "``": 3,
+    "VBG": 20,
+    "NN": 145,
+    "''": 3,
+    "PRP": 17,
+    "VBZ": 21,
+    "PRP$": 9,
+    "TO": 7,
+    "VB": 21,
+    "POS": 3,
+    "JJ": 67,
+    "VBN": 16,
+    "NNS": 66,
+    "NNPS": 5,
+    "CC": 32,
+    ".": 35,
+    "VBP": 30,
+    "WDT": 6,
+    "HYPH": 14,
+    "RB": 27,
+    "MD": 7,
+    "EX": 2,
+    "JJR": 14,
+    "RBR": 4,
+    "VBD": 9,
+    "RP": 4,
+    "WP": 2,
+    "LS": 1,
+    "-LRB-": 5,
+    "-RRB-": 5
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "would": 1,
+    "can": 2,
+    "will": 4
+  },
+  "modals_per_1000": 8.373,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "believe": 1,
+    "possible": 2,
+    "likely": 1
+  },
+  "epistemics_per_1000": 4.785,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 120,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": ", and I",
+      "right_3": "like to thank",
+      "sentence": "These gatherings also inform the Federal Reserve System's work in promoting consumer protection and community development, and I would like to thank all of you for your contributions to this conference."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 167,
+      "head_verb_surface": "agree",
+      "head_verb_lemma": "agree",
+      "left_3": "I think we",
+      "right_3": "agree that achieving",
+      "sentence": "While there are many definitions of \"middle class,\" I think we can agree that achieving a basic level of economic security is fundamental."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 259,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "the conditions that",
+      "right_3": "help lower -",
+      "sentence": "Those circumstances underscore a two-fold challenge for our country: fostering the conditions that will help lower-income families reach the middle class, while ensuring that middle-class status still provides the basic economic security that it has traditionally offered."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 306,
+      "head_verb_surface": "addressed",
+      "head_verb_lemma": "address",
+      "left_3": "research questions that",
+      "right_3": "be addressed today",
+      "sentence": "The conference organizers have sorted through the many research questions that will be addressed today and tomorrow and have taken away three key observations that are fundamental to addressing the challenges related to the middle class."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 479,
+      "head_verb_surface": "touch",
+      "head_verb_lemma": "touch",
+      "left_3": ". This conference",
+      "right_3": "touch on other",
+      "sentence": "This conference will touch on other possible reasons for this decline in upward mobility and relative income, such as changes in the prospects for career advancement that vary by occupation and location."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 689,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "presented this morning",
+      "right_3": "discuss some possible",
+      "sentence": "Research presented this morning will discuss some possible explanations for the divergence in employment, income, and other economic prospects between college grads and others."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 850,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": "Sound public policies",
+      "right_3": "support families and",
+      "sentence": "Sound public policies can support families and businesses and help more Americans reach and remain in the middle class."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Surveys suggest that many Americans believe being middle class means having a secure job and the ability to save."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "This conference will touch on other possible reasons for this decline in upward mobility and relative income, such as changes in the prospects for career advancement that vary by occupation and location."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "For women of working age, the trends are less clear, but those without a college degree are also less likely to work today."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Research presented this morning will discuss some possible explanations for the divergence in employment, income, and other economic prospects between college grads and others."
+    }
+  ]
+}

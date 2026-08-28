@@ -1,0 +1,598 @@
+{
+  "doc_id": "speech_bernanke_20110302a",
+  "doc_type": "speech",
+  "date": "2011-03-02",
+  "chair": "Bernanke",
+  "n_tokens": 3066,
+  "n_sents": 128,
+  "pos_counts": {
+    "NNP": 214,
+    "CD": 98,
+    ",": 178,
+    "NNS": 339,
+    "IN": 426,
+    "CC": 142,
+    "NNPS": 20,
+    "DT": 254,
+    "PRP": 29,
+    "VBP": 75,
+    "JJ": 286,
+    "TO": 45,
+    "VB": 107,
+    "NN": 492,
+    "WDT": 12,
+    "VBZ": 49,
+    "PDT": 1,
+    "VBG": 66,
+    ".": 128,
+    "MD": 43,
+    "RB": 157,
+    ":": 31,
+    "JJR": 28,
+    "HYPH": 31,
+    "VBN": 85,
+    "UH": 1,
+    "VBD": 28,
+    "PRP$": 22,
+    "POS": 4,
+    "RBR": 12,
+    "RBS": 4,
+    "RP": 10,
+    "-LRB-": 18,
+    "-RRB-": 18,
+    "``": 9,
+    "''": 7,
+    "WRB": 8,
+    "SYM": 5,
+    "JJS": 8,
+    "WP": 3,
+    "$": 3,
+    "EX": 1,
+    "LS": 1
+  },
+  "modal_count": 43,
+  "modal_lemma_counts": {
+    "will": 14,
+    "may": 10,
+    "might": 2,
+    "must": 1,
+    "should": 4,
+    "can": 9,
+    "could": 2,
+    "would": 1
+  },
+  "modals_per_1000": 14.025,
+  "epistemic_count": 11,
+  "epistemic_lemma_counts": {
+    "assess": 1,
+    "likely": 3,
+    "project": 2,
+    "expect": 1,
+    "presumably": 1,
+    "certainly": 2,
+    "certain": 1
+  },
+  "epistemics_per_1000": 3.588,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 75,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "York . I",
+      "right_3": "focus this evening",
+      "sentence": "I will focus this evening on a top challenge not only for New York, but also for states and localities across the nation--namely, the imperative of achieving fiscal sustainability in both the short and the long term."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 117,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "term . I",
+      "right_3": "first discuss the",
+      "sentence": "I will first discuss the fiscal pressures currently confronting states and localities, then turn to longer-term challenges and opportunities faced by these jurisdictions."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 215,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "as these cuts",
+      "right_3": "have been ,",
+      "sentence": "As necessary as these cuts may have been, they have left some jurisdictions struggling to maintain essential services."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 941,
+      "head_verb_surface": "ask",
+      "head_verb_lemma": "ask",
+      "left_3": "level . One",
+      "right_3": "ask why states",
+      "sentence": "One might ask why states and localities are choosing to reduce capital expenditures, as these expenditures provide employment and economic benefits while typically not being subject to balanced budget requirements."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 973,
+      "head_verb_surface": "compete",
+      "head_verb_lemma": "compete",
+      "left_3": "budgets and thus",
+      "right_3": "compete with Medicaid",
+      "sentence": "One reason is that some projects are funded at least partially out of operating budgets and thus must compete with Medicaid and other high-priority programs for scarce dollars."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1041,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "new capital projects",
+      "right_3": "be difficult to",
+      "sentence": "Finally, starting new capital projects may be difficult to justify politically in a period of general austerity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1144,
+      "head_verb_surface": "confront",
+      "head_verb_lemma": "confront",
+      "left_3": ", and legislators",
+      "right_3": "confront more tough",
+      "sentence": "Despite the many difficult adjustments to date, state and local fiscal repair is far from complete, and governors, mayors, and legislators will confront more tough decisions as they develop their budgets for fiscal year 2012."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1202,
+      "head_verb_surface": "ended",
+      "head_verb_lemma": "end",
+      "left_3": "this year and",
+      "right_3": "largely have ended",
+      "sentence": "Stimulus grants from the federal government are winding down this year and will largely have ended by 2012."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1221,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "social service programs",
+      "right_3": "likely remain elevated",
+      "sentence": "Demands on Medicaid and other social service programs will likely remain elevated."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1339,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "budget gaps that",
+      "right_3": "need to be",
+      "sentence": "Accordingly, considerably fewer states are facing midyear budget gaps that will need to be addressed before the end of the current fiscal year than the 40 or so that reported such gaps in 2009 and 2010."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1378,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": ". \r\n \n\n\r\n  Much",
+      "right_3": "depend on the",
+      "sentence": "Much will depend on the continuation of the economic recovery."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1389,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "states and localities",
+      "right_3": "start to get",
+      "sentence": "If the economy continues to strengthen at about the pace projected by the Federal Reserve and many private forecasters, states and localities may start to get a little breathing space."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1421,
+      "head_verb_surface": "rise",
+      "head_verb_lemma": "rise",
+      "left_3": ". Tax collections",
+      "right_3": "rise with income",
+      "sentence": "Tax collections will rise with income and spending, and the use of Medicaid and other income support programs should ease as the labor market improves."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1421,
+      "head_verb_surface": "ease",
+      "head_verb_lemma": "ease",
+      "left_3": "income support programs",
+      "right_3": "ease as the",
+      "sentence": "Tax collections will rise with income and spending, and the use of Medicaid and other income support programs should ease as the labor market improves."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1448,
+      "head_verb_surface": "required",
+      "head_verb_lemma": "require",
+      "left_3": ", some time",
+      "right_3": "likely be required",
+      "sentence": "However, because the pace of near-term economic growth expected by most forecasters is relatively modest given the depth of the downturn, some time will likely be required before state and local fiscal conditions return to something approximating normal."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1492,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "addressing fiscal shortfalls",
+      "right_3": "help calm the",
+      "sentence": "Continued evidence that states and localities are addressing fiscal shortfalls should help calm the municipal bond market."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1611,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "The Federal Reserve",
+      "right_3": "continue to monitor",
+      "sentence": "The Federal Reserve will continue to monitor the municipal bond market closely."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1663,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "- care expenses",
+      "right_3": "become increasingly difficult",
+      "sentence": "Indeed, with the retirement of public employees who are part of the baby-boom generation and the continued rise in health-care costs, meeting obligations for pension and retiree health-care expenses will become increasingly difficult for many states and localities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1802,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "local governments also",
+      "right_3": "have to address",
+      "sentence": "3    \r  State and local governments also will have to address the burgeoning costs of retiree health benefits."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1856,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "pensions and thus",
+      "right_3": "be more subject",
+      "sentence": "In addition, retiree health plans generally do not have the same degree of explicit protection as do pensions and thus may be more subject to change."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1959,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "is whether anything",
+      "right_3": "be done to",
+      "sentence": "For example, in light of the recent experience, an important question is whether anything can be done to reduce the sensitivity of state and local budgets to the business cycle."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1992,
+      "head_verb_surface": "force",
+      "head_verb_lemma": "force",
+      "left_3": "most states operate",
+      "right_3": "force sharp cuts",
+      "sentence": "As the past couple of years have shown, the balanced-budget rules under which most states operate can force sharp cuts in services and increases in taxes during recessions, which is just the time when many people in the state are economically most vulnerable."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2040,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "the business cycle",
+      "right_3": "impede planning by",
+      "sentence": "Moreover, the instability in funding streams and tax rates associated with the business cycle can impede planning by both the public and the private sectors."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2096,
+      "head_verb_surface": "mitigated",
+      "head_verb_lemma": "mitigate",
+      "left_3": "on state budgets",
+      "right_3": "be mitigated in",
+      "sentence": "5   However, even with these rules in place, the question remains whether the effects of the business cycle on state budgets can be mitigated in the future."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2232,
+      "head_verb_surface": "wish",
+      "head_verb_lemma": "wish",
+      "left_3": "Thus , governments",
+      "right_3": "wish to revisit",
+      "sentence": "Thus, governments may wish to revisit their criteria for accumulating and using fiscal reserves."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2248,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "during good times",
+      "right_3": "not be politically",
+      "sentence": "Building an adequate reserve fund during good times may not be politically popular, but doing so can pay off during bad times as well as lessen the tendency to overspend when times are good."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2248,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": "but doing so",
+      "right_3": "pay off during",
+      "sentence": "Building an adequate reserve fund during good times may not be politically popular, but doing so can pay off during bad times as well as lessen the tendency to overspend when times are good."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2285,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "and bad times",
+      "right_3": "also take place",
+      "sentence": "In principle, some smoothing of expenditures over good and bad times could also take place through the capital budget."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2306,
+      "head_verb_surface": "add",
+      "head_verb_lemma": "add",
+      "left_3": "economy is weak",
+      "right_3": "add valuable infrastructure",
+      "sentence": "In particular, maintaining or even increasing the pace of construction spending when the economy is weak could add valuable infrastructure and provide local jobs; it may even allow a government to get more \"bang for the buck\" because of increased competition among private contractors when demand is slack."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2306,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "jobs ; it",
+      "right_3": "even allow a",
+      "sentence": "In particular, maintaining or even increasing the pace of construction spending when the economy is weak could add valuable infrastructure and provide local jobs; it may even allow a government to get more \"bang for the buck\" because of increased competition among private contractors when demand is slack."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2359,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Voters and policymakers",
+      "right_3": "understandably be reluctant",
+      "sentence": "Voters and policymakers may understandably be reluctant to approve new bond issues and take on additional costs for debt payments in a period of fiscal and economic stress, but they might be less reluctant if governments were to accumulate larger rainy day funds and assign a higher priority to tapping them for infrastructure purposes in times of economic weakness."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2359,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", but they",
+      "right_3": "be less reluctant",
+      "sentence": "Voters and policymakers may understandably be reluctant to approve new bond issues and take on additional costs for debt payments in a period of fiscal and economic stress, but they might be less reluctant if governments were to accumulate larger rainy day funds and assign a higher priority to tapping them for infrastructure purposes in times of economic weakness."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2493,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": ", sales taxes",
+      "right_3": "have become more",
+      "sentence": "6   Also, sales taxes may have become more cyclical because of an increasing tendency to exempt certain necessities, for which demand is relatively more stable."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2522,
+      "head_verb_surface": "wish",
+      "head_verb_lemma": "wish",
+      "left_3": "systems , they",
+      "right_3": "wish to consider",
+      "sentence": "As state legislatures review their tax systems, they may wish to consider steps to enhance the cyclical stability of their revenue streams."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2621,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": ", most people",
+      "right_3": "support the goal",
+      "sentence": "Certainly, most people would support the goal of fostering healthy economic growth."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2635,
+      "head_verb_surface": "contribute",
+      "head_verb_lemma": "contribute",
+      "left_3": "growth . Government",
+      "right_3": "contribute to this",
+      "sentence": "Government can contribute to this objective in a number of ways."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2672,
+      "head_verb_surface": "succeed",
+      "head_verb_lemma": "succeed",
+      "left_3": ". No economy",
+      "right_3": "succeed without a",
+      "sentence": "No economy can succeed without a high-quality workforce, particularly in an age of globalization and technical change."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2748,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "early childhood programs",
+      "right_3": "be especially high",
+      "sentence": "The payoffs of early childhood programs can be especially high."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2781,
+      "head_verb_surface": "pay",
+      "head_verb_lemma": "pay",
+      "left_3": "in such programs",
+      "right_3": "pay off even",
+      "sentence": "8   Because high school graduates have higher earnings, pay more taxes, and are less likely to use public health programs, investing in such programs can pay off even from the narrow perspective of state budgets; of course, the returns to the overall economy and to the individuals themselves are much greater."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3009,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "An improving economy",
+      "right_3": "help , but",
+      "sentence": "An improving economy should help, but state and local finances will remain under pressure for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3009,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "and local finances",
+      "right_3": "remain under pressure",
+      "sentence": "An improving economy should help, but state and local finances will remain under pressure for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3053,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "but meeting them",
+      "right_3": "be essential to",
+      "sentence": "These challenges are daunting indeed, but meeting them will be essential to ensuring that our resilient and dynamic economy delivers rising living standards to the citizens of New York and to our nation as a whole."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3270,
+      "head_verb_surface": "noted",
+      "head_verb_lemma": "note",
+      "left_3": ".    It",
+      "right_3": "be noted that",
+      "sentence": "It should be noted that  future  pension accruals generally seem to be accorded a lower level of protection."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Changes in real estate values typically feed through to tax assessments and property tax bills with a considerable lag; some jurisdictions have also raised their property tax rates to offset weakness in assessed values."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Demands on Medicaid and other social service programs will likely remain elevated."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "If the economy continues to strengthen at about the pace projected by the Federal Reserve and many private forecasters, states and localities may start to get a little breathing space."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "However, because the pace of near-term economic growth expected by most forecasters is relatively modest given the depth of the downturn, some time will likely be required before state and local fiscal conditions return to something approximating normal."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "However, because the pace of near-term economic growth expected by most forecasters is relatively modest given the depth of the downturn, some time will likely be required before state and local fiscal conditions return to something approximating normal."
+    },
+    {
+      "surface": "presumably",
+      "lemma": "presumably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Fortunately, although these measures of risk in the municipal bond market remain elevated, they have been looking somewhat better recently, presumably reflecting expectations of continuing improvement in the finances of states and localities."
+    },
+    {
+      "surface": "projecting",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Estimates of these costs are subject to substantially greater uncertainty than are those for pension liabilities, largely because of the difficulty inherent in projecting overall health-care costs decades into the future."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "With these uncertainties in mind, the prospective costs of providing retiree health benefits--though certainly consequential--appear to be somewhat smaller than unfunded pension liabilities."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "6   Also, sales taxes may have become more cyclical because of an increasing tendency to exempt certain necessities, for which demand is relatively more stable."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Certainly, most people would support the goal of fostering healthy economic growth."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "8   Because high school graduates have higher earnings, pay more taxes, and are less likely to use public health programs, investing in such programs can pay off even from the narrow perspective of state budgets; of course, the returns to the overall economy and to the individuals themselves are much greater."
+    }
+  ]
+}

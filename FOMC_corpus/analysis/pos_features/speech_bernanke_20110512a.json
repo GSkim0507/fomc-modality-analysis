@@ -1,0 +1,92 @@
+{
+  "doc_id": "speech_bernanke_20110512a",
+  "doc_type": "speech",
+  "date": "2011-05-12",
+  "chair": "Bernanke",
+  "n_tokens": 590,
+  "n_sents": 32,
+  "pos_counts": {
+    "NNP": 90,
+    "CD": 10,
+    ",": 36,
+    "NN": 68,
+    "VBZ": 10,
+    "IN": 85,
+    "DT": 54,
+    "HYPH": 6,
+    "JJ": 52,
+    ".": 31,
+    "PRP": 27,
+    "VBP": 19,
+    "RB": 35,
+    "TO": 9,
+    "VB": 12,
+    "PRP$": 17,
+    "NNS": 31,
+    "VBG": 8,
+    "CC": 23,
+    ":": 3,
+    "VBN": 11,
+    "VBD": 14,
+    "MD": 3,
+    "POS": 5,
+    "WP": 1,
+    "JJR": 1,
+    "WDT": 4,
+    "JJS": 2
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "must": 1,
+    "might": 1,
+    "would": 1
+  },
+  "modals_per_1000": 5.085,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "perhaps": 1
+  },
+  "epistemics_per_1000": 1.695,
+  "modal_instances": [
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 202,
+      "head_verb_surface": "confess",
+      "head_verb_lemma": "confess",
+      "left_3": ". But I",
+      "right_3": "confess that I",
+      "sentence": "But I must confess that I enjoyed the trip as much for the cultural excursions as for the economics."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 285,
+      "head_verb_surface": "credit",
+      "head_verb_lemma": "credit",
+      "left_3": ". Perhaps Agustín",
+      "right_3": "also credit his",
+      "sentence": "Perhaps Agustín might also credit his spouse, the writer Catherine Mansell Carstens, for an appreciation of culture that encompasses both of our nations."
+    },
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 523,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". \r\n \n\n\r\n  I",
+      "right_3": "be remiss if",
+      "sentence": "I'd be remiss if I concluded without noting Mexico's tremendous economic strides during the past two decades."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Perhaps Agustín might also credit his spouse, the writer Catherine Mansell Carstens, for an appreciation of culture that encompasses both of our nations."
+    }
+  ]
+}

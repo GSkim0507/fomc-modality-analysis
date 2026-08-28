@@ -1,0 +1,87 @@
+=== Empirical test: Bloomberg highlight vs automatic diff ===
+
+
+--- 20260129   (20260128  vs  20251210) ---
+  automatic diff produces 5 added + 9 removed spans
+  sample automatic-diff spans:
+    [  added] solid
+    [  added] remained low
+    [  added] shown some signs of stabilization
+    [  added] maintain
+    [  added] at 3â  
+    [removed] moderate
+    [removed] slowed this year
+    [removed] edged up through September . More recent indicators are consistent with these developments
+  Bloomberg highlights extracted: 33
+    [bloom/left] solid
+    [bloom/left] remained low
+    [bloom/left] shown some signs of stabilization. Inflation
+    [bloom/left] .
+    [bloom/left] In support of its goals
+    [bloom/left] maintain
+    [bloom/left] at
+    [bloom/left] Lisa
+  → diff phrases covered by ≥1 highlight: 14/14
+  → diff phrases NOT highlighted: 0
+  → highlights with no diff match: 18
+    [highlight-only] meeting; and austan d. goolsbee and jeffrey
+    [highlight-only] and will initiate purchases of shorter-term treasury securities as
+    [highlight-only] in support of its goals
+    [highlight-only] lisa
+    [highlight-only] 2
+    [highlight-only] susan m.
+
+--- 20260319   (20260318  vs  20260128) ---
+  automatic diff produces 2 added + 1 removed spans
+  sample automatic-diff spans:
+    [  added] been little changed in recent months
+    [  added] . The implications of developments in the Middle East for the U . S . economy are uncertain
+    [removed] shown some signs of stabilization
+  Bloomberg highlights extracted: 13
+    [bloom/left] been little changed in recent months
+    [bloom/left] The implications of developments in the
+    [bloom/left] Middle East for the U.S. economy are uncertain.
+    [bloom/left] ‑
+    [bloom/left] ‑
+    [bloom/left] ; and Christopher J. Waller
+    [bloom/left] as
+    [bloom/right] shown some signs of stabilization.
+  → diff phrases covered by ≥1 highlight: 3/3
+  → diff phrases NOT highlighted: 0
+  → highlights with no diff match: 8
+    [highlight-only] ere
+    [highlight-only] n and christopher j. waller,
+    [highlight-only] -
+    [highlight-only] middle east for the u.s. economy are uncertain.
+    [highlight-only] and
+    [highlight-only] -3
+
+--- 20260430   (20260429  vs  20260318) ---
+  automatic diff produces 5 added + 4 removed spans
+  sample automatic-diff spans:
+    [  added] Recent
+    [  added] on average ,
+    [  added] is
+    [  added] , in part reflecting the recent increase in global energy prices
+    [  added] Developments in the Middle East are contributing to a high level of uncertainty
+    [removed] Available
+    [removed] remains somewhat
+    [removed] Uncertainty
+  Bloomberg highlights extracted: 25
+    [bloom/left] Recent
+    [bloom/left] on average,
+    [bloom/left] is elevated, in part reflecting the recent increase in global energy
+    [bloom/left] prices
+    [bloom/left] Developments in the Middle East
+    [bloom/left] ar
+    [bloom/left] tributing to a high level of uncertainty about the economic
+    [bloom/left] outlook
+  → diff phrases covered by ≥1 highlight: 9/9
+  → diff phrases NOT highlighted: 0
+  → highlights with no diff match: 13
+    [highlight-only] outlook
+    [highlight-only] on average,
+    [highlight-only] omic
+    [highlight-only] ere
+    [highlight-only] outlook remains elevated. the implications of developments in the
+    [highlight-only] rate but did not support inclusion of an easing bias in the statement

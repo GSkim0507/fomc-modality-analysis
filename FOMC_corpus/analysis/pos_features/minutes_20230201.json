@@ -1,0 +1,1436 @@
+{
+  "doc_id": "minutes_20230201",
+  "doc_type": "minutes",
+  "date": "2023-02-01",
+  "chair": "Powell",
+  "n_tokens": 8834,
+  "n_sents": 289,
+  "pos_counts": {
+    "NNS": 747,
+    "IN": 1372,
+    "DT": 803,
+    "NNP": 1374,
+    "NN": 1499,
+    "CD": 160,
+    ",": 535,
+    "JJ": 742,
+    "CC": 256,
+    "NNPS": 71,
+    "VBD": 419,
+    "VBN": 199,
+    "RB": 246,
+    "FW": 4,
+    "HYPH": 74,
+    "VBG": 170,
+    "PRP$": 46,
+    ".": 283,
+    "VBZ": 43,
+    ":": 20,
+    "TO": 131,
+    "VB": 217,
+    "-LRB-": 23,
+    "-RRB-": 21,
+    "WDT": 34,
+    "POS": 57,
+    "``": 9,
+    "LS": 3,
+    "''": 5,
+    "RP": 20,
+    "MD": 71,
+    "JJR": 65,
+    "PRP": 25,
+    "EX": 5,
+    "VBP": 26,
+    "JJS": 4,
+    "RBR": 23,
+    "WRB": 1,
+    "XX": 1,
+    "UH": 2,
+    "WP": 1,
+    "PDT": 2,
+    "SYM": 6,
+    "$": 4,
+    "NFP": 23
+  },
+  "modal_count": 71,
+  "modal_lemma_counts": {
+    "will": 9,
+    "would": 33,
+    "should": 3,
+    "could": 18,
+    "may": 1,
+    "might": 3,
+    "hispanicsâwould": 1,
+    "can": 3
+  },
+  "modals_per_1000": 8.037,
+  "epistemic_count": 80,
+  "epistemic_lemma_counts": {
+    "expect": 22,
+    "potential": 5,
+    "judge": 7,
+    "likely": 11,
+    "assess": 10,
+    "anticipate": 8,
+    "potentially": 3,
+    "project": 8,
+    "forecast": 4,
+    "believe": 1,
+    "clearly": 1
+  },
+  "epistemics_per_1000": 9.056,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1825,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "each FOMC meeting",
+      "right_3": "have modest conforming",
+      "sentence": "The domestic policy directive released after each FOMC meeting will have modest conforming changes going forward."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2075,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "that the FOMC",
+      "right_3": "likely slow the",
+      "sentence": "Against this backdrop, market participants judged that the FOMC would likely slow the pace of rate increases further at the current meeting, and respondents to the Desk's Survey of Primary Dealers and Survey of Market Participants widely expected the Committee to implement a 1/4 percentage point increase in the target range for the federal funds rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2179,
+      "head_verb_surface": "hold",
+      "head_verb_lemma": "hold",
+      "left_3": "that the Committee",
+      "right_3": "hold the policy",
+      "sentence": "A significant share of survey respondents anticipated that the Committee would hold the policy rate stable for much of 2023."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2368,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "point where it",
+      "right_3": "be appropriate to",
+      "sentence": "Over the period, some other central banks communicated that they were at or near a point where it would be appropriate to pause policy rate increases and assess the effects of cumulative policy tightening."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2500,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "run off .",
+      "right_3": "transitory pressures occur",
+      "sentence": "Should transitory pressures occur in money markets over the course of the year, the manager pro tem noted that the standing repurchase agreement (repo) facility and discount window would be available to help support effective monetary policy implementation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2500,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and discount window",
+      "right_3": "be available to",
+      "sentence": "Should transitory pressures occur in money markets over the course of the year, the manager pro tem noted that the standing repurchase agreement (repo) facility and discount window would be available to help support effective monetary policy implementation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2543,
+      "head_verb_surface": "influence",
+      "head_verb_lemma": "influence",
+      "left_3": "and Treasury financing",
+      "right_3": "influence money market",
+      "sentence": "The manager noted that, over coming months, developments affecting the Treasury General Account (TGA) and Treasury financing could influence money market conditions."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2570,
+      "head_verb_surface": "result",
+      "head_verb_lemma": "result",
+      "left_3": "individual tax receipts",
+      "right_3": "result in a",
+      "sentence": "An increase in TGA balances associated with April individual tax receipts could result in a temporary decline in reserve balances."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2591,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the debt limit",
+      "right_3": "also be important",
+      "sentence": "In subsequent months, uncertainties associated with the debt limit could also be important."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2606,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": ", the Treasury",
+      "right_3": "increase bill issuance",
+      "sentence": "In particular, the Treasury could increase bill issuance to rebuild TGA balances once the debt limit is lifted, reducing reserves and potentially lifting money market rates."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2635,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "ON RRP volumes",
+      "right_3": "help smooth adjustments",
+      "sentence": "The manager pro tem noted that in recent months, investors in the ON RRP facility had responded to small increases in money market rates by shifting balances into private investments, and that reductions in ON RRP volumes may help smooth adjustments in money markets."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5448,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "forecast that inflation",
+      "right_3": "decline further over",
+      "sentence": "With the effects of supplyâdemand imbalances in goods markets expected to further unwind and labor and product markets projected to become less tight, the staff continued to forecast that inflation would decline further over 2024 and 2025."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5867,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "real GDP growth",
+      "right_3": "slow further in",
+      "sentence": "Participants observed that growth in economic activity in 2022 had been below its longer-run trend and expected that real GDP growth would slow further in 2023."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5924,
+      "head_verb_surface": "needed",
+      "head_verb_lemma": "need",
+      "left_3": "in real GDP",
+      "right_3": "be needed to",
+      "sentence": "With inflation remaining unacceptably high, participants expected that a period of below-trend growth in real GDP would be needed to bring aggregate demand into better balance with aggregate supply and thereby reduce inflationary pressures."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6016,
+      "head_verb_surface": "grow",
+      "head_verb_lemma": "grow",
+      "left_3": "anticipated that consumption",
+      "right_3": "likely grow at",
+      "sentence": "In their discussion of the household sector, participants observed that real consumer spending had declined in November and Decemberâin part reflecting the tightening in financial conditions over the past yearâand anticipated that consumption would likely grow at a subdued rate in 2023."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6060,
+      "head_verb_surface": "wane",
+      "head_verb_lemma": "wane",
+      "left_3": "of this factor",
+      "right_3": "likely wane over",
+      "sentence": "Participants noted that excess savings accumulated during the pandemic had continued to support consumption, al­though several participants remarked that the importance of this factor would likely wane over time as excess savings continued to be drawn down or eroded by inflation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6160,
+      "head_verb_surface": "return",
+      "head_verb_lemma": "return",
+      "left_3": "that some states",
+      "right_3": "return part of",
+      "sentence": "However, a couple of participants noted that some states could return part of their sizable budget surpluses to households through tax cuts or rebates, which would provide support to consumption."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6160,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "rebates , which",
+      "right_3": "provide support to",
+      "sentence": "However, a couple of participants noted that some states could return part of their sizable budget surpluses to households through tax cuts or rebates, which would provide support to consumption."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 6273,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "in inventory investment",
+      "right_3": "likely slow ;",
+      "sentence": "Several participants remarked that the recent strong growth in inventory investment will likely slow; a couple of those participants noted that businesses appeared more confident that significant supply bottlenecks would not reemerge and might therefore choose to hold smaller inventories."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6273,
+      "head_verb_surface": "reemerge",
+      "head_verb_lemma": "reemerge",
+      "left_3": "significant supply bottlenecks",
+      "right_3": "not reemerge and",
+      "sentence": "Several participants remarked that the recent strong growth in inventory investment will likely slow; a couple of those participants noted that businesses appeared more confident that significant supply bottlenecks would not reemerge and might therefore choose to hold smaller inventories."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 6273,
+      "head_verb_surface": "choose",
+      "head_verb_lemma": "choose",
+      "left_3": "not reemerge and",
+      "right_3": "therefore choose to",
+      "sentence": "Several participants remarked that the recent strong growth in inventory investment will likely slow; a couple of those participants noted that businesses appeared more confident that significant supply bottlenecks would not reemerge and might therefore choose to hold smaller inventories."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6315,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "the euro area",
+      "right_3": "provide support to",
+      "sentence": "Some participants commented that the easing of COVID-related lockdown restrictions in China or stronger-than-expected growth in economic activity in the euro area could provide support to final demand in the United States."
+    },
+    {
+      "surface": "hispanicsâwould",
+      "lemma": "hispanicsâwould",
+      "sent_idx": 6613,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "African Americans and",
+      "right_3": "be likely to",
+      "sentence": "A number of participants commented on the importance of recognizing that, to the extent national unemployment increases, historical evidence indicates that even larger increases in the unemployment rate for some demographic groupsâparticularly African Americans and Hispanicsâwould be likely to occur."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6701,
+      "head_verb_surface": "required",
+      "head_verb_lemma": "require",
+      "left_3": "range of prices",
+      "right_3": "be required to",
+      "sentence": "Participants noted that inflation data received over the past three months showed a welcome reduction in the monthly pace of price increases but stressed that substantially more evidence of progress across a broader range of prices would be required to be confident that inflation was on a sustained downward path."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6752,
+      "head_verb_surface": "dissipate",
+      "head_verb_lemma": "dissipate",
+      "left_3": "for this component",
+      "right_3": "dissipate as the",
+      "sentence": "Participants noted that core goods prices had declined notably over the previous few months as supply bottlenecks had eased but anticipated that price declines for this component would dissipate as the downward pressure on goods prices from resolving supply bottlenecks fades."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6794,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "housing services inflation",
+      "right_3": "likely begin to",
+      "sentence": "Participants judged that housing services inflation would likely begin to fall later this year, reflecting continued smaller increases, or potentially declines, in rents on new leases."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 6863,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "trend productivity growth",
+      "right_3": "likely continue to",
+      "sentence": "Participants judged that as long as the labor market remained very tight, wage growth in excess of 2 percent inflation and trend productivity growth would likely continue to put upward pressure on some prices in this component."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 6902,
+      "head_verb_surface": "complicate",
+      "head_verb_lemma": "complicate",
+      "left_3": "prices , which",
+      "right_3": "complicate the assessment",
+      "sentence": "A couple of participants observed that changes in wages tend to lag changes in prices, which can complicate the assessment of inflation pressures."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 6966,
+      "head_verb_surface": "accept",
+      "head_verb_lemma": "accept",
+      "left_3": "sensitive , businesses",
+      "right_3": "accept lower profit",
+      "sentence": "Several participants noted the possibility that as consumers become more price sensitive, businesses might accept lower profit margins in an effort to maintain market share, which could reduce inflation temporarily."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 6966,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "share , which",
+      "right_3": "reduce inflation temporarily",
+      "sentence": "Several participants noted the possibility that as consumers become more price sensitive, businesses might accept lower profit margins in an effort to maintain market share, which could reduce inflation temporarily."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7069,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "scenario , it",
+      "right_3": "be more costly",
+      "sentence": "In that adverse scenario, it would be more costly to bring inflation down to achieve the Committee's statutory objectives of maximum employment and price stability."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7130,
+      "head_verb_surface": "fall",
+      "head_verb_lemma": "fall",
+      "left_3": "participants that inflation",
+      "right_3": "fall quickly appeared",
+      "sentence": "A few participants noted that increased confidence among market participants that inflation would fall quickly appeared to contribute to declines in market expectations of the federal funds rate path beyond the near term."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7224,
+      "head_verb_surface": "prove",
+      "head_verb_lemma": "prove",
+      "left_3": "that price pressures",
+      "right_3": "prove to be",
+      "sentence": "Regarding upside risks to inflation, participants cited a variety of factors, including the possibility that price pressures could prove to be more persistent than anticipated due to, for example, the labor market staying tight for longer than anticipated."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 7339,
+      "head_verb_surface": "raised",
+      "head_verb_lemma": "raise",
+      "left_3": "statutory debt limit",
+      "right_3": "not be raised",
+      "sentence": "Participants noted that sources of such risks included the prospect of unexpected negative shocks tipping the economy into a recession in an environment of subdued growth, the effects of synchronous policy firming by major central banks, and disruptions in the financial system and broader economy associated with concerns that the statutory debt limit might not be raised in a timely manner."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7524,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "standing liquidity facilities",
+      "right_3": "be helpful in",
+      "sentence": "Al­though several participants noted that the Federal Reserve's standing liquidity facilities could be helpful in addressing significant pressures in funding markets, should they arise, several participants also noted the challenges of addressing potential disruptions in U.S. core market functioning."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 7524,
+      "head_verb_surface": "arise",
+      "head_verb_lemma": "arise",
+      "left_3": "funding markets ,",
+      "right_3": "they arise ,",
+      "sentence": "Al­though several participants noted that the Federal Reserve's standing liquidity facilities could be helpful in addressing significant pressures in funding markets, should they arise, several participants also noted the challenges of addressing potential disruptions in U.S. core market functioning."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7675,
+      "head_verb_surface": "pose",
+      "head_verb_lemma": "pose",
+      "left_3": "federal debt limit",
+      "right_3": "pose significant risks",
+      "sentence": "A number of participants stressed that a drawn-out period of negotiations to raise the federal debt limit could pose significant risks to the financial system and the broader economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7855,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "of rate increases",
+      "right_3": "better allow them",
+      "sentence": "Many of these participants observed that a further slowing in the pace of rate increases would better allow them to assess the economy's progress toward the Committee's goals of maximum employment and price stability as they determine the extent of future policy tightening that will be required to attain a stance that is sufficiently restrictive to achieve these goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 7855,
+      "head_verb_surface": "required",
+      "head_verb_lemma": "require",
+      "left_3": "policy tightening that",
+      "right_3": "be required to",
+      "sentence": "Many of these participants observed that a further slowing in the pace of rate increases would better allow them to assess the economy's progress toward the Committee's goals of maximum employment and price stability as they determine the extent of future policy tightening that will be required to attain a stance that is sufficiently restrictive to achieve these goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 7917,
+      "head_verb_surface": "supported",
+      "head_verb_lemma": "support",
+      "left_3": "or that they",
+      "right_3": "have supported raising",
+      "sentence": "A few participants stated that they favored raising the target range for the federal funds rate 50 basis points at this meeting or that they could have supported raising the target by that amount."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7952,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "a larger increase",
+      "right_3": "more quickly bring",
+      "sentence": "The participants favoring a 50-basis point increase noted that a larger increase would more quickly bring the target range close to the levels they believed would achieve a sufficiently restrictive stance, taking into account their views of the risks to achieving price stability in a timely way."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 7952,
+      "head_verb_surface": "achieve",
+      "head_verb_lemma": "achieve",
+      "left_3": "levels they believed",
+      "right_3": "achieve a sufficiently",
+      "sentence": "The participants favoring a 50-basis point increase noted that a larger increase would more quickly bring the target range close to the levels they believed would achieve a sufficiently restrictive stance, taking into account their views of the risks to achieving price stability in a timely way."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8043,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "federal funds rate",
+      "right_3": "be appropriate to",
+      "sentence": "In discussing the policy outlook, with inflation still well above the Committee's 2 percent goal and the labor market remaining very tight, all participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8111,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "judged that it",
+      "right_3": "be appropriate to",
+      "sentence": "In determining the extent of future increases in the target range, participants judged that it would be appropriate to take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8159,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "restrictive policy stance",
+      "right_3": "need to be",
+      "sentence": "Participants observed that a restrictive policy stance would need to be maintained until the incoming data provided confidence that inflation was on a sustained downward path to 2 percent, which was likely to take some time."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8198,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "of factors that",
+      "right_3": "affect inflation and",
+      "sentence": "Participants discussed the heightened uncertainty regarding the economic outlook and a number of factors that could affect inflation and real economic activity."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8221,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "decisions regarding policy",
+      "right_3": "continue to be",
+      "sentence": "Participants generally noted that the Committee's future decisions regarding policy would continue to be informed by the incoming data and their implications for the outlook for economic activity and inflation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8253,
+      "head_verb_surface": "necessitate",
+      "head_verb_lemma": "necessitate",
+      "left_3": "which some noted",
+      "right_3": "necessitate a tighter",
+      "sentence": "A number of participants observed that financial conditions had eased in recent months, which some noted could necessitate a tighter stance of monetary policy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8299,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "the current juncture",
+      "right_3": "allow for appropriate",
+      "sentence": "Almost all participants observed that slowing the pace of rate increases at the current juncture would allow for appropriate risk management as the Committee assessed the extent of further tightening needed to meet the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8411,
+      "head_verb_surface": "halt",
+      "head_verb_lemma": "halt",
+      "left_3": "be insufficiently restrictive",
+      "right_3": "halt recent progress",
+      "sentence": "A number of participants observed that a policy stance that proved to be insufficiently restrictive could halt recent progress in moderating inflationary pressures, leading inflation to remain above the Committee's 2 percent objective for a longer period, and pose a risk of inflation expectations becoming unanchored."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8476,
+      "head_verb_surface": "experience",
+      "head_verb_lemma": "experience",
+      "left_3": "that money markets",
+      "right_3": "experience some temporary",
+      "sentence": "A few participants observed that money markets could experience some temporary pressures as reserves declined if use of the Federal Reserve's ON RRP facility continued to remain high."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 8506,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "such pressures ,",
+      "right_3": "they occur ,",
+      "sentence": "They noted, however, that such pressures, should they occur, would likely cause an upward re-pricing of private money-market rates that could encourage market participants to reduce their use of the facility."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8506,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "they occur ,",
+      "right_3": "likely cause an",
+      "sentence": "They noted, however, that such pressures, should they occur, would likely cause an upward re-pricing of private money-market rates that could encourage market participants to reduce their use of the facility."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8506,
+      "head_verb_surface": "encourage",
+      "head_verb_lemma": "encourage",
+      "left_3": "market rates that",
+      "right_3": "encourage market participants",
+      "sentence": "They noted, however, that such pressures, should they occur, would likely cause an upward re-pricing of private money-market rates that could encourage market participants to reduce their use of the facility."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8694,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the target range",
+      "right_3": "be appropriate in",
+      "sentence": "Members anticipated that ongoing increases in the target range would be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8728,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "range , they",
+      "right_3": "take into account",
+      "sentence": "Members concurred that, in determining the extent of future increases in the target range, they would take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8774,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "agreed that they",
+      "right_3": "continue reducing the",
+      "sentence": "In addition, members agreed that they would continue reducing the Federal Reserve's holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8825,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "policy , they",
+      "right_3": "continue to monitor",
+      "sentence": "Members agreed that, in assessing the appropriate stance of monetary policy, they would continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 8853,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "outlook . They",
+      "right_3": "be prepared to",
+      "sentence": "They would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 8853,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "They would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 8880,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "that their assessments",
+      "right_3": "take into account",
+      "sentence": "Members agreed that their assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9008,
+      "head_verb_surface": "increased",
+      "head_verb_lemma": "increase",
+      "left_3": "aggregate operation limit",
+      "right_3": "be temporarily increased",
+      "sentence": "Conduct overnight repurchase agreement operations with a minimum bid rate of 4.75 percent and with an aggregate operation limit of $500 billion; the aggregate operation limit can be temporarily increased at the discretion of the Chair."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 9048,
+      "head_verb_surface": "increased",
+      "head_verb_lemma": "increase",
+      "left_3": "- counterparty limit",
+      "right_3": "be temporarily increased",
+      "sentence": "Conduct overnight reverse repurchase agreement operations at an offering rate of 4.55 percent and with a per-counterparty limit of $160 billion per day; the per-counterparty limit can be temporarily increased at the discretion of the Chair."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9370,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the target range",
+      "right_3": "be appropriate in",
+      "sentence": "The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9405,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ", the Committee",
+      "right_3": "take into account",
+      "sentence": "In determining the extent of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9448,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue reducing its",
+      "sentence": "In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9494,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9519,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 9519,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 9547,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 9725,
+      "head_verb_surface": "held",
+      "head_verb_lemma": "hold",
+      "left_3": "of the Committee",
+      "right_3": "be held on",
+      "sentence": "5  It was agreed that the next meeting of the Committee would be held on TuesdayâWednesday, March 21â22, 2023."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Market participants generally expected U.S. economic growth to moderate this year, al­though there was a wide dispersion in views about the extent of a potential slowdown."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Market participants generally expected U.S. economic growth to moderate this year, al­though there was a wide dispersion in views about the extent of a potential slowdown."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Against this backdrop, market participants judged that the FOMC would likely slow the pace of rate increases further at the current meeting, and respondents to the Desk's Survey of Primary Dealers and Survey of Market Participants widely expected the Committee to implement a 1/4 percentage point increase in the target range for the federal funds rate."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Against this backdrop, market participants judged that the FOMC would likely slow the pace of rate increases further at the current meeting, and respondents to the Desk's Survey of Primary Dealers and Survey of Market Participants widely expected the Committee to implement a 1/4 percentage point increase in the target range for the federal funds rate."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Against this backdrop, market participants judged that the FOMC would likely slow the pace of rate increases further at the current meeting, and respondents to the Desk's Survey of Primary Dealers and Survey of Market Participants widely expected the Committee to implement a 1/4 percentage point increase in the target range for the federal funds rate."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Survey respondents assessed that uncertainty around the likely peak level of the policy rate narrowed relative to the comparable results from the December surveys and, on average, placed significant probability on a target federal funds rate range close to 5 percent."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Survey respondents assessed that uncertainty around the likely peak level of the policy rate narrowed relative to the comparable results from the December surveys and, on average, placed significant probability on a target federal funds rate range close to 5 percent."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "A significant share of survey respondents anticipated that the Committee would hold the policy rate stable for much of 2023."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "While most Desk survey respondents expected subdued growth or a mild recession in 2023, market participants continued to see notable uncertainties ahead, including prospects for a deeper downturn or the potential for more persistent inflation."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Over the period, some other central banks communicated that they were at or near a point where it would be appropriate to pause policy rate increases and assess the effects of cumulative policy tightening."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "As expected, balances in the overnight reverse repurchase agreement (ON RRP) facility increased at year-end but quickly retraced."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Market participants generally expected usage of the ON RRP facility to continue a downward trend in 2023, moderating the decline in reserve balances as the Federal Reserve's holdings of securities continue to run off."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "In particular, the Treasury could increase bill issuance to rebuild TGA balances once the debt limit is lifted, reducing reserves and potentially lifting money market rates."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Sovereign yields increased notably in the euro area and Japan, reflecting more-restrictive-than-expected communications from the European Central Bank and the Bank of Japan's decision to widen its yield curve control target band, respectively."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "New launches of leveraged loans were notably subdued in December and January, likely reflecting soft investor demand and higher reference rates on floating-rate loans."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Home equity line of credit (HELOC) balances at banks continued to grow through the fourth quarter, on net, potentially reflecting homeowners using HELOCs as a preferred way of extracting home equity in the presence of high current mortgage rates."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Measures of expected default probabilities for corporate bonds and leveraged loans remained elevated relative to their historical distributions."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The credit quality of businesses that borrow from banks remained sound, on balance, al­though, in the January SLOOS, banks reported expecting a deterioration in the quality of business loans in their portfolio over 2023."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In the January SLOOS, banks reported expecting a further deterioration in the quality of household loans in 2023, especially for consumer loans."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The staff judged that asset valuation pressures remained notable."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The staff assessed that valuation pressures had eased for corporate bonds and leveraged loans, as spreads in both markets had increased from recent lows."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The staff assessed that vulnerabilities associated with household and business leverage remained moderate, noting that al­though measures of business leverage were at or near a historically high level, the ability of firms to service their debt has kept pace with rising debt loads and interest rates."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Staff Economic Outlook \r The forecast for the U.S. economy prepared by the staff for this FOMC meeting had a somewhat higher path for the level of real GDP and a modestly lower path for the unemployment rate than in the December projection, reflecting both the recent data and a small additional boost to output from a lower projected path for the dollar."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Al­though recent data indicated that real GDP growth in the fourth quarter of 2022 was stronger than expected, real PDFP growth was weaker than previously forecast, and the large, unexpected boost to GDP growth from inventory investment was not projected to persist."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Al­though recent data indicated that real GDP growth in the fourth quarter of 2022 was stronger than expected, real PDFP growth was weaker than previously forecast, and the large, unexpected boost to GDP growth from inventory investment was not projected to persist."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Al­though recent data indicated that real GDP growth in the fourth quarter of 2022 was stronger than expected, real PDFP growth was weaker than previously forecast, and the large, unexpected boost to GDP growth from inventory investment was not projected to persist."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In part reflecting the lagged effects of previous monetary policy tightening, the staff still projected real GDP growth to slow markedly this year and the labor market to soften."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The staff forecast continued to include a pickup in real GDP growth starting next year, al­though projected output growth in 2024 and 2025 remains below the staff's estimate of potential output growth."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The staff forecast continued to include a pickup in real GDP growth starting next year, al­though projected output growth in 2024 and 2025 remains below the staff's estimate of potential output growth."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The level of real output was expected to move down to the staff's estimate of potential near the end of 2025."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Likewise, the unemployment rate was projected to gradually move up to the staff's estimate of its natural rate at the end of 2025."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "On a four-quarter change basis, total PCE price inflation was forecast to be 2.8 percent in 2023, and core inflation was expected to be 3.2 percent, both lower than in the December projection."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "On a four-quarter change basis, total PCE price inflation was forecast to be 2.8 percent in 2023, and core inflation was expected to be 3.2 percent, both lower than in the December projection."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With the effects of supplyâdemand imbalances in goods markets expected to further unwind and labor and product markets projected to become less tight, the staff continued to forecast that inflation would decline further over 2024 and 2025."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With the effects of supplyâdemand imbalances in goods markets expected to further unwind and labor and product markets projected to become less tight, the staff continued to forecast that inflation would decline further over 2024 and 2025."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With the effects of supplyâdemand imbalances in goods markets expected to further unwind and labor and product markets projected to become less tight, the staff continued to forecast that inflation would decline further over 2024 and 2025."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "On a four-quarter change basis, core goods inflation was projected to move down further this year and then remain subdued, housing services inflation was expected to peak later this year and then move down, and core nonhousing services inflation was forecast to slow as nominal wage growth eased."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "On a four-quarter change basis, core goods inflation was projected to move down further this year and then remain subdued, housing services inflation was expected to peak later this year and then move down, and core nonhousing services inflation was forecast to slow as nominal wage growth eased."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "On a four-quarter change basis, core goods inflation was projected to move down further this year and then remain subdued, housing services inflation was expected to peak later this year and then move down, and core nonhousing services inflation was forecast to slow as nominal wage growth eased."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With steep declines in consumer energy prices and a substantial moderation in food price inflation expected for this year, total inflation was projected to step down markedly this year and then to track core inflation over the following two years."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With steep declines in consumer energy prices and a substantial moderation in food price inflation expected for this year, total inflation was projected to step down markedly this year and then to track core inflation over the following two years."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In 2025, both total and core PCE price inflation were expected to be near 2 percent."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The sluggish growth in real private domestic spending expected this year and the persistently tight financial conditions were seen as tilting the risks to the downside around the baseline projection for real economic activity, and the staff still viewed the possibility of a recession sometime this year as a plausible alternative to the baseline."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Moreover, with core PCE price inflation having slowed in recent months, along with the cumulative upward revisions to the core inflation projection over the past year and the expected softening in economic growth, the staff now viewed the risks around the baseline forecast for inflation this year as balanced."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For beyond this year, the staff continued to view the risks around the inflation projection as skewed to the upside, reflecting concerns about the potential persistence of inflation."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Participants observed that growth in economic activity in 2022 had been below its longer-run trend and expected that real GDP growth would slow further in 2023."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "With inflation remaining unacceptably high, participants expected that a period of below-trend growth in real GDP would be needed to bring aggregate demand into better balance with aggregate supply and thereby reduce inflationary pressures."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Some participants judged that recent economic data signaled a somewhat higher chance of continued subdued economic growth, with inflation falling over time to the Committee's longer-run goal of 2 percent, al­though some participants noted that the probability of the economy entering a recession in 2023 remained elevated."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In their discussion of the household sector, participants observed that real consumer spending had declined in November and Decemberâin part reflecting the tightening in financial conditions over the past yearâand anticipated that consumption would likely grow at a subdued rate in 2023."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In their discussion of the household sector, participants observed that real consumer spending had declined in November and Decemberâin part reflecting the tightening in financial conditions over the past yearâand anticipated that consumption would likely grow at a subdued rate in 2023."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Participants noted that excess savings accumulated during the pandemic had continued to support consumption, al­though several participants remarked that the importance of this factor would likely wane over time as excess savings continued to be drawn down or eroded by inflation."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Several participants remarked that the recent strong growth in inventory investment will likely slow; a couple of those participants noted that businesses appeared more confident that significant supply bottlenecks would not reemerge and might therefore choose to hold smaller inventories."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Some participants commented that the easing of COVID-related lockdown restrictions in China or stronger-than-expected growth in economic activity in the euro area could provide support to final demand in the United States."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Participants agreed that the labor market remained very tight and assessed that labor demand substantially exceeded the supply of available workers."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Several participants noted that recent reductions in the workforces of some large technology businesses followed much larger increases over the previous few years and judged that these reductions did not appear to reflect widespread weakness in the demand for labor."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Under appropriate monetary policy, participants expected labor market demand and supply to come into better balance over time, easing upward pressure on nominal wages and prices."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "A number of participants commented on the importance of recognizing that, to the extent national unemployment increases, historical evidence indicates that even larger increases in the unemployment rate for some demographic groupsâparticularly African Americans and Hispanicsâwould be likely to occur."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Participants noted that core goods prices had declined notably over the previous few months as supply bottlenecks had eased but anticipated that price declines for this component would dissipate as the downward pressure on goods prices from resolving supply bottlenecks fades."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Participants judged that housing services inflation would likely begin to fall later this year, reflecting continued smaller increases, or potentially declines, in rents on new leases."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Participants judged that housing services inflation would likely begin to fall later this year, reflecting continued smaller increases, or potentially declines, in rents on new leases."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Participants judged that housing services inflation would likely begin to fall later this year, reflecting continued smaller increases, or potentially declines, in rents on new leases."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Participants judged that as long as the labor market remained very tight, wage growth in excess of 2 percent inflation and trend productivity growth would likely continue to put upward pressure on some prices in this component."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Participants judged that as long as the labor market remained very tight, wage growth in excess of 2 percent inflation and trend productivity growth would likely continue to put upward pressure on some prices in this component."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Regarding upside risks to inflation, participants cited a variety of factors, including the possibility that price pressures could prove to be more persistent than anticipated due to, for example, the labor market staying tight for longer than anticipated."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Regarding upside risks to inflation, participants cited a variety of factors, including the possibility that price pressures could prove to be more persistent than anticipated due to, for example, the labor market staying tight for longer than anticipated."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Al­though several participants noted that the Federal Reserve's standing liquidity facilities could be helpful in addressing significant pressures in funding markets, should they arise, several participants also noted the challenges of addressing potential disruptions in U.S. core market functioning."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Several participants discussed the value of the Federal Reserve taking additional steps to understand the potential risks associated with climate change or to assess the materiality of such risks in the context of carrying out its responsibilities to evaluate risks in the banking system and broader financial system."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Several participants discussed the value of the Federal Reserve taking additional steps to understand the potential risks associated with climate change or to assess the materiality of such risks in the context of carrying out its responsibilities to evaluate risks in the banking system and broader financial system."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Many of these participants observed that a further slowing in the pace of rate increases would better allow them to assess the economy's progress toward the Committee's goals of maximum employment and price stability as they determine the extent of future policy tightening that will be required to attain a stance that is sufficiently restrictive to achieve these goals."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The participants favoring a 50-basis point increase noted that a larger increase would more quickly bring the target range close to the levels they believed would achieve a sufficiently restrictive stance, taking into account their views of the risks to achieving price stability in a timely way."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In discussing the policy outlook, with inflation still well above the Committee's 2 percent goal and the labor market remaining very tight, all participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the extent of future increases in the target range, participants judged that it would be appropriate to take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Participants observed that a restrictive policy stance would need to be maintained until the incoming data provided confidence that inflation was on a sustained downward path to 2 percent, which was likely to take some time."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Almost all participants observed that slowing the pace of rate increases at the current juncture would allow for appropriate risk management as the Committee assessed the extent of further tightening needed to meet the Committee's goals."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "With inflation still well above the Committee's longer-run goal, participants generally noted that upside risks to the inflation outlook remained a key factor shaping the policy outlook, and that maintaining a restrictive policy stance until inflation is clearly on a path toward 2 percent is appropriate from a risk-management perspective."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "They noted, however, that such pressures, should they occur, would likely cause an upward re-pricing of private money-market rates that could encourage market participants to reduce their use of the facility."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Members anticipated that ongoing increases in the target range would be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Members agreed that, in assessing the appropriate stance of monetary policy, they would continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

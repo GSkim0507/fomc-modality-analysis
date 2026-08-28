@@ -1,0 +1,163 @@
+{
+  "doc_id": "speech_powell_20240930a",
+  "doc_type": "speech",
+  "date": "2024-09-30",
+  "chair": "Powell",
+  "n_tokens": 899,
+  "n_sents": 51,
+  "pos_counts": {
+    "NNP": 28,
+    "CD": 28,
+    ",": 48,
+    "IN": 120,
+    "DT": 70,
+    "PRP": 24,
+    "VBP": 30,
+    "JJ": 78,
+    "NNS": 57,
+    "NN": 200,
+    "CC": 27,
+    "VB": 25,
+    "RB": 58,
+    "PRP$": 32,
+    ".": 50,
+    "VBZ": 28,
+    "VBN": 29,
+    "VBG": 15,
+    "HYPH": 10,
+    "JJR": 4,
+    "RBR": 4,
+    "VBD": 13,
+    "MD": 7,
+    "TO": 15,
+    "-LRB-": 1,
+    "-RRB-": 1,
+    "POS": 1,
+    "RP": 3,
+    "EX": 2,
+    "WDT": 2,
+    "RBS": 1,
+    ":": 2
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "can": 2,
+    "will": 4,
+    "would": 1
+  },
+  "modals_per_1000": 7.786,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "clearly": 1,
+    "believe": 1,
+    "expect": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 4.449,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 150,
+      "head_verb_surface": "maintained",
+      "head_verb_lemma": "maintain",
+      "left_3": "the labor market",
+      "right_3": "be maintained in",
+      "sentence": "That decision reflects our growing confidence that, with an appropriate recalibration of our policy stance, strength in the labor market can be maintained in an environment of moderate economic growth and inflation moving sustainably down to our objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 520,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "housing services inflation",
+      "right_3": "continue to decline",
+      "sentence": "As long as that remains the case, housing services inflation will continue to decline."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 621,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "inflation . That",
+      "right_3": "be a highly",
+      "sentence": "That would be a highly desirable result for the communities, families, and businesses we serve."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 846,
+      "head_verb_surface": "maintained",
+      "head_verb_lemma": "maintain",
+      "left_3": "the labor market",
+      "right_3": "be maintained in",
+      "sentence": "As I mentioned, our decision to reduce our policy rate by 50 basis points reflects our growing confidence that, with an appropriate recalibration of our policy stance, strength in the labor market can be maintained in a context of moderate economic growth and inflation moving sustainably down to 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 901,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "expected , policy",
+      "right_3": "move over time",
+      "sentence": "Looking forward, if the economy evolves broadly as expected, policy will move over time toward a more neutral stance."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 932,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", and we",
+      "right_3": "continue to make",
+      "sentence": "The risks are two-sided, and we will continue to make our decisions meeting by meeting."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 951,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": "adjustments , we",
+      "right_3": "carefully assess incoming",
+      "sentence": "As we consider additional policy adjustments, we will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Still, labor market conditions have clearly cooled over the past year."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We do not believe that we need to see further cooling in labor market conditions to achieve 2 percent inflation."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Looking forward, if the economy evolves broadly as expected, policy will move over time toward a more neutral stance."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As we consider additional policy adjustments, we will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "doc_id": "statement_20191011",
+  "doc_type": "statement",
+  "date": "2019-10-11",
+  "chair": "Powell",
+  "n_tokens": 752,
+  "n_sents": 16,
+  "pos_counts": {
+    "NNP": 98,
+    "CD": 21,
+    ",": 20,
+    "NN": 120,
+    "VBG": 8,
+    "IN": 116,
+    "RB": 18,
+    "PRP$": 2,
+    "CC": 24,
+    "DT": 67,
+    "VBZ": 15,
+    "TO": 29,
+    "VB": 38,
+    "JJ": 68,
+    "WDT": 7,
+    "NNS": 63,
+    "HYPH": 6,
+    "VBN": 17,
+    "POS": 9,
+    ".": 15,
+    ":": 5,
+    "MD": 8,
+    "JJS": 4,
+    "VBD": 5,
+    "VBP": 4,
+    "PRP": 1,
+    "RBS": 1,
+    "``": 2,
+    "SYM": 1,
+    "-LRB-": 2,
+    "JJR": 2,
+    "WRB": 1,
+    "-RRB-": 2,
+    "$": 3,
+    "RP": 1,
+    "NNPS": 6
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "will": 5,
+    "could": 2,
+    "may": 1
+  },
+  "modals_per_1000": 10.638,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "assess": 1
+  },
+  "epistemics_per_1000": 3.989,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 100,
+      "head_verb_surface": "purchase",
+      "head_verb_lemma": "purchase",
+      "left_3": "the Federal Reserve",
+      "right_3": "purchase Treasury bills",
+      "sentence": "To ensure that the supply of reserves remains ample, the Committee approved by notation vote completed on October 11, 2019 the following steps:  In light of recent and expected increases in the Federal Reserve's non-reserve liabilities, the Federal Reserve will purchase Treasury bills at least into the second quarter of next year in order to maintain over time ample reserve balances at or above th"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 182,
+      "head_verb_surface": "conduct",
+      "head_verb_lemma": "conduct",
+      "left_3": "the Federal Reserve",
+      "right_3": "conduct term and",
+      "sentence": "In addition, the Federal Reserve will conduct term and overnight repurchase agreement operations at least through January of next year to ensure that the supply of reserves remains ample even during periods of sharp increases in non-reserve liabilities, and to mitigate the risk of money market pressures that could adversely affect policy implementation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 182,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "market pressures that",
+      "right_3": "adversely affect policy",
+      "sentence": "In addition, the Federal Reserve will conduct term and overnight repurchase agreement operations at least through January of next year to ensure that the supply of reserves remains ample even during periods of sharp increases in non-reserve liabilities, and to mitigate the risk of money market pressures that could adversely affect policy implementation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 272,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor money market developments as it assesses the level of reserves most consistent with efficient and effective policy implementation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 463,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "market pressures that",
+      "right_3": "adversely affect policy",
+      "sentence": "The Committee also directs the Desk to conduct term and overnight repurchase agreement operations at least through January of next year to ensure that the supply of reserves remains ample even during periods of sharp increases in non-reserve liabilities, and to mitigate the risk of money market pressures that could adversely affect policy implementation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 658,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "billion per month",
+      "right_3": "continue to be",
+      "sentence": "Principal payments from agency debt and agency mortgage-backed securities up to $20 billion per month will continue to be reinvested in Treasury securities to roughly match the maturity composition of Treasury securities outstanding; principal payments in excess of $20 billion per month will continue to be reinvested in agency mortgage-backed securities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 658,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "billion per month",
+      "right_3": "continue to be",
+      "sentence": "Principal payments from agency debt and agency mortgage-backed securities up to $20 billion per month will continue to be reinvested in Treasury securities to roughly match the maturity composition of Treasury securities outstanding; principal payments in excess of $20 billion per month will continue to be reinvested in agency mortgage-backed securities."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 761,
+      "head_verb_surface": "found",
+      "head_verb_lemma": "find",
+      "left_3": "about these plans",
+      "right_3": "be found on",
+      "sentence": "\"  More information about these plans may be found on the Federal Reserve Bank of New York's  website ."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "To ensure that the supply of reserves remains ample, the Committee approved by notation vote completed on October 11, 2019 the following steps:  In light of recent and expected increases in the Federal Reserve's non-reserve liabilities, the Federal Reserve will purchase Treasury bills at least into the second quarter of next year in order to maintain over time ample reserve balances at or above th"
+    },
+    {
+      "surface": "assesses",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee will continue to monitor money market developments as it assesses the level of reserves most consistent with efficient and effective policy implementation."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In light of recent and expected increases in the Federal Reserve's non-reserve liabilities, the Committee directs the Desk to purchase Treasury bills at least into the second quarter of next year to maintain over time ample reserve balances at or above the level that prevailed in early September 2019."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+=== Paper A — H&M-style LDA topic analysis ===
+
+Sentences: 34,999    vocab: 2668    K=6
+
+Top words per topic:
+  T0: inflation, price, rate, year, long, term, expectation, measure, remain, run, change, expect
+  T1: board, division, director, bank, monetary, affairs, senior, associate, governors, adviser, deputy, president
+  T2: policy, economic, rate, risk, market, monetary, range, outlook, fund, note, labor, financial
+  T3: remain, credit, rate, quarter, business, increase, growth, continue, loan, high, sector, low
+  T4: market, period, bank, foreign, intermeete, operation, open, manager, transaction, dollar, repo, rate
+  T5: treasury, security, yield, agency, holding, purchase, payment, mortgage, billion, month, debt, principal
+
+Modal-bearing sentences: 8,142  (23.3%)
+
+Mean modal strength by topic (modal-bearing sentences only):
+       count   mean    std                                             top_words
+topic                                                                           
+0        910  0.774  0.293              inflation, price, rate, year, long, term
+1         72  0.911  0.227    board, division, director, bank, monetary, affairs
+2       5051  0.772  0.278        policy, economic, rate, risk, market, monetary
+3        824  0.666  0.318     remain, credit, rate, quarter, business, increase
+4        821  0.681  0.268  market, period, bank, foreign, intermeete, operation
+5        464  0.858  0.246  treasury, security, yield, agency, holding, purchase
+
+One-way ANOVA  modal_strength ~ topic   F=48.84, p=5.523e-50

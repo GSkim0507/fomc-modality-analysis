@@ -1,0 +1,104 @@
+{
+  "doc_id": "speech_yellen_20151020a",
+  "doc_type": "speech",
+  "date": "2015-10-20",
+  "chair": "Yellen",
+  "n_tokens": 831,
+  "n_sents": 29,
+  "pos_counts": {
+    "NNP": 83,
+    "CD": 11,
+    ",": 50,
+    "IN": 135,
+    "DT": 95,
+    "CC": 41,
+    "POS": 7,
+    "JJ": 63,
+    "PRP": 27,
+    "VBP": 8,
+    "RB": 22,
+    "TO": 9,
+    "VB": 21,
+    "NNS": 50,
+    "NN": 139,
+    "VBD": 47,
+    ".": 29,
+    "WRB": 6,
+    "NNPS": 3,
+    "-LRB-": 1,
+    "-RRB-": 1,
+    "VBZ": 10,
+    "VBN": 16,
+    "VBG": 7,
+    "WP": 6,
+    "MD": 4,
+    "WDT": 6,
+    "EX": 1,
+    "PRP$": 11,
+    ":": 1,
+    "RP": 3
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "could": 2,
+    "can": 2
+  },
+  "modals_per_1000": 4.813,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "believe": 1
+  },
+  "epistemics_per_1000": 1.203,
+  "modal_instances": [
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 169,
+      "head_verb_surface": "agree",
+      "head_verb_lemma": "agree",
+      "left_3": "the federal government",
+      "right_3": "agree on labor",
+      "sentence": "At that point, before the United States itself had recognized such rights and before the federal government could agree on labor standards, the public needed an unimpeachable assessment of the conditions faced by workers."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 332,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ", powerful idea",
+      "right_3": "help build public",
+      "sentence": "Carroll Wright recognized that this simple, powerful idea could help build public confidence for the government's effort to reduce conflicts between management and workers and move our nation forward."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 364,
+      "head_verb_surface": "trusted",
+      "head_verb_lemma": "trust",
+      "left_3": "by the government",
+      "right_3": "be trusted .",
+      "sentence": "He and others are responsible for a fundamental feature of our democracy that is now often taken for granted--the public's expectation and insistence that information provided by the government can be trusted."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 897,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and trusted government",
+      "right_3": "be .",
+      "sentence": "The Bureau of Labor Statistics  is  exceptional, and in that way, I hope it serves as an example of how effective, reliable, and trusted government can be."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Those who worked with Janet say she strongly believed the BLS was uniquely positioned to contribute to the economic policy debate as an authoritative, unimpeachable source of information and analysis about the economy."
+    }
+  ]
+}

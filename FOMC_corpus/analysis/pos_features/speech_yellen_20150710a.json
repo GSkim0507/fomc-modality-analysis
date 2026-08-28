@@ -1,0 +1,860 @@
+{
+  "doc_id": "speech_yellen_20150710a",
+  "doc_type": "speech",
+  "date": "2015-07-10",
+  "chair": "Yellen",
+  "n_tokens": 4304,
+  "n_sents": 158,
+  "pos_counts": {
+    "NNP": 324,
+    "CD": 110,
+    ",": 265,
+    "NNPS": 17,
+    "CC": 147,
+    "DT": 401,
+    "IN": 637,
+    "VBP": 105,
+    "PRP": 88,
+    "VBG": 68,
+    "TO": 67,
+    "VB": 159,
+    "NN": 757,
+    ".": 161,
+    "JJ": 391,
+    "POS": 23,
+    "PRP$": 45,
+    "NNS": 290,
+    "MD": 55,
+    "JJS": 8,
+    "WDT": 23,
+    "VBZ": 97,
+    "RB": 218,
+    "VBD": 51,
+    "-LRB-": 25,
+    "-RRB-": 25,
+    "WRB": 14,
+    "VBN": 109,
+    "RBR": 19,
+    ":": 33,
+    "WP": 8,
+    "RBS": 3,
+    "HYPH": 44,
+    "JJR": 54,
+    "SYM": 13,
+    "RP": 13,
+    "PDT": 2,
+    "EX": 6,
+    "``": 11,
+    "''": 11,
+    "LS": 1
+  },
+  "modal_count": 55,
+  "modal_lemma_counts": {
+    "will": 15,
+    "can": 6,
+    "would": 11,
+    "may": 13,
+    "should": 4,
+    "could": 6
+  },
+  "modals_per_1000": 12.779,
+  "epistemic_count": 29,
+  "epistemic_lemma_counts": {
+    "expect": 10,
+    "probably": 2,
+    "assess": 2,
+    "likely": 4,
+    "clearly": 1,
+    "judge": 1,
+    "anticipate": 4,
+    "uncertain": 3,
+    "potentially": 2
+  },
+  "epistemics_per_1000": 6.738,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 52,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ", and I",
+      "right_3": "do my best",
+      "sentence": "I am aware of the club's history and its tradition of promoting the free exchange of ideas, and I will do my best to allow plenty of time for your questions, which I understand are an important part of that tradition."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 134,
+      "head_verb_surface": "deliver",
+      "head_verb_lemma": "deliver",
+      "left_3": "Next week I",
+      "right_3": "deliver the Federal",
+      "sentence": "Next week I will deliver the Federal Reserve's semiannual report on monetary policy and answer questions from members of Congress at public hearings of the House and the Senate."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 227,
+      "head_verb_surface": "achieve",
+      "head_verb_lemma": "achieve",
+      "left_3": "so because we",
+      "right_3": "more effectively achieve",
+      "sentence": "We also do so because we can more effectively achieve our mandated goals--maximum employment and price stability--as well as help maintain stability in the financial system if people understand what we are doing and why."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 459,
+      "head_verb_surface": "fall",
+      "head_verb_lemma": "fall",
+      "left_3": "risk that inflation",
+      "right_3": "fall persistently far",
+      "sentence": "In response to the financial crisis, the severe recession, and the risk that inflation would fall persistently far below levels consistent with price stability, we at the Federal Reserve took forceful actions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 749,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "the level that",
+      "right_3": "be sustained without",
+      "sentence": "In the labor market, the U.S. unemployment rate stood at 5.3 percent in June, around half as high as its peak after the recession and close to many economists' assessment of its longer-run natural rate--the level that can be sustained without risking excessive inflation."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1331,
+      "head_verb_surface": "work",
+      "head_verb_lemma": "work",
+      "left_3": "part time who",
+      "right_3": "rather work full",
+      "sentence": "Cyclical and structural factors both have affected a number of measures of labor market outcomes that bear on our assessment of slack, including labor force participation (that is, how many people are working or are actively looking for work), the number of people working part time who would rather work full time, the pace of hiring, and the rate at which people are quitting jobs."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1449,
+      "head_verb_surface": "include",
+      "head_verb_lemma": "include",
+      "left_3": "voluntarily ; examples",
+      "right_3": "include retirees ,",
+      "sentence": "Many working-age people who are not in the labor force have chosen that status voluntarily; examples would include retirees, teenagers and young adults in school, and people staying home to care for children and other dependent family members."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1493,
+      "head_verb_surface": "prefer",
+      "head_verb_lemma": "prefer",
+      "left_3": "of these individuals",
+      "right_3": "prefer not to",
+      "sentence": "Even in a stronger job market, it is likely that many of these individuals would prefer not to work."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1608,
+      "head_verb_surface": "draw",
+      "head_verb_lemma": "draw",
+      "left_3": "a stronger economy",
+      "right_3": "draw some of",
+      "sentence": "Nevertheless I think a significant number of individuals still are not seeking work because they perceive a lack of good job opportunities, and that a stronger economy would draw some of them back into the labor force."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1648,
+      "head_verb_surface": "prefer",
+      "head_verb_lemma": "prefer",
+      "left_3": "time jobs but",
+      "right_3": "prefer to have",
+      "sentence": "Another factor we consider when assessing labor market slack is the elevated number of workers who are employed in part-time jobs but would prefer to have full-time work--in other words, those classified as \"part time for economic reasons.\""
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1723,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "for economic reasons",
+      "right_3": "reflect structural rather",
+      "sentence": "Some portion of the greater share of workers who are part time for economic reasons may reflect structural rather than cyclical factors."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1747,
+      "head_verb_surface": "boosting",
+      "head_verb_lemma": "boost",
+      "left_3": "time workers ,",
+      "right_3": "be boosting the",
+      "sentence": "3   For example, the ongoing shift in employment away from manufacturing and toward services, a sector which historically relied more heavily on part-time workers, may be boosting the share of part-time jobs."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1788,
+      "head_verb_surface": "settle",
+      "head_verb_lemma": "settle",
+      "left_3": "for economic reasons",
+      "right_3": "settle in the",
+      "sentence": "Despite these structural trends, which make it difficult to know where the share of those employed part time for economic reasons may settle in the longer run, I continue to think that it probably remains higher than it would be in a full-employment economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1788,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "higher than it",
+      "right_3": "be in a",
+      "sentence": "Despite these structural trends, which make it difficult to know where the share of those employed part time for economic reasons may settle in the longer run, I continue to think that it probably remains higher than it would be in a full-employment economy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2028,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "wage increases also",
+      "right_3": "help shed some",
+      "sentence": "Finally, the pace of wage increases also may help shed some light on the degree of labor market slack, since wage movements historically have tended to respond to the degree of tightness in the labor market."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2121,
+      "head_verb_surface": "indicate",
+      "head_verb_lemma": "indicate",
+      "left_3": "of wage gains",
+      "right_3": "indicate that the",
+      "sentence": "More recently, however, some tentative hints of a pickup in the pace of wage gains may indicate that the objective of full employment is coming closer into view."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2383,
+      "head_verb_surface": "had",
+      "head_verb_lemma": "have",
+      "left_3": "in oil prices",
+      "right_3": "have had some",
+      "sentence": "In addition, the plunge in oil prices may have had some indirect effects in holding down the prices of non-energy items in core inflation, as producers passed on to their customers some of the cost savings from lower energy prices."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2463,
+      "head_verb_surface": "sound",
+      "head_verb_lemma": "sound",
+      "left_3": "Very low inflation",
+      "right_3": "not sound like",
+      "sentence": "Very low inflation may not sound like a real problem to many people."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2477,
+      "head_verb_surface": "tend",
+      "head_verb_lemma": "tend",
+      "left_3": "inflation , which",
+      "right_3": "tend to slow",
+      "sentence": "However, persistently low price inflation, which can tend to slow the pace of wage increases over time, can weaken the economy by, for example, making it more difficult for households and firms to pay off their debts."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2477,
+      "head_verb_surface": "weaken",
+      "head_verb_lemma": "weaken",
+      "left_3": "over time ,",
+      "right_3": "weaken the economy",
+      "sentence": "However, persistently low price inflation, which can tend to slow the pace of wage increases over time, can weaken the economy by, for example, making it more difficult for households and firms to pay off their debts."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2540,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": "type of situation",
+      "right_3": "leave less scope",
+      "sentence": "This type of situation would leave less scope for the FOMC to respond with its conventional monetary policy tool--namely, a cut in the federal funds rate--to counteract a weakening in the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2625,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that I expect",
+      "right_3": "be only transitory",
+      "sentence": "Some of this weakness appears to be the result of factors that I expect will be only transitory, such as the unusually harsh winter weather in some regions of the country and the West Coast port labor dispute that briefly restrained international trade and caused disruptions in manufacturing supply chains."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2677,
+      "head_verb_surface": "played",
+      "head_verb_lemma": "play",
+      "left_3": "or measurement issues",
+      "right_3": "have played some",
+      "sentence": "Also, statistical noise or measurement issues may have played some role."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2721,
+      "head_verb_surface": "lie",
+      "head_verb_lemma": "lie",
+      "left_3": "technical factors that",
+      "right_3": "lie behind this",
+      "sentence": "There is a healthy debate among economists--many within the Federal Reserve System--about some of the technical factors that may lie behind this pattern."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2926,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "are solid and",
+      "right_3": "lead to some",
+      "sentence": "Looking further ahead, I think that many of the fundamental factors underlying U.S. economic activity are solid and should lead to some pickup in the pace of economic growth in the coming years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2961,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "anticipate that employment",
+      "right_3": "continue to expand",
+      "sentence": "In particular, I anticipate that employment will continue to expand and the unemployment rate will decline further."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2961,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "the unemployment rate",
+      "right_3": "decline further .",
+      "sentence": "In particular, I anticipate that employment will continue to expand and the unemployment rate will decline further."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2981,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "improving job market",
+      "right_3": ", in turn",
+      "sentence": "An improving job market should, in turn, help support a faster pace of household spending growth."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3028,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "employment and wages",
+      "right_3": "make consumers more",
+      "sentence": "In addition, growing employment and wages should make consumers more comfortable in spending a greater portion of their incomes than they have been in the aftermath of the Great Recession."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3060,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": ", which also",
+      "right_3": "support more spending",
+      "sentence": "Moreover, increases in house values and stock market prices, along with reductions in debt in recent years, have pushed up households' net worth, which also should support more spending."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3114,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the second quarter",
+      "right_3": "be an indication",
+      "sentence": "Indeed, recent encouraging data about retail sales and light motor vehicle purchases in the beginning of the second quarter could be an indication that the pace of consumer spending is picking up."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3245,
+      "head_verb_surface": "restrain",
+      "head_verb_lemma": "restrain",
+      "left_3": "that I expect",
+      "right_3": "restrain economic growth",
+      "sentence": "5    \r  There are a couple of factors, however, that I expect could restrain economic growth."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3291,
+      "head_verb_surface": "suggest",
+      "head_verb_lemma": "suggest",
+      "left_3": "sheets , which",
+      "right_3": "suggest that greater",
+      "sentence": "Businesses are holding large amounts of cash on their balance sheets, which may suggest that greater risk aversion is playing a role."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3315,
+      "head_verb_surface": "contributing",
+      "head_verb_lemma": "contribute",
+      "left_3": "government economic policies",
+      "right_3": "be contributing to",
+      "sentence": "Indeed, some economic analysis suggests that uncertainty about the strength of the recovery and about government economic policies could be contributing to the restraint in business investment."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3345,
+      "head_verb_surface": "restrain",
+      "head_verb_lemma": "restrain",
+      "left_3": "second factor that",
+      "right_3": "restrain economic growth",
+      "sentence": "6    \r  A second factor that could restrain economic growth regards housing."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3435,
+      "head_verb_surface": "encourage",
+      "head_verb_lemma": "encourage",
+      "left_3": "and wage gains",
+      "right_3": "encourage more people",
+      "sentence": "Population growth is creating a need for more housing, whether to rent or to own, and I do expect that continuing job and wage gains will encourage more people to form new households."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3517,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "I expect inflation",
+      "right_3": "move toward the",
+      "sentence": "Combined with further tightening in labor and product markets, I expect inflation will move toward the FOMC's 2 percent objective over the next few years."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3571,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "stable , I",
+      "right_3": "be more concerned",
+      "sentence": "If inflation expectations had not remained stable, I would be more concerned because consumer and business expectations about inflation can become self-fulfilling."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3571,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "expectations about inflation",
+      "right_3": "become self -",
+      "sentence": "If inflation expectations had not remained stable, I would be more concerned because consumer and business expectations about inflation can become self-fulfilling."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3633,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "expect that it",
+      "right_3": "be appropriate at",
+      "sentence": "Based on my outlook, I expect that it will be appropriate at some point later this year to take the first step to raise the federal funds rate and thus begin normalizing monetary policy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3669,
+      "head_verb_surface": "delay",
+      "head_verb_lemma": "delay",
+      "left_3": "and unanticipated developments",
+      "right_3": "delay or accelerate",
+      "sentence": "But I want to emphasize that the course of the economy and inflation remains highly uncertain, and unanticipated developments could delay or accelerate this first step."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3697,
+      "head_verb_surface": "watching",
+      "head_verb_lemma": "watch",
+      "left_3": "step . We",
+      "right_3": "be watching carefully",
+      "sentence": "We will be watching carefully to see if there is continued improvement in labor market conditions, and we will need to be reasonably confident that inflation will move back to 2 percent in the next few years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3697,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ", and we",
+      "right_3": "need to be",
+      "sentence": "We will be watching carefully to see if there is continued improvement in labor market conditions, and we will need to be reasonably confident that inflation will move back to 2 percent in the next few years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3697,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "confident that inflation",
+      "right_3": "move back to",
+      "sentence": "We will be watching carefully to see if there is continued improvement in labor market conditions, and we will need to be reasonably confident that inflation will move back to 2 percent in the next few years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3737,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "it occurs ,",
+      "right_3": "by itself have",
+      "sentence": "Let me also stress that this initial increase in the federal funds rate, whenever it occurs, will by itself have only a very small effect on the overall level of monetary accommodation provided by the Federal Reserve."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3777,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "pace of normalization",
+      "right_3": "be gradual ,",
+      "sentence": "Because there are some factors, which I mentioned earlier, that continue to restrain the economic expansion, I currently anticipate that the appropriate pace of normalization will be gradual, and that monetary policy will need to be highly supportive of economic activity for quite some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3777,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "that monetary policy",
+      "right_3": "need to be",
+      "sentence": "Because there are some factors, which I mentioned earlier, that continue to restrain the economic expansion, I currently anticipate that the appropriate pace of normalization will be gradual, and that monetary policy will need to be highly supportive of economic activity for quite some time."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3866,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "expected , it",
+      "right_3": "be appropriate to",
+      "sentence": "If progress toward our employment and inflation goals is more rapid than expected, it may be appropriate to remove monetary policy accommodation more quickly."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3892,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "then the Committee",
+      "right_3": "move more slowly",
+      "sentence": "However, if progress toward our goals is slower than anticipated, then the Committee may move more slowly in normalizing policy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4003,
+      "head_verb_surface": "produce",
+      "head_verb_lemma": "produce",
+      "left_3": "much a worker",
+      "right_3": "produce in an",
+      "sentence": "The most important factor determining continued advances in living standards is productivity growth, defined as the rate of increase in how much a worker can produce in an hour of work."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4115,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": ", it also",
+      "right_3": "reflect , at",
+      "sentence": "I mentioned earlier the sluggish pace of wage gains in recent years, and while I do think that this is evidence of some persisting labor market slack, it also may reflect, at least in part, fairly weak productivity growth."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4227,
+      "head_verb_surface": "served",
+      "head_verb_lemma": "serve",
+      "left_3": "the American people",
+      "right_3": "be well served",
+      "sentence": "As a general principle, the American people would be well served by the active pursuit of effective policies to support longer-run growth in productivity."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4255,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and private ,",
+      "right_3": "all potentially be",
+      "sentence": "Policies to strengthen education and training, to encourage entrepreneurship and innovation, and to promote capital investment, both public and private, could all potentially be of great benefit in improving future living standards in our nation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4857,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "federal fiscal policies",
+      "right_3": "have little effect",
+      "sentence": "The Congressional Budget Office estimates that current federal fiscal policies will have little effect on economic growth this year, but that earlier fiscal policy actions reduced the rate of real GDP growth roughly 1-1/2 percentage points in 2013 and about 1/4 percentage point in 2014 relative to what it would have been otherwise."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4857,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "to what it",
+      "right_3": "have been otherwise",
+      "sentence": "The Congressional Budget Office estimates that current federal fiscal policies will have little effect on economic growth this year, but that earlier fiscal policy actions reduced the rate of real GDP growth roughly 1-1/2 percentage points in 2013 and about 1/4 percentage point in 2014 relative to what it would have been otherwise."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Longer-term borrowing rates, such as those for mortgages and automobile loans, are lower if people expect short-term rates in the future to remain low or to rise only very gradually."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "But it is my judgment that the lower level of the unemployment rate today probably does not fully capture the extent of slack remaining in the labor market--in other words, how far away we are from a full-employment economy."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing labor market slack, we try to distinguish between the effects of cyclical fluctuations in the economy and the influences of longer-term structural changes, such as the aging of the workforce and other demographic trends."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Even in a stronger job market, it is likely that many of these individuals would prefer not to work."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "And, indeed, a noticeable portion of the decline in labor force participation seen over the past decade or so clearly relates to the aging of baby boomers and their ongoing retirements."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Another factor we consider when assessing labor market slack is the elevated number of workers who are employed in part-time jobs but would prefer to have full-time work--in other words, those classified as \"part time for economic reasons.\""
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Despite these structural trends, which make it difficult to know where the share of those employed part time for economic reasons may settle in the longer run, I continue to think that it probably remains higher than it would be in a full-employment economy."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The recent low level of core inflation -- 1.2 percent over the past 12 months -- partly reflects the appreciation of the foreign exchange value of the U.S. dollar during the second half of last year, as global financial markets seemed to judge that our economy was relatively stronger than those of many of our trading partners."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In all, however, these downward pressures seem to be abating, and the effects of these transitory factors are expected to fall out of measures of inflation by early next year."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Some of this weakness appears to be the result of factors that I expect will be only transitory, such as the unusually harsh winter weather in some regions of the country and the West Coast port labor dispute that briefly restrained international trade and caused disruptions in manufacturing supply chains."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "4   Nevertheless, at least a couple of other more persistent factors also likely weighed on economic output and industrial production in the first quarter."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We expect the drag on domestic economic activity from these factors to ease over the course of this year, as the value of the dollar and crude oil prices stabilize, and I anticipate moderate economic growth, on balance, for this year as a whole."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We expect the drag on domestic economic activity from these factors to ease over the course of this year, as the value of the dollar and crude oil prices stabilize, and I anticipate moderate economic growth, on balance, for this year as a whole."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "As always, however, the economic outlook is uncertain."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In particular, I anticipate that employment will continue to expand and the unemployment rate will decline further."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Additional jobs and potentially faster wage growth bolster household incomes, and lower energy prices mean consumers have more money to spend on other goods and services."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "5    \r  There are a couple of factors, however, that I expect could restrain economic growth."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Population growth is creating a need for more housing, whether to rent or to own, and I do expect that continuing job and wage gains will encourage more people to form new households."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Nevertheless, activity in the housing sector seems likely to improve only gradually."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Regarding inflation, as I mentioned earlier, the recent effects of lower prices for crude oil and for imports on overall inflation are expected to wane during this year."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Combined with further tightening in labor and product markets, I expect inflation will move toward the FOMC's 2 percent objective over the next few years."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Based on my outlook, I expect that it will be appropriate at some point later this year to take the first step to raise the federal funds rate and thus begin normalizing monetary policy."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "But I want to emphasize that the course of the economy and inflation remains highly uncertain, and unanticipated developments could delay or accelerate this first step."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Because there are some factors, which I mentioned earlier, that continue to restrain the economic expansion, I currently anticipate that the appropriate pace of normalization will be gradual, and that monetary policy will need to be highly supportive of economic activity for quite some time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The projections of most of my FOMC colleagues indicate that they have similar expectations for the likely path of the federal funds rate."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "But, again, both the course of the economy and inflation are uncertain."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "If progress toward our employment and inflation goals is more rapid than expected, it may be appropriate to remove monetary policy accommodation more quickly."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "However, if progress toward our goals is slower than anticipated, then the Committee may move more slowly in normalizing policy."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Policies to strengthen education and training, to encourage entrepreneurship and innovation, and to promote capital investment, both public and private, could all potentially be of great benefit in improving future living standards in our nation."
+    }
+  ]
+}

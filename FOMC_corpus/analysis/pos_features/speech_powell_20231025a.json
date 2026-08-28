@@ -1,0 +1,161 @@
+{
+  "doc_id": "speech_powell_20231025a",
+  "doc_type": "speech",
+  "date": "2023-10-25",
+  "chair": "Powell",
+  "n_tokens": 1278,
+  "n_sents": 67,
+  "pos_counts": {
+    "NNP": 256,
+    "CD": 59,
+    ",": 109,
+    "IN": 154,
+    "DT": 110,
+    "CC": 57,
+    "VBN": 23,
+    "NN": 163,
+    "PRP": 25,
+    "VBP": 22,
+    "JJ": 111,
+    "VBD": 7,
+    "TO": 12,
+    "VB": 42,
+    "POS": 10,
+    ".": 67,
+    "VBZ": 38,
+    "WP": 8,
+    "``": 19,
+    "NNS": 68,
+    "MD": 6,
+    "JJR": 8,
+    "PDT": 1,
+    "PRP$": 22,
+    "VBG": 17,
+    "EX": 2,
+    "RB": 29,
+    ":": 17,
+    "HYPH": 8,
+    "NNPS": 15,
+    "WDT": 5,
+    "WRB": 4,
+    "RBR": 2,
+    "''": 5,
+    "RP": 1,
+    "RBS": 1,
+    "LS": 1,
+    "-LRB-": 26,
+    "-RRB-": 26,
+    "SYM": 1
+  },
+  "modal_count": 6,
+  "modal_lemma_counts": {
+    "can": 2,
+    "would": 2,
+    "will": 1,
+    "could": 1
+  },
+  "modals_per_1000": 4.695,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "assess": 1,
+    "possible": 1,
+    "clearly": 2
+  },
+  "epistemics_per_1000": 3.13,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 86,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "economics , I",
+      "right_3": "think of no",
+      "sentence": "\" 1  In the field of economics, I can think of no better example of such a champion than Alan Blinder."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 211,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "that the policymakers",
+      "right_3": "make better policy",
+      "sentence": "Folks on the academy side generally feel that the policymakers would make better policy if they paid more attention to academic work."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 522,
+      "head_verb_surface": "close",
+      "head_verb_lemma": "close",
+      "left_3": "this , I",
+      "right_3": "close with two",
+      "sentence": "To illustrate this, I will close with two broad categories of engagement that have been hallmarks of Alan's career."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 557,
+      "head_verb_surface": "social",
+      "head_verb_lemma": "social",
+      "left_3": "question : How",
+      "right_3": "social science ,",
+      "sentence": "Two of his books, published 30 years apart, show his career-long focus answering this question: How can social science, and particularly economics, support good public policies?"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 905,
+      "head_verb_surface": "approved",
+      "head_verb_lemma": "approve",
+      "left_3": ". Moynihan surely",
+      "right_3": "have approved .",
+      "sentence": "Moynihan surely would have approved."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1186,
+      "head_verb_surface": "learn",
+      "head_verb_lemma": "learn",
+      "left_3": "What Central Bankers",
+      "right_3": "Learn from Academicsâand",
+      "sentence": "See Alan S. Blinder (1997), \"What Central Bankers Could Learn from Academicsâand Vice Versa,\"  Journal of Economic Perspectives,  vol. 11 (Spring), p. 17."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "On one side of the border there is the academy, particularly social scientists, who work to assess the costs and benefits of public policies, actual and possible."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "On one side of the border there is the academy, particularly social scientists, who work to assess the costs and benefits of public policies, actual and possible."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "A natural teacher, Alan has communicated clearly and accessibly over the years with a wide range of audiences, bringing to bear facts, insights and lessons from history and policymaking."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "His countless newspaper columns, broadcast interviews and many books do more than clearly explain the economic issues of the day."
+    }
+  ]
+}

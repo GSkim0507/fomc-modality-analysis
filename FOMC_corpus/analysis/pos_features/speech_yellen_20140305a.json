@@ -1,0 +1,137 @@
+{
+  "doc_id": "speech_yellen_20140305a",
+  "doc_type": "speech",
+  "date": "2014-03-05",
+  "chair": "Yellen",
+  "n_tokens": 860,
+  "n_sents": 39,
+  "pos_counts": {
+    "NNP": 69,
+    "CD": 8,
+    ",": 44,
+    "IN": 94,
+    "DT": 93,
+    "NN": 105,
+    "HYPH": 6,
+    "RB": 34,
+    "JJ": 65,
+    ".": 39,
+    "VBP": 41,
+    "PRP": 39,
+    "CC": 39,
+    "VBN": 23,
+    "NNS": 50,
+    "WP": 8,
+    "VBG": 21,
+    "PRP$": 27,
+    "TO": 32,
+    "VB": 49,
+    "RP": 5,
+    "WRB": 5,
+    "VBD": 6,
+    "MD": 7,
+    "VBZ": 17,
+    "POS": 6,
+    "RBS": 1,
+    "JJR": 5,
+    "WDT": 5,
+    "RBR": 3,
+    "NNPS": 2,
+    ":": 1,
+    "JJS": 3
+  },
+  "modal_count": 7,
+  "modal_lemma_counts": {
+    "would": 1,
+    "will": 3,
+    "can": 3
+  },
+  "modals_per_1000": 8.14,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "possible": 1
+  },
+  "epistemics_per_1000": 1.163,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 164,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "the president I",
+      "right_3": "do my very",
+      "sentence": "When I accepted his offer, I promised the president I would do my very best, working with my Fed colleagues, to help restore the health of the economy and promote a strong and stable financial system."
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 337,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "Congress . I",
+      "right_3": "do more of",
+      "sentence": "I'll do more of that explaining in two weeks, when I respond to questions from the media after the next meeting of the Federal Open Market Committee."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 532,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". \r\n \n\n\r\n  I",
+      "right_3": "also continue the",
+      "sentence": "I will also continue the work of helping repair the damage done by the financial crisis to the economy."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 552,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "many Americans still",
+      "right_3": "n't find a",
+      "sentence": "Too many Americans still can't find a job or are forced to work part-time."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 604,
+      "head_verb_surface": "all",
+      "head_verb_lemma": "all",
+      "left_3": "all that I",
+      "right_3": ", working with",
+      "sentence": "I promise to do all that I can, working with my fellow policymakers, to achieve the very important goals Congress has assigned to the Federal Reserve."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 738,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "analysis and judgment",
+      "right_3": "be indispensable in",
+      "sentence": "And their knowledge, analysis and judgment will be indispensable in fulfilling the mission of the Federal Reserve in the years ahead."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 772,
+      "head_verb_surface": "seem",
+      "head_verb_lemma": "seem",
+      "left_3": "vast economy ,",
+      "right_3": "seem far removed",
+      "sentence": "The tools we deploy, to guide the financial system and influence our vast economy, can seem far removed from the lives and concerns of average Americans."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "I promise to stay focused on moving that process forward as quickly and responsibly as possible and to verify that these reforms are meeting the goal of safeguarding the financial system."
+    }
+  ]
+}

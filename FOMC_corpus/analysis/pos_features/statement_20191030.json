@@ -1,0 +1,116 @@
+{
+  "doc_id": "statement_20191030",
+  "doc_type": "statement",
+  "date": "2019-10-30",
+  "chair": "Powell",
+  "n_tokens": 378,
+  "n_sents": 14,
+  "pos_counts": {
+    "NNP": 51,
+    "CD": 16,
+    ",": 19,
+    "VBZ": 9,
+    "JJ": 37,
+    "NN": 82,
+    "IN": 49,
+    "VBD": 9,
+    "DT": 33,
+    "CC": 16,
+    "VBN": 9,
+    "VBG": 7,
+    ".": 13,
+    "NNS": 26,
+    "VBP": 7,
+    "HYPH": 4,
+    ":": 9,
+    "JJR": 1,
+    "RB": 3,
+    "PRP$": 3,
+    "TO": 5,
+    "VB": 7,
+    "SYM": 3,
+    "POS": 2,
+    "RBS": 1,
+    "MD": 3,
+    "PRP": 1,
+    "WP": 1
+  },
+  "modal_count": 3,
+  "modal_lemma_counts": {
+    "will": 3
+  },
+  "modals_per_1000": 7.937,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "likely": 1,
+    "assess": 2,
+    "expect": 1
+  },
+  "epistemics_per_1000": 10.582,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 240,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ". The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 272,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": ", the Committee",
+      "right_3": "assess realized and",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 314,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": ". This assessment",
+      "right_3": "take into account",
+      "sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "This action supports the Committee's view that sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective are the most likely outcomes, but uncertainties about this outlook remain."
+    },
+    {
+      "surface": "assesses",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective."
+    }
+  ]
+}

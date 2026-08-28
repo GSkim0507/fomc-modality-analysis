@@ -1,0 +1,178 @@
+{
+  "doc_id": "statement_20101214",
+  "doc_type": "statement",
+  "date": "2010-12-14",
+  "chair": "Bernanke",
+  "n_tokens": 504,
+  "n_sents": 18,
+  "pos_counts": {
+    "NNP": 55,
+    "CD": 9,
+    ",": 32,
+    "JJ": 51,
+    "NN": 94,
+    "IN": 71,
+    "VBD": 7,
+    "DT": 40,
+    "VBZ": 17,
+    "VBG": 12,
+    "WDT": 2,
+    "VBN": 9,
+    "TO": 17,
+    "VB": 27,
+    "RP": 1,
+    ".": 18,
+    "CC": 18,
+    "JJR": 6,
+    "RBR": 2,
+    "RB": 8,
+    "NNS": 31,
+    "VBP": 5,
+    "HYPH": 4,
+    "PRP$": 10,
+    "MD": 9,
+    "$": 2,
+    "JJS": 1,
+    ":": 10
+  },
+  "modal_count": 9,
+  "modal_lemma_counts": {
+    "will": 6,
+    "would": 2,
+    "could": 1
+  },
+  "modals_per_1000": 17.857,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "anticipate": 2,
+    "likely": 1
+  },
+  "epistemics_per_1000": 7.937,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 266,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": ". The Committee",
+      "right_3": "maintain its existing",
+      "sentence": "The Committee will maintain its existing policy of reinvesting principal payments from its securities holdings."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 319,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": ". The Committee",
+      "right_3": "regularly review the",
+      "sentence": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed to best foster maximum employment and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 319,
+      "head_verb_surface": "adjust",
+      "head_verb_lemma": "adjust",
+      "left_3": "incoming information and",
+      "right_3": "adjust the program",
+      "sentence": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed to best foster maximum employment and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 362,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "maintain the target",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 421,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 421,
+      "head_verb_surface": "employ",
+      "head_verb_lemma": "employ",
+      "left_3": "financial developments and",
+      "right_3": "employ its policy",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 528,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "of monetary accommodation",
+      "right_3": "increase the risks",
+      "sentence": "In light of the improving economy, Mr. Hoenig was concerned that a continued high level of monetary accommodation would increase the risks of future economic and financial imbalances and, over time, would cause an increase in long-term inflation expectations that could destabilize the economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 528,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "over time ,",
+      "right_3": "cause an increase",
+      "sentence": "In light of the improving economy, Mr. Hoenig was concerned that a continued high level of monetary accommodation would increase the risks of future economic and financial imbalances and, over time, would cause an increase in long-term inflation expectations that could destabilize the economy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 528,
+      "head_verb_surface": "destabilize",
+      "head_verb_lemma": "destabilize",
+      "left_3": "inflation expectations that",
+      "right_3": "destabilize the economy",
+      "sentence": "In light of the improving economy, Mr. Hoenig was concerned that a continued high level of monetary accommodation would increase the risks of future economic and financial imbalances and, over time, would cause an increase in long-term inflation expectations that could destabilize the economy."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Currently, the unemployment rate is elevated, and measures of underlying inflation are somewhat low, relative to levels that the Committee judges to be consistent, over the longer run, with its dual mandate."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Although the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, progress toward its objectives has been disappointingly slow."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    }
+  ]
+}

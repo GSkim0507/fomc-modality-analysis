@@ -1,0 +1,685 @@
+{
+  "doc_id": "speech_powell_20180406a",
+  "doc_type": "speech",
+  "date": "2018-04-06",
+  "chair": "Powell",
+  "n_tokens": 4168,
+  "n_sents": 190,
+  "pos_counts": {
+    "NNP": 243,
+    "CD": 137,
+    ",": 241,
+    "DT": 425,
+    "IN": 604,
+    "NN": 801,
+    "JJR": 28,
+    "NNS": 274,
+    "VBZ": 120,
+    "VBN": 122,
+    "JJ": 367,
+    "CC": 149,
+    "TO": 65,
+    "VB": 149,
+    "PRP$": 43,
+    ".": 186,
+    "PRP": 72,
+    "VBP": 94,
+    "RB": 204,
+    "VBG": 70,
+    "MD": 46,
+    "HYPH": 40,
+    "NNPS": 14,
+    "WP": 11,
+    "RP": 16,
+    "JJS": 8,
+    "-LRB-": 34,
+    "-RRB-": 34,
+    "RBR": 11,
+    "POS": 14,
+    "EX": 5,
+    "WDT": 24,
+    "VBD": 47,
+    ":": 27,
+    "RBS": 4,
+    "``": 7,
+    "''": 7,
+    "WRB": 8,
+    "PDT": 3,
+    "SYM": 5,
+    "LS": 1,
+    "UH": 1
+  },
+  "modal_count": 46,
+  "modal_lemma_counts": {
+    "will": 16,
+    "can": 8,
+    "would": 6,
+    "must": 1,
+    "may": 4,
+    "might": 5,
+    "should": 1,
+    "could": 5
+  },
+  "modals_per_1000": 11.036,
+  "epistemic_count": 18,
+  "epistemic_lemma_counts": {
+    "expect": 5,
+    "uncertain": 3,
+    "assess": 1,
+    "judge": 1,
+    "believe": 3,
+    "probably": 1,
+    "potential": 1,
+    "forecast": 1,
+    "likely": 2
+  },
+  "epistemics_per_1000": 4.319,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 136,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": ". Today I",
+      "right_3": "review recent economic",
+      "sentence": "Today I will review recent economic developments, focusing on the labor market and inflation, and then touch briefly on longer-term growth prospects."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 163,
+      "head_verb_surface": "finish",
+      "head_verb_lemma": "finish",
+      "left_3": "prospects . I",
+      "right_3": "finish with a",
+      "sentence": "I will finish with a discussion of monetary policy."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 537,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": ". As you",
+      "right_3": "see , participants",
+      "sentence": "As you can see, participants generally raised their forecasts for growth in inflation-adjusted gross domestic product (GDP) and lowered their forecasts for unemployment."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 566,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "confidence that inflation",
+      "right_3": "move up toward",
+      "sentence": "In addition, many participants expressed increased confidence that inflation would move up toward our 2 percent target."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 682,
+      "head_verb_surface": "spend",
+      "head_verb_lemma": "spend",
+      "left_3": ". So I",
+      "right_3": "spend a few",
+      "sentence": "So I will spend a few minutes exploring the state of the job market in some detail."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 909,
+      "head_verb_surface": "looked",
+      "head_verb_lemma": "look",
+      "left_3": ", a person",
+      "right_3": "have actively looked",
+      "sentence": "For example, to be counted in the official measure as unemployed, a person must have actively looked for a job in the past four weeks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 978,
+      "head_verb_surface": "want",
+      "head_verb_lemma": "want",
+      "left_3": "working part time",
+      "right_3": "want a full",
+      "sentence": "Others working part time may want a full-time job."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 990,
+      "head_verb_surface": "pulled",
+      "head_verb_lemma": "pull",
+      "left_3": "job right now",
+      "right_3": "be pulled into",
+      "sentence": "And still others who say that they do not want a job right now might be pulled into the job market if the right opportunity came along."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1134,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "part time but",
+      "right_3": "like full -",
+      "sentence": "U-6 includes all those counted in U-5 plus people who are working part time but would like full-time work."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1418,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "on participation and",
+      "right_3": "continue to do",
+      "sentence": "This flat performance is actually a sign of improvement, since increased retirements as our population ages have been putting downward pressure on participation and will continue to do so."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1449,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "suggesting that there",
+      "right_3": "still be room",
+      "sentence": "However, the participation rate of prime-age workers (those between the ages of 25 and 54) has not recovered fully to its pre-recession level, suggesting that there might still be room to pull more people into the labor force ( figure 7 )."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1529,
+      "head_verb_surface": "considered",
+      "head_verb_lemma": "consider",
+      "left_3": "train workers they",
+      "right_3": "not have considered",
+      "sentence": "For example, the percentage of adults returning to the labor force after previously reporting that they were not working because of a disability has increased over the past couple of years, and anecdotal reports indicate that employers are increasingly willing to take on and train workers they would not have considered in the past."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1661,
+      "head_verb_surface": "looking",
+      "head_verb_lemma": "look",
+      "left_3": "tight . I",
+      "right_3": "be looking for",
+      "sentence": "I will be looking for an additional pickup in wage growth as the labor market strengthens further."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1680,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": "board , what",
+      "right_3": "we say about",
+      "sentence": "Taking all of these measures of labor utilization on board, what can we say about the state of the labor market relative to our statutory goal of maximum employment?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1768,
+      "head_verb_surface": "guided",
+      "head_verb_lemma": "guide",
+      "left_3": ", the Committee",
+      "right_3": "be guided by",
+      "sentence": "As we seek the highest sustainable utilization of labor resources, the Committee will be guided by incoming data across all of these measures."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2079,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "import prices ,",
+      "right_3": "affect inflation .",
+      "sentence": "Participants also noted that other factors, including inflation expectations and transitory changes in energy and import prices, can affect inflation."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2253,
+      "head_verb_surface": "move",
+      "head_verb_lemma": "move",
+      "left_3": "- month change",
+      "right_3": "move up notably",
+      "sentence": "In fact, monthly inflation readings have been firmer over the past several months, and the 12-month change should move up notably this spring as last spring's soft readings drop out of the 12-month calculation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2465,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "further , we",
+      "right_3": "think of output",
+      "sentence": "7  To unpack this discussion a little further, we can think of output growth as composed of increases in hours worked and in output per hour, also known as productivity growth."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2679,
+      "head_verb_surface": "broken",
+      "head_verb_lemma": "break",
+      "left_3": "labor productivity growth",
+      "right_3": "be broken down",
+      "sentence": "As shown in  figure 12 , labor productivity growth can be broken down into the contributions from business investment (or capital deepening), changes in the skills and work experience of the workforce, and a residual component that is attributed to other factors such as technological change and efficiency gains (usually lumped together under the term total factor or multifactor productivity)."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2749,
+      "head_verb_surface": "traced",
+      "head_verb_lemma": "trace",
+      "left_3": "labor productivity growth",
+      "right_3": "be traced to",
+      "sentence": "In the United States and in many other countries, some of the slowdown in labor productivity growth can be traced to weak investment after the crisis."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2777,
+      "head_verb_surface": "pick",
+      "head_verb_lemma": "pick",
+      "left_3": "that capital deepening",
+      "right_3": "pick up as",
+      "sentence": "Investment has picked up recently in the United States, however, which suggests that capital deepening may pick up as well."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2827,
+      "head_verb_surface": "heading",
+      "head_verb_lemma": "head",
+      "left_3": "on where it",
+      "right_3": "be heading .",
+      "sentence": "Total factor productivity growth is notoriously difficult to predict, and there are sharply different views on where it might be heading."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3089,
+      "head_verb_surface": "tell",
+      "head_verb_lemma": "tell",
+      "left_3": ". Only time",
+      "right_3": "tell who has",
+      "sentence": "Only time will tell who has the better viewââthe record provides little basis to believe that we can accurately forecast the rate of increase in productivity."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3089,
+      "head_verb_surface": "forecast",
+      "head_verb_lemma": "forecast",
+      "left_3": "believe that we",
+      "right_3": "accurately forecast the",
+      "sentence": "Only time will tell who has the better viewââthe record provides little basis to believe that we can accurately forecast the rate of increase in productivity."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3169,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "and that trend",
+      "right_3": "continue . But",
+      "sentence": "One reason for slower growth of the labor force is that baby boomers are aging and retiring, and that trend will continue."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3366,
+      "head_verb_surface": "played",
+      "head_verb_lemma": "play",
+      "left_3": "variety of factors",
+      "right_3": "have played a",
+      "sentence": "There is no consensus about the reasons for the long-term decline in prime-age participation rates, and a variety of factors could have played a role."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3437,
+      "head_verb_surface": "reduced",
+      "head_verb_lemma": "reduce",
+      "left_3": "the opioid crisis",
+      "right_3": "have reduced the",
+      "sentence": "In addition, factors such as the increase in disability rolls in recent decades and the opioid crisis may have reduced the supply of prime-age workers."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3495,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "the strong economy",
+      "right_3": "continue to pull",
+      "sentence": "As I noted earlier, the strong economy may continue to pull some prime-age individuals back into the labor force and encourage others not to drop out."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3525,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "crisis -- also",
+      "right_3": "help raise labor",
+      "sentence": "Research suggests that structurally-oriented measures--for example, improving education or fighting the opioid crisis--also will help raise labor force participation in this age group."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3609,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "bystanders . We",
+      "right_3": "put policies in",
+      "sentence": "We can put policies in place that will support labor force participation and give us the best chance to achieve broad and sustained increases in productivity, and thus in living standards."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3609,
+      "head_verb_surface": "support",
+      "head_verb_lemma": "support",
+      "left_3": "in place that",
+      "right_3": "support labor force",
+      "sentence": "We can put policies in place that will support labor force participation and give us the best chance to achieve broad and sustained increases in productivity, and thus in living standards."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3737,
+      "head_verb_surface": "led",
+      "head_verb_lemma": "lead",
+      "left_3": "reducing policy support",
+      "right_3": "have led to",
+      "sentence": "Since monetary policy affects the economy with a lag, waiting until inflation and employment hit our goals before reducing policy support could have led to a rise in inflation to unwelcome levels."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3771,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ", monetary policy",
+      "right_3": "need to tighten",
+      "sentence": "In such circumstances, monetary policy might need to tighten abruptly, which could disrupt the economy or even trigger a recession."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3771,
+      "head_verb_surface": "disrupt",
+      "head_verb_lemma": "disrupt",
+      "left_3": "abruptly , which",
+      "right_3": "disrupt the economy",
+      "sentence": "In such circumstances, monetary policy might need to tighten abruptly, which could disrupt the economy or even trigger a recession."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3866,
+      "head_verb_surface": "push",
+      "head_verb_lemma": "push",
+      "left_3": "to the economy",
+      "right_3": "push the federal",
+      "sentence": "This patient approach also reduced the risk that an unforeseen blow to the economy might push the federal funds rate back near zeroââits effective lower bound--thus limiting our ability to provide appropriate monetary accommodation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4062,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "years , we",
+      "right_3": "continue to aim",
+      "sentence": "Over the next few years, we will continue to aim for 2 percent inflation and for a sustained economic expansion with a strong labor market."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4089,
+      "head_verb_surface": "promote",
+      "head_verb_lemma": "promote",
+      "left_3": "federal funds rate",
+      "right_3": "best promote these",
+      "sentence": "As I mentioned, my FOMC colleagues and I believe that, as long as the economy continues broadly on its current path, further gradual increases in the federal funds rate will best promote these goals."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4127,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "rates too slowly",
+      "right_3": "make it necessary",
+      "sentence": "It remains the case that raising rates too slowly would make it necessary for monetary policy to tighten abruptly down the road, which could jeopardize the economic expansion."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4127,
+      "head_verb_surface": "jeopardize",
+      "head_verb_lemma": "jeopardize",
+      "left_3": "road , which",
+      "right_3": "jeopardize the economic",
+      "sentence": "It remains the case that raising rates too slowly would make it necessary for monetary policy to tighten abruptly down the road, which could jeopardize the economic expansion."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4157,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "rates too quickly",
+      "right_3": "increase the risk",
+      "sentence": "But raising rates too quickly would increase the risk that inflation would remain persistently below our 2 percent objective."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4157,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "risk that inflation",
+      "right_3": "remain persistently below",
+      "sentence": "But raising rates too quickly would increase the risk that inflation would remain persistently below our 2 percent objective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4192,
+      "head_verb_surface": "informed",
+      "head_verb_lemma": "inform",
+      "left_3": "and years ahead",
+      "right_3": "be informed by",
+      "sentence": "Of course, our views about appropriate monetary policy in the months and years ahead will be informed by incoming economic data and the evolving outlook."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4219,
+      "head_verb_surface": "will",
+      "head_verb_lemma": "will",
+      "left_3": ", so too",
+      "right_3": "monetary policy .",
+      "sentence": "If the outlook changes, so too will monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4230,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "Our overarching objective",
+      "right_3": "remain the same",
+      "sentence": "Our overarching objective will remain the same: fostering a strong economy for all Americans--one that provides plentiful jobs and low and stable inflation."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 4330,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "rate of unemployment",
+      "right_3": "be as much",
+      "sentence": "The authors of one well-regarded study concluded that even when using sophisticated statistical techniques, the natural rate of unemployment could be as much as 1-1/2 percentage points above or below their point estimate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4526,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": ") , \"",
+      "right_3": "Employment Keep Growing",
+      "sentence": "For disability transition rates, see Ernie Tedeschi (2018), \"Will Employment Keep Growing?"
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The labor market has been strong, and my colleagues and I on the Federal Open Market Committee (FOMC) expect it to remain strong."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Inflation has continued to run below the FOMC's 2 percent objective but we expect it to move up in coming months and to stabilize around 2 percent over the medium term."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Real-time estimates of maximum employment are highly uncertain."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Instead, we look at a wide range of indicators to assess how close the economy is to maximum employment."
+    },
+    {
+      "surface": "judging",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "So, in judging tightness in the labor market, we also look at a range of other statistics, including alternative measures of unemployment, as well as measures of vacancies and job flows, surveys of households' and businesses' perceptions of the job market, and, of course, data on wages and prices."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Assessments of the maximum level of employment are uncertain, however, and subject to revision."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "That connection has weakened over the past couple of decades, but it still persists, and I believe it continues to be meaningful for monetary policy."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "This observation suggests that factors specific to the United States are probably not the main drivers."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The outlook for this dimension of productivity is considerably more uncertain."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Some argue that the productivity gains from the information technology revolution are largely behind us, and that more-recent technological innovations have less potential to boost productivity."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Only time will tell who has the better viewââthe record provides little basis to believe that we can accurately forecast the rate of increase in productivity."
+    },
+    {
+      "surface": "forecast",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Only time will tell who has the better viewââthe record provides little basis to believe that we can accurately forecast the rate of increase in productivity."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Given that the declines have been larger here than in other countries, it seems likely that factors specific to the United States have played an important role."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "To summarize this discussion, some of the factors weighing on longer-term growth are likely to be persistent, particularly the slowing in growth of the workforce."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The balance sheet reduction process is going smoothly and is expected to contribute over time to a gradual tightening of financial conditions."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Over the next few years, the size of our balance sheet is expected to shrink significantly."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As I mentioned, my FOMC colleagues and I believe that, as long as the economy continues broadly on its current path, further gradual increases in the federal funds rate will best promote these goals."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Individuals expecting to be recalled from a temporary layoff are also counted as unemployed whether or not they are actively looking for work."
+    }
+  ]
+}

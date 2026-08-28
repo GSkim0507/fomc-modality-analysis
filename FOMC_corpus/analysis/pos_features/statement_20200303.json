@@ -1,0 +1,52 @@
+{
+  "doc_id": "statement_20200303",
+  "doc_type": "statement",
+  "date": "2020-03-03",
+  "chair": "Powell",
+  "n_tokens": 152,
+  "n_sents": 8,
+  "pos_counts": {
+    "NNP": 45,
+    "CD": 10,
+    ",": 8,
+    "VBZ": 3,
+    "JJ": 8,
+    "NN": 23,
+    "IN": 15,
+    "DT": 11,
+    "NNS": 10,
+    "VBP": 2,
+    ".": 6,
+    "RB": 3,
+    "VBG": 4,
+    "CC": 6,
+    "PRP$": 3,
+    "VBD": 3,
+    "TO": 2,
+    "VB": 3,
+    "MD": 1,
+    ":": 9,
+    "SYM": 2
+  },
+  "modal_count": 1,
+  "modal_lemma_counts": {
+    "will": 1
+  },
+  "modals_per_1000": 6.579,
+  "epistemic_count": 0,
+  "epistemic_lemma_counts": {},
+  "epistemics_per_1000": 0.0,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 86,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "economic outlook and",
+      "right_3": "use its tools",
+      "sentence": "The Committee is closely monitoring developments and their implications for the economic outlook and will use its tools and act as appropriate to support the economy."
+    }
+  ],
+  "epistemic_instances": []
+}

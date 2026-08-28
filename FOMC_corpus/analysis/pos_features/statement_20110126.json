@@ -1,0 +1,135 @@
+{
+  "doc_id": "statement_20110126",
+  "doc_type": "statement",
+  "date": "2011-01-26",
+  "chair": "Bernanke",
+  "n_tokens": 447,
+  "n_sents": 15,
+  "pos_counts": {
+    "NNP": 53,
+    "CD": 7,
+    ",": 28,
+    "JJ": 46,
+    "NN": 84,
+    "IN": 60,
+    "VBD": 6,
+    "DT": 31,
+    "VBZ": 17,
+    "VBG": 11,
+    "WDT": 1,
+    "VBN": 9,
+    "TO": 15,
+    "VB": 21,
+    "RP": 2,
+    "NNS": 30,
+    ".": 15,
+    "RB": 8,
+    "CC": 17,
+    "JJR": 6,
+    "VBP": 6,
+    "HYPH": 3,
+    "PRP$": 10,
+    "$": 1,
+    "MD": 5,
+    "JJS": 1,
+    ":": 11
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "will": 5
+  },
+  "modals_per_1000": 11.186,
+  "epistemic_count": 4,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "anticipate": 2,
+    "likely": 1
+  },
+  "epistemics_per_1000": 8.949,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 309,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": ". The Committee",
+      "right_3": "regularly review the",
+      "sentence": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed to best foster maximum employment and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 309,
+      "head_verb_surface": "adjust",
+      "head_verb_lemma": "adjust",
+      "left_3": "incoming information and",
+      "right_3": "adjust the program",
+      "sentence": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed to best foster maximum employment and price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 352,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "maintain the target",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 411,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 411,
+      "head_verb_surface": "employ",
+      "head_verb_lemma": "employ",
+      "left_3": "financial developments and",
+      "right_3": "employ its policy",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Currently, the unemployment rate is elevated, and measures of underlying inflation are somewhat low, relative to levels that the Committee judges to be consistent, over the longer run, with its dual mandate."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Although the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, progress toward its objectives has been disappointingly slow."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    }
+  ]
+}

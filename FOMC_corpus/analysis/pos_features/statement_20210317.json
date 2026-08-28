@@ -1,0 +1,161 @@
+{
+  "doc_id": "statement_20210317",
+  "doc_type": "statement",
+  "date": "2021-03-17",
+  "chair": "Powell",
+  "n_tokens": 508,
+  "n_sents": 18,
+  "pos_counts": {
+    "NNP": 60,
+    "CD": 18,
+    ",": 20,
+    "VBZ": 13,
+    "JJ": 45,
+    "NN": 98,
+    "IN": 64,
+    "DT": 49,
+    "VBN": 10,
+    "VBG": 11,
+    "PRP$": 3,
+    "NNS": 33,
+    "TO": 14,
+    "VB": 22,
+    "RB": 12,
+    "CC": 21,
+    ".": 17,
+    "VBP": 8,
+    "RP": 2,
+    "RBS": 3,
+    "MD": 8,
+    "JJR": 2,
+    "HYPH": 1,
+    "VBD": 3,
+    "PRP": 1,
+    "POS": 4,
+    "$": 2,
+    "WDT": 1,
+    ":": 10,
+    "NNPS": 1
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "will": 6,
+    "would": 1,
+    "could": 1
+  },
+  "modals_per_1000": 15.748,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "assess": 1
+  },
+  "epistemics_per_1000": 5.906,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 140,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "of the economy",
+      "right_3": "depend significantly on",
+      "sentence": "The path of the economy will depend significantly on the course of the virus, including progress on vaccinations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 207,
+      "head_verb_surface": "aim",
+      "head_verb_lemma": "aim",
+      "left_3": ", the Committee",
+      "right_3": "aim to achieve",
+      "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longerâterm inflation expectations remain well anchored at 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 268,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and expects it",
+      "right_3": "be appropriate to",
+      "sentence": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 333,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "the Federal Reserve",
+      "right_3": "continue to increase",
+      "sentence": "In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgageâbacked securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 412,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to monitor",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 437,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". The Committee",
+      "right_3": "be prepared to",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 437,
+      "head_verb_surface": "impede",
+      "head_verb_lemma": "impede",
+      "left_3": "risks emerge that",
+      "right_3": "impede the attainment",
+      "sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 465,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Committee 's assessments",
+      "right_3": "take into account",
+      "sentence": "The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook."
+    }
+  ]
+}

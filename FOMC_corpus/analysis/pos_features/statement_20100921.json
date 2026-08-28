@@ -1,0 +1,167 @@
+{
+  "doc_id": "statement_20100921",
+  "doc_type": "statement",
+  "date": "2010-09-21",
+  "chair": "Bernanke",
+  "n_tokens": 435,
+  "n_sents": 16,
+  "pos_counts": {
+    "NNP": 43,
+    "CD": 4,
+    ",": 24,
+    "JJ": 51,
+    "NN": 78,
+    "IN": 59,
+    "VBD": 10,
+    "DT": 32,
+    "VBZ": 15,
+    "CC": 15,
+    "VBN": 8,
+    "NNS": 32,
+    ".": 16,
+    "VBG": 12,
+    "RB": 10,
+    "JJR": 4,
+    "RBR": 3,
+    "TO": 18,
+    "VB": 22,
+    "VBP": 5,
+    "RBS": 1,
+    "PRP$": 6,
+    "HYPH": 2,
+    "MD": 4,
+    ":": 8,
+    "WP": 1,
+    "PRP": 1,
+    "WDT": 1
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "will": 4
+  },
+  "modals_per_1000": 9.195,
+  "epistemic_count": 9,
+  "epistemic_lemma_counts": {
+    "anticipate": 2,
+    "likely": 3,
+    "judge": 2,
+    "believe": 2
+  },
+  "epistemics_per_1000": 20.69,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 234,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "maintain the target",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 292,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "The Committee also",
+      "right_3": "maintain its existing",
+      "sentence": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 310,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "continue to monitor",
+      "sentence": "The Committee will continue to monitor the economic outlook and financial developments and is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 420,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "longer warranted and",
+      "right_3": "lead to future",
+      "sentence": "Accordingly, he believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted and will lead to future imbalances that undermine stable long-run growth."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, although the pace of economic recovery is likely to be modest in the near term."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, although the pace of economic recovery is likely to be modest in the near term."
+    },
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Measures of underlying inflation are currently at levels somewhat below those the Committee judges most consistent, over the longer run, with its mandate to promote maximum employment and price stability."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to remain subdued for some time before rising to levels the Committee considers consistent with its mandate."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Voting against the policy was Thomas M. Hoenig, who judged that the economy continues to recover at a moderate pace."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Accordingly, he believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted and will lead to future imbalances that undermine stable long-run growth."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In addition, given economic and financial conditions, Mr. Hoenig did not believe that continuing to reinvest principal payments from its securities holdings was required to support the Committeeâs policy objectives."
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "doc_id": "speech_powell_20220321a",
+  "doc_type": "speech",
+  "date": "2022-03-21",
+  "chair": "Powell",
+  "n_tokens": 2889,
+  "n_sents": 132,
+  "pos_counts": {
+    "NNP": 165,
+    "CD": 76,
+    ",": 170,
+    "NN": 545,
+    "IN": 417,
+    "``": 10,
+    "NNPS": 12,
+    "JJ": 253,
+    "CC": 92,
+    "''": 8,
+    "VBP": 61,
+    "PRP": 61,
+    "DT": 281,
+    "TO": 45,
+    "VB": 110,
+    ".": 131,
+    "RB": 143,
+    "NNS": 178,
+    "WP": 6,
+    "VBG": 70,
+    "POS": 10,
+    "PRP$": 33,
+    "VBZ": 82,
+    "VBN": 76,
+    ":": 9,
+    "JJS": 10,
+    "JJR": 24,
+    "EX": 5,
+    "RBR": 16,
+    "WDT": 13,
+    "VBD": 49,
+    "MD": 40,
+    "-LRB-": 15,
+    "-RRB-": 15,
+    "WRB": 8,
+    "HYPH": 27,
+    "RP": 8,
+    "RBS": 3,
+    "PDT": 1,
+    "LS": 1,
+    "SYM": 1
+  },
+  "modal_count": 40,
+  "modal_lemma_counts": {
+    "will": 15,
+    "could": 3,
+    "may": 7,
+    "might": 2,
+    "can": 4,
+    "would": 9
+  },
+  "modals_per_1000": 13.846,
+  "epistemic_count": 28,
+  "epistemic_lemma_counts": {
+    "obvious": 1,
+    "anticipate": 2,
+    "expect": 7,
+    "unlikely": 1,
+    "likely": 8,
+    "uncertain": 2,
+    "project": 2,
+    "believe": 3,
+    "apparently": 1,
+    "clearly": 1
+  },
+  "epistemics_per_1000": 9.692,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 217,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "ongoing rate increases",
+      "right_3": "be appropriate to",
+      "sentence": "At our meeting that concluded last week, we took several steps in pursuit of these goals: We raised our policy interest rate for the first time since the start of the pandemic and said that we anticipate that ongoing rate increases will be appropriate to reach our objectives."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 288,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "noted that action",
+      "right_3": "come as soon",
+      "sentence": "In my press conference, I noted that action could come as soon as our next meeting in May, though that is not a decision that we have made."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 350,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "today , I",
+      "right_3": "first discuss the",
+      "sentence": "In my comments today, I will first discuss the economic conditions that warrant these actions and then address the path ahead for monetary policy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 672,
+      "head_verb_surface": "elevated",
+      "head_verb_lemma": "elevate",
+      "left_3": "rate of unemployment",
+      "right_3": "be temporarily elevated",
+      "sentence": "One explanation is that the natural rate of unemployment may be temporarily elevated, so wage pressure is greater for any given level of unemployment."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 698,
+      "head_verb_surface": "taxed",
+      "head_verb_lemma": "tax",
+      "left_3": "volume of hiring",
+      "right_3": "have taxed the",
+      "sentence": "The sheer volume of hiring may have taxed the capacity of the market to bring workers and jobs together."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 718,
+      "head_verb_surface": "allowed",
+      "head_verb_lemma": "allow",
+      "left_3": "position of households",
+      "right_3": "have allowed some",
+      "sentence": "The Delta and Omicron variants complicated hiring, and the strong financial position of households may have allowed some to be more selective in their job search."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 746,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "time , we",
+      "right_3": "expect these factors",
+      "sentence": "Over time, we might expect these factors to fade, reducing pressure in the job market."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 872,
+      "head_verb_surface": "fade",
+      "head_verb_lemma": "fade",
+      "left_3": "to factors that",
+      "right_3": "fade with time",
+      "sentence": "But some nonparticipation is due to factors that may fade with time, such as caregiving needs and fear of contracting COVID-19."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 960,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "monetary policy tools",
+      "right_3": "not help with",
+      "sentence": "Our monetary policy tools cannot help with labor supply in the near term, but in a long expansion, the factors holding back supply will likely ease."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 960,
+      "head_verb_surface": "ease",
+      "head_verb_lemma": "ease",
+      "left_3": "holding back supply",
+      "right_3": "likely ease .",
+      "sentence": "Our monetary policy tools cannot help with labor supply in the near term, but in a long expansion, the factors holding back supply will likely ease."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1062,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "that 2021 inflation",
+      "right_3": "be below 4",
+      "sentence": "For example, at the time of our June 2021 meeting, every Federal Open Market Committee (FOMC) participant and all but one of 35 submissions in the Survey of Professional Forecasters predicted that 2021 inflation would be below 4 percent."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1397,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "- side damage",
+      "right_3": "begin to heal",
+      "sentence": "3  Expectations were that the supply-side damage would begin to heal."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1412,
+      "head_verb_surface": "reopenâfreeing",
+      "head_verb_lemma": "reopenâfreeing",
+      "left_3": "heal . Schools",
+      "right_3": "reopenâfreeing parents to",
+      "sentence": "Schools would reopenâfreeing parents to return to workâand labor supply would begin bouncing back, kinks in supply chains would begin resolving, and consumption would start rotating back to services, all of which could reduce price pressures."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1412,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "workâand labor supply",
+      "right_3": "begin bouncing back",
+      "sentence": "Schools would reopenâfreeing parents to return to workâand labor supply would begin bouncing back, kinks in supply chains would begin resolving, and consumption would start rotating back to services, all of which could reduce price pressures."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1412,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "in supply chains",
+      "right_3": "begin resolving ,",
+      "sentence": "Schools would reopenâfreeing parents to return to workâand labor supply would begin bouncing back, kinks in supply chains would begin resolving, and consumption would start rotating back to services, all of which could reduce price pressures."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1412,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": ", and consumption",
+      "right_3": "start rotating back",
+      "sentence": "Schools would reopenâfreeing parents to return to workâand labor supply would begin bouncing back, kinks in supply chains would begin resolving, and consumption would start rotating back to services, all of which could reduce price pressures."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1412,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "all of which",
+      "right_3": "reduce price pressures",
+      "sentence": "Schools would reopenâfreeing parents to return to workâand labor supply would begin bouncing back, kinks in supply chains would begin resolving, and consumption would start rotating back to services, all of which could reduce price pressures."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1467,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of the reason",
+      "right_3": "be that ,",
+      "sentence": "Part of the reason may be that, contrary to expectations, COVID has not gone away with the arrival of vaccines."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1509,
+      "head_verb_surface": "come",
+      "head_verb_lemma": "come",
+      "left_3": "- side healing",
+      "right_3": "come over time",
+      "sentence": "It continues to seem likely that hoped-for supply-side healing will come over time as the world ultimately settles into some new normal, but the timing and scope of that relief are highly uncertain."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1548,
+      "head_verb_surface": "looking",
+      "head_verb_lemma": "look",
+      "left_3": "policy , we",
+      "right_3": "be looking to",
+      "sentence": "In the meantime, as we set policy, we will be looking to actual progress on these issues and not assuming significant near-term supply-side relief."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1625,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "federal funds rate",
+      "right_3": "remain at its",
+      "sentence": "In June, the median FOMC participant projected that the federal funds rate would remain at its effective lower bound through the end of 2022, and as the news came in, the projected policy paths shifted higher ( figure 5 )."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1735,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "those to come",
+      "right_3": "help bring inflation",
+      "sentence": "I believe that these policy actions and those to come will help bring inflation down near 2 percent over the next 3 years."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1795,
+      "head_verb_surface": "change",
+      "head_verb_lemma": "change",
+      "left_3": "most likely scenario",
+      "right_3": "change quite quickly",
+      "sentence": "The events of the past four weeks remind us that, in tumultuous times, what seems like the most likely scenario may change quite quickly: Each Summary of Economic Projections reflects a point in time and can become outdated quickly at times like these, when events are developing rapidly."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1795,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "in time and",
+      "right_3": "become outdated quickly",
+      "sentence": "The events of the past four weeks remind us that, in tumultuous times, what seems like the most likely scenario may change quite quickly: Each Summary of Economic Projections reflects a point in time and can become outdated quickly at times like these, when events are developing rapidly."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1849,
+      "head_verb_surface": "adjust",
+      "head_verb_lemma": "adjust",
+      "left_3": "evolves , we",
+      "right_3": "adjust policy as",
+      "sentence": "Thus, my main message today is that, as the outlook evolves, we will adjust policy as needed in order to ensure a return to price stability with a strong job market."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1899,
+      "head_verb_surface": "fallout",
+      "head_verb_lemma": "fallout",
+      "left_3": ". \n\n How",
+      "right_3": "fallout from the",
+      "sentence": "How will fallout from the invasion of Ukraine affect the economy and monetary policy?"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1915,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "invasion of Ukraine",
+      "right_3": "have significant effects",
+      "sentence": "Russia's invasion of Ukraine may have significant effects on the world economy and the U.S. economy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2008,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": "chains , which",
+      "right_3": "create spillovers to",
+      "sentence": "In addition to the direct effects from higher global oil and commodity prices, the invasion and related events are likely to restrain economic activity abroad and further disrupt supply chains, which would create spillovers to the U.S. economy."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2050,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": ". \n\n We",
+      "right_3": "look to the",
+      "sentence": "We might look to the historical experience with oil price shocks in the 1970sânot a happy story."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2173,
+      "head_verb_surface": "lower",
+      "head_verb_lemma": "lower",
+      "left_3": "that monetary policy",
+      "right_3": "lower inflation without",
+      "sentence": "Second, how likely is it that monetary policy can lower inflation without causing a recession?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2413,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a soft landing",
+      "right_3": "be straightforward in",
+      "sentence": "7  I hasten to add that no one expects that bringing about a soft landing will be straightforward in the current contextâvery little is straightforward in the current context."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2462,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "colleagues and I",
+      "right_3": "do our very",
+      "sentence": "My colleagues and I will do our very best to succeed in this challenging task."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2500,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "Finally , what",
+      "right_3": "it take to",
+      "sentence": "Finally, what will it take to restore price stability?"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2562,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "outcome . We",
+      "right_3": "take the necessary",
+      "sentence": "We will take the necessary steps to ensure a return to price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2576,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "meetings , we",
+      "right_3": "do so .",
+      "sentence": "In particular, if we conclude that it is appropriate to move more aggressively by raising the federal funds rate by more than 25 basis points at a meeting or meetings, we will do so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2613,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "stance , we",
+      "right_3": "do that as",
+      "sentence": "And if we determine that we need to tighten beyond common measures of neutral and into a more restrictive stance, we will do that as well."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2690,
+      "head_verb_surface": "measure",
+      "head_verb_lemma": "measure",
+      "left_3": ". While we",
+      "right_3": "not measure longer",
+      "sentence": "While we cannot measure longer-term expectations directly, we monitor a variety of survey- and market-based indicators."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2784,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": ", monetary policy",
+      "right_3": "look through a",
+      "sentence": "In normal times, when employment and inflation are close to our objectives, monetary policy would look through a brief burst of inflation associated with commodity price shocks."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2814,
+      "head_verb_surface": "push",
+      "head_verb_lemma": "push",
+      "left_3": "of high inflation",
+      "right_3": "push longer -",
+      "sentence": "However, the risk is rising that an extended period of high inflation could push longer-term expectations uncomfortably higher, which underscores the need for the Committee to move expeditiously as I have described."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2927,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": ", and we",
+      "right_3": "use them to",
+      "sentence": "We have the necessary tools, and we will use them to restore price stability."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "obvious",
+      "lemma": "obvious",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "There is an obvious need to move expeditiously to return the stance of monetary policy to a more neutral level, and then to move to more restrictive levels if that is what is required to restore price stability."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "At our meeting that concluded last week, we took several steps in pursuit of these goals: We raised our policy interest rate for the first time since the start of the pandemic and said that we anticipate that ongoing rate increases will be appropriate to reach our objectives."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We also said that we expect to begin reducing the size of our balance sheet at a coming meeting."
+    },
+    {
+      "surface": "anticipated",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The unemployment rate has fallen to 3.8 percent, near historical lows, and has reached this level much faster than anticipated by most forecasters ( figure 1 )."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Over time, we might expect these factors to fade, reducing pressure in the job market."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "1  History suggests that most of those retirees are unlikely to reenter the workforce."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "A more complete rebound is, however, likely to take some time."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Our monetary policy tools cannot help with labor supply in the near term, but in a long expansion, the factors holding back supply will likely ease."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The rise in inflation has been much greater and more persistent than forecasters generally expected."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Production remains below pre-pandemic levels, and an expected sharp decline in prices has been repeatedly postponed."
+    },
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Many forecasters, including FOMC participants, had been expecting inflation to cool in the second half of last year, as the economy started going back to normal after vaccines became widely available."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "It continues to seem likely that hoped-for supply-side healing will come over time as the world ultimately settles into some new normal, but the timing and scope of that relief are highly uncertain."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "It continues to seem likely that hoped-for supply-side healing will come over time as the world ultimately settles into some new normal, but the timing and scope of that relief are highly uncertain."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In June, the median FOMC participant projected that the federal funds rate would remain at its effective lower bound through the end of 2022, and as the news came in, the projected policy paths shifted higher ( figure 5 )."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "In June, the median FOMC participant projected that the federal funds rate would remain at its effective lower bound through the end of 2022, and as the news came in, the projected policy paths shifted higher ( figure 5 )."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The latest FOMC statement also indicates that the Committee expects to begin reducing the size of our balance sheet at a coming meeting."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I believe that these policy actions and those to come will help bring inflation down near 2 percent over the next 3 years."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Instead, they are a summary of what the FOMC participants see as the most likely case going forward."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The events of the past four weeks remind us that, in tumultuous times, what seems like the most likely scenario may change quite quickly: Each Summary of Economic Projections reflects a point in time and can become outdated quickly at times like these, when events are developing rapidly."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Let me now turn to three questions about the likely evolution of policy."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The magnitude and persistence of these effects remain highly uncertain and depend on events yet to come."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In addition to the direct effects from higher global oil and commodity prices, the invasion and related events are likely to restrain economic activity abroad and further disrupt supply chains, which would create spillovers to the U.S. economy."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Second, how likely is it that monetary policy can lower inflation without causing a recession?"
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I believe that the historical record provides some grounds for optimism: Soft, or at least soft-ish, landings have been relatively common in U.S. monetary history."
+    },
+    {
+      "surface": "apparently",
+      "lemma": "apparently",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "6  In other cases, recessions chronologically followed the conclusion of a tightening cycle, but the recessions were not apparently due to excessive tightening of monetary policy."
+    },
+    {
+      "surface": "expects",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "7  I hasten to add that no one expects that bringing about a soft landing will be straightforward in the current contextâvery little is straightforward in the current context."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I believe that the policy approach that I have laid out is well suited to achieving this outcome."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "As I argued more fully in a previous speech, while the postwar recessions up through 1981 were arguably the result of stop-and-go policy, none of the recessions since then fit that mold so clearly; see Jerome H. Powell (2018),  \"Monetary Policy in a Changing Economy ,\" speech delivered at \"Changing Market Structure and Implications for Monetary Policy,\" a symposium sponsored by the Federal Reserve"
+    }
+  ]
+}

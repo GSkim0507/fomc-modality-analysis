@@ -1,0 +1,980 @@
+{
+  "doc_id": "speech_bernanke_20120326a",
+  "doc_type": "speech",
+  "date": "2012-03-26",
+  "chair": "Bernanke",
+  "n_tokens": 4971,
+  "n_sents": 178,
+  "pos_counts": {
+    "NNP": 402,
+    "CD": 166,
+    ",": 343,
+    "NNPS": 15,
+    "IN": 783,
+    "DT": 550,
+    "PRP$": 22,
+    "NNS": 310,
+    "NN": 956,
+    "MD": 65,
+    "VB": 153,
+    "JJ": 452,
+    "CC": 153,
+    ".": 182,
+    "PRP": 44,
+    "VBP": 87,
+    "VBN": 112,
+    "RB": 224,
+    "VBG": 84,
+    "VBZ": 129,
+    "JJR": 46,
+    "WP": 19,
+    ":": 41,
+    "VBD": 43,
+    "JJS": 9,
+    "TO": 56,
+    "HYPH": 75,
+    "POS": 23,
+    "WRB": 11,
+    "WDT": 29,
+    "RP": 7,
+    "-LRB-": 49,
+    "-RRB-": 49,
+    "SYM": 14,
+    "``": 28,
+    "RBR": 28,
+    "''": 18,
+    "PDT": 3,
+    "UH": 1,
+    "EX": 1,
+    "RBS": 1,
+    "LS": 1
+  },
+  "modal_count": 65,
+  "modal_lemma_counts": {
+    "will": 17,
+    "may": 10,
+    "should": 5,
+    "would": 11,
+    "might": 7,
+    "must": 4,
+    "could": 6,
+    "can": 5
+  },
+  "modals_per_1000": 13.076,
+  "epistemic_count": 31,
+  "epistemic_lemma_counts": {
+    "judge": 1,
+    "likely": 9,
+    "possible": 3,
+    "expect": 5,
+    "potential": 7,
+    "certainly": 1,
+    "perhaps": 2,
+    "assess": 1,
+    "probably": 1,
+    "possibly": 1
+  },
+  "epistemics_per_1000": 6.236,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 13,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "My remarks today",
+      "right_3": "focus on recent",
+      "sentence": "Ben S. Bernanke\r    At the National Association for Business Economics Annual Conference, Arlington, Virginia  Share  \r  My remarks today will focus on recent and prospective developments in the labor market."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 234,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "- term unemployment",
+      "right_3": "ultimately reduce the",
+      "sentence": "But in addition, because of its negative effects on workers' skills and attachment to the labor force, long-term unemployment may ultimately reduce the productive capacity of our economy."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 329,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "broader economic recovery",
+      "right_3": "be effective in",
+      "sentence": "If cyclical factors predominate, then policies that support a broader economic recovery should be effective in addressing long-term unemployment as well; if the causes are structural, then other policy tools will be needed."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 329,
+      "head_verb_surface": "needed",
+      "head_verb_lemma": "need",
+      "left_3": "other policy tools",
+      "right_3": "be needed .",
+      "sentence": "If cyclical factors predominate, then policies that support a broader economic recovery should be effective in addressing long-term unemployment as well; if the causes are structural, then other policy tools will be needed."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 369,
+      "head_verb_surface": "argue",
+      "head_verb_lemma": "argue",
+      "left_3": ".    I",
+      "right_3": "argue today that",
+      "sentence": "I will argue today that, while both cyclical and structural forces have doubtless contributed to the increase in long-term unemployment, the continued weakness in aggregate demand is likely the predominant factor."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 406,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "the recovery ,",
+      "right_3": "help , over",
+      "sentence": "Consequently, the Federal Reserve's accommodative monetary policies, by providing support for demand and for the recovery, should help, over time, to reduce long-term unemployment as well."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 654,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "from where we",
+      "right_3": "like to be",
+      "sentence": "Currently, hours worked are still about 4 percent below the pre-recession peak--a clear improvement from where we were two years ago, but still far from where we would like to be."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 799,
+      "head_verb_surface": "note",
+      "head_verb_lemma": "note",
+      "left_3": ".    I",
+      "right_3": "note , however",
+      "sentence": "I should note, however, that month-to-month changes in this measure are much more volatile than the employment measure from the establishment survey, which is why the Federal Reserve puts more weight on the establishment survey for the purposes of short-term forecasting."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1314,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "the labor market",
+      "right_3": "likely need to",
+      "sentence": "The recent history of these flows suggests that further improvement in the labor market will likely need to come from a shift to a more robust pace of hiring."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1403,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": ", hiring rates",
+      "right_3": "need to return",
+      "sentence": "To achieve a more rapid recovery in the job market, hiring rates will need to return to more normal levels."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1439,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "? \n\r\n  What",
+      "right_3": "lead to more",
+      "sentence": "What will lead to more hiring and, consequently, further declines in unemployment?"
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1466,
+      "head_verb_surface": "expected",
+      "head_verb_lemma": "expect",
+      "left_3": "been faster than",
+      "right_3": "have been expected",
+      "sentence": "Indeed, the improvement in the labor market over the past year--especially the decline in the unemployment rateââhas been faster than might have been expected, given that the economy during that time appears to have grown at a relatively modest pace."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1616,
+      "head_verb_surface": "grow",
+      "head_verb_lemma": "grow",
+      "left_3": ", the economy",
+      "right_3": "grow at a",
+      "sentence": "To  reduce  the unemployment rate, therefore, the economy must grow at a pace above its potential."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1638,
+      "head_verb_surface": "grow",
+      "head_verb_lemma": "grow",
+      "left_3": ", real GDP",
+      "right_3": "grow approximately 2",
+      "sentence": "More specifically, according to currently accepted versions of Okun's law, to achieve a 1 percentage point decline in the unemployment rate in the course of a year, real GDP must grow approximately 2 percentage points faster than the rate of growth of potential GDP over that period."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1692,
+      "head_verb_surface": "grow",
+      "head_verb_lemma": "grow",
+      "left_3": "says that GDP",
+      "right_3": "grow at about",
+      "sentence": "So, for illustration, if the potential rate of GDP growth is 2 percent, Okun's law says that GDP must grow at about a 4 percent rate for one year to achieve a 1 percentage point reduction in the rate of unemployment."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1773,
+      "head_verb_surface": "give",
+      "head_verb_lemma": "give",
+      "left_3": "Resolving this puzzle",
+      "right_3": "give us important",
+      "sentence": "Resolving this puzzle could give us important insight into how the economy is likely to evolve."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1827,
+      "head_verb_surface": "seem",
+      "head_verb_lemma": "seem",
+      "left_3": "was greater than",
+      "right_3": "seem consistent with",
+      "sentence": "As illustrated by the position of the square labeled \"2011\" relative to the Okun's law relationship, represented by the line, the decline in the unemployment rate over the course of 2011 was greater than would seem consistent with GDP growth over that period."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1877,
+      "head_verb_surface": "estimate",
+      "head_verb_lemma": "estimate",
+      "left_3": "what most economists",
+      "right_3": "estimate to be",
+      "sentence": "Indeed, with last year's real GDP growth below 2 percent, less than what most economists would estimate to be the U.S. economy's potential rate of growth, one might have expected little change in the unemployment rate last year or even a slight increase."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 1877,
+      "head_verb_surface": "expected",
+      "head_verb_lemma": "expect",
+      "left_3": "growth , one",
+      "right_3": "have expected little",
+      "sentence": "Indeed, with last year's real GDP growth below 2 percent, less than what most economists would estimate to be the U.S. economy's potential rate of growth, one might have expected little change in the unemployment rate last year or even a slight increase."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1927,
+      "head_verb_surface": "resolved",
+      "head_verb_lemma": "resolve",
+      "left_3": ", and how",
+      "right_3": "the Okun 's",
+      "sentence": "What is this confluence of the significant decline in the unemployment rate and the modest recent increase in real GDP telling us about the state of the economy, and how will the Okun's law puzzle be resolved?"
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1968,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "Okun 's law",
+      "right_3": "reflect , in",
+      "sentence": "The apparent failure of Okun's law could reflect, in part, statistical noise."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1985,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "example , it",
+      "right_3": "be that future",
+      "sentence": "For example, it may be that future data revisions will show that real GDP grew more quickly over the past year than currently estimated."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1985,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": "future data revisions",
+      "right_3": "show that real",
+      "sentence": "For example, it may be that future data revisions will show that real GDP grew more quickly over the past year than currently estimated."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2012,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "that revised data",
+      "right_3": "ultimately explain part",
+      "sentence": "However, although it is certainly possible that revised data will ultimately explain part of the puzzle, at this point we have no specific evidence suggesting that such a revision might be in the offing."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2012,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "such a revision",
+      "right_3": "be in the",
+      "sentence": "However, although it is certainly possible that revised data will ultimately explain part of the puzzle, at this point we have no specific evidence suggesting that such a revision might be in the offing."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2132,
+      "head_verb_surface": "overstating",
+      "head_verb_lemma": "overstate",
+      "left_3": "the unemployment rate",
+      "right_3": "be overstating the",
+      "sentence": "Another logical possibility is that the decline in the unemployment rate could be overstating the improvement in the job market."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2154,
+      "head_verb_surface": "giving",
+      "head_verb_lemma": "give",
+      "left_3": ", potential workers",
+      "right_3": "be giving up",
+      "sentence": "For example, potential workers could be giving up on looking for work to an unusual extent."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2173,
+      "head_verb_surface": "reduce",
+      "head_verb_lemma": "reduce",
+      "left_3": "search for work",
+      "right_3": "reduce the unemployment",
+      "sentence": "Because a person has to be either working or looking for work to be counted as part of the labor force, an increase in the number of people too discouraged to continue their search for work would reduce the unemployment rate, all else being equal--but not for a positive reason."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2229,
+      "head_verb_surface": "seem",
+      "head_verb_lemma": "seem",
+      "left_3": "the labor force",
+      "right_3": "seem in line",
+      "sentence": "A story centered on potential workers dropping out of the labor force might seem in line with the low level of the labor force participation rate ( figure 9 )."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2431,
+      "head_verb_surface": "seen",
+      "head_verb_lemma": "see",
+      "left_3": "   This point",
+      "right_3": "be seen by",
+      "sentence": "This point can be seen by returning to figure 8, which shows the Okun's law relationship."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2539,
+      "head_verb_surface": "seeing",
+      "head_verb_lemma": "see",
+      "left_3": "that what we",
+      "right_3": "be seeing now",
+      "sentence": "The diagram suggests that what we may be seeing now is the flip side of the fear-driven layoffs that occurred during the worst part of the recession, as firms have become sufficiently confident to move their workforces into closer alignment with the expected demand for their products."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2591,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "Such a dynamic",
+      "right_3": "explain the position",
+      "sentence": "Such a dynamic would explain the position of the square labeled \"2011\" in that figure being far below the line representing Okun's law."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2662,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "improvements in unemployment",
+      "right_3": "likely require faster",
+      "sentence": "However, to the extent that the decline in the unemployment rate since last summer has brought unemployment back more into line with the level of aggregate demand, then further significant improvements in unemployment will likely require faster economic growth than we experienced during the past year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2712,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ".   It",
+      "right_3": "be especially important",
+      "sentence": "It will be especially important to evaluate incoming information to assess whether the recovery is picking up as improvements in the labor market feed through to consumer and business confidence; or, conversely, whether the headwinds that have impeded the recovery to date continue to restrain the pace at which the labor market and economic activity normalize."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3011,
+      "head_verb_surface": "last",
+      "head_verb_lemma": "last",
+      "left_3": "in earnings that",
+      "right_3": "last for many",
+      "sentence": "For example, research has shown that workers who lose previously stable jobs experience sharp declines in earnings that may last for many years, even after they find new work."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3100,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "'s health and",
+      "right_3": "have long -",
+      "sentence": "3    Unemployment also takes a toll on people's health and may have long-term consequences for the families of the unemployed as well."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3128,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ", and they",
+      "right_3": "have a lower",
+      "sentence": "For example, studies suggest that unemployed people suffer from a higher incidence of stressârelated health problems such as depression, stroke, and heart disease, and they may have a lower life expectancy."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3309,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "- term unemployment",
+      "right_3": "in itself be",
+      "sentence": "In the shorter term, because the process of matching the long-term unemployed to jobs typically takes more time, the currently high level of long-term unemployment might in itself be a reason that further progress in reducing the unemployment rate, and thus in achieving a more complete recovery, could be slow."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3309,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "complete recovery ,",
+      "right_3": "be slow .",
+      "sentence": "In the shorter term, because the process of matching the long-term unemployed to jobs typically takes more time, the currently high level of long-term unemployment might in itself be a reason that further progress in reducing the unemployment rate, and thus in achieving a more complete recovery, could be slow."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3422,
+      "head_verb_surface": "persist",
+      "head_verb_lemma": "persist",
+      "left_3": "- term unemployment",
+      "right_3": "persist for quite",
+      "sentence": "If this view is correct, then high levels of long-term unemployment could persist for quite a while, even after the economy has more fully recovered."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3563,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "to reduce unemployment",
+      "right_3": "be impaired ,",
+      "sentence": "To the extent that higher rates of unemployment, especially long-term unemployment, result from structural factors, the scope for countercyclical policies to reduce unemployment would be impaired, and the benefits of a more complete economic recovery for many workers who are unemployed or discouraged would be more limited."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3563,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "unemployed or discouraged",
+      "right_3": "be more limited",
+      "sentence": "To the extent that higher rates of unemployment, especially long-term unemployment, result from structural factors, the scope for countercyclical policies to reduce unemployment would be impaired, and the benefits of a more complete economic recovery for many workers who are unemployed or discouraged would be more limited."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3786,
+      "head_verb_surface": "fallen",
+      "head_verb_lemma": "fall",
+      "left_3": "- term unemployed",
+      "right_3": "have fallen sharply",
+      "sentence": "If the recent increase in long-term unemployment were being driven by structural factors rather than, say, the severity of the recession, then the job-finding rates of the long-term unemployed should have fallen sharply relative to those out of work for only a few weeks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3947,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", where there",
+      "right_3": "be some mismatch",
+      "sentence": "Counterexamples like the energy boom in the upper Midwest, where there may be some mismatch in the geographic location of suitably skilled workers or an overall shortage of potential workers with relevant skills, might best be interpreted as the exceptions that prove the rule; a mismatch story would suggest that strong labor demand would be appearing in more sectors or geographical areas by now."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3947,
+      "head_verb_surface": "interpreted",
+      "head_verb_lemma": "interpret",
+      "left_3": "relevant skills ,",
+      "right_3": "best be interpreted",
+      "sentence": "Counterexamples like the energy boom in the upper Midwest, where there may be some mismatch in the geographic location of suitably skilled workers or an overall shortage of potential workers with relevant skills, might best be interpreted as the exceptions that prove the rule; a mismatch story would suggest that strong labor demand would be appearing in more sectors or geographical areas by now."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3947,
+      "head_verb_surface": "suggest",
+      "head_verb_lemma": "suggest",
+      "left_3": "a mismatch story",
+      "right_3": "suggest that strong",
+      "sentence": "Counterexamples like the energy boom in the upper Midwest, where there may be some mismatch in the geographic location of suitably skilled workers or an overall shortage of potential workers with relevant skills, might best be interpreted as the exceptions that prove the rule; a mismatch story would suggest that strong labor demand would be appearing in more sectors or geographical areas by now."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3947,
+      "head_verb_surface": "appearing",
+      "head_verb_lemma": "appear",
+      "left_3": "strong labor demand",
+      "right_3": "be appearing in",
+      "sentence": "Counterexamples like the energy boom in the upper Midwest, where there may be some mismatch in the geographic location of suitably skilled workers or an overall shortage of potential workers with relevant skills, might best be interpreted as the exceptions that prove the rule; a mismatch story would suggest that strong labor demand would be appearing in more sectors or geographical areas by now."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4254,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": "higher than it",
+      "right_3": "have been before",
+      "sentence": "Then, for a given number of job openings, the number of the unemployed who are qualified for those jobs is smaller and the unemployment rate is higher than it would have been before the mismatch problem worsened."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 4295,
+      "head_verb_surface": "reflected",
+      "head_verb_lemma": "reflect",
+      "left_3": "a skills mismatch",
+      "right_3": "be reflected in",
+      "sentence": "Graphically, an increase in a skills mismatch would be reflected in a shift of the Beveridge curve up and to the right."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4320,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "14 , we",
+      "right_3": "see some outward",
+      "sentence": "From figure 14, we can see some outward shift in the relationship between job vacancies and unemployment, consistent with some increase in structural unemployment since the onset of the recession."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4430,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a deep recession",
+      "right_3": "be the result",
+      "sentence": "This temporary outward shift during a deep recession may be the result of a particularly sharp increase in layoffs, which raises unemployment quickly, even as vacancies adjust more slowly."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 4463,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "unemployed workers who",
+      "right_3": "otherwise consider leaving",
+      "sentence": "Another possible explanation for a temporary shift in the Beveridge curve is extended and emergency unemployment insurance, which induces unemployed workers who might otherwise consider leaving the labor force to continue searching for work."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4500,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "   Or employers",
+      "right_3": "be more selective",
+      "sentence": "Or employers may be more selective in hiring when their need for workers is not pressing and take more time to fill vacancies in an effort to find especially qualified hires."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4689,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Moreover , we",
+      "right_3": "not yet be",
+      "sentence": "Moreover, we cannot yet be sure that the recent pace of improvement in the labor market will be sustained."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4689,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "the labor market",
+      "right_3": "be sustained .",
+      "sentence": "Moreover, we cannot yet be sure that the recent pace of improvement in the labor market will be sustained."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4712,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "the unemployment rate",
+      "right_3": "reflect , at",
+      "sentence": "Notably, an examination of recent deviations from Okun's law suggests that the recent decline in the unemployment rate may reflect, at least in part, a reversal of the unusually large layoffs that occurred during late 2008 and over 2009."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4757,
+      "head_verb_surface": "require",
+      "head_verb_lemma": "require",
+      "left_3": "the unemployment rate",
+      "right_3": "likely require a",
+      "sentence": "To the extent that this reversal has been completed, further significant improvements in the unemployment rate will likely require a more-rapid expansion of production and demand from consumers and businesses, a process that can be supported by continued accommodative policies."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4757,
+      "head_verb_surface": "supported",
+      "head_verb_lemma": "support",
+      "left_3": "a process that",
+      "right_3": "be supported by",
+      "sentence": "To the extent that this reversal has been completed, further significant improvements in the unemployment rate will likely require a more-rapid expansion of production and demand from consumers and businesses, a process that can be supported by continued accommodative policies."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4833,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "the economic recovery",
+      "right_3": "help address this",
+      "sentence": "If this assessment is correct, then accommodative policies to support the economic recovery will help address this problem as well."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 4856,
+      "head_verb_surface": "watch",
+      "head_verb_lemma": "watch",
+      "left_3": ".    We",
+      "right_3": "watch long -",
+      "sentence": "We must watch long-term unemployment especially carefully, however."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4869,
+      "head_verb_surface": "see",
+      "head_verb_lemma": "see",
+      "left_3": "- term unemployed",
+      "right_3": "see their skills",
+      "sentence": "Even if the primary cause of high long-term unemployment is insufficient aggregate demand, if progress in reducing unemployment is too slow, the long-term unemployed will see their skills and labor force attachment atrophy further, possibly converting a cyclical problem into a structural one."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4921,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "address this problem",
+      "right_3": "be more limited",
+      "sentence": "If this hypothesis is wrong and structural factors are in fact explaining much of the increase in long-term unemployment, then the scope for countercyclical policies to address this problem will be more limited."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4959,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": "however , we",
+      "right_3": "not conclude that",
+      "sentence": "Even if that proves to be the case, however, we should not conclude that nothing can be done."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4959,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "conclude that nothing",
+      "right_3": "be done .",
+      "sentence": "Even if that proves to be the case, however, we should not conclude that nothing can be done."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4981,
+      "head_verb_surface": "become",
+      "head_verb_lemma": "become",
+      "left_3": "unemployment , it",
+      "right_3": "become even more",
+      "sentence": "If structural factors are the predominant explanation for the increase in long-term unemployment, it will become even more important to take the steps needed to ensure that workers are able to obtain the skills needed to meet the demands of our rapidly changing economy."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Importantly, despite the recent improvement, the job market remains far from normal; for example, the number of people working and total hours worked are still significantly below pre-crisis peaks, while the unemployment rate remains well above what most economists judge to be its long-run sustainable level."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "I will argue today that, while both cyclical and structural forces have doubtless contributed to the increase in long-term unemployment, the continued weakness in aggregate demand is likely the predominant factor."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Employment as estimated from the household survey, adjusted to correspond as closely as possible to the concept of employment measured in the establishment survey ( figure 3 ), also shows an improvement in the labor market--indeed, by somewhat more than in the establishment survey."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The recent history of these flows suggests that further improvement in the labor market will likely need to come from a shift to a more robust pace of hiring."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Indeed, the improvement in the labor market over the past year--especially the decline in the unemployment rateââhas been faster than might have been expected, given that the economy during that time appears to have grown at a relatively modest pace."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "More specifically, according to currently accepted versions of Okun's law, to achieve a 1 percentage point decline in the unemployment rate in the course of a year, real GDP must grow approximately 2 percentage points faster than the rate of growth of potential GDP over that period."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "So, for illustration, if the potential rate of GDP growth is 2 percent, Okun's law says that GDP must grow at about a 4 percent rate for one year to achieve a 1 percentage point reduction in the rate of unemployment."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Resolving this puzzle could give us important insight into how the economy is likely to evolve."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Indeed, with last year's real GDP growth below 2 percent, less than what most economists would estimate to be the U.S. economy's potential rate of growth, one might have expected little change in the unemployment rate last year or even a slight increase."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Indeed, with last year's real GDP growth below 2 percent, less than what most economists would estimate to be the U.S. economy's potential rate of growth, one might have expected little change in the unemployment rate last year or even a slight increase."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "However, although it is certainly possible that revised data will ultimately explain part of the puzzle, at this point we have no specific evidence suggesting that such a revision might be in the offing."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "However, although it is certainly possible that revised data will ultimately explain part of the puzzle, at this point we have no specific evidence suggesting that such a revision might be in the offing."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "For example, potential workers could be giving up on looking for work to an unusual extent."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "A story centered on potential workers dropping out of the labor force might seem in line with the low level of the labor force participation rate ( figure 9 )."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "In other words, employers reduced their workforces at an unusually rapid rate near the business cycle trough--perhaps because they feared an even more severe contraction to come or, with credit availability sharply curtailed, they were trying to conserve available cash."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The diagram suggests that what we may be seeing now is the flip side of the fear-driven layoffs that occurred during the worst part of the recession, as firms have become sufficiently confident to move their workforces into closer alignment with the expected demand for their products."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Of course, Okun's law is a noisy relationship, and we don't really know if the better-than-expected labor market performance of 2011 has largely offset the worse-than-expected performance in 2009."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Of course, Okun's law is a noisy relationship, and we don't really know if the better-than-expected labor market performance of 2011 has largely offset the worse-than-expected performance in 2009."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "However, to the extent that the decline in the unemployment rate since last summer has brought unemployment back more into line with the level of aggregate demand, then further significant improvements in unemployment will likely require faster economic growth than we experienced during the past year."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "It will be especially important to evaluate incoming information to assess whether the recovery is picking up as improvements in the labor market feed through to consumer and business confidence; or, conversely, whether the headwinds that have impeded the recovery to date continue to restrain the pace at which the labor market and economic activity normalize."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "People unemployed for a long time have historically found jobs less easily than those experiencing shorter spells of unemployment, perhaps because their skills erode, they lose relationships within the workforce, or they acquire a stigma that deters firms from hiring them."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "For example, because an older worker who loses a job typically takes longer to find a new job than does a younger worker in the same situation, the aging of the baby boom generation has probably contributed to a gradual rise in long-term unemployment."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Factors such as globalization, technological change, and the loss of lower-skill manufacturing jobs have likely reduced the employability and earnings potential of some groups of workers."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Counterexamples like the energy boom in the upper Midwest, where there may be some mismatch in the geographic location of suitably skilled workers or an overall shortage of potential workers with relevant skills, might best be interpreted as the exceptions that prove the rule; a mismatch story would suggest that strong labor demand would be appearing in more sectors or geographical areas by now."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "However, a more in-depth analysis of the evidence suggests that the apparent shift in the relationship between vacancies and unemployment is neither unusual for a recession nor likely to be persistent."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Another possible explanation for a temporary shift in the Beveridge curve is extended and emergency unemployment insurance, which induces unemployed workers who might otherwise consider leaving the labor force to continue searching for work."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In any case, the data appear consistent with the shift in the vacancy-unemployment relationship in recent years having been relatively modest and likely to reverse, at least in part, as the economy recovers further."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "To the extent that this reversal has been completed, further significant improvements in the unemployment rate will likely require a more-rapid expansion of production and demand from consumers and businesses, a process that can be supported by continued accommodative policies."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "I also discussed long-term unemployment today, arguing that cyclical rather than structural factors are likely the primary source of its substantial increase during the recession."
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Even if the primary cause of high long-term unemployment is insufficient aggregate demand, if progress in reducing unemployment is too slow, the long-term unemployed will see their skills and labor force attachment atrophy further, possibly converting a cyclical problem into a structural one."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Other factors affecting the Beveridge curve include the role of extended unemployment benefits and potential effects of lags between vacancies and hiring; on the effects of unemployment benefits, see Robert Valletta and Katherine Kuang (2010), \" Extended Unemployment and UI Benefits ,\" Federal Reserve Bank of San Francisco,  FRBSF Economic Letter,  2010-12, April 19; on the lag between job vacanci"
+    }
+  ]
+}

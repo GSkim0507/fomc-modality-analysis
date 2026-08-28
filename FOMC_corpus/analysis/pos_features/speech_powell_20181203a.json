@@ -1,0 +1,113 @@
+{
+  "doc_id": "speech_powell_20181203a",
+  "doc_type": "speech",
+  "date": "2018-12-03",
+  "chair": "Powell",
+  "n_tokens": 1057,
+  "n_sents": 51,
+  "pos_counts": {
+    "NNP": 161,
+    "CD": 34,
+    ",": 74,
+    "VBG": 24,
+    "IN": 131,
+    "DT": 98,
+    "VBP": 25,
+    "PRP": 25,
+    ".": 49,
+    "VBZ": 29,
+    "NN": 165,
+    "TO": 18,
+    "VB": 30,
+    "JJ": 75,
+    "NNS": 67,
+    "POS": 10,
+    "CC": 46,
+    "WP": 2,
+    "VBD": 8,
+    "RB": 21,
+    "MD": 4,
+    "WDT": 10,
+    "PRP$": 13,
+    ":": 8,
+    "VBN": 28,
+    "JJS": 1,
+    "PDT": 2,
+    "EX": 2,
+    "JJR": 8,
+    "RBR": 4,
+    "LS": 2,
+    "NNPS": 9,
+    "HYPH": 6,
+    "RP": 4,
+    "WRB": 3,
+    "-LRB-": 7,
+    "-RRB-": 7,
+    "``": 9,
+    "''": 5
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "would": 1,
+    "will": 2,
+    "can": 1
+  },
+  "modals_per_1000": 3.784,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "potential": 1
+  },
+  "epistemics_per_1000": 0.946,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 92,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "Briefly , I",
+      "right_3": "like to focus",
+      "sentence": "Briefly, I would like to focus on the importance of promoting a strong economy that extends opportunity to all and on the role our community development staff plays to advance that goal."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 382,
+      "head_verb_surface": "sustained",
+      "head_verb_lemma": "sustain",
+      "left_3": "a trend that",
+      "right_3": "be sustained .",
+      "sentence": "Productivity has picked up in recent months after several years of very slow growth, but it is not clear whether this is a trend that will be sustained."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 801,
+      "head_verb_surface": "given",
+      "head_verb_lemma": "give",
+      "left_3": "in community development",
+      "right_3": "today and thenceforth",
+      "sentence": "And speaking of service: It is fitting that this award for excellence in community development will today and thenceforth be given in honor of Janet Yellen."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1222,
+      "head_verb_surface": "succeed",
+      "head_verb_lemma": "succeed",
+      "left_3": "So We All",
+      "right_3": "Succeed : 125",
+      "sentence": "So We All Can Succeed: 125 Years of Women's Participation in the Economy \"  (speech delivered at \"125 Years of Women at Brown,\" a conference sponsored by Brown University, Providence, Rhode Island, May 5, 2015)."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "An aging population is limiting growth in labor supply, which in turn limits potential growth."
+    }
+  ]
+}

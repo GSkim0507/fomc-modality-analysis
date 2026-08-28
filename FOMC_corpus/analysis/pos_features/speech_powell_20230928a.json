@@ -1,0 +1,168 @@
+{
+  "doc_id": "speech_powell_20230928a",
+  "doc_type": "speech",
+  "date": "2023-09-28",
+  "chair": "Powell",
+  "n_tokens": 781,
+  "n_sents": 37,
+  "pos_counts": {
+    "NNP": 63,
+    "CD": 10,
+    ",": 53,
+    "IN": 105,
+    "DT": 73,
+    ":": 7,
+    "NN": 97,
+    "-LRB-": 3,
+    "CC": 31,
+    "JJ": 47,
+    "-RRB-": 8,
+    "NNS": 53,
+    "XX": 10,
+    "VBP": 39,
+    "SYM": 8,
+    "VBZ": 15,
+    "RB": 43,
+    "RP": 2,
+    "MD": 8,
+    "VB": 29,
+    "VBN": 11,
+    ".": 32,
+    "PRP": 55,
+    "WP": 6,
+    "VBD": 19,
+    "PRP$": 22,
+    "TO": 17,
+    "VBG": 12,
+    "WRB": 8,
+    "WDT": 7,
+    "EX": 1,
+    "HYPH": 2,
+    "JJR": 2,
+    "POS": 4,
+    "RBS": 1
+  },
+  "modal_count": 8,
+  "modal_lemma_counts": {
+    "may": 2,
+    "would": 2,
+    "will": 2,
+    "could": 1,
+    "can": 1
+  },
+  "modals_per_1000": 10.243,
+  "epistemic_count": 3,
+  "epistemic_lemma_counts": {
+    "likely": 2,
+    "clearly": 1
+  },
+  "epistemics_per_1000": 3.841,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 111,
+      "head_verb_surface": "used",
+      "head_verb_lemma": "use",
+      "left_3": "] \n  key",
+      "right_3": "be used in",
+      "sentence": "The  [Tab]  key may be used in combination with the  [Enter/Return]  key to navigate and activate control buttons, such as caption on/off."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 195,
+      "head_verb_surface": "granted",
+      "head_verb_lemma": "grant",
+      "left_3": "grading , credit",
+      "right_3": "always be granted",
+      "sentence": "If I were doing the grading, credit would always be granted for participation."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 353,
+      "head_verb_surface": "lack",
+      "head_verb_lemma": "lack",
+      "left_3": "young people who",
+      "right_3": "lack some of",
+      "sentence": "In addition to the challenges they face, there are likely to be consequences for the economy and for society, in a generation of young people who may lack some of what they need to be well-informed and engaged participants in our economy and our democracy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 526,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "ahead . That",
+      "right_3": "only be the",
+      "sentence": "That will only be the case if people understand what we are saying and what it means for their own finances."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 726,
+      "head_verb_surface": "leave",
+      "head_verb_lemma": "leave",
+      "left_3": "understand . I",
+      "right_3": "leave you with",
+      "sentence": "I will leave you with one of the many examples I could cite from my time in school."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 726,
+      "head_verb_surface": "cite",
+      "head_verb_lemma": "cite",
+      "left_3": "many examples I",
+      "right_3": "cite from my",
+      "sentence": "I will leave you with one of the many examples I could cite from my time in school."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 745,
+      "head_verb_surface": "recall",
+      "head_verb_lemma": "recall",
+      "left_3": "school . I",
+      "right_3": "clearly recall one",
+      "sentence": "I can clearly recall one November day, in fifth grade, at Blessed Sacrament School here in Washington, D.C."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 904,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "now , I",
+      "right_3": "be very happy",
+      "sentence": "And now, I would be very happy to respond to your questions."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In addition to the challenges they face, there are likely to be consequences for the economy and for society, in a generation of young people who may lack some of what they need to be well-informed and engaged participants in our economy and our democracy."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "When my colleagues and I publish our projections for the most likely path for the economy and interest rates, as we did a couple of weeks ago, one of our goals is to influence spending and investment decisions today and in the months ahead."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "I can clearly recall one November day, in fifth grade, at Blessed Sacrament School here in Washington, D.C."
+    }
+  ]
+}

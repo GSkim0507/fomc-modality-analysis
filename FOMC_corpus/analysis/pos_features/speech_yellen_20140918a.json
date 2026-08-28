@@ -1,0 +1,167 @@
+{
+  "doc_id": "speech_yellen_20140918a",
+  "doc_type": "speech",
+  "date": "2014-09-18",
+  "chair": "Yellen",
+  "n_tokens": 717,
+  "n_sents": 29,
+  "pos_counts": {
+    "NNP": 42,
+    "CD": 21,
+    ",": 36,
+    "DT": 88,
+    "IN": 104,
+    "JJ": 64,
+    "CC": 31,
+    "NNPS": 3,
+    "-LRB-": 2,
+    "NN": 107,
+    "-RRB-": 2,
+    "VBP": 17,
+    "PRP": 16,
+    "TO": 17,
+    "VB": 29,
+    "PRP$": 6,
+    "HYPH": 5,
+    "NNS": 53,
+    "RB": 35,
+    ".": 28,
+    "VBD": 8,
+    "WRB": 4,
+    "VBN": 12,
+    "JJS": 2,
+    "VBZ": 16,
+    "VBG": 12,
+    "WDT": 3,
+    "MD": 9,
+    "POS": 5,
+    "RBR": 1,
+    "JJR": 5,
+    "WP": 1,
+    "$": 3,
+    "RP": 3
+  },
+  "modal_count": 9,
+  "modal_lemma_counts": {
+    "would": 2,
+    "will": 4,
+    "can": 3
+  },
+  "modals_per_1000": 12.552,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "likely": 1,
+    "believe": 1
+  },
+  "epistemics_per_1000": 2.789,
+  "modal_instances": [
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 162,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "point , I",
+      "right_3": "like to cite",
+      "sentence": "To help make this point, I'd like to cite a few numbers from the Federal Reserve's 2013 Survey of Consumer Finances, published earlier this month."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 364,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "improving and housing",
+      "right_3": "remain an important",
+      "sentence": "The housing market is improving and housing will remain an important channel for asset building for lower and middle income families."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 386,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "crisis , which",
+      "right_3": "not be news",
+      "sentence": "But one of the lessons of the crisis, which will not be news to many of you, is the importance of diversification and especially of possessing savings and other liquid financial assets to fall back in times of economic distress."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 526,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "that our nation",
+      "right_3": "not face another",
+      "sentence": "I surely hope that our nation will not face another crisis anytime soon as severe as the one we recently experienced."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 605,
+      "head_verb_surface": "end",
+      "head_verb_lemma": "end",
+      "left_3": "without these assets",
+      "right_3": "end up ,",
+      "sentence": "Families without these assets can end up, very suddenly, off the road."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 620,
+      "head_verb_surface": "prompt",
+      "head_verb_lemma": "prompt",
+      "left_3": "just $ 400",
+      "right_3": "prompt the majority",
+      "sentence": "According to the Board's recent Survey of Household Economics and Decisionmaking, an unexpected expense of just $400 would prompt the majority of households to borrow money, sell something, or simply not pay at all."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 661,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "have promoted and",
+      "right_3": "continue to promote",
+      "sentence": "The Federal Reserve's mission is to promote a healthy economy and strong financial system, and that is why we have promoted and will continue to promote asset-building."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 728,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "believe the Fed",
+      "right_3": "help you in",
+      "sentence": "As a research institution, and a convener of stakeholders involved in community development, I believe the Fed can help you in carrying out your mission, to encourage families to take the small steps that over time can lead to the accumulation of considerable assets."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 728,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "that over time",
+      "right_3": "lead to the",
+      "sentence": "As a research institution, and a convener of stakeholders involved in community development, I believe the Fed can help you in carrying out your mission, to encourage families to take the small steps that over time can lead to the accumulation of considerable assets."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Another likely reason for this decline in net worth is the lingering effects of the housing crisis."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "As a research institution, and a convener of stakeholders involved in community development, I believe the Fed can help you in carrying out your mission, to encourage families to take the small steps that over time can lead to the accumulation of considerable assets."
+    }
+  ]
+}

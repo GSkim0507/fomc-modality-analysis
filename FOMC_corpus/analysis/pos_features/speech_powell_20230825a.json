@@ -1,0 +1,616 @@
+{
+  "doc_id": "speech_powell_20230825a",
+  "doc_type": "speech",
+  "date": "2023-08-25",
+  "chair": "Powell",
+  "n_tokens": 2821,
+  "n_sents": 133,
+  "pos_counts": {
+    "NNP": 182,
+    "CD": 85,
+    ",": 160,
+    "NN": 563,
+    ":": 10,
+    "CC": 105,
+    "DT": 241,
+    "RB": 143,
+    "IN": 399,
+    "JJ": 249,
+    "NNS": 196,
+    "''": 8,
+    "VBN": 87,
+    ".": 132,
+    "POS": 6,
+    "PRP": 41,
+    "VBD": 32,
+    "PRP$": 24,
+    "MD": 44,
+    "VB": 96,
+    "RBR": 9,
+    "VBZ": 90,
+    "TO": 36,
+    "RP": 14,
+    "VBP": 53,
+    "VBG": 63,
+    "WP": 4,
+    "WRB": 7,
+    "HYPH": 29,
+    "WDT": 14,
+    "``": 7,
+    "-LRB-": 22,
+    "-RRB-": 22,
+    "RBS": 2,
+    "JJR": 23,
+    "EX": 6,
+    "PDT": 2,
+    "LS": 2,
+    "NNPS": 10
+  },
+  "modal_count": 44,
+  "modal_lemma_counts": {
+    "will": 20,
+    "would": 3,
+    "can": 4,
+    "should": 3,
+    "could": 8,
+    "may": 4,
+    "must": 1,
+    "might": 1
+  },
+  "modals_per_1000": 15.597,
+  "epistemic_count": 13,
+  "epistemic_lemma_counts": {
+    "assess": 2,
+    "likely": 8,
+    "expect": 3
+  },
+  "epistemics_per_1000": 4.608,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 70,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "remarks this year",
+      "right_3": "be a bit",
+      "sentence": "My remarks this year will be a bit longer, but the message is the same: It is the Fed's job to bring inflation down to our 2 percent goal, and we will do so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 70,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ", and we",
+      "right_3": "do so .",
+      "sentence": "My remarks this year will be a bit longer, but the message is the same: It is the Fed's job to bring inflation down to our 2 percent goal, and we will do so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 167,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": "\n\n Today I",
+      "right_3": "review our progress",
+      "sentence": "Today I will review our progress so far and discuss the outlook and the uncertainties we face as we pursue our dual mandate goals."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 192,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": "goals . I",
+      "right_3": "conclude with a",
+      "sentence": "I will conclude with a summary of what this means for policy."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 265,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "bringing down inflation",
+      "right_3": "depend on both",
+      "sentence": "By the time the Federal Open Market Committee raised the policy rate in March 2022, it was clear that bringing down inflation would depend on both the unwinding of the unprecedented pandemic-related demand and supply distortions and on our tightening of monetary policy, which would slow the growth of aggregate demand, allowing supply time to catch up."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 265,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "policy , which",
+      "right_3": "slow the growth",
+      "sentence": "By the time the Federal Open Market Committee raised the policy rate in March 2022, it was clear that bringing down inflation would depend on both the unwinding of the unprecedented pandemic-related demand and supply distortions and on our tightening of monetary policy, which would slow the growth of aggregate demand, allowing supply time to catch up."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 465,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "volatile , and",
+      "right_3": "provide a misleading",
+      "sentence": "But food and energy prices are influenced by global factors that remain volatile, and can provide a misleading signal of where inflation is headed."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 491,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "comments , I",
+      "right_3": "focus on core",
+      "sentence": "In my remaining comments, I will focus on core PCE inflation, which omits the food and energy components."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 546,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "of what it",
+      "right_3": "take to build",
+      "sentence": "The lower monthly readings for core inflation in June and July were welcome, but two months of good data are only the beginning of what it will take to build confidence that inflation is moving down sustainably toward our goal."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 588,
+      "head_verb_surface": "know",
+      "head_verb_lemma": "know",
+      "left_3": "goal . We",
+      "right_3": "n't yet know",
+      "sentence": "We can't yet know the extent to which these lower readings will continue or where underlying inflation will settle over coming quarters."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 588,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "these lower readings",
+      "right_3": "continue or where",
+      "sentence": "We can't yet know the extent to which these lower readings will continue or where underlying inflation will settle over coming quarters."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 588,
+      "head_verb_surface": "settle",
+      "head_verb_lemma": "settle",
+      "left_3": "where underlying inflation",
+      "right_3": "settle over coming",
+      "sentence": "We can't yet know the extent to which these lower readings will continue or where underlying inflation will settle over coming quarters."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 637,
+      "head_verb_surface": "drive",
+      "head_verb_lemma": "drive",
+      "left_3": "the factors that",
+      "right_3": "likely drive further",
+      "sentence": "To understand the factors that will likely drive further progress, it is useful to separately examine the three broad components of core PCE inflationâinflation for goods, for housing services, and for all other services, sometimes referred to as nonhousing services ( figure 2 )."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 894,
+      "head_verb_surface": "show",
+      "head_verb_lemma": "show",
+      "left_3": "of monetary restraint",
+      "right_3": "show through more",
+      "sentence": "As they do, the effects of monetary restraint should show through more fully over time."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1040,
+      "head_verb_surface": "earned",
+      "head_verb_lemma": "earn",
+      "left_3": "equivalent rents that",
+      "right_3": "be earned from",
+      "sentence": "This inflation metric reflects rents paid by all tenants, as well as estimates of the equivalent rents that could be earned from homes that are owner occupied."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1113,
+      "head_verb_surface": "thought",
+      "head_verb_lemma": "think",
+      "left_3": "the past year",
+      "right_3": "be thought of",
+      "sentence": "The slowing growth in rents for new leases over roughly the past year can be thought of as \"in the pipeline\" and will affect measured housing services inflation over the coming year."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1113,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "pipeline \" and",
+      "right_3": "affect measured housing",
+      "sentence": "The slowing growth in rents for new leases over roughly the past year can be thought of as \"in the pipeline\" and will affect measured housing services inflation over the coming year."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1148,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "housing services inflation",
+      "right_3": "decline toward its",
+      "sentence": "Going forward, if market rent growth settles near pre-pandemic levels, housing services inflation should decline toward its pre-pandemic level as well."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1176,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "well . We",
+      "right_3": "continue to watch",
+      "sentence": "We will continue to watch the market rent data closely for a signal of the upside and downside risks to housing services inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1333,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "further progress here",
+      "right_3": "be essential to",
+      "sentence": "Given the size of this sector, some further progress here will be essential to restoring price stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1352,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "restrictive monetary policy",
+      "right_3": "help bring aggregate",
+      "sentence": "Over time, restrictive monetary policy will help bring aggregate supply and demand back into better balance, reducing inflationary pressures in this key sector."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1379,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "- related distortions",
+      "right_3": "continue to put",
+      "sentence": "The Outlook \r Turning to the outlook, although further unwinding of pandemic-related distortions should continue to put some downward pressure on inflation, restrictive monetary policy will likely play an increasingly important role."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1379,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": "restrictive monetary policy",
+      "right_3": "likely play an",
+      "sentence": "The Outlook \r Turning to the outlook, although further unwinding of pandemic-related distortions should continue to put some downward pressure on inflation, restrictive monetary policy will likely play an increasingly important role."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1594,
+      "head_verb_surface": "cooling",
+      "head_verb_lemma": "cool",
+      "left_3": "that the economy",
+      "right_3": "not be cooling",
+      "sentence": "But we are attentive to signs that the economy may not be cooling as expected."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1669,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "- trend growth",
+      "right_3": "put further progress",
+      "sentence": "Additional evidence of persistently above-trend growth could put further progress on inflation at risk and could warrant further tightening of monetary policy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1669,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "at risk and",
+      "right_3": "warrant further tightening",
+      "sentence": "Additional evidence of persistently above-trend growth could put further progress on inflation at risk and could warrant further tightening of monetary policy."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1862,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "nominal wage growth",
+      "right_3": "ultimately slow to",
+      "sentence": "While nominal wage growth must ultimately slow to a rate that is consistent with 2 percent inflation, what matters for households is real wage growth."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1918,
+      "head_verb_surface": "call",
+      "head_verb_lemma": "call",
+      "left_3": "no longer easing",
+      "right_3": "also call for",
+      "sentence": "Evidence that the tightness in the labor market is no longer easing could also call for a monetary policy response."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1940,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "percent is and",
+      "right_3": "remain our inflation",
+      "sentence": "Uncertainty and Risk Management along the Path Forward \r Two percent is and will remain our inflation target."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2059,
+      "head_verb_surface": "identify",
+      "head_verb_lemma": "identify",
+      "left_3": ". But we",
+      "right_3": "not identify with",
+      "sentence": "But we cannot identify with certainty the neutral rate of interest, and thus there is always uncertainty about the precise level of monetary policy restraint."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2153,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "suggests that there",
+      "right_3": "be significant further",
+      "sentence": "The wide range of estimates of these lags suggests that there may be significant further drag in the pipeline."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2259,
+      "head_verb_surface": "may",
+      "head_verb_lemma": "may",
+      "left_3": "These changing dynamics",
+      "right_3": "or may not",
+      "sentence": "8  These changing dynamics may or may not persist, and this uncertainty underscores the need for agile policymaking."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2259,
+      "head_verb_surface": "persist",
+      "head_verb_lemma": "persist",
+      "left_3": "dynamics may or",
+      "right_3": "not persist ,",
+      "sentence": "8  These changing dynamics may or may not persist, and this uncertainty underscores the need for agile policymaking."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2310,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "Doing too little",
+      "right_3": "allow above -",
+      "sentence": "Doing too little could allow above-target inflation to become entrenched and ultimately require monetary policy to wring more persistent inflation from the economy at a high cost to employment."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2342,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "Doing too much",
+      "right_3": "also do unnecessary",
+      "sentence": "Doing too much could also do unnecessary harm to the economy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2384,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": "meetings , we",
+      "right_3": "assess our progress",
+      "sentence": "At upcoming meetings, we will assess our progress based on the totality of the data and the evolving outlook and risks."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2407,
+      "head_verb_surface": "proceed",
+      "head_verb_lemma": "proceed",
+      "left_3": "assessment , we",
+      "right_3": "proceed carefully as",
+      "sentence": "Based on this assessment, we will proceed carefully as we decide whether to tighten further or, instead, to hold the policy rate constant and await further data."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2452,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "mandate . We",
+      "right_3": "need price stability",
+      "sentence": "We will need price stability to achieve a sustained period of strong labor market conditions that benefit all."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2472,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": ". \n\n We",
+      "right_3": "keep at it",
+      "sentence": "We will keep at it until the job is done."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2517,
+      "head_verb_surface": "published",
+      "head_verb_lemma": "publish",
+      "left_3": "PCE inflation data",
+      "right_3": "be published by",
+      "sentence": "The July 2023 PCE inflation data will be published by the Bureau of Economic Analysis on August 31, 2023."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2714,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "rate of rents",
+      "right_3": "naturally decline toward",
+      "sentence": "As the price effects of that demand shift played out, the growth rate of rents would naturally decline toward its earlier trend."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2772,
+      "head_verb_surface": "received",
+      "head_verb_lemma": "receive",
+      "left_3": "income the homeowner",
+      "right_3": "have received if",
+      "sentence": "PCE prices for housing services include both the rents paid by tenants and an imputed rental value for owner-occupied dwellings (measured as the income the homeowner could have received if the house had been rented to a tenant)."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3102,
+      "head_verb_surface": "result",
+      "head_verb_lemma": "result",
+      "left_3": "labor market tightness",
+      "right_3": "result in a",
+      "sentence": "If the Phillips curve has steepened in this way, a small change in labor market tightness could result in a more substantial change in inflation."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3129,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": "or how it",
+      "right_3": "evolve as labor",
+      "sentence": "It is difficult to know with precision how steep that relationship is in real time or how it might evolve as labor market tightness changes."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Given how far we have come, at upcoming meetings we are in a position to proceed carefully as we assess the incoming data and the evolving outlook and risks."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "To understand the factors that will likely drive further progress, it is useful to separately examine the three broad components of core PCE inflationâinflation for goods, for housing services, and for all other services, sometimes referred to as nonhousing services ( figure 2 )."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Outlook \r Turning to the outlook, although further unwinding of pandemic-related distortions should continue to put some downward pressure on inflation, restrictive monetary policy will likely play an increasingly important role."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Getting inflation sustainably back down to 2 percent is expected to require a period of below-trend economic growth as well as some softening in labor market conditions."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "But we are attentive to signs that the economy may not be cooling as expected."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "We expect this labor market rebalancing to continue."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "At upcoming meetings, we will assess our progress based on the totality of the data and the evolving outlook and risks."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "This slowing in rent growth has likely occurred for a combination of reasons."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Some of it likely reflects higher interest rates and the softening in real household income growth over the past couple of years."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "But the normalization of dislocations due to the pandemic is likely playing a role here as well."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "For example, the shifts in housing preferences related to working from home likely contributed to the increase in housing demand reflected in the sizable earlier increases in rents."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Finally, multifamily construction is quite high by historical standards, and that supply coming on line has likely also taken some pressure off market rents."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The relationship between labor market slack and inflation, often called the Phillips curve relationship, is likely nonlinear, steepening in a tight labor market."
+    }
+  ]
+}

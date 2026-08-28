@@ -1,0 +1,693 @@
+{
+  "doc_id": "speech_yellen_20170825a",
+  "doc_type": "speech",
+  "date": "2017-08-25",
+  "chair": "Yellen",
+  "n_tokens": 6902,
+  "n_sents": 257,
+  "pos_counts": {
+    "NNP": 1001,
+    "CD": 213,
+    ",": 445,
+    "DT": 657,
+    "NN": 1046,
+    "IN": 950,
+    "``": 33,
+    "VBG": 154,
+    "''": 31,
+    "VBN": 201,
+    "VBZ": 113,
+    "NNS": 594,
+    "JJ": 631,
+    "WDT": 61,
+    "VBD": 123,
+    "RBS": 7,
+    "CC": 269,
+    "JJS": 17,
+    ".": 250,
+    "RB": 212,
+    "MD": 42,
+    "VB": 198,
+    ":": 81,
+    "WRB": 16,
+    "PRP": 32,
+    "VBP": 126,
+    "TO": 86,
+    "HYPH": 93,
+    "PRP$": 26,
+    "POS": 18,
+    "JJR": 40,
+    "RBR": 21,
+    "-LRB-": 95,
+    "-RRB-": 92,
+    "RP": 9,
+    "NNPS": 46,
+    "$": 2,
+    "WP": 2,
+    "EX": 3,
+    "UH": 2,
+    "LS": 1,
+    "SYM": 11
+  },
+  "modal_count": 42,
+  "modal_lemma_counts": {
+    "may": 14,
+    "will": 11,
+    "should": 4,
+    "could": 4,
+    "would": 4,
+    "must": 2,
+    "can": 3
+  },
+  "modals_per_1000": 6.085,
+  "epistemic_count": 24,
+  "epistemic_lemma_counts": {
+    "certain": 2,
+    "possible": 6,
+    "expect": 2,
+    "potential": 4,
+    "certainly": 1,
+    "perhaps": 2,
+    "clearly": 2,
+    "likely": 1,
+    "uncertain": 1,
+    "assess": 3
+  },
+  "epistemics_per_1000": 3.477,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 84,
+      "head_verb_surface": "fading",
+      "head_verb_lemma": "fade",
+      "left_3": "of this experience",
+      "right_3": "be fading --",
+      "sentence": "Already, for some, memories of this experience may be fading--memories of just how costly the financial crisis was and of why certain steps were taken in response."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 116,
+      "head_verb_surface": "look",
+      "head_verb_lemma": "look",
+      "left_3": ". Today I",
+      "right_3": "look back at",
+      "sentence": "Today I will look back at the crisis and discuss the reforms policymakers in the United States and around the world have made to improve financial regulation to limit both the probability and the adverse consequences of future financial crises."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 410,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": ". \n\n I",
+      "right_3": "start by reviewing",
+      "sentence": "I will start by reviewing where we were 10 years ago."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 422,
+      "head_verb_surface": "walk",
+      "head_verb_lemma": "walk",
+      "left_3": "ago . I",
+      "right_3": "then walk through",
+      "sentence": "I will then walk through some key reforms our country has put in place to diminish the chances of another severe crisis and limit damage during times of financial instability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 453,
+      "head_verb_surface": "summarize",
+      "head_verb_lemma": "summarize",
+      "left_3": "steps , I",
+      "right_3": "summarize indicators and",
+      "sentence": "After reviewing these steps, I will summarize indicators and research that show the improved resilience of the U.S. financial system--resilience that is due importantly to regulatory reform as well as actions taken by the private sector."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 493,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "sector . I",
+      "right_3": "then turn to",
+      "sentence": "I will then turn to the evidence regarding how financial regulatory reform has affected economic growth, credit availability, and market liquidity."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1751,
+      "head_verb_surface": "fund",
+      "head_verb_lemma": "fund",
+      "left_3": "of equity capital",
+      "right_3": "fund a firm",
+      "sentence": "9  In addition, a simple leverage ratio provides a backstop, reflecting the lesson imparted by past crises that risk weights are imperfect and a minimum amount of equity capital should fund a firm's total assets."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1791,
+      "head_verb_surface": "threaten",
+      "head_verb_lemma": "threaten",
+      "left_3": "limit activities that",
+      "right_3": "threaten financial stability",
+      "sentence": "Moreover, both the risk-weighted and simple leverage requirements are higher for the largest, most systemic firms, which lowers the risk of distress at such firms and encourages them to limit activities that could threaten financial stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2098,
+      "head_verb_surface": "limit",
+      "head_verb_lemma": "limit",
+      "left_3": "and liquidity regulation",
+      "right_3": "limit the reemergence",
+      "sentence": "11  While improvements in capital and liquidity regulation will limit the reemergence of the risks that grew substantially in the mid-2000s, the failure of Lehman Brothers demonstrated how the absence of an adequate resolution process for dealing with a failing systemic firm left policymakers with only the terrible choices of a bailout or allowing a destabilizing collapse."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2216,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "contracts , that",
+      "right_3": "help protect the",
+      "sentence": "The orderly liquidation authority contains a number of tools, including liquidity resources and temporary stays on the termination of financial contracts, that would help protect the financial system and economy from the severe adverse spillovers that could occur if a systemic firm failed."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2216,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "adverse spillovers that",
+      "right_3": "occur if a",
+      "sentence": "The orderly liquidation authority contains a number of tools, including liquidity resources and temporary stays on the termination of financial contracts, that would help protect the financial system and economy from the severe adverse spillovers that could occur if a systemic firm failed."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2262,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Liquidation Authority resolution",
+      "right_3": "not be at",
+      "sentence": "Importantly, any losses incurred by the government in an Orderly Liquidation Authority resolution would not be at the expense of taxpayers, since the statute provides that all such losses must be borne by other large financial firms through subsequent assessments."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2262,
+      "head_verb_surface": "borne",
+      "head_verb_lemma": "bear",
+      "left_3": "all such losses",
+      "right_3": "be borne by",
+      "sentence": "Importantly, any losses incurred by the government in an Orderly Liquidation Authority resolution would not be at the expense of taxpayers, since the statute provides that all such losses must be borne by other large financial firms through subsequent assessments."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2305,
+      "head_verb_surface": "resolved",
+      "head_verb_lemma": "resolve",
+      "left_3": "describe how they",
+      "right_3": "be resolved under",
+      "sentence": "In addition, the Congress required that the largest banks submit living wills that describe how they could be resolved under bankruptcy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2391,
+      "head_verb_surface": "bear",
+      "head_verb_lemma": "bear",
+      "left_3": "well that they",
+      "right_3": "bear losses in",
+      "sentence": "Moreover, these steps promote market discipline, as creditors--knowing full well that they will bear losses in the event of distress--demand prudent risk-taking, thereby limiting the problem of too-big-to-fail."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2436,
+      "head_verb_surface": "grow",
+      "head_verb_lemma": "grow",
+      "left_3": "Financial stability risks",
+      "right_3": "also grow large",
+      "sentence": "Financial stability risks can also grow large outside the regulated banking sector, as amply demonstrated by the events of 2007 and 2008."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2950,
+      "head_verb_surface": "reflect",
+      "head_verb_lemma": "reflect",
+      "left_3": "- based measures",
+      "right_3": "not reflect true",
+      "sentence": "To be sure, market-based measures may not reflect true risks--they certainly did not in the mid-2000s--and hence the observed improvements should not be overemphasized."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2950,
+      "head_verb_surface": "overemphasized",
+      "head_verb_lemma": "overemphasize",
+      "left_3": "the observed improvements",
+      "right_3": "not be overemphasized",
+      "sentence": "To be sure, market-based measures may not reflect true risks--they certainly did not in the mid-2000s--and hence the observed improvements should not be overemphasized."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2983,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "policymakers and investors",
+      "right_3": "continue to monitor",
+      "sentence": "16  But supervisory metrics are not perfect, either, and policymakers and investors should continue to monitor a range of supervisory and market-based indicators of financial system resilience."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3154,
+      "head_verb_surface": "agree",
+      "head_verb_lemma": "agree",
+      "left_3": "in this audience",
+      "right_3": "agree with the",
+      "sentence": "I suspect many in this audience would agree with the narrative of my remarks so far: The events of the crisis demanded action, needed reforms were implemented, and these reforms have made the system safer."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3379,
+      "head_verb_surface": "deserve",
+      "head_verb_lemma": "deserve",
+      "left_3": "financial regulatory framework",
+      "right_3": "deserve consideration .",
+      "sentence": "In addition, a broader set of changes to the new financial regulatory framework may deserve consideration."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3397,
+      "head_verb_surface": "simplify",
+      "head_verb_lemma": "simplify",
+      "left_3": "include adjustments that",
+      "right_3": "simplify regulations applying",
+      "sentence": "Such changes include adjustments that may simplify regulations applying to small and medium-sized banks and enhance resolution planning."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3452,
+      "head_verb_surface": "summarize",
+      "head_verb_lemma": "summarize",
+      "left_3": "regulation . I",
+      "right_3": "briefly summarize the",
+      "sentence": "I will briefly summarize the current state of play in two areas: the effect of regulation on credit availability and on changes in market liquidity."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3696,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "apparent , credit",
+      "right_3": "be less available",
+      "sentence": "While material adverse effects of capital regulation on broad measures of lending are not readily apparent, credit may be less available to some borrowers, especially homebuyers with less-than-perfect credit histories and, perhaps, small businesses."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3770,
+      "head_verb_surface": "contributing",
+      "head_verb_lemma": "contribute",
+      "left_3": "in technology that",
+      "right_3": "be contributing to",
+      "sentence": "Currently, many factors are likely affecting mortgage lending, including changes in market perceptions of the risk associated with mortgage lending; changes in practices at the government-sponsored enterprises and the Federal Housing Administration; changes in technology that may be contributing to entry by nonbank lenders; changes in consumer protection regulations; and, perhaps to a limited degr"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4094,
+      "head_verb_surface": "affecting",
+      "head_verb_lemma": "affect",
+      "left_3": ", some regulations",
+      "right_3": "be affecting market",
+      "sentence": "While no single factor appears to be the predominant cause of the evolution of market liquidity, some regulations may be affecting market liquidity somewhat."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4120,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "somewhat . There",
+      "right_3": "be benefits to",
+      "sentence": "There may be benefits to simplifying aspects of the Volcker rule, which limits proprietary trading by banking firms, and to reviewing the interaction of the enhanced supplementary leverage ratio with risk-based capital requirements."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4197,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the regulatory framework",
+      "right_3": "be modest and",
+      "sentence": "As a result, any adjustments to the regulatory framework should be modest and preserve the increase in resilience at large dealers and banks associated with the reforms put in place in recent years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4444,
+      "head_verb_surface": "result",
+      "head_verb_lemma": "result",
+      "left_3": "yes , regulation",
+      "right_3": "result sooner or",
+      "sentence": "Moreover, I expect that the evolution of the financial system in response to global economic forces, technology, and, yes, regulation will result sooner or later in the all-too-familiar risks of excessive optimism, leverage, and maturity transformation reemerging in new ways that require policy responses."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 4512,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "crisis . We",
+      "right_3": "never be sure",
+      "sentence": "We can never be sure that new crises will not occur, but if we keep this lesson fresh in our memories--along with the painful cost that was exacted by the recent crisis--and act accordingly, we have reason to hope that the financial system and economy will experience fewer crises and recover from any future crisis more quickly, sparing households and businesses some of the pain they endured during"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4512,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "that new crises",
+      "right_3": "not occur ,",
+      "sentence": "We can never be sure that new crises will not occur, but if we keep this lesson fresh in our memories--along with the painful cost that was exacted by the recent crisis--and act accordingly, we have reason to hope that the financial system and economy will experience fewer crises and recover from any future crisis more quickly, sparing households and businesses some of the pain they endured during"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4512,
+      "head_verb_surface": "experience",
+      "head_verb_lemma": "experience",
+      "left_3": "system and economy",
+      "right_3": "experience fewer crises",
+      "sentence": "We can never be sure that new crises will not occur, but if we keep this lesson fresh in our memories--along with the painful cost that was exacted by the recent crisis--and act accordingly, we have reason to hope that the financial system and economy will experience fewer crises and recover from any future crisis more quickly, sparing households and businesses some of the pain they endured during"
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 5173,
+      "head_verb_surface": "contribute",
+      "head_verb_lemma": "contribute",
+      "left_3": "that popular sentiment",
+      "right_3": "contribute to mispricing",
+      "sentence": "The notion that popular sentiment may contribute to mispricing of assets--for example, the power of the madness of crowds--is attributed to Charles Mackay (1841),  Memoirs of Extraordinary Popular Delusions and the Madness of Crowds  (London: Richard Bentley)."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 5270,
+      "head_verb_surface": "generate",
+      "head_verb_lemma": "generate",
+      "left_3": "that economic stability",
+      "right_3": "generate a buildup",
+      "sentence": "The notion that economic stability can generate a buildup of imbalances that subsequently contributes to instability is presented in Hyman P. Minsky (1974), \" The Modeling of Financial Instability: An Introduction ,\" in  Modeling and Simulation, Vol. 5, Part 1,  proceedings of the Fifth Annual Pittsburgh Conference (Pittsburgh: Instrument Society of America), pp."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 5538,
+      "head_verb_surface": "maintain",
+      "head_verb_lemma": "maintain",
+      "left_3": "bank holding companies",
+      "right_3": "maintain a leverage",
+      "sentence": "Under the final rule, covered bank holding companies must maintain a leverage buffer of 2 percentage points above the minimum supplementary leverage ratio requirement of 3 percent, for a total of 5 percent, to avoid restrictions on capital distributions and discretionary bonus payments (see Board of Governors of the Federal Reserve System, Federal Deposit Insurance Corporation, and Office of the C"
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 5904,
+      "head_verb_surface": "impose",
+      "head_verb_lemma": "impose",
+      "left_3": "This proposed rule",
+      "right_3": "impose restrictions on",
+      "sentence": "This proposed rule would impose restrictions on G-SIBs' qualified financial contracts--including derivatives and repurchase agreements (or repos)--to guard against the rapid, mass unwinding of those contracts during the resolution of a G-SIB."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 5946,
+      "head_verb_surface": "destabilize",
+      "head_verb_lemma": "destabilize",
+      "left_3": "unwinding these contracts",
+      "right_3": "destabilize the financial",
+      "sentence": "The proposed restrictions are a key step toward G-SIB resolvability because rapidly unwinding these contracts could destabilize the financial system by causing asset fire sales and toppling other firms."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 5985,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "in vulnerabilities that",
+      "right_3": "affect the financial",
+      "sentence": "One area in which regulations have shifted to a lesser degree in the United States is that of time-varying macroprudential tools, in which regulatory requirements are adjusted to address changes in vulnerabilities that may affect the financial system."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 6370,
+      "head_verb_surface": "understate",
+      "head_verb_lemma": "understate",
+      "left_3": ". This assessment",
+      "right_3": "understate the improvement",
+      "sentence": "This assessment may understate the improvement in fundamental risk within the banking sector, as it takes the elevated valuations and low assessment of default risk implied by market prices during the earlier period as indicative of fundamentals."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 6638,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "findings across studies",
+      "right_3": "be due to",
+      "sentence": "Some of the differences in findings across studies may be due to the degree to which the studies incorporate data from different countries and over different periods, as researchers disagree over the extent to which comparisons across countries or periods appropriately account for other factors that differ across such dimensions."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 7139,
+      "head_verb_surface": "guide",
+      "head_verb_lemma": "guide",
+      "left_3": "of principles that",
+      "right_3": "guide such adjustments",
+      "sentence": "An overview of a set of principles that may guide such adjustments is discussed by Jerome H. Powell (2017), \" Relationship between Regulation and Economic Growth ,\" statement before the Committee on Banking, Housing, and Urban Affairs, U.S. Senate, June 22."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 7462,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "higher capital levels",
+      "right_3": "increase lending includes",
+      "sentence": "Research suggesting that higher capital levels may increase lending includes Leonardo Gambacorta and Hyun Song Shin (2016), \" Why Bank Capital Matters for Monetary Policy (PDF) ,\" BIS Working Papers 558 (Basel, Switzerland:"
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Already, for some, memories of this experience may be fading--memories of just how costly the financial crisis was and of why certain steps were taken in response."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "3  And yet the discussion here at Jackson Hole in August 2007, with a few notable exceptions, was fairly optimistic about the possible economic fallout from the stresses apparent in the financial system."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Repeating a familiar pattern, the \"madness of crowds\" had contributed to a bubble, in which investors and households expected rapid appreciation in house prices."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The long period of economic stability beginning in the 1980s had led to complacency about potential risks, and the buildup of risk was not widely recognized."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In addition to contributing to greater loss-absorbing capacity, the CCAR improves public understanding of risks at large banking firms, provides a forward-looking examination of firms' potential losses during severely adverse economic conditions, and has contributed to significant improvements in risk management."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The liquidity coverage ratio requires that banks hold liquid assets to cover potential net cash outflows over a 30-day stress period."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "To be sure, market-based measures may not reflect true risks--they certainly did not in the mid-2000s--and hence the observed improvements should not be overemphasized."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Furthermore, the Federal Reserve has independently taken steps to evaluate potential adjustments to its regulatory and supervisory practices."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "22  More broadly, we continue to monitor economic conditions, and to review and conduct research, to better understand the effect of regulatory reforms and possible implications for regulation."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Given the uncertainty regarding the effect of capital regulation on lending, rulemakings of the Federal Reserve and other agencies were informed by analyses that balanced the possible stability gains from greater loss-absorbing capacity against the possible adverse effects on lending and economic growth."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Given the uncertainty regarding the effect of capital regulation on lending, rulemakings of the Federal Reserve and other agencies were informed by analyses that balanced the possible stability gains from greater loss-absorbing capacity against the possible adverse effects on lending and economic growth."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "While material adverse effects of capital regulation on broad measures of lending are not readily apparent, credit may be less available to some borrowers, especially homebuyers with less-than-perfect credit histories and, perhaps, small businesses."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "In retrospect, mortgage borrowing was clearly too easy for some households in the mid-2000s, resulting in debt burdens that were unsustainable and ultimately damaging to the financial system."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Currently, many factors are likely affecting mortgage lending, including changes in market perceptions of the risk associated with mortgage lending; changes in practices at the government-sponsored enterprises and the Federal Housing Administration; changes in technology that may be contributing to entry by nonbank lenders; changes in consumer protection regulations; and, perhaps to a limited degr"
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Currently, many factors are likely affecting mortgage lending, including changes in market perceptions of the risk associated with mortgage lending; changes in practices at the government-sponsored enterprises and the Federal Housing Administration; changes in technology that may be contributing to entry by nonbank lenders; changes in consumer protection regulations; and, perhaps to a limited degr"
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "27  Finally, many financial market participants have expressed concerns about the ability to transact in volume at low cost--that is, about market liquidity, particularly in certain fixed-income markets such as that for corporate bonds."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "That said, liquidity conditions are clearly evolving."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In addition, algorithmic traders and institutional investors are a larger presence in various markets than previously, and the willingness of these institutions to support liquidity in stressful conditions is uncertain."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Moreover, I expect that the evolution of the financial system in response to global economic forces, technology, and, yes, regulation will result sooner or later in the all-too-familiar risks of excessive optimism, leverage, and maturity transformation reemerging in new ways that require policy responses."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "For example, researchers at the Federal Reserve Bank of New York have developed a top-down stress-testing model, and simulation results from the model suggest that the resilience of the U.S. banking system has improved since the crisis; see Beverly Hirtle, Anna Kovner, James Vickery, and Meru Bhanot (2014), \" Assessing Financial Stability: The Capital and Loss Assessment under Stress Scenarios (CL"
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Possible changes have been discussed in Daniel K. Tarullo (2016), \" Next Steps in the Evolution of Stress Testing ,\" speech delivered at the Yale University School of Management Leaders Forum, New Haven, Conn., September 26."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "In addition, the Federal Reserve Board has continued to engage in international efforts to assess the effects of reforms and possible adjustments; in this context, the FSB has developed a framework for the post-implementation evaluation of the effects of the Group of Twenty financial regulatory reforms; see Financial Stability Board (2017),  Framework for Post-Implementation Evaluation of the Effe"
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "In addition, the Federal Reserve Board has continued to engage in international efforts to assess the effects of reforms and possible adjustments; in this context, the FSB has developed a framework for the post-implementation evaluation of the effects of the Group of Twenty financial regulatory reforms; see Financial Stability Board (2017),  Framework for Post-Implementation Evaluation of the Effe"
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Assessing the Macroeconomic Impact of the Transition to Stronger Capital and Liquidity Requirements  (PDF)   (Basel, Switzerland: MAG, August)."
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "doc_id": "speech_powell_20231109a",
+  "doc_type": "speech",
+  "date": "2023-11-09",
+  "chair": "Powell",
+  "n_tokens": 2376,
+  "n_sents": 96,
+  "pos_counts": {
+    "NNP": 244,
+    "CD": 105,
+    ",": 154,
+    "IN": 351,
+    "``": 14,
+    "NNPS": 14,
+    "DT": 214,
+    "''": 10,
+    "NN": 407,
+    "JJ": 187,
+    "VBN": 58,
+    "VBP": 38,
+    "PRP": 44,
+    "TO": 31,
+    "VB": 97,
+    "POS": 2,
+    ".": 98,
+    "PRP$": 21,
+    "VBZ": 34,
+    "MD": 44,
+    "RB": 93,
+    "CC": 89,
+    "JJR": 14,
+    "NNS": 156,
+    "NFP": 1,
+    "RP": 8,
+    "-LRB-": 23,
+    "-RRB-": 23,
+    "VBG": 49,
+    "VBD": 35,
+    "JJS": 2,
+    "WDT": 15,
+    ":": 12,
+    "PDT": 2,
+    "WP": 5,
+    "HYPH": 19,
+    "WRB": 11,
+    "RBS": 2,
+    "LS": 3,
+    "RBR": 7,
+    "SYM": 5,
+    "$": 1
+  },
+  "modal_count": 44,
+  "modal_lemma_counts": {
+    "will": 15,
+    "could": 4,
+    "may": 5,
+    "can": 3,
+    "should": 4,
+    "would": 11,
+    "must": 1,
+    "might": 1
+  },
+  "modals_per_1000": 18.519,
+  "epistemic_count": 10,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "likely": 3,
+    "clearly": 1,
+    "potential": 2,
+    "possible": 1,
+    "certain": 1
+  },
+  "epistemics_per_1000": 4.209,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 79,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "episode . I",
+      "right_3": "briefly address the",
+      "sentence": "I will briefly address the U.S. outlook and then turn to three broader questions raised by the historic events of the pandemic era."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 217,
+      "head_verb_surface": "undermine",
+      "head_verb_lemma": "undermine",
+      "left_3": "that stronger growth",
+      "right_3": "undermine further progress",
+      "sentence": "Of course, that remains to be seen, and we are attentive to the risk that stronger growth could undermine further progress in restoring balance to the labor market and in bringing inflation down, which could warrant a response from monetary policy."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 217,
+      "head_verb_surface": "warrant",
+      "head_verb_lemma": "warrant",
+      "left_3": "down , which",
+      "right_3": "warrant a response",
+      "sentence": "Of course, that remains to be seen, and we are attentive to the risk that stronger growth could undermine further progress in restoring balance to the labor market and in bringing inflation down, which could warrant a response from monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 328,
+      "head_verb_surface": "hesitate",
+      "head_verb_lemma": "hesitate",
+      "left_3": "further , we",
+      "right_3": "not hesitate to",
+      "sentence": "If it becomes appropriate to tighten policy further, we will not hesitate to do so."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 345,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "so . We",
+      "right_3": "continue to move",
+      "sentence": "We will continue to move carefully, however, allowing us to address both the risk of being misled by a few good months of data, and the risk of overtightening."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 378,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "policy firming that",
+      "right_3": "be appropriate to",
+      "sentence": "We are making decisions meeting by meeting, based on the totality of the incoming data and their implications for the outlook for economic activity and inflation, as well as the balance of risks, determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 434,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "time . We",
+      "right_3": "keep at it",
+      "sentence": "We will keep at it until the job is done."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 446,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "that , I",
+      "right_3": "turn to three",
+      "sentence": "With that, I will turn to three questions that have arisen from the receding but still elevated inflation we are experiencing today."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 470,
+      "head_verb_surface": "say",
+      "head_verb_lemma": "say",
+      "left_3": ", what we",
+      "right_3": "say about the",
+      "sentence": "The first question is, with the benefit of 2â1/2 years to look back, what we can say about the initial causes and ongoing policy implications of the current inflation."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 569,
+      "head_verb_surface": "react",
+      "head_verb_lemma": "react",
+      "left_3": "and how policy",
+      "right_3": "react . At",
+      "sentence": "3  The real-time questions for policymakers were what caused the high inflation and how policy should react."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 687,
+      "head_verb_surface": "diminish",
+      "head_verb_lemma": "diminish",
+      "left_3": "disruptions and shortages",
+      "right_3": "diminish . Labor",
+      "sentence": "Supply disruptions and shortages would diminish."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 694,
+      "head_verb_surface": "rebound",
+      "head_verb_lemma": "rebound",
+      "left_3": ". Labor supply",
+      "right_3": "rebound , aided",
+      "sentence": "Labor supply would rebound, aided by the arrival of vaccines and the reopening of schools."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 711,
+      "head_verb_surface": "shift",
+      "head_verb_lemma": "shift",
+      "left_3": "demand for goods",
+      "right_3": "shift back to",
+      "sentence": "Elevated demand for goods would shift back to services."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 721,
+      "head_verb_surface": "ease",
+      "head_verb_lemma": "ease",
+      "left_3": "services . Inflation",
+      "right_3": "ease reasonably quickly",
+      "sentence": "Inflation would ease reasonably quickly without the need for a significant policy response."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 888,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "bringing down inflation",
+      "right_3": "depend both on",
+      "sentence": "When we lifted off in March, it was clear that bringing down inflation would depend both on the unwinding of the unprecedented pandemic-related demand and supply distortions and on our tightening of monetary policy, which would slow the growth of aggregate demand, allowing supply time to catch up."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 888,
+      "head_verb_surface": "slow",
+      "head_verb_lemma": "slow",
+      "left_3": "policy , which",
+      "right_3": "slow the growth",
+      "sentence": "When we lifted off in March, it was clear that bringing down inflation would depend both on the unwinding of the unprecedented pandemic-related demand and supply distortions and on our tightening of monetary policy, which would slow the growth of aggregate demand, allowing supply time to catch up."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1070,
+      "head_verb_surface": "achieved",
+      "head_verb_lemma": "achieve",
+      "left_3": "how much more",
+      "right_3": "be achieved by",
+      "sentence": "While the broader supply recovery continues, it is not clear how much more will be achieved by additional supply-side improvements."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1094,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "forward , it",
+      "right_3": "be that a",
+      "sentence": "Going forward, it may be that a greater share of the progress in reducing inflation will have to come from tight monetary policy restraining the growth of aggregate demand."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1094,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "in reducing inflation",
+      "right_3": "have to come",
+      "sentence": "Going forward, it may be that a greater share of the progress in reducing inflation will have to come from tight monetary policy restraining the growth of aggregate demand."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1126,
+      "head_verb_surface": "limit",
+      "head_verb_lemma": "limit",
+      "left_3": "that monetary policy",
+      "right_3": "limit its response",
+      "sentence": "5  Turning to my second question, for many years, it has been generally thought that monetary policy should limit its response to, or \"look through,\" supply shocks to the extent that they are temporary and idiosyncratic."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1227,
+      "head_verb_surface": "attenuated",
+      "head_verb_lemma": "attenuate",
+      "left_3": "of supply shocks",
+      "right_3": "be attenuated arises",
+      "sentence": "The idea that the response to the inflationary effects of supply shocks should be attenuated arises, in part, from the tradeoff presented by those shocks."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1277,
+      "head_verb_surface": "attenuated",
+      "head_verb_lemma": "attenuate",
+      "left_3": "adverse supply shock",
+      "right_3": "be attenuated because",
+      "sentence": "Therefore, the response of monetary policy to higher prices stemming from an adverse supply shock should be attenuated because it would otherwise amplify the unwanted decline in employment."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1277,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "attenuated because it",
+      "right_3": "otherwise amplify the",
+      "sentence": "Therefore, the response of monetary policy to higher prices stemming from an adverse supply shock should be attenuated because it would otherwise amplify the unwanted decline in employment."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1359,
+      "head_verb_surface": "exacerbate",
+      "head_verb_lemma": "exacerbate",
+      "left_3": "passing price increases",
+      "right_3": "exacerbate macroeconomic volatility",
+      "sentence": "Responding aggressively to quickly passing price increases could exacerbate macroeconomic volatility without supporting price stability."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1387,
+      "head_verb_surface": "challenging",
+      "head_verb_lemma": "challenge",
+      "left_3": "with , it",
+      "right_3": "be challenging to",
+      "sentence": "To begin with, it can be challenging to disentangle supply shocks from demand shocks in real time, and also to determine how long either will persist, particularly in the extraordinary circumstances of the past three years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1387,
+      "head_verb_surface": "persist",
+      "head_verb_lemma": "persist",
+      "left_3": "how long either",
+      "right_3": "persist , particularly",
+      "sentence": "To begin with, it can be challenging to disentangle supply shocks from demand shocks in real time, and also to determine how long either will persist, particularly in the extraordinary circumstances of the past three years."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1427,
+      "head_verb_surface": "call",
+      "head_verb_lemma": "call",
+      "left_3": "on potential output",
+      "right_3": "call for restrictive",
+      "sentence": "Supply shocks that have a persistent effect on potential output could call for restrictive policy to better align aggregate demand with the suppressed level of aggregate supply."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1455,
+      "head_verb_surface": "altered",
+      "head_verb_lemma": "alter",
+      "left_3": "considerable time and",
+      "right_3": "have persistently altered",
+      "sentence": "The sequence of shocks to global supply chains experienced from 2020 to 2022 suppressed output for a considerable time and may have persistently altered global supply dynamics."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1510,
+      "head_verb_surface": "affect",
+      "head_verb_lemma": "affect",
+      "left_3": "for long enough",
+      "right_3": "affect the longer",
+      "sentence": "Supply shocks that drive inflation high enough for long enough can affect the longer-term inflation expectations of households and businesses."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1533,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": ". Monetary policy",
+      "right_3": "forthrightly address any",
+      "sentence": "Monetary policy must forthrightly address any risks of a potential de-anchoring of inflation expectations, as well-anchored expectations help facilitate bringing inflation back to our target."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1580,
+      "head_verb_surface": "settle",
+      "head_verb_lemma": "settle",
+      "left_3": "where interest rates",
+      "right_3": "settle once the",
+      "sentence": "My third question is the level where interest rates will settle once the effects of the pandemic are truly behind us."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1667,
+      "head_verb_surface": "followed",
+      "head_verb_lemma": "follow",
+      "left_3": "shortfalls in inflation",
+      "right_3": "be followed by",
+      "sentence": "Over two decades, an extensive literature had identified a number of possible changes to the widely used inflation-targeting regime, including negative policy rates, nominal income targeting, and various forms of makeup strategies under which persistent shortfalls in inflation would be followed by a period of inflation running moderately above 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1749,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": "of the ELB",
+      "right_3": "ultimately turn out",
+      "sentence": "But it is too soon to say whether the monetary policy challenges of the ELB will ultimately turn out to be a thing of the past."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1806,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "2020 . We",
+      "right_3": "begin our next",
+      "sentence": "We will begin our next five-year review in the latter half of 2024 and announce the results about a year later."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1830,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "the questions we",
+      "right_3": "consider is the",
+      "sentence": "Among the questions we will consider is the degree to which the structural features of the economy that led to low interest rates in the pre-pandemic era will persist."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1830,
+      "head_verb_surface": "persist",
+      "head_verb_lemma": "persist",
+      "left_3": "- pandemic era",
+      "right_3": "persist . With",
+      "sentence": "Among the questions we will consider is the degree to which the structural features of the economy that led to low interest rates in the pre-pandemic era will persist."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1862,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "time , we",
+      "right_3": "continue to learn",
+      "sentence": "With time, we will continue to learn from the experience of the past few years, and what implications it may hold for monetary policy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1862,
+      "head_verb_surface": "hold",
+      "head_verb_lemma": "hold",
+      "left_3": "what implications it",
+      "right_3": "hold for monetary",
+      "sentence": "With time, we will continue to learn from the experience of the past few years, and what implications it may hold for monetary policy."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1975,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "prices and therefore",
+      "right_3": "provide a better",
+      "sentence": "The 12-month change in the core PCE measure, which excludes the volatile food and energy prices and therefore may provide a better signal of where inflation is headed, has declined from 5.5 percent in September 2022 to 3.7 percent in September 2023."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2126,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "a level that",
+      "right_3": "be consistent with",
+      "sentence": "And while they remain above a level that would be consistent with 2 percent inflation in the longer run, broad indicators of 12-month wage growth continue to trend lower."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2213,
+      "head_verb_surface": "pass",
+      "head_verb_lemma": "pass",
+      "left_3": "the incipient inflation",
+      "right_3": "pass quickly and",
+      "sentence": "Both the June Summary of Economic Projections and the August Survey of Professional Forecasters showed a near-uniform view that the incipient inflation would pass quickly and that inflation for 2022 would run near 2 percent."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2213,
+      "head_verb_surface": "run",
+      "head_verb_lemma": "run",
+      "left_3": "inflation for 2022",
+      "right_3": "run near 2",
+      "sentence": "Both the June Summary of Economic Projections and the August Survey of Professional Forecasters showed a near-uniform view that the incipient inflation would pass quickly and that inflation for 2022 would run near 2 percent."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2329,
+      "head_verb_surface": "return",
+      "head_verb_lemma": "return",
+      "left_3": ". As I",
+      "right_3": "return to later",
+      "sentence": "As I will return to later, this presumes that inflation expectations are well anchored."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2668,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "Work ? How",
+      "right_3": "They Help ?",
+      "sentence": "How Might They Help? \" Finance and Economics Discussion Series 2020-068 (Washington: Board of Governors of the Federal Reserve System, August); Jeffrey Campbell, Thomas B. King, Anna Orlik, and Rebecca Zarutskie (2020), \" Issues regarding the Use of the Policy Rate Tool ,\" Finance and Economics Discussion Series 2020-070 (Washington: Board of Governors of the Federal Reserve System, August); and M"
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "1  My colleagues and I are gratified by this progress but expect that the process of getting inflation sustainably down to 2 percent has a long way to go."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "2  Gross domestic product growth in the third quarter was quite strong, but, like most forecasters, we expect growth to moderate in coming quarters."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "In this view, as the pandemic abated, our dynamic and flexible economy was likely to adapt fairly quickly."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "But in the fourth quarter of 2021, the data clearly changed amid waves of new COVID-19 variants, with only gradual progress in restoring global supply chains, and relatively few workers rejoining the labor force."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "6  Many argue as well that, in the future, supply disruptions are likely to be more frequent or more persistent than in the decades just before the pandemic."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Supply shocks that have a persistent effect on potential output could call for restrictive policy to better align aggregate demand with the suppressed level of aggregate supply."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Monetary policy must forthrightly address any risks of a potential de-anchoring of inflation expectations, as well-anchored expectations help facilitate bringing inflation back to our target."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The sharp policy tightening during 2022 likely contributed to keeping inflation expectations well anchored."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Over two decades, an extensive literature had identified a number of possible changes to the widely used inflation-targeting regime, including negative policy rates, nominal income targeting, and various forms of makeup strategies under which persistent shortfalls in inflation would be followed by a period of inflation running moderately above 2 percent."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "For additional information about the efficacy and use of certain policy tools in this environment, see Jonas Arias, Martin Bodenstein, Hess Chung, Thorsten Drautzburg, and Andrea Raffo (2020), \" Alternative Strategies: How Do They Work?"
+    }
+  ]
+}

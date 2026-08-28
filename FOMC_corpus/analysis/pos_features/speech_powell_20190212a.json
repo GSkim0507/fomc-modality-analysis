@@ -1,0 +1,299 @@
+{
+  "doc_id": "speech_powell_20190212a",
+  "doc_type": "speech",
+  "date": "2019-02-12",
+  "chair": "Powell",
+  "n_tokens": 3206,
+  "n_sents": 160,
+  "pos_counts": {
+    "NNP": 600,
+    "CD": 127,
+    ",": 268,
+    "IN": 410,
+    "HYPH": 30,
+    "NNPS": 40,
+    "JJ": 253,
+    ":": 36,
+    "``": 32,
+    "DT": 202,
+    "NN": 407,
+    "VBN": 56,
+    "VBP": 87,
+    "PRP": 47,
+    ".": 156,
+    "RB": 91,
+    "TO": 43,
+    "VB": 117,
+    "VBG": 62,
+    "CC": 145,
+    "-LRB-": 51,
+    "-RRB-": 51,
+    "PRP$": 39,
+    "VBZ": 60,
+    "VBD": 28,
+    "NNS": 287,
+    "MD": 16,
+    "POS": 16,
+    "WDT": 18,
+    "WP": 10,
+    "RP": 6,
+    "JJR": 24,
+    "WRB": 14,
+    "''": 9,
+    "RBR": 6,
+    "RBS": 3,
+    "JJS": 5,
+    "EX": 1,
+    "WP$": 1,
+    "LS": 1,
+    "SYM": 13
+  },
+  "modal_count": 16,
+  "modal_lemma_counts": {
+    "will": 4,
+    "can": 3,
+    "may": 3,
+    "could": 3,
+    "would": 1,
+    "must": 1,
+    "should": 1
+  },
+  "modals_per_1000": 4.991,
+  "epistemic_count": 8,
+  "epistemic_lemma_counts": {
+    "likely": 2,
+    "believe": 2,
+    "assess": 1,
+    "possible": 1,
+    "potential": 2
+  },
+  "epistemics_per_1000": 2.495,
+  "modal_instances": [
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 155,
+      "head_verb_surface": "speak",
+      "head_verb_lemma": "speak",
+      "left_3": ". Today I",
+      "right_3": "speak about three",
+      "sentence": "Today I'll speak about three areas of opportunity for addressing the challenges of rural povertyââeducation and workforce development, entrepreneurship and small business development, as well as access to financial services--the topic of this conference."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 396,
+      "head_verb_surface": "build",
+      "head_verb_lemma": "build",
+      "left_3": "were born and",
+      "right_3": "build their lives",
+      "sentence": "I want to honor you for this proud history and for your continuing commitment to a better future for your students and for the region where many of your students were born and will build their lives and raise their families."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 500,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "The Federal Reserve",
+      "right_3": "help by carrying",
+      "sentence": "The Federal Reserve can help by carrying out our monetary policy mission of supporting maximum employment and price stability."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 890,
+      "head_verb_surface": "moving",
+      "head_verb_lemma": "move",
+      "left_3": "where new employers",
+      "right_3": "be moving in",
+      "sentence": "Rural areas where traditional industries are declining and where new employers may be moving in often experience a mismatch between the skills of local workers and those demanded by the new employers."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1009,
+      "head_verb_surface": "get",
+      "head_verb_lemma": "get",
+      "left_3": "believe their children",
+      "right_3": "get a good",
+      "sentence": "Young families are more likely to come if they believe their children will get a good education."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1132,
+      "head_verb_surface": "motivate",
+      "head_verb_lemma": "motivate",
+      "left_3": ", entrepreneurship opportunities",
+      "right_3": "motivate residents who",
+      "sentence": "Entrepreneurship and Small Business Development \r As with Tim and his clients, entrepreneurship opportunities can motivate residents who have left rural communities to return homeââor to keep them from moving away in the first place."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1186,
+      "head_verb_surface": "gained",
+      "head_verb_lemma": "gain",
+      "left_3": "including skills they",
+      "right_3": "have gained from",
+      "sentence": "Recognizing this fact, successful communities find ways to help residents turn what they know and do best, including skills they may have gained from industries in decline, into profitable small businesses."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1238,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "how those characteristics",
+      "right_3": "help the community",
+      "sentence": "About 10 years ago, civic and business leaders assessed what made Clarksdale special and how those characteristics could help the community thrive."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1659,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "common as they",
+      "right_3": "be . Entrepreneurship",
+      "sentence": "But inspiring stories like these are not as common as they could be."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1881,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "is critical for",
+      "right_3": "- be entrepreneurs",
+      "sentence": "15  Similarly, racial wealth disparities mean access to credit is critical for would-be entrepreneurs who must borrow to supplement personal savings and support from friends and family."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 1881,
+      "head_verb_surface": "borrow",
+      "head_verb_lemma": "borrow",
+      "left_3": "be entrepreneurs who",
+      "right_3": "borrow to supplement",
+      "sentence": "15  Similarly, racial wealth disparities mean access to credit is critical for would-be entrepreneurs who must borrow to supplement personal savings and support from friends and family."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2315,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "areas that examiners",
+      "right_3": "not do a",
+      "sentence": "To the extent that banks serve much broader areas using online or other non-branch delivery systems, or have so many assessment areas that examiners cannot do a thorough evaluation in each, the financial needs of many rural communities may be overlooked."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2315,
+      "head_verb_surface": "overlooked",
+      "head_verb_lemma": "overlook",
+      "left_3": "many rural communities",
+      "right_3": "be overlooked .",
+      "sentence": "To the extent that banks serve much broader areas using online or other non-branch delivery systems, or have so many assessment areas that examiners cannot do a thorough evaluation in each, the financial needs of many rural communities may be overlooked."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2362,
+      "head_verb_surface": "encourage",
+      "head_verb_lemma": "encourage",
+      "left_3": "'s implementing regulations",
+      "right_3": "more effectively encourage",
+      "sentence": "We believe that revisions to the CRA's implementing regulations should more effectively encourage banks to seek opportunities in underserved areas."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2441,
+      "head_verb_surface": "conclude",
+      "head_verb_lemma": "conclude",
+      "left_3": ". \n\n I",
+      "right_3": "conclude where I",
+      "sentence": "I will conclude where I began, by applauding both MVSU and Hope for their long-standing contribution toward bettering the lives of the people of Itta Bena and similar rural communities."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2799,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "District 's Jobs",
+      "right_3": "Face Automation in",
+      "sentence": "See, for example, Sungki Hong and Hannah G. Shell (2018),  \"60% of District's Jobs Could Face Automation in the Next 20 Years,\"  Federal Reserve Bank of St. Louis,  Regional Economist,  vol. 26"
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Young families are more likely to come if they believe their children will get a good education."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Young families are more likely to come if they believe their children will get a good education."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "About 10 years ago, civic and business leaders assessed what made Clarksdale special and how those characteristics could help the community thrive."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "11  While still in the early stages, it has led to the creation of several new businesses and imbued the town with a new sense of what is possible."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "And racial wealth disparities make black students more likely than white students to borrow for their education."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Fortunately, CDFIs are helping potential borrowers improve their creditworthiness and providing them with safe and affordable credit."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe that revisions to the CRA's implementing regulations should more effectively encourage banks to seek opportunities in underserved areas."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "Such support systems generally include consistent and easily accessible ways for potential business owners to find the advice, financing, and education they need to be successful."
+    }
+  ]
+}

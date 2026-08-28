@@ -1,0 +1,275 @@
+{
+  "doc_id": "speech_yellen_20150930a",
+  "doc_type": "speech",
+  "date": "2015-09-30",
+  "chair": "Yellen",
+  "n_tokens": 1223,
+  "n_sents": 44,
+  "pos_counts": {
+    "NNP": 117,
+    "CD": 15,
+    ",": 60,
+    "IN": 156,
+    "DT": 120,
+    "JJ": 95,
+    "CC": 65,
+    "VBN": 23,
+    "NNPS": 5,
+    "VBP": 53,
+    "PRP": 59,
+    ".": 44,
+    "VBZ": 27,
+    "RB": 40,
+    "NN": 155,
+    "TO": 16,
+    "VB": 52,
+    "VBG": 17,
+    "WDT": 14,
+    "PRP$": 19,
+    "-LRB-": 2,
+    "-RRB-": 2,
+    "MD": 17,
+    "EX": 1,
+    "VBD": 14,
+    "PDT": 3,
+    "WRB": 8,
+    "POS": 7,
+    "NNS": 114,
+    "RBS": 2,
+    "JJS": 1,
+    "WP": 2,
+    "HYPH": 3,
+    "JJR": 4,
+    "RBR": 3,
+    "LS": 1
+  },
+  "modal_count": 17,
+  "modal_lemma_counts": {
+    "can": 10,
+    "could": 1,
+    "will": 4,
+    "should": 1,
+    "may": 1
+  },
+  "modals_per_1000": 13.9,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "expect": 2,
+    "believe": 3
+  },
+  "epistemics_per_1000": 4.088,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 132,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", all you",
+      "right_3": "be sure about",
+      "sentence": "The first time you organize a conference like this, all you can be sure about is that there was indeed enough research and interest for such a conference."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 162,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "proved that you",
+      "right_3": "do it again",
+      "sentence": "The second time it is held, you proved that you could do it again."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 179,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": "is when we",
+      "right_3": "start to feel",
+      "sentence": "But the third year, this year, is when we can start to feel we have established a tradition."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 200,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "I expect it",
+      "right_3": "be , I",
+      "sentence": "If this year's conference comes even close to being as successful as the first two were, and I expect it will be, I hope that we have established an ongoing role for this gathering, which provides such a great opportunity for bankers, regulators, and academic researchers to come together to share ideas and insights about the issues that matter most in community banking."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 271,
+      "head_verb_surface": "tackle",
+      "head_verb_lemma": "tackle",
+      "left_3": "next two days",
+      "right_3": "tackle some of",
+      "sentence": "Based on the agenda and conference materials I have seen, I expect participants over the next two days will tackle some of the most important issues facing community banks, provoke discussion and debate about opportunities and challenges, and generate some promising ideas about how community banks can continue to play the indispensable role they have played in so many communities."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 271,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "how community banks",
+      "right_3": "continue to play",
+      "sentence": "Based on the agenda and conference materials I have seen, I expect participants over the next two days will tackle some of the most important issues facing community banks, provoke discussion and debate about opportunities and challenges, and generate some promising ideas about how community banks can continue to play the indispensable role they have played in so many communities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 354,
+      "head_verb_surface": "delve",
+      "head_verb_lemma": "delve",
+      "left_3": "She and others",
+      "right_3": "delve deeply into",
+      "sentence": "She and others will delve deeply into the important research questions and other issues facing community banking."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 388,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "conference , I",
+      "right_3": "be brief ,",
+      "sentence": "In the interest of getting to the important work of this conference, I will be brief, but if I accomplish anything by speaking to you today, I hope it is to convey the Board's understanding of the unique and important role of community banks in our financial system as well as the Board's commitment, at the highest level, to consider how our supervisory and regulatory decisions affect those institu"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 596,
+      "head_verb_surface": "tailor",
+      "head_verb_lemma": "tailor",
+      "left_3": "so that they",
+      "right_3": "tailor their products",
+      "sentence": "My colleagues on the Board understand, as I do, that these close ties give community bankers special insight and understanding into local needs so that they can tailor their products and services to meet those needs."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 918,
+      "head_verb_surface": "tailored",
+      "head_verb_lemma": "tailor",
+      "left_3": "and supervisory approaches",
+      "right_3": "be tailored to",
+      "sentence": "To effectively promote safety and soundness and ensure consumer compliance without creating undue regulatory burden, rules and supervisory approaches should be tailored to different types of institutions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1166,
+      "head_verb_surface": "add",
+      "head_verb_lemma": "add",
+      "left_3": "- quality research",
+      "right_3": "add to knowledge",
+      "sentence": "We believe strongly in the idea that high-quality research can add to knowledge and understanding and help inform economic and financial policymaking to yield better decisions that benefit society."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1198,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "believe that research",
+      "right_3": "help us better",
+      "sentence": "The Fed instituted this conference in partnership with the CSBS because we believe that research can help us better understand the benefits that community banks provide to society and the challenges they face."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1232,
+      "head_verb_surface": "spurred",
+      "head_verb_lemma": "spur",
+      "left_3": "subsequent research that",
+      "right_3": "be spurred by",
+      "sentence": "The work presented at this conference and subsequent research that may be spurred by this work can deepen community bankers' understanding of their businesses, and it can help state and federal regulators make better-informed decisions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1232,
+      "head_verb_surface": "deepen",
+      "head_verb_lemma": "deepen",
+      "left_3": "by this work",
+      "right_3": "deepen community bankers",
+      "sentence": "The work presented at this conference and subsequent research that may be spurred by this work can deepen community bankers' understanding of their businesses, and it can help state and federal regulators make better-informed decisions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1232,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ", and it",
+      "right_3": "help state and",
+      "sentence": "The work presented at this conference and subsequent research that may be spurred by this work can deepen community bankers' understanding of their businesses, and it can help state and federal regulators make better-informed decisions."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1272,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "Ultimately , research",
+      "right_3": "help provide answers",
+      "sentence": "Ultimately, research can help provide answers to how community banks can continue to succeed in the 21st century."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1272,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "how community banks",
+      "right_3": "continue to succeed",
+      "sentence": "Ultimately, research can help provide answers to how community banks can continue to succeed in the 21st century."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "If this year's conference comes even close to being as successful as the first two were, and I expect it will be, I hope that we have established an ongoing role for this gathering, which provides such a great opportunity for bankers, regulators, and academic researchers to come together to share ideas and insights about the issues that matter most in community banking."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Based on the agenda and conference materials I have seen, I expect participants over the next two days will tackle some of the most important issues facing community banks, provoke discussion and debate about opportunities and challenges, and generate some promising ideas about how community banks can continue to play the indispensable role they have played in so many communities."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Let me conclude by returning to the occasion of this conference and what I believe it says about the Federal Reserve's commitment to supporting the ongoing role of community banking in America."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "We believe strongly in the idea that high-quality research can add to knowledge and understanding and help inform economic and financial policymaking to yield better decisions that benefit society."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Fed instituted this conference in partnership with the CSBS because we believe that research can help us better understand the benefits that community banks provide to society and the challenges they face."
+    }
+  ]
+}

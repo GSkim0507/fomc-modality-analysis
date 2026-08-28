@@ -1,0 +1,164 @@
+{
+  "doc_id": "speech_powell_20231108a",
+  "doc_type": "speech",
+  "date": "2023-11-08",
+  "chair": "Powell",
+  "n_tokens": 915,
+  "n_sents": 41,
+  "pos_counts": {
+    "NNP": 71,
+    "CD": 7,
+    ",": 61,
+    "IN": 132,
+    "``": 1,
+    "NN": 141,
+    "DT": 128,
+    "CC": 42,
+    "''": 1,
+    "VBG": 17,
+    "NNPS": 7,
+    "VBP": 22,
+    "PRP": 23,
+    "TO": 16,
+    "VB": 27,
+    ".": 41,
+    "VBZ": 26,
+    "JJ": 80,
+    "RB": 34,
+    "-LRB-": 2,
+    "-RRB-": 2,
+    "NNS": 70,
+    "WP": 1,
+    "VBD": 6,
+    "VBN": 17,
+    "WRB": 7,
+    "MD": 6,
+    "POS": 4,
+    "WDT": 4,
+    "PRP$": 12,
+    "RBS": 6,
+    "RP": 1,
+    "HYPH": 6,
+    "JJS": 5,
+    "JJR": 1,
+    "PDT": 1,
+    "EX": 1
+  },
+  "modal_count": 6,
+  "modal_lemma_counts": {
+    "can": 3,
+    "will": 3
+  },
+  "modals_per_1000": 6.557,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "certain": 2,
+    "perhaps": 2,
+    "forecast": 1
+  },
+  "epistemics_per_1000": 5.464,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 115,
+      "head_verb_surface": "work",
+      "head_verb_lemma": "work",
+      "left_3": "places where you",
+      "right_3": "work for a",
+      "sentence": "The Fed is one of those places where you can work for a decade or so and still feel like a newbie."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 139,
+      "head_verb_surface": "outline",
+      "head_verb_lemma": "outline",
+      "left_3": "room , I",
+      "right_3": "briefly outline R&S",
+      "sentence": "For those listening outside this room, I will briefly outline R&S's responsibilities."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 270,
+      "head_verb_surface": "send",
+      "head_verb_lemma": "send",
+      "left_3": "economy , they",
+      "right_3": "send an email",
+      "sentence": "If Board members have questions about even the most arcane workings of some aspect of the economy, they can send an email and, in no time, be sitting down with some of the best-informed experts on that subject."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 734,
+      "head_verb_surface": "start",
+      "head_verb_lemma": "start",
+      "left_3": ". \n\n I",
+      "right_3": "start with an",
+      "sentence": "I will start with an intense commitment."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 802,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": ", and you",
+      "right_3": "find that they",
+      "sentence": "Ask Stacey and her colleagues to explain a certain aspect of the forecast, and you will find that they have a clear explanation grounded in a rigorous framework."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 845,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": ". Economic models",
+      "right_3": "do a reasonably",
+      "sentence": "Economic models can do a reasonably good job of capturing the working of the economy over past decades."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Each month, the Industrial Production report gives us insights into how well certain sectors of the economy, especially in the manufacturing realm, are operating."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "I want to focus in more detail on the forecast, perhaps the most important of R&S's roles."
+    },
+    {
+      "surface": "forecasting",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The people of R&S are those people, having chosen such a task in forecasting the path of the U.S. economy, eight times a year for FOMC meetings, with ongoing updates between meetings."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "Ask Stacey and her colleagues to explain a certain aspect of the forecast, and you will find that they have a clear explanation grounded in a rigorous framework."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Perhaps the most important legacy of the past century for the Division of Research and Statistics is the resilience, the creativity, the energy, the rigor, and the commitment with which R&S has risen to the many challenges it and our country have faced in that span of history."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "doc_id": "statement_20111102",
+  "doc_type": "statement",
+  "date": "2011-11-02",
+  "chair": "Bernanke",
+  "n_tokens": 503,
+  "n_sents": 18,
+  "pos_counts": {
+    "NNP": 55,
+    "CD": 4,
+    ",": 18,
+    "VBZ": 18,
+    "JJ": 50,
+    "NN": 88,
+    "IN": 70,
+    "VBD": 9,
+    "DT": 43,
+    "RB": 15,
+    "VBG": 13,
+    "NNS": 37,
+    "WDT": 2,
+    "VBN": 10,
+    "RP": 1,
+    "RBR": 2,
+    ".": 18,
+    "VBP": 6,
+    "CC": 19,
+    "JJR": 4,
+    "TO": 17,
+    "VB": 22,
+    "PRP$": 9,
+    "HYPH": 3,
+    "MD": 5,
+    "EX": 1,
+    "POS": 1,
+    ":": 11,
+    "JJS": 1,
+    "WP": 1
+  },
+  "modal_count": 5,
+  "modal_lemma_counts": {
+    "will": 5
+  },
+  "modals_per_1000": 9.94,
+  "epistemic_count": 7,
+  "epistemic_lemma_counts": {
+    "expect": 1,
+    "anticipate": 3,
+    "judge": 1,
+    "likely": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 13.917,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 169,
+      "head_verb_surface": "decline",
+      "head_verb_lemma": "decline",
+      "left_3": "the unemployment rate",
+      "right_3": "decline only gradually",
+      "sentence": "The Committee continues to expect a moderate pace of economic growth over coming quarters and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 227,
+      "head_verb_surface": "settle",
+      "head_verb_lemma": "settle",
+      "left_3": "anticipates that inflation",
+      "right_3": "settle , over",
+      "sentence": "The Committee also anticipates that inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price increases dissipate further."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 267,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": ", the Committee",
+      "right_3": "continue to pay",
+      "sentence": "However, the Committee will continue to pay close attention to the evolution of inflation and inflation expectations."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 374,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": ". The Committee",
+      "right_3": "regularly review the",
+      "sentence": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 459,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "\r\n \n\n\r\n  The Committee",
+      "right_3": "continue to assess",
+      "sentence": "The Committee will continue to assess the economic outlook in light of incoming information and is prepared to employ its tools to promote a stronger economic recovery in a context of price stability."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee continues to expect a moderate pace of economic growth over coming quarters and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee continues to expect a moderate pace of economic growth over coming quarters and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "judges",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee continues to expect a moderate pace of economic growth over coming quarters and consequently anticipates that the unemployment rate will decline only gradually toward levels that the Committee judges to be consistent with its dual mandate."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee also anticipates that inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price increases dissipate further."
+    },
+    {
+      "surface": "anticipates",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The Committee also decided to keep the target range for the federal funds rate at 0 to 1/4 percent and currently anticipates that economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The Committee also decided to keep the target range for the federal funds rate at 0 to 1/4 percent and currently anticipates that economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The Committee will continue to assess the economic outlook in light of incoming information and is prepared to employ its tools to promote a stronger economic recovery in a context of price stability."
+    }
+  ]
+}

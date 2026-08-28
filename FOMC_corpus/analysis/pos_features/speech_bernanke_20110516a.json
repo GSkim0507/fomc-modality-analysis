@@ -1,0 +1,634 @@
+{
+  "doc_id": "speech_bernanke_20110516a",
+  "doc_type": "speech",
+  "date": "2011-05-16",
+  "chair": "Bernanke",
+  "n_tokens": 4127,
+  "n_sents": 229,
+  "pos_counts": {
+    "NNP": 508,
+    "CD": 210,
+    ",": 348,
+    "VBG": 72,
+    "CC": 192,
+    ":": 30,
+    "DT": 342,
+    "POS": 8,
+    "IN": 601,
+    "``": 30,
+    "NNPS": 18,
+    "''": 28,
+    "NN": 700,
+    "PRP": 31,
+    "VBP": 73,
+    "JJ": 368,
+    "TO": 50,
+    "VB": 136,
+    "NNS": 307,
+    ".": 231,
+    "VBN": 111,
+    "MD": 40,
+    "WRB": 11,
+    "RBS": 5,
+    "RB": 167,
+    "HYPH": 33,
+    "VBD": 28,
+    "VBZ": 81,
+    "PDT": 2,
+    "SYM": 24,
+    "WP": 10,
+    "JJR": 17,
+    "RBR": 18,
+    "PRP$": 14,
+    "-LRB-": 72,
+    "-RRB-": 74,
+    "WDT": 18,
+    "EX": 1,
+    "RP": 4,
+    "JJS": 7
+  },
+  "modal_count": 40,
+  "modal_lemma_counts": {
+    "will": 7,
+    "can": 8,
+    "would": 8,
+    "may": 7,
+    "should": 7,
+    "could": 2,
+    "must": 1
+  },
+  "modals_per_1000": 9.692,
+  "epistemic_count": 19,
+  "epistemic_lemma_counts": {
+    "certainly": 3,
+    "undoubtedly": 1,
+    "certain": 2,
+    "unlikely": 1,
+    "possible": 1,
+    "perhaps": 1,
+    "potentially": 2,
+    "clearly": 1,
+    "likely": 3,
+    "potential": 1,
+    "possibly": 1,
+    "believe": 1,
+    "assess": 1
+  },
+  "epistemics_per_1000": 4.604,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 76,
+      "head_verb_surface": "address",
+      "head_verb_lemma": "address",
+      "left_3": "The topics you",
+      "right_3": "address today and",
+      "sentence": "The topics you will address today and tomorrow, bearing on innovation and intangible capital, are central to understanding how we can best promote robust economic growth in the long run."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 76,
+      "head_verb_surface": "promote",
+      "head_verb_lemma": "promote",
+      "left_3": "understanding how we",
+      "right_3": "best promote robust",
+      "sentence": "The topics you will address today and tomorrow, bearing on innovation and intangible capital, are central to understanding how we can best promote robust economic growth in the long run."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 110,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": ". \r\n \n\n\r\n  I",
+      "right_3": "n't have to",
+      "sentence": "I won't have to spend much time convincing this audience of the importance of long-run economic growth."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 168,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "n't think I",
+      "right_3": "go quite that",
+      "sentence": "\" 1    Although I don't think I would go quite that far, it is certainly true that relatively small differences in rates of economic growth, maintained over a sustained period, can have enormous implications for material living standards."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 168,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "sustained period ,",
+      "right_3": "have enormous implications",
+      "sentence": "\" 1    Although I don't think I would go quite that far, it is certainly true that relatively small differences in rates of economic growth, maintained over a sustained period, can have enormous implications for material living standards."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 754,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "remarks , I",
+      "right_3": "focus on one",
+      "sentence": "In the remainder of my remarks, I will focus on one important component of innovation policy--namely, government support for R&D."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 955,
+      "head_verb_surface": "supply",
+      "head_verb_lemma": "supply",
+      "left_3": "the private market",
+      "right_3": "not adequately supply",
+      "sentence": "The primary economic rationale for a government role in R&D is that, absent such intervention, the private market would not adequately supply certain types of research."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 985,
+      "head_verb_surface": "replicated",
+      "head_verb_lemma": "replicate",
+      "left_3": "the new knowledge",
+      "right_3": "be replicated or",
+      "sentence": "3   The argument, which applies particularly strongly to basic or fundamental research, is that the full economic value of a scientific advance is unlikely to accrue to its discoverer, especially if the new knowledge can be replicated or disseminated at low cost."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 1060,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "return to research",
+      "right_3": "be higher on",
+      "sentence": "If many people are able to exploit, or otherwise benefit from, research done by others, then the total or social return to research may be higher on average than the private return to those who bear the costs and risks of innovation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1106,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": ", market forces",
+      "right_3": "lead to underinvestment",
+      "sentence": "As a result, market forces will lead to underinvestment in R&D from society's perspective, providing a rationale for government intervention."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1131,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "market underprovision problem",
+      "right_3": "be to substantially",
+      "sentence": "One possible policy response to the market underprovision problem would be to substantially strengthen the intellectual property rights regime, for example, by granting the developers of new ideas strong and long-lasting claims to the economic benefits of their discoveries--perhaps by extending and expanding patent rights."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1183,
+      "head_verb_surface": "inhibit",
+      "head_verb_lemma": "inhibit",
+      "left_3": "of new ideas",
+      "right_3": "inhibit both further",
+      "sentence": "This approach has significant drawbacks of its own, however, in that strict limitations on the free use of new ideas would inhibit both further research and the development of valuable commercial applications."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1246,
+      "head_verb_surface": "weakened",
+      "head_verb_lemma": "weaken",
+      "left_3": "support of R&D",
+      "right_3": "be weakened if",
+      "sentence": "Of course, the rationale for government support of R&D would be weakened if governments had consistently performed poorly in this sphere."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 1543,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "of the world",
+      "right_3": "be instructive .",
+      "sentence": "As background, however, a consideration of recent trends in expenditures on R&D in the United States and the rest of the world should be instructive."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1755,
+      "head_verb_surface": "boost",
+      "head_verb_lemma": "boost",
+      "left_3": "support for R&D",
+      "right_3": ", over time",
+      "sentence": "Indeed, some economists have argued that, because of the potentially high social return to basic research, expanded government support for R&D could, over time, significantly boost economic growth."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1790,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "and the Administration",
+      "right_3": "clearly need to",
+      "sentence": "9   That said, in a time of fiscal stringency, the Congress and the Administration will clearly need to carefully weigh competing priorities in their budgetary decisions."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2054,
+      "head_verb_surface": "think",
+      "head_verb_lemma": "think",
+      "left_3": "12 \n \n\n\r\n  How",
+      "right_3": "policymakers think about",
+      "sentence": "12    \r  How should policymakers think about the increasing globalization of R&D spending?"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2121,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "in one country",
+      "right_3": "lead to employment",
+      "sentence": "Moreover, in a globalized economy, product and process innovations in one country can lead to employment opportunities and improved goods and services around the world."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2150,
+      "head_verb_surface": "matter",
+      "head_verb_lemma": "matter",
+      "left_3": "of R&D activity",
+      "right_3": "matter . For",
+      "sentence": "On the other hand, in some circumstances, the location of R&D activity can matter."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2167,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": ", technological prowess",
+      "right_3": "help a country",
+      "sentence": "For example, technological prowess may help a country reap the financial and employment benefits of leadership in a strategic industry."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2189,
+      "head_verb_surface": "create",
+      "head_verb_lemma": "create",
+      "left_3": "or technological center",
+      "right_3": "create a variety",
+      "sentence": "A cutting-edge scientific or technological center can create a variety of spillovers that promote innovation, quality, skills acquisition, and productivity in industries located nearby; such spillovers are the reason that high-tech firms often locate in clusters or near leading universities."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2279,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "14 \n \n\n How",
+      "right_3": "Governments Provide Support",
+      "sentence": "How Should Governments Provide Support for Research and Development?"
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2290,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "imply that governments",
+      "right_3": "focus particularly on",
+      "sentence": "The economic arguments for government support of innovation generally imply that governments should focus particularly on fostering basic, or foundational, research."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 2355,
+      "head_verb_surface": "use",
+      "head_verb_lemma": "use",
+      "left_3": "what policy instruments",
+      "right_3": "it use ?",
+      "sentence": "If the government decides to foster R&D, what policy instruments should it use?"
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2403,
+      "head_verb_surface": "made",
+      "head_verb_lemma": "make",
+      "left_3": ", many choices",
+      "right_3": "be made about",
+      "sentence": "Moreover, within each of these categories, many choices must be made about how to structure specific programs."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2423,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "development than we",
+      "right_3": "like ; it",
+      "sentence": "Unfortunately, economists know less about how best to channel public support for research and development than we would like; it is good news, therefore, that considerable new work is being done on this topic, including recent initiatives on science policy by the National Science Foundation."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2497,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "of the research",
+      "right_3": "make the most",
+      "sentence": "Direct government support or conduct of the research may make the most sense if the project is highly focused and large-scale, possibly involving the need for coordination of the work of many researchers and subject to relatively tight time frames."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2575,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "small research groups",
+      "right_3": "be most effective",
+      "sentence": "Outside of such cases, which often are linked to national defense, a more decentralized model that relies on the ideas and initiative of individual researchers or small research groups may be most effective."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2763,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "innovation and R&D",
+      "right_3": "be more effective",
+      "sentence": "However it is channeled, government support for innovation and R&D will be more effective if it is thought of as a long-run investment."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2790,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "ultimate economic benefits",
+      "right_3": "be very long",
+      "sentence": "Gestation lags from basic research to commercial application to the ultimate economic benefits can be very long."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3120,
+      "head_verb_surface": "done",
+      "head_verb_lemma": "do",
+      "left_3": "suggest that more",
+      "right_3": "be done to",
+      "sentence": "Taken together, these trends suggest that more could be done to increase the number of U.S. students entering scientific and engineering professions."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3279,
+      "head_verb_surface": "enhanced",
+      "head_verb_lemma": "enhance",
+      "left_3": "around the world",
+      "right_3": "be enhanced by",
+      "sentence": "More generally, technological progress and innovation around the world would be enhanced by lowering national barriers to international scientific cooperation and collaboration."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3331,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "less than we",
+      "right_3": "like about which",
+      "sentence": "In practice, we know less than we would like about which policies work best."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3347,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "strategy for now",
+      "right_3": "be to continue",
+      "sentence": "A reasonable strategy for now may be to continue to use a mix of policies to support R&D while taking pains to encourage diverse and even competing approaches by the scientists and engineers receiving support."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 3384,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": ". \r\n \n\n\r\n  We",
+      "right_3": "also keep in",
+      "sentence": "We should also keep in mind that funding R&D activity is only part of what the government can do to foster innovation."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3384,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "what the government",
+      "right_3": "do to foster",
+      "sentence": "We should also keep in mind that funding R&D activity is only part of what the government can do to foster innovation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3500,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "capital . We",
+      "right_3": "be more likely",
+      "sentence": "We will be more likely to promote innovative activity if we are able to measure it more effectively and document its role in economic growth."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4470,
+      "head_verb_surface": "government",
+      "head_verb_lemma": "government",
+      "left_3": ") . \"",
+      "right_3": "the Government Subsidize",
+      "sentence": "\"Should the Government Subsidize Supply or Demand in the Market for Scientists and Engineers?\"  Innovation Policy and the Economy , vol. 1, pp. 221-52."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4806,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "is warranted ,",
+      "right_3": "be lower than",
+      "sentence": "The estimates in the literature are typically for average social returns; the return to an additional dollar of R&D spending, which is the relevant variable for determining whether further spending is warranted, may be lower than the average return."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 5071,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "is that it",
+      "right_3": "have national security",
+      "sentence": "Another argument for fostering domestic innovation is that it may have national security implications."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "\" 1    Although I don't think I would go quite that far, it is certainly true that relatively small differences in rates of economic growth, maintained over a sustained period, can have enormous implications for material living standards."
+    },
+    {
+      "surface": "undoubtedly",
+      "lemma": "undoubtedly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "However, innovation and technological change are undoubtedly central to the growth process; over the past 200 years or so, innovation, technical advances, and investment in capital goods embodying new technologies have transformed economies around the world."
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "That said, the tendency of the market to supply too little of certain types of R&D provides a rationale for government intervention; and no matter how good the policy environment, ultimately, big new ideas are often rooted in well-executed R&D.\r    The Rationale for a Government Role in Research and Development \r  Governments in many countries directly support scientific and technical research, fo"
+    },
+    {
+      "surface": "certain",
+      "lemma": "certain",
+      "pos": "ADJ",
+      "category": "booster_high",
+      "kind": "adj",
+      "sentence": "The primary economic rationale for a government role in R&D is that, absent such intervention, the private market would not adequately supply certain types of research."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "3   The argument, which applies particularly strongly to basic or fundamental research, is that the full economic value of a scientific advance is unlikely to accrue to its discoverer, especially if the new knowledge can be replicated or disseminated at low cost."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "One possible policy response to the market underprovision problem would be to substantially strengthen the intellectual property rights regime, for example, by granting the developers of new ideas strong and long-lasting claims to the economic benefits of their discoveries--perhaps by extending and expanding patent rights."
+    },
+    {
+      "surface": "perhaps",
+      "lemma": "perhaps",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "One possible policy response to the market underprovision problem would be to substantially strengthen the intellectual property rights regime, for example, by granting the developers of new ideas strong and long-lasting claims to the economic benefits of their discoveries--perhaps by extending and expanding patent rights."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "Certainly, there have been disappointments; for example, the surge in federal investment in energy technology research in the 1970s, a response to the energy crisis of that decade, achieved less than its initiators hoped."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Indeed, some economists have argued that, because of the potentially high social return to basic research, expanded government support for R&D could, over time, significantly boost economic growth."
+    },
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "9   That said, in a time of fiscal stringency, the Congress and the Administration will clearly need to carefully weigh competing priorities in their budgetary decisions."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "On the one hand, the diffusion of scientific and technological research throughout the world potentially benefits everyone by increasing the pace of innovation globally."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The most applied and commercially relevant research is likely to be done in any case by the private sector, as private firms have strong incentives to determine what the market demands and to meet those needs."
+    },
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "A number of potential tools exist, including direct funding of government research facilities, grants to university or private-sector researchers, contracts for specific projects, and tax incentives."
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "16    \r  Certainly, the characteristics of the research to be supported are important for the choice of the policy tool."
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Direct government support or conduct of the research may make the most sense if the project is highly focused and large-scale, possibly involving the need for coordination of the work of many researchers and subject to relatively tight time frames."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Some critics believe that funding agencies have been too cautious, focusing on a limited number of low-risk projects and targeting funding to more-established scientists at the expense of researchers who are less established or less conventional in their approaches."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Thus, governments that choose to provide support for R&D are likely to get better results if that support is stable, avoiding a pattern of feast or famine."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "We will be more likely to promote innovative activity if we are able to measure it more effectively and document its role in economic growth."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "\"Assessing the Impact of Science Funding,\"  Science , vol. 324 (June), pp."
+    }
+  ]
+}

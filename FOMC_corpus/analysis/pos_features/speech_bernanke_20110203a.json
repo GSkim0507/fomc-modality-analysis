@@ -1,0 +1,686 @@
+{
+  "doc_id": "speech_bernanke_20110203a",
+  "doc_type": "speech",
+  "date": "2011-02-03",
+  "chair": "Bernanke",
+  "n_tokens": 3029,
+  "n_sents": 109,
+  "pos_counts": {
+    "NNP": 126,
+    "CD": 99,
+    ",": 185,
+    "DT": 277,
+    "CC": 116,
+    "IN": 437,
+    "NN": 532,
+    "JJ": 317,
+    ".": 108,
+    "PRP": 50,
+    "VBP": 66,
+    "TO": 68,
+    "VB": 120,
+    "RB": 167,
+    "NNS": 258,
+    "WP": 4,
+    "PRP$": 26,
+    "POS": 10,
+    "VBZ": 52,
+    "VBN": 80,
+    "MD": 45,
+    "VBD": 39,
+    "VBG": 61,
+    "WRB": 9,
+    "WDT": 20,
+    "RP": 4,
+    "RBR": 16,
+    "HYPH": 43,
+    "JJR": 22,
+    "JJS": 3,
+    ":": 13,
+    "PDT": 3,
+    "SYM": 3,
+    "$": 2,
+    "-LRB-": 6,
+    "-RRB-": 6,
+    "RBS": 1,
+    "EX": 1,
+    "``": 3,
+    "''": 1
+  },
+  "modal_count": 45,
+  "modal_lemma_counts": {
+    "can": 6,
+    "must": 3,
+    "will": 22,
+    "may": 1,
+    "would": 9,
+    "could": 2,
+    "might": 2
+  },
+  "modals_per_1000": 14.856,
+  "epistemic_count": 20,
+  "epistemic_lemma_counts": {
+    "expect": 6,
+    "likely": 4,
+    "assess": 2,
+    "probably": 1,
+    "judge": 1,
+    "project": 5,
+    "potentially": 1
+  },
+  "epistemics_per_1000": 6.603,
+  "modal_instances": [
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 95,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "contemporary economic issues",
+      "right_3": "be highly complex",
+      "sentence": "But contemporary economic issues can be highly complex, and few nonspecialists have the time or the background to master these issues on their own."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 121,
+      "head_verb_surface": "rely",
+      "head_verb_lemma": "rely",
+      "left_3": ". The public",
+      "right_3": "therefore rely on",
+      "sentence": "The public must therefore rely on the diligent reporting, clear thinking, and lucid writing of reporters determined to go beyond dueling bumper stickers and sound bites to help people understand what they need to make good decisions, both in their personal finances and at the polls."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 187,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "Today , I",
+      "right_3": "provide a brief",
+      "sentence": "Today, I will provide a brief update on the economy and how I expect it to evolve in the near term."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 210,
+      "head_verb_surface": "turn",
+      "head_verb_lemma": "turn",
+      "left_3": ". Then I",
+      "right_3": "turn to the",
+      "sentence": "Then I will turn to the implications for monetary policy."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 221,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "Finally , I",
+      "right_3": "briefly discuss the",
+      "sentence": "Finally, I will briefly discuss the daunting fiscal challenges that we face as a nation."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 363,
+      "head_verb_surface": "taking",
+      "head_verb_lemma": "take",
+      "left_3": "and business spending",
+      "right_3": "be taking hold",
+      "sentence": "More recently, however, we have seen increased evidence that a self-sustaining recovery in consumer and business spending may be taking hold."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 681,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "payrolls , it",
+      "right_3": "be several years",
+      "sentence": "Even so, with output growth likely to be moderate for awhile and with employers reportedly still reluctant to add to their payrolls, it will be several years before the unemployment rate has returned to a more normal level."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 722,
+      "head_verb_surface": "consider",
+      "head_verb_lemma": "consider",
+      "left_3": "creation , we",
+      "right_3": "not consider the",
+      "sentence": "Until we see a sustained period of stronger job creation, we cannot consider the recovery to be truly established."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 847,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "components and therefore",
+      "right_3": "be a better",
+      "sentence": "1   To assess underlying trends in inflation, economists also follow several alternative measures of inflation; one such measure is so-called core inflation, which excludes the more volatile food and energy components and therefore can be a better predictor of where overall inflation is headed."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 964,
+      "head_verb_surface": "increase",
+      "head_verb_lemma": "increase",
+      "left_3": "although economic growth",
+      "right_3": "probably increase this",
+      "sentence": "Monetary Policy \r  In sum, although economic growth will probably increase this year, we expect the unemployment rate to remain stubbornly above, and inflation to remain persistently below, the levels that Federal Reserve policymakers have judged to be consistent over the longer term with our mandate from the Congress to foster maximum employment and price stability."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1025,
+      "head_verb_surface": "ease",
+      "head_verb_lemma": "ease",
+      "left_3": "the Federal Reserve",
+      "right_3": "typically ease monetary",
+      "sentence": "Under such conditions, the Federal Reserve would typically ease monetary policy by reducing the target for its short-term policy interest rate, the federal funds rate."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1616,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "are what one",
+      "right_3": "expect to see",
+      "sentence": "All of these developments are what one would expect to see when monetary policy becomes more accommodative, whether through conventional or less conventional means."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1723,
+      "head_verb_surface": "review",
+      "head_verb_lemma": "review",
+      "left_3": "said that we",
+      "right_3": "review the asset",
+      "sentence": "My colleagues and I have said that we will review the asset purchase program regularly in light of incoming information and will adjust it as needed to promote maximum employment and stable prices."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1723,
+      "head_verb_surface": "adjust",
+      "head_verb_lemma": "adjust",
+      "left_3": "incoming information and",
+      "right_3": "adjust it as",
+      "sentence": "My colleagues and I have said that we will review the asset purchase program regularly in light of incoming information and will adjust it as needed to promote maximum employment and stable prices."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1784,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "Federal Reserve Banks",
+      "right_3": "allow us to",
+      "sentence": "In particular, our ability to pay interest on reserve balances held at the Federal Reserve Banks will allow us to put upward pressure on short-term market interest rates and thus to tighten monetary policy when required, even if bank reserves remain high."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1831,
+      "head_verb_surface": "allow",
+      "head_verb_lemma": "allow",
+      "left_3": "additional tools that",
+      "right_3": "allow us to",
+      "sentence": "Moreover, we have developed additional tools that will allow us to drain or immobilize bank reserves as required to facilitate the smooth withdrawal of policy accommodation when conditions warrant."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1862,
+      "head_verb_surface": "tighten",
+      "head_verb_lemma": "tighten",
+      "left_3": "needed , we",
+      "right_3": "also tighten policy",
+      "sentence": "If needed, we could also tighten policy by redeeming or selling securities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1964,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "the federal budget",
+      "right_3": "remain on an",
+      "sentence": "However, even after economic and financial conditions have returned to normal, the federal budget will remain on an unsustainable path, with the budget gap becoming increasingly large over time, unless the Congress enacts significant changes in fiscal programs."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2008,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": "how fiscal policies",
+      "right_3": "evolve in the",
+      "sentence": "For example, under plausible assumptions about how fiscal policies might evolve in the absence of major legislative changes, the Congressional Budget Office (CBO) projects the deficit to fall from around 9 percent of GDP currently to roughly 5 percent of GDP by 2015, but then to rise to about 6â1/2 percent of GDP by the end of the decade."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2185,
+      "head_verb_surface": "double",
+      "head_verb_lemma": "double",
+      "left_3": "insurance exchanges --",
+      "right_3": "roughly double as",
+      "sentence": "Indeed, the CBO projects that federal spending for health-care programs--which includes Medicare, Medicaid, and subsidies to purchase health insurance through new insurance exchanges--will roughly double as a percentage of GDP over the next 25 years."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2232,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "need it ,",
+      "right_3": "be critical for",
+      "sentence": "3   The ability to control health-care costs, while still providing high-quality care to those who need it, will be critical for bringing the federal budget onto a sustainable path."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2270,
+      "head_verb_surface": "strain",
+      "head_verb_lemma": "strain",
+      "left_3": "- boom generation",
+      "right_3": "also strain Social",
+      "sentence": "The retirement of the baby-boom generation will also strain Social Security, as the number of workers paying taxes into the system rises more slowly than the number of people receiving benefits."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2328,
+      "head_verb_surface": "retired",
+      "head_verb_lemma": "retire",
+      "left_3": "the baby boomers",
+      "right_3": "have retired ,",
+      "sentence": "By 2030, when most of the baby boomers will have retired, this ratio is projected to decline to around 3. 4   Overall, the projected fiscal pressures associated with Social Security are considerably smaller than the pressures associated with federal health programs, but they are still notable."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2411,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "and financial effects",
+      "right_3": "be severe .",
+      "sentence": "But if government debt and deficits were actually to grow at the pace envisioned, the economic and financial effects would be severe."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2435,
+      "head_verb_surface": "drain",
+      "head_verb_lemma": "drain",
+      "left_3": "of government borrowing",
+      "right_3": "both drain funds",
+      "sentence": "Sustained high rates of government borrowing would both drain funds away from private investment and increase our debt to foreigners, with adverse long-run effects on U.S. output, incomes, and standards of living."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2473,
+      "head_verb_surface": "brought",
+      "head_verb_lemma": "bring",
+      "left_3": "confidence that deficits",
+      "right_3": "be brought under",
+      "sentence": "Moreover, diminishing investor confidence that deficits will be brought under control would ultimately lead to sharply rising interest rates on government debt and, potentially, to broader financial turmoil."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2473,
+      "head_verb_surface": "lead",
+      "head_verb_lemma": "lead",
+      "left_3": "brought under control",
+      "right_3": "ultimately lead to",
+      "sentence": "Moreover, diminishing investor confidence that deficits will be brought under control would ultimately lead to sharply rising interest rates on government debt and, potentially, to broader financial turmoil."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2505,
+      "head_verb_surface": "cause",
+      "head_verb_lemma": "cause",
+      "left_3": "rising interest rates",
+      "right_3": "cause debt -",
+      "sentence": "In a vicious circle, high and rising interest rates would cause debt-service payments on the federal debt to grow even faster, causing further increases in the debt-to-GDP ratio and making fiscal adjustment all the more difficult."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2599,
+      "head_verb_surface": "reduced",
+      "head_verb_lemma": "reduce",
+      "left_3": "primary budget deficit",
+      "right_3": "be reduced to",
+      "sentence": "To stabilize the ratio of federal debt to the GDP--a convenient benchmark for assessing fiscal sustainability--the primary budget deficit must be reduced to zero."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2675,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the adjustments that",
+      "right_3": "be necessary to",
+      "sentence": "These projections provide a gauge of the adjustments that will be necessary to attain fiscal sustainability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2692,
+      "head_verb_surface": "have",
+      "head_verb_lemma": "have",
+      "left_3": "the two --",
+      "right_3": "have to be",
+      "sentence": "To put the budget on a sustainable trajectory, policy actions--either reductions in spending or increases in revenues or some combination of the two--will have to be taken to eventually close these primary budget gaps."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2733,
+      "head_verb_surface": "happen",
+      "head_verb_lemma": "happen",
+      "left_3": "the CBO outlines",
+      "right_3": "not actually happen",
+      "sentence": "By definition, the unsustainable trajectories of deficits and debt that the CBO outlines cannot actually happen, because creditors would never be willing to lend to a government with debt, relative to national income, that is rising without limit."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2733,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ", because creditors",
+      "right_3": "never be willing",
+      "sentence": "By definition, the unsustainable trajectories of deficits and debt that the CBO outlines cannot actually happen, because creditors would never be willing to lend to a government with debt, relative to national income, that is rising without limit."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2777,
+      "head_verb_surface": "go",
+      "head_verb_lemma": "go",
+      "left_3": "\" If something",
+      "right_3": "not go on",
+      "sentence": "The economist Herbert Stein succinctly described this type of situation: \"If something cannot go on forever, it will stop."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2777,
+      "head_verb_surface": "stop",
+      "head_verb_lemma": "stop",
+      "left_3": "forever , it",
+      "right_3": "stop . \"",
+      "sentence": "The economist Herbert Stein succinctly described this type of situation: \"If something cannot go on forever, it will stop."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 2801,
+      "head_verb_surface": "occur",
+      "head_verb_lemma": "occur",
+      "left_3": "the federal budget",
+      "right_3": "occur at some",
+      "sentence": "\" 6   One way or the other, fiscal adjustments sufficient to stabilize the federal budget must occur at some point."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2825,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "whether these adjustments",
+      "right_3": "take place through",
+      "sentence": "The question is whether these adjustments will take place through a careful and deliberative process that weighs priorities and gives people adequate time to adjust to changes in government programs or tax policies, or whether the needed fiscal adjustments will be a rapid and painful response to a looming or actual fiscal crisis."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 2825,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "needed fiscal adjustments",
+      "right_3": "be a rapid",
+      "sentence": "The question is whether these adjustments will take place through a careful and deliberative process that weighs priorities and gives people adequate time to adjust to changes in government programs or tax policies, or whether the needed fiscal adjustments will be a rapid and painful response to a looming or actual fiscal crisis."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2880,
+      "head_verb_surface": "enhance",
+      "head_verb_lemma": "enhance",
+      "left_3": "reduce future deficits",
+      "right_3": "not only enhance",
+      "sentence": "Acting now to develop a credible program to reduce future deficits would not only enhance economic growth and stability in the long run, but could also yield substantial near-term benefits in terms of lower long-term interest rates and increased consumer and business confidence."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2880,
+      "head_verb_surface": "yield",
+      "head_verb_lemma": "yield",
+      "left_3": "run , but",
+      "right_3": "also yield substantial",
+      "sentence": "Acting now to develop a credible program to reduce future deficits would not only enhance economic growth and stability in the long run, but could also yield substantial near-term benefits in terms of lower long-term interest rates and increased consumer and business confidence."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3006,
+      "head_verb_surface": "seek",
+      "head_verb_lemma": "seek",
+      "left_3": "and the Administration",
+      "right_3": "seek reforms to",
+      "sentence": "I hope that, in addressing our long-term fiscal challenges, the Congress and the Administration will seek reforms to the government's tax policies and spending priorities that serve not only to reduce the deficit, but also to enhance the long-term growth potential of our economy--for example, by reducing disincentives to work and to save, by encouraging investment in the skills of our workforce as"
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3102,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": ". Our nation",
+      "right_3": "not reasonably expect",
+      "sentence": "Our nation cannot reasonably expect to grow its way out of our fiscal imbalances, but a more productive economy will ease the tradeoffs that we face."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3102,
+      "head_verb_surface": "ease",
+      "head_verb_lemma": "ease",
+      "left_3": "more productive economy",
+      "right_3": "ease the tradeoffs",
+      "sentence": "Our nation cannot reasonably expect to grow its way out of our fiscal imbalances, but a more productive economy will ease the tradeoffs that we face."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3135,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "you . I",
+      "right_3": "be pleased to",
+      "sentence": "I would be pleased to take your questions."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3389,
+      "head_verb_surface": "happen",
+      "head_verb_lemma": "happen",
+      "left_3": "GDP , as",
+      "right_3": "happen if creditors",
+      "sentence": "If the rate of interest on government debt is higher than the growth rate of nominal GDP, as might happen if creditors become wary of lending, then a primary budget surplus rather than primary balance is needed to stabilize the ratio of debt to GDP."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Today, I will provide a brief update on the economy and how I expect it to evolve in the near term."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Overall, however, improving household and business confidence, accommodative monetary policy, and more-supportive financial conditions, including an apparent increase in the willingness of banks to make loans, seems likely to lead to a more rapid pace of economic recovery in 2011 than we saw last year."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Even so, with output growth likely to be moderate for awhile and with employers reportedly still reluctant to add to their payrolls, it will be several years before the unemployment rate has returned to a more normal level."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "1   To assess underlying trends in inflation, economists also follow several alternative measures of inflation; one such measure is so-called core inflation, which excludes the more volatile food and energy components and therefore can be a better predictor of where overall inflation is headed."
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "pos": "ADV",
+      "category": "hedge_mid",
+      "kind": "adv",
+      "sentence": "Monetary Policy \r  In sum, although economic growth will probably increase this year, we expect the unemployment rate to remain stubbornly above, and inflation to remain persistently below, the levels that Federal Reserve policymakers have judged to be consistent over the longer term with our mandate from the Congress to foster maximum employment and price stability."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Monetary Policy \r  In sum, although economic growth will probably increase this year, we expect the unemployment rate to remain stubbornly above, and inflation to remain persistently below, the levels that Federal Reserve policymakers have judged to be consistent over the longer term with our mandate from the Congress to foster maximum employment and price stability."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Monetary Policy \r  In sum, although economic growth will probably increase this year, we expect the unemployment rate to remain stubbornly above, and inflation to remain persistently below, the levels that Federal Reserve policymakers have judged to be consistent over the longer term with our mandate from the Congress to foster maximum employment and price stability."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "However, the target range for the funds rate has been near zero since December 2008, and the Federal Reserve has indicated that economic conditions are likely to warrant an exceptionally low target rate for an extended period."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "All of these developments are what one would expect to see when monetary policy becomes more accommodative, whether through conventional or less conventional means."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "The fact that financial markets responded in very similar ways to each of these policy actions lends credence to the view that these actions had the expected effects on markets and are thereby providing significant support to job creation and the economy."
+    },
+    {
+      "surface": "projects",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "For example, under plausible assumptions about how fiscal policies might evolve in the absence of major legislative changes, the Congressional Budget Office (CBO) projects the deficit to fall from around 9 percent of GDP currently to roughly 5 percent of GDP by 2015, but then to rise to about 6â1/2 percent of GDP by the end of the decade."
+    },
+    {
+      "surface": "projects",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "2   After that, it projects the budget outlook to deteriorate even more rapidly, with federal debt held by the public reaching almost 90 percent of GDP by 2020 and 150 percent of GDP by 2030, up from about 60 percent at the end of fiscal year 2010."
+    },
+    {
+      "surface": "projects",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Indeed, the CBO projects that federal spending for health-care programs--which includes Medicare, Medicaid, and subsidies to purchase health insurance through new insurance exchanges--will roughly double as a percentage of GDP over the next 25 years."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "By 2030, when most of the baby boomers will have retired, this ratio is projected to decline to around 3. 4   Overall, the projected fiscal pressures associated with Social Security are considerably smaller than the pressures associated with federal health programs, but they are still notable."
+    },
+    {
+      "surface": "projected",
+      "lemma": "project",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "By 2030, when most of the baby boomers will have retired, this ratio is projected to decline to around 3. 4   Overall, the projected fiscal pressures associated with Social Security are considerably smaller than the pressures associated with federal health programs, but they are still notable."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "The CBO's long-term budget projections, by design, do not account for the likely adverse economic effects of such high debt and deficits."
+    },
+    {
+      "surface": "potentially",
+      "lemma": "potentially",
+      "pos": "ADV",
+      "category": "hedge_low",
+      "kind": "adv",
+      "sentence": "Moreover, diminishing investor confidence that deficits will be brought under control would ultimately lead to sharply rising interest rates on government debt and, potentially, to broader financial turmoil."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "To stabilize the ratio of federal debt to the GDP--a convenient benchmark for assessing fiscal sustainability--the primary budget deficit must be reduced to zero."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "5   Under the CBO projection that I noted earlier, the primary budget deficit is expected to be 2 percent of GDP in 2015 and then rise to almost 3 percent of GDP in 2020 and 6 percent of GDP in 2030."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Our nation cannot reasonably expect to grow its way out of our fiscal imbalances, but a more productive economy will ease the tradeoffs that we face."
+    }
+  ]
+}

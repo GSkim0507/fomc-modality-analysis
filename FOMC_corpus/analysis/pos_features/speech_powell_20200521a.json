@@ -1,0 +1,108 @@
+{
+  "doc_id": "speech_powell_20200521a",
+  "doc_type": "speech",
+  "date": "2020-05-21",
+  "chair": "Powell",
+  "n_tokens": 549,
+  "n_sents": 29,
+  "pos_counts": {
+    "NNP": 27,
+    "CD": 3,
+    ",": 22,
+    "IN": 75,
+    "``": 1,
+    "DT": 62,
+    "NNPS": 3,
+    "NN": 72,
+    ":": 3,
+    "WRB": 5,
+    "VBZ": 22,
+    "VBG": 11,
+    "PRP$": 7,
+    ".": 29,
+    "''": 1,
+    "VBN": 8,
+    "-LRB-": 1,
+    "JJ": 46,
+    "-RRB-": 1,
+    "PRP": 37,
+    "RB": 31,
+    "VBP": 30,
+    "TO": 12,
+    "VB": 22,
+    "NNS": 36,
+    "CC": 17,
+    "MD": 4,
+    "WP": 3,
+    "WDT": 6,
+    "RP": 3,
+    "VBD": 2,
+    "JJS": 2,
+    "JJR": 2,
+    "RBS": 1
+  },
+  "modal_count": 4,
+  "modal_lemma_counts": {
+    "would": 1,
+    "can": 2,
+    "will": 1
+  },
+  "modals_per_1000": 7.286,
+  "epistemic_count": 1,
+  "epistemic_lemma_counts": {
+    "expect": 1
+  },
+  "epistemics_per_1000": 1.821,
+  "modal_instances": [
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 57,
+      "head_verb_surface": "expected",
+      "head_verb_lemma": "expect",
+      "left_3": "different circumstances than",
+      "right_3": "otherwise be expected",
+      "sentence": "I just want to say a few words of welcome and thank everyone for being hereâalbeit in much different circumstances than would otherwise be expected."
+    },
+    {
+      "surface": "ca",
+      "lemma": "can",
+      "sent_idx": 128,
+      "head_verb_surface": "get",
+      "head_verb_lemma": "get",
+      "left_3": "that we just",
+      "right_3": "n't get anywhere",
+      "sentence": "What they provideâwhat you provideâis insight that we just can't get anywhere else."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 404,
+      "head_verb_surface": "answer",
+      "head_verb_lemma": "answer",
+      "left_3": "only the virus",
+      "right_3": "answer complicate the",
+      "sentence": "We are now experiencing a whole new level of uncertainty, as questions only the virus can answer complicate the outlook."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 457,
+      "head_verb_surface": "depend",
+      "head_verb_lemma": "depend",
+      "left_3": "and those decisions",
+      "right_3": "depend on public",
+      "sentence": "But all of us have our own decisions to make as well, and those decisions will depend on public confidence that it is again safe to undertake various activities."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "I just want to say a few words of welcome and thank everyone for being hereâalbeit in much different circumstances than would otherwise be expected."
+    }
+  ]
+}

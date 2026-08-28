@@ -1,0 +1,245 @@
+{
+  "doc_id": "speech_yellen_20140521a",
+  "doc_type": "speech",
+  "date": "2014-05-21",
+  "chair": "Yellen",
+  "n_tokens": 973,
+  "n_sents": 51,
+  "pos_counts": {
+    "NNP": 55,
+    "CD": 9,
+    ",": 55,
+    "IN": 128,
+    "POS": 6,
+    "VBP": 29,
+    "PRP": 74,
+    ".": 51,
+    "NN": 143,
+    "DT": 97,
+    "NNS": 54,
+    "VB": 47,
+    "PRP$": 19,
+    "CC": 41,
+    "RB": 44,
+    "VBZ": 25,
+    "JJ": 62,
+    "TO": 23,
+    "VBN": 8,
+    ":": 4,
+    "VBG": 16,
+    "MD": 14,
+    "WDT": 9,
+    "VBD": 34,
+    "JJR": 3,
+    "RBR": 2,
+    "``": 3,
+    "''": 2,
+    "HYPH": 2,
+    "RP": 5,
+    "WRB": 8,
+    "WP": 8,
+    "RBS": 1,
+    "PDT": 3,
+    "JJS": 2,
+    "EX": 4
+  },
+  "modal_count": 14,
+  "modal_lemma_counts": {
+    "will": 5,
+    "must": 1,
+    "can": 6,
+    "may": 1,
+    "would": 1
+  },
+  "modals_per_1000": 14.388,
+  "epistemic_count": 5,
+  "epistemic_lemma_counts": {
+    "believe": 4,
+    "judge": 1
+  },
+  "epistemics_per_1000": 5.139,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 127,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "curiosity . Life",
+      "right_3": "continue to be",
+      "sentence": "Life will continue to be a journey of discovery if you tend the fires of curiosity that burn brightly in all of us."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 288,
+      "head_verb_surface": "guessed",
+      "head_verb_lemma": "guess",
+      "left_3": ", as you",
+      "right_3": "have guessed ,",
+      "sentence": "It was, as you must have guessed, for deciphering the chemistry of memory in humans, as revealed by his research on sea slugs."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 315,
+      "head_verb_surface": "help",
+      "head_verb_lemma": "help",
+      "left_3": "a persistent curiosity",
+      "right_3": "help us reach",
+      "sentence": "Kandel's life, I believe, demonstrates how a persistent curiosity can help us reach ambitious goals, even with great roadblocks in the way."
+    },
+    {
+      "surface": "wo",
+      "lemma": "will",
+      "sent_idx": 432,
+      "head_verb_surface": "succeed",
+      "head_verb_lemma": "succeed",
+      "left_3": "lesson : You",
+      "right_3": "n't succeed all",
+      "sentence": "Yankee Stadium is a natural venue for another lesson: You won't succeed all the time."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 674,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": ". Such circumstances",
+      "right_3": "not be all",
+      "sentence": "Such circumstances may not be all that frequent, but in every life, there will be crucial moments when having the courage to stand up for what you believe will be immensely important."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 674,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "life , there",
+      "right_3": "be crucial moments",
+      "sentence": "Such circumstances may not be all that frequent, but in every life, there will be crucial moments when having the courage to stand up for what you believe will be immensely important."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 674,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "what you believe",
+      "right_3": "be immensely important",
+      "sentence": "Such circumstances may not be all that frequent, but in every life, there will be crucial moments when having the courage to stand up for what you believe will be immensely important."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 758,
+      "head_verb_surface": "judge",
+      "head_verb_lemma": "judge",
+      "left_3": "certainty that history",
+      "right_3": "judge him harshly",
+      "sentence": "He faced relentless criticism, personal threats, and the certainty that history would judge him harshly if he was wrong."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 819,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "but you too",
+      "right_3": "face moments in",
+      "sentence": "I hope you never are confronted by challenges this great, but you too will face moments in life when standing up for what you believe can make all the difference."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 819,
+      "head_verb_surface": "make",
+      "head_verb_lemma": "make",
+      "left_3": "what you believe",
+      "right_3": "make all the",
+      "sentence": "I hope you never are confronted by challenges this great, but you too will face moments in life when standing up for what you believe can make all the difference."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 852,
+      "head_verb_surface": "carry",
+      "head_verb_lemma": "carry",
+      "left_3": "underpins grit and",
+      "right_3": "carry us beyond",
+      "sentence": "Having dwelt for a moment on failure and grit, let me turn to the deeper meaning that underpins grit and can carry us beyond failure."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 959,
+      "head_verb_surface": "do",
+      "head_verb_lemma": "do",
+      "left_3": "do what you",
+      "right_3": "to pursue that",
+      "sentence": "If there is a job that you feel passionate about, do what you can to pursue that job; if there is a purpose about which you are passionate, dedicate yourself to that purpose."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 997,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "hope that you",
+      "right_3": "find joy in",
+      "sentence": "Finally, I hope that you can find joy in the lives you choose."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1056,
+      "head_verb_surface": "when",
+      "head_verb_lemma": "when",
+      "left_3": "laugh when you",
+      "right_3": ". \r\n \n\n\r\n  In",
+      "sentence": "Share those joys with others, and share a laugh when you can."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Kandel's life, I believe, demonstrates how a persistent curiosity can help us reach ambitious goals, even with great roadblocks in the way."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Such circumstances may not be all that frequent, but in every life, there will be crucial moments when having the courage to stand up for what you believe will be immensely important."
+    },
+    {
+      "surface": "judge",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "He faced relentless criticism, personal threats, and the certainty that history would judge him harshly if he was wrong."
+    },
+    {
+      "surface": "believed",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "But he stood up for what he believed was right and necessary."
+    },
+    {
+      "surface": "believe",
+      "lemma": "believe",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "I hope you never are confronted by challenges this great, but you too will face moments in life when standing up for what you believe can make all the difference."
+    }
+  ]
+}

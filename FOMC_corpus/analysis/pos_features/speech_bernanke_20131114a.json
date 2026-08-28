@@ -1,0 +1,137 @@
+{
+  "doc_id": "speech_bernanke_20131114a",
+  "doc_type": "speech",
+  "date": "2013-11-14",
+  "chair": "Bernanke",
+  "n_tokens": 580,
+  "n_sents": 24,
+  "pos_counts": {
+    "NNP": 50,
+    "CD": 8,
+    ",": 32,
+    "JJ": 73,
+    "NN": 87,
+    "IN": 78,
+    "DT": 63,
+    "NNS": 57,
+    "NNPS": 3,
+    "-LRB-": 3,
+    "-RRB-": 3,
+    ".": 23,
+    "PRP": 13,
+    "VBP": 15,
+    "TO": 10,
+    "VB": 18,
+    "VBZ": 9,
+    "VBG": 11,
+    "CC": 34,
+    "MD": 6,
+    "RB": 13,
+    "PRP$": 7,
+    "VBN": 11,
+    "WDT": 3,
+    "JJS": 2,
+    "VBD": 3,
+    ":": 2,
+    "POS": 3,
+    "WP": 1,
+    "WP$": 1,
+    "JJR": 3,
+    "HYPH": 6,
+    "RBS": 1
+  },
+  "modal_count": 6,
+  "modal_lemma_counts": {
+    "may": 2,
+    "must": 1,
+    "can": 1,
+    "will": 2
+  },
+  "modals_per_1000": 10.345,
+  "epistemic_count": 2,
+  "epistemic_lemma_counts": {
+    "potential": 1,
+    "anticipate": 1
+  },
+  "epistemics_per_1000": 3.448,
+  "modal_instances": [
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 84,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "\r\n \n\n\r\n  The UAB",
+      "right_3": "justifiably take great",
+      "sentence": "The UAB may justifiably take great pride in its many accomplishments during the past four decades."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 152,
+      "head_verb_surface": "counted",
+      "head_verb_lemma": "count",
+      "left_3": "and the UAB",
+      "right_3": "be counted among",
+      "sentence": "The partnership that has developed between the Federal Reserve and the UAB may be counted among these successes."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 427,
+      "head_verb_surface": "push",
+      "head_verb_lemma": "push",
+      "left_3": "addition , we",
+      "right_3": "push banking organizations",
+      "sentence": "In addition, we must push banking organizations of all sizes to ensure their compensation practices link pay to performance and do not encourage excessive risk-taking."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 490,
+      "head_verb_surface": "play",
+      "head_verb_lemma": "play",
+      "left_3": ", the UAB",
+      "right_3": "play an important",
+      "sentence": "To that end, the UAB can play an important regional role by facilitating efforts to address potential cross-border issues, and by providing a local platform for strong cooperation between home and host supervisors during normal and crisis periods."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 534,
+      "head_verb_surface": "discuss",
+      "head_verb_lemma": "discuss",
+      "left_3": "I anticipate you",
+      "right_3": "discuss the opportunities",
+      "sentence": "At your conference this week, I anticipate you will discuss the opportunities and challenges that lay ahead for your members."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 556,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "no doubt ,",
+      "right_3": "be the prospects",
+      "sentence": "Among the topics, no doubt, will be the prospects for partnership between the public and private sectors, the importance of establishing institutions capable of managing crises, the effects of new regulatory and supervisory structures on the banking industry, and the role of the banking sector in promoting economic growth."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "potential",
+      "lemma": "potential",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "To that end, the UAB can play an important regional role by facilitating efforts to address potential cross-border issues, and by providing a local platform for strong cooperation between home and host supervisors during normal and crisis periods."
+    },
+    {
+      "surface": "anticipate",
+      "lemma": "anticipate",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "At your conference this week, I anticipate you will discuss the opportunities and challenges that lay ahead for your members."
+    }
+  ]
+}

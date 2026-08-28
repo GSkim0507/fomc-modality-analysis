@@ -1,0 +1,793 @@
+{
+  "doc_id": "speech_powell_20181128a",
+  "doc_type": "speech",
+  "date": "2018-11-28",
+  "chair": "Powell",
+  "n_tokens": 4270,
+  "n_sents": 200,
+  "pos_counts": {
+    "NNP": 292,
+    "CD": 98,
+    ",": 267,
+    "DT": 432,
+    "POS": 14,
+    "IN": 592,
+    "PRP": 73,
+    "VBZ": 85,
+    "NN": 697,
+    "TO": 58,
+    "VB": 162,
+    "RB": 210,
+    ".": 197,
+    "MD": 55,
+    "VBG": 73,
+    "CC": 150,
+    "JJ": 432,
+    "PRP$": 49,
+    "NNPS": 10,
+    "RBR": 19,
+    "VBD": 62,
+    "NNS": 378,
+    "VBP": 121,
+    "WDT": 40,
+    "HYPH": 32,
+    "JJS": 10,
+    "JJR": 16,
+    "VBN": 102,
+    "-LRB-": 19,
+    "-RRB-": 20,
+    ":": 19,
+    "RP": 12,
+    "EX": 7,
+    "RBS": 9,
+    "WP": 6,
+    "``": 21,
+    "''": 20,
+    "WRB": 14,
+    "$": 4,
+    "PDT": 1,
+    "UH": 1,
+    "LS": 1,
+    "XX": 1,
+    "SYM": 3
+  },
+  "modal_count": 55,
+  "modal_lemma_counts": {
+    "will": 14,
+    "would": 9,
+    "could": 4,
+    "must": 1,
+    "may": 8,
+    "should": 4,
+    "can": 11,
+    "might": 4
+  },
+  "modals_per_1000": 12.881,
+  "epistemic_count": 20,
+  "epistemic_lemma_counts": {
+    "clearly": 1,
+    "judge": 1,
+    "forecast": 1,
+    "uncertain": 1,
+    "possible": 3,
+    "assess": 3,
+    "likely": 6,
+    "expect": 3,
+    "unlikely": 1
+  },
+  "epistemics_per_1000": 4.684,
+  "modal_instances": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 54,
+      "head_verb_surface": "begin",
+      "head_verb_lemma": "begin",
+      "left_3": "York . I",
+      "right_3": "begin by briefly",
+      "sentence": "I will begin by briefly reviewing the outlook for the economy, and then turn to a discussion of financial stability."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 76,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "main subject today",
+      "right_3": "be the profound",
+      "sentence": "My main subject today will be the profound transformation since the Global Financial Crisis in the Federal Reserve's approach to monitoring and addressing financial stability."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 391,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "the level that",
+      "right_3": "be neutral for",
+      "sentence": "Interest rates are still low by historical standards, and they remain just below the broad range of estimates of the level that would be neutral for the economyââthat is, neither speeding up nor slowing down growth."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 528,
+      "head_verb_surface": "risk",
+      "head_verb_lemma": "risk",
+      "left_3": "moving too fast",
+      "right_3": "risk shortening the",
+      "sentence": "We know that moving too fast would risk shortening the expansion."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 540,
+      "head_verb_surface": "risk",
+      "head_verb_lemma": "risk",
+      "left_3": "too long --",
+      "right_3": "risk other distortions",
+      "sentence": "We also know that moving too slowly--keeping interest rates too low for too long--could risk other distortions in the form of higher inflation or destabilizing financial imbalances."
+    },
+    {
+      "surface": "must",
+      "lemma": "must",
+      "sent_idx": 572,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "of which we",
+      "right_3": "take seriously .",
+      "sentence": "Our path of gradual increases has been designed to balance these two risks, both of which we must take seriously."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 595,
+      "head_verb_surface": "take",
+      "head_verb_lemma": "take",
+      "left_3": "uncertain , and",
+      "right_3": "take a year",
+      "sentence": "We also know that the economic effects of our gradual rate increases are uncertain, and may take a year or more to be fully realized."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 644,
+      "head_verb_surface": "paying",
+      "head_verb_lemma": "pay",
+      "left_3": "path . We",
+      "right_3": "be paying very",
+      "sentence": "We will be paying very close attention to what incoming economic and financial data are telling us."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 662,
+      "head_verb_surface": "designed",
+      "head_verb_lemma": "design",
+      "left_3": "on monetary policy",
+      "right_3": "be designed to",
+      "sentence": "As always, our decisions on monetary policy will be designed to keep the economy on track in light of the changing outlook for jobs and inflation."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 707,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": "comments , I",
+      "right_3": "focus on financial",
+      "sentence": "In the rest of my comments, I will focus on financial stability--a topic that has always been on the menu, but that, since the crisis, has become a more integral part of the meal."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 803,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "in contrast ,",
+      "right_3": "amplify turbulence and",
+      "sentence": "An unstable system, in contrast, may amplify turbulence and prolong economic hardship in the face of stress by failing to provide these essential services when they are needed most."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 836,
+      "head_verb_surface": "note",
+      "head_verb_lemma": "note",
+      "left_3": "buffs , I",
+      "right_3": "note that the",
+      "sentence": "For Economic Club of New York trivia buffs, I will note that the second ever presentation to this club by a Federal Reserve official was about this very topic."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 931,
+      "head_verb_surface": "act",
+      "head_verb_lemma": "act",
+      "left_3": "while the Fed",
+      "right_3": "not act as",
+      "sentence": "He argued that, while the Fed should not act as the arbiter of correct asset prices, it did have a primary responsibility to protect the banking system's capacity to meet the credit needs of households and businesses."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 972,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "managed that they",
+      "right_3": "not \" face",
+      "sentence": "At the meeting, critics argued that public statements about inflated asset prices were \"fraught with danger;\" that the nation's banks were so well managed that they should not \"face public admonition\"; and, more generally, that the Fed was \"out of its sphere."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1253,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "clear that there",
+      "right_3": "be no macroeconomic",
+      "sentence": "The crisis made clear that there can be no macroeconomic stability without financial stability, and that systemic stability risks often take root and blossom in good times."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1356,
+      "head_verb_surface": "divided",
+      "head_verb_lemma": "divide",
+      "left_3": "This new approach",
+      "right_3": "be divided into",
+      "sentence": "The New Approach to Financial Stability \r This new approach can be divided into three parts."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1403,
+      "head_verb_surface": "provide",
+      "head_verb_lemma": "provide",
+      "left_3": "representatives in Congress",
+      "right_3": "provide oversight and",
+      "sentence": "And third, explain the new approach as transparently as possible, so that the public and its representatives in Congress can provide oversight and hold us accountable for this work."
+    },
+    {
+      "surface": "'ll",
+      "lemma": "will",
+      "sent_idx": 1435,
+      "head_verb_surface": "focus",
+      "head_verb_lemma": "focus",
+      "left_3": ". Although I",
+      "right_3": "focus mainly on",
+      "sentence": "Although I'll focus mainly on the stability efforts of the Federal Reserve, a number of federal regulatory agencies have responsibilities in this area."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1595,
+      "head_verb_surface": "remain",
+      "head_verb_lemma": "remain",
+      "left_3": "the largest banks",
+      "right_3": "remain above regulatory",
+      "sentence": "The most recent stress tests indicate that, even after a severe global recession, capital levels at the largest banks would remain above regulatory minimums, and above the levels those banks held in good times before the crisis."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 1637,
+      "head_verb_surface": "sold",
+      "head_verb_lemma": "sell",
+      "left_3": "safe assets that",
+      "right_3": "be readily sold",
+      "sentence": "4  The most systemically important financial institutions also now hold roughly 20 percent of their assets in the form of high quality liquid assets--that is, safe assets that could be readily sold at short notice ( figure 2 )."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 1730,
+      "head_verb_surface": "emerge",
+      "head_verb_lemma": "emerge",
+      "left_3": "where systemic risks",
+      "right_3": "emerge . In",
+      "sentence": "The crisis revealed that this capital market centric system, despite its many benefits, also provides more places where systemic risks can emerge."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 1941,
+      "head_verb_surface": "freeze",
+      "head_verb_lemma": "freeze",
+      "left_3": "of the system",
+      "right_3": "freeze up in",
+      "sentence": "5  These and other measures have reduced the risk that key non-bank parts of the system would freeze up in the face of market stress."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 1996,
+      "head_verb_surface": "evolve",
+      "head_verb_lemma": "evolve",
+      "left_3": "the financial system",
+      "right_3": "sometimes evolve toward",
+      "sentence": "As Hyman Minsky emphasized, along with the many benefits of dynamism comes the reality that the financial system will sometimes evolve toward excess and dangerous imbalances."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2082,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "trigger events that",
+      "right_3": "be hard to",
+      "sentence": "The framework distinguishes between shocks, that is, trigger events that can be hard to predict or influence, and vulnerabilities, defined as features of the financial system that amplify shocks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2224,
+      "head_verb_surface": "need",
+      "head_verb_lemma": "need",
+      "left_3": "the affected entities",
+      "right_3": "all need to",
+      "sentence": "7  If a highly leveraged segment of the financial system is buffeted by adverse events, the affected entities may all need to deleverage at the same time by selling assets, leading to what is called a \"fire sale.\""
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2268,
+      "head_verb_surface": "amplify",
+      "head_verb_lemma": "amplify",
+      "left_3": "in the economy",
+      "right_3": "amplify the effects",
+      "sentence": "Both the resulting decline in asset prices and the impaired ability of the segment to play its role in the economy can amplify the effects of a downturn."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2454,
+      "head_verb_surface": "withdrawn",
+      "head_verb_lemma": "withdraw",
+      "left_3": "on funding that",
+      "right_3": "be rapidly withdrawn",
+      "sentence": "8  The second vulnerability is funding risk, which arises when banks or nonbank financial entities rely on funding that can be rapidly withdrawn."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 2480,
+      "head_verb_surface": "vanish",
+      "head_verb_lemma": "vanish",
+      "left_3": ", unstable funding",
+      "right_3": "simply vanish in",
+      "sentence": "If depositors or market participants lose faith in the soundness of an institution or the system as a whole, unstable funding can simply vanish in what is called a \"run.\""
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 2557,
+      "head_verb_surface": "been",
+      "head_verb_lemma": "be",
+      "left_3": ", the damage",
+      "right_3": "have been even",
+      "sentence": "Had the authorities not stepped in, the damage could have been even more severe."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2629,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "uninsured funding that",
+      "right_3": "be most likely",
+      "sentence": "More generally, it is short-term, uninsured funding that would be most likely to run in a future stress event, and the volume of such funding is now significantly below pre-crisis peaks."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2765,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "expected , which",
+      "right_3": "put financial institutions",
+      "sentence": "Defaults typically rise faster than had been expected, which may put financial institutions into distress."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 2782,
+      "head_verb_surface": "combine",
+      "head_verb_lemma": "combine",
+      "left_3": ". These effects",
+      "right_3": "combine to bring",
+      "sentence": "These effects may combine to bring a serious economic downturn."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 2858,
+      "head_verb_surface": "present",
+      "head_verb_lemma": "present",
+      "left_3": "that household debt",
+      "right_3": "not present a",
+      "sentence": "While heavily indebted households always suffer in a downturn, all of this suggests that household debt would not present a systemic stability threat if the economy sours."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 2967,
+      "head_verb_surface": "expect",
+      "head_verb_lemma": "expect",
+      "left_3": "about where one",
+      "right_3": "expect after nearly",
+      "sentence": "By this measure, the ratio of corporate debt to GDP is about where one might expect after nearly a decade of economic expansion: it is well above its trend, but not yet at the peaks hit in the late 1980s or late 1990s."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3097,
+      "head_verb_surface": "face",
+      "head_verb_lemma": "face",
+      "left_3": "highly leveraged borrowers",
+      "right_3": "surely face distress",
+      "sentence": "Some of these highly leveraged borrowers would surely face distress if the economy turned down, leading investors to take higher-than-expected losses--developments that could exacerbate the downturn."
+    },
+    {
+      "surface": "could",
+      "lemma": "could",
+      "sent_idx": 3097,
+      "head_verb_surface": "exacerbate",
+      "head_verb_lemma": "exacerbate",
+      "left_3": "-- developments that",
+      "right_3": "exacerbate the downturn",
+      "sentence": "Some of these highly leveraged borrowers would surely face distress if the economy turned down, leading investors to take higher-than-expected losses--developments that could exacerbate the downturn."
+    },
+    {
+      "surface": "would",
+      "lemma": "would",
+      "sent_idx": 3131,
+      "head_verb_surface": "risk",
+      "head_verb_lemma": "risk",
+      "left_3": "and outsized losses",
+      "right_3": "risk undermining the",
+      "sentence": "The question for financial stability is whether elevated business bankruptcies and outsized losses would risk undermining the ability of the financial system to perform its critical functions on behalf of households and businesses."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3223,
+      "head_verb_surface": "continue",
+      "head_verb_lemma": "continue",
+      "left_3": "course , we",
+      "right_3": "continue to monitor",
+      "sentence": "10  Of course, we will continue to monitor developments in this sector carefully."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 3319,
+      "head_verb_surface": "bring",
+      "head_verb_lemma": "bring",
+      "left_3": "and those declines",
+      "right_3": "bring economic misery",
+      "sentence": "Historically, when asset prices soar far above standard benchmarks, sharp declines follow with some regularity, and those declines may bring economic misery reaching far beyond investors directly involved in the speculative boom."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3555,
+      "head_verb_surface": "put",
+      "head_verb_lemma": "put",
+      "left_3": "in equity prices",
+      "right_3": "put downward pressure",
+      "sentence": "Large, sustained declines in equity prices can put downward pressure on spending and confidence."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 3611,
+      "head_verb_surface": "trigger",
+      "head_verb_lemma": "trigger",
+      "left_3": "of risk that",
+      "right_3": "trigger distress at",
+      "sentence": "In addition to monitoring vulnerabilities under our four-part framework, we also consult a broad range of contacts regarding sources of risk that might trigger distress at any given time."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3694,
+      "head_verb_surface": "assess",
+      "head_verb_lemma": "assess",
+      "left_3": "triggers , we",
+      "right_3": "assess how a",
+      "sentence": "12  Having identified possible triggers, we can assess how a particular trigger is likely to interact with known vulnerabilities."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3812,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": ", and you",
+      "right_3": "find a great",
+      "sentence": "Bottom Line: Financial Stability Risks Are Moderate \r I have reviewed a few of the key facts that inform our thinking about financial stability, and you will find a great deal more detail in our new report."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3852,
+      "head_verb_surface": "find",
+      "head_verb_lemma": "find",
+      "left_3": "report . You",
+      "right_3": "also find that",
+      "sentence": "You will also find that the report does not come to a bottom line conclusion."
+    },
+    {
+      "surface": "can",
+      "lemma": "can",
+      "sent_idx": 3894,
+      "head_verb_surface": "form",
+      "head_verb_lemma": "form",
+      "left_3": "other interested parties",
+      "right_3": "form their own",
+      "sentence": "Thus, the purpose of the report is to provide a common platform and set of readings from which policymakers and other interested parties can form their own views."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 3924,
+      "head_verb_surface": "differ",
+      "head_verb_lemma": "differ",
+      "left_3": ". Individual policymakers",
+      "right_3": "sometimes differ in",
+      "sentence": "Individual policymakers will sometimes differ in their assessments and on the relative weight they put on particular vulnerabilities."
+    },
+    {
+      "surface": "'d",
+      "lemma": "would",
+      "sent_idx": 4087,
+      "head_verb_surface": "like",
+      "head_verb_lemma": "like",
+      "left_3": "Conclusion \n\r\n I",
+      "right_3": "like to conclude",
+      "sentence": "Conclusion \r I'd like to conclude by putting financial stability and our two new reports in a longer-term context."
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4127,
+      "head_verb_surface": "publish",
+      "head_verb_lemma": "publish",
+      "left_3": ". \" We",
+      "right_3": "publish these reports",
+      "sentence": "We will publish these reports regularly as part of our vigilance."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4140,
+      "head_verb_surface": "tempted",
+      "head_verb_lemma": "tempt",
+      "left_3": "time , some",
+      "right_3": "be tempted to",
+      "sentence": "Over time, some may be tempted to dismiss the reports entirely or to overdramatize any concerns they raise."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4160,
+      "head_verb_surface": "viewed",
+      "head_verb_lemma": "view",
+      "left_3": ", these reports",
+      "right_3": "be viewed as",
+      "sentence": "Instead, these reports should be viewed as you might view the results of a regular health checkup."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 4160,
+      "head_verb_surface": "view",
+      "head_verb_lemma": "view",
+      "left_3": "viewed as you",
+      "right_3": "view the results",
+      "sentence": "Instead, these reports should be viewed as you might view the results of a regular health checkup."
+    },
+    {
+      "surface": "should",
+      "lemma": "should",
+      "sent_idx": 4191,
+      "head_verb_surface": "keep",
+      "head_verb_lemma": "keep",
+      "left_3": "of things we",
+      "right_3": "keep an eye",
+      "sentence": "Many baby boomers like me are, however, reaching an age where a good report is, \"Well, there are a number of things we should keep an eye on, but all things considered you are in good health.\""
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "sent_idx": 4251,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "Regulation Report \n ",
+      "right_3": "be important tools",
+      "sentence": "We hope that this report and the  Supervision and Regulation Report  will be important tools, sharing Federal Reserve views and stimulating public dialogue regarding the stability of the financial system."
+    },
+    {
+      "surface": "might",
+      "lemma": "might",
+      "sent_idx": 4815,
+      "head_verb_surface": "explain",
+      "head_verb_lemma": "explain",
+      "left_3": "which economic fundamentals",
+      "right_3": "explain even the",
+      "sentence": "Analysts differ over how to define the term \"bubble,\" and debate continues about the degree to which economic fundamentals might explain even the most famous apparent bubble cases from history."
+    },
+    {
+      "surface": "may",
+      "lemma": "may",
+      "sent_idx": 4928,
+      "head_verb_surface": "be",
+      "head_verb_lemma": "be",
+      "left_3": "measures , which",
+      "right_3": "be part of",
+      "sentence": "Nonetheless, cyber risks are the subject of ongoing policy efforts at that Federal Reserve and other relevant agencies, and these entities are working to develop resiliency expectations and measures, which may be part of future discussions in the stability report."
+    }
+  ],
+  "epistemic_instances": [
+    {
+      "surface": "clearly",
+      "lemma": "clearly",
+      "pos": "ADV",
+      "category": "booster_high",
+      "kind": "adv",
+      "sentence": "By clearly and transparently explaining our policies, we aim to strengthen the foundation of democratic legitimacy that enables the Fed to serve the needs of the American public."
+    },
+    {
+      "surface": "judged",
+      "lemma": "judge",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The health of the economy gradually but steadily improved, and about three years ago the FOMC judged that the interests of households and businesses, of savers and borrowers, were no longer best served by such extraordinarily low rates."
+    },
+    {
+      "surface": "forecasting",
+      "lemma": "forecast",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "My FOMC colleagues and I, as well as many private-sector economists, are forecasting continued solid growth, low unemployment, and inflation near 2 percent."
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "We also know that the economic effects of our gradual rate increases are uncertain, and may take a year or more to be fully realized."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "And third, explain the new approach as transparently as possible, so that the public and its representatives in Congress can provide oversight and hold us accountable for this work."
+    },
+    {
+      "surface": "assessing",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "Each of these vulnerabilities is often found to some degree even in healthy market-based systems, and there is not, at present, any generally accepted standard for assessing at what level the vulnerabilities begin to pose serious stability risks."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Banks hold low levels of liabilities that are able and likely to run, and they hold high levels of liquid assets to fund any outflows that do occur."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "More generally, it is short-term, uninsured funding that would be most likely to run in a future stress event, and the volume of such funding is now significantly below pre-crisis peaks."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Defaults typically rise faster than had been expected, which may put financial institutions into distress."
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "By this measure, the ratio of corporate debt to GDP is about where one might expect after nearly a decade of economic expansion: it is well above its trend, but not yet at the peaks hit in the late 1980s or late 1990s."
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "pos": "VERB",
+      "category": "anticipation",
+      "kind": "verb",
+      "sentence": "Some of these highly leveraged borrowers would surely face distress if the economy turned down, leading investors to take higher-than-expected losses--developments that could exacerbate the downturn."
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "pos": "ADJ",
+      "category": "hedge_neg",
+      "kind": "adj/adv",
+      "sentence": "For now, my view is that such losses are unlikely to pose a threat to the safety and soundness of the institutions at the core of the system and, instead, are likely to fall on investors in vehicles like collateralized loan obligations with stable funding that present little threat of damaging fire sales."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "For now, my view is that such losses are unlikely to pose a threat to the safety and soundness of the institutions at the core of the system and, instead, are likely to fall on investors in vehicles like collateralized loan obligations with stable funding that present little threat of damaging fire sales."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "Monitoring Likely Triggers for Financial Distress \r I mentioned the distinction between vulnerabilities and shocks, or triggers."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "12  Having identified possible triggers, we can assess how a particular trigger is likely to interact with known vulnerabilities."
+    },
+    {
+      "surface": "assess",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "12  Having identified possible triggers, we can assess how a particular trigger is likely to interact with known vulnerabilities."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "12  Having identified possible triggers, we can assess how a particular trigger is likely to interact with known vulnerabilities."
+    },
+    {
+      "surface": "likely",
+      "lemma": "likely",
+      "pos": "ADJ",
+      "category": "hedge_mid",
+      "kind": "adj/adv",
+      "sentence": "U.S. banks and broker-dealers participate in some of the markets most likely to be affected by Brexit."
+    },
+    {
+      "surface": "possible",
+      "lemma": "possible",
+      "pos": "ADJ",
+      "category": "hedge_low",
+      "kind": "adj",
+      "sentence": "The Fed and other regulators have been working with U.S. financial institutions that have operations in the European Union or the United Kingdom to prepare for the full range of possible outcomes to the negotiations."
+    },
+    {
+      "surface": "assessed",
+      "lemma": "assess",
+      "pos": "VERB",
+      "category": "judgment",
+      "kind": "verb",
+      "sentence": "The staff have also assessed financial stability vulnerabilities as moderate."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+VADER × MSI correlations (n = 535)
+========================================================
+msi_avg_modal_strength       × compound    Pearson r = -0.096 (p=0.0262)   Spearman ρ = -0.021 (p=0.62)
+msi_avg_modal_strength       × share_pos   Pearson r = -0.141 (p=0.00111)   Spearman ρ = -0.094 (p=0.0304)
+msi_avg_modal_strength       × share_neg   Pearson r = +0.253 (p=2.77e-09)   Spearman ρ = +0.187 (p=1.29e-05)
+msi_modal_density            × compound    Pearson r = -0.135 (p=0.0017)   Spearman ρ = -0.154 (p=0.000366)
+msi_modal_density            × share_pos   Pearson r = -0.284 (p=2.31e-11)   Spearman ρ = -0.303 (p=7.67e-13)
+msi_modal_density            × share_neg   Pearson r = +0.042 (p=0.327)   Spearman ρ = -0.039 (p=0.363)
+msi_signed_per_1000          × compound    Pearson r = -0.044 (p=0.306)   Spearman ρ = -0.063 (p=0.145)
+msi_signed_per_1000          × share_pos   Pearson r = -0.195 (p=5.66e-06)   Spearman ρ = -0.229 (p=8.96e-08)
+msi_signed_per_1000          × share_neg   Pearson r = +0.037 (p=0.399)   Spearman ρ = -0.000 (p=0.995)
+
+By genre (mean ± sd of compound):
+              compound_mean  compound_sd  msi_mean    n
+doc_type                                               
+Chair Speech          0.186        0.137     0.724  174
+Minutes               0.169        0.039     0.756  132
+Press Conf            0.107        0.028     0.758   92
+Statement             0.149        0.107     0.918  137
+
+ANOVA on compound by genre: F = 13.93, p = 9.42e-09
