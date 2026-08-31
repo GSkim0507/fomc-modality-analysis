@@ -69,3 +69,10 @@ Hansen & McMahon(LSE CFM DP 2015 → JIE 2016), Ehrmann & Talmi(ECB WP 2023 → 
 
 ## 5. 추가 확보 권장 도서(비OA, 인용은 가능)
 Coates (1983) *The Semantics of the Modal Auxiliaries*; Palmer (1990/2001) *Modality and the English Modals* / *Mood and Modality*; Biber et al. (1999) *Longman Grammar of Spoken and Written English*(5장 동사 의미 부류, 6장 조동사); Collins (2009) *Modals and Quasi-modals in English*; Leech et al. (2009) *Change in Contemporary English*; Wray (2002) *Formulaic Language and the Lexicon*; Hyland (1998) *Hedging in Scientific Research Articles*; Sweetser (1990) *From Etymology to Pragmatics*.
+
+---
+## v2 갱신 (2026-08-31) — §2 비OA 5편의 최종 처리
+- **확보(사용자 제공)**: Nuyts 2001 ✓, Hyland 1996 ✓ (단, 이 논문에는 빈도 수치가 없음 — 빈도는 Hyland 1996 *Written Communication* 13(2)에 있음. 분류 체계 인용 전용).
+- **미확보 → 대체**: Donohue 2006 — 사용자 제공 파일은 다른 논문(ESP 24권 2005 editorial)이었음. 정확한 DOI는 `10.1016/j.esp.2005.02.009`. 초안에서는 Deng, Ali & Zin (2024, Fed 의장 기자회견 hedging ≈758/1만 단어) + Resche 2015로 대체. 원문 원하면 브라우저에서: https://oro.open.ac.uk/36543/1/one%20handed%20economist.pdf
+- **대체 완료**: Leech 2003 → **Leech 2004** (ICAME 23, OA, 동일 수치·출판 페이지); Millar 2009 → **Bowie, Wallis & Aarts 2013** (UCL Discovery OA; Millar의 핵심 수치를 pp. 59–60에서 직접 보고 — Millar는 참고문헌에 2차 인용으로 유지).
+- 보조 확보: Mair & Leech 2006, Love & Curry 2021(CC-BY), Aarts 2014.

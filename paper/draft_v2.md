@@ -18,7 +18,7 @@ This example motivates both halves of the present study. The first half asks wha
 
 Research on central-bank communication has increasingly turned to text as data (Blinder et al., 2008; Bholat et al., 2015; Hansen & McMahon, 2016), and modality has been proposed as a marker of the ambiguity or hedging with which a central bank conveys unfavourable information. The benchmark result is Kawamura, Kobashi, Shizume and Ueda (2019), who classify modal expressions in the Bank of Japan's Monthly Report and find them counter-cyclical: ambiguous modality rises when the leading index of activity falls, which they interpret as strategic obfuscation. On the linguistic side, Resche (2004, 2015) documents pervasive hedging in central bankers' speeches but argues that hedging is "diffuse" and cannot be captured by counting a closed list of devices. Both literatures pool the modals. What neither can see is the construction level: *which* verb follows *which* modal, in which genre, for how many meetings — and it is at that level, we will show, that the economically meaningful variation lives.
 
-The linguistic literature on the English modals supplies the descriptive tools: the epistemic/deontic/dynamic semantics of the modal auxiliaries (Coates, 1983; Palmer, 1990, 2001), their register-specific diachrony (Leech, 2003; Millar, 2009; Collins, 2009), collostructional analysis of the association between a construction and its lexical fillers (Stefanowitsch & Gries, 2003; Gries & Stefanowitsch, 2004), and the study of formulaic sequences and lexical bundles in institutional registers (Biber et al., 1999; Wray, 2002; Biber & Barbieri, 2007). The economics literature supplies the macro anchors: a real-activity index observable in real time (the Chicago Fed National Activity Index) and a market-priced uncertainty index (the VIX), the pairing that keeps our design comparable to Kawamura et al.'s leading-index-plus-volatility specification.
+The linguistic literature on the English modals supplies the descriptive tools: the epistemic/deontic/dynamic semantics of the modal auxiliaries (Coates, 1983; Palmer, 1990, 2001), their register-specific diachrony (Leech, 2004; Bowie et al., 2013; Collins, 2009), collostructional analysis of the association between a construction and its lexical fillers (Stefanowitsch & Gries, 2003; Gries & Stefanowitsch, 2004), and the study of formulaic sequences and lexical bundles in institutional registers (Biber et al., 1999; Wray, 2002; Biber & Barbieri, 2007). The economics literature supplies the macro anchors: a real-activity index observable in real time (the Chicago Fed National Activity Index) and a market-priced uncertainty index (the VIX), the pairing that keeps our design comparable to Kawamura et al.'s leading-index-plus-volatility specification.
 
 We ask five questions:
 
@@ -40,11 +40,11 @@ The paper contributes (i) the first construction-level description of modal verb
 
 The nine central modal auxiliaries of English express three broad families of meaning (Coates, 1983; Palmer, 1990, 2001): *epistemic* modality, concerning the likelihood of a proposition (*inflation may rise*); *deontic* modality, concerning obligation, permission and advisability (*the Committee should be patient*); and *dynamic* modality, concerning ability, volition and circumstantial possibility (*we can be patient*; *the Committee will continue to monitor*). *Will* additionally carries future-time reference and, with an agentive subject, volition or commitment; *would* is its past/hypothetical counterpart and the vehicle of back-shifting in reported speech and of conditional and tentative uses (*I would say*); *could* splits between ability and epistemic possibility. The reading a modal receives is determined largely by its co-text — subject, following verb, negation, conditional marking, embedding (Coates, 1983; Nuyts, 2001; Depraetere & Reed, 2006) — which is why an adequate description must start from the modal + predicate construction rather than from the modal alone. When the following verb is copular *be*, the meaning-bearing element is the complement: *would be prepared* (readiness), *may be appropriate* (evaluative judgement), *can be patient* (speaker stance). Analyses that stop at *be* miss precisely the constructions that matter in this genre — a point our extraction addresses directly (§3.2).
 
-Diachronic corpus work shows that the modals are not stable in frequency: the core modals declined in late-twentieth-century written English, with *shall, must, ought* and *may* falling steeply and *should* declining (Leech, 2003; Leech et al., 2009), while a single edited publication can move against community-wide trends under its own editorial conventions (Millar, 2009). Our data allow a complementary test at meeting-level resolution inside one institution.
+Diachronic corpus work shows that the modals are not stable in frequency: between 1961 and 1991/92 the core modals fell by 9.5% in written British and 12.2% in written American English, with *shall* (−44%), *must* (−29% to −34%) and *may* (−17% to −32%) declining steeply, *should* declining moderately (−12% to −14%), and *will, would, can* and *could* nearly stable (Leech, 2004, pp. 66–67; Mair & Leech, 2006; Leech et al., 2009). At the same time, a single publication or genre can move sharply against the community-wide trend: *may* rose by 54% in *TIME* magazine over the same decades in which it fell by roughly a third in the matched reference corpora — a divergence attributed to that magazine's editorial shift towards speculative reporting (Millar, 2009, as discussed in Bowie, Wallis & Aarts, 2013, pp. 59–60) — and modal use rises steeply in some spoken genres while most decline (Bowie et al., 2013). Our data allow a complementary test at meeting-level resolution inside one institution.
 
 ## 2.2 Hedging, modality and central-bank discourse
 
-In applied linguistics, modals belong to the repertoire of *hedges* (Hyland, 1996, 1998), and economic forecasting is a hedging-dense register (Pindi & Bloor, 1987; Donohue, 2006). Resche (2015), analysing 103 central bankers' speeches from 2008–2013, counts 4.5–5.8% of running words as classical hedging devices but argues that hedging in this discourse is diffuse — justification, historical reference, metaphor — so that counting devices without co-text "would be a vain endeavour". We accept the critique and respond by measuring the construction and its persistence rather than the modal.
+In applied linguistics, modals belong to the repertoire of *hedges* (Hyland, 1996, 1998), and central-bank and economic-forecast discourse is hedging-dense — the Federal Reserve Chair's press conferences alone run to roughly 758 hedges per 10,000 words (Deng, Ali & Zin, 2024). Resche (2015), analysing 103 central bankers' speeches from 2008–2013, counts 4.5–5.8% of running words as classical hedging devices but argues that hedging in this discourse is diffuse — justification, historical reference, metaphor — so that counting devices without co-text "would be a vain endeavour". We accept the critique and respond by measuring the construction and its persistence rather than the modal.
 
 In economics, Kawamura et al. (2019) classify sentence-final modal expressions in the Bank of Japan's Monthly Report (1998–2015) by human coding and find that ambiguous modality is counter-cyclical — more frequent when the leading index is low, even controlling for the VIX — which they interpret, in a persuasion-game framework, as strategic obfuscation of unfavourable information. Two features of their study matter for ours: their main specification pairs an activity index with a volatility index, which we mirror; and their modality results are fragile to first-differencing (their §3.3.1), a warning about persistence-driven correlation that our verification protocol takes seriously. They close by asking whether their results hold for the Federal Reserve. Our answer, developed in §4.7, is that they do not: FOMC modality shows no counter-cyclical relation to activity; its robust correlate is uncertainty, and even that is carried by specific constructions rather than by modality in aggregate.
 
@@ -161,7 +161,7 @@ In statements the concentration found in v1 sharpens further under predicate res
 
 The v1 findings survive re-extraction unchanged and are summarised briefly. In statements (Mann–Kendall over 101 meetings): *would* and *could* increase strongly in density and share (τ ≈ 0.56–0.57, *p* < .0001, from zero to ~2.8 per 1,000 and 15.5% share); *should* falls to zero (τ = −0.43); *may* declines weakly; *can* is absent; and — resolving the first of the motivating puzzles — the **share** of *will* falls (τ = −0.32) while its **density does not** (τ = −0.09, *p* = .21; 12.7 → 12.4 per 1,000): the "decline of *will*" is a compositional effect of the arrival of *would/could* and the halving of statement length (839 → 340 tokens). The changes are steps, not slopes: PELT places the *should* break at 14 June 2017 (share .130 → .000; the meeting of the normalization addendum, where the reinvestment sentence *"…should help maintain accommodative financial conditions"* was deleted after 21 statements), and the *would* and *could* breaks at 16 September 2020 (.00 → .15; the first meeting after the revised framework, which introduced the conditional-commitment sentence). *Will* breaks at lift-off (2015-12-16, .72 → .94, with three new *will*-guidance sentences) and at 2020-09-16 (compositional). *May* has short-lived guidance episodes (2014–15 *may … warrant*; 2019 *may be appropriate*; 2023 *additional policy firming may be appropriate*). AR(1) share half-lives: *could* 23, *would* 10, *should* 7, *will* 4, *may* 1.7, *can* 0.8 meetings.
 
-Across the other genres, *should* declines everywhere (consistent with the community-wide decline; Leech, 2003), the *would/could* rise is confined to statements, and the only rising modal in press conferences is *can* (τ = +0.21) — genre-specific editorial and speaker effects, not language change.
+Across the other genres, *should* declines everywhere (consistent with the community-wide decline; Leech, 2004), the *would/could* rise is confined to statements, and the only rising modal in press conferences is *can* (τ = +0.21) — genre-specific editorial and speaker effects, not language change.
 
 ![Figure 4. Share of each modal per statement with PELT change points and policy events.](../results/figures/B_fig2_statement_share_changepoints.png)
 
@@ -262,6 +262,8 @@ Aruoba, S. B., & Drechsel, T. (2024). *Identifying monetary policy shocks: A nat
 
 Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. *Journal of the Royal Statistical Society B, 57*(1), 289–300.
 
+Bowie, J., Wallis, S., & Aarts, B. (2013). Contemporary change in modal usage in spoken British English: Mapping the impact of "genre". In J. I. Marín-Arrese, M. Carretero, J. Arús Hita, & J. van der Auwera (Eds.), *English modality: Core, periphery and evidentiality* (pp. 57–94). De Gruyter Mouton.
+
 Bholat, D., Hansen, S., Santos, P., & Schonhardt-Bailey, C. (2015). *Text mining for central banks* (CCBS Handbook No. 33). Bank of England.
 
 Biber, D., & Barbieri, F. (2007). Lexical bundles in university spoken and written registers. *English for Specific Purposes, 26*(3), 263–286.
@@ -278,9 +280,9 @@ Coates, J. (1983). *The semantics of the modal auxiliaries*. Croom Helm.
 
 Collins, P. (2009). *Modals and quasi-modals in English*. Rodopi.
 
-Depraetere, I., & Reed, S. (2006). Mood and modality in English. In B. Aarts & A. McMahon (Eds.), *The handbook of English linguistics* (pp. 269–290). Blackwell.
+Deng, Z., Ali, A. M., & Zin, Z. B. M. (2024). Features of hedging strategies performed by the Federal Reserve Chair in press conferences. *Theory and Practice in Language Studies, 14*(11), 3483–3495.
 
-Donohue, J. P. (2006). How to support a one-handed economist: The role of modalisation in economic forecasting. *English for Specific Purposes, 25*(2), 200–216.
+Depraetere, I., & Reed, S. (2006). Mood and modality in English. In B. Aarts & A. McMahon (Eds.), *The handbook of English linguistics* (pp. 269–290). Blackwell.
 
 Ehrmann, M., & Talmi, J. (2020). Starting from a blank page? Semantic similarity in central bank communication and market volatility. *Journal of Monetary Economics, 111*, 48–62.
 
@@ -312,7 +314,7 @@ Kawamura, K., Kobashi, Y., Shizume, M., & Ueda, K. (2019). Strategic central ban
 
 Killick, R., Fearnhead, P., & Eckley, I. A. (2012). Optimal detection of changepoints with a linear computational cost. *Journal of the American Statistical Association, 107*(500), 1590–1598.
 
-Leech, G. (2003). Modality on the move: The English modal auxiliaries 1961–1992. In R. Facchinetti, M. Krug, & F. Palmer (Eds.), *Modality in contemporary English* (pp. 223–240). Mouton de Gruyter.
+Leech, G. (2004). Recent grammatical change in English: Data, description, theory. In K. Aijmer & B. Altenberg (Eds.), *Advances in corpus linguistics: Papers from ICAME 23* (pp. 61–81). Rodopi.
 
 Leech, G., Hundt, M., Mair, C., & Smith, N. (2009). *Change in contemporary English: A grammatical study*. Cambridge University Press.
 
@@ -321,6 +323,8 @@ Loughran, T., & McDonald, B. (2011). When is a liability not a liability? Textua
 Lucca, D. O., & Trebbi, F. (2009). *Measuring central bank communication: An automated approach with application to FOMC statements* (NBER Working Paper 15367).
 
 Mann, H. B. (1945). Nonparametric tests against trend. *Econometrica, 13*(3), 245–259.
+
+Mair, C., & Leech, G. (2006). Current changes in English syntax. In B. Aarts & A. McMahon (Eds.), *The handbook of English linguistics* (pp. 318–342). Blackwell.
 
 Meade, E. E., & Acosta, M. (2015). *Hanging on every word: Semantic analysis of the FOMC's postmeeting statement* (FEDS Notes, September 30). Board of Governors of the Federal Reserve System.
 
@@ -333,8 +337,6 @@ Nuyts, J. (2001). Subjectivity as an evidential dimension in epistemic modal exp
 Palmer, F. R. (1990). *Modality and the English modals* (2nd ed.). Longman.
 
 Palmer, F. R. (2001). *Mood and modality* (2nd ed.). Cambridge University Press.
-
-Pindi, M., & Bloor, T. (1987). Playing safe with predictions: Hedging, attribution and conditions in economic forecasting. In T. Bloor & J. Norrish (Eds.), *Written language* (CILT 55). CILT.
 
 Powell, J. H. (2020). *New economic challenges and the Fed's monetary policy review*. Speech at the Jackson Hole Economic Policy Symposium, August 27.
 

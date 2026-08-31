@@ -66,3 +66,14 @@ Status key: **DOWNLOADED** = file in this folder · **NOT-OA (user to provide)**
 - **NOT-OA (user to provide):** #23 Leech 2003, #24 Millar 2009, #25 Hyland 1996, #27 Donohue 2006, #29 Nuyts 2001.
 - **NOT FOUND (open copy exists but not fetchable from this machine):** #12 Cannon 2015, #13 Doh/Song/Yang 2020 (kansascityfed.org unreachable), #28 Resche 2004 (HAL anti-bot page), #34 Kipper Schuler 2005 (dead author link).
 - **Version caveats (working paper ≠ published):** #1, #4, #6, #7, #9, #10, #15, #19 are working-paper versions; #11 is a 2021 draft of a 2023 paper; #2 and #16 are author final manuscripts.
+
+## v2 update (2026-08-31) — non-OA resolutions and substitutions
+
+| Item | Resolution | Filename |
+|---|---|---|
+| Nuyts (2001), *J. Pragmatics* 33(3) | **User-provided PDF, verified** | `Nuyts_2001_Subjectivity_evidential_dimension.pdf` |
+| Hyland (1996), *Applied Linguistics* 17(4) | **User-provided PDF, verified.** NB: this article contains no frequency counts (those are in Hyland 1996, *Written Communication* 13(2)) — cite for taxonomy/definitions only | `Hyland_1996_Writing_without_conviction.pdf` |
+| Donohue (2006), *ESP* 25(2) | **NOT obtained** (user-provided file was a different ESP item — the 2005 lingua-franca editorial). Correct DOI is 10.1016/j.esp.2005.02.009. ORO green-OA copy exists but blocks automation: https://oro.open.ac.uk/36543/1/one%20handed%20economist.pdf . **Substituted in draft v2** by Deng, Ali & Zin (2024) + Resche (2015) |
+| Leech (2003) chapter | **Substituted** by Leech (2004) "Recent grammatical change in English" (ICAME 23, Rodopi) — OA (Lancaster), published pagination; same Brown/LOB/Frown/FLOB figures (core modals −9.5% BrE / −12.2% AmE; shall −44%, must −29/−34%, may −17/−32%, should −12/−14%) | `Leech_2004_RecentGrammaticalChange.pdf` |
+| Millar (2009) | **Cited via** Bowie, Wallis & Aarts (2013: 59–60), which reports Millar's TIME figures (may +54% vs −32% Brown family) and the genre attribution; Millar stays in the bibliography as a secondary citation | `Bowie_2013_Contemporary_change_modal_usage.pdf` (UCL Discovery OA) |
+| Secondary holdings added | Mair & Leech (2006) handbook ch. (preprint pagination — cite w/o pages); Love & Curry (2021) *ELL* 25(3) CC-BY; Aarts (2014); Deng, Ali & Zin (2024) *TPLS* 14(11); Resche (2015) copied from project core references | `Mair_Leech_2006_*.pdf`, `Love_2021_*.pdf`, `Aarts_2014_*.pdf`, `Deng_2024_FedChairHedging.pdf`, `Resche_2015_Hedging_central_banks.pdf` |

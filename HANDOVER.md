@@ -40,6 +40,7 @@
 | 2026-08-28 | 6–7 | 문장 코퍼스 재구축(ftfy 인코딩 보정), 의존구문 기반 조동사 추출(32,584 토큰), 실험 A(후행 동사·collostruction), B(MK 추세·PELT 변화점·AR(1) 반감기·준양태), C(정형 문장·편집 이벤트·KM 생존·보유율 반감기), D(맥락·장르 χ²·의미 유형·의장·국면). 비회의 성명서 4건 제외. 종합 분석 docs/06 작성 | 62ebf7d, docs/06 |
 | 2026-08-28 | 8 | 논문 초안 v1 작성(영문, paper/draft_v1.md + .docx; 약 8,500단어; 초록·서론·배경·방법·결과(표 8·그림 9)·논의·결론·참고문헌·부록). 다음 단계: 비OA 문헌 반영, 2인 코딩 검증(κ), 저널 양식 맞춤, 저자·소속 기입 | paper/ |
 | 2026-08-31 | 9 | v2 완성: be-후행어 해소(01 개정, 91.9%), 거시 정렬(06, FRED CFNAI/VIX/갭), 상관·FDR 스크린(07), 시차·Granger·예측(08), 적대적 검증 워크플로(발견 28건→검증 12건, 인공물 다수 처형)+비평 잔여항목 실행(09, G1–G6), 문헌 근거 워크플로(EVIDENCE_feedback3.md), docs/07 종합, 초안 v2(paper/draft_v2.md+.docx). 핵심: 상관 축은 VIX(불확실성)이지 CFNAI(실물) 아님(Kawamura 비전이); fair-weather 보류/위기 채택/심의 관용구 3기제; would be appropriate=살아있는 심의 신호; 예측력 증분 없음(F3 0/113) | Phase 9 커밋들, docs/07, paper/draft_v2 |
+| 2026-08-31 | 9+ | 비OA 처리: Nuyts·Hyland 원문 수령(검증), 사용자 제공 3번째 파일은 오다운로드(ESP editorial)로 판명 — Donohue 미확보(정확 DOI 10.1016/j.esp.2005.02.009), Deng et al. 2024+Resche 2015로 대체. Leech 2003→Leech 2004(OA), Millar 2009→Bowie et al. 2013(OA, Millar 2차 인용 유지)로 교체. draft_v2 인용·참고문헌 갱신, docx 재생성 | literature/, docs/05, paper/draft_v2 |
 
 ### ⚠ 2026-08-31 레포 삭제·재생성 사건
 - Phase 9.1–9.3 푸시 시 GitHub 레포(airlab-tsw/fomc-modality-analysis)가 원격에서 존재하지 않음(404). airlab-tsw·GSkim0507 계정 어디에도 이름 변경/이전 흔적 없음 → 삭제된 것으로 판단.
