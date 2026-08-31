@@ -116,6 +116,8 @@ def main():
 
     # A7: be-complement inventory
     be = df[df.head_verb == "be"].copy()
+    for c in ["be_comp_type", "be_comp", "be_xcomp"]:
+        be[c] = be[c].fillna("")
     a7 = (be.groupby(["doc_type", "modal", "be_comp_type", "be_comp", "be_xcomp"]).size()
             .rename("n").reset_index().sort_values(["doc_type", "modal", "n"], ascending=[True, True, False]))
     a7.to_csv(TAB / "A7_be_complements.csv", index=False)
