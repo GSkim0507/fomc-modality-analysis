@@ -43,6 +43,7 @@ def median_survival(kmdf):
 
 def main():
     df = load_modals(); df = df[df.doc_type == "statement"]
+    df["predicate"] = df["predicate"].fillna(df["head_verb"])
     docs = load_docs(); docs = docs[docs.doc_type == "statement"].sort_values("date").reset_index(drop=True)
     order = {d: i for i, d in enumerate(docs["doc_id"])}
     dates = dict(zip(docs["doc_id"], docs["date"]))
@@ -84,8 +85,8 @@ def main():
     boiler.to_csv(TAB / "C2_boilerplate_modal_sentences.csv", index=False)
 
     # ---- 3. construction cohorts (modal, head_verb) with survival
-    pairs = df.groupby(["midx", "modal", "head_verb"]).size().reset_index(name="n")
-    present = pairs.groupby(["modal", "head_verb"])["midx"].agg(set)
+    pairs = df.groupby(["midx", "modal", "predicate"]).size().reset_index(name="n")
+    present = pairs.groupby(["modal", "predicate"])["midx"].agg(set)
     last_m = docs.index.max()
     rows = []
     for (m, v), ms in present.items():
@@ -99,7 +100,7 @@ def main():
         for s, e in runs_:
             dur = e - s + 1            # meetings survived incl. first
             censored = (e == last_m)
-            rows.append(dict(modal=m, head_verb=v, start_midx=s, start_date=dates[docs.loc[s, "doc_id"]],
+            rows.append(dict(modal=m, predicate=v, start_midx=s, start_date=dates[docs.loc[s, "doc_id"]],
                              end_midx=e, end_date=dates[docs.loc[e, "doc_id"]], duration=dur, event=int(not censored)))
     coh = pd.DataFrame(rows); coh.to_csv(TAB / "C3_construction_cohorts.csv", index=False)
 

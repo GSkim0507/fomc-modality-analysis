@@ -10,6 +10,10 @@ For each token tagged MD (or contracted 'll/'d):
   passive      True if head verb has auxpass / nsubjpass
   perfect      True if 'have' aux between modal and verb (would have been)
   progressive  True if 'be ... -ing'
+  be_comp      when the lexical head is copular 'be': the complement lemma (prepared, appropriate, patient, ...)
+  be_comp_type adjectival | nominal | prepositional | adverbial | '' (non-copular or unresolved)
+  be_xcomp     to-infinitive verb under the complement (prepared TO ADJUST -> adjust)
+  predicate    head_verb if not 'be'; else 'be+<complement>' (e.g. be+prepared); bare 'be' if unresolved
   subj_text    subject head text of the clause (nsubj/nsubjpass/expl)
   subj_lemma   subject lemma
   subj_type    committee | fed | we/I | it/there | econ (inflation, economy, conditions...) | risks | other
@@ -98,6 +102,34 @@ def lexical_head(tok):
     if any(c.dep_ == "nsubjpass" for c in h.children): passive = True
     return h, perfect, progressive, passive
 
+def be_complement(head):
+    """For copular 'be' heads, find the predicate complement (feedback 1: look past 'be')."""
+    comp = None; ctype = ""
+    for c in head.children:
+        if c.dep_ in {"acomp", "oprd"} and c.pos_ in {"ADJ", "VERB", "NOUN"}:
+            comp, ctype = c, "adjectival"; break
+    if comp is None:
+        for c in head.children:
+            if c.dep_ == "attr":
+                comp, ctype = c, "nominal"; break
+    if comp is None:
+        for c in head.children:
+            if c.dep_ == "prep":
+                pobj = next((g for g in c.children if g.dep_ == "pobj"), None)
+                comp, ctype = (pobj if pobj is not None else c), "prepositional"; break
+    if comp is None:
+        for c in head.children:
+            if c.dep_ == "advmod" and c.pos_ == "ADV" and c.i > head.i:
+                comp, ctype = c, "adverbial"; break
+    if comp is None:
+        return "", "", ""
+    xverb = ""
+    surface = comp.text.lower()
+    for g in comp.children:
+        if g.dep_ == "xcomp" and g.pos_ in {"VERB", "AUX"}:
+            xverb = g.lemma_.lower(); break
+    return (surface if ctype == "adjectival" else comp.lemma_.lower()), ctype, xverb
+
 def is_reported(tok):
     h = tok.head
     for _ in range(4):
@@ -142,12 +174,18 @@ def main():
             for c in tok.head.children:
                 if c.dep_ == "neg": neg = True
             subj = find_subject(tok)
+            hv = head.lemma_.lower()
+            b_comp = b_type = b_x = ""
+            if hv == "be":
+                b_comp, b_type, b_x = be_complement(head)
+            predicate = f"be+{b_comp}" if (hv == "be" and b_comp) else hv
             rows.append(dict(
                 doc_id=m["doc_id"], doc_type=m["doc_type"], date=m["date"], chair=m["chair"],
                 sent_id=m["sent_id"], modal=modal, surface=surf,
                 contracted=surf.startswith(("'", "’")),
-                head_verb=head.lemma_.lower(), head_verb_surface=head.text.lower(),
+                head_verb=hv, head_verb_surface=head.text.lower(),
                 head_pos=head.pos_, head_tag=head.tag_,
+                be_comp=b_comp, be_comp_type=b_type, be_xcomp=b_x, predicate=predicate,
                 neg=neg, passive=passive, perfect=perfect, progressive=progressive,
                 subj_text=(subj.text if subj is not None else ""),
                 subj_lemma=(subj.lemma_.lower() if subj is not None else ""),

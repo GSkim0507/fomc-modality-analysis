@@ -1,6 +1,10 @@
 """
 02_following_verbs.py — Experiment A: exhaustive analysis of verbs following the six modals (2014–2026).
 
+Feedback-1 revision: analyses run over `predicate` (= head verb, or be+<complement> for copular be),
+so passives/futures resolve to the true lexical verb and copular uses expose their complement.
+Adds A7_be_complements.csv (modal × be-complement inventory).
+
 Outputs (results/tables):
   A1_following_verbs_all.csv         modal × head_verb counts and within-modal share, per genre + overall
   A2_top_following_verbs.csv         top-25 following verbs per modal per genre
@@ -20,10 +24,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from common import *
 
+def pred_class(hv, bt):
+    if hv == "be":
+        return {"adjectival": "copular_adj", "nominal": "copular_nom",
+                "prepositional": "copular_prep", "adverbial": "copular_other"}.get(bt or "", "copular_bare")
+    return verb_class(hv)
+
 def collostruction(df: pd.DataFrame, min_count=3) -> pd.DataFrame:
     """Distinctive collexeme analysis: for each modal M and verb V,
     2x2 table [V&M, V&notM ; notV&M, notV&notM]."""
-    ct = pd.crosstab(df["head_verb"], df["modal"])
+    ct = pd.crosstab(df["predicate"], df["modal"])
     N = ct.values.sum()
     rows = []
     for v in ct.index:
@@ -51,12 +61,14 @@ def main():
     df = load_modals()
     docs = load_docs()
     print("modal tokens 2014-2026 (six):", len(df))
-    df["vclass"] = df["head_verb"].map(verb_class)
+    df["predicate"] = df["predicate"].fillna(df["head_verb"])
+    df["be_comp_type"] = df["be_comp_type"].fillna("")
+    df["vclass"] = [pred_class(h, b) for h, b in zip(df["head_verb"], df["be_comp_type"])]
 
     # A1: full counts
     parts = []
     for g, sub in [("all", df)] + [(g, df[df.doc_type == g]) for g in GENRES]:
-        ct = sub.groupby(["modal", "head_verb"]).size().rename("n").reset_index()
+        ct = sub.groupby(["modal", "predicate"]).size().rename("n").reset_index()
         ct["share_within_modal"] = ct["n"] / ct.groupby("modal")["n"].transform("sum")
         ct["genre"] = g
         parts.append(ct)
@@ -84,7 +96,7 @@ def main():
     # A5: JSD between modals (overall and statements)
     jrows = []
     for g, sub in [("all", df), ("statement", df[df.doc_type == "statement"])]:
-        ct = pd.crosstab(sub["head_verb"], sub["modal"])
+        ct = pd.crosstab(sub["predicate"], sub["modal"])
         P = ct / ct.sum()
         for i, m1 in enumerate(SIX):
             for m2 in SIX[i+1:]:
@@ -96,20 +108,28 @@ def main():
     df["period"] = np.where(df["year"] <= 2019, "2014-2019", "2020-2026")
     pparts = []
     for g, sub in [("all", df), ("statement", df[df.doc_type == "statement"])]:
-        ct = sub.groupby(["period", "modal", "head_verb"]).size().rename("n").reset_index()
+        ct = sub.groupby(["period", "modal", "predicate"]).size().rename("n").reset_index()
         ct["share"] = ct["n"] / ct.groupby(["period", "modal"])["n"].transform("sum")
         ct = ct.sort_values(["period", "modal", "n"], ascending=[True, True, False]).groupby(["period", "modal"]).head(15)
         ct["genre"] = g; pparts.append(ct)
     pd.concat(pparts).to_csv(TAB / "A6_following_verbs_by_period.csv", index=False)
 
+    # A7: be-complement inventory
+    be = df[df.head_verb == "be"].copy()
+    a7 = (be.groupby(["doc_type", "modal", "be_comp_type", "be_comp", "be_xcomp"]).size()
+            .rename("n").reset_index().sort_values(["doc_type", "modal", "n"], ascending=[True, True, False]))
+    a7.to_csv(TAB / "A7_be_complements.csv", index=False)
+    resolved = (be.be_comp.fillna("") != "").mean()
+    print(f"\nbe-heads: {len(be)}  complement resolved: {resolved:.1%}")
+
     # ---- Figures ----
     # Fig1: semantic class heatmap, per genre (2x2 panels)
     fig, axes = plt.subplots(2, 2, figsize=(13, 9))
-    classes = ["policy_action", "existence", "mental", "communication", "activity", "causative", "occurrence", "aspectual", "other"]
+    classes = ["policy_action", "copular_adj", "copular_nom", "copular_prep", "existence", "mental", "communication", "activity", "causative", "occurrence", "aspectual", "other"]
     for ax, g in zip(axes.flat, GENRES):
         sub = df[df.doc_type == g]
         ct = pd.crosstab(sub["modal"], sub["vclass"], normalize="index").reindex(index=SIX, columns=classes).fillna(0)
-        sns.heatmap(ct * 100, annot=True, fmt=".0f", cmap="Blues", ax=ax, cbar=False, vmin=0, vmax=60)
+        sns.heatmap(ct * 100, annot=True, fmt=".0f", cmap="Blues", ax=ax, cbar=False, vmin=0, vmax=60, annot_kws={"fontsize":7})
         ax.set_title(f"{GENRE_LABEL[g]} (n={len(sub):,})"); ax.set_xlabel(""); ax.set_ylabel("")
         ax.tick_params(axis="x", rotation=40)
     fig.suptitle("Semantic class of the verb following each modal (% within modal), 2014–2026", y=1.0)
@@ -119,7 +139,7 @@ def main():
     st = df[df.doc_type == "statement"]
     fig, axes = plt.subplots(2, 3, figsize=(14, 7))
     for ax, m in zip(axes.flat, SIX):
-        vc = st[st.modal == m]["head_verb"].value_counts().head(10)
+        vc = st[st.modal == m]["predicate"].value_counts().head(10)
         ax.barh(vc.index[::-1], vc.values[::-1], color="#4c72b0")
         ax.set_title(f"{m}  (n={int((st.modal==m).sum())})")
     fig.suptitle("FOMC statements 2014–2026: top-10 verbs following each modal")
@@ -137,11 +157,11 @@ def main():
     # console summary
     print("\nTop following verbs per modal (all genres):")
     for m in SIX:
-        vc = df[df.modal == m]["head_verb"].value_counts().head(8)
+        vc = df[df.modal == m]["predicate"].value_counts().head(8)
         print(f"  {m:7s} n={int((df.modal==m).sum()):6d} | " + ", ".join(f"{v}({c})" for v, c in vc.items()))
     print("\nTop following verbs per modal (statements):")
     for m in SIX:
-        vc = st[st.modal == m]["head_verb"].value_counts().head(8)
+        vc = st[st.modal == m]["predicate"].value_counts().head(8)
         print(f"  {m:7s} n={int((st.modal==m).sum()):6d} | " + ", ".join(f"{v}({c})" for v, c in vc.items()))
     print("\nSemantic classes (all):"); print((pd.crosstab(df["modal"], df["vclass"], normalize="index")*100).round(1).reindex(SIX).to_string())
 
