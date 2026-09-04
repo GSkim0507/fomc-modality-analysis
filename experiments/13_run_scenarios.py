@@ -32,7 +32,7 @@ from statsmodels.stats.multitest import multipletests
 from statsmodels.tsa.stattools import grangercausalitytests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common_v3 import (ROOT, TAB, SCEN, SIX, EVENTS, SCENARIOS, UNITS, PERIODS, NORMS, LAYER_LABEL,
+from common_v3 import (ROOT, TAB, SCEN, SIX, EVENTS, SCENARIOS, UNITS, PERIODS, MAIN_PERIODS, NORMS, LAYER_LABEL,
                        load_tokens_v3, load_docs_v3, load_macro, unit_key, period_mask, genre_of)
 
 warnings.filterwarnings("ignore")
@@ -126,7 +126,7 @@ def unit_series(tk: pd.DataFrame, dl: pd.DataFrame, level: str, min_tokens=MIN_T
 # ----------------------------------------------------------------------------------------------
 def corpus_table(tk, dl, out, summary):
     rows = []
-    for T in PERIODS:
+    for T in MAIN_PERIODS:
         m_t = period_mask(tk.date, T); m_d = period_mask(dl.date, T)
         for lay in summary["layers"]:
             d = dl[m_d & (dl.layer == lay)]; t = tk[m_t & (tk.layer == lay)]
@@ -375,11 +375,16 @@ def confirmed_table(scr: pd.DataFrame):
         except KeyError:
             continue
         if any(pd.isna(v) for v in (r1, r2, p1, p2)): continue
-        conf = e1 and e2 and p1 < .05 and p2 < .05 and np.sign(r1) == np.sign(r2)
+        rh1 = row[("rho", "H1")] if ("rho", "H1") in row.index else np.nan
+        rh2 = row[("rho", "H2")] if ("rho", "H2") in row.index else np.nan
+        halves_ok = (not pd.isna(rh1)) and (not pd.isna(rh2)) and np.sign(rh1) == np.sign(r2) and np.sign(rh2) == np.sign(r2)
+        conf = e1 and e2 and p1 < .05 and p2 < .05 and np.sign(r1) == np.sign(r2) and halves_ok
         r3 = row[("rho", "T3")] if ("rho", "T3") in row.index else np.nan
         out.append(dict(level=idx[0], key=idx[1], unit=idx[2], macro=idx[3], rho_T1=round(r1, 3), p_T1=round(p1, 4), rho_T2=round(r2, 3), p_T2=round(p2, 4),
-                        rho_T3=(round(r3, 3) if not pd.isna(r3) else np.nan), n_tokens_T1=int(row[("n_tokens", "T1")]), zero_share_T1=row[("zero_share", "T1")],
-                        T1_only=bool(e1 and p1 < .05 and not conf), confirmed=bool(conf)))
+                        rho_T3=(round(r3, 3) if not pd.isna(r3) else np.nan), rho_H1=(round(rh1, 3) if not pd.isna(rh1) else np.nan), rho_H2=(round(rh2, 3) if not pd.isna(rh2) else np.nan),
+                        n_tokens_T1=int(row[("n_tokens", "T1")]), zero_share_T1=row[("zero_share", "T1")],
+                        T1_only=bool(e1 and p1 < .05 and not conf), era_composition=bool(e1 and e2 and p1 < .05 and p2 < .05 and np.sign(r1) == np.sign(r2) and not halves_ok),
+                        confirmed=bool(conf)))
     return pd.DataFrame(out)
 
 
@@ -412,7 +417,7 @@ def block_E(tk, dl, out, summary, U, macro):
         for u in units:
             s = s_all[s_all.unit == u].sort_values("date")
             row = dict(layer=key, unit=u, n_tokens=int(counts.get(u, s["count"].sum())))
-            for T in PERIODS:
+            for T in MAIN_PERIODS:
                 st = s[period_mask(s.date, T)]
                 row[f"zero_{T}"] = round(float((st["count"] == 0).mean()), 2) if len(st) else np.nan
                 for mv, col in MACRO_VARS.items():
@@ -456,13 +461,15 @@ def block_E(tk, dl, out, summary, U, macro):
                 ax.set_ylabel("per 1k")
             fig.suptitle("X-E  confirmed VIX correlates (density vs pre-meeting VIX)"); savefig(fig, out / "figures" / "E_vix_overlay.png")
     n_hits_T1 = int(((scr.period == "T1") & scr.eligible & (scr.q_rho < .05)).sum()) if len(scr) else 0
+    cl = conf[conf.level == "layer"] if len(conf) else conf
     res.update(n_screen_rows=int(len(scr)), n_bh_hits_T1=n_hits_T1,
-               n_confirmed_vix=int(conf[(conf.macro == "vix") & conf.confirmed].shape[0]) if len(conf) else 0,
-               n_confirmed_cfnai=int(conf[(conf.macro == "cfnai") & conf.confirmed].shape[0]) if len(conf) else 0,
-               n_T1_only=int(conf.T1_only.sum()) if len(conf) else 0,
-               confirmed_top=(conf[conf.confirmed].assign(a=lambda d: d.rho_T2.abs()).sort_values("a", ascending=False).head(12)
-                              .drop(columns="a").to_dict("records") if len(conf) else []),
-               confirmed_modal_level=(conf_m[conf_m.confirmed].to_dict("records") if len(conf_m) else []))
+               n_confirmed_vix=int(cl[(cl.macro == "vix") & cl.confirmed].shape[0]) if len(cl) else 0,
+               n_confirmed_cfnai=int(cl[(cl.macro == "cfnai") & cl.confirmed].shape[0]) if len(cl) else 0,
+               n_T1_only=int(cl.T1_only.sum()) if len(cl) else 0,
+               n_era_composition=int(cl.era_composition.sum()) if len(cl) else 0,
+               confirmed_top=(cl[cl.confirmed].assign(a=lambda d: d.rho_T2.abs()).sort_values("a", ascending=False).head(12)
+                              .drop(columns="a").to_dict("records") if len(cl) else []),
+               confirmed_modal_level=(conf_m[conf_m.confirmed & (conf_m.level == "layer")].to_dict("records") if len(conf_m) else []))
     summary["blocks"]["E"] = res
 
 
@@ -573,15 +580,18 @@ def readme(summary, out):
         d = b["D"]; L += ["## X-D 층위 분업", "", f"- 층위({d['n_layers']}) × 조동사 χ²={d['chi2']:.0f}, Cramér's V={d['cramers_v']}", ""]
     if "E" in b:
         e = b["E"]; L += ["## X-E 구문 × 거시", ""]
-        kaw = [k for k in e["kawamura"] if k["level"] == "genre" and k["macro"] == "cfnai"]
+        kaw = [k for k in e["kawamura"] if k["level"] == "genre" and k["macro"] == "cfnai" and k["period"] in MAIN_PERIODS]
         L.append("- Kawamura 검정(총 조동사 밀도 × CFNAI, Spearman): " + "; ".join(f"{k['key']} {k['period']} ρ={k['rho']} (p={k['p']})" for k in kaw))
-        kawv = [k for k in e["kawamura"] if k["level"] == "genre" and k["macro"] == "vix"]
+        kawv = [k for k in e["kawamura"] if k["level"] == "genre" and k["macro"] == "vix" and k["period"] in MAIN_PERIODS]
+        kawh = [k for k in e["kawamura"] if k["level"] == "genre" and k["period"] in ("H1", "H2") and k["p"] is not None and k["p"] < .05]
+        if kawh:
+            L.append("- 반기별 유의(총 밀도): " + "; ".join(f"{k['key']} × {k['macro']} {k['period']} ρ={k['rho']} (p={k['p']})" for k in kawh))
         L.append("- 총 조동사 밀도 × VIX: " + "; ".join(f"{k['key']} {k['period']} ρ={k['rho']} (p={k['p']})" for k in kawv))
-        L.append(f"- 전수 스크린 {e['n_screen_rows']}행: T1 BH q<.05 적중 {e['n_bh_hits_T1']}; T1·T2 동부호 유의(확정) VIX {e['n_confirmed_vix']}건 / CFNAI {e['n_confirmed_cfnai']}건; T1에서만 유의(2020 의존) {e['n_T1_only']}건")
+        L.append(f"- 전수 스크린 {e['n_screen_rows']}행(층위 수준 집계): T1 BH q<.05 적중 {e['n_bh_hits_T1']}; **확정**(T1·T2 유의·동부호 + 2014–19/2021–26 반기 동부호) VIX {e['n_confirmed_vix']}건 / CFNAI {e['n_confirmed_cfnai']}건; T1에서만 유의(2020 의존) {e['n_T1_only']}건; T1·T2 유의하나 반기 부호 불일치(시대 구성 효과) {e.get('n_era_composition', 0)}건")
         if e["confirmed_top"]:
-            L += ["", "| 수준 | 키 | 단위 | 거시 | ρ T1 | ρ excl-2020 | ρ 2010– | 토큰 |", "|---|---|---|---|---:|---:|---:|---:|"]
+            L += ["", "| 층위 | 단위 | 거시 | ρ T1 | ρ excl-2020 | ρ 2010– | ρ 2014–19 | ρ 2021–26 | 토큰 |", "|---|---|---|---:|---:|---:|---:|---:|---:|"]
             for c in e["confirmed_top"]:
-                L.append(f"| {c['level']} | {c['key']} | {c['unit']} | {c['macro']} | {c['rho_T1']} | {c['rho_T2']} | {c['rho_T3']} | {c['n_tokens_T1']} |")
+                L.append(f"| {c['key']} | {c['unit']} | {c['macro']} | {c['rho_T1']} | {c['rho_T2']} | {c['rho_T3']} | {c.get('rho_H1')} | {c.get('rho_H2')} | {c['n_tokens_T1']} |")
         L.append("")
     if "F" in b and "table" in b["F"]:
         L += ["## X-F will/would + be appropriate", "", "| 층위 | 단위 | 토큰 | ρ VIX T1 | ρ VIX excl-2020 | ρ CFNAI T1 | 제로 비율 T1 |", "|---|---|---:|---:|---:|---:|---:|"]

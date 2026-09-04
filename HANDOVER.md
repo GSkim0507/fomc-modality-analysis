@@ -42,6 +42,7 @@
 | 2026-08-31 | 9 | v2 완성: be-후행어 해소(01 개정, 91.9%), 거시 정렬(06, FRED CFNAI/VIX/갭), 상관·FDR 스크린(07), 시차·Granger·예측(08), 적대적 검증 워크플로(발견 28건→검증 12건, 인공물 다수 처형)+비평 잔여항목 실행(09, G1–G6), 문헌 근거 워크플로(EVIDENCE_feedback3.md), docs/07 종합, 초안 v2(paper/draft_v2.md+.docx). 핵심: 상관 축은 VIX(불확실성)이지 CFNAI(실물) 아님(Kawamura 비전이); fair-weather 보류/위기 채택/심의 관용구 3기제; would be appropriate=살아있는 심의 신호; 예측력 증분 없음(F3 0/113) | Phase 9 커밋들, docs/07, paper/draft_v2 |
 | 2026-08-31 | 9+ | 비OA 처리: Nuyts·Hyland 원문 수령(검증), 사용자 제공 3번째 파일은 오다운로드(ESP editorial)로 판명 — Donohue 미확보(정확 DOI 10.1016/j.esp.2005.02.009), Deng et al. 2024+Resche 2015로 대체. Leech 2003→Leech 2004(OA), Millar 2009→Bowie et al. 2013(OA, Millar 2차 인용 유지)로 교체. draft_v2 인용·참고문헌 갱신, docx 재생성 | literature/, docs/05, paper/draft_v2 |
 | 2026-09-04 | 10.0 | 논문 미팅(지도교수) 녹취·팀 피드백 4건 분석 → 재실험 전략 docs/08. 층위 감사(qa_layer_audit.py → QA1–QA4): 기자회견 조동사 토큰의 19.7%가 기자 발화(could 48%, might 50%), 의사록 be+appropriate는 will=위원회 섹션(50/58)·would=참가자 섹션(142/247) → 교수님 will/would 질문의 답. Phase 10–13 계획 수립(TASKS.md) | docs/08, experiments/qa_layer_audit.py, results/tables/QA1–QA4 |
+| 2026-09-04 | 10–12 | **v3 실행**: 층위 코퍼스(10: 정제·화자 분절·의사록 섹션 귀속·인용 성명서/지침 분리; QA Jaccard .94), 추출 v3(11: 32,388 토큰), QA(12), 데이터 카드(docs/09), CFNAI·VIX 근거(docs/10), 시나리오 러너(13: S1–S6 × U1–U3 = 18개, 블록 X-A~X-G, T1/T2/T3·반기 검사 내장), 보고서(14: results/report). 결과 요약 docs/11. 핵심: 반경기 양태 없음(전 시나리오); 성명서 계단 25 변화점 중 17 사건 일치; 성명서만(S1)으로는 확정 거시 신호 0–1; 의사록 위원회 층 would+be+appropriate × CFNAI +.39·VIX +.33 등 확정; v2 헤드라인 minutes can×VIX는 규정문·명단 오염(84 중 21)으로 소멸; Granger 전부 FDR 탈락 | ea0b4da + Phase 11–12 커밋 |
 
 ### ⚠ 2026-08-31 레포 삭제·재생성 사건
 - Phase 9.1–9.3 푸시 시 GitHub 레포(airlab-tsw/fomc-modality-analysis)가 원격에서 존재하지 않음(404). airlab-tsw·GSkim0507 계정 어디에도 이름 변경/이전 흔적 없음 → 삭제된 것으로 판단.
@@ -62,9 +63,13 @@
 - D12. (교수님 발언) 타깃 저널 = 경제학(JEL E58). Kawamura 비교는 인용 수준.
 - D13. ECB 비교는 fallback으로만 준비.
 - D14. 화용론 축(will/would vs can/could)은 교수님 문헌 검토 후 포함 결정; X-D 대조표만 준비.
+- D15. (v3) 확정(confirmed) 규칙 = Spearman T1·T2 p<.05 동부호 + 2014–19/2021–26 반기 동부호 + 토큰≥40·제로회의≤60%, 층위 수준 집계. T1-only = 2020 의존, era_composition = 반기 부호 불일치.
+- D16. (v3) 시나리오 폴더 = S × U; T(기간)·N(정규화)은 블록 내부 변형 열. 권장 메인 S4_U2, 비교 S1_U2·S2_U2.
 - D4. 조동사 판별은 spaCy `tag_ == "MD"` + 축약형(’ll/’d) 복원 + 표면형 정규화(ca n't 등).
 
 ## 6. 미해결 / 사용자 확인 필요
+- (2026-09-04) 시나리오·주장 선택(D8–D11) — docs/11 §4 추천안 참조. 사람 검증 표본 3종 미완.
+- (2026-09-04) `minutes_20121023`(T3 전용)은 PDF 유래 포맷으로 층위 미분류(데이터 카드 §8).
 - (2026-09-04) D8 의사록 포함 명분(docs/08 §4)에 대한 팀 수용 여부.
 - (2026-09-04) 이미지로 공유된 다른 세션의 화자 분절기(80문서 5,250턴 검증)는 이 레포에 없음 → Phase 10.2에서 재작성(qa_layer_audit.py의 정규식이 동일 수치 재현: 의장 2,194 / 기자 2,186 / 진행자 848턴).
 - (2026-09-04) 회의에서 언급된 'E2(ECB?) 코퍼스'는 이 레포에 없음. 위치 확인 필요(D13 fallback용).

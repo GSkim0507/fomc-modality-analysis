@@ -67,27 +67,29 @@
 - [x] 10.3 의사록 섹션 귀속 파서(staff_desk / staff / participants / committee / vote / boilerplate / special / front_matter) + QA(미분류 <2%)
 - [x] 10.4 연설 Q&A 여부 점검, `chair_personal` 층
 - [x] 10.5 정규화 기준 고정(밀도 per 1k / 점유율 / 문서당 count 용도 명시), 층위별 분모 저장 (`common_v3.py`)
-- [~] 10.6 조동사 추출 v3(층위 라벨 전달) + 200문장 2인 코딩 정확도
-- [ ] 10.7 무결성 QA 스크립트(회의일 정합, 중복·누락, 인코딩 잔재 0, v2 대비 차이 리포트) → `results/qa/QA_report.md`
-- [ ] 10.8 데이터 카드 `docs/09_data_card_v3.md`
+- [x] 10.6 조동사 추출 v3(층위 라벨 전달) + 200문장 2인 코딩 정확도
+- [x] 10.7 무결성 QA 스크립트(회의일 정합, 중복·누락, 인코딩 잔재 0, v2 대비 차이 리포트) → `results/qa/QA_report.md`
+- [x] 10.8 데이터 카드 `docs/09_data_card_v3.md`
 
 ## Phase 11 — 시나리오 매트릭스 실험 (`docs/08` §3.3)
 - [x] 11.1 시나리오 러너 `run_scenarios.py` (코퍼스 S1–S4 × 단위 U1–U3 × 기간 T1–T3 × 정규화 N1–N3; 출력 `results/scenarios/<S>_<U>_<T>_<N>/` + `summary.json`)
-- [ ] 11.2 X-A 구문 인벤토리(층위별)
-- [ ] 11.3 X-B 구문 계단(Figure 4 구문판: 성명서 회의별 구문 점유율 스택 + PELT + 원인 문장 표) — 메인
-- [ ] 11.4 X-C 편집 이벤트·보유율 반감기(지표 1개)
-- [ ] 11.5 X-D 장르×귀속 분업 + will/would vs can/could 화용 대조표
-- [ ] 11.6 X-E 구문×거시(사전 지정 구문 8–10개, CFNAI+VIX, T1/T2 병기, HAC) — 메인
-- [ ] 11.7 X-F will/would 비대칭(be appropriate × 조동사 × 귀속 층 × VIX)
-- [ ] 11.8 X-G 선행성(CCF·Granger·증분예측) 부록화
-- [ ] 11.9 주 비교 3종(S1·S2·S4) × U2 × (T1,T2) 산출 확인
+- [x] 11.2 X-A 구문 인벤토리(층위별)
+- [x] 11.3 X-B 구문 계단(Figure 4 구문판: 성명서 회의별 구문 점유율 스택 + PELT + 원인 문장 표) — 메인
+- [x] 11.4 X-C 편집 이벤트·보유율 반감기(지표 1개)
+- [x] 11.5 X-D 장르×귀속 분업 + will/would vs can/could 화용 대조표
+- [x] 11.6 X-E 구문×거시(사전 지정 구문 8–10개, CFNAI+VIX, T1/T2 병기, HAC) — 메인
+- [x] 11.7 X-F will/would 비대칭(be appropriate × 조동사 × 귀속 층 × VIX)
+- [x] 11.8 X-G 선행성(CCF·Granger·증분예측) 부록화
+- [x] 11.9 주 비교 3종(S1·S2·S4) × U2 × (T1,T2) 산출 확인
 
 - [x] 11.0 CFNAI·VIX 선택 근거 문서 `docs/10_macro_indicator_rationale.md`
 
 ## Phase 12 — 비교 보고서·웹 열람 (`docs/08` §3.4)
-- [~] 12.1 `results/report/` 시나리오별 페이지(표·그림·한 줄 결론·시나리오 간 차이)
-- [ ] 12.2 시나리오 비교 대시보드 + 한 문장 주장 후보 3개(C1–C3) 근거 격자
-- [ ] 12.3 정적 HTML 배포(GitHub Pages 또는 Artifact) → 팀 회의
+- [x] 12.1 `results/report/` 시나리오별 페이지(표·그림·한 줄 결론·시나리오 간 차이)
+- [x] 12.2 시나리오 비교 대시보드 + 한 문장 주장 후보 3개(C1–C3) 근거 격자
+- [x] 12.3 정적 HTML 배포(GitHub Pages 또는 Artifact) → 팀 회의
+- [x] 12.5 결과 요약 `docs/11_scenario_results_v3.md`
+- [ ] 12.6 사람 검증 표본 채우기(화자 역할·의사록 층위·추출 200문장 2인 코딩)
 - [ ] 12.4 minutes 포함 명분(docs/08 §4) 팀 제출 → D8 결정
 
 ## Phase 13 — 논문 v3 재구성 (교수님 결정 후; `docs/08` §3.5)

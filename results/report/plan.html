@@ -1,0 +1,767 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>전략</title><style>
+:root{--bg:#F2F4F6;--surface:#fff;--ink:#1A222C;--muted:#5A6572;--line:#D6DCE3;--accent:#24507A;--warn:#A8501F;--ok:#2C6E5C;--tint:#E6EEF6;
+--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--display:"Noto Serif KR","Apple Myungjo",Georgia,serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A}}
+:root[data-theme="dark"]{--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65}
+.page{max-width:1080px;margin:0 auto;padding:32px 22px 80px}
+nav.top{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--mono);font-size:12.5px;padding-bottom:14px;border-bottom:2px solid var(--ink);margin-bottom:22px}
+nav.top a{color:var(--accent);text-decoration:none}nav.top a:hover{text-decoration:underline}
+h1{font-family:var(--display);font-size:28px;line-height:1.25;margin:0 0 8px;text-wrap:balance}
+h2{font-family:var(--display);font-size:21px;margin:36px 0 10px;padding-top:14px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:22px 0 8px}p{max-width:78ch}.lede{color:var(--muted);font-size:16px;max-width:70ch}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5;background:var(--surface)}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{background:var(--tint);font-weight:600;white-space:nowrap}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:6px;margin:12px 0 20px}
+td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0 24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.card .k{font-family:var(--mono);font-size:12px;color:var(--accent)}.card .t{font-weight:600;margin:4px 0 6px}.card .d{font-size:13px;color:var(--muted);margin:0}
+.card a{color:var(--accent)}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-family:var(--mono);font-size:11.5px;background:var(--tint);margin-right:4px}
+.pill.ok{background:var(--ok);color:#fff}.pill.warn{background:var(--warn);color:#fff}
+figure{margin:16px 0 22px}figure img{max-width:100%;border:1px solid var(--line);border-radius:4px;background:#fff}figcaption{font-size:12.5px;color:var(--muted);margin-top:4px}
+details{margin:10px 0}summary{cursor:pointer;font-weight:600}
+code{font-family:var(--mono);font-size:.9em;background:var(--tint);padding:1px 4px;border-radius:3px}
+blockquote{border-left:3px solid var(--accent);margin:12px 0;padding:6px 14px;background:var(--surface)}
+.small{font-size:12.5px;color:var(--muted)}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+</style></head><body><div class='page'><nav class="top"><a href="index.html">개요·시나리오 격자</a><a href="claims.html">주장 후보 C1–C3</a><a href="plan.html">전략(docs/08)</a><a href="macro.html">CFNAI·VIX 근거(docs/10)</a><a href="data_card.html">데이터 카드(docs/09)</a><a href="qa.html">QA 리포트</a></nav><div class='eyebrow'>docs/08_meeting_260904_direction_and_replan.md</div><h1>08. 2026-09-04 논문 미팅 분석 및 재실험 전략</h1>
+<blockquote>
+<p>입력: 회의 녹취(<code>논문 미팅_260904.pdf</code>, 참석자 1 = 지도교수·교신저자), 회의 대상 <code>paper/draft_v2.docx</code>, 팀 미팅 피드백 4건, 데이터 감사(<code>experiments/qa_layer_audit.py</code>, <code>results/tables/QA1–QA3</code>).
+산출: §1 교수님 방향 분석 → §2 draft v2 진단 → §3 재실험 전략(Phase 10–13) → §4 minutes 포함 명분 → §5 코로나 처리 → §6 일정 → §7 확인 필요 결정.</p>
+</blockquote>
+<hr />
+<h2>0. 한 페이지 요약</h2>
+<p><strong>교수님이 원하는 논문은 한 문장으로 &quot;FOMC 조동사(구문)가 경제 상황을 설명할 수 있는가, 없는가&quot;에 답하는 논문이다</strong> (14:51). 그 기준으로 지금 draft v2는 세 가지가 어긋난다.</p>
+<ol>
+<li><strong>분석 단위가 중간에 바뀐다.</strong> RQ1–2는 구문(modal + predicate)을 봤는데 RQ3–5는 조동사만 본다. &quot;구문으로 Figure 4를 다시 그려서 비슷하게 나오면 그게 제일 좋다&quot;(08:52)가 교수님의 1순위 요청이다.</li>
+<li><strong>결론이 한 문장으로 안 읽힌다.</strong> &quot;이건 됐다가 저건 안 되고&quot;(08:04). RQ1–5의 결과를 하나의 주장으로 묶고, 그 주장에 안 붙는 것은 &quot;과감히 빼야&quot;(14:51) 한다.</li>
+<li><strong>데이터 신뢰도.</strong> 기자회견의 기자 발화가 연준 발화로 집계됐고(could의 48%, might의 50%가 기자 발화), 의사록은 스태프·참가자·위원회·규정문이 한 덩어리로 섞여 있다.</li>
+</ol>
+<p><strong>전략:</strong> 데이터 정제·정규화를 층위(장르 × 귀속)까지 다시 하고(Phase 10), 하나의 실험 코드를 <strong>시나리오 매트릭스</strong>(코퍼스 정의 × 분석 단위 × 기간 × 정규화)로 돌려(Phase 11), 논문이 아닌 <strong>비교 보고서</strong>(웹 열람)로 산출한 뒤(Phase 12), 교수님이 시나리오와 한 문장 주장을 고른 다음 논문을 재구성한다(Phase 13). 메인 스토리는 <strong>Figure 4의 구문 버전(계단식 편집)</strong> + <strong>구문 × 불확실성(VIX)</strong>, Kawamura(일본)는 인용 수준, RQ5의 선행지표·Granger는 부록.</p>
+<hr />
+<h2>1. 지도교수님이 원하는 방향 (회의록 분석)</h2>
+<h3>1.1 발언별 요구 사항</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>시각</th>
+<th>교수님 발언(요지)</th>
+<th>요구 사항으로 번역</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>00:03–03:00</td>
+<td>v1은 modal만 보다가 be 동사(will be, would be)에서 막혔고 v2에서 be 뒤 서술어까지 넣었다. &quot;Figure 2까지는 modal+동사를 가져왔는데… 이걸 (뒤에도) 넣어야 하나?&quot; → 참석자 2 &quot;넣으면 조동사별로 무엇과 결합하는지, 역할·기능을 설명할 수 있다&quot; → &quot;오케이&quot;</td>
+<td><strong>구문(modal + predicate) 단위를 논문 전체의 분석 단위로 확정</strong></td>
+</tr>
+<tr>
+<td>B</td>
+<td>04:11</td>
+<td>&quot;첫 번째, minutes&quot;</td>
+<td>의사록 포함 여부가 1번 쟁점 (→ 항목 H)</td>
+</tr>
+<tr>
+<td>C</td>
+<td>04:35–05:04</td>
+<td>&quot;개수가 되게 차이가 나는데 상관없나요? Figure 3에 statement 780, press conference 13,000&quot; → 참석자 3 &quot;차이 날 수밖에&quot; → &quot;응&quot;</td>
+<td><strong>정규화 기준(무엇을 분모로 쓰는지)을 표·그림마다 명시</strong>. 원시 개수 병기는 오해를 부름</td>
+</tr>
+<tr>
+<td>D</td>
+<td>05:22–05:38</td>
+<td>&quot;RQ1–2까지는 structure 분석이 필요하다는 입장이었는데 뒤에는 modal만 하는 타당성이…&quot;</td>
+<td>단위 불일치 해소 또는 불일치의 정당화 (17:08 &quot;타당한 이유가 있으면 괜찮아&quot;)</td>
+</tr>
+<tr>
+<td>E</td>
+<td>06:52, 17:39–17:46</td>
+<td>일본(Kawamura) 부분은 &quot;심플하게&quot;, &quot;discussion에 서브섹션 하나로 들어가 있던데… citation 정도면 되지 않을까&quot;</td>
+<td><strong>§5.2 삭제 → 논의 본문 속 인용 2–3문장으로 축소</strong></td>
+</tr>
+<tr>
+<td>F</td>
+<td>07:36–08:04</td>
+<td>&quot;지금 당장 결론은 modal verb가 효과가 없더라, 너무 안정적이더라… 이것도 클리어하게 가져가야 돼. 결과는 이거고 이게 우리가 주장하는 거다. 지금은 이건 됐다가 저건 안 되고… <strong>RQ1부터 5까지의 결과가 한 문장으로 뭘 말해주냐</strong>&quot;</td>
+<td><strong>한 문장 주장(claim) 확정</strong>. &quot;효과 없음&quot;도 명확하면 결론으로 수용</td>
+</tr>
+<tr>
+<td>G</td>
+<td>08:52–10:19</td>
+<td>&quot;Figure 4를 construction까지 했을 때 비슷하게 나오면 그게 제일 좋다, 할 말이 많다. Figure 2·3은 frequency. <strong>메인은 Figure 4부터</strong>. construction까지 봐야겠다 했다가 갑자기 modal만 보는 미스매칭만 해결하면 흐름이 괜찮아진다. <strong>계단식이라는 거, 그게 가장 할 말이 많다.</strong> 5부터는 이해를 잘 못했다&quot;</td>
+<td><strong>메인 실험 = 성명서 구문 점유율의 계단식 변화(Figure 4 구문판)</strong>. Figure 5 이후(보유율 곡선·거시 히트맵·시차)는 단순화</td>
+</tr>
+<tr>
+<td>H</td>
+<td>11:22</td>
+<td>&quot;(be appropriate) 이거에 대한 설명(선행연구)이 있나 봐야 한다. 위에서도 appropriate에 포커스를 많이 두고 있잖아&quot;</td>
+<td><strong>be appropriate 구문의 선행연구 확보</strong> (§8)</td>
+</tr>
+<tr>
+<td>I</td>
+<td>13:19</td>
+<td>&quot;will은 would의 (짝)이잖아요. 그럼 <strong>will은 왜 안 나올까요?</strong> would be appropriate는 나왔는데 will be appropriate는 안 나왔어. 설명이 되려면…&quot;</td>
+<td><strong>will/would 비대칭을 실험으로 설명</strong> (→ 데이터 감사에서 답 확보, §2.3)</td>
+</tr>
+<tr>
+<td>J</td>
+<td>14:51</td>
+<td>&quot;추후 연구까지 생각 안 해줘도 돼요. <strong>modal verb가 경제 상황을 설명할 수 있을 것인가 없을 것인가, 그걸 메인으로.</strong> 그 기준으로 딴 얘기 같은 건 과감히 빼고, 진짜 필요한 건 무조건 가져와야&quot;</td>
+<td><strong>논문의 단일 연구질문 확정, 취사 기준 확정</strong></td>
+</tr>
+<tr>
+<td>K</td>
+<td>15:53–16:36</td>
+<td>&quot;다 이어져 있어서 빼기도 애매하다. will/would를 구분해 놓고 시작하는데 중간에 빼면 갭이 생긴다. 어렵네. 결과를 나중에 한번 보자&quot;</td>
+<td>삭제는 결과를 본 뒤 결정 → <strong>시나리오별 결과를 먼저 보여줘야 함</strong></td>
+</tr>
+<tr>
+<td>L</td>
+<td>18:17–18:28</td>
+<td>&quot;minutes를 넣어. 넣었는데 <strong>그 타당성(명분)을 알려달라고</strong> 해. 명분이 우리한테 accept되면 가능&quot;</td>
+<td><strong>의사록 포함 명분 문서화 → 팀 수용 여부 결정</strong> (§4)</td>
+</tr>
+<tr>
+<td>M</td>
+<td>19:13</td>
+<td>&quot;일단 보고서처럼. 결과를 여러 개 볼 거니까 논문 형식으로 보면 좀…&quot; / 19:27 &quot;결과 정리된 글… 그 결과가 뭘 말해주는지&quot;</td>
+<td><strong>산출 형식 = 시나리오 비교 보고서 + 각 결과의 한 줄 해석</strong>, 웹 열람(참석자 3 제안)</td>
+</tr>
+<tr>
+<td>N</td>
+<td>19:27–20:01</td>
+<td>&quot;코로나 기간 뺀 거, 안 뺀 거 섞여 있는데 조정해야. 코로나 부분만 튀면 코로나 시기로 설명할 수 있지 않나&quot;</td>
+<td><strong>포함/제외 두 버전을 병렬 보고, 결과가 튀는 곳만 코로나로 서술</strong> (§5)</td>
+</tr>
+<tr>
+<td>O</td>
+<td>21:25–21:37</td>
+<td>ECB 비교·statement-only 대안은 &quot;차선책. 그것도 말이 돼요. 달라진다고 좋고 나쁠 건 없어&quot;</td>
+<td>ECB 대조는 fallback으로만 준비</td>
+</tr>
+<tr>
+<td>P</td>
+<td>22:05</td>
+<td>&quot;논문 하나 낼 때 실험만 6개월 했어요&quot;</td>
+<td>반복 실험을 전제로 한 일정 (추석까지 1차)</td>
+</tr>
+<tr>
+<td>Q</td>
+<td>22:30–24:00</td>
+<td>&quot;추가 언어학적 Q… 지금은 조동사 역할·특징 정도. <strong>화용적 요소</strong>… will/would는 비슷하게 가고 could/can은 화용적으로 다르다는 논의가 있어서 우리 결과와 맞으면 가져온다. collostruction analysis도 있긴 한데&quot;</td>
+<td>교수님이 문헌 검토 후 결정. 우리는 <strong>will/would vs can/could 대조 표를 미리 준비</strong></td>
+</tr>
+<tr>
+<td>R</td>
+<td>26:55</td>
+<td>&quot;이거는 <strong>경제학 쪽에 내야</strong> 될 것 같아요&quot; (참석자 3: Kawamura의 JEDC, JEL E58)</td>
+<td><strong>타깃 = 경제학 저널</strong>. 언어학 세부(JSD, collexeme 통계)는 압축, 거시 연계와 편집 동학이 본론</td>
+</tr>
+</tbody>
+</table>
+<h3>1.2 교수님이 그리고 있는 논문의 형태</h3>
+<p>발언 F·G·J·R을 합치면 교수님의 머릿속 논문은 다음과 같다.</p>
+<ul>
+<li><strong>연구질문 하나:</strong> 조동사 구문은 경제 상황을 설명하는가?</li>
+<li><strong>본론 두 덩어리:</strong> ① 성명서 조동사 구문의 <strong>계단식 편집</strong>(Figure 4 구문판) — &quot;가장 할 말이 많은&quot; 발견. ② 구문과 거시 변수(실물 vs 불확실성)의 관계 — 답이 &quot;실물은 아니고 불확실성만, 그것도 특정 구문만&quot;이든 &quot;설명 못 한다&quot;든 <strong>한 문장으로 명확하게</strong>.</li>
+<li><strong>앞부분(RQ1 구문 인벤토리)은 본론의 준비 단계</strong>(Figure 2·3 = frequency)로 짧게.</li>
+<li><strong>뒷부분(선행지표·Granger·예측·artifact ledger)은 이해가 안 되는 만큼 단순화·부록화.</strong></li>
+<li>일본 비교는 인용, 추후 연구 논의는 삭제.</li>
+<li>독자는 경제학자: 그들에게 익숙한 형태(문서 단위 시계열, 사건 표시, VIX/CFNAI와의 대응 그림, 간단한 회귀)로.</li>
+</ul>
+<h3>1.3 팀 피드백 4건과의 대응</h3>
+<table>
+<thead>
+<tr>
+<th>팀 피드백</th>
+<th>대응 (본 문서 §)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. 데이터 신뢰도 하락. 정규화부터 다시, 무결성·일관성 확인</td>
+<td>Phase 10 (§3.2) — 층위 분절, 규정문·각주 제거, QA 스크립트, 데이터 카드</td>
+</tr>
+<tr>
+<td>2. RQ1–2 구조 분석 → 이후 modal만: 일관성 또는 타당성</td>
+<td>Phase 11에서 <strong>모든 실험을 구문 단위(U2)로 통일</strong>, modal 단위(U1)는 비교 열로만 (§3.3)</td>
+</tr>
+<tr>
+<td>3. Discussion의 일본 단락 축소</td>
+<td>Phase 13 논문 구조안 (§3.5): §5.2 삭제, 인용 2–3문장</td>
+</tr>
+<tr>
+<td>4. minutes 포함 여부</td>
+<td>§4 명분 문서 + 시나리오 S1(제외)·S2·S3(포함) 병렬 산출로 포함 여부가 결론을 바꾸는지 투명 보고</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>2. draft v2 진단 (교수님 기준)</h2>
+<h3>2.1 분석 단위의 불일치</h3>
+<table>
+<thead>
+<tr>
+<th>절</th>
+<th>현재 단위</th>
+<th>문제</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RQ1 (§4.2, Fig 2–3, Table 2–3)</td>
+<td>구문 (modal + predicate, be 해소)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>RQ2 (§4.3, Fig 4)</td>
+<td><strong>조동사 점유율</strong></td>
+<td>교수님이 구문판을 요구. 실제로는 각 계단이 &quot;문장 1개&quot;이므로 구문판이 더 선명할 것</td>
+</tr>
+<tr>
+<td>RQ3 (§4.4, Fig 5)</td>
+<td>구문 코호트 + 문장 클러스터</td>
+<td>단위는 맞으나 KM/보유율/AR(1) 세 지표가 병렬되어 이해 부담 (G: &quot;5부터 이해 못함&quot;)</td>
+</tr>
+<tr>
+<td>RQ4 (§4.5)</td>
+<td><strong>조동사 × 장르 χ²</strong></td>
+<td>구문·귀속 층위 없음. 기자 발화 오염 포함</td>
+</tr>
+<tr>
+<td>RQ5a (§4.6, Fig 6)</td>
+<td>조동사 밀도(히트맵) + 구문(본문) 혼재</td>
+<td>히트맵은 조동사, 기제 설명은 구문 → 그림과 글이 다른 단위</td>
+</tr>
+<tr>
+<td>RQ5b (§4.7)</td>
+<td>조동사 밀도(CCF·Granger·예측)</td>
+<td>조동사 단위, 기자 오염 포함(press_conf can→VIX 등)</td>
+</tr>
+</tbody>
+</table>
+<h3>2.2 데이터 무결성 문제 (감사 결과, 2014–2026)</h3>
+<p><strong>(a) 기자회견: 기자 발화 오염</strong> — 화자 마커(<code>CHAIR POWELL.</code>, <code>STEVE LIESMAN.</code>, <code>MICHELLE SMITH.</code>)로 분절하면 80개 문서, 의장 2,194턴 / 기자 2,186턴 / 진행자 848턴. 조동사 토큰 13,736개 중 <strong>기자 2,701(19.7%), 진행자 84</strong>. 조동사별 기자 비중:</p>
+<table>
+<thead>
+<tr>
+<th>modal</th>
+<th style="text-align:right">의장</th>
+<th style="text-align:right">기자</th>
+<th style="text-align:right">기자 비중</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>could</td>
+<td style="text-align:right">626</td>
+<td style="text-align:right">586</td>
+<td style="text-align:right"><strong>48.3%</strong></td>
+</tr>
+<tr>
+<td>might</td>
+<td style="text-align:right">237</td>
+<td style="text-align:right">241</td>
+<td style="text-align:right"><strong>50.3%</strong></td>
+</tr>
+<tr>
+<td>should</td>
+<td style="text-align:right">497</td>
+<td style="text-align:right">195</td>
+<td style="text-align:right">28.2%</td>
+</tr>
+<tr>
+<td>would</td>
+<td style="text-align:right">3,125</td>
+<td style="text-align:right">784</td>
+<td style="text-align:right">20.0%</td>
+</tr>
+<tr>
+<td>can</td>
+<td style="text-align:right">1,607</td>
+<td style="text-align:right">380</td>
+<td style="text-align:right">19.1%</td>
+</tr>
+<tr>
+<td>may</td>
+<td style="text-align:right">484</td>
+<td style="text-align:right">96</td>
+<td style="text-align:right">16.5%</td>
+</tr>
+<tr>
+<td>will</td>
+<td style="text-align:right">4,340</td>
+<td style="text-align:right">412</td>
+<td style="text-align:right">8.5%</td>
+</tr>
+</tbody>
+</table>
+<p>→ draft v2의 기자회견 관련 서술(RQ4 press_conf 열, D1 맥락 비율의 2인칭·의문, RQ5의 press_conf can→VIX·would→VIX Granger)은 <strong>전부 재계산 대상</strong>. 성명서 전용 결과(RQ2·RQ3)는 영향 없음.</p>
+<p><strong>(b) 의사록: 층위 혼합</strong> — 섹션 소제목이 99개 문서에 안정적으로 존재한다(Staff Review of the Economic Situation 99, Staff Economic Outlook 99, Staff Review of the Financial Situation 98, Participants' Views 93(+변형), Committee Policy Action(s) 99, Developments in Financial Markets… 93(+변형)). 조동사 토큰 7,989개의 섹션 분포:</p>
+<table>
+<thead>
+<tr>
+<th>섹션(귀속)</th>
+<th style="text-align:right">토큰</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>participants (참가자 견해)</td>
+<td style="text-align:right">3,125</td>
+<td>would 1,536 · could 870 · might 370 — <strong>심의 언어</strong></td>
+</tr>
+<tr>
+<td>committee (위원회 정책조치)</td>
+<td style="text-align:right">1,843</td>
+<td>will 687 · would 763 — 성명서 문장 반복 + 결정 서술</td>
+</tr>
+<tr>
+<td>front_matter / 미분류</td>
+<td style="text-align:right">1,128</td>
+<td><strong>shall 199, must 87</strong> = 1월 회의의 인가문·지침·장기목표 성명 등 <strong>규정 boilerplate</strong></td>
+</tr>
+<tr>
+<td>staff_desk (시장·SOMA 데스크 보고)</td>
+<td style="text-align:right">988</td>
+<td></td>
+</tr>
+<tr>
+<td>staff (경제·금융 리뷰·전망)</td>
+<td style="text-align:right">597</td>
+<td>Kawamura의 BoJ Monthly Report(스태프 문서)와 가장 비교 가능한 층</td>
+</tr>
+<tr>
+<td>vote (표결·지침문)</td>
+<td style="text-align:right">308</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>→ 현재 &quot;minutes would 50%&quot;는 참가자 심의(would 1,536)와 위원회 서술(would 763)과 규정문이 합쳐진 값. 층위를 나누면 <strong>성명서와 대응되는 층(committee)과 심의 층(participants)이 분리</strong>된다.</p>
+<p><strong>(c) 정제 잔재</strong> — 의사록 각주 백링크 &quot;Return to text&quot; 481회, 연설문 헤더 &quot;Watch Live&quot;, 1월 의사록의 Annual Organizational Matters·Authorization·Directive 전문, 회의 참석자 명단. 현재 <code>00_build_corpus.py</code>는 이를 제거하지 않는다.</p>
+<p><strong>(d) 정규화 혼재</strong> — 표·그림에 따라 원시 count(Table 1, Fig 2), 밀도 per 1k(Fig 1, RQ5), 점유율 share(Fig 4)가 섞여 있고, 2020 제외 여부도 절마다 다르다(Fig 6은 제외, Table 4는 제외, 4.6 본문은 전체·제외 병기). 교수님 지적 C·N의 원인.</p>
+<h3>2.3 감사가 이미 답한 것: will vs would 비대칭 (교수님 질문 I)</h3>
+<p>의사록 <code>be + appropriate</code> 토큰의 조동사 × 섹션 분포:</p>
+<table>
+<thead>
+<tr>
+<th>modal</th>
+<th style="text-align:right">committee</th>
+<th style="text-align:right">participants</th>
+<th style="text-align:right">staff/desk</th>
+<th style="text-align:right">기타</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>will</td>
+<td style="text-align:right"><strong>50</strong></td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td>would</td>
+<td style="text-align:right">63</td>
+<td style="text-align:right"><strong>142</strong></td>
+<td style="text-align:right">23</td>
+<td style="text-align:right">19</td>
+</tr>
+<tr>
+<td>may</td>
+<td style="text-align:right">21</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">5</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><em>will be appropriate</em>는 <strong>위원회 정책조치 섹션의 성명서 언어 재진술</strong>(&quot;the Committee expects that it will be appropriate to maintain…&quot;)이고, <em>would be appropriate</em>는 <strong>참가자 견해 섹션의 심의 언어</strong>(&quot;participants judged that it would be appropriate to…&quot;; 보고 동사 내포 비율 71%).</li>
+<li>따라서 will/would 차이는 시제가 아니라 **발화 주체와 담화 기능(편집된 지침 vs 살아있는 심의)**의 차이다. 편집된 지침(will)은 프레임워크 사건에 따라 계단식으로 움직이고, 심의(would)는 회의마다 변하므로 VIX와 공변한다 — 교수님 질문에 대한 직접적 답이며, <strong>의사록을 층위로 나눠야만 보이는 결과</strong>(§4 명분 3).</li>
+</ul>
+<h3>2.4 서술 문제</h3>
+<ul>
+<li>&quot;됐다/안 됐다&quot;의 나열: E1 12셀 중 11셀, 7/7 사멸, 113행 0건, artifact ledger… 경제학 독자에게는 검증 과정이 아니라 <strong>결과의 형태</strong>가 필요하다. 검증 과정은 부록의 표 하나로.</li>
+<li>추후 연구·시장반응 연구 예고(§5.5 끝)·&quot;implications for text-based indices&quot;(§5.4)는 교수님 기준(J)으로 삭제 또는 1문단.</li>
+</ul>
+<hr />
+<h2>3. 재실험 전략</h2>
+<h3>3.1 원칙</h3>
+<ol>
+<li><strong>주장 우선(claim-first):</strong> 모든 실험 출력에 &quot;이 표가 한 문장 주장에 기여하는 바&quot;를 한 줄로 붙인다. 붙일 수 없으면 부록 또는 삭제.</li>
+<li><strong>단위 일관:</strong> 기본 분석 단위는 <strong>구문(modal + predicate)</strong>. 조동사 단위 결과는 항상 &quot;집계 시 사라지는 것&quot;을 보여주는 비교 열로만 제시.</li>
+<li><strong>층위 명시:</strong> 코퍼스는 장르 × 귀속(attribution)의 2축으로 정의하고, 모든 표에 층위 라벨과 분모(토큰 수)를 표기.</li>
+<li><strong>시나리오 매트릭스:</strong> 코드는 하나, 설정(config)만 바꿔 모든 조합을 자동 산출. 결론이 설정에 따라 바뀌는지(robust)/안 바뀌는지를 그 자체로 결과로 보고.</li>
+<li><strong>보고서형 산출:</strong> 시나리오 비교 표·그림·한 줄 해석을 정적 웹으로. 논문 문체는 Phase 13까지 보류.</li>
+</ol>
+<h3>3.2 Phase 10 — 데이터 재정제·정규화 (기존 00/01 대체)</h3>
+<table>
+<thead>
+<tr>
+<th>단계</th>
+<th>내용</th>
+<th>산출</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10.1 원문 정제 v3</td>
+<td>헤더·푸터·페이지 마커, &quot;Return to text&quot;, &quot;Share/Watch Live&quot;, 참석자 명단, 1월 조직사항·인가문·지침·장기목표 성명 전문(→ 별도 <code>boilerplate</code> 층으로 보존, 분석 제외), mojibake(ftfy), 하이픈 줄바꿈 복원</td>
+<td><code>experiments/10_build_corpus_v3.py</code> → <code>corpus_docs_v3.csv</code>, <code>corpus_sentences_v3.csv</code>(열 추가: <code>layer</code>, <code>speaker_role</code>, <code>section</code>)</td>
+</tr>
+<tr>
+<td>10.2 기자회견 화자 분절</td>
+<td>화자 마커 정규식(<code>^NAME.</code>), 역할 사전: chair / moderator(Michelle Smith 등) / journalist. 모두 대문자 이름을 자동 분류하고 미분류는 목록으로 검토</td>
+<td><code>speaker_role</code> 열; 검증: 문서 10개 × 20턴 수작업 대조</td>
+</tr>
+<tr>
+<td>10.3 의사록 섹션 귀속</td>
+<td>소제목 카탈로그 기반 파서: <code>staff_desk</code>, <code>staff</code>, <code>participants</code>, <code>committee</code>, <code>vote</code>, <code>boilerplate</code>, <code>special</code>(Discussion of…, Review of Monetary Policy Strategy 등), <code>front_matter</code>. 변형 제목 정규화</td>
+<td><code>section</code> 열; QA: 문서마다 필수 5섹션 존재 확인, 미분류 토큰 &lt; 2%</td>
+</tr>
+<tr>
+<td>10.4 연설</td>
+<td>의장 연설만, Q&amp;A 포함 문서는 Q&amp;A 제거 여부 검사</td>
+<td><code>layer = chair_personal</code></td>
+</tr>
+<tr>
+<td>10.5 정규화 기준 고정</td>
+<td>층위별 분모 토큰 수를 <code>corpus_docs_v3</code>에 저장. <strong>지표 3종의 용도 고정:</strong> 밀도 per 1k tokens(층위 비교·거시 상관 기본), 문서당 count(성명서 전용: 문서 길이 자체가 편집 결과이므로), 6대 조동사 내 점유율(구성 변화·Figure 4). 각 표·그림 캡션에 지표명·분모 자동 기입</td>
+<td><code>experiments/common_v3.py</code></td>
+</tr>
+<tr>
+<td>10.6 조동사 추출 v3</td>
+<td><code>01_extract_modals.py</code> 로직 유지(be 해소 포함) + 층위 라벨 전달 + 축약형·부정 규칙 재검토 + <strong>정확도 검증 200문장 2인 코딩</strong>(D7 표본 활용)</td>
+<td><code>modal_tokens_v3.csv</code>, <code>QA_extraction_accuracy.md</code></td>
+</tr>
+<tr>
+<td>10.7 무결성 QA 스크립트</td>
+<td>회의일 정합(statement 101 vs minutes 99: 2020-03 긴급회의 등 사유 명시), 중복·누락 문서, 날짜 정렬, 토큰 수 이상치, 인코딩 잔재 0건, 층위 합계 = 문서 합계, 이전 버전(v2) 대비 토큰 차이 리포트</td>
+<td><code>experiments/11_qa_integrity.py</code> → <code>results/qa/QA_report.md</code></td>
+</tr>
+<tr>
+<td>10.8 데이터 카드</td>
+<td>코퍼스 정의·층위·분모·제외 문서·알려진 한계를 한 장으로</td>
+<td><code>docs/09_data_card_v3.md</code></td>
+</tr>
+</tbody>
+</table>
+<h3>3.3 Phase 11 — 시나리오 매트릭스 실험</h3>
+<p><strong>축 정의</strong></p>
+<table>
+<thead>
+<tr>
+<th>축</th>
+<th>코드</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>코퍼스 정의</td>
+<td>S1</td>
+<td>statement only (minutes 제외 = 세미나 원안)</td>
+</tr>
+<tr>
+<td></td>
+<td>S2</td>
+<td>statement + minutes(committee 층만: 성명서의 &quot;확장판&quot;)</td>
+</tr>
+<tr>
+<td></td>
+<td>S3</td>
+<td>statement + minutes(전 층, 귀속 라벨)</td>
+</tr>
+<tr>
+<td></td>
+<td>S4</td>
+<td>4장르, 기자·진행자 제거, 귀속 라벨 (이미지의 &quot;권장안&quot;)</td>
+</tr>
+<tr>
+<td>분석 단위</td>
+<td>U1</td>
+<td>조동사 (비교용)</td>
+</tr>
+<tr>
+<td></td>
+<td>U2</td>
+<td>구문 modal + predicate (<strong>기본</strong>)</td>
+</tr>
+<tr>
+<td></td>
+<td>U3</td>
+<td>구문군 (be appropriate family, outlook formulas, conditional-commitment 등 사전 정의)</td>
+</tr>
+<tr>
+<td>기간</td>
+<td>T1</td>
+<td>2014–2026 전체</td>
+</tr>
+<tr>
+<td></td>
+<td>T2</td>
+<td>2020년 제외</td>
+</tr>
+<tr>
+<td></td>
+<td>T3</td>
+<td>2010–2026 확장 (강건성)</td>
+</tr>
+<tr>
+<td>정규화</td>
+<td>N1</td>
+<td>밀도 per 1k (기본)</td>
+</tr>
+<tr>
+<td></td>
+<td>N2</td>
+<td>6대 조동사 내 점유율</td>
+</tr>
+<tr>
+<td></td>
+<td>N3</td>
+<td>문서당 count (성명서)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>실행 방식:</strong> <code>experiments/run_scenarios.py --corpus S4 --unit U2 --period T1 --norm N1</code> 식으로 하나의 코드가 모든 조합을 돌리고 <code>results/scenarios/&lt;S&gt;_&lt;U&gt;_&lt;T&gt;_&lt;N&gt;/</code>에 표·그림·<code>summary.json</code>(한 줄 결론 + 핵심 수치)을 남긴다. 보고서는 **주 비교 3종(S1·S2·S4) × U2 × (T1, T2)**를 나란히 놓고 나머지는 강건성 부록.</p>
+<p><strong>실험 블록 (모든 시나리오에 동일 적용)</strong></p>
+<table>
+<thead>
+<tr>
+<th>블록</th>
+<th>질문</th>
+<th>내용</th>
+<th>교수님 요구와의 연결</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X-A 구문 인벤토리</td>
+<td>각 조동사는 어떤 서술어와 결합하는가</td>
+<td>조동사별 상위 구문·점유율, 층위별. collexeme 통계는 부록</td>
+<td>A, Figure 2·3의 압축판</td>
+</tr>
+<tr>
+<td>X-B <strong>구문 계단</strong></td>
+<td>성명서 구문 구성은 언제 어떻게 바뀌는가</td>
+<td>회의별 구문 점유율 스택(will+continue, will+take, will+be appropriate, would+be prepared, could+impede, should+help, may+warrant…) + PELT 변화점 + 정책 사건 + 각 계단의 원인 문장 표</td>
+<td><strong>G: Figure 4 구문판 = 메인</strong></td>
+</tr>
+<tr>
+<td>X-C 편집 이벤트·지속</td>
+<td>구문은 얼마나 오래 유지되는가</td>
+<td>문장 삽입/삭제 표(연도별), 보유율 반감기 <strong>1개 지표</strong>만 본문</td>
+<td>Figure 5 단순화</td>
+</tr>
+<tr>
+<td>X-D 장르 × 귀속 분업</td>
+<td>누가 어떤 구문을 쓰는가</td>
+<td>층위 × 구문 대조(이원), will/would/can/could 화용 대조표</td>
+<td>Q(화용론), I(will/would)</td>
+</tr>
+<tr>
+<td>X-E <strong>구문 × 거시</strong></td>
+<td>구문은 경제 상황을 설명하는가</td>
+<td>주검정 CFNAI-MA3(lag 2) + VIX(pre-28d) 유지(D7). <strong>사전 지정 구문 8–10개</strong>(X-B·X-D에서 도출)만 본문: 시계열 겹쳐 그리기 + Spearman + HAC 회귀. 전수 스크린·FDR·artifact ledger는 부록 표 1개</td>
+<td>J(메인 질문), F(한 문장), N(코로나 두 버전)</td>
+</tr>
+<tr>
+<td>X-F will/would 비대칭</td>
+<td>왜 would be appropriate만 VIX와 공변하는가</td>
+<td>be appropriate × 조동사 × 귀속 층 × VIX; committee 층 will(편집) vs participants 층 would(심의)</td>
+<td>I</td>
+</tr>
+<tr>
+<td>X-G 선행성(부록)</td>
+<td>선행지표인가</td>
+<td>CCF·Granger·증분예측은 <strong>부록</strong>으로 이동, &quot;상태 변수이지 예측 변수는 아님&quot; 한 문단</td>
+<td>G(&quot;5부터 이해 못함&quot;)</td>
+</tr>
+</tbody>
+</table>
+<h3>3.4 Phase 12 — 비교 보고서 및 웹 배포</h3>
+<ul>
+<li><code>results/report/index.md</code> + 시나리오별 페이지: 각 블록마다 (표, 그림, 한 줄 결론, 시나리오 간 차이). 시나리오 비교 대시보드(S1/S2/S4 × T1/T2 격자).</li>
+<li>정적 HTML로 변환하여 열람 링크 제공(GitHub Pages 또는 Claude Artifact). 팀원이 draft v2의 어느 절이든 &quot;이 부분 재실험&quot; 요청을 이슈로 올리면 시나리오에 추가.</li>
+<li>보고서 첫 페이지에 <strong>한 문장 주장 후보 3개</strong>와 각 후보를 지지·반박하는 시나리오 결과를 표로.</li>
+</ul>
+<h3>3.5 Phase 13 — 논문 재구성 (교수님 결정 후)</h3>
+<p><strong>한 문장 주장 후보</strong> (Phase 12 결과로 확정)</p>
+<ul>
+<li>C1 (긍정·조건부): <em>FOMC 조동사는 실물경기가 아니라 불확실성 환경을 설명하며, 그 신호는 조동사 집계가 아니라 특정 구문(심의 관용구·전망 정형문)의 유무에만 담겨 있다.</em></li>
+<li>C2 (편집 우선): <em>성명서의 조동사 변화는 경제가 아니라 편집(정책 프레임워크 사건에 따른 정형문의 삽입·삭제)의 흔적이며, 경제 상황과의 공변은 편집되지 않은 층(의사록 참가자 심의)에서만 나타난다.</em></li>
+<li>C3 (부정·명확): <em>조동사를 세는 것만으로는 FOMC 텍스트에서 경제 상황을 읽을 수 없다. 구문으로 풀고 발화 주체를 나눈 뒤에야 불확실성과의 안정적 관계가 드러난다.</em></li>
+</ul>
+<p><strong>경제학 저널 지향 구조안 (RQ 5→3)</strong></p>
+<ol>
+<li>Introduction — 2020-09-16 문장 훅 유지, 연구질문 하나: 조동사 구문은 경제 상황을 설명하는가.</li>
+<li>Data — 4장르·층위·정제·정규화(데이터 카드 요약), 추출 정확도.</li>
+<li>Modal constructions in FOMC text (RQ1, 짧게) — 구문 인벤토리, be appropriate 눈금.</li>
+<li><strong>Edited formulaicity: the construction staircase in statements (RQ2)</strong> — Figure 4 구문판, 계단마다 원인 문장·사건, 보유율 반감기 1개.</li>
+<li><strong>Constructions and the macroeconomic environment (RQ3)</strong> — 실물 vs 불확실성, 사전 지정 구문, 코로나 포함/제외 병기, will/would 비대칭(귀속 층).</li>
+<li>Discussion — 한 문장 주장, Kawamura는 인용 2–3문장, 지표 설계 함의 1문단, 한계.</li>
+<li>Appendix — 전수 스크린·FDR·검증 ledger·선행성·시나리오 강건성.</li>
+</ol>
+<hr />
+<h2>4. Minutes 포함 명분 (교수님·팀 제출용 답변 초안)</h2>
+<p><strong>결론: 의사록은 &quot;층위 라벨을 붙여&quot; 포함하고, statement-only 결과(S1)를 항상 병기한다. 의사록만 쓰는 것(minutes-only)은 안 된다.</strong></p>
+<ol>
+<li><strong>연구질문이 요구한다.</strong> &quot;조동사가 경제 상황을 설명하는가&quot;는 회의 단위 시계열이 필요하다. 성명서는 회의당 340–840토큰, 6대 조동사 780개(12년 합계)이며, will/would/could/should는 각각 문장 1개에 묶여 있어 시계열이 아니라 계단이다. 성명서만으로는 &quot;설명한다/못 한다&quot;를 통계적으로 말할 수 없다(S1 시나리오가 이를 그대로 보여줄 것).</li>
+<li><strong>같은 회의, 같은 위원회의 문서다.</strong> 의사록은 성명서와 동일 회의의 기록(3주 후 공개)이고, 위원회 정책조치 섹션은 성명서 문장을 그대로 다시 쓴다. 즉 성명서와 <strong>연결된 통제군</strong>이며, 참가자 견해 섹션은 심의를 기록한 유일한 문서다. 기자회견은 의장 개인 발화 + 기자 질문에 대한 반응이고, 연설은 회의와 비동기라 회의 단위 지표로는 약하다.</li>
+<li><strong>의사록 없이는 안 보이는 결과가 있다.</strong> be appropriate: will은 위원회 섹션(50/58), would는 참가자 섹션(142/247). 교수님의 &quot;will은 왜 안 나오나&quot; 질문은 &quot;will = 편집된 지침, would = 살아있는 심의&quot;로 답해지며, 이것이 곧 논문의 핵심 기제(편집된 층 vs 편집되지 않은 층)다.</li>
+<li><strong>경제학 문헌의 표준이다.</strong> Hansen–McMahon–Prat(2018)는 의사록·transcript로 심의를 측정했고, Kawamura(2019)의 BoJ Monthly Report는 스태프 문서 → 의사록 staff 층이 가장 비교 가능하다. 경제학 저널 독자에게 의사록 포함은 설명이 필요 없는 선택이고, 제외가 오히려 설명이 필요하다.</li>
+<li><strong>투명성 장치.</strong> 의사록 포함이 결론을 바꾸는지 S1/S2/S3 병렬 보고로 보여준다. 결론이 S1에서도 유지되면 의사록은 &quot;보강&quot;, 바뀌면 &quot;의사록이 필요한 이유&quot; 자체가 결과가 된다.</li>
+</ol>
+<p><strong>minutes-only가 안 되는 이유:</strong> 세미나의 출발 관찰(should 소멸, will 감소, would/could 등장)은 성명서 현상이고, 계단식 편집도 성명서 고유다. 의사록만 쓰면 논문의 훅과 메인 그림(Figure 4)을 잃는다.</p>
+<hr />
+<h2>5. 코로나(2020) 처리 원칙</h2>
+<ul>
+<li>모든 거시 연계 표·그림을 <strong>T1(포함)·T2(제외) 두 열로 병기</strong>. 세 번째로 2020 더미(또는 윈저라이징) HAC 회귀를 부록에.</li>
+<li>결과가 T1에서만 유의하고 T2에서 사라지면 &quot;2020 레버리지&quot;로, T1·T2 모두 유의하면 강건으로, <strong>T1에서 2020 관측치만 극단이면 교수님 말대로 &quot;코로나 시기의 반응&quot;으로 서술</strong>(제거가 아니라 설명).</li>
+<li>Figure 4(계단)는 코로나 제외가 무의미하므로(2020-09 프레임워크 사건이 계단 자체) T1만.</li>
+</ul>
+<hr />
+<h2>6. 일정 (2026-09-04 → 추석 연휴 2026-09-24 전)</h2>
+<table>
+<thead>
+<tr>
+<th>주</th>
+<th>기간</th>
+<th>Phase</th>
+<th>마일스톤</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>9/5–9/11</td>
+<td>10</td>
+<td>원문 정제 v3, 화자 분절, 섹션 귀속, QA 리포트, 데이터 카드. 추출 v3 + 200문장 2인 코딩 배포</td>
+</tr>
+<tr>
+<td>2</td>
+<td>9/12–9/18</td>
+<td>11</td>
+<td>시나리오 러너 + X-A~X-F. 주 비교 3종 × T1/T2 산출. X-G 부록</td>
+</tr>
+<tr>
+<td>3</td>
+<td>9/19–9/23</td>
+<td>12</td>
+<td>비교 보고서 + 웹 열람. 한 문장 주장 후보 3개와 근거 격자. 팀 회의 → 시나리오·주장 선택</td>
+</tr>
+<tr>
+<td>4+</td>
+<td>추석 이후</td>
+<td>13</td>
+<td>선택된 시나리오로 논문 v3(경제학 저널 구조). 문헌 보강(§8)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>7. 교수님·팀 확인 필요 결정</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>결정</th>
+<th>제안</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D8</td>
+<td>의사록 포함</td>
+<td>층위 라벨 포함 + S1 병기</td>
+<td>§4</td>
+</tr>
+<tr>
+<td>D9</td>
+<td>코로나</td>
+<td>두 버전 병기, 튀는 곳만 코로나로 서술</td>
+<td>§5, 발언 N</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>주 코퍼스 정의</td>
+<td>S4(기자 제거·귀속 라벨)를 기본, S1·S2를 비교</td>
+<td>§3.3</td>
+</tr>
+<tr>
+<td>D11</td>
+<td>RQ 재편</td>
+<td>5 → 3 (인벤토리 / 구문 계단 / 구문 × 거시), 선행성은 부록</td>
+<td>발언 G·J</td>
+</tr>
+<tr>
+<td>D12</td>
+<td>타깃</td>
+<td>경제학 저널(JEDC·JME·JIMF 등, JEL E58) → 언어학 통계 압축</td>
+<td>발언 R</td>
+</tr>
+<tr>
+<td>D13</td>
+<td>ECB 비교</td>
+<td>fallback으로만 준비, 본 라운드 미실행</td>
+<td>발언 O</td>
+</tr>
+<tr>
+<td>D14</td>
+<td>화용론 축(will/would vs can/could)</td>
+<td>X-D 대조표를 준비해 두고 교수님 문헌 검토 후 포함 결정</td>
+<td>발언 Q</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>8. 문헌 추가 과제</h2>
+<table>
+<thead>
+<tr>
+<th>주제</th>
+<th>후보</th>
+<th>용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>be appropriate</em> 구문 (발언 H)</td>
+<td>Van linden (2012) <em>Modal Adjectives: English Deontic and Evaluative Constructions in Synchrony and Diachrony</em>; Van linden &amp; Verstraete (2008) &quot;The nature and origins of counterfactuality in simple clauses&quot;; Femia, Friedman &amp; Sack (2013) &quot;The effects of policy guidance on perceptions of the Fed's reaction function&quot;; Campbell et al. (2012) 이미 보유</td>
+<td>&quot;it is/would be appropriate to&quot; = 의무·평가 형용사 구문의 지위, 연준 forward guidance에서 &quot;appropriate&quot;의 역사</td>
+</tr>
+<tr>
+<td>will/would vs can/could 화용론 (발언 Q)</td>
+<td>Coates (1983); Palmer (1990); Collins (2009) <em>Modals and Quasi-modals in English</em>; Ward, Birner &amp; Kaplan (2003) &quot;A pragmatic analysis of the epistemic would construction&quot;; Gresset (2003) might/could; Depraetere &amp; Reed (2006) 보유</td>
+<td>X-D 대조표 해석</td>
+</tr>
+<tr>
+<td>의사록 층위·심의</td>
+<td>Hansen, McMahon &amp; Prat (2018) 보유; Meade &amp; Stasavage (2008) &quot;Publicity of debate and the incentive to dissent&quot;</td>
+<td>§4 명분 4</td>
+</tr>
+<tr>
+<td>성명서 편집</td>
+<td>Acosta &amp; Meade (2015) 보유; Ehrmann &amp; Talmi (2020) 보유</td>
+<td>X-B·X-C</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>부록 A. 회의록에서 확인된 기타 사실</h2>
+<ul>
+<li>참석자 3이 &quot;Claude가 제시한 3개 시나리오&quot;(의사록 처리 3안)를 언급했고 팀은 <strong>3안 모두 실행</strong>하기로 함(07:09). 본 문서의 S1/S2·S3/S4가 그에 대응.</li>
+<li>참석자 2의 정리(10:19–13:19): ① 구문 매칭으로 역할 설명(약하지만 가능) ② be appropriate가 will/would/may에 따라 갈리므로 <strong>구문으로 봐야 한다는 가장 큰 근거</strong> ③ 장르 계단식 단절은 특정 문장의 등장이 만든 노이즈 ④ would be appropriate가 불확실성 지표(VIX)와 잘 맞음 = &quot;경제 활동·사건이 아니라 불확실성과 연계&quot;.</li>
+<li>KCI 투고 논문은 심사 중(9/1 3번째 심사위원 배정). 게재비·공동 제1저자 논의 있었음(본 프로젝트와 무관).</li>
+<li>참석자 3: 이번 산출은 논문 문체 신경 쓰지 말고 실험 보고서로. 추석까지 1주 여러 번 반복.</li>
+</ul>
+</div></body></html>

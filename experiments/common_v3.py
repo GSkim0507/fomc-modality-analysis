@@ -51,7 +51,9 @@ SCENARIOS = {
                note="비교용: 기자 발화·규정문·인용 성명서를 제거하지 않은 v2 방식."),
 }
 UNITS = {"U1": "modal", "U2": "modal + predicate", "U3": "modal + verb class"}
-PERIODS = {"T1": ("2014-01-01", "2026-12-31", False), "T2": ("2014-01-01", "2026-12-31", True), "T3": ("2010-01-01", "2026-12-31", False)}
+PERIODS = {"T1": ("2014-01-01", "2026-12-31", False), "T2": ("2014-01-01", "2026-12-31", True), "T3": ("2010-01-01", "2026-12-31", False),
+           "H1": ("2014-01-01", "2019-12-31", False), "H2": ("2021-01-01", "2026-12-31", False)}   # halves: sign-consistency check
+MAIN_PERIODS = ("T1", "T2", "T3")
 NORMS = {"N1": "per 1,000 tokens", "N2": "share of six modals", "N3": "count per document"}
 
 # genre of a layer (for pooled per-document series)

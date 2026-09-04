@@ -1,0 +1,2121 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>시나리오 S1_U3</title><style>
+:root{--bg:#F2F4F6;--surface:#fff;--ink:#1A222C;--muted:#5A6572;--line:#D6DCE3;--accent:#24507A;--warn:#A8501F;--ok:#2C6E5C;--tint:#E6EEF6;
+--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--display:"Noto Serif KR","Apple Myungjo",Georgia,serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A}}
+:root[data-theme="dark"]{--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65}
+.page{max-width:1080px;margin:0 auto;padding:32px 22px 80px}
+nav.top{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--mono);font-size:12.5px;padding-bottom:14px;border-bottom:2px solid var(--ink);margin-bottom:22px}
+nav.top a{color:var(--accent);text-decoration:none}nav.top a:hover{text-decoration:underline}
+h1{font-family:var(--display);font-size:28px;line-height:1.25;margin:0 0 8px;text-wrap:balance}
+h2{font-family:var(--display);font-size:21px;margin:36px 0 10px;padding-top:14px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:22px 0 8px}p{max-width:78ch}.lede{color:var(--muted);font-size:16px;max-width:70ch}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5;background:var(--surface)}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{background:var(--tint);font-weight:600;white-space:nowrap}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:6px;margin:12px 0 20px}
+td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0 24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.card .k{font-family:var(--mono);font-size:12px;color:var(--accent)}.card .t{font-weight:600;margin:4px 0 6px}.card .d{font-size:13px;color:var(--muted);margin:0}
+.card a{color:var(--accent)}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-family:var(--mono);font-size:11.5px;background:var(--tint);margin-right:4px}
+.pill.ok{background:var(--ok);color:#fff}.pill.warn{background:var(--warn);color:#fff}
+figure{margin:16px 0 22px}figure img{max-width:100%;border:1px solid var(--line);border-radius:4px;background:#fff}figcaption{font-size:12.5px;color:var(--muted);margin-top:4px}
+details{margin:10px 0}summary{cursor:pointer;font-weight:600}
+code{font-family:var(--mono);font-size:.9em;background:var(--tint);padding:1px 4px;border-radius:3px}
+blockquote{border-left:3px solid var(--accent);margin:12px 0;padding:6px 14px;background:var(--surface)}
+.small{font-size:12.5px;color:var(--muted)}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+</style></head><body><div class='page'><nav class="top"><a href="index.html">개요·시나리오 격자</a><a href="claims.html">주장 후보 C1–C3</a><a href="plan.html">전략(docs/08)</a><a href="macro.html">CFNAI·VIX 근거(docs/10)</a><a href="data_card.html">데이터 카드(docs/09)</a><a href="qa.html">QA 리포트</a></nav><div class='eyebrow'>scenario S1_U3</div><h1>S1 statement only × U3 modal + verb class</h1><p class='lede'>세미나 원안. 의사록 제외.</p>
+<blockquote>
+<p>세미나 원안. 의사록 제외.</p>
+</blockquote>
+<h2>코퍼스 (T1 2014–2026)</h2>
+<table>
+<thead>
+<tr>
+<th>층위</th>
+<th style="text-align:right">문서</th>
+<th style="text-align:right">토큰</th>
+<th style="text-align:right">6대 조동사</th>
+<th style="text-align:right">per 1k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Statement</td>
+<td style="text-align:right">101</td>
+<td style="text-align:right">41,906</td>
+<td style="text-align:right">770</td>
+<td style="text-align:right">18.37</td>
+</tr>
+</tbody>
+</table>
+<h2>X-A 구문 인벤토리</h2>
+<ul>
+<li>주 층위 Statement: 조동사별 1위 단위 will→will/activity (22%), would→would/copular_adj (94%), could→could/causative (100%), can→can/copular_adj (50%), should→should/activity (64%), may→may/causative (59%); 조동사 간 JSD 1.00–1.00</li>
+</ul>
+<h2>X-B 구문 계단 (성명서)</h2>
+<ul>
+<li>회의 101회, 상위 단위 12개에서 PELT 변화점 26개, 그중 정책 사건 ±1회의 이내 17개.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>단위</th>
+<th>변화점</th>
+<th>전→후 점유율</th>
+<th>최근접 사건</th>
+<th>원인 문장</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>will/activity</td>
+<td>2018-06-13</td>
+<td>0.12→0.29</td>
+<td>Powell chair (128d)</td>
+<td>This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation p</td>
+</tr>
+<tr>
+<td>will/activity</td>
+<td>2020-03-23</td>
+<td>0.46→0.15</td>
+<td>Pandemic ZLB (8d)</td>
+<td>In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information f</td>
+</tr>
+<tr>
+<td>will/aspectual</td>
+<td>2019-07-31</td>
+<td>0.03→0.26</td>
+<td>Mid-cycle cut (0d)</td>
+<td>As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications o</td>
+</tr>
+<tr>
+<td>will/mental</td>
+<td>2015-12-16</td>
+<td>0.12→0.22</td>
+<td>First hike (liftoff) (0d)</td>
+<td>In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized</td>
+</tr>
+<tr>
+<td>will/mental</td>
+<td>2020-09-16</td>
+<td>0.20→0.00</td>
+<td>New framework (20d)</td>
+<td>In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized</td>
+</tr>
+<tr>
+<td>will/mental</td>
+<td>2024-01-31</td>
+<td>0.03→0.15</td>
+<td>Last hike (189d)</td>
+<td>In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolvi</td>
+</tr>
+<tr>
+<td>will/policy_action</td>
+<td>2018-06-13</td>
+<td>0.13→0.00</td>
+<td>Powell chair (128d)</td>
+<td>The Committee continues to expect that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a modera</td>
+</tr>
+<tr>
+<td>will/copular_adj</td>
+<td>2015-12-16</td>
+<td>0.12→0.00</td>
+<td>First hike (liftoff) (0d)</td>
+<td>The Committee sees this guidance as consistent with its previous statement that it likely will be appropriate to maintain the 0 to 1/4 perce</td>
+</tr>
+<tr>
+<td>will/copular_adj</td>
+<td>2018-06-13</td>
+<td>0.00→0.29</td>
+<td>Powell chair (128d)</td>
+<td>The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expans</td>
+</tr>
+<tr>
+<td>will/copular_adj</td>
+<td>2019-06-19</td>
+<td>0.29→0.00</td>
+<td>Mid-cycle cut (42d)</td>
+<td>The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expans</td>
+</tr>
+<tr>
+<td>will/copular_adj</td>
+<td>2020-09-16</td>
+<td>0.00→0.12</td>
+<td>New framework (20d)</td>
+<td>The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain</td>
+</tr>
+<tr>
+<td>will/copular_adj</td>
+<td>2023-03-22</td>
+<td>0.17→0.02</td>
+<td>Last hike (126d)</td>
+<td>In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent and anticipates</td>
+</tr>
+<tr>
+<td>could/causative</td>
+<td>2020-09-16</td>
+<td>0.00→0.12</td>
+<td>New framework (20d)</td>
+<td>The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of t</td>
+</tr>
+<tr>
+<td>will/occurrence</td>
+<td>2015-12-16</td>
+<td>0.00→0.12</td>
+<td>First hike (liftoff) (0d)</td>
+<td>The Committee judges that there has been considerable improvement in labor market conditions this year, and it is reasonably confident that</td>
+</tr>
+<tr>
+<td>will/occurrence</td>
+<td>2018-06-13</td>
+<td>0.18→0.00</td>
+<td>Powell chair (128d)</td>
+<td>The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate; the fe</td>
+</tr>
+<tr>
+<td>would/copular_adj</td>
+<td>2020-09-16</td>
+<td>0.00→0.12</td>
+<td>New framework (20d)</td>
+<td>The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of t</td>
+</tr>
+<tr>
+<td>will/causative</td>
+<td>2015-12-16</td>
+<td>0.00→0.17</td>
+<td>First hike (liftoff) (0d)</td>
+<td>The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate; t</td>
+</tr>
+<tr>
+<td>will/causative</td>
+<td>2018-06-13</td>
+<td>0.20→0.00</td>
+<td>Powell chair (128d)</td>
+<td>The Committee continues to expect that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a modera</td>
+</tr>
+<tr>
+<td>will/existence</td>
+<td>2015-12-16</td>
+<td>0.00→0.11</td>
+<td>First hike (liftoff) (0d)</td>
+<td>However, the actual path of the federal funds rate will depend on the economic outlook as informed by incoming data.</td>
+</tr>
+<tr>
+<td>will/existence</td>
+<td>2018-06-13</td>
+<td>0.12→0.00</td>
+<td>Powell chair (128d)</td>
+<td>However, the actual path of the federal funds rate will depend on the economic outlook as informed by incoming data.</td>
+</tr>
+<tr>
+<td>will/existence</td>
+<td>2020-07-29</td>
+<td>0.02→0.12</td>
+<td>New framework (29d)</td>
+<td>The path of the economy will depend significantly on the course of the virus.</td>
+</tr>
+<tr>
+<td>will/existence</td>
+<td>2021-07-28</td>
+<td>0.12→0.00</td>
+<td>Hiking cycle begins (231d)</td>
+<td>The path of the economy will depend significantly on the course of the virus.</td>
+</tr>
+<tr>
+<td>should/activity</td>
+<td>2014-10-29</td>
+<td>0.00→0.12</td>
+<td>QE3 ends (0d)</td>
+<td>This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial c</td>
+</tr>
+<tr>
+<td>should/activity</td>
+<td>2017-06-14</td>
+<td>0.11→0.00</td>
+<td>Normalization addendum (0d)</td>
+<td>This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial c</td>
+</tr>
+<tr>
+<td>may/causative</td>
+<td>2014-10-29</td>
+<td>0.05→0.14</td>
+<td>QE3 ends (0d)</td>
+<td>The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, f</td>
+</tr>
+<tr>
+<td>may/causative</td>
+<td>2015-12-16</td>
+<td>0.14→0.00</td>
+<td>First hike (liftoff) (0d)</td>
+<td>The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, f</td>
+</tr>
+</tbody>
+</table>
+<h2>X-C 지속성</h2>
+<ul>
+<li>보유율 반감기(회의 수): all=≥24, will=≥24, would=≥24, could=≥24, can=1.0, should=7.5, may=4.0, modal_sentences=4.5</li>
+</ul>
+<h2>X-E 구문 × 거시</h2>
+<ul>
+<li>Kawamura 검정(총 조동사 밀도 × CFNAI, Spearman): statement T1 ρ=-0.124 (p=0.2158); statement T2 ρ=-0.178 (p=0.0909); statement T3 ρ=-0.096 (p=0.2697)</li>
+<li>반기별 유의(총 밀도): statement × vix H1 ρ=-0.405 (p=0.0043); statement × cfnai H2 ρ=-0.518 (p=0.0004); statement × vix H2 ρ=-0.472 (p=0.0014)</li>
+<li>총 조동사 밀도 × VIX: statement T1 ρ=0.061 (p=0.5425); statement T2 ρ=0.045 (p=0.6729); statement T3 ρ=-0.116 (p=0.185)</li>
+<li>전수 스크린 260행(층위 수준 집계): T1 BH q&lt;.05 적중 20; <strong>확정</strong>(T1·T2 유의·동부호 + 2014–19/2021–26 반기 동부호) VIX 1건 / CFNAI 1건; T1에서만 유의(2020 의존) 8건; T1·T2 유의하나 반기 부호 불일치(시대 구성 효과) 7건</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>층위</th>
+<th>단위</th>
+<th>거시</th>
+<th style="text-align:right">ρ T1</th>
+<th style="text-align:right">ρ excl-2020</th>
+<th style="text-align:right">ρ 2010–</th>
+<th style="text-align:right">ρ 2014–19</th>
+<th style="text-align:right">ρ 2021–26</th>
+<th style="text-align:right">토큰</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>statement</td>
+<td>will/mental</td>
+<td>vix</td>
+<td style="text-align:right">-0.368</td>
+<td style="text-align:right">-0.419</td>
+<td style="text-align:right">-0.409</td>
+<td style="text-align:right">-0.353</td>
+<td style="text-align:right">-0.257</td>
+<td style="text-align:right">105</td>
+</tr>
+<tr>
+<td>statement</td>
+<td>will/copular_adj</td>
+<td>cfnai</td>
+<td style="text-align:right">0.393</td>
+<td style="text-align:right">0.338</td>
+<td style="text-align:right">0.353</td>
+<td style="text-align:right">0.19</td>
+<td style="text-align:right">0.386</td>
+<td style="text-align:right">51</td>
+</tr>
+</tbody>
+</table>
+<h2>X-F will/would + be appropriate</h2>
+<table>
+<thead>
+<tr>
+<th>층위</th>
+<th>단위</th>
+<th style="text-align:right">토큰</th>
+<th style="text-align:right">ρ VIX T1</th>
+<th style="text-align:right">ρ VIX excl-2020</th>
+<th style="text-align:right">ρ CFNAI T1</th>
+<th style="text-align:right">제로 비율 T1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>statement</td>
+<td>may+be+appropriate</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">-0.077 (p=0.4419)</td>
+<td style="text-align:right">-0.037 (p=0.7308)</td>
+<td style="text-align:right">-0.216</td>
+<td style="text-align:right">0.9</td>
+</tr>
+<tr>
+<td>statement</td>
+<td>will+be+appropriate</td>
+<td style="text-align:right">43</td>
+<td style="text-align:right">0.235 (p=0.018)</td>
+<td style="text-align:right">0.287 (p=0.0058)</td>
+<td style="text-align:right">0.364</td>
+<td style="text-align:right">0.61</td>
+</tr>
+</tbody>
+</table>
+<h2>X-G 선행성 (부록)</h2>
+<ul>
+<li>excl-2020 CCF 피크(Pearson·Spearman 동시 유의) 13건; Granger text→macro q&lt;.10 0건</li>
+</ul>
+
+<h2>그림</h2>
+<figure><img src='../scenarios/S1_U3/figures/A_top_units.png' alt='X-A 조동사별 상위 단위(주 층위)'><figcaption>X-A 조동사별 상위 단위(주 층위)</figcaption></figure>
+<figure><img src='../scenarios/S1_U3/figures/B_staircase_T1.png' alt='X-B 성명서 구문 계단, 2014–2026'><figcaption>X-B 성명서 구문 계단, 2014–2026</figcaption></figure>
+<figure><img src='../scenarios/S1_U3/figures/B_staircase_T3.png' alt='X-B 성명서 구문 계단, 2010–2026'><figcaption>X-B 성명서 구문 계단, 2010–2026</figcaption></figure>
+<figure><img src='../scenarios/S1_U3/figures/C_retention_edits.png' alt='X-C 보유율·편집 이벤트'><figcaption>X-C 보유율·편집 이벤트</figcaption></figure>
+
+<figure><img src='../scenarios/S1_U3/figures/E_modal_heatmap.png' alt='X-E 조동사 밀도 × CFNAI/VIX (T1 vs 2020 제외)'><figcaption>X-E 조동사 밀도 × CFNAI/VIX (T1 vs 2020 제외)</figcaption></figure>
+<figure><img src='../scenarios/S1_U3/figures/E_vix_overlay.png' alt='X-E 확정 VIX 상관 구문의 시계열'><figcaption>X-E 확정 VIX 상관 구문의 시계열</figcaption></figure>
+<figure><img src='../scenarios/S1_U3/figures/F_be_appropriate.png' alt='X-F be appropriate × 조동사 × 층위'><figcaption>X-F be appropriate × 조동사 × 층위</figcaption></figure>
+<h2>표 (발췌)</h2>
+<h3>corpus.csv — 층위별 코퍼스 (T1/T2/T3)</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>period</th>
+      <th>layer</th>
+      <th>label</th>
+      <th>n_docs</th>
+      <th>tokens</th>
+      <th>six_modal_tokens</th>
+      <th>per_1k</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T1</td>
+      <td>statement</td>
+      <td>Statement</td>
+      <td>101</td>
+      <td>41906</td>
+      <td>770</td>
+      <td>18.37</td>
+    </tr>
+    <tr>
+      <td>T2</td>
+      <td>statement</td>
+      <td>Statement</td>
+      <td>91</td>
+      <td>37819</td>
+      <td>697</td>
+      <td>18.43</td>
+    </tr>
+    <tr>
+      <td>T3</td>
+      <td>statement</td>
+      <td>Statement</td>
+      <td>133</td>
+      <td>57065</td>
+      <td>1007</td>
+      <td>17.65</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>B2 변화점과 원인 문장 (T1)</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>unit</th>
+      <th>break_date</th>
+      <th>share_before</th>
+      <th>share_after</th>
+      <th>direction</th>
+      <th>nearest_event</th>
+      <th>days_to_event</th>
+      <th>sentence_after</th>
+      <th>sentence_before</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>will/activity</td>
+      <td>2018-06-13</td>
+      <td>0.117</td>
+      <td>0.292</td>
+      <td>up</td>
+      <td>Powell chair</td>
+      <td>128</td>
+      <td>This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/activity</td>
+      <td>2020-03-23</td>
+      <td>0.462</td>
+      <td>0.148</td>
+      <td>down</td>
+      <td>Pandemic ZLB</td>
+      <td>8</td>
+      <td></td>
+      <td>In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, wi</td>
+    </tr>
+    <tr>
+      <td>will/aspectual</td>
+      <td>2019-07-31</td>
+      <td>0.031</td>
+      <td>0.260</td>
+      <td>up</td>
+      <td>Mid-cycle cut</td>
+      <td>0</td>
+      <td>As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook and will act as appropriate to s</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/mental</td>
+      <td>2015-12-16</td>
+      <td>0.124</td>
+      <td>0.219</td>
+      <td>up</td>
+      <td>First hike (liftoff)</td>
+      <td>0</td>
+      <td>In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its objectives of maximum employmen</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/mental</td>
+      <td>2020-09-16</td>
+      <td>0.204</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>New framework</td>
+      <td>20</td>
+      <td></td>
+      <td>In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective an</td>
+    </tr>
+    <tr>
+      <td>will/mental</td>
+      <td>2024-01-31</td>
+      <td>0.031</td>
+      <td>0.146</td>
+      <td>up</td>
+      <td>Last hike</td>
+      <td>189</td>
+      <td>In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/policy_action</td>
+      <td>2018-06-13</td>
+      <td>0.129</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>Powell chair</td>
+      <td>128</td>
+      <td></td>
+      <td>The Committee continues to expect that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further.</td>
+    </tr>
+    <tr>
+      <td>will/copular_adj</td>
+      <td>2015-12-16</td>
+      <td>0.120</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>First hike (liftoff)</td>
+      <td>0</td>
+      <td></td>
+      <td>The Committee sees this guidance as consistent with its previous statement that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the</td>
+    </tr>
+    <tr>
+      <td>will/copular_adj</td>
+      <td>2018-06-13</td>
+      <td>0.000</td>
+      <td>0.292</td>
+      <td>up</td>
+      <td>Powell chair</td>
+      <td>128</td>
+      <td>The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/copular_adj</td>
+      <td>2019-06-19</td>
+      <td>0.292</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>Mid-cycle cut</td>
+      <td>42</td>
+      <td></td>
+      <td>The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the</td>
+    </tr>
+    <tr>
+      <td>will/copular_adj</td>
+      <td>2020-09-16</td>
+      <td>0.000</td>
+      <td>0.116</td>
+      <td>up</td>
+      <td>New framework</td>
+      <td>20</td>
+      <td>The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/copular_adj</td>
+      <td>2023-03-22</td>
+      <td>0.166</td>
+      <td>0.018</td>
+      <td>down</td>
+      <td>Last hike</td>
+      <td>126</td>
+      <td></td>
+      <td>In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent and anticipates that ongoing increases in the target range will be appropriate.</td>
+    </tr>
+    <tr>
+      <td>could/causative</td>
+      <td>2020-09-16</td>
+      <td>0.000</td>
+      <td>0.116</td>
+      <td>up</td>
+      <td>New framework</td>
+      <td>20</td>
+      <td>The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/occurrence</td>
+      <td>2015-12-16</td>
+      <td>0.000</td>
+      <td>0.122</td>
+      <td>up</td>
+      <td>First hike (liftoff)</td>
+      <td>0</td>
+      <td>The Committee judges that there has been considerable improvement in labor market conditions this year, and it is reasonably confident that inflation will rise, over the medium term, to its 2 percent objective.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/occurrence</td>
+      <td>2018-06-13</td>
+      <td>0.180</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>Powell chair</td>
+      <td>128</td>
+      <td></td>
+      <td>The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expec</td>
+    </tr>
+    <tr>
+      <td>would/copular_adj</td>
+      <td>2020-09-16</td>
+      <td>0.000</td>
+      <td>0.116</td>
+      <td>up</td>
+      <td>New framework</td>
+      <td>20</td>
+      <td>The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/causative</td>
+      <td>2015-12-16</td>
+      <td>0.000</td>
+      <td>0.165</td>
+      <td>up</td>
+      <td>First hike (liftoff)</td>
+      <td>0</td>
+      <td>The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/causative</td>
+      <td>2018-06-13</td>
+      <td>0.195</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>Powell chair</td>
+      <td>128</td>
+      <td></td>
+      <td>The Committee continues to expect that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further.</td>
+    </tr>
+    <tr>
+      <td>will/existence</td>
+      <td>2015-12-16</td>
+      <td>0.000</td>
+      <td>0.110</td>
+      <td>up</td>
+      <td>First hike (liftoff)</td>
+      <td>0</td>
+      <td>However, the actual path of the federal funds rate will depend on the economic outlook as informed by incoming data.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/existence</td>
+      <td>2018-06-13</td>
+      <td>0.117</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>Powell chair</td>
+      <td>128</td>
+      <td></td>
+      <td>However, the actual path of the federal funds rate will depend on the economic outlook as informed by incoming data.</td>
+    </tr>
+    <tr>
+      <td>will/existence</td>
+      <td>2020-07-29</td>
+      <td>0.018</td>
+      <td>0.116</td>
+      <td>up</td>
+      <td>New framework</td>
+      <td>29</td>
+      <td>The path of the economy will depend significantly on the course of the virus.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>will/existence</td>
+      <td>2021-07-28</td>
+      <td>0.116</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>Hiking cycle begins</td>
+      <td>231</td>
+      <td></td>
+      <td>The path of the economy will depend significantly on the course of the virus.</td>
+    </tr>
+    <tr>
+      <td>should/activity</td>
+      <td>2014-10-29</td>
+      <td>0.000</td>
+      <td>0.125</td>
+      <td>up</td>
+      <td>QE3 ends</td>
+      <td>0</td>
+      <td>This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>should/activity</td>
+      <td>2017-06-14</td>
+      <td>0.107</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>Normalization addendum</td>
+      <td>0</td>
+      <td></td>
+      <td>This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.</td>
+    </tr>
+    <tr>
+      <td>may/causative</td>
+      <td>2014-10-29</td>
+      <td>0.053</td>
+      <td>0.139</td>
+      <td>up</td>
+      <td>QE3 ends</td>
+      <td>0</td>
+      <td>The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Com</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>may/causative</td>
+      <td>2015-12-16</td>
+      <td>0.138</td>
+      <td>0.000</td>
+      <td>down</td>
+      <td>First hike (liftoff)</td>
+      <td>0</td>
+      <td></td>
+      <td>The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Com</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>D1 층위 × 조동사 (수, per 1k)</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>will_n</th>
+      <th>would_n</th>
+      <th>could_n</th>
+      <th>can_n</th>
+      <th>should_n</th>
+      <th>may_n</th>
+      <th>will_per1k</th>
+      <th>would_per1k</th>
+      <th>could_per1k</th>
+      <th>can_per1k</th>
+      <th>should_per1k</th>
+      <th>may_per1k</th>
+      <th>tokens</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>statement</td>
+      <td>607</td>
+      <td>49</td>
+      <td>50</td>
+      <td>4</td>
+      <td>33</td>
+      <td>27</td>
+      <td>14.48</td>
+      <td>1.17</td>
+      <td>1.19</td>
+      <td>0.1</td>
+      <td>0.79</td>
+      <td>0.64</td>
+      <td>41906</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>D4 화용 대조 will/would/can/could (비율)</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>modal</th>
+      <th>n</th>
+      <th>neg</th>
+      <th>question</th>
+      <th>cond</th>
+      <th>reported</th>
+      <th>contracted</th>
+      <th>subj_we_I</th>
+      <th>subj_person</th>
+      <th>subj_committee_fed</th>
+      <th>subj_econ</th>
+      <th>passive</th>
+      <th>perfect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>statement</td>
+      <td>could</td>
+      <td>50</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.920</td>
+      <td>0.080</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>0.080</td>
+      <td>0.000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will</td>
+      <td>607</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.041</td>
+      <td>0.234</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.463</td>
+      <td>0.227</td>
+      <td>0.002</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>would</td>
+      <td>49</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.939</td>
+      <td>0.041</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.939</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>E3 Kawamura 검정: 총 조동사 밀도 × CFNAI/VIX</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>level</th>
+      <th>key</th>
+      <th>period</th>
+      <th>macro</th>
+      <th>n</th>
+      <th>r</th>
+      <th>p_r</th>
+      <th>rho</th>
+      <th>p_rho</th>
+      <th>q_rho</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>101</td>
+      <td>-0.057</td>
+      <td>0.569</td>
+      <td>-0.124</td>
+      <td>0.216</td>
+      <td>0.905</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>101</td>
+      <td>0.009</td>
+      <td>0.932</td>
+      <td>0.061</td>
+      <td>0.542</td>
+      <td>0.542</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>91</td>
+      <td>-0.136</td>
+      <td>0.200</td>
+      <td>-0.178</td>
+      <td>0.091</td>
+      <td>0.282</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>91</td>
+      <td>0.070</td>
+      <td>0.510</td>
+      <td>0.045</td>
+      <td>0.673</td>
+      <td>0.673</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>T3</td>
+      <td>cfnai</td>
+      <td>133</td>
+      <td>-0.056</td>
+      <td>0.526</td>
+      <td>-0.096</td>
+      <td>0.270</td>
+      <td>0.910</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>T3</td>
+      <td>vix</td>
+      <td>133</td>
+      <td>-0.117</td>
+      <td>0.178</td>
+      <td>-0.116</td>
+      <td>0.185</td>
+      <td>0.185</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>H1</td>
+      <td>cfnai</td>
+      <td>48</td>
+      <td>0.157</td>
+      <td>0.285</td>
+      <td>0.175</td>
+      <td>0.235</td>
+      <td>0.562</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>H1</td>
+      <td>vix</td>
+      <td>48</td>
+      <td>-0.282</td>
+      <td>0.053</td>
+      <td>-0.405</td>
+      <td>0.004</td>
+      <td>0.011</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>H2</td>
+      <td>cfnai</td>
+      <td>43</td>
+      <td>-0.505</td>
+      <td>0.000</td>
+      <td>-0.518</td>
+      <td>0.000</td>
+      <td>0.002</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>H2</td>
+      <td>vix</td>
+      <td>43</td>
+      <td>-0.421</td>
+      <td>0.005</td>
+      <td>-0.472</td>
+      <td>0.001</td>
+      <td>0.006</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>101</td>
+      <td>-0.057</td>
+      <td>0.569</td>
+      <td>-0.124</td>
+      <td>0.216</td>
+      <td>0.905</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>101</td>
+      <td>0.009</td>
+      <td>0.932</td>
+      <td>0.061</td>
+      <td>0.542</td>
+      <td>0.542</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>91</td>
+      <td>-0.136</td>
+      <td>0.200</td>
+      <td>-0.178</td>
+      <td>0.091</td>
+      <td>0.282</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>91</td>
+      <td>0.070</td>
+      <td>0.510</td>
+      <td>0.045</td>
+      <td>0.673</td>
+      <td>0.673</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>T3</td>
+      <td>cfnai</td>
+      <td>133</td>
+      <td>-0.056</td>
+      <td>0.526</td>
+      <td>-0.096</td>
+      <td>0.270</td>
+      <td>0.910</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>T3</td>
+      <td>vix</td>
+      <td>133</td>
+      <td>-0.117</td>
+      <td>0.178</td>
+      <td>-0.116</td>
+      <td>0.185</td>
+      <td>0.185</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>H1</td>
+      <td>cfnai</td>
+      <td>48</td>
+      <td>0.157</td>
+      <td>0.285</td>
+      <td>0.175</td>
+      <td>0.235</td>
+      <td>0.562</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>H1</td>
+      <td>vix</td>
+      <td>48</td>
+      <td>-0.282</td>
+      <td>0.053</td>
+      <td>-0.405</td>
+      <td>0.004</td>
+      <td>0.011</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>H2</td>
+      <td>cfnai</td>
+      <td>43</td>
+      <td>-0.505</td>
+      <td>0.000</td>
+      <td>-0.518</td>
+      <td>0.000</td>
+      <td>0.002</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>H2</td>
+      <td>vix</td>
+      <td>43</td>
+      <td>-0.421</td>
+      <td>0.005</td>
+      <td>-0.472</td>
+      <td>0.001</td>
+      <td>0.006</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>E2 확정/2020-의존 단위 (|ρ excl-2020| 순)</h3>
+<div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>level</th>
+      <th>key</th>
+      <th>unit</th>
+      <th>macro</th>
+      <th>rho_T1</th>
+      <th>p_T1</th>
+      <th>rho_T2</th>
+      <th>p_T2</th>
+      <th>rho_T3</th>
+      <th>rho_H1</th>
+      <th>rho_H2</th>
+      <th>n_tokens_T1</th>
+      <th>zero_share_T1</th>
+      <th>T1_only</th>
+      <th>era_composition</th>
+      <th>confirmed</th>
+      <th>unit_level</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>vix</td>
+      <td>-0.368</td>
+      <td>0.0002</td>
+      <td>-0.419</td>
+      <td>0.0000</td>
+      <td>-0.409</td>
+      <td>-0.353</td>
+      <td>-0.257</td>
+      <td>105</td>
+      <td>0.257</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>vix</td>
+      <td>-0.368</td>
+      <td>0.0002</td>
+      <td>-0.419</td>
+      <td>0.0000</td>
+      <td>-0.409</td>
+      <td>-0.353</td>
+      <td>-0.257</td>
+      <td>105</td>
+      <td>0.257</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>will/copular_adj</td>
+      <td>cfnai</td>
+      <td>0.393</td>
+      <td>0.0000</td>
+      <td>0.338</td>
+      <td>0.0011</td>
+      <td>0.353</td>
+      <td>0.190</td>
+      <td>0.386</td>
+      <td>51</td>
+      <td>0.535</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>will/copular_adj</td>
+      <td>cfnai</td>
+      <td>0.393</td>
+      <td>0.0000</td>
+      <td>0.338</td>
+      <td>0.0011</td>
+      <td>0.353</td>
+      <td>0.190</td>
+      <td>0.386</td>
+      <td>51</td>
+      <td>0.535</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>would/copular_adj</td>
+      <td>vix</td>
+      <td>0.359</td>
+      <td>0.0002</td>
+      <td>0.474</td>
+      <td>0.0000</td>
+      <td>0.247</td>
+      <td></td>
+      <td>-0.012</td>
+      <td>46</td>
+      <td>0.545</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>would/copular_adj</td>
+      <td>vix</td>
+      <td>0.359</td>
+      <td>0.0002</td>
+      <td>0.474</td>
+      <td>0.0000</td>
+      <td>0.247</td>
+      <td></td>
+      <td>-0.012</td>
+      <td>46</td>
+      <td>0.545</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>would</td>
+      <td>vix</td>
+      <td>0.338</td>
+      <td>0.0005</td>
+      <td>0.455</td>
+      <td>0.0000</td>
+      <td>0.221</td>
+      <td>-0.216</td>
+      <td>-0.048</td>
+      <td>49</td>
+      <td>0.535</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>modal</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>would</td>
+      <td>vix</td>
+      <td>0.338</td>
+      <td>0.0005</td>
+      <td>0.455</td>
+      <td>0.0000</td>
+      <td>0.221</td>
+      <td>-0.216</td>
+      <td>-0.048</td>
+      <td>49</td>
+      <td>0.535</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>modal</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>could</td>
+      <td>vix</td>
+      <td>0.332</td>
+      <td>0.0007</td>
+      <td>0.451</td>
+      <td>0.0000</td>
+      <td>0.182</td>
+      <td>-0.083</td>
+      <td>-0.012</td>
+      <td>50</td>
+      <td>0.505</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>modal</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>could</td>
+      <td>vix</td>
+      <td>0.332</td>
+      <td>0.0007</td>
+      <td>0.451</td>
+      <td>0.0000</td>
+      <td>0.182</td>
+      <td>-0.083</td>
+      <td>-0.012</td>
+      <td>50</td>
+      <td>0.505</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>modal</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>could/causative</td>
+      <td>vix</td>
+      <td>0.332</td>
+      <td>0.0007</td>
+      <td>0.451</td>
+      <td>0.0000</td>
+      <td>0.185</td>
+      <td>-0.083</td>
+      <td>-0.012</td>
+      <td>50</td>
+      <td>0.505</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>could/causative</td>
+      <td>vix</td>
+      <td>0.332</td>
+      <td>0.0007</td>
+      <td>0.451</td>
+      <td>0.0000</td>
+      <td>0.185</td>
+      <td>-0.083</td>
+      <td>-0.012</td>
+      <td>50</td>
+      <td>0.505</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>will/aspectual</td>
+      <td>vix</td>
+      <td>0.406</td>
+      <td>0.0000</td>
+      <td>0.393</td>
+      <td>0.0001</td>
+      <td>0.337</td>
+      <td>0.069</td>
+      <td>-0.325</td>
+      <td>126</td>
+      <td>0.327</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>will/aspectual</td>
+      <td>vix</td>
+      <td>0.406</td>
+      <td>0.0000</td>
+      <td>0.393</td>
+      <td>0.0001</td>
+      <td>0.337</td>
+      <td>0.069</td>
+      <td>-0.325</td>
+      <td>126</td>
+      <td>0.327</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>cfnai</td>
+      <td>-0.342</td>
+      <td>0.0005</td>
+      <td>-0.286</td>
+      <td>0.0060</td>
+      <td>-0.227</td>
+      <td>0.004</td>
+      <td>-0.474</td>
+      <td>132</td>
+      <td>0.010</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>cfnai</td>
+      <td>-0.342</td>
+      <td>0.0005</td>
+      <td>-0.286</td>
+      <td>0.0060</td>
+      <td>-0.227</td>
+      <td>0.004</td>
+      <td>-0.474</td>
+      <td>132</td>
+      <td>0.010</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>vix</td>
+      <td>0.224</td>
+      <td>0.0245</td>
+      <td>0.241</td>
+      <td>0.0214</td>
+      <td>-0.004</td>
+      <td>0.191</td>
+      <td>-0.073</td>
+      <td>132</td>
+      <td>0.010</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>vix</td>
+      <td>0.224</td>
+      <td>0.0245</td>
+      <td>0.241</td>
+      <td>0.0214</td>
+      <td>-0.004</td>
+      <td>0.191</td>
+      <td>-0.073</td>
+      <td>132</td>
+      <td>0.010</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>genre</td>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>cfnai</td>
+      <td>-0.285</td>
+      <td>0.0039</td>
+      <td>-0.181</td>
+      <td>0.0858</td>
+      <td>-0.270</td>
+      <td>0.078</td>
+      <td>-0.453</td>
+      <td>105</td>
+      <td>0.257</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+    <tr>
+      <td>layer</td>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>cfnai</td>
+      <td>-0.285</td>
+      <td>0.0039</td>
+      <td>-0.181</td>
+      <td>0.0858</td>
+      <td>-0.270</td>
+      <td>0.078</td>
+      <td>-0.453</td>
+      <td>105</td>
+      <td>0.257</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>U3</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>E4 사전 지정 구문 표 (층위별 ALL + 상위 8 + be appropriate; ρ와 HAC)</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>unit</th>
+      <th>n_tokens</th>
+      <th>rho_cfnai_T1</th>
+      <th>rho_cfnai_T2</th>
+      <th>rho_cfnai_T3</th>
+      <th>rho_vix_T1</th>
+      <th>p_vix_T1</th>
+      <th>rho_vix_T2</th>
+      <th>p_vix_T2</th>
+      <th>rho_vix_T3</th>
+      <th>hac_b_vix_T1</th>
+      <th>hac_p_vix_T1</th>
+      <th>hac_b_vix_T2</th>
+      <th>hac_p_vix_T2</th>
+      <th>hac_b_cfnai_T2</th>
+      <th>hac_p_cfnai_T2</th>
+      <th>zero_T1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>statement</td>
+      <td>ALL</td>
+      <td>770</td>
+      <td>-0.124</td>
+      <td>-0.178</td>
+      <td>-0.096</td>
+      <td>0.061</td>
+      <td>0.542</td>
+      <td>0.045</td>
+      <td>0.673</td>
+      <td>-0.116</td>
+      <td>0.002</td>
+      <td>0.974</td>
+      <td>0.083</td>
+      <td>0.308</td>
+      <td>-2.564</td>
+      <td>0.262</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>132</td>
+      <td>-0.342</td>
+      <td>-0.286</td>
+      <td>-0.227</td>
+      <td>0.224</td>
+      <td>0.024</td>
+      <td>0.241</td>
+      <td>0.021</td>
+      <td>-0.004</td>
+      <td>0.016</td>
+      <td>0.561</td>
+      <td>0.076</td>
+      <td>0.015</td>
+      <td>-2.262</td>
+      <td>0.001</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/aspectual</td>
+      <td>126</td>
+      <td>-0.160</td>
+      <td>-0.175</td>
+      <td>-0.149</td>
+      <td>0.406</td>
+      <td>0.000</td>
+      <td>0.393</td>
+      <td>0.000</td>
+      <td>0.337</td>
+      <td>0.147</td>
+      <td>0.005</td>
+      <td>0.242</td>
+      <td>0.000</td>
+      <td>-2.028</td>
+      <td>0.301</td>
+      <td>0.33</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>105</td>
+      <td>-0.285</td>
+      <td>-0.181</td>
+      <td>-0.270</td>
+      <td>-0.368</td>
+      <td>0.000</td>
+      <td>-0.419</td>
+      <td>0.000</td>
+      <td>-0.409</td>
+      <td>-0.081</td>
+      <td>0.060</td>
+      <td>-0.142</td>
+      <td>0.002</td>
+      <td>-1.925</td>
+      <td>0.032</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/policy_action</td>
+      <td>57</td>
+      <td>0.038</td>
+      <td>0.027</td>
+      <td>0.031</td>
+      <td>-0.412</td>
+      <td>0.000</td>
+      <td>-0.387</td>
+      <td>0.000</td>
+      <td>-0.199</td>
+      <td>-0.068</td>
+      <td>0.006</td>
+      <td>-0.104</td>
+      <td>0.001</td>
+      <td>-0.057</td>
+      <td>0.931</td>
+      <td>0.61</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/copular_adj</td>
+      <td>51</td>
+      <td>0.393</td>
+      <td>0.338</td>
+      <td>0.353</td>
+      <td>0.151</td>
+      <td>0.132</td>
+      <td>0.219</td>
+      <td>0.037</td>
+      <td>-0.008</td>
+      <td>0.025</td>
+      <td>0.511</td>
+      <td>0.077</td>
+      <td>0.086</td>
+      <td>1.688</td>
+      <td>0.010</td>
+      <td>0.53</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>could/causative</td>
+      <td>50</td>
+      <td>-0.062</td>
+      <td>-0.167</td>
+      <td>-0.011</td>
+      <td>0.332</td>
+      <td>0.001</td>
+      <td>0.451</td>
+      <td>0.000</td>
+      <td>0.185</td>
+      <td>0.045</td>
+      <td>0.341</td>
+      <td>0.166</td>
+      <td>0.000</td>
+      <td>-1.150</td>
+      <td>0.226</td>
+      <td>0.50</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/occurrence</td>
+      <td>47</td>
+      <td>0.177</td>
+      <td>0.203</td>
+      <td>0.095</td>
+      <td>-0.229</td>
+      <td>0.021</td>
+      <td>-0.364</td>
+      <td>0.000</td>
+      <td>-0.211</td>
+      <td>-0.039</td>
+      <td>0.161</td>
+      <td>-0.109</td>
+      <td>0.003</td>
+      <td>1.366</td>
+      <td>0.122</td>
+      <td>0.64</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>would/copular_adj</td>
+      <td>46</td>
+      <td>-0.077</td>
+      <td>-0.181</td>
+      <td>-0.021</td>
+      <td>0.359</td>
+      <td>0.000</td>
+      <td>0.474</td>
+      <td>0.000</td>
+      <td>0.247</td>
+      <td>0.050</td>
+      <td>0.302</td>
+      <td>0.175</td>
+      <td>0.000</td>
+      <td>-1.239</td>
+      <td>0.202</td>
+      <td>0.54</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>F1 be appropriate</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>unit</th>
+      <th>n_tokens</th>
+      <th>rho_cfnai_T1</th>
+      <th>p_cfnai_T1</th>
+      <th>rho_vix_T1</th>
+      <th>p_vix_T1</th>
+      <th>zero_T1</th>
+      <th>rho_cfnai_T2</th>
+      <th>p_cfnai_T2</th>
+      <th>rho_vix_T2</th>
+      <th>p_vix_T2</th>
+      <th>zero_T2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>statement</td>
+      <td>may+be+appropriate</td>
+      <td>10</td>
+      <td>-0.216</td>
+      <td>0.03</td>
+      <td>-0.077</td>
+      <td>0.442</td>
+      <td>0.90</td>
+      <td>-0.248</td>
+      <td>0.018</td>
+      <td>-0.037</td>
+      <td>0.731</td>
+      <td>0.89</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will+be+appropriate</td>
+      <td>43</td>
+      <td>0.364</td>
+      <td>0.00</td>
+      <td>0.235</td>
+      <td>0.018</td>
+      <td>0.61</td>
+      <td>0.295</td>
+      <td>0.004</td>
+      <td>0.287</td>
+      <td>0.006</td>
+      <td>0.60</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>G2 Granger (lag 2), text→macro / macro→text</h3><div class='tw'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>key</th>
+      <th>unit</th>
+      <th>period</th>
+      <th>macro</th>
+      <th>p_text_to_macro</th>
+      <th>p_macro_to_text</th>
+      <th>n</th>
+      <th>q_text_to_macro</th>
+      <th>q_macro_to_text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.003</td>
+      <td>0.436</td>
+      <td>101</td>
+      <td>0.102</td>
+      <td>0.781</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.011</td>
+      <td>0.008</td>
+      <td>101</td>
+      <td>0.182</td>
+      <td>0.088</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.021</td>
+      <td>0.713</td>
+      <td>91</td>
+      <td>0.236</td>
+      <td>0.838</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.034</td>
+      <td>0.744</td>
+      <td>91</td>
+      <td>0.269</td>
+      <td>0.838</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/copular_adj</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.055</td>
+      <td>0.692</td>
+      <td>91</td>
+      <td>0.269</td>
+      <td>0.838</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>ALL</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.055</td>
+      <td>0.144</td>
+      <td>101</td>
+      <td>0.269</td>
+      <td>0.461</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>ALL</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.051</td>
+      <td>0.025</td>
+      <td>101</td>
+      <td>0.269</td>
+      <td>0.141</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>could</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.152</td>
+      <td>0.731</td>
+      <td>91</td>
+      <td>0.453</td>
+      <td>0.838</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.153</td>
+      <td>0.314</td>
+      <td>101</td>
+      <td>0.453</td>
+      <td>0.712</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>ALL</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.160</td>
+      <td>0.462</td>
+      <td>91</td>
+      <td>0.453</td>
+      <td>0.781</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/policy_action</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.119</td>
+      <td>0.068</td>
+      <td>91</td>
+      <td>0.453</td>
+      <td>0.329</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/aspectual</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.132</td>
+      <td>0.127</td>
+      <td>91</td>
+      <td>0.453</td>
+      <td>0.461</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.265</td>
+      <td>0.341</td>
+      <td>91</td>
+      <td>0.694</td>
+      <td>0.725</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/copular_adj</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.511</td>
+      <td>0.078</td>
+      <td>91</td>
+      <td>0.724</td>
+      <td>0.333</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/aspectual</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.381</td>
+      <td>0.718</td>
+      <td>91</td>
+      <td>0.724</td>
+      <td>0.838</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/copular_adj</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.428</td>
+      <td>0.171</td>
+      <td>101</td>
+      <td>0.724</td>
+      <td>0.464</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/aspectual</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.497</td>
+      <td>0.013</td>
+      <td>101</td>
+      <td>0.724</td>
+      <td>0.110</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/aspectual</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.337</td>
+      <td>0.990</td>
+      <td>101</td>
+      <td>0.724</td>
+      <td>0.990</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.488</td>
+      <td>0.527</td>
+      <td>91</td>
+      <td>0.724</td>
+      <td>0.781</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>could</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.373</td>
+      <td>0.684</td>
+      <td>91</td>
+      <td>0.724</td>
+      <td>0.838</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>could</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.385</td>
+      <td>0.000</td>
+      <td>101</td>
+      <td>0.724</td>
+      <td>0.007</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>ALL</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.408</td>
+      <td>0.281</td>
+      <td>91</td>
+      <td>0.724</td>
+      <td>0.683</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>would</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.504</td>
+      <td>0.493</td>
+      <td>91</td>
+      <td>0.724</td>
+      <td>0.781</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>would</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.362</td>
+      <td>0.764</td>
+      <td>91</td>
+      <td>0.724</td>
+      <td>0.838</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.572</td>
+      <td>0.149</td>
+      <td>101</td>
+      <td>0.779</td>
+      <td>0.461</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>would</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.632</td>
+      <td>0.022</td>
+      <td>101</td>
+      <td>0.826</td>
+      <td>0.141</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>could</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.659</td>
+      <td>0.416</td>
+      <td>101</td>
+      <td>0.830</td>
+      <td>0.781</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/activity</td>
+      <td>T2</td>
+      <td>vix</td>
+      <td>0.972</td>
+      <td>0.177</td>
+      <td>91</td>
+      <td>0.972</td>
+      <td>0.464</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/copular_adj</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.893</td>
+      <td>0.962</td>
+      <td>101</td>
+      <td>0.972</td>
+      <td>0.990</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>T1</td>
+      <td>cfnai</td>
+      <td>0.856</td>
+      <td>0.001</td>
+      <td>101</td>
+      <td>0.972</td>
+      <td>0.010</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.891</td>
+      <td>0.465</td>
+      <td>101</td>
+      <td>0.972</td>
+      <td>0.781</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/mental</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.919</td>
+      <td>0.528</td>
+      <td>91</td>
+      <td>0.972</td>
+      <td>0.781</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>will/policy_action</td>
+      <td>T2</td>
+      <td>cfnai</td>
+      <td>0.963</td>
+      <td>0.833</td>
+      <td>91</td>
+      <td>0.972</td>
+      <td>0.885</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>would</td>
+      <td>T1</td>
+      <td>vix</td>
+      <td>0.882</td>
+      <td>0.661</td>
+      <td>101</td>
+      <td>0.972</td>
+      <td>0.838</td>
+    </tr>
+  </tbody>
+</table></div></div></body></html>

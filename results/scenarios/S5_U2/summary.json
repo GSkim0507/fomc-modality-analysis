@@ -1,0 +1,1252 @@
+{
+ "S": "S5",
+ "U": "U2",
+ "name": "minutes only (substantive layers)",
+ "layers": [
+  "min_staff_desk",
+  "min_staff",
+  "min_participants",
+  "min_committee",
+  "min_special"
+ ],
+ "unit": "modal + predicate",
+ "note": "진단용: 의사록만으로 무엇이 보이는가.",
+ "blocks": {
+  "A": {
+   "main_layer": "min_staff_desk",
+   "jsd_min": 1.0,
+   "jsd_max": 1.0,
+   "top_unit_per_modal": {
+    "will": "will+decline",
+    "would": "would+continue",
+    "could": "could+affect",
+    "can": "can+implement",
+    "should": "should+continue",
+    "may": "may+contribute"
+   },
+   "top_share_per_modal": {
+    "will": 0.0857,
+    "would": 0.0749,
+    "could": 0.0507,
+    "can": 0.2,
+    "should": 0.0741,
+    "may": 0.1707
+   }
+  },
+  "B": {
+   "note": "no statement layer"
+  },
+  "C": {
+   "note": "no statement layer"
+  },
+  "D": {
+   "chi2": 470.2806610635256,
+   "dof": 20,
+   "cramers_v": 0.145,
+   "n_layers": 5
+  },
+  "E": {
+   "kawamura": [
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.079,
+     "p": 0.4378,
+     "n": 99
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.066,
+     "p": 0.5132,
+     "n": 99
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.153,
+     "p": 0.1472,
+     "n": 91
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.008,
+     "p": 0.9406,
+     "n": 91
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.085,
+     "p": 0.334,
+     "n": 131
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.065,
+     "p": 0.4615,
+     "n": 131
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.218,
+     "p": 0.1368,
+     "n": 48
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H1",
+     "macro": "vix",
+     "rho": 0.215,
+     "p": 0.1415,
+     "n": 48
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.046,
+     "p": 0.7681,
+     "n": 43
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.022,
+     "p": 0.8876,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.009,
+     "p": 0.9261,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.122,
+     "p": 0.2303,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.019,
+     "p": 0.8556,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.098,
+     "p": 0.3542,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.101,
+     "p": 0.2492,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.097,
+     "p": 0.2695,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.179,
+     "p": 0.2223,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.114,
+     "p": 0.4414,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.223,
+     "p": 0.1509,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.18,
+     "p": 0.2482,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.091,
+     "p": 0.373,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.144,
+     "p": 0.1562,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.005,
+     "p": 0.9595,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.064,
+     "p": 0.5486,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.069,
+     "p": 0.4331,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.025,
+     "p": 0.7773,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.098,
+     "p": 0.5074,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.009,
+     "p": 0.9539,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.074,
+     "p": 0.6391,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.045,
+     "p": 0.773,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.196,
+     "p": 0.2246,
+     "n": 40
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.161,
+     "p": 0.3205,
+     "n": 40
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.21,
+     "p": 0.2182,
+     "n": 36
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.139,
+     "p": 0.4188,
+     "n": 36
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.273,
+     "p": 0.0576,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.033,
+     "p": 0.8237,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.075,
+     "p": 0.4586,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.333,
+     "p": 0.0008,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.092,
+     "p": 0.3861,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.361,
+     "p": 0.0004,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.058,
+     "p": 0.5082,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.393,
+     "p": 0.0,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.28,
+     "p": 0.0535,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.197,
+     "p": 0.1795,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.097,
+     "p": 0.5376,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.235,
+     "p": 0.1286,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.139,
+     "p": 0.17,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.139,
+     "p": 0.1699,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.161,
+     "p": 0.1262,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.119,
+     "p": 0.2593,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.135,
+     "p": 0.1235,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.113,
+     "p": 0.1999,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.14,
+     "p": 0.3411,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H1",
+     "macro": "vix",
+     "rho": 0.044,
+     "p": 0.7689,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.2,
+     "p": 0.1986,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.236,
+     "p": 0.1281,
+     "n": 43
+    }
+   ],
+   "n_screen_rows": 854,
+   "n_bh_hits_T1": 19,
+   "n_confirmed_vix": 6,
+   "n_confirmed_cfnai": 6,
+   "n_T1_only": 11,
+   "n_era_composition": 7,
+   "confirmed_top": [
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would+continue",
+     "macro": "vix",
+     "rho_T1": 0.5,
+     "p_T1": 0.0,
+     "rho_T2": 0.451,
+     "p_T2": 0.0,
+     "rho_T3": 0.322,
+     "rho_H1": 0.055,
+     "rho_H2": 0.08,
+     "n_tokens_T1": 109,
+     "zero_share_T1": 0.222,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U2"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would+assess",
+     "macro": "cfnai",
+     "rho_T1": -0.491,
+     "p_T1": 0.0,
+     "rho_T2": -0.43,
+     "p_T2": 0.0,
+     "rho_T3": -0.392,
+     "rho_H1": -0.379,
+     "rho_H2": -0.394,
+     "n_tokens_T1": 49,
+     "zero_share_T1": 0.515,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U2"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would+depend",
+     "macro": "cfnai",
+     "rho_T1": 0.427,
+     "p_T1": 0.0,
+     "rho_T2": 0.402,
+     "p_T2": 0.0001,
+     "rho_T3": 0.365,
+     "rho_H1": 0.601,
+     "rho_H2": 0.336,
+     "n_tokens_T1": 51,
+     "zero_share_T1": 0.586,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U2"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would+be+appropriate",
+     "macro": "cfnai",
+     "rho_T1": 0.407,
+     "p_T1": 0.0,
+     "rho_T2": 0.391,
+     "p_T2": 0.0001,
+     "rho_T3": 0.4,
+     "rho_H1": 0.22,
+     "rho_H2": 0.538,
+     "n_tokens_T1": 63,
+     "zero_share_T1": 0.545,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U2"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": -0.251,
+     "p_T1": 0.0122,
+     "rho_T2": -0.37,
+     "p_T2": 0.0003,
+     "rho_T3": -0.13,
+     "rho_H1": -0.415,
+     "rho_H2": -0.548,
+     "n_tokens_T1": 83,
+     "zero_share_T1": 0.293,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "ALL",
+     "macro": "vix",
+     "rho_T1": -0.333,
+     "p_T1": 0.0008,
+     "rho_T2": -0.361,
+     "p_T2": 0.0004,
+     "rho_T3": -0.393,
+     "rho_H1": -0.197,
+     "rho_H2": -0.235,
+     "n_tokens_T1": 539,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would+be+appropriate",
+     "macro": "vix",
+     "rho_T1": 0.373,
+     "p_T1": 0.0001,
+     "rho_T2": 0.334,
+     "p_T2": 0.0012,
+     "rho_T3": 0.289,
+     "rho_H1": 0.148,
+     "rho_H2": 0.38,
+     "n_tokens_T1": 63,
+     "zero_share_T1": 0.545,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U2"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "would",
+     "macro": "vix",
+     "rho_T1": -0.229,
+     "p_T1": 0.0228,
+     "rho_T2": -0.32,
+     "p_T2": 0.002,
+     "rho_T3": -0.269,
+     "rho_H1": -0.262,
+     "rho_H2": -0.014,
+     "n_tokens_T1": 327,
+     "zero_share_T1": 0.071,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.257,
+     "p_T1": 0.0103,
+     "rho_T2": 0.304,
+     "p_T2": 0.0034,
+     "rho_T3": 0.27,
+     "rho_H1": 0.327,
+     "rho_H2": 0.278,
+     "n_tokens_T1": 719,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": 0.213,
+     "p_T1": 0.0344,
+     "rho_T2": 0.252,
+     "p_T2": 0.0161,
+     "rho_T3": 0.182,
+     "rho_H1": 0.241,
+     "rho_H2": 0.269,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "unit": "should",
+     "macro": "vix",
+     "rho_T1": -0.239,
+     "p_T1": 0.0174,
+     "rho_T2": -0.244,
+     "p_T2": 0.0199,
+     "rho_T3": -0.292,
+     "rho_H1": -0.085,
+     "rho_H2": -0.155,
+     "n_tokens_T1": 149,
+     "zero_share_T1": 0.283,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "vix",
+     "rho_T1": 0.211,
+     "p_T1": 0.0358,
+     "rho_T2": 0.222,
+     "p_T2": 0.0347,
+     "rho_T3": 0.147,
+     "rho_H1": 0.125,
+     "rho_H2": 0.405,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    }
+   ],
+   "confirmed_modal_level": [
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": -0.251,
+     "p_T1": 0.0122,
+     "rho_T2": -0.37,
+     "p_T2": 0.0003,
+     "rho_T3": -0.13,
+     "rho_H1": -0.415,
+     "rho_H2": -0.548,
+     "n_tokens_T1": 83,
+     "zero_share_T1": 0.293,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.257,
+     "p_T1": 0.0103,
+     "rho_T2": 0.304,
+     "p_T2": 0.0034,
+     "rho_T3": 0.27,
+     "rho_H1": 0.327,
+     "rho_H2": 0.278,
+     "n_tokens_T1": 719,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "unit": "should",
+     "macro": "vix",
+     "rho_T1": -0.239,
+     "p_T1": 0.0174,
+     "rho_T2": -0.244,
+     "p_T2": 0.0199,
+     "rho_T3": -0.292,
+     "rho_H1": -0.085,
+     "rho_H2": -0.155,
+     "n_tokens_T1": 149,
+     "zero_share_T1": 0.283,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "ALL",
+     "macro": "vix",
+     "rho_T1": -0.333,
+     "p_T1": 0.0008,
+     "rho_T2": -0.361,
+     "p_T2": 0.0004,
+     "rho_T3": -0.393,
+     "rho_H1": -0.197,
+     "rho_H2": -0.235,
+     "n_tokens_T1": 539,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "would",
+     "macro": "vix",
+     "rho_T1": -0.229,
+     "p_T1": 0.0228,
+     "rho_T2": -0.32,
+     "p_T2": 0.002,
+     "rho_T3": -0.269,
+     "rho_H1": -0.262,
+     "rho_H2": -0.014,
+     "n_tokens_T1": 327,
+     "zero_share_T1": 0.071,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": 0.213,
+     "p_T1": 0.0344,
+     "rho_T2": 0.252,
+     "p_T2": 0.0161,
+     "rho_T3": 0.182,
+     "rho_H1": 0.241,
+     "rho_H2": 0.269,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "vix",
+     "rho_T1": 0.211,
+     "p_T1": 0.0358,
+     "rho_T2": 0.222,
+     "p_T2": 0.0347,
+     "rho_T3": 0.147,
+     "rho_H1": 0.125,
+     "rho_H2": 0.405,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    }
+   ]
+  },
+  "F": {
+   "counts": {
+    "could": {
+     "min_committee": 0,
+     "min_participants": 7,
+     "min_special": 6,
+     "min_staff": 1,
+     "min_staff_desk": 0
+    },
+    "may": {
+     "min_committee": 13,
+     "min_participants": 11,
+     "min_special": 4,
+     "min_staff": 0,
+     "min_staff_desk": 2
+    },
+    "will": {
+     "min_committee": 7,
+     "min_participants": 2,
+     "min_special": 1,
+     "min_staff": 0,
+     "min_staff_desk": 1
+    },
+    "would": {
+     "min_committee": 63,
+     "min_participants": 143,
+     "min_special": 23,
+     "min_staff": 0,
+     "min_staff_desk": 8
+    }
+   },
+   "table": [
+    {
+     "layer": "min_committee",
+     "unit": "may+be+appropriate",
+     "n_tokens": 13,
+     "rho_cfnai_T1": -0.222,
+     "p_cfnai_T1": 0.0269,
+     "rho_vix_T1": -0.092,
+     "p_vix_T1": 0.3658,
+     "zero_T1": 0.89,
+     "rho_cfnai_T2": -0.253,
+     "p_cfnai_T2": 0.0156,
+     "rho_vix_T2": -0.058,
+     "p_vix_T2": 0.5824,
+     "zero_T2": 0.88
+    },
+    {
+     "layer": "min_committee",
+     "unit": "will+be+appropriate",
+     "n_tokens": 7,
+     "rho_cfnai_T1": -0.012,
+     "p_cfnai_T1": 0.9034,
+     "rho_vix_T1": -0.102,
+     "p_vix_T1": 0.3139,
+     "zero_T1": 0.93,
+     "rho_cfnai_T2": -0.099,
+     "p_cfnai_T2": 0.3495,
+     "rho_vix_T2": -0.155,
+     "p_vix_T2": 0.1425,
+     "zero_T2": 0.93
+    },
+    {
+     "layer": "min_committee",
+     "unit": "would+be+appropriate",
+     "n_tokens": 63,
+     "rho_cfnai_T1": 0.407,
+     "p_cfnai_T1": 0.0,
+     "rho_vix_T1": 0.373,
+     "p_vix_T1": 0.0001,
+     "zero_T1": 0.55,
+     "rho_cfnai_T2": 0.391,
+     "p_cfnai_T2": 0.0001,
+     "rho_vix_T2": 0.334,
+     "p_vix_T2": 0.0012,
+     "zero_T2": 0.56
+    },
+    {
+     "layer": "min_participants",
+     "unit": "may+be+appropriate",
+     "n_tokens": 11,
+     "rho_cfnai_T1": -0.154,
+     "p_cfnai_T1": 0.1276,
+     "rho_vix_T1": 0.022,
+     "p_vix_T1": 0.8306,
+     "zero_T1": 0.94,
+     "rho_cfnai_T2": -0.176,
+     "p_cfnai_T2": 0.0948,
+     "rho_vix_T2": 0.055,
+     "p_vix_T2": 0.6052,
+     "zero_T2": 0.93
+    },
+    {
+     "layer": "min_participants",
+     "unit": "would+be+appropriate",
+     "n_tokens": 143,
+     "rho_cfnai_T1": -0.053,
+     "p_cfnai_T1": 0.6042,
+     "rho_vix_T1": 0.21,
+     "p_vix_T1": 0.037,
+     "zero_T1": 0.23,
+     "rho_cfnai_T2": 0.006,
+     "p_cfnai_T2": 0.9575,
+     "rho_vix_T2": 0.154,
+     "p_vix_T2": 0.1443,
+     "zero_T2": 0.25
+    },
+    {
+     "layer": "min_special",
+     "unit": "would+be+appropriate",
+     "n_tokens": 23,
+     "rho_cfnai_T1": 0.289,
+     "p_cfnai_T1": 0.0709,
+     "rho_vix_T1": 0.217,
+     "p_vix_T1": 0.1787,
+     "zero_T1": 0.6,
+     "rho_cfnai_T2": 0.266,
+     "p_cfnai_T2": 0.1171,
+     "rho_vix_T2": 0.325,
+     "p_vix_T2": 0.0531,
+     "zero_T2": 0.56
+    },
+    {
+     "layer": "min_staff_desk",
+     "unit": "would+be+appropriate",
+     "n_tokens": 8,
+     "rho_cfnai_T1": -0.015,
+     "p_cfnai_T1": 0.8814,
+     "rho_vix_T1": 0.054,
+     "p_vix_T1": 0.5978,
+     "zero_T1": 0.95,
+     "rho_cfnai_T2": -0.018,
+     "p_cfnai_T2": 0.8619,
+     "rho_vix_T2": 0.089,
+     "p_vix_T2": 0.4028,
+     "zero_T2": 0.95
+    }
+   ]
+  },
+  "G": {
+   "peaks_T2": [
+    {
+     "key": "minutes",
+     "unit": "ALL",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -9,
+     "r": 0.244,
+     "rho": 0.298
+    },
+    {
+     "key": "minutes",
+     "unit": "could",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 6,
+     "r": -0.382,
+     "rho": -0.266
+    },
+    {
+     "key": "minutes",
+     "unit": "could",
+     "period": "T2",
+     "macro": "vix",
+     "k": 5,
+     "r": 0.346,
+     "rho": 0.243
+    },
+    {
+     "key": "minutes",
+     "unit": "may",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 2,
+     "r": -0.259,
+     "rho": -0.251
+    },
+    {
+     "key": "minutes",
+     "unit": "may",
+     "period": "T2",
+     "macro": "vix",
+     "k": -1,
+     "r": -0.234,
+     "rho": -0.227
+    },
+    {
+     "key": "minutes",
+     "unit": "should",
+     "period": "T2",
+     "macro": "vix",
+     "k": -2,
+     "r": -0.266,
+     "rho": -0.213
+    },
+    {
+     "key": "minutes",
+     "unit": "would",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -3,
+     "r": 0.321,
+     "rho": 0.412
+    },
+    {
+     "key": "minutes",
+     "unit": "would+be+appropriate",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -3,
+     "r": 0.31,
+     "rho": 0.311
+    },
+    {
+     "key": "minutes",
+     "unit": "would+be+appropriate",
+     "period": "T2",
+     "macro": "vix",
+     "k": 2,
+     "r": 0.429,
+     "rho": 0.258
+    },
+    {
+     "key": "minutes",
+     "unit": "would+continue",
+     "period": "T2",
+     "macro": "vix",
+     "k": -6,
+     "r": 0.442,
+     "rho": 0.387
+    },
+    {
+     "key": "minutes",
+     "unit": "would+depend",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -3,
+     "r": 0.587,
+     "rho": 0.55
+    },
+    {
+     "key": "minutes",
+     "unit": "would+need",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 1,
+     "r": -0.305,
+     "rho": -0.312
+    },
+    {
+     "key": "minutes",
+     "unit": "would+need",
+     "period": "T2",
+     "macro": "vix",
+     "k": -6,
+     "r": 0.264,
+     "rho": 0.246
+    },
+    {
+     "key": "minutes",
+     "unit": "would+remain",
+     "period": "T2",
+     "macro": "vix",
+     "k": -6,
+     "r": -0.337,
+     "rho": -0.352
+    },
+    {
+     "key": "minutes",
+     "unit": "would+take",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 1,
+     "r": -0.217,
+     "rho": -0.258
+    },
+    {
+     "key": "minutes",
+     "unit": "would+take",
+     "period": "T2",
+     "macro": "vix",
+     "k": -2,
+     "r": 0.406,
+     "rho": 0.29
+    }
+   ],
+   "granger_text_to_macro_q10": []
+  }
+ },
+ "corpus": [
+  {
+   "layer": "min_staff_desk",
+   "label": "Minutes: Desk/markets (staff)",
+   "n_docs": 99,
+   "tokens": 71942,
+   "six_modal_tokens": 553,
+   "per_1k": 7.69
+  },
+  {
+   "layer": "min_staff",
+   "label": "Minutes: staff review & outlook",
+   "n_docs": 99,
+   "tokens": 249885,
+   "six_modal_tokens": 539,
+   "per_1k": 2.16
+  },
+  {
+   "layer": "min_participants",
+   "label": "Minutes: participants' views",
+   "n_docs": 99,
+   "tokens": 223992,
+   "six_modal_tokens": 2756,
+   "per_1k": 12.3
+  },
+  {
+   "layer": "min_committee",
+   "label": "Minutes: Committee policy action",
+   "n_docs": 99,
+   "tokens": 62833,
+   "six_modal_tokens": 958,
+   "per_1k": 15.25
+  },
+  {
+   "layer": "min_special",
+   "label": "Minutes: special topics",
+   "n_docs": 40,
+   "tokens": 40777,
+   "six_modal_tokens": 783,
+   "per_1k": 19.2
+  }
+ ],
+ "runtime_s": 3.9
+}

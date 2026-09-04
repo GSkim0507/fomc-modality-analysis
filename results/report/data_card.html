@@ -1,0 +1,280 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>데이터 카드</title><style>
+:root{--bg:#F2F4F6;--surface:#fff;--ink:#1A222C;--muted:#5A6572;--line:#D6DCE3;--accent:#24507A;--warn:#A8501F;--ok:#2C6E5C;--tint:#E6EEF6;
+--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--display:"Noto Serif KR","Apple Myungjo",Georgia,serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A}}
+:root[data-theme="dark"]{--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65}
+.page{max-width:1080px;margin:0 auto;padding:32px 22px 80px}
+nav.top{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--mono);font-size:12.5px;padding-bottom:14px;border-bottom:2px solid var(--ink);margin-bottom:22px}
+nav.top a{color:var(--accent);text-decoration:none}nav.top a:hover{text-decoration:underline}
+h1{font-family:var(--display);font-size:28px;line-height:1.25;margin:0 0 8px;text-wrap:balance}
+h2{font-family:var(--display);font-size:21px;margin:36px 0 10px;padding-top:14px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:22px 0 8px}p{max-width:78ch}.lede{color:var(--muted);font-size:16px;max-width:70ch}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5;background:var(--surface)}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{background:var(--tint);font-weight:600;white-space:nowrap}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:6px;margin:12px 0 20px}
+td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0 24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.card .k{font-family:var(--mono);font-size:12px;color:var(--accent)}.card .t{font-weight:600;margin:4px 0 6px}.card .d{font-size:13px;color:var(--muted);margin:0}
+.card a{color:var(--accent)}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-family:var(--mono);font-size:11.5px;background:var(--tint);margin-right:4px}
+.pill.ok{background:var(--ok);color:#fff}.pill.warn{background:var(--warn);color:#fff}
+figure{margin:16px 0 22px}figure img{max-width:100%;border:1px solid var(--line);border-radius:4px;background:#fff}figcaption{font-size:12.5px;color:var(--muted);margin-top:4px}
+details{margin:10px 0}summary{cursor:pointer;font-weight:600}
+code{font-family:var(--mono);font-size:.9em;background:var(--tint);padding:1px 4px;border-radius:3px}
+blockquote{border-left:3px solid var(--accent);margin:12px 0;padding:6px 14px;background:var(--surface)}
+.small{font-size:12.5px;color:var(--muted)}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+</style></head><body><div class='page'><nav class="top"><a href="index.html">개요·시나리오 격자</a><a href="claims.html">주장 후보 C1–C3</a><a href="plan.html">전략(docs/08)</a><a href="macro.html">CFNAI·VIX 근거(docs/10)</a><a href="data_card.html">데이터 카드(docs/09)</a><a href="qa.html">QA 리포트</a></nav><div class='eyebrow'>docs/09_data_card_v3.md</div><h1>09. 데이터 카드 — FOMC 코퍼스 v3 (층위 인식)</h1>
+<blockquote>
+<p>생성: <code>experiments/10_build_corpus_v3.py</code> → <code>11_extract_modals_v3.py</code> → <code>12_qa_integrity.py</code> (2026-09-04). 검증 결과 전문은 <code>results/qa/QA_report.md</code>.
+v2와의 차이: 정제 강화(각주·내비게이션·참고문헌·제목 블록 제거), 기자회견 화자 분절, 의사록 섹션 귀속, 인용 성명서·지침 분리, 층위별 분모 저장.</p>
+</blockquote>
+<h2>1. 출처와 범위</h2>
+<ul>
+<li>출처: 연준 이사회 웹사이트(<code>FOMC_corpus/_meta/collect_fomc_docs.py</code>), 2010-01 ~ 2026-04. 4장르: 회의 후 성명서(statements), 의사록(minutes), 의장 기자회견 녹취(transcripts), 의장 연설(speeches).</li>
+<li>분석 창: <strong>T1 2014-01-01 ~ 2026-04-29</strong>(기본), T2 = T1에서 2020년 제외, T3 = 2010–2026 확장(강건성).</li>
+<li>제외 문서(<code>EXCLUDE_DOCS</code>): 성명서로 분류됐지만 회의 후 성명서가 아닌 4건(2019-10-11 실행 성명, 2020-03-31 FIMA 레포, 2020-08-27·2025-08-22 프레임워크 성명).</li>
+<li>회의 정합: 성명서 133건(2010–) 중 의사록 없는 날짜 2건(2020-03-03, 2020-03-23 긴급회의: 의사록은 정례 회의록에 통합), 의사록만 있는 날짜 1건(2012-10-23: 성명서는 10-24자, 하루 차이).</li>
+</ul>
+<h2>2. 층위(layer) 정의 — 장르 × 귀속</h2>
+<table>
+<thead>
+<tr>
+<th>층위</th>
+<th>정의</th>
+<th>분석 포함</th>
+<th>6대 조동사 토큰(T1)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>statement</code></td>
+<td>성명서 본문</td>
+<td>기본</td>
+<td>788</td>
+</tr>
+<tr>
+<td><code>statement_vote</code></td>
+<td>&quot;Voting for/against …&quot; 문단</td>
+<td>제외</td>
+<td>10</td>
+</tr>
+<tr>
+<td><code>min_staff_desk</code></td>
+<td>의사록 &quot;Developments/Discussion in Financial Markets and Open Market Operations&quot;(데스크·SOMA 보고)</td>
+<td>S3·S4</td>
+<td>553</td>
+</tr>
+<tr>
+<td><code>min_staff</code></td>
+<td>&quot;Staff Review of the Economic/Financial Situation&quot;, &quot;Staff Economic Outlook&quot;</td>
+<td>S3·S4</td>
+<td>539</td>
+</tr>
+<tr>
+<td><code>min_participants</code></td>
+<td>&quot;Participants' Views on Current Conditions and the Economic Outlook&quot;</td>
+<td>S3·S4</td>
+<td>2,756</td>
+</tr>
+<tr>
+<td><code>min_committee</code></td>
+<td>&quot;Committee Policy Action(s)&quot; 중 위원회 심의 서술(인용문·삽입 문서 제외)</td>
+<td>S2·S3·S4</td>
+<td>958</td>
+</tr>
+<tr>
+<td><code>min_statement_quote</code></td>
+<td>위원회 섹션 안에 그대로 인용된 성명서 전문</td>
+<td>제외(성명서와 중복)</td>
+<td>761</td>
+</tr>
+<tr>
+<td><code>min_directive_quote</code></td>
+<td>인용된 데스크 지침(directive) 및 삽입된 채택 문서(예: 2022-05 Plans for Reducing…)</td>
+<td>제외</td>
+<td>102</td>
+</tr>
+<tr>
+<td><code>min_vote</code></td>
+<td>표결·표결 후 행정 서술(이사회 IOER 표결, 다음 회의 일정)</td>
+<td>제외</td>
+<td>166</td>
+</tr>
+<tr>
+<td><code>min_special</code></td>
+<td>특별 주제 섹션(Discussion of…, Review of Monetary Policy Strategy…, Long-Run Framework…, Balance Sheet…)</td>
+<td>S3·S4</td>
+<td>783</td>
+</tr>
+<tr>
+<td><code>min_boilerplate</code></td>
+<td>1월 회의 조직 사항·인가문(Authorization…)·외환 지침·장기목표 성명 전문·Notation Vote</td>
+<td>제외</td>
+<td>376</td>
+</tr>
+<tr>
+<td><code>min_front_matter</code></td>
+<td>참석자 명단 등 첫 섹션 이전</td>
+<td>제외</td>
+<td>78</td>
+</tr>
+<tr>
+<td><code>min_sep</code></td>
+<td>SEP 부록(있는 경우)</td>
+<td>제외</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>pc_chair</code></td>
+<td>기자회견 의장 발화(모두, 모두발언 + 답변)</td>
+<td>S4</td>
+<td>10,686</td>
+</tr>
+<tr>
+<td><code>pc_journalist</code></td>
+<td>기자 질문</td>
+<td>제외</td>
+<td>2,452</td>
+</tr>
+<tr>
+<td><code>pc_moderator</code></td>
+<td>진행자(Michelle Smith)</td>
+<td>제외</td>
+<td>83</td>
+</tr>
+<tr>
+<td><code>pc_pre</code></td>
+<td>첫 화자 마커 이전(제목 잔재)</td>
+<td>제외</td>
+<td>0</td>
+</tr>
+<tr>
+<td><code>speech_chair</code></td>
+<td>의장 연설 본문(제목 블록·참고문헌·각주 제거)</td>
+<td>S4</td>
+<td>3,203</td>
+</tr>
+</tbody>
+</table>
+<p>층위별 토큰 수(T1): pc_chair 533k, min_staff 250k, speech_chair 235k, min_participants 224k, pc_journalist 138k, min_staff_desk 71k, min_boilerplate 66k, min_committee 63k, min_front_matter 60k, statement 44k, min_special 41k, min_statement_quote 41k, min_directive_quote 22k, min_vote 17k.</p>
+<h2>3. 정제 규칙 (v3)</h2>
+<ol>
+<li>인코딩: <code>ftfy.fix_text</code> (mojibake 복구). 잔재 3문장(0.003%).</li>
+<li>헤더·푸터: 발표 시각, 페이지 마커(&quot;Page x of y&quot;, &quot;FINAL&quot;), 회의 날짜 줄, 기자회견 제목 줄, &quot;Last update&quot;, 각주 참조 숫자만 있는 줄.</li>
+<li>각주: 번호 문단 + &quot;Return to text&quot; 백링크 블록 제거(의사록·연설). 잔재 1문장.</li>
+<li>사이트 내비게이션(2010–2011 HTML 스크랩): &quot;Home/Search/Print/Return to top/Accessibility/FOIA…&quot; 줄 제거. 의사록은 &quot;A (joint) meeting of the Federal Open Market Committee&quot;에서 시작하고 &quot;Return to top&quot;/서명선에서 끝나도록 절단.</li>
+<li>연설: &quot;References&quot; 이후 절단(본문 40% 이후에 나타날 때), 문장부호로 끝나지 않는 선두 문단(제목·연사·장소·&quot;Share/Watch Live&quot;) 제거.</li>
+<li>기자회견: 줄바꿈이 문장 중간에 있으므로 턴 내부 줄을 공백으로 연결. 화자 마커 = 줄 머리의 대문자 이름 + 마침표/콜론(대문자 비율 ≥ 70%, ≤ 5단어; &quot;McGRANE&quot;, &quot;HONORÉ&quot; 허용). 역할: <code>CHAIR*</code>/<code>VICE CHAIR*</code> → chair, Michelle/Michele Smith → moderator, 나머지 → journalist. 168명 식별, 마커 이전 텍스트 60토큰 초과 문서 0건.</li>
+<li>의사록 섹션: 소제목 카탈로그(정규식)로 층위 전환. 위원회 섹션 안에서 문단 첫 글자가 따옴표이면 인용 블록 시작, 문단 끝이 따옴표이면 종료; 직전 문단에 &quot;statement&quot;가 있으면 성명서 인용, 아니면 지침 인용. 전부 대문자 제목의 삽입 문서는 지침 인용으로 처리. &quot;Voting for/against&quot;는 어떤 상태에서도 vote 층으로 강제 전환(인용 블록 안전장치).</li>
+<li>문장 분할: spaCy <code>en_core_web_sm</code>, 문단 단위로 처리, 3단어 미만 문장 제거. 문장별 토큰 수(<code>n_tok</code>, 공백·구두점 제외)를 저장하여 층위별 분모로 사용.</li>
+</ol>
+<h2>4. 조동사 추출 (v3 = v2 규칙 동일)</h2>
+<ul>
+<li>Penn <code>MD</code> 태그 + 축약형('ll/'d; 'd는 다음 토큰이 원형동사일 때만 would). 6대 조동사 will/would/could/can/should/may(+ might/must/shall/ought 보조).</li>
+<li>어휘 head 동사(조동사 사슬 건너뜀), 코퓰러 be 보어 해소(<code>be+appropriate</code> 등), 부정·수동·완료·진행, 주어 유형, 조건절 표지, 보고 동사 내포, 의문문 플래그.</li>
+<li>결과: 32,388 토큰(2010–2026, 전 층위). T1 분석 층위 6대 조동사: statement 788, minutes(substantive) 5,589, pc_chair 10,686, speech 3,203.</li>
+<li>정확도: v2에서 저자 60문장 표본 head 93%·의미유형 90%. <strong>2인 코딩 200문장(<code>results/tables/D7_validation_sample.csv</code>) 미완</strong> — 투고 전 필수.</li>
+</ul>
+<h2>5. 정규화 기준 (docs/08 §3.2, 10.5)</h2>
+<table>
+<thead>
+<tr>
+<th>지표</th>
+<th>정의</th>
+<th>용도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N1 밀도</td>
+<td>층위 토큰 1,000개당 6대 조동사(또는 단위) 수</td>
+<td>층위 비교, 거시 상관(기본)</td>
+</tr>
+<tr>
+<td>N2 점유율</td>
+<td>문서-층위 안의 6대 조동사 토큰 중 단위의 비율</td>
+<td>구성 변화, 성명서 계단(X-B)</td>
+</tr>
+<tr>
+<td>N3 문서당 수</td>
+<td>문서-층위의 원시 수</td>
+<td>성명서 전용(문서 길이 자체가 편집 결과)</td>
+</tr>
+<tr>
+<td>분모는 <code>corpus_docs_v3.csv</code>(문서 × 층위 × 토큰 수)에 저장. 모든 표·그림 캡션에 지표명을 표기한다.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>6. v2 대비 변화(2014–2026)</h2>
+<table>
+<thead>
+<tr>
+<th>장르</th>
+<th style="text-align:right">v2 토큰</th>
+<th style="text-align:right">v3 분석 층위 토큰</th>
+<th style="text-align:right">유지율</th>
+<th style="text-align:right">v2 6대 조동사</th>
+<th style="text-align:right">v3 분석 층위</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>minutes</td>
+<td style="text-align:right">871,758</td>
+<td style="text-align:right">649,429</td>
+<td style="text-align:right">0.745</td>
+<td style="text-align:right">7,081</td>
+<td style="text-align:right">5,589</td>
+</tr>
+<tr>
+<td>press_conf</td>
+<td style="text-align:right">697,340</td>
+<td style="text-align:right">533,106</td>
+<td style="text-align:right">0.764</td>
+<td style="text-align:right">13,221</td>
+<td style="text-align:right">10,686</td>
+</tr>
+<tr>
+<td>speech</td>
+<td style="text-align:right">313,299</td>
+<td style="text-align:right">234,853</td>
+<td style="text-align:right">0.750</td>
+<td style="text-align:right">3,507</td>
+<td style="text-align:right">3,203</td>
+</tr>
+<tr>
+<td>statement</td>
+<td style="text-align:right">49,210</td>
+<td style="text-align:right">43,763</td>
+<td style="text-align:right">0.889</td>
+<td style="text-align:right">798</td>
+<td style="text-align:right">788</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>의사록에서 빠진 조동사 1,492개 = 인용 성명서 761 + 규정문 376 + 표결·행정 166 + 지침 102 + 명단 78 + (특별 섹션 783은 유지).</li>
+<li>기자회견에서 빠진 2,535개 = 기자 2,452 + 진행자 83. v2의 press_conf could 48%, might 50%가 기자 발화였음.</li>
+<li>연설에서 빠진 304개 = 각주·참고문헌·제목.</li>
+</ul>
+<h2>7. 검증</h2>
+<ul>
+<li>인용 성명서 vs 성명서 문서(같은 회의) 문장집합 Jaccard: 131회의 중앙값 <strong>0.94</strong>, 0.5 미만 0건 → 인용 분리와 성명서 코퍼스가 서로를 검증.</li>
+<li>중복 문서 0, 날짜 파싱 오류 0. 토큰 이상치는 대부분 1월 회의(규정문 큼)·긴급회의(짧음)로 설명됨.</li>
+<li>사람 검증 표본: <code>results/qa/sample_speaker_roles.csv</code>(10문서 × 20턴), <code>results/qa/sample_minutes_layers.csv</code>(10문서 × 층위별 2문장) — <code>human_ok</code> 열 채우기.</li>
+</ul>
+<h2>8. 알려진 한계</h2>
+<ul>
+<li><code>minutes_20121023</code>(T3 전용)는 PDF 유래 텍스트로 소제목이 문단 경계가 아니어서 전부 front_matter로 분류됨(분석에서 사실상 제외). T1·T2 무관.</li>
+<li><code>minutes_20220126</code>의 데스크 섹션 제목 변형(&quot;Financial Developments and Open Market Operations&quot;)은 코드에 반영됨.</li>
+<li>화자 분절은 마커 형식에 의존; Bernanke 초기 기자회견의 &quot;CHAIRMAN BERNANKE.&quot; 형식 포함 확인. 2018-09-26의 콜론 형식 처리.</li>
+<li>의사록 <code>min_special</code>은 스태프·참가자 발언이 섞인 층이므로 귀속 해석에 주의(참가자 층과 분리 보고).</li>
+<li>거시 정렬 표(<code>macro_by_doc.csv</code>)는 v2에서 생성(FRED 최종치, vintage 아님) — docs/10 §2.3.</li>
+</ul>
+</div></body></html>

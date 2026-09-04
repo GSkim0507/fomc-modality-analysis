@@ -54,7 +54,13 @@ NAV = [("index.html", "개요·시나리오 격자"), ("claims.html", "주장 �
        ("data_card.html", "데이터 카드(docs/09)"), ("qa.html", "QA 리포트")]
 
 
+def safe(text: str) -> str:
+    """The artifact host rejects a raw U+FFFD; write it as a character reference."""
+    return text.replace("\ufffd", "&#xFFFD;")
+
+
 def page(title, body, inline=False):
+    body = safe(body)
     nav = "" if inline else '<nav class="top">' + "".join(f'<a href="{h}">{t}</a>' for h, t in NAV) + "</nav>"
     return f"<!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>{html.escape(title)}</title><style>{CSS}</style></head><body><div class='page'>{nav}{body}</div></body></html>"
 
@@ -93,7 +99,7 @@ def headline(s):
         return (r[0]["rho"], r[0]["p"]) if r else (None, None)
     st_c = kv("statement", "cfnai", "T2"); mn_c = kv("minutes", "cfnai", "T2"); mn_v = kv("minutes", "vix", "T2"); st_v = kv("statement", "vix", "T2")
     B = b.get("B", {}).get("T1", {}); C = b.get("C", {}).get("half_life", {})
-    return dict(n_cp=B.get("n_cp"), cp_event=B.get("cp_within_1_meeting_of_event"), hl=C.get("all"),
+    return dict(n_cp=B.get("n_cp"), cp_event=B.get("cp_within_1_meeting_of_event"), hl=(C.get("all") if C.get("all") is not None else ("≥24" if C else None)), era=e.get("n_era_composition"),
                 conf_vix=e.get("n_confirmed_vix"), conf_cfnai=e.get("n_confirmed_cfnai"), t1_only=e.get("n_T1_only"),
                 st_cfnai=st_c, mn_cfnai=mn_c, mn_vix=mn_v, st_vix=st_v, V=b.get("D", {}).get("cramers_v"))
 
@@ -106,14 +112,14 @@ def index_page(sums, inline=False):
     for k, v in SCENARIOS.items():
         L.append(f"<tr><td>{k}</td><td>{html.escape(v['name'])}</td><td class='small'>{', '.join(LAYER_LABEL.get(l, l) for l in v['layers'])}</td><td class='small'>{html.escape(v['note'])}</td></tr>")
     L.append("</table></div>")
-    L.append("<h2>격자: 핵심 지표</h2><p class='small'>변화점 = 성명서 계단(X-B, T1)의 PELT 변화점 수(정책 사건 ±1회의 이내 수) · 반감기 = 구문 보유율 반감기(회의) · 확정 VIX/CFNAI = 전수 스크린에서 T1·T2(2020 제외) 동부호 유의한 단위 수 · T1-only = 2020에 의존하는 적중 수 · ρ = 장르 총 조동사 밀도와의 Spearman(T2)</p>")
-    L.append("<div class='tw'><table><tr><th>시나리오</th><th>단위</th><th>변화점(사건)</th><th>반감기</th><th>확정 VIX</th><th>확정 CFNAI</th><th>T1-only</th><th>ρ stmt×CFNAI</th><th>ρ min×CFNAI</th><th>ρ stmt×VIX</th><th>ρ min×VIX</th><th>V(층위×조동사)</th><th></th></tr>")
+    L.append("<h2>격자: 핵심 지표</h2><p class='small'>변화점 = 성명서 계단(X-B, T1)의 PELT 변화점 수(정책 사건 ±1회의 이내 수) · 반감기 = 구문 보유율 반감기(회의) · 확정 VIX/CFNAI = 층위 수준 전수 스크린에서 T1·T2(2020 제외) 유의·동부호이고 2014–19/2021–26 반기 부호도 같은 단위 수 · T1-only = 2020에 의존하는 적중 수 · 시대구성 = T1·T2 유의하지만 반기 부호가 어긋나는(시대 구성 효과) 단위 수 · ρ = 장르 총 조동사 밀도와의 Spearman(T2)</p>")
+    L.append("<div class='tw'><table><tr><th>시나리오</th><th>단위</th><th>변화점(사건)</th><th>반감기</th><th>확정 VIX</th><th>확정 CFNAI</th><th>T1-only</th><th>시대구성</th><th>ρ stmt×CFNAI</th><th>ρ min×CFNAI</th><th>ρ stmt×VIX</th><th>ρ min×VIX</th><th>V(층위×조동사)</th><th></th></tr>")
     for name, s in sums.items():
         h = headline(s)
         def rp(t): return "—" if t[0] is None else f"{t[0]:+.2f}{'*' if (t[1] is not None and t[1] < .05) else ''}"
         link = f"scenario_{name}.html" if not inline else f"#sc-{name}"
-        L.append(f"<tr><td><b>{s['S']}</b> {html.escape(s['name'])}</td><td>{s['U']} {html.escape(s['unit'])}</td><td class='n'>{fmt(h['n_cp'],0)} ({fmt(h['cp_event'],0)})</td><td class='n'>{fmt(h['hl'],1)}</td>"
-                 f"<td class='n'>{fmt(h['conf_vix'],0)}</td><td class='n'>{fmt(h['conf_cfnai'],0)}</td><td class='n'>{fmt(h['t1_only'],0)}</td>"
+        L.append(f"<tr><td><b>{s['S']}</b> {html.escape(s['name'])}</td><td>{s['U']} {html.escape(s['unit'])}</td><td class='n'>{fmt(h['n_cp'],0)} ({fmt(h['cp_event'],0)})</td><td class='n'>{h['hl'] if isinstance(h['hl'], str) else fmt(h['hl'],1)}</td>"
+                 f"<td class='n'>{fmt(h['conf_vix'],0)}</td><td class='n'>{fmt(h['conf_cfnai'],0)}</td><td class='n'>{fmt(h['t1_only'],0)}</td><td class='n'>{fmt(h['era'],0)}</td>"
                  f"<td class='n'>{rp(h['st_cfnai'])}</td><td class='n'>{rp(h['mn_cfnai'])}</td><td class='n'>{rp(h['st_vix'])}</td><td class='n'>{rp(h['mn_vix'])}</td><td class='n'>{fmt(h['V'],3)}</td><td><a href='{link}'>열기</a></td></tr>")
     L.append("</table></div>")
     return "\n".join(L)
@@ -183,9 +189,9 @@ def claims_page(sums, inline=False):
     for name, s in sums.items():
         top = s["blocks"].get("E", {}).get("confirmed_top", [])
         if not top: continue
-        L.append(f"<h3>{name}</h3><div class='tw'><table><tr><th>수준</th><th>키</th><th>단위</th><th>거시</th><th>ρ T1</th><th>ρ excl-2020</th><th>ρ 2010–</th><th>토큰</th><th>제로비율</th></tr>")
+        L.append(f"<h3>{name}</h3><div class='tw'><table><tr><th>수준</th><th>키</th><th>단위</th><th>거시</th><th>ρ T1</th><th>ρ excl-2020</th><th>ρ 2010–</th><th>ρ 14–19</th><th>ρ 21–26</th><th>토큰</th><th>제로비율</th></tr>")
         for c in top:
-            L.append(f"<tr><td>{c['level']}</td><td>{LAYER_LABEL.get(c['key'], c['key'])}</td><td>{html.escape(str(c['unit']))}</td><td>{c['macro']}</td><td class='n'>{c['rho_T1']}</td><td class='n'>{c['rho_T2']}</td><td class='n'>{c.get('rho_T3','')}</td><td class='n'>{c['n_tokens_T1']}</td><td class='n'>{c.get('zero_share_T1','')}</td></tr>")
+            L.append(f"<tr><td>{c['level']}</td><td>{LAYER_LABEL.get(c['key'], c['key'])}</td><td>{html.escape(str(c['unit']))}</td><td>{c['macro']}</td><td class='n'>{c['rho_T1']}</td><td class='n'>{c['rho_T2']}</td><td class='n'>{c.get('rho_T3','')}</td><td class='n'>{c.get('rho_H1','')}</td><td class='n'>{c.get('rho_H2','')}</td><td class='n'>{c['n_tokens_T1']}</td><td class='n'>{c.get('zero_share_T1','')}</td></tr>")
         L.append("</table></div>")
     return "\n".join(L)
 
@@ -212,6 +218,8 @@ def main():
     for key, (title, path) in docs.items():
         body.append(f"<details id='{key}'><summary>{html.escape(title)}</summary>{doc_page(title, path)}</details>")
     (REP / "report_all.html").write_text(page("FOMC 조동사 시나리오 보고서", "\n".join(body), inline=True), encoding="utf-8")
+    # artifact fragment: <title> + <style> + content only (the Artifact host supplies html/head/body)
+    (REP / "report_artifact.html").write_text("<title>FOMC 조동사 시나리오 보고서</title>\n<style>" + CSS + "</style>\n<div class='page'>" + safe("\n".join(body)) + "</div>", encoding="utf-8")
     print(f"report: {len(sums)} scenarios -> {REP}")
 
 

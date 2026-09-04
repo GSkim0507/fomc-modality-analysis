@@ -1,0 +1,3387 @@
+{
+ "S": "S6",
+ "U": "U1",
+ "name": "unfiltered 4 genres (v2-like)",
+ "layers": [
+  "statement",
+  "statement_vote",
+  "min_staff_desk",
+  "min_staff",
+  "min_participants",
+  "min_committee",
+  "min_special",
+  "min_front_matter",
+  "min_statement_quote",
+  "min_directive_quote",
+  "min_vote",
+  "min_sep",
+  "min_boilerplate",
+  "pc_chair",
+  "pc_journalist",
+  "pc_moderator",
+  "pc_pre",
+  "speech_chair"
+ ],
+ "unit": "modal",
+ "note": "비교용: 기자 발화·규정문·인용 성명서를 제거하지 않은 v2 방식.",
+ "blocks": {
+  "A": {
+   "main_layer": "statement",
+   "jsd_min": 1.0,
+   "jsd_max": 1.0,
+   "top_unit_per_modal": {
+    "will": "will",
+    "would": "would",
+    "could": "could",
+    "can": "can",
+    "should": "should",
+    "may": "may"
+   },
+   "top_share_per_modal": {
+    "will": 1.0,
+    "would": 1.0,
+    "could": 1.0,
+    "can": 1.0,
+    "should": 1.0,
+    "may": 1.0
+   }
+  },
+  "B": {
+   "T1": {
+    "top_units": [
+     "will",
+     "could",
+     "would",
+     "should",
+     "may",
+     "can"
+    ],
+    "n_meetings": 101,
+    "changepoints": [
+     {
+      "period": "T1",
+      "unit": "will",
+      "break_date": "2015-12-16",
+      "meeting_index": 15,
+      "share_before": 0.705,
+      "share_after": 0.89,
+      "direction": "up",
+      "nearest_event": "First hike (liftoff)",
+      "event_date": "2015-12-16",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "The Committee currently expects that, with gradual adjustments in the stance of monetary policy, economic activity will continue to expand at a moderate pace and labor market indicators will continue to strengthen.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T1",
+      "unit": "will",
+      "break_date": "2020-09-16",
+      "meeting_index": 55,
+      "share_before": 0.952,
+      "share_after": 0.753,
+      "direction": "down",
+      "nearest_event": "New framework",
+      "event_date": "2020-08-27",
+      "days_to_event": 20,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target ran"
+     },
+     {
+      "period": "T1",
+      "unit": "could",
+      "break_date": "2020-09-16",
+      "meeting_index": 55,
+      "share_before": 0.0,
+      "share_after": 0.116,
+      "direction": "up",
+      "nearest_event": "New framework",
+      "event_date": "2020-08-27",
+      "days_to_event": 20,
+      "within_1_meeting": true,
+      "sentence_after": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T1",
+      "unit": "would",
+      "break_date": "2020-09-16",
+      "meeting_index": 55,
+      "share_before": 0.0,
+      "share_after": 0.13,
+      "direction": "up",
+      "nearest_event": "New framework",
+      "event_date": "2020-08-27",
+      "days_to_event": 20,
+      "within_1_meeting": true,
+      "sentence_after": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T1",
+      "unit": "should",
+      "break_date": "2017-06-14",
+      "meeting_index": 27,
+      "share_before": 0.107,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "Normalization addendum",
+      "event_date": "2017-06-14",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+     },
+     {
+      "period": "T1",
+      "unit": "may",
+      "break_date": "2015-12-16",
+      "meeting_index": 15,
+      "share_before": 0.138,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "First hike (liftoff)",
+      "event_date": "2015-12-16",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Com"
+     },
+     {
+      "period": "T1",
+      "unit": "may",
+      "break_date": "2019-01-30",
+      "meeting_index": 40,
+      "share_before": 0.0,
+      "share_after": 0.094,
+      "direction": "up",
+      "nearest_event": "Mid-cycle cut",
+      "event_date": "2019-07-31",
+      "days_to_event": 182,
+      "within_1_meeting": false,
+      "sentence_after": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropria",
+      "sentence_before": ""
+     },
+     {
+      "period": "T1",
+      "unit": "may",
+      "break_date": "2019-07-31",
+      "meeting_index": 44,
+      "share_before": 0.094,
+      "share_after": 0.018,
+      "direction": "down",
+      "nearest_event": "Mid-cycle cut",
+      "event_date": "2019-07-31",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropria"
+     },
+     {
+      "period": "T1",
+      "unit": "may",
+      "break_date": "2023-03-22",
+      "meeting_index": 75,
+      "share_before": 0.0,
+      "share_after": 0.112,
+      "direction": "up",
+      "nearest_event": "Last hike",
+      "event_date": "2023-07-26",
+      "days_to_event": 126,
+      "within_1_meeting": false,
+      "sentence_after": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T1",
+      "unit": "may",
+      "break_date": "2024-01-31",
+      "meeting_index": 82,
+      "share_before": 0.112,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "Last hike",
+      "event_date": "2023-07-26",
+      "days_to_event": 189,
+      "within_1_meeting": false,
+      "sentence_after": "",
+      "sentence_before": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time."
+     },
+     {
+      "period": "T1",
+      "unit": "can",
+      "break_date": "2014-09-17",
+      "meeting_index": 5,
+      "share_before": 0.0,
+      "share_after": 0.033,
+      "direction": "up",
+      "nearest_event": "QE3 ends",
+      "event_date": "2014-10-29",
+      "days_to_event": 42,
+      "within_1_meeting": true,
+      "sentence_after": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T1",
+      "unit": "can",
+      "break_date": "2015-03-18",
+      "meeting_index": 9,
+      "share_before": 0.033,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "QE3 ends",
+      "event_date": "2014-10-29",
+      "days_to_event": 140,
+      "within_1_meeting": false,
+      "sentence_after": "",
+      "sentence_before": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy."
+     },
+     {
+      "period": "T1",
+      "unit": "can",
+      "break_date": "2020-01-29",
+      "meeting_index": 48,
+      "share_before": 0.0,
+      "share_after": 0.03,
+      "direction": "up",
+      "nearest_event": "Pandemic ZLB",
+      "event_date": "2020-03-15",
+      "days_to_event": 46,
+      "within_1_meeting": true,
+      "sentence_after": "More information can be found on the Federal Reserve Board's website .",
+      "sentence_before": ""
+     },
+     {
+      "period": "T1",
+      "unit": "can",
+      "break_date": "2020-04-29",
+      "meeting_index": 52,
+      "share_before": 0.03,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "Pandemic ZLB",
+      "event_date": "2020-03-15",
+      "days_to_event": 45,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "More information can be found on the Federal Reserve Board's website ."
+     }
+    ],
+    "n_cp": 14,
+    "cp_within_1_meeting_of_event": 10
+   },
+   "T3": {
+    "top_units": [
+     "will",
+     "could",
+     "would",
+     "should",
+     "may",
+     "can"
+    ],
+    "n_meetings": 133,
+    "changepoints": [
+     {
+      "period": "T3",
+      "unit": "will",
+      "break_date": "2012-06-20",
+      "meeting_index": 19,
+      "share_before": 0.984,
+      "share_after": 0.856,
+      "direction": "down",
+      "nearest_event": "QE3 ends",
+      "event_date": "2014-10-29",
+      "days_to_event": 861,
+      "within_1_meeting": false,
+      "sentence_after": "",
+      "sentence_before": "Inflation has moved up recently, but the Committee anticipates that inflation will subside to levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price "
+     },
+     {
+      "period": "T3",
+      "unit": "will",
+      "break_date": "2015-12-16",
+      "meeting_index": 47,
+      "share_before": 0.705,
+      "share_after": 0.89,
+      "direction": "up",
+      "nearest_event": "First hike (liftoff)",
+      "event_date": "2015-12-16",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "The Committee currently expects that, with gradual adjustments in the stance of monetary policy, economic activity will continue to expand at a moderate pace and labor market indicators will continue to strengthen.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "will",
+      "break_date": "2020-09-16",
+      "meeting_index": 87,
+      "share_before": 0.952,
+      "share_after": 0.753,
+      "direction": "down",
+      "nearest_event": "New framework",
+      "event_date": "2020-08-27",
+      "days_to_event": 20,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target ran"
+     },
+     {
+      "period": "T3",
+      "unit": "could",
+      "break_date": "2020-09-16",
+      "meeting_index": 87,
+      "share_before": 0.0,
+      "share_after": 0.116,
+      "direction": "up",
+      "nearest_event": "New framework",
+      "event_date": "2020-08-27",
+      "days_to_event": 20,
+      "within_1_meeting": true,
+      "sentence_after": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "would",
+      "break_date": "2020-09-16",
+      "meeting_index": 87,
+      "share_before": 0.0,
+      "share_after": 0.13,
+      "direction": "up",
+      "nearest_event": "New framework",
+      "event_date": "2020-08-27",
+      "days_to_event": 20,
+      "within_1_meeting": true,
+      "sentence_after": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "should",
+      "break_date": "2012-06-20",
+      "meeting_index": 19,
+      "share_before": 0.016,
+      "share_after": 0.115,
+      "direction": "up",
+      "nearest_event": "QE3 ends",
+      "event_date": "2014-10-29",
+      "days_to_event": 861,
+      "within_1_meeting": false,
+      "sentence_after": "This continuation of the maturity extension program should put downward pressure on longer-term interest rates and help to make broader financial conditions more accommodative.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "should",
+      "break_date": "2017-06-14",
+      "meeting_index": 59,
+      "share_before": 0.107,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "Normalization addendum",
+      "event_date": "2017-06-14",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+     },
+     {
+      "period": "T3",
+      "unit": "may",
+      "break_date": "2014-07-30",
+      "meeting_index": 36,
+      "share_before": 0.029,
+      "share_after": 0.114,
+      "direction": "up",
+      "nearest_event": "QE3 ends",
+      "event_date": "2014-10-29",
+      "days_to_event": 91,
+      "within_1_meeting": false,
+      "sentence_after": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Com",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "may",
+      "break_date": "2015-12-16",
+      "meeting_index": 47,
+      "share_before": 0.138,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "First hike (liftoff)",
+      "event_date": "2015-12-16",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Com"
+     },
+     {
+      "period": "T3",
+      "unit": "may",
+      "break_date": "2019-01-30",
+      "meeting_index": 72,
+      "share_before": 0.0,
+      "share_after": 0.094,
+      "direction": "up",
+      "nearest_event": "Mid-cycle cut",
+      "event_date": "2019-07-31",
+      "days_to_event": 182,
+      "within_1_meeting": false,
+      "sentence_after": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropria",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "may",
+      "break_date": "2019-07-31",
+      "meeting_index": 76,
+      "share_before": 0.094,
+      "share_after": 0.018,
+      "direction": "down",
+      "nearest_event": "Mid-cycle cut",
+      "event_date": "2019-07-31",
+      "days_to_event": 0,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropria"
+     },
+     {
+      "period": "T3",
+      "unit": "may",
+      "break_date": "2023-03-22",
+      "meeting_index": 107,
+      "share_before": 0.0,
+      "share_after": 0.112,
+      "direction": "up",
+      "nearest_event": "Last hike",
+      "event_date": "2023-07-26",
+      "days_to_event": 126,
+      "within_1_meeting": false,
+      "sentence_after": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "may",
+      "break_date": "2024-01-31",
+      "meeting_index": 114,
+      "share_before": 0.112,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "Last hike",
+      "event_date": "2023-07-26",
+      "days_to_event": 189,
+      "within_1_meeting": false,
+      "sentence_after": "",
+      "sentence_before": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time."
+     },
+     {
+      "period": "T3",
+      "unit": "can",
+      "break_date": "2014-09-17",
+      "meeting_index": 37,
+      "share_before": 0.0,
+      "share_after": 0.033,
+      "direction": "up",
+      "nearest_event": "QE3 ends",
+      "event_date": "2014-10-29",
+      "days_to_event": 42,
+      "within_1_meeting": true,
+      "sentence_after": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy.",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "can",
+      "break_date": "2015-03-18",
+      "meeting_index": 41,
+      "share_before": 0.033,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "QE3 ends",
+      "event_date": "2014-10-29",
+      "days_to_event": 140,
+      "within_1_meeting": false,
+      "sentence_after": "",
+      "sentence_before": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy."
+     },
+     {
+      "period": "T3",
+      "unit": "can",
+      "break_date": "2020-01-29",
+      "meeting_index": 80,
+      "share_before": 0.0,
+      "share_after": 0.03,
+      "direction": "up",
+      "nearest_event": "Pandemic ZLB",
+      "event_date": "2020-03-15",
+      "days_to_event": 46,
+      "within_1_meeting": true,
+      "sentence_after": "More information can be found on the Federal Reserve Board's website .",
+      "sentence_before": ""
+     },
+     {
+      "period": "T3",
+      "unit": "can",
+      "break_date": "2020-04-29",
+      "meeting_index": 84,
+      "share_before": 0.03,
+      "share_after": 0.0,
+      "direction": "down",
+      "nearest_event": "Pandemic ZLB",
+      "event_date": "2020-03-15",
+      "days_to_event": 45,
+      "within_1_meeting": true,
+      "sentence_after": "",
+      "sentence_before": "More information can be found on the Federal Reserve Board's website ."
+     }
+    ],
+    "n_cp": 17,
+    "cp_within_1_meeting_of_event": 10
+   }
+  },
+  "C": {
+   "half_life": {
+    "all": null,
+    "will": null,
+    "would": null,
+    "could": null,
+    "can": 1.0,
+    "should": 13.5,
+    "may": 4.0,
+    "modal_sentences": 4.479422766147513
+   },
+   "edit_events_by_year": {
+    "2014": {
+     "added": 2,
+     "removed": 1
+    },
+    "2015": {
+     "added": 0,
+     "removed": 2
+    },
+    "2016": {
+     "added": 0,
+     "removed": 0
+    },
+    "2017": {
+     "added": 1,
+     "removed": 2
+    },
+    "2018": {
+     "added": 0,
+     "removed": 0
+    },
+    "2019": {
+     "added": 1,
+     "removed": 1
+    },
+    "2020": {
+     "added": 4,
+     "removed": 2
+    },
+    "2021": {
+     "added": 1,
+     "removed": 1
+    },
+    "2022": {
+     "added": 0,
+     "removed": 0
+    },
+    "2023": {
+     "added": 1,
+     "removed": 0
+    },
+    "2024": {
+     "added": 0,
+     "removed": 1
+    },
+    "2025": {
+     "added": 0,
+     "removed": 0
+    },
+    "2026": {
+     "added": 0,
+     "removed": 0
+    }
+   },
+   "n_units": 6
+  },
+  "D": {
+   "chi2": 8953.42529415469,
+   "dof": 50,
+   "cramers_v": 0.274,
+   "n_layers": 11
+  },
+  "E": {
+   "kawamura": [
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.099,
+     "p": 0.3278,
+     "n": 99
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.026,
+     "p": 0.8,
+     "n": 99
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.158,
+     "p": 0.1359,
+     "n": 91
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.125,
+     "p": 0.2389,
+     "n": 91
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.095,
+     "p": 0.2764,
+     "n": 132
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.104,
+     "p": 0.2372,
+     "n": 132
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.08,
+     "p": 0.5899,
+     "n": 48
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H1",
+     "macro": "vix",
+     "rho": 0.132,
+     "p": 0.3711,
+     "n": 48
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.176,
+     "p": 0.2597,
+     "n": 43
+    },
+    {
+     "level": "genre",
+     "key": "minutes",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.027,
+     "p": 0.8649,
+     "n": 43
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.233,
+     "p": 0.0374,
+     "n": 80
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.315,
+     "p": 0.0044,
+     "n": 80
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.27,
+     "p": 0.0227,
+     "n": 71
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.276,
+     "p": 0.0198,
+     "n": 71
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.154,
+     "p": 0.1438,
+     "n": 92
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.318,
+     "p": 0.002,
+     "n": 92
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.392,
+     "p": 0.0094,
+     "n": 43
+    },
+    {
+     "level": "genre",
+     "key": "press_conf",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.244,
+     "p": 0.115,
+     "n": 43
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.096,
+     "p": 0.2906,
+     "n": 124
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.017,
+     "p": 0.8507,
+     "n": 124
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.074,
+     "p": 0.4246,
+     "n": 118
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.074,
+     "p": 0.4242,
+     "n": 118
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.131,
+     "p": 0.084,
+     "n": 174
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.008,
+     "p": 0.9209,
+     "n": 174
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": -0.156,
+     "p": 0.1872,
+     "n": 73
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.103,
+     "p": 0.3841,
+     "n": 73
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.04,
+     "p": 0.7922,
+     "n": 45
+    },
+    {
+     "level": "genre",
+     "key": "speech",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.031,
+     "p": 0.84,
+     "n": 45
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.047,
+     "p": 0.6392,
+     "n": 101
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.03,
+     "p": 0.7635,
+     "n": 101
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.086,
+     "p": 0.4183,
+     "n": 91
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.078,
+     "p": 0.4643,
+     "n": 91
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.067,
+     "p": 0.4435,
+     "n": 133
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.188,
+     "p": 0.0299,
+     "n": 133
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.197,
+     "p": 0.18,
+     "n": 48
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.374,
+     "p": 0.0089,
+     "n": 48
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.358,
+     "p": 0.0184,
+     "n": 43
+    },
+    {
+     "level": "genre",
+     "key": "statement",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.433,
+     "p": 0.0038,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.049,
+     "p": 0.632,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.02,
+     "p": 0.8432,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.023,
+     "p": 0.8308,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.061,
+     "p": 0.5643,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.066,
+     "p": 0.4574,
+     "n": 130
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.03,
+     "p": 0.7386,
+     "n": 130
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": -0.1,
+     "p": 0.501,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "H1",
+     "macro": "vix",
+     "rho": 0.052,
+     "p": 0.7254,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.113,
+     "p": 0.4687,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_boilerplate",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.05,
+     "p": 0.7485,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.009,
+     "p": 0.9261,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.122,
+     "p": 0.2303,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.019,
+     "p": 0.8556,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.098,
+     "p": 0.3542,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.101,
+     "p": 0.2492,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.097,
+     "p": 0.2695,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.179,
+     "p": 0.2223,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.114,
+     "p": 0.4414,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.223,
+     "p": 0.1509,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.18,
+     "p": 0.2482,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.267,
+     "p": 0.0076,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.187,
+     "p": 0.064,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.303,
+     "p": 0.0035,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.182,
+     "p": 0.0842,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.133,
+     "p": 0.1297,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.212,
+     "p": 0.015,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": -0.001,
+     "p": 0.9957,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "H1",
+     "macro": "vix",
+     "rho": 0.195,
+     "p": 0.1837,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.637,
+     "p": 0.0,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_directive_quote",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.578,
+     "p": 0.0,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.042,
+     "p": 0.6817,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.056,
+     "p": 0.583,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.045,
+     "p": 0.6729,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.008,
+     "p": 0.9369,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.09,
+     "p": 0.3049,
+     "n": 132
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.018,
+     "p": 0.8383,
+     "n": 132
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": -0.052,
+     "p": 0.7276,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.065,
+     "p": 0.6612,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.144,
+     "p": 0.3566,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_front_matter",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.32,
+     "p": 0.0364,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.091,
+     "p": 0.373,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.144,
+     "p": 0.1562,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.005,
+     "p": 0.9595,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.064,
+     "p": 0.5486,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.069,
+     "p": 0.4331,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.025,
+     "p": 0.7773,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.098,
+     "p": 0.5074,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.009,
+     "p": 0.9539,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.074,
+     "p": 0.6391,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.045,
+     "p": 0.773,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.196,
+     "p": 0.2246,
+     "n": 40
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.161,
+     "p": 0.3205,
+     "n": 40
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.21,
+     "p": 0.2182,
+     "n": 36
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.139,
+     "p": 0.4188,
+     "n": 36
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.273,
+     "p": 0.0576,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "min_special",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.033,
+     "p": 0.8237,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.075,
+     "p": 0.4586,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.333,
+     "p": 0.0008,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.092,
+     "p": 0.3861,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.361,
+     "p": 0.0004,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.058,
+     "p": 0.5082,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.393,
+     "p": 0.0,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.28,
+     "p": 0.0535,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.197,
+     "p": 0.1795,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.097,
+     "p": 0.5376,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.235,
+     "p": 0.1286,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.139,
+     "p": 0.17,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.139,
+     "p": 0.1699,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.161,
+     "p": 0.1262,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.119,
+     "p": 0.2593,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.135,
+     "p": 0.1235,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.113,
+     "p": 0.1999,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.14,
+     "p": 0.3411,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H1",
+     "macro": "vix",
+     "rho": 0.044,
+     "p": 0.7689,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.2,
+     "p": 0.1986,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.236,
+     "p": 0.1281,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.163,
+     "p": 0.1063,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.109,
+     "p": 0.2834,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.205,
+     "p": 0.0516,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.06,
+     "p": 0.5719,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.122,
+     "p": 0.164,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.084,
+     "p": 0.3389,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.18,
+     "p": 0.2201,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.395,
+     "p": 0.0054,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.561,
+     "p": 0.0001,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_statement_quote",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.494,
+     "p": 0.0008,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.224,
+     "p": 0.0255,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.187,
+     "p": 0.0644,
+     "n": 99
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.228,
+     "p": 0.0294,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.213,
+     "p": 0.0422,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.12,
+     "p": 0.1724,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.009,
+     "p": 0.9152,
+     "n": 131
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.09,
+     "p": 0.5436,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "H1",
+     "macro": "vix",
+     "rho": 0.082,
+     "p": 0.579,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.291,
+     "p": 0.058,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.199,
+     "p": 0.2002,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.216,
+     "p": 0.0538,
+     "n": 80
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.319,
+     "p": 0.004,
+     "n": 80
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.258,
+     "p": 0.0302,
+     "n": 71
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.297,
+     "p": 0.0118,
+     "n": 71
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.142,
+     "p": 0.1764,
+     "n": 92
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.293,
+     "p": 0.0047,
+     "n": 92
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.317,
+     "p": 0.0385,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "pc_chair",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.252,
+     "p": 0.1026,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.127,
+     "p": 0.2607,
+     "n": 80
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.014,
+     "p": 0.9001,
+     "n": 80
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.089,
+     "p": 0.4617,
+     "n": 71
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.035,
+     "p": 0.7749,
+     "n": 71
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.094,
+     "p": 0.3721,
+     "n": 92
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.063,
+     "p": 0.5524,
+     "n": 92
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.281,
+     "p": 0.068,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "pc_journalist",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.039,
+     "p": 0.8063,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.462,
+     "p": 0.0008,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.386,
+     "p": 0.0062,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.607,
+     "p": 0.0,
+     "n": 42
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.384,
+     "p": 0.012,
+     "n": 42
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.462,
+     "p": 0.0008,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "T3",
+     "macro": "vix",
+     "rho": 0.386,
+     "p": 0.0062,
+     "n": 49
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": 0.607,
+     "p": 0.0,
+     "n": 42
+    },
+    {
+     "level": "layer",
+     "key": "pc_moderator",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.384,
+     "p": 0.012,
+     "n": 42
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.096,
+     "p": 0.2906,
+     "n": 124
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.017,
+     "p": 0.8507,
+     "n": 124
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.074,
+     "p": 0.4246,
+     "n": 118
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.074,
+     "p": 0.4242,
+     "n": 118
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.131,
+     "p": 0.084,
+     "n": 174
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.008,
+     "p": 0.9209,
+     "n": 174
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": -0.156,
+     "p": 0.1872,
+     "n": 73
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.103,
+     "p": 0.3841,
+     "n": 73
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.04,
+     "p": 0.7922,
+     "n": 45
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "period": "H2",
+     "macro": "vix",
+     "rho": 0.031,
+     "p": 0.84,
+     "n": 45
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": -0.124,
+     "p": 0.2158,
+     "n": 101
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "T1",
+     "macro": "vix",
+     "rho": 0.061,
+     "p": 0.5425,
+     "n": 101
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": -0.178,
+     "p": 0.0909,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "T2",
+     "macro": "vix",
+     "rho": 0.045,
+     "p": 0.6729,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": -0.096,
+     "p": 0.2697,
+     "n": 133
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.116,
+     "p": 0.185,
+     "n": 133
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.175,
+     "p": 0.2351,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.405,
+     "p": 0.0043,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": -0.518,
+     "p": 0.0004,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "statement",
+     "period": "H2",
+     "macro": "vix",
+     "rho": -0.472,
+     "p": 0.0014,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "T1",
+     "macro": "cfnai",
+     "rho": 0.213,
+     "p": 0.0336,
+     "n": 100
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "T1",
+     "macro": "vix",
+     "rho": -0.061,
+     "p": 0.5465,
+     "n": 100
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "T2",
+     "macro": "cfnai",
+     "rho": 0.162,
+     "p": 0.125,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "T2",
+     "macro": "vix",
+     "rho": -0.121,
+     "p": 0.2521,
+     "n": 91
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "T3",
+     "macro": "cfnai",
+     "rho": 0.009,
+     "p": 0.9184,
+     "n": 132
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "T3",
+     "macro": "vix",
+     "rho": -0.044,
+     "p": 0.6143,
+     "n": 132
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "H1",
+     "macro": "cfnai",
+     "rho": 0.236,
+     "p": 0.1062,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "H1",
+     "macro": "vix",
+     "rho": -0.011,
+     "p": 0.9415,
+     "n": 48
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "H2",
+     "macro": "cfnai",
+     "rho": null,
+     "p": null,
+     "n": 43
+    },
+    {
+     "level": "layer",
+     "key": "statement_vote",
+     "period": "H2",
+     "macro": "vix",
+     "rho": null,
+     "p": null,
+     "n": 43
+    }
+   ],
+   "n_screen_rows": 1640,
+   "n_bh_hits_T1": 41,
+   "n_confirmed_vix": 9,
+   "n_confirmed_cfnai": 9,
+   "n_T1_only": 34,
+   "n_era_composition": 29,
+   "confirmed_top": [
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": -0.251,
+     "p_T1": 0.0122,
+     "rho_T2": -0.37,
+     "p_T2": 0.0003,
+     "rho_T3": -0.13,
+     "rho_H1": -0.415,
+     "rho_H2": -0.548,
+     "n_tokens_T1": 83,
+     "zero_share_T1": 0.293,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": -0.251,
+     "p_T1": 0.0122,
+     "rho_T2": -0.37,
+     "p_T2": 0.0003,
+     "rho_T3": -0.13,
+     "rho_H1": -0.415,
+     "rho_H2": -0.548,
+     "n_tokens_T1": 83,
+     "zero_share_T1": 0.293,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U1"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "ALL",
+     "macro": "vix",
+     "rho_T1": -0.333,
+     "p_T1": 0.0008,
+     "rho_T2": -0.361,
+     "p_T2": 0.0004,
+     "rho_T3": -0.393,
+     "rho_H1": -0.197,
+     "rho_H2": -0.235,
+     "n_tokens_T1": 539,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "would",
+     "macro": "vix",
+     "rho_T1": -0.229,
+     "p_T1": 0.0228,
+     "rho_T2": -0.32,
+     "p_T2": 0.002,
+     "rho_T3": -0.269,
+     "rho_H1": -0.262,
+     "rho_H2": -0.014,
+     "n_tokens_T1": 327,
+     "zero_share_T1": 0.071,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "would",
+     "macro": "vix",
+     "rho_T1": -0.229,
+     "p_T1": 0.0228,
+     "rho_T2": -0.32,
+     "p_T2": 0.002,
+     "rho_T3": -0.269,
+     "rho_H1": -0.262,
+     "rho_H2": -0.014,
+     "n_tokens_T1": 327,
+     "zero_share_T1": 0.071,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U1"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.257,
+     "p_T1": 0.0103,
+     "rho_T2": 0.304,
+     "p_T2": 0.0034,
+     "rho_T3": 0.27,
+     "rho_H1": 0.327,
+     "rho_H2": 0.278,
+     "n_tokens_T1": 719,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.257,
+     "p_T1": 0.0103,
+     "rho_T2": 0.304,
+     "p_T2": 0.0034,
+     "rho_T3": 0.27,
+     "rho_H1": 0.327,
+     "rho_H2": 0.278,
+     "n_tokens_T1": 719,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U1"
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.208,
+     "p_T1": 0.0391,
+     "rho_T2": 0.258,
+     "p_T2": 0.0134,
+     "rho_T3": 0.041,
+     "rho_H1": 0.156,
+     "rho_H2": 0.305,
+     "n_tokens_T1": 119,
+     "zero_share_T1": 0.051,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U1"
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.208,
+     "p_T1": 0.0391,
+     "rho_T2": 0.258,
+     "p_T2": 0.0134,
+     "rho_T3": 0.041,
+     "rho_H1": 0.156,
+     "rho_H2": 0.305,
+     "n_tokens_T1": 119,
+     "zero_share_T1": 0.051,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": 0.213,
+     "p_T1": 0.0344,
+     "rho_T2": 0.252,
+     "p_T2": 0.0161,
+     "rho_T3": 0.182,
+     "rho_H1": 0.241,
+     "rho_H2": 0.269,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": 0.213,
+     "p_T1": 0.0344,
+     "rho_T2": 0.252,
+     "p_T2": 0.0161,
+     "rho_T3": 0.182,
+     "rho_H1": 0.241,
+     "rho_H2": 0.269,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "U1"
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "unit": "should",
+     "macro": "vix",
+     "rho_T1": -0.239,
+     "p_T1": 0.0174,
+     "rho_T2": -0.244,
+     "p_T2": 0.0199,
+     "rho_T3": -0.292,
+     "rho_H1": -0.085,
+     "rho_H2": -0.155,
+     "n_tokens_T1": 149,
+     "zero_share_T1": 0.283,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true,
+     "unit_level": "modal"
+    }
+   ],
+   "confirmed_modal_level": [
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": -0.251,
+     "p_T1": 0.0122,
+     "rho_T2": -0.37,
+     "p_T2": 0.0003,
+     "rho_T3": -0.13,
+     "rho_H1": -0.415,
+     "rho_H2": -0.548,
+     "n_tokens_T1": 83,
+     "zero_share_T1": 0.293,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_committee",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.257,
+     "p_T1": 0.0103,
+     "rho_T2": 0.304,
+     "p_T2": 0.0034,
+     "rho_T3": 0.27,
+     "rho_H1": 0.327,
+     "rho_H2": 0.278,
+     "n_tokens_T1": 719,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_participants",
+     "unit": "should",
+     "macro": "vix",
+     "rho_T1": -0.239,
+     "p_T1": 0.0174,
+     "rho_T2": -0.244,
+     "p_T2": 0.0199,
+     "rho_T3": -0.292,
+     "rho_H1": -0.085,
+     "rho_H2": -0.155,
+     "n_tokens_T1": 149,
+     "zero_share_T1": 0.283,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "ALL",
+     "macro": "vix",
+     "rho_T1": -0.333,
+     "p_T1": 0.0008,
+     "rho_T2": -0.361,
+     "p_T2": 0.0004,
+     "rho_T3": -0.393,
+     "rho_H1": -0.197,
+     "rho_H2": -0.235,
+     "n_tokens_T1": 539,
+     "zero_share_T1": 0.0,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff",
+     "unit": "would",
+     "macro": "vix",
+     "rho_T1": -0.229,
+     "p_T1": 0.0228,
+     "rho_T2": -0.32,
+     "p_T2": 0.002,
+     "rho_T3": -0.269,
+     "rho_H1": -0.262,
+     "rho_H2": -0.014,
+     "n_tokens_T1": 327,
+     "zero_share_T1": 0.071,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "cfnai",
+     "rho_T1": 0.213,
+     "p_T1": 0.0344,
+     "rho_T2": 0.252,
+     "p_T2": 0.0161,
+     "rho_T3": 0.182,
+     "rho_H1": 0.241,
+     "rho_H2": 0.269,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_staff_desk",
+     "unit": "could",
+     "macro": "vix",
+     "rho_T1": 0.211,
+     "p_T1": 0.0358,
+     "rho_T2": 0.222,
+     "p_T2": 0.0347,
+     "rho_T3": 0.147,
+     "rho_H1": 0.125,
+     "rho_H2": 0.405,
+     "n_tokens_T1": 138,
+     "zero_share_T1": 0.434,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "unit": "ALL",
+     "macro": "cfnai",
+     "rho_T1": 0.224,
+     "p_T1": 0.0255,
+     "rho_T2": 0.228,
+     "p_T2": 0.0294,
+     "rho_T3": 0.12,
+     "rho_H1": 0.09,
+     "rho_H2": 0.291,
+     "n_tokens_T1": 166,
+     "zero_share_T1": 0.051,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "min_vote",
+     "unit": "would",
+     "macro": "cfnai",
+     "rho_T1": 0.208,
+     "p_T1": 0.0391,
+     "rho_T2": 0.258,
+     "p_T2": 0.0134,
+     "rho_T3": 0.041,
+     "rho_H1": 0.156,
+     "rho_H2": 0.305,
+     "n_tokens_T1": 119,
+     "zero_share_T1": 0.051,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    },
+    {
+     "level": "layer",
+     "key": "speech_chair",
+     "unit": "should",
+     "macro": "vix",
+     "rho_T1": -0.193,
+     "p_T1": 0.0321,
+     "rho_T2": -0.191,
+     "p_T2": 0.0387,
+     "rho_T3": -0.059,
+     "rho_H1": -0.039,
+     "rho_H2": -0.155,
+     "n_tokens_T1": 210,
+     "zero_share_T1": 0.452,
+     "T1_only": false,
+     "era_composition": false,
+     "confirmed": true
+    }
+   ]
+  },
+  "F": {
+   "counts": {
+    "could": {
+     "min_boilerplate": 0,
+     "min_committee": 0,
+     "min_participants": 7,
+     "min_special": 6,
+     "min_staff": 1,
+     "min_staff_desk": 0,
+     "min_statement_quote": 0,
+     "min_vote": 0,
+     "pc_chair": 5,
+     "pc_journalist": 1,
+     "speech_chair": 2,
+     "statement": 0,
+     "statement_vote": 0
+    },
+    "may": {
+     "min_boilerplate": 1,
+     "min_committee": 13,
+     "min_participants": 11,
+     "min_special": 4,
+     "min_staff": 0,
+     "min_staff_desk": 2,
+     "min_statement_quote": 10,
+     "min_vote": 0,
+     "pc_chair": 21,
+     "pc_journalist": 1,
+     "speech_chair": 6,
+     "statement": 10,
+     "statement_vote": 0
+    },
+    "will": {
+     "min_boilerplate": 0,
+     "min_committee": 7,
+     "min_participants": 2,
+     "min_special": 1,
+     "min_staff": 0,
+     "min_staff_desk": 1,
+     "min_statement_quote": 43,
+     "min_vote": 4,
+     "pc_chair": 105,
+     "pc_journalist": 2,
+     "speech_chair": 21,
+     "statement": 43,
+     "statement_vote": 4
+    },
+    "would": {
+     "min_boilerplate": 9,
+     "min_committee": 63,
+     "min_participants": 143,
+     "min_special": 23,
+     "min_staff": 0,
+     "min_staff_desk": 8,
+     "min_statement_quote": 0,
+     "min_vote": 1,
+     "pc_chair": 38,
+     "pc_journalist": 6,
+     "speech_chair": 11,
+     "statement": 0,
+     "statement_vote": 0
+    }
+   },
+   "table": [
+    {
+     "layer": "min_boilerplate",
+     "unit": "would+be+appropriate",
+     "n_tokens": 9,
+     "rho_cfnai_T1": 0.15,
+     "p_cfnai_T1": 0.1372,
+     "rho_vix_T1": -0.029,
+     "p_vix_T1": 0.7771,
+     "zero_T1": 0.91,
+     "rho_cfnai_T2": 0.164,
+     "p_cfnai_T2": 0.1199,
+     "rho_vix_T2": 0.006,
+     "p_vix_T2": 0.9563,
+     "zero_T2": 0.9
+    },
+    {
+     "layer": "min_committee",
+     "unit": "may+be+appropriate",
+     "n_tokens": 13,
+     "rho_cfnai_T1": -0.222,
+     "p_cfnai_T1": 0.0269,
+     "rho_vix_T1": -0.092,
+     "p_vix_T1": 0.3658,
+     "zero_T1": 0.89,
+     "rho_cfnai_T2": -0.253,
+     "p_cfnai_T2": 0.0156,
+     "rho_vix_T2": -0.058,
+     "p_vix_T2": 0.5824,
+     "zero_T2": 0.88
+    },
+    {
+     "layer": "min_committee",
+     "unit": "will+be+appropriate",
+     "n_tokens": 7,
+     "rho_cfnai_T1": -0.012,
+     "p_cfnai_T1": 0.9034,
+     "rho_vix_T1": -0.102,
+     "p_vix_T1": 0.3139,
+     "zero_T1": 0.93,
+     "rho_cfnai_T2": -0.099,
+     "p_cfnai_T2": 0.3495,
+     "rho_vix_T2": -0.155,
+     "p_vix_T2": 0.1425,
+     "zero_T2": 0.93
+    },
+    {
+     "layer": "min_committee",
+     "unit": "would+be+appropriate",
+     "n_tokens": 63,
+     "rho_cfnai_T1": 0.407,
+     "p_cfnai_T1": 0.0,
+     "rho_vix_T1": 0.373,
+     "p_vix_T1": 0.0001,
+     "zero_T1": 0.55,
+     "rho_cfnai_T2": 0.391,
+     "p_cfnai_T2": 0.0001,
+     "rho_vix_T2": 0.334,
+     "p_vix_T2": 0.0012,
+     "zero_T2": 0.56
+    },
+    {
+     "layer": "min_participants",
+     "unit": "may+be+appropriate",
+     "n_tokens": 11,
+     "rho_cfnai_T1": -0.154,
+     "p_cfnai_T1": 0.1276,
+     "rho_vix_T1": 0.022,
+     "p_vix_T1": 0.8306,
+     "zero_T1": 0.94,
+     "rho_cfnai_T2": -0.176,
+     "p_cfnai_T2": 0.0948,
+     "rho_vix_T2": 0.055,
+     "p_vix_T2": 0.6052,
+     "zero_T2": 0.93
+    },
+    {
+     "layer": "min_participants",
+     "unit": "would+be+appropriate",
+     "n_tokens": 143,
+     "rho_cfnai_T1": -0.053,
+     "p_cfnai_T1": 0.6042,
+     "rho_vix_T1": 0.21,
+     "p_vix_T1": 0.037,
+     "zero_T1": 0.23,
+     "rho_cfnai_T2": 0.006,
+     "p_cfnai_T2": 0.9575,
+     "rho_vix_T2": 0.154,
+     "p_vix_T2": 0.1443,
+     "zero_T2": 0.25
+    },
+    {
+     "layer": "min_special",
+     "unit": "would+be+appropriate",
+     "n_tokens": 23,
+     "rho_cfnai_T1": 0.289,
+     "p_cfnai_T1": 0.0709,
+     "rho_vix_T1": 0.217,
+     "p_vix_T1": 0.1787,
+     "zero_T1": 0.6,
+     "rho_cfnai_T2": 0.266,
+     "p_cfnai_T2": 0.1171,
+     "rho_vix_T2": 0.325,
+     "p_vix_T2": 0.0531,
+     "zero_T2": 0.56
+    },
+    {
+     "layer": "min_staff_desk",
+     "unit": "would+be+appropriate",
+     "n_tokens": 8,
+     "rho_cfnai_T1": -0.015,
+     "p_cfnai_T1": 0.8814,
+     "rho_vix_T1": 0.054,
+     "p_vix_T1": 0.5978,
+     "zero_T1": 0.95,
+     "rho_cfnai_T2": -0.018,
+     "p_cfnai_T2": 0.8619,
+     "rho_vix_T2": 0.089,
+     "p_vix_T2": 0.4028,
+     "zero_T2": 0.95
+    },
+    {
+     "layer": "min_statement_quote",
+     "unit": "may+be+appropriate",
+     "n_tokens": 10,
+     "rho_cfnai_T1": -0.218,
+     "p_cfnai_T1": 0.0303,
+     "rho_vix_T1": -0.069,
+     "p_vix_T1": 0.5002,
+     "zero_T1": 0.9,
+     "rho_cfnai_T2": -0.248,
+     "p_cfnai_T2": 0.0179,
+     "rho_vix_T2": -0.036,
+     "p_vix_T2": 0.7369,
+     "zero_T2": 0.89
+    },
+    {
+     "layer": "min_statement_quote",
+     "unit": "will+be+appropriate",
+     "n_tokens": 43,
+     "rho_cfnai_T1": 0.358,
+     "p_cfnai_T1": 0.0003,
+     "rho_vix_T1": 0.257,
+     "p_vix_T1": 0.0101,
+     "zero_T1": 0.61,
+     "rho_cfnai_T2": 0.291,
+     "p_cfnai_T2": 0.0052,
+     "rho_vix_T2": 0.283,
+     "p_vix_T2": 0.0065,
+     "zero_T2": 0.6
+    },
+    {
+     "layer": "pc_chair",
+     "unit": "may+be+appropriate",
+     "n_tokens": 21,
+     "rho_cfnai_T1": -0.122,
+     "p_cfnai_T1": 0.2799,
+     "rho_vix_T1": -0.09,
+     "p_vix_T1": 0.4249,
+     "zero_T1": 0.89,
+     "rho_cfnai_T2": -0.15,
+     "p_cfnai_T2": 0.2129,
+     "rho_vix_T2": -0.044,
+     "p_vix_T2": 0.7154,
+     "zero_T2": 0.87
+    },
+    {
+     "layer": "pc_chair",
+     "unit": "will+be+appropriate",
+     "n_tokens": 105,
+     "rho_cfnai_T1": 0.203,
+     "p_cfnai_T1": 0.0711,
+     "rho_vix_T1": -0.053,
+     "p_vix_T1": 0.6378,
+     "zero_T1": 0.42,
+     "rho_cfnai_T2": 0.122,
+     "p_cfnai_T2": 0.3101,
+     "rho_vix_T2": 0.01,
+     "p_vix_T2": 0.932,
+     "zero_T2": 0.39
+    },
+    {
+     "layer": "pc_chair",
+     "unit": "would+be+appropriate",
+     "n_tokens": 38,
+     "rho_cfnai_T1": -0.016,
+     "p_cfnai_T1": 0.8858,
+     "rho_vix_T1": -0.135,
+     "p_vix_T1": 0.2322,
+     "zero_T1": 0.69,
+     "rho_cfnai_T2": 0.012,
+     "p_cfnai_T2": 0.9228,
+     "rho_vix_T2": -0.072,
+     "p_vix_T2": 0.5491,
+     "zero_T2": 0.68
+    },
+    {
+     "layer": "speech_chair",
+     "unit": "will+be+appropriate",
+     "n_tokens": 21,
+     "rho_cfnai_T1": 0.047,
+     "p_cfnai_T1": 0.6046,
+     "rho_vix_T1": -0.033,
+     "p_vix_T1": 0.7157,
+     "zero_T1": 0.86,
+     "rho_cfnai_T2": -0.013,
+     "p_cfnai_T2": 0.8879,
+     "rho_vix_T2": -0.046,
+     "p_vix_T2": 0.6179,
+     "zero_T2": 0.86
+    },
+    {
+     "layer": "speech_chair",
+     "unit": "would+be+appropriate",
+     "n_tokens": 11,
+     "rho_cfnai_T1": -0.01,
+     "p_cfnai_T1": 0.9122,
+     "rho_vix_T1": -0.043,
+     "p_vix_T1": 0.6368,
+     "zero_T1": 0.94,
+     "rho_cfnai_T2": -0.024,
+     "p_cfnai_T2": 0.8004,
+     "rho_vix_T2": -0.025,
+     "p_vix_T2": 0.7871,
+     "zero_T2": 0.94
+    },
+    {
+     "layer": "statement",
+     "unit": "may+be+appropriate",
+     "n_tokens": 10,
+     "rho_cfnai_T1": -0.216,
+     "p_cfnai_T1": 0.0302,
+     "rho_vix_T1": -0.077,
+     "p_vix_T1": 0.4419,
+     "zero_T1": 0.9,
+     "rho_cfnai_T2": -0.248,
+     "p_cfnai_T2": 0.0178,
+     "rho_vix_T2": -0.037,
+     "p_vix_T2": 0.7308,
+     "zero_T2": 0.89
+    },
+    {
+     "layer": "statement",
+     "unit": "will+be+appropriate",
+     "n_tokens": 43,
+     "rho_cfnai_T1": 0.364,
+     "p_cfnai_T1": 0.0002,
+     "rho_vix_T1": 0.235,
+     "p_vix_T1": 0.018,
+     "zero_T1": 0.61,
+     "rho_cfnai_T2": 0.295,
+     "p_cfnai_T2": 0.0045,
+     "rho_vix_T2": 0.287,
+     "p_vix_T2": 0.0058,
+     "zero_T2": 0.6
+    }
+   ]
+  },
+  "G": {
+   "peaks_T2": [
+    {
+     "key": "minutes",
+     "unit": "ALL",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -9,
+     "r": 0.237,
+     "rho": 0.324
+    },
+    {
+     "key": "minutes",
+     "unit": "could",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 6,
+     "r": -0.454,
+     "rho": -0.314
+    },
+    {
+     "key": "minutes",
+     "unit": "could",
+     "period": "T2",
+     "macro": "vix",
+     "k": 5,
+     "r": 0.392,
+     "rho": 0.246
+    },
+    {
+     "key": "minutes",
+     "unit": "may",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 1,
+     "r": -0.213,
+     "rho": -0.233
+    },
+    {
+     "key": "minutes",
+     "unit": "may",
+     "period": "T2",
+     "macro": "vix",
+     "k": -1,
+     "r": -0.199,
+     "rho": -0.263
+    },
+    {
+     "key": "minutes",
+     "unit": "should",
+     "period": "T2",
+     "macro": "vix",
+     "k": -4,
+     "r": -0.263,
+     "rho": -0.186
+    },
+    {
+     "key": "minutes",
+     "unit": "will",
+     "period": "T2",
+     "macro": "vix",
+     "k": -1,
+     "r": -0.351,
+     "rho": -0.428
+    },
+    {
+     "key": "minutes",
+     "unit": "would",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -7,
+     "r": 0.231,
+     "rho": 0.393
+    },
+    {
+     "key": "press_conf",
+     "unit": "ALL",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 1,
+     "r": 0.418,
+     "rho": 0.259
+    },
+    {
+     "key": "press_conf",
+     "unit": "ALL",
+     "period": "T2",
+     "macro": "vix",
+     "k": -8,
+     "r": 0.302,
+     "rho": 0.272
+    },
+    {
+     "key": "press_conf",
+     "unit": "can",
+     "period": "T2",
+     "macro": "vix",
+     "k": 7,
+     "r": 0.454,
+     "rho": 0.411
+    },
+    {
+     "key": "press_conf",
+     "unit": "could",
+     "period": "T2",
+     "macro": "vix",
+     "k": 1,
+     "r": -0.414,
+     "rho": -0.408
+    },
+    {
+     "key": "press_conf",
+     "unit": "may",
+     "period": "T2",
+     "macro": "vix",
+     "k": 7,
+     "r": -0.29,
+     "rho": -0.239
+    },
+    {
+     "key": "press_conf",
+     "unit": "should",
+     "period": "T2",
+     "macro": "vix",
+     "k": -9,
+     "r": -0.236,
+     "rho": -0.247
+    },
+    {
+     "key": "press_conf",
+     "unit": "will",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -3,
+     "r": 0.347,
+     "rho": 0.32
+    },
+    {
+     "key": "press_conf",
+     "unit": "will",
+     "period": "T2",
+     "macro": "vix",
+     "k": -4,
+     "r": 0.441,
+     "rho": 0.357
+    },
+    {
+     "key": "press_conf",
+     "unit": "would",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": 9,
+     "r": 0.251,
+     "rho": 0.182
+    },
+    {
+     "key": "press_conf",
+     "unit": "would",
+     "period": "T2",
+     "macro": "vix",
+     "k": 8,
+     "r": -0.248,
+     "rho": -0.24
+    },
+    {
+     "key": "speech",
+     "unit": "could",
+     "period": "T2",
+     "macro": "vix",
+     "k": 1,
+     "r": -0.213,
+     "rho": -0.207
+    },
+    {
+     "key": "speech",
+     "unit": "should",
+     "period": "T2",
+     "macro": "cfnai",
+     "k": -9,
+     "r": 0.146,
+     "rho": 0.267
+    }
+   ],
+   "granger_text_to_macro_q10": []
+  }
+ },
+ "corpus": [
+  {
+   "layer": "statement",
+   "label": "Statement",
+   "n_docs": 101,
+   "tokens": 41906,
+   "six_modal_tokens": 770,
+   "per_1k": 18.37
+  },
+  {
+   "layer": "statement_vote",
+   "label": "Statement (vote line)",
+   "n_docs": 100,
+   "tokens": 5441,
+   "six_modal_tokens": 10,
+   "per_1k": 1.84
+  },
+  {
+   "layer": "min_staff_desk",
+   "label": "Minutes: Desk/markets (staff)",
+   "n_docs": 99,
+   "tokens": 71942,
+   "six_modal_tokens": 553,
+   "per_1k": 7.69
+  },
+  {
+   "layer": "min_staff",
+   "label": "Minutes: staff review & outlook",
+   "n_docs": 99,
+   "tokens": 249885,
+   "six_modal_tokens": 539,
+   "per_1k": 2.16
+  },
+  {
+   "layer": "min_participants",
+   "label": "Minutes: participants' views",
+   "n_docs": 99,
+   "tokens": 223992,
+   "six_modal_tokens": 2756,
+   "per_1k": 12.3
+  },
+  {
+   "layer": "min_committee",
+   "label": "Minutes: Committee policy action",
+   "n_docs": 99,
+   "tokens": 62833,
+   "six_modal_tokens": 958,
+   "per_1k": 15.25
+  },
+  {
+   "layer": "min_special",
+   "label": "Minutes: special topics",
+   "n_docs": 40,
+   "tokens": 40777,
+   "six_modal_tokens": 783,
+   "per_1k": 19.2
+  },
+  {
+   "layer": "min_front_matter",
+   "label": "Minutes: front matter",
+   "n_docs": 99,
+   "tokens": 59650,
+   "six_modal_tokens": 78,
+   "per_1k": 1.31
+  },
+  {
+   "layer": "min_statement_quote",
+   "label": "Minutes: quoted statement",
+   "n_docs": 99,
+   "tokens": 40613,
+   "six_modal_tokens": 761,
+   "per_1k": 18.74
+  },
+  {
+   "layer": "min_directive_quote",
+   "label": "Minutes: quoted directive",
+   "n_docs": 99,
+   "tokens": 22084,
+   "six_modal_tokens": 102,
+   "per_1k": 4.62
+  },
+  {
+   "layer": "min_vote",
+   "label": "Minutes: vote & post-vote",
+   "n_docs": 99,
+   "tokens": 16987,
+   "six_modal_tokens": 166,
+   "per_1k": 9.77
+  },
+  {
+   "layer": "min_sep",
+   "label": "Minutes: SEP addendum",
+   "n_docs": 0,
+   "tokens": 0,
+   "six_modal_tokens": 0,
+   "per_1k": 0.0
+  },
+  {
+   "layer": "min_boilerplate",
+   "label": "Minutes: authorizations/boilerplate",
+   "n_docs": 99,
+   "tokens": 65197,
+   "six_modal_tokens": 376,
+   "per_1k": 5.77
+  },
+  {
+   "layer": "pc_chair",
+   "label": "Press conf.: Chair",
+   "n_docs": 80,
+   "tokens": 533106,
+   "six_modal_tokens": 10686,
+   "per_1k": 20.04
+  },
+  {
+   "layer": "pc_journalist",
+   "label": "Press conf.: journalists",
+   "n_docs": 80,
+   "tokens": 138373,
+   "six_modal_tokens": 2452,
+   "per_1k": 17.72
+  },
+  {
+   "layer": "pc_moderator",
+   "label": "Press conf.: moderator",
+   "n_docs": 49,
+   "tokens": 1981,
+   "six_modal_tokens": 83,
+   "per_1k": 41.9
+  },
+  {
+   "layer": "pc_pre",
+   "label": "Press conf.: pre-marker",
+   "n_docs": 2,
+   "tokens": 18,
+   "six_modal_tokens": 0,
+   "per_1k": 0.0
+  },
+  {
+   "layer": "speech_chair",
+   "label": "Chair speech",
+   "n_docs": 124,
+   "tokens": 234853,
+   "six_modal_tokens": 3203,
+   "per_1k": 13.64
+  }
+ ],
+ "runtime_s": 9.5
+}
