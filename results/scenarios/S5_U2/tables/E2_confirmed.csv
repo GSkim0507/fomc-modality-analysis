@@ -4,7 +4,7 @@ genre,minutes,ALL,vix,0.066,0.5132,-0.008,0.9406,-0.065,0.215,-0.022,5589,0.0,Fa
 genre,minutes,can,cfnai,0.012,0.9029,0.11,0.2994,0.055,0.03,0.197,39,0.727,False,False,False,modal
 genre,minutes,can,vix,0.133,0.189,0.152,0.1495,0.096,0.175,0.286,39,0.727,False,False,False,modal
 genre,minutes,could,cfnai,-0.081,0.4281,-0.098,0.3572,-0.049,-0.061,-0.087,1511,0.0,False,False,False,modal
-genre,minutes,could,vix,0.219,0.0293,0.225,0.0317,0.092,0.341,-0.043,1511,0.0,True,True,False,modal
+genre,minutes,could,vix,0.219,0.0293,0.225,0.0317,0.092,0.341,-0.043,1511,0.0,False,True,False,modal
 genre,minutes,may,cfnai,-0.092,0.3646,-0.031,0.7722,-0.031,0.192,-0.168,314,0.101,False,False,False,modal
 genre,minutes,may,vix,-0.232,0.0208,-0.176,0.0951,-0.329,0.158,-0.558,314,0.101,True,False,False,modal
 genre,minutes,should,cfnai,0.012,0.9044,0.064,0.5478,0.042,-0.006,0.082,324,0.091,False,False,False,modal
@@ -16,7 +16,7 @@ genre,minutes,would,vix,0.145,0.1518,0.031,0.7724,0.043,-0.025,0.271,3234,0.0,Fa
 layer,min_committee,ALL,cfnai,0.009,0.9261,-0.019,0.8556,0.101,0.179,-0.223,958,0.0,False,False,False,modal
 layer,min_committee,ALL,vix,0.122,0.2303,0.098,0.3542,0.097,-0.114,-0.18,958,0.0,False,False,False,modal
 layer,min_committee,could,cfnai,-0.251,0.0122,-0.37,0.0003,-0.13,-0.415,-0.548,83,0.293,False,False,True,modal
-layer,min_committee,could,vix,0.245,0.0144,0.337,0.0011,0.255,0.19,-0.12,83,0.293,True,True,False,modal
+layer,min_committee,could,vix,0.245,0.0144,0.337,0.0011,0.255,0.19,-0.12,83,0.293,False,True,False,modal
 layer,min_committee,should,cfnai,-0.136,0.1794,-0.187,0.0755,-0.075,-0.277,-0.116,85,0.455,False,False,False,modal
 layer,min_committee,should,vix,-0.022,0.8306,0.087,0.4135,-0.079,0.185,-0.143,85,0.455,False,False,False,modal
 layer,min_committee,will,cfnai,-0.159,0.115,-0.232,0.0266,-0.154,-0.247,-0.227,37,0.778,False,False,False,modal
@@ -38,7 +38,7 @@ layer,min_special,ALL,vix,-0.161,0.3205,-0.139,0.4188,-0.033,,,783,0.0,False,Fal
 layer,min_special,could,cfnai,0.053,0.7439,0.204,0.2325,0.138,,,283,0.2,False,False,False,modal
 layer,min_special,could,vix,0.293,0.0664,0.278,0.1009,0.315,,,283,0.2,False,False,False,modal
 layer,min_special,should,cfnai,0.28,0.0797,0.259,0.1266,0.318,,,58,0.325,False,False,False,modal
-layer,min_special,should,vix,0.325,0.0409,0.443,0.0068,0.337,,,58,0.325,True,True,False,modal
+layer,min_special,should,vix,0.325,0.0409,0.443,0.0068,0.337,,,58,0.325,False,True,False,modal
 layer,min_special,will,cfnai,0.114,0.4847,0.108,0.5301,0.104,,,49,0.625,False,False,False,modal
 layer,min_special,will,vix,-0.061,0.7102,-0.097,0.575,-0.034,,,49,0.625,False,False,False,modal
 layer,min_special,would,cfnai,0.049,0.7663,-0.081,0.6404,0.011,,,344,0.0,False,False,False,modal
@@ -48,7 +48,7 @@ layer,min_staff,ALL,vix,-0.333,0.0008,-0.361,0.0004,-0.393,-0.197,-0.235,539,0.0
 layer,min_staff,could,cfnai,-0.014,0.8903,-0.041,0.6998,-0.002,0.238,-0.296,132,0.364,False,False,False,modal
 layer,min_staff,could,vix,-0.266,0.0078,-0.204,0.0525,-0.305,-0.108,-0.337,132,0.364,True,False,False,modal
 layer,min_staff,may,cfnai,0.013,0.9022,0.049,0.6442,-0.007,0.251,-0.094,57,0.535,False,False,False,modal
-layer,min_staff,may,vix,-0.255,0.0109,-0.227,0.0302,-0.267,0.107,-0.285,57,0.535,True,True,False,modal
+layer,min_staff,may,vix,-0.255,0.0109,-0.227,0.0302,-0.267,0.107,-0.285,57,0.535,False,True,False,modal
 layer,min_staff,would,cfnai,0.128,0.2073,0.177,0.0928,0.104,0.231,0.128,327,0.071,False,False,False,modal
 layer,min_staff,would,vix,-0.229,0.0228,-0.32,0.002,-0.269,-0.262,-0.014,327,0.071,False,False,True,modal
 layer,min_staff_desk,ALL,cfnai,0.139,0.17,0.161,0.1262,0.135,0.14,0.2,553,0.152,False,False,False,modal
@@ -70,7 +70,7 @@ genre,minutes,could+have,vix,-0.003,0.9728,-0.006,0.9514,-0.058,0.01,-0.041,37,0
 genre,minutes,could+help,cfnai,-0.103,0.3122,-0.041,0.6969,-0.084,-0.183,0.064,52,0.596,False,False,False,U2
 genre,minutes,could+help,vix,0.032,0.755,0.046,0.662,0.003,0.054,0.085,52,0.596,False,False,False,U2
 genre,minutes,could+impede,cfnai,-0.008,0.9381,-0.111,0.295,0.022,,-0.19,52,0.525,False,False,False,U2
-genre,minutes,could+impede,vix,0.362,0.0002,0.403,0.0001,0.252,,-0.366,52,0.525,True,True,False,U2
+genre,minutes,could+impede,vix,0.362,0.0002,0.403,0.0001,0.252,,-0.366,52,0.525,False,True,False,U2
 genre,minutes,could+increase,cfnai,0.155,0.1245,0.221,0.0354,0.162,0.219,0.259,47,0.596,False,False,False,U2
 genre,minutes,could+increase,vix,-0.176,0.0812,-0.181,0.0859,-0.162,-0.279,0.264,47,0.596,False,False,False,U2
 genre,minutes,could+lead,cfnai,0.125,0.2159,0.065,0.5391,0.095,0.21,-0.108,69,0.525,False,False,False,U2
@@ -88,7 +88,7 @@ genre,minutes,would+be+consistent,vix,-0.049,0.6275,0.034,0.7459,-0.012,0.181,-0
 genre,minutes,would+be+important,cfnai,-0.018,0.8626,0.11,0.2991,0.023,0.253,0.022,52,0.586,False,False,False,U2
 genre,minutes,would+be+important,vix,0.183,0.0699,0.103,0.333,0.121,-0.014,0.072,52,0.586,False,False,False,U2
 genre,minutes,would+be+prepared,cfnai,-0.105,0.2994,-0.199,0.0587,-0.048,0.237,-0.568,49,0.505,False,False,False,U2
-genre,minutes,would+be+prepared,vix,0.314,0.0016,0.366,0.0004,0.218,0.027,-0.484,49,0.505,True,True,False,U2
+genre,minutes,would+be+prepared,vix,0.314,0.0016,0.366,0.0004,0.218,0.027,-0.484,49,0.505,False,True,False,U2
 genre,minutes,would+continue,cfnai,-0.077,0.4501,-0.122,0.251,-0.018,-0.36,0.194,256,0.091,False,False,False,U2
 genre,minutes,would+continue,vix,0.224,0.0256,0.134,0.207,0.166,-0.054,-0.176,256,0.091,True,False,False,U2
 genre,minutes,would+depend,cfnai,0.496,0.0,0.503,0.0,0.419,0.582,0.474,117,0.404,False,False,True,U2
@@ -120,7 +120,7 @@ genre,minutes,would+take,vix,0.299,0.0026,0.282,0.0068,0.098,0.035,0.175,123,0.1
 genre,minutes,would+warrant,cfnai,0.134,0.1864,0.136,0.1994,0.08,-0.127,0.386,43,0.677,False,False,False,U2
 genre,minutes,would+warrant,vix,-0.195,0.0532,-0.142,0.1806,-0.153,-0.045,0.168,43,0.677,False,False,False,U2
 layer,min_committee,could+impede,cfnai,-0.105,0.3003,-0.211,0.0449,-0.038,,-0.544,46,0.535,False,False,False,U2
-layer,min_committee,could+impede,vix,0.38,0.0001,0.46,0.0,0.258,,-0.099,46,0.535,True,True,False,U2
+layer,min_committee,could+impede,vix,0.38,0.0001,0.46,0.0,0.258,,-0.099,46,0.535,False,True,False,U2
 layer,min_committee,may+be+appropriate,cfnai,-0.222,0.0269,-0.253,0.0156,-0.167,-0.224,-0.249,13,0.889,False,False,False,U2
 layer,min_committee,may+be+appropriate,vix,-0.092,0.3658,-0.058,0.5824,-0.078,0.07,-0.378,13,0.889,False,False,False,U2
 layer,min_committee,will+be+appropriate,cfnai,-0.012,0.9034,-0.099,0.3495,-0.054,-0.171,-0.044,7,0.929,False,False,False,U2
@@ -130,13 +130,13 @@ layer,min_committee,would+assess,vix,-0.045,0.6608,-0.082,0.442,-0.137,-0.07,-0.
 layer,min_committee,would+be+appropriate,cfnai,0.407,0.0,0.391,0.0001,0.4,0.22,0.538,63,0.545,False,False,True,U2
 layer,min_committee,would+be+appropriate,vix,0.373,0.0001,0.334,0.0012,0.289,0.148,0.38,63,0.545,False,False,True,U2
 layer,min_committee,would+be+prepared,cfnai,-0.105,0.3003,-0.211,0.0449,-0.038,,-0.544,46,0.535,False,False,False,U2
-layer,min_committee,would+be+prepared,vix,0.38,0.0001,0.46,0.0,0.258,,-0.099,46,0.535,True,True,False,U2
+layer,min_committee,would+be+prepared,vix,0.38,0.0001,0.46,0.0,0.258,,-0.099,46,0.535,False,True,False,U2
 layer,min_committee,would+continue,cfnai,-0.105,0.2993,-0.11,0.2979,-0.085,-0.142,-0.028,109,0.222,False,False,False,U2
 layer,min_committee,would+continue,vix,0.5,0.0,0.451,0.0,0.322,0.055,0.08,109,0.222,False,False,True,U2
 layer,min_committee,would+depend,cfnai,0.427,0.0,0.402,0.0001,0.365,0.601,0.336,51,0.586,False,False,True,U2
-layer,min_committee,would+depend,vix,-0.252,0.0118,-0.346,0.0008,-0.243,-0.266,0.135,51,0.586,True,True,False,U2
+layer,min_committee,would+depend,vix,-0.252,0.0118,-0.346,0.0008,-0.243,-0.266,0.135,51,0.586,False,True,False,U2
 layer,min_committee,would+take,cfnai,-0.174,0.0846,-0.13,0.2188,-0.087,0.046,-0.346,86,0.172,False,False,False,U2
-layer,min_committee,would+take,vix,0.278,0.0054,0.295,0.0045,0.092,-0.043,0.058,86,0.172,True,True,False,U2
+layer,min_committee,would+take,vix,0.278,0.0054,0.295,0.0045,0.092,-0.043,0.058,86,0.172,False,True,False,U2
 layer,min_participants,could+be+appropriate,cfnai,-0.022,0.8263,-0.025,0.8136,0.0,-0.237,0.049,7,0.929,False,False,False,U2
 layer,min_participants,could+be+appropriate,vix,0.215,0.0324,0.262,0.0121,0.179,0.111,0.251,7,0.929,False,False,False,U2
 layer,min_participants,could+lead,cfnai,0.152,0.1327,0.097,0.3625,0.089,0.127,0.04,57,0.586,False,False,False,U2

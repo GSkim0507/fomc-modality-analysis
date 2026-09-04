@@ -383,7 +383,8 @@ def confirmed_table(scr: pd.DataFrame):
         out.append(dict(level=idx[0], key=idx[1], unit=idx[2], macro=idx[3], rho_T1=round(r1, 3), p_T1=round(p1, 4), rho_T2=round(r2, 3), p_T2=round(p2, 4),
                         rho_T3=(round(r3, 3) if not pd.isna(r3) else np.nan), rho_H1=(round(rh1, 3) if not pd.isna(rh1) else np.nan), rho_H2=(round(rh2, 3) if not pd.isna(rh2) else np.nan),
                         n_tokens_T1=int(row[("n_tokens", "T1")]), zero_share_T1=row[("zero_share", "T1")],
-                        T1_only=bool(e1 and p1 < .05 and not conf), era_composition=bool(e1 and e2 and p1 < .05 and p2 < .05 and np.sign(r1) == np.sign(r2) and not halves_ok),
+                        T1_only=bool(e1 and p1 < .05 and not (e2 and p2 < .05 and np.sign(r1) == np.sign(r2))),
+                        era_composition=bool(e1 and e2 and p1 < .05 and p2 < .05 and np.sign(r1) == np.sign(r2) and not halves_ok),
                         confirmed=bool(conf)))
     return pd.DataFrame(out)
 
@@ -397,11 +398,14 @@ def block_E(tk, dl, out, summary, U, macro):
     ser_genre_u = unit_series(tk, dl, "genre")
     ser_m = pd.concat([ser_layer_m, ser_genre_m], ignore_index=True); ser_u = pd.concat([ser_layer_u, ser_genre_u], ignore_index=True)
     scr_m = screen(ser_m, macro); scr_m["unit_level"] = "modal"
-    scr_u = screen(ser_u[ser_u.unit != "ALL"], macro); scr_u["unit_level"] = U
+    if U == "U1":   # unit == modal: avoid double-counting the modal-level screen
+        scr_u = scr_m.iloc[0:0].copy()
+    else:
+        scr_u = screen(ser_u[ser_u.unit != "ALL"], macro); scr_u["unit_level"] = U
     scr = pd.concat([scr_m, scr_u], ignore_index=True)
     scr.round(4).to_csv(out / "tables" / "E1_screen.csv", index=False)
     conf_m = confirmed_table(scr_m); conf_u = confirmed_table(scr_u)
-    conf = pd.concat([conf_m.assign(unit_level="modal"), conf_u.assign(unit_level=U)], ignore_index=True) if len(conf_u) or len(conf_m) else pd.DataFrame()
+    conf = pd.concat([conf_m.assign(unit_level="modal"), conf_u.assign(unit_level=U)], ignore_index=True) if (len(conf_u) or len(conf_m)) else pd.DataFrame()
     if len(conf): conf.to_csv(out / "tables" / "E2_confirmed.csv", index=False)
     # Kawamura test: aggregate density (ALL) per genre / layer vs CFNAI and VIX
     kaw = scr_m[(scr_m.unit == "ALL")].copy()

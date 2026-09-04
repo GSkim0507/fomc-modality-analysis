@@ -63,22 +63,20 @@
 - Kawamura 검정(총 조동사 밀도 × CFNAI, Spearman): minutes T1 ρ=0.099 (p=0.3278); minutes T2 ρ=0.158 (p=0.1359); minutes T3 ρ=0.095 (p=0.2764); press_conf T1 ρ=0.233 (p=0.0374); press_conf T2 ρ=0.27 (p=0.0227); press_conf T3 ρ=0.154 (p=0.1438); speech T1 ρ=-0.096 (p=0.2906); speech T2 ρ=-0.074 (p=0.4246); speech T3 ρ=-0.131 (p=0.084); statement T1 ρ=-0.047 (p=0.6392); statement T2 ρ=-0.086 (p=0.4183); statement T3 ρ=-0.067 (p=0.4435)
 - 반기별 유의(총 밀도): press_conf × cfnai H2 ρ=0.392 (p=0.0094); statement × vix H1 ρ=-0.374 (p=0.0089); statement × cfnai H2 ρ=-0.358 (p=0.0184); statement × vix H2 ρ=-0.433 (p=0.0038)
 - 총 조동사 밀도 × VIX: minutes T1 ρ=-0.026 (p=0.8); minutes T2 ρ=-0.125 (p=0.2389); minutes T3 ρ=-0.104 (p=0.2372); press_conf T1 ρ=0.315 (p=0.0044); press_conf T2 ρ=0.276 (p=0.0198); press_conf T3 ρ=0.318 (p=0.002); speech T1 ρ=-0.017 (p=0.8507); speech T2 ρ=-0.074 (p=0.4242); speech T3 ρ=-0.008 (p=0.9209); statement T1 ρ=-0.03 (p=0.7635); statement T2 ρ=-0.078 (p=0.4643); statement T3 ρ=-0.188 (p=0.0299)
-- 전수 스크린 1640행(층위 수준 집계): T1 BH q<.05 적중 41; **확정**(T1·T2 유의·동부호 + 2014–19/2021–26 반기 동부호) VIX 9건 / CFNAI 9건; T1에서만 유의(2020 의존) 34건; T1·T2 유의하나 반기 부호 불일치(시대 구성 효과) 29건
+- 전수 스크린 914행(층위 수준 집계): T1 BH q<.05 적중 23; **확정**(T1·T2 유의·동부호 + 2014–19/2021–26 반기 동부호) VIX 5건 / CFNAI 5건; T1에서만 유의(2020 의존) 3건; T1·T2 유의하나 반기 부호 불일치(시대 구성 효과) 16건
 
 | 층위 | 단위 | 거시 | ρ T1 | ρ excl-2020 | ρ 2010– | ρ 2014–19 | ρ 2021–26 | 토큰 |
 |---|---|---|---:|---:|---:|---:|---:|---:|
-| min_committee | could | cfnai | -0.251 | -0.37 | -0.13 | -0.415 | -0.548 | 83 |
-| min_committee | could | cfnai | -0.251 | -0.37 | -0.13 | -0.415 | -0.548 | 83 |
-| min_staff | ALL | vix | -0.333 | -0.361 | -0.393 | -0.197 | -0.235 | 539 |
-| min_staff | would | vix | -0.229 | -0.32 | -0.269 | -0.262 | -0.014 | 327 |
-| min_staff | would | vix | -0.229 | -0.32 | -0.269 | -0.262 | -0.014 | 327 |
-| min_committee | would | cfnai | 0.257 | 0.304 | 0.27 | 0.327 | 0.278 | 719 |
-| min_committee | would | cfnai | 0.257 | 0.304 | 0.27 | 0.327 | 0.278 | 719 |
-| min_vote | would | cfnai | 0.208 | 0.258 | 0.041 | 0.156 | 0.305 | 119 |
-| min_vote | would | cfnai | 0.208 | 0.258 | 0.041 | 0.156 | 0.305 | 119 |
-| min_staff_desk | could | cfnai | 0.213 | 0.252 | 0.182 | 0.241 | 0.269 | 138 |
-| min_staff_desk | could | cfnai | 0.213 | 0.252 | 0.182 | 0.241 | 0.269 | 138 |
-| min_participants | should | vix | -0.239 | -0.244 | -0.292 | -0.085 | -0.155 | 149 |
+| min_committee | could | cfnai | -0.251 | -0.37 | -0.13 | -0.415 | -0.548 | 83.0 |
+| min_staff | ALL | vix | -0.333 | -0.361 | -0.393 | -0.197 | -0.235 | 539.0 |
+| min_staff | would | vix | -0.229 | -0.32 | -0.269 | -0.262 | -0.014 | 327.0 |
+| min_committee | would | cfnai | 0.257 | 0.304 | 0.27 | 0.327 | 0.278 | 719.0 |
+| min_vote | would | cfnai | 0.208 | 0.258 | 0.041 | 0.156 | 0.305 | 119.0 |
+| min_staff_desk | could | cfnai | 0.213 | 0.252 | 0.182 | 0.241 | 0.269 | 138.0 |
+| min_participants | should | vix | -0.239 | -0.244 | -0.292 | -0.085 | -0.155 | 149.0 |
+| min_vote | ALL | cfnai | 0.224 | 0.228 | 0.12 | 0.09 | 0.291 | 166.0 |
+| min_staff_desk | could | vix | 0.211 | 0.222 | 0.147 | 0.125 | 0.405 | 138.0 |
+| speech_chair | should | vix | -0.193 | -0.191 | -0.059 | -0.039 | -0.155 | 210.0 |
 
 ## X-F will/would + be appropriate
 

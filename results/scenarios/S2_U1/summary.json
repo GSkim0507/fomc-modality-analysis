@@ -963,12 +963,12 @@
      "n": 43
     }
    ],
-   "n_screen_rows": 360,
-   "n_bh_hits_T1": 16,
+   "n_screen_rows": 200,
+   "n_bh_hits_T1": 6,
    "n_confirmed_vix": 0,
-   "n_confirmed_cfnai": 4,
-   "n_T1_only": 6,
-   "n_era_composition": 6,
+   "n_confirmed_cfnai": 2,
+   "n_T1_only": 0,
+   "n_era_composition": 3,
    "confirmed_top": [
     {
      "level": "layer",
@@ -982,46 +982,8 @@
      "rho_T3": -0.13,
      "rho_H1": -0.415,
      "rho_H2": -0.548,
-     "n_tokens_T1": 83,
+     "n_tokens_T1": 83.0,
      "zero_share_T1": 0.293,
-     "T1_only": false,
-     "era_composition": false,
-     "confirmed": true,
-     "unit_level": "modal"
-    },
-    {
-     "level": "layer",
-     "key": "min_committee",
-     "unit": "could",
-     "macro": "cfnai",
-     "rho_T1": -0.251,
-     "p_T1": 0.0122,
-     "rho_T2": -0.37,
-     "p_T2": 0.0003,
-     "rho_T3": -0.13,
-     "rho_H1": -0.415,
-     "rho_H2": -0.548,
-     "n_tokens_T1": 83,
-     "zero_share_T1": 0.293,
-     "T1_only": false,
-     "era_composition": false,
-     "confirmed": true,
-     "unit_level": "U1"
-    },
-    {
-     "level": "layer",
-     "key": "min_committee",
-     "unit": "would",
-     "macro": "cfnai",
-     "rho_T1": 0.257,
-     "p_T1": 0.0103,
-     "rho_T2": 0.304,
-     "p_T2": 0.0034,
-     "rho_T3": 0.27,
-     "rho_H1": 0.327,
-     "rho_H2": 0.278,
-     "n_tokens_T1": 719,
-     "zero_share_T1": 0.0,
      "T1_only": false,
      "era_composition": false,
      "confirmed": true,
@@ -1039,12 +1001,12 @@
      "rho_T3": 0.27,
      "rho_H1": 0.327,
      "rho_H2": 0.278,
-     "n_tokens_T1": 719,
+     "n_tokens_T1": 719.0,
      "zero_share_T1": 0.0,
      "T1_only": false,
      "era_composition": false,
      "confirmed": true,
-     "unit_level": "U1"
+     "unit_level": "modal"
     }
    ],
    "confirmed_modal_level": [
@@ -1293,5 +1255,5 @@
    "per_1k": 15.25
   }
  ],
- "runtime_s": 3.8
+ "runtime_s": 3.7
 }
