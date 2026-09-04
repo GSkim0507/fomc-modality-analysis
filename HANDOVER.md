@@ -73,6 +73,18 @@
 - `experiments/common.py`의 동사 의미 부류 사전(VERB_CLASS)은 저자 정의. Biber et al.(1999) 원 분류표와 대조 검토 필요.
 
 ## 7. 실행 방법(재현)
+
+### v3 (Phase 10–12, 2026-09-04~)
+```bash
+.venv/bin/python experiments/10_build_corpus_v3.py     # ~3.5분: corpus_docs_v3.csv, corpus_sentences_v3.csv (layer 열), results/qa/build_v3_log.json
+.venv/bin/python experiments/11_extract_modals_v3.py   # ~7분: modal_tokens_v3.csv (01의 추출 규칙 재사용 + layer/section/speaker)
+.venv/bin/python experiments/12_qa_integrity.py        # results/qa/QA_report.md + 검증 표본 CSV
+.venv/bin/python experiments/13_run_scenarios.py --corpus all --unit all   # results/scenarios/<S>_<U>/ (18개)
+.venv/bin/python experiments/14_build_report.py        # results/report/*.html, report_all.html(단일 파일)
+```
+층위·시나리오 정의는 `experiments/common_v3.py`. 거시 지표 근거는 `docs/10`. v2 스크립트(00–09)는 보존.
+
+### v2 (Phase 6–9)
 ```bash
 .venv/bin/python experiments/00_build_corpus.py      # ~4분: results/tables/corpus_{docs,sentences}.csv
 .venv/bin/python experiments/01_extract_modals.py    # ~6분: results/tables/modal_tokens.csv
