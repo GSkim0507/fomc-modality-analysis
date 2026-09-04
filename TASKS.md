@@ -111,3 +111,4 @@
 - [x] 15.1 `experiments/24_build_report_v3.py` 보고서 빌더(본문 마크다운 + 표·그림 삽입 태그 → HTML; 부록 시나리오 페이지 자동 생성)
 - [x] 15.2 본문 작성(요약·서론/가설·데이터·설계·결과 A 코퍼스 언어학·결과 B 계량경제·전 조합 비교·가설 판정·논의·한계·부록)
 - [x] 15.3 렌더·검토·아티팩트 게시(로컬 `results/report_v3/`)
+- [x] 15.4 문서 HTML 변환기 `experiments/25_md_to_html.py` (docs/12 → docs/html/)

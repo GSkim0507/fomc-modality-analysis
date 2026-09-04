@@ -48,6 +48,7 @@
 | 2026-09-04 | 14.1–14.6 | 전면 재실험 프로그램 구현: docs/12 설계(가설 H1–H5, 코퍼스 24종 × 단위 3종), experiments/20(공통: 코퍼스 열거·pmw/CI/DP·키니스·HAC·BH·MK·PELT), 21(L1–L9), 22(E1–E9 + 가설 판정), 23(실행기, 멀티프로세스). 스모크 테스트 9 run 전부 오류 0. **판단**: 위원회 층 총밀도의 1차 차분 회귀에서 ΔCFNAI −0.27***가 나왔으나 2020 제외 시 소멸(−1.9, p=.19) → 스펙 (8) 'Δ 2020 제외'를 E3·E4·E9에 추가하고 H3 판정은 수준·차분 모두 2020 제외에서도 유의할 때만 '지지'. 전체 72 run 실행 개시 | experiments/20–23, results/program/ |
 | 2026-09-04 | 14.6 | 전체 72 run 실행. **문제·판단**: 4 워커 × 멀티스레드 BLAS 과다 구독으로 run당 20s → 최대 1,617s로 폭증(34 run에 55분) → 워커를 중지하고 23에 BLAS 단일 스레드 환경변수와 `--skip-existing`을 추가해 잔여 38 run을 112s에 완료. E7 사건 연구가 연설 단독 코퍼스(C13)에서 같은 날짜의 연설 중복으로 실패 → 날짜별 평균으로 수정 후 재실행. 최종 72 run 오류 0 | results/program/*, results/qa/program*.stderr |
 | 2026-09-04 | 15 | 실험 결과보고서 HTML: 본문 paper/report_v3_program.md(요약·가설·데이터·설계·결과 A L1–L9·결과 B E1–E9·72 run 비교·가설 판정·논의·한계) + 빌더 24(표·그림 삽입 태그, run별 부록 페이지 72개). **72 run 판정 분포**: H1 지지 39/해당없음 33, H2 지지 60/해당없음 12, **H3 기각 72**, H4 지지 37/부분 26/기각 9, H5 기각 64/지지 8(경계). 본문 수치는 C11_U2 표로 검증(추세 τ, 회귀 계수, 사건 창, be appropriate 계수 등 5건 정정) | results/report_v3/index.html, run_*.html, paper/report_v3_program.md |
+| 2026-09-04 | 15+ | 범용 문서 변환기 experiments/25_md_to_html.py 추가(보고서 스타일시트 재사용). docs/12 설계 명세를 docs/html/12_experiment_program_v3.html로 변환·게시 | docs/html/ |
 
 ### ⚠ 2026-08-31 레포 삭제·재생성 사건
 - Phase 9.1–9.3 푸시 시 GitHub 레포(airlab-tsw/fomc-modality-analysis)가 원격에서 존재하지 않음(404). airlab-tsw·GSkim0507 계정 어디에도 이름 변경/이전 흔적 없음 → 삭제된 것으로 판단.

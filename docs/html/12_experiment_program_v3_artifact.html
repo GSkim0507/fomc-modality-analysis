@@ -1,0 +1,207 @@
+<title>12. 전면 재실험 프로그램 v3 — 설계 명세 (Phase 14)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Serif+KR:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{--bg:#F2F4F6;--surface:#FFFFFF;--ink:#1A222C;--muted:#5A6572;--line:#D6DCE3;--accent:#24507A;--accent-ink:#FFFFFF;--warn:#A8501F;--ok:#2C6E5C;--tint:#E6EEF6;--hl:#FFF4DC;
+--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;--body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--display:"Noto Serif KR","Apple Myungjo",Georgia,serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--accent-ink:#0F1B27;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A;--hl:#3A3120}}
+:root[data-theme="dark"]{--bg:#11161C;--surface:#181F27;--ink:#E5EAF0;--muted:#98A5B3;--line:#2C3640;--accent:#7FB0E0;--accent-ink:#0F1B27;--warn:#E0955F;--ok:#6FBFA8;--tint:#1E2B3A;--hl:#3A3120}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1200px;margin:0 auto;padding:36px 24px 96px}.layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px;align-items:start}
+aside.toc{position:sticky;top:20px;max-height:calc(100vh - 40px);overflow:auto;font-size:13px;line-height:1.5}
+aside.toc .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+aside.toc a{display:block;color:var(--ink);text-decoration:none;padding:3px 0 3px 10px;border-left:2px solid var(--line)}aside.toc a.l2{padding-left:20px;color:var(--muted);font-size:12.5px}
+aside.toc a:hover{color:var(--accent);border-left-color:var(--accent)}main{min-width:0}
+header.masthead{padding-bottom:22px;border-bottom:2px solid var(--ink);margin-bottom:26px}.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+header h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,3.6vw,34px);line-height:1.25;margin:8px 0 6px;text-wrap:balance;border:none;padding:0}
+header .sub{font-size:16px;color:var(--muted);margin:0 0 12px;max-width:72ch}.chips{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+h1{font-family:var(--display);font-weight:600;font-size:23px;line-height:1.3;margin:54px 0 14px;padding-top:18px;border-top:1px solid var(--line);text-wrap:balance;scroll-margin-top:16px}
+h2{font-size:17px;font-weight:600;margin:32px 0 10px;scroll-margin-top:16px}h3{font-size:15px;font-weight:600;margin:22px 0 8px}
+p{max-width:76ch;margin:0 0 14px}ul,ol{max-width:76ch;padding-left:22px;margin:0 0 14px}li{margin:5px 0}li>p{margin:0}
+code{font-family:var(--mono);font-size:.88em;background:var(--tint);padding:1px 5px;border-radius:3px}pre{background:var(--tint);padding:12px 14px;border-radius:6px;overflow-x:auto;font-size:13px}pre code{background:none;padding:0}
+hr{border:none;border-top:1px solid var(--line);margin:32px 0}blockquote{border-left:3px solid var(--accent);margin:14px 0;padding:8px 16px;background:var(--surface)}
+.summary{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin:0 0 10px}.summary h1{border:none;padding:0;margin:0 0 12px;font-size:20px}.summary p,.summary ul,.summary ol{max-width:none}
+.reco{background:var(--accent);color:var(--accent-ink);padding:14px 18px;border-radius:6px;margin-top:6px}.reco strong,.reco em{color:inherit}
+.tw{overflow-x:auto;margin:12px 0 20px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}.tw .cap{font-size:12.5px;color:var(--muted);padding:8px 11px 0}
+table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5}th,td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{font-weight:600;background:var(--tint);white-space:nowrap}
+tr:last-child td{border-bottom:none}td.n,th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}tr.reco td{background:var(--hl)}
+.pill{display:inline-block;padding:0 7px;border-radius:9px;font-family:var(--mono);font-size:11px;background:var(--tint)}.pill.ok{background:var(--ok);color:#fff}.pill.warn{background:var(--warn);color:#fff}.pill.na{opacity:.6}
+figure{margin:18px 0 26px}figure img{max-width:100%;border:1px solid var(--line);border-radius:4px;background:#fff;display:block}figcaption{font-size:12.5px;color:var(--muted);margin-top:6px;max-width:84ch}
+.small{font-size:13px;color:var(--muted)}a{color:var(--accent)}details{margin:10px 0}summary{cursor:pointer;font-weight:600}
+@media (max-width:900px){.layout{grid-template-columns:1fr}aside.toc{position:static;max-height:none;display:flex;flex-wrap:wrap;gap:4px 12px;border-bottom:1px solid var(--line);padding-bottom:12px}aside.toc a{border:none;padding:2px 0}aside.toc a.l2{display:none}aside.toc .lbl{width:100%}}
+@media print{body{background:#fff;color:#000}.wrap{padding:0}.layout{display:block}aside.toc{display:none}.tw{overflow:visible;border:none}}
+</style>
+<div class='wrap'><div class='layout'><aside class='toc'><div class='lbl'>목차</div><a class='l2' href='#1-연구질문과-가설'>1. 연구질문과 가설</a><a class='l2' href='#2-코퍼스-조합-전수'>2. 코퍼스 조합 (전수)</a><a class='l2' href='#3-실험군-l-코퍼스-언어학'>3. 실험군 L — 코퍼스 언어학</a><a class='l2' href='#4-실험군-e-계량경제'>4. 실험군 E — 계량경제</a><a class='l2' href='#5-확정-규칙-d15-계승'>5. 확정 규칙 (D15 계승)</a><a class='l2' href='#6-보고서-양식-phase-15'>6. 보고서 양식 (Phase 15)</a></aside><main><header class='masthead'><div class='eyebrow'>FOMC modal constructions · experiment results report · docs/12_experiment_program_v3.md</div><h1>12. 전면 재실험 프로그램 v3 — 설계 명세 (Phase 14)</h1><p class='sub'></p><div class='chips'><span>코퍼스 v3 · 층위 18종</span><span>코퍼스 정의 24 × 단위 3 = 72 run</span><span>실험군 L1–L9 · E1–E9</span><span>local git @ 59d6467</span></div></header><blockquote>
+<p>사용자 지시(2026-09-04, D17–D19): 기존 실험이 없다고 보고 정제 데이터(v3)로 <strong>가능한 모든 코퍼스 조합</strong>에 대해 실험을 완전히 다시 수행하고, <strong>코퍼스 언어학·경제학 각각의 실험 결과보고서 관행</strong>을 따른 HTML 보고서를 만든다. 코드: <code>experiments/20–24</code>. 산출: <code>results/program/&lt;코퍼스&gt;_&lt;단위&gt;/</code>, 보고서 <code>results/report_v3/</code>.</p>
+</blockquote>
+<h2 id='1-연구질문과-가설'>1. 연구질문과 가설</h2>
+<p><strong>RQ.</strong> FOMC 커뮤니케이션의 조동사(구문)는 경제 상황을 설명하는가?</p>
+<div class='tw'><table>
+<thead>
+<tr>
+<th>가설</th>
+<th>내용</th>
+<th>검정 위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H1 편집 가설</td>
+<td>성명서의 조동사 분포 변화는 정책 사건에 따른 정형문의 삽입·삭제(계단)로 설명된다</td>
+<td>L3 변화점·L5 정형성·E7 사건 연구</td>
+</tr>
+<tr>
+<td>H2 층위 분업 가설</td>
+<td>층위(장르 × 귀속)마다 조동사·구문 프로파일이 유의하게 다르다</td>
+<td>L2 키니스·χ²·L7 다항로짓</td>
+</tr>
+<tr>
+<td>H3 반경기 가설 (Kawamura)</td>
+<td>조동사 밀도는 실물 활동(CFNAI)과 음의 관계</td>
+<td>E3 회귀·E9 재현</td>
+</tr>
+<tr>
+<td>H4 불확실성 가설</td>
+<td>조동사(구문) 밀도는 불확실성(VIX)과 양의 관계이며, 편집되지 않은 층에서만 성립</td>
+<td>E3·E4·E5 확정 ledger</td>
+</tr>
+<tr>
+<td>H5 선행성 가설</td>
+<td>텍스트 지표가 거시 변수를 선행한다</td>
+<td>E6 CCF·Granger·예측 회귀</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id='2-코퍼스-조합-전수'>2. 코퍼스 조합 (전수)</h2>
+<p>성명서 {포함, 제외} × 의사록 {없음, 위원회 층만(C), 실질 층 전부(S)} × 기자회견 {없음, 의장 발화만} × 연설 {포함, 제외} = 24 − 공집합 1 = <strong>23개</strong>, 여기에 비교용 <strong>미정제 전체(v2 방식, 기자·규정문·인용 성명서 포함)</strong> 1개 = <strong>24개 코퍼스 정의</strong>. 이전 라벨 S1–S6은 별칭으로 유지(S1 = 성명서만, S2 = 성명서+위원회 층, S3 = 성명서+의사록 실질 층, S4 = 4장르 정제, S5 = 의사록만, S6 = 미정제).</p>
+<p>분석 단위 3종: U1 조동사, U2 구문(modal + predicate), U3 조동사 + 동사 의미 부류. → <strong>72회 실행</strong>.</p>
+<p>기간·정규화는 각 표 안의 열: T1 2014–2026, T2 2020 제외, T3 2010–2026, H1 2014–2019, H2 2021–2026; N1 밀도(per 1k, pmw 병기), N2 점유율, N3 문서당 수.</p>
+<h2 id='3-실험군-l-코퍼스-언어학'>3. 실험군 L — 코퍼스 언어학</h2>
+<div class='tw'><table>
+<thead>
+<tr>
+<th>블록</th>
+<th>내용</th>
+<th>통계</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L1 코퍼스 기술</td>
+<td>층위별 문서·토큰·조동사 수, pmw와 95% CI, 연도별 pmw, 문서 간 분산(Gries DP)</td>
+<td>Poisson CI, DP</td>
+</tr>
+<tr>
+<td>L2 키니스·층위 분업</td>
+<td>층위 vs 나머지의 조동사·구문 키니스; 층위 × 조동사 χ², Cramér's V, 표준화 잔차</td>
+<td>log-likelihood G², log ratio, %DIFF, χ²</td>
+</tr>
+<tr>
+<td>L3 통시</td>
+<td>층위·조동사별 연도 pmw; 회의 단위 추세(Mann–Kendall τ, Sen 기울기); 성명서 변화점(PELT, 점유율·밀도)과 원인 문장; 계단 그림</td>
+<td>MK, PELT</td>
+</tr>
+<tr>
+<td>L4 연어·구문</td>
+<td>조동사별 서술어 프로파일; distinctive collexeme(Fisher exact, G²); 조동사 간 JSD; 의미 부류 분포; KWIC 용례</td>
+<td>Fisher, G², JSD</td>
+</tr>
+<tr>
+<td>L5 정형성(성명서)</td>
+<td>정형 문장 비율(연도), 구문 코호트 Kaplan–Meier 생존, 보유율 반감기, 편집 이벤트와 책임 문장</td>
+<td>KM, 보유율</td>
+</tr>
+<tr>
+<td>L6 문법 맥락·의미 유형</td>
+<td>부정·수동·완료·진행·조건·인용·의문·축약·주어 유형·의미 유형(epistemic/deontic/dynamic 휴리스틱) 비율, 조동사 × 자질 χ²</td>
+<td>χ²</td>
+</tr>
+<tr>
+<td>L7 다항로짓</td>
+<td>조동사 선택 ~ 층위 + 시기 + 주어 유형 + 조건 + 인용 (기준 will), 유사 R²</td>
+<td>MNLogit</td>
+</tr>
+<tr>
+<td>L8 be appropriate</td>
+<td>will/would/may/could + be appropriate: 층위 × 연도, 용례</td>
+<td>—</td>
+</tr>
+<tr>
+<td>L9 대조</td>
+<td>의장(Yellen/Powell) 대조, 정책 국면 대조</td>
+<td>χ²</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id='4-실험군-e-계량경제'>4. 실험군 E — 계량경제</h2>
+<div class='tw'><table>
+<thead>
+<tr>
+<th>블록</th>
+<th>내용</th>
+<th>통계</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E1 기술통계</td>
+<td>거시 변수와 텍스트 지표(층위별 총밀도·조동사 밀도)의 평균·SD·최소·최대·N·AR(1)·제로 회의 비율</td>
+<td>—</td>
+</tr>
+<tr>
+<td>E2 상관</td>
+<td>Pearson·Spearman × {CFNAI, VIX} × {T1,T2,T3,H1,H2}, 층위·장르</td>
+<td>—</td>
+</tr>
+<tr>
+<td>E3 회귀 스펙 표</td>
+<td>종속 = 밀도(per 1k). (1) CFNAI (2) VIX (3) CFNAI+VIX (4) +실업률갭+근원PCE갭 (5) +2020-09 이후 더미 (6) 2020 제외 (7) 1차 차분(Kawamura 강건성)</td>
+<td>OLS, Newey–West HAC(4), 별표, N, R²</td>
+</tr>
+<tr>
+<td>E4 구문 회귀</td>
+<td>층위별 사전 지정 구문(상위 8 + be appropriate 계열)에 스펙 (3)(6)(7)</td>
+<td>HAC</td>
+</tr>
+<tr>
+<td>E5 전수 스크린·ledger</td>
+<td>모든 단위 × 층위 × 거시 × 기간; BH-FDR; 확정/2020 의존/시대 구성 분류</td>
+<td>Spearman, BH</td>
+</tr>
+<tr>
+<td>E6 선행성</td>
+<td>CCF k = −9…+9(월별 거시); Granger 1–3 lag 양방향; 예측 회귀 CFNAI(m+3)·ΔVIX(후 28일) ~ 거시 + 텍스트, ΔR²·p, BH</td>
+<td>HAC, F</td>
+</tr>
+<tr>
+<td>E7 사건 연구</td>
+<td>정책 사건 ±3회의 창의 텍스트 밀도, ±6개월 창의 CFNAI·VIX</td>
+<td>—</td>
+</tr>
+<tr>
+<td>E8 강건성</td>
+<td>CFNAI 래그 1, 회의 간 VIX, 점유율·문서당 수 종속, 2010 확장, 반기</td>
+<td>—</td>
+</tr>
+<tr>
+<td>E9 Kawamura 재현</td>
+<td>장르·층위 총밀도와 헤징 조동사군(would/could/may/might) vs 약속군(will): 수준·1차 차분, VIX 통제 유무</td>
+<td>HAC</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id='5-확정-규칙-d15-계승'>5. 확정 규칙 (D15 계승)</h2>
+<p>Spearman T1·T2 모두 p &lt; .05·동부호, H1·H2 반기 동부호, 토큰 ≥ 40, 제로 회의 ≤ 60% → <strong>확정</strong>. T1에서만 유의 → <strong>2020 의존</strong>. T1·T2 유의하나 반기 부호 불일치 → <strong>시대 구성</strong>.</p>
+<h2 id='6-보고서-양식-phase-15'>6. 보고서 양식 (Phase 15)</h2>
+<ol>
+<li>표지·요약(Executive summary: 목적·데이터·설계·핵심 결과 표·결론)</li>
+<li>서론: RQ, H1–H5</li>
+<li>데이터: 코퍼스 구축·층위·정제·정규화·QA·신뢰도</li>
+<li>설계: 조합·단위·기간·지표·통계 방법·확정 규칙</li>
+<li>결과 A — 코퍼스 언어학 (L1–L9): 표(pmw·CI·LL·효과크기·collexeme·KWIC) + 그림 + 해석</li>
+<li>결과 B — 계량경제 (E1–E9): 기술통계표, 스펙별 회귀표(계수·(SE)·별표·N·R²), 강건성표, Granger·사건연구, ledger</li>
+<li>전 조합 비교 격자(24 × 3)와 각 축의 효과</li>
+<li>가설 판정표(H1–H5 × 조합)</li>
+<li>논의: 교수님 질문(will/would), Kawamura, 함의</li>
+<li>한계·검증 필요·다음 단계; 부록: 조합별 상세 페이지, 재현</li>
+</ol>
+</main></div></div>
