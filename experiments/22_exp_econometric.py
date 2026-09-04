@@ -314,7 +314,7 @@ BLOCKS = [E1_descriptives, E2_correlations, E3_regressions, E4_construction_regr
 def hypotheses(ctx) -> dict:
     s = ctx.summary; H = {}
     st = s.get("L3", {}).get("staircase_T1"); hl = s.get("L5", {}).get("half_life", {}).get("all")
-    if st: H["H1"] = dict(verdict=("지지" if st["n_cp"] > 0 and st["n_cp_event"] >= 0.5 * st["n_cp"] else "부분"), evidence=f"변화점 {st['n_cp']}개 중 사건 ±1회의 {st['n_cp_event']}개; 보유율 반감기 {hl if hl else '≥24'}")
+    if st: H["H1"] = dict(verdict=("지지" if st["n_cp"] > 0 and st["n_cp_event"] >= 0.5 * st["n_cp"] else "부분"), evidence=f"변화점 {st['n_cp']}개 중 사건 ±1회의 {st['n_cp_event']}개; 보유율 반감기 {('%.1f회의' % hl) if hl else '≥24회의'}")
     else: H["H1"] = dict(verdict="해당 없음", evidence="성명서 층 없음")
     l2 = s.get("L2", {})
     H["H2"] = dict(verdict=("지지" if l2.get("cramers_v") and l2["p"] < .001 and l2["cramers_v"] >= 0.1 else ("해당 없음" if not l2.get("cramers_v") else "기각")), evidence=(f"χ²={l2.get('chi2')}, V={l2.get('cramers_v')}" if l2.get("cramers_v") else "층위 1개"))
@@ -328,5 +328,5 @@ def hypotheses(ctx) -> dict:
     nonst = sum(r["n"] for r in byl if r["macro"] == "vix" and r["key"] != "statement")
     H["H4"] = dict(verdict=("지지" if (nonst >= 1 and stv == 0) else ("부분" if nv >= 1 else "기각")), evidence=f"확정 VIX 단위 {nv} (비성명서 층 {nonst}, 성명서 층 {stv})")
     e6 = s.get("E6", {}); n_g = len(e6.get("granger_q10", [])); n_p = len(e6.get("predictive_q10", []))
-    H["H5"] = dict(verdict=("지지" if (n_g or n_p) else "기각"), evidence=f"Granger text→macro q<.10: {n_g}건 (최소 q={e6.get('granger_min_q')}); 예측 회귀 q<.10: {n_p}/{e6.get('n_predictive')} (최소 q={e6.get('predictive_min_q')})")
+    H["H5"] = dict(verdict=("지지" if (n_g or n_p) else "기각"), evidence=f"Granger text→macro q<.10: {n_g}건 (최소 q={round(e6['granger_min_q'], 3) if e6.get('granger_min_q') is not None else '—'}); 예측 회귀 q<.10: {n_p}/{e6.get('n_predictive')} (최소 q={round(e6['predictive_min_q'], 3) if e6.get('predictive_min_q') is not None else '—'})")
     return H
