@@ -78,39 +78,121 @@ CFNAI-MA3(회의 월 −2)는 평균 −0.09, SD 1.10(2020-04 −7.55 포함), A
 
 ---
 
-# 3. 실험 설계
+# 3. 방법론과 학술적 근거
 
-## 3.1 코퍼스 조합과 분석 단위
-- **코퍼스 정의 24종**: 성명서 {포함, 제외} × 의사록 {없음, 위원회 층(C), 실질 층 전부(S)} × 기자회견 {없음, 의장} × 연설 {포함, 제외} = 23 + 미정제 전체(v2 방식) 1. 별칭: S1 성명서만(C02), S2 성명서 + 위원회 층(C06), S3 성명서 + 의사록 실질 층(C10), S4 4장르 정제(C11), S5 의사록만(C21), S6 미정제(C24).
-- **분석 단위 3종**: U1 조동사, U2 구문(modal + predicate, 코퓰러 be는 보어로 해소), U3 조동사 + 동사 의미 부류(Biber 7부류 + 정책행동 + 코퓰러 유형).
-- **기간·정규화**(표 안의 열): T1 2014–2026, T2 2020 제외, T3 2010–2026, 반기 H1 2014–19 / H2 2021–26; N1 밀도(per 1k, pmw 병기), N2 점유율, N3 문서당 수.
+이 절은 "무엇을 했는가"와 함께 "왜 그 방법이어야 하는가"를 문헌으로 뒷받침한다. 각 표의 마지막 열이 근거 문헌이며, 전체 서지는 §3.9에 있다.
 
-## 3.2 실험군 L — 코퍼스 언어학 방법
-| 블록 | 방법 |
-|---|---|
-| L1 | 층위별 빈도, pmw와 95% Poisson CI, 문서 간 분산 DP(Gries 2008), 연도별 pmw |
-| L2 | 층위 vs 나머지의 키니스: log-likelihood G²(Rayson & Garside 2000), 효과크기 log ratio(Hardie 2014)·%DIFF(Gabrielatos & Marchi 2011), BH q; 층위 × 조동사 χ²·Cramér's V·표준화 잔차 |
-| L3 | 회의 단위 Mann–Kendall 추세(τ, Sen 기울기); 성명서 PELT 변화점(점유율, min size 4, pen 2 ln n)과 책임 문장; 계단 그림 |
-| L4 | 서술어 프로파일, distinctive collexeme(Fisher exact, obs/exp, −log₁₀ p; Gries & Stefanowitsch 2004), 조동사 간 JSD, 서술어 의미 부류, KWIC |
-| L5 | 정형 문장(정규화 후 ≥ 3개 성명서 재출현) 비율, 구문 코호트 Kaplan–Meier, 보유율 반감기, 편집 이벤트 |
-| L6 | 부정·수동·완료·진행·조건·인용·의문·축약 비율, 주어 유형, 의미 유형 휴리스틱(Coates 1983; Palmer 1990), 조동사 × 자질 χ² |
-| L7 | 다항 로짓: 조동사(기준 will) ~ 층위 + 시기 + 주어 유형 + 조건 + 인용; 상대위험비, 유사 R² |
-| L8·L9 | be appropriate 계열의 층위 × 조동사 × 연도; 의장·정책 국면 대조 χ² |
+## 3.1 설계 원칙: 다중 코퍼스 정의와 사전 가설
+- **다중 코퍼스 정의(24종) × 단위(3종)를 같은 코드로 실행**한다. 코퍼스 정의(의사록 포함 여부 등)와 단위 선택은 연구자의 재량 변수이므로, 한 조합만 보고하면 결론이 그 선택에 얼마나 의존하는지 알 수 없다. 이는 심리학·경제학에서 표준화된 **다중우주 분석**(Steegen et al., 2016)과 **명세 곡선 분석**(Simonsohn, Simmons & Nelson, 2020)의 논리를 코퍼스 설계에 적용한 것이다: 재량 선택의 전 조합을 열거하고 결과가 조합에 따라 어떻게 바뀌는지를 그 자체로 결과로 보고한다.
+- **가설을 사전에 명시하고 판정 규칙을 코드로 고정**한다(§1.2). 판정 규칙이 run마다 동일하므로 조합 간 비교가 가능하고, 결과를 본 뒤 기준을 바꾸는 유연성(garden of forking paths; Gelman & Loken, 2014)을 차단한다.
+- **주 run(C11_U2)**을 서술의 기준으로 삼되, 모든 주장은 §6–7의 72 run 분포로 강건성을 확인한다.
 
-## 3.3 실험군 E — 계량경제 방법
-| 블록 | 방법 |
-|---|---|
-| E1·E2 | 기술통계(평균·SD·범위·AR(1)·제로 회의 비율); Pearson/Spearman × {CFNAI, VIX} × {T1, T2, T3, H1, H2} |
-| E3 | 회의 단위 OLS, Newey–West HAC(4 lag). 종속 = 층위 총밀도·조동사 밀도. 스펙 (1) CFNAI (2) VIX (3) CFNAI + VIX (4) + 실업률 갭 + 근원 PCE 갭 (5) + 2020-09 이후 더미 (6) 2020 제외 (7) 1차 차분 (8) 1차 차분·2020 제외 |
-| E4 | 층위별 사전 지정 구문(상위 8 + be appropriate 계열)에 스펙 (3)(6)(7)(8) |
-| E5 | 전수 스크린(모든 단위 × 층위·장르 × 거시 × 기간; BH-FDR) → ledger: **확정**(T1·T2 p<.05 동부호 + 반기 동부호 + 토큰 ≥ 40 + 제로 회의 ≤ 60%) / **시대 구성**(T1·T2 유의, 반기 부호 불일치) / **2020 의존**(T1만 유의) |
-| E6 | CCF k = −9…+9(월별 CFNAI-MA3·VIX); Granger 1–3 lag 양방향(BH); 예측 회귀 CFNAI(m+3)·ΔVIX(후 28일) ~ 거시 + 텍스트, ΔR²와 텍스트 계수 |
-| E7 | 정책 사건 12건: 텍스트 밀도(직전 3회의·사건·직후 3회의), 거시 ±6개월 창 |
-| E8 | CFNAI 래그 1, 회의 간 VIX, 점유율·문서당 수 종속, 2010 확장 |
-| E9 | Kawamura et al.(2019) 방식: 총밀도·헤징군(would/could/may/might)·약속군(will) ~ 경기지수(+VIX), 수준·차분·2020 제외, HAC t |
+## 3.2 코퍼스 구축과 층위(장르 × 귀속)
+| 무엇을 | 왜 | 근거 |
+|---|---|---|
+| 4장르(성명서·의사록·기자회견·연설)를 하나의 코퍼스로 모으되 장르를 분석 변수로 유지 | 언어 변이는 레지스터(register)에 따라 체계적으로 달라지며(Biber, 1988), 조동사는 레지스터 민감도가 큰 자질이다(Biber et al., 1999, ch. 6). 장르를 섞어 세면 구성비 효과가 결과를 지배한다 | Biber 1988; Biber et al. 1999 |
+| 기자회견을 화자(의장/기자/진행자)로 분절 | 기자의 질문은 연준의 발화가 아니다. v2 감사에서 could의 48%, might의 50%가 기자 발화였다. 화자 귀속 없는 대화 코퍼스는 발화 주체를 잘못 지정한다 | 대화 코퍼스의 화자 주석 관행(Love et al., 2017) |
+| 의사록을 섹션(스태프/참가자/위원회/인용문/규정문)으로 귀속 | 의사록은 서로 다른 화자 집단의 텍스트가 정해진 순서로 병치된 문서다. 스태프 리뷰(사실 서술), 참가자 견해(심의), 위원회 정책조치(결정 서술)는 담화 기능이 다르고, 위원회 섹션에는 성명서 전문이 인용되어 성명서와 이중 집계된다. 심의를 측정한 경제학 연구는 이 구조를 전제로 한다 | Hansen, McMahon & Prat 2018 |
+| 성명서를 편집되는 정형문으로 취급(문장 재사용·삽입·삭제 추적) | 성명서는 직전 성명서를 수정해 작성되며 문구 변화 자체가 시장 정보다 | Acosta & Meade 2015; Ehrmann & Talmi 2020 |
+| 정제: 각주·내비게이션·참고문헌·규정문 제거, 인코딩 복구 | 웹 스크랩 텍스트의 비본문 요소가 빈도를 왜곡한다(1월 의사록 규정문에서 shall 199·must 87개) | 코퍼스 구축 관행(Brezina, 2018, ch. 1) |
 
-## 3.4 판정 규칙
-가설별 지지 기준은 §1.2 표에 명시했고 코드(`experiments/22 hypotheses()`)로 고정되어 72 run에 동일하게 적용된다. 판정은 '지지 / 부분 / 기각 / 해당 없음'의 네 값이다.
+## 3.3 분석 단위: 조동사가 아니라 구문
+| 무엇을 | 왜 | 근거 |
+|---|---|---|
+| 기본 단위 = 조동사 + 서술어(구문); 코퓰러 be는 보어로 해소(will be appropriate) | 조동사의 의미(인식·의무·역동)는 공기하는 주어·동사·조건·인용에 의해 결정된다. 조동사만 세면 will continue(절차 약속)와 will be appropriate(가이던스)가 한 수치로 합쳐진다 | Coates 1983; Palmer 1990; Nuyts 2001 |
+| 구문–서술어 연관을 collexeme 통계로 측정 | 구문과 어휘 충전물의 유인·배척은 단순 빈도가 아니라 기대빈도 대비 편차로 측정해야 한다 | Stefanowitsch & Gries 2003; Gries & Stefanowitsch 2004 |
+| 서술어 의미 부류(활동·소통·정신·인과·사건·존재·상태·정책행동·코퓰러) | 동사 의미 부류는 레지스터 변이의 표준 기술 범주다 | Biber et al. 1999, ch. 5 |
+| 단위 축 3종(조동사/구문/부류)을 모두 실행 | 단위 선택이 결과를 바꾸는지 보여 주기 위해(§3.1) | Steegen et al. 2016 |
+
+## 3.4 정규화와 분산
+| 무엇을 | 왜 | 근거 |
+|---|---|---|
+| 빈도를 pmw(백만 단어당)와 per 1k로 정규화하고 Poisson 95% CI를 붙임 | 층위 크기가 780 vs 13,000처럼 다르므로 원시 개수는 비교 불가; 신뢰구간은 작은 층위의 불확실성을 드러낸다 | Biber et al. 1999; Brezina 2018, ch. 2 |
+| 문서 간 분산 DP | 총빈도가 같아도 소수 문서에 몰린 자질(성명서 can·should)과 고르게 퍼진 자질(will)은 다른 현상이다 | Gries 2008 |
+| 점유율(N2)은 성명서 계단에, 문서당 수(N3)는 성명서 전용 | 성명서는 길이 자체가 편집 결과이므로 밀도와 원시 수를 모두 봐야 한다 | Acosta & Meade 2015 |
+
+## 3.5 코퍼스 언어학 실험군 (L1–L9)
+| 블록 | 방법 | 왜 이 방법인가 | 근거 |
+|---|---|---|---|
+| L1 | pmw·CI·DP·연도별 빈도 | 기술 통계의 표준 형식; 이후 모든 추론의 분모 | Biber et al. 1999; Gries 2008 |
+| L2 | 키니스: log-likelihood G², log ratio, %DIFF, BH q; 층위 × 조동사 χ²·Cramér's V·표준화 잔차 | 두 (하위)코퍼스 간 빈도 차의 유의성은 LL, 효과 크기는 log ratio/%DIFF로 분리해 보고해야 한다(유의성만으로는 큰 코퍼스에서 모든 것이 유의). χ²·V는 분업의 전체 강도, 잔차는 셀별 방향 | Rayson & Garside 2000; Hardie 2014; Gabrielatos 2018; Cramér 1946 |
+| L3 | Mann–Kendall τ·Sen 기울기; PELT 변화점; 계단 그림 | 회의 단위 빈도는 비정규·자기상관 계열이므로 분포 가정 없는 순위 기반 추세 검정이 적합하다. 정형문의 삽입·삭제는 점진적 추세가 아니라 단절이므로 변화점 탐지가 맞는 도구이며, PELT는 최적 분할을 선형 시간에 찾는다 | Mann 1945; Kendall 1975; Sen 1968; Killick, Fearnhead & Eckley 2012 |
+| L4 | 서술어 프로파일, distinctive collexeme(Fisher exact), JSD, 의미 부류, KWIC | §3.3. JSD는 조동사 간 서술어 분포의 거리를 대칭·유계로 측정한다. KWIC 용례는 코퍼스 언어학 보고의 필수 요소 | Gries & Stefanowitsch 2004; Lin 1991; Sinclair 1991 |
+| L5 | 정형 문장 비율, 구문 코호트 Kaplan–Meier, 보유율 반감기, 편집 이벤트 | 정형 표현의 "수명"은 생존 분석의 대상이다(우측 중도절단: 마지막 회의까지 살아 있는 구문). 보유율은 집합 수준의 지속성을 하나의 수치로 요약한다 | Kaplan & Meier 1958; Wray 2002; Biber & Barbieri 2007 |
+| L6 | 부정·수동·조건·인용·의문·주어 유형·의미 유형; χ² | 조동사 의미 해석의 결정 요인들(공기 자질)을 층위별로 계량화한다 | Coates 1983; Palmer 1990; Hyland 1998 |
+| L7 | 다항 로짓(기준 will) | 층위 효과를 시기·주어·조건·인용을 통제한 뒤 확인하기 위한 다범주 반응 모형 | Agresti 2013 |
+| L8·L9 | be appropriate 계열; 의장·국면 대조 χ² | 교수님 질문(will/would)에 대한 직접 검정; 개인 문체 vs 제도 편집의 분리 | — |
+
+## 3.6 거시 지표 (요약; 전문은 docs/10)
+실물 활동 = CFNAI 3개월 이동평균(회의 월 −2, 실시간 래그), 불확실성 = VIX(회의 전 28일 평균). 선택 근거 여섯 가지: 회의 단위 정렬 가능, 실시간성, 실물/불확실성 분리, Kawamura et al.(2019)과의 비교가능성(경기지수 + VIX), 텍스트 기반 지표(EPU·MPU)의 순환성 회피, 연준 반응함수 변수(실업률·인플레이션)의 기계적 상관 회피. 근거: Stock & Watson 1999; Evans, Liu & Pham-Kanter 2002; Bloom 2009; Bekaert, Hoerova & Lo Duca 2013; Whaley 2009; Baker, Bloom & Davis 2016; Husted, Rogers & Sun 2020.
+
+## 3.7 계량경제 실험군 (E1–E9)
+| 블록 | 방법 | 왜 이 방법인가 | 근거 |
+|---|---|---|---|
+| E1 | 기술통계(평균·SD·범위·AR(1)·제로 회의 비율) | 계열의 지속성(AR(1) .3–.8)과 희소성(제로 회의)이 이후 추론의 전제이므로 먼저 보고 | 표준 보고 관행 |
+| E2 | Pearson·Spearman × {CFNAI, VIX} × {T1, T2, T3, H1, H2} | 순위 상관은 극단값(2020-03 VIX 50, CFNAI −7.6)에 강건; 기간 분할은 레버리지 점검 | — |
+| E3 | 회의 단위 OLS, Newey–West HAC(4 lag); 스펙 (1)–(8) | 회의 계열은 자기상관·이분산이 있으므로 HAC 표준오차가 필요하다. (4) 갭 통제는 연준의 목표 변수를 통제했을 때도 관계가 남는지, (5) 2020-09 더미는 프레임워크 구조 변화(문장 채택)를 통제했을 때, (6)은 팬데믹 레버리지를 제거했을 때, (7)(8) 1차 차분은 지속성 기반 허위 상관을 제거했을 때의 관계다 — Kawamura et al.도 월차분에서 결과가 사라짐을 보고했으므로 같은 검정을 둔다 | Newey & West 1987; Kawamura et al. 2019 §3.3.1 |
+| E4 | 구문 회귀(사전 지정 구문 + be appropriate 계열) | 집계 밀도가 반대 부호의 구문을 상쇄할 수 있으므로 구문 수준 검정이 필요 | §3.3 |
+| E5 | 전수 스크린 + BH-FDR + 확정/시대 구성/2020 의존 분류 | 수천 셀의 스크린은 다중검정 통제 없이는 무의미하다(BH). 확정 규칙의 세 요소는 각각 (i) 2020 레버리지, (ii) 2020-09 문장 채택이 만드는 시대 구성 효과(반기 부호 검사 = 분할표본 안정성), (iii) 희소 계열의 상관 불안정(토큰·제로 회의 하한)에 대응한다 | Benjamini & Hochberg 1995; Simonsohn et al. 2020 |
+| E6 | CCF k = −9…+9; Granger 1–3 lag 양방향(BH); 예측 회귀(ΔR², 텍스트 계수) | "선행지표" 주장은 Granger 인과와 표본 내 증분 예측력으로 검정하는 것이 관행이며, 텍스트가 정책·기대를 선행한다는 문헌의 기준 결과와 비교한다 | Granger 1969; Lucca & Trebbi 2009; Romer & Romer 2000 |
+| E7 | 정책 사건 창(텍스트 ±3회의, 거시 ±6개월) | 편집 사건의 타이밍이 거시 환경과 정렬되는지 보는 사건 연구 논리 | MacKinlay 1997 |
+| E8 | 래그·회의 간 VIX·정규화·2010 확장 변형 | 결과가 정렬·정규화 선택에 의존하는지 점검 | §3.1 |
+| E9 | Kawamura 방식 재현(총밀도·헤징군·약속군, 수준·차분·2020 제외) | 벤치마크와 같은 형태의 표를 제시해야 "이전되지 않는다"는 주장이 비교 가능하다 | Kawamura et al. 2019 |
+
+## 3.8 판정 규칙과 보고 관행
+- 가설 판정은 '지지 / 부분 / 기각 / 해당 없음' 네 값이며 기준은 §1.2에 사전 명시했다.
+- 코퍼스 언어학 표는 원시 빈도·정규화 빈도·신뢰구간·효과 크기·용례를 함께 제시한다(Brezina, 2018). 계량경제 표는 계수·(HAC 표준오차)·유의성 별표·N·R²를 스펙별 열로 제시한다.
+- 신뢰도: 추출 정확도는 저자 표본(head 93%, 의미 유형 90%)에 근거하며, 독립 2인 코딩과 κ(McHugh, 2012)는 투고 전 과제다.
+
+## 3.9 방법론 참고문헌
+- Acosta, M., & Meade, E. E. (2015). Hanging on every word: Semantic analysis of the FOMC's postmeeting statement. *FEDS Notes*, Board of Governors of the Federal Reserve System.
+- Agresti, A. (2013). *Categorical Data Analysis* (3rd ed.). Wiley.
+- Baker, S. R., Bloom, N., & Davis, S. J. (2016). Measuring economic policy uncertainty. *Quarterly Journal of Economics*, 131(4), 1593–1636.
+- Bekaert, G., Hoerova, M., & Lo Duca, M. (2013). Risk, uncertainty and monetary policy. *Journal of Monetary Economics*, 60(7), 771–788.
+- Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. *Journal of the Royal Statistical Society B*, 57(1), 289–300.
+- Biber, D. (1988). *Variation across Speech and Writing*. Cambridge University Press.
+- Biber, D., & Barbieri, F. (2007). Lexical bundles in university spoken and written registers. *English for Specific Purposes*, 26(3), 263–286.
+- Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999). *Longman Grammar of Spoken and Written English*. Longman.
+- Bloom, N. (2009). The impact of uncertainty shocks. *Econometrica*, 77(3), 623–685.
+- Brezina, V. (2018). *Statistics in Corpus Linguistics: A Practical Guide*. Cambridge University Press.
+- Coates, J. (1983). *The Semantics of the Modal Auxiliaries*. Croom Helm.
+- Cramér, H. (1946). *Mathematical Methods of Statistics*. Princeton University Press.
+- Ehrmann, M., & Talmi, J. (2020). Starting from a blank page? Semantic similarity in central bank communication and market volatility. *Journal of Monetary Economics*, 111, 48–62.
+- Evans, C. L., Liu, C. T., & Pham-Kanter, G. (2002). The 2001 recession and the Chicago Fed National Activity Index. *Economic Perspectives*, 26(3), 26–43.
+- Gabrielatos, C. (2018). Keyness analysis: Nature, metrics and techniques. In C. Taylor & A. Marchi (Eds.), *Corpus Approaches to Discourse* (pp. 225–258). Routledge.
+- Gelman, A., & Loken, E. (2014). The statistical crisis in science. *American Scientist*, 102(6), 460–465.
+- Granger, C. W. J. (1969). Investigating causal relations by econometric models and cross-spectral methods. *Econometrica*, 37(3), 424–438.
+- Gries, S. Th. (2008). Dispersions and adjusted frequencies in corpora. *International Journal of Corpus Linguistics*, 13(4), 403–437.
+- Gries, S. Th., & Stefanowitsch, A. (2004). Extending collostructional analysis: A corpus-based perspective on 'alternations'. *International Journal of Corpus Linguistics*, 9(1), 97–129.
+- Hansen, S., McMahon, M., & Prat, A. (2018). Transparency and deliberation within the FOMC: A computational linguistics approach. *Quarterly Journal of Economics*, 133(2), 801–870.
+- Hardie, A. (2014). Log ratio: An informal introduction. *ESRC Centre for Corpus Approaches to Social Science*. ※
+- Husted, L., Rogers, J., & Sun, B. (2020). Monetary policy uncertainty. *Journal of Monetary Economics*, 115, 20–36.
+- Hyland, K. (1998). *Hedging in Scientific Research Articles*. John Benjamins.
+- Kaplan, E. L., & Meier, P. (1958). Nonparametric estimation from incomplete observations. *Journal of the American Statistical Association*, 53(282), 457–481.
+- Kawamura, K., Kobashi, Y., Shizume, M., & Ueda, K. (2019). Strategic central bank communication: Discourse analysis of the Bank of Japan's Monthly Report. *Journal of Economic Dynamics and Control*, 100, 230–250.
+- Kendall, M. G. (1975). *Rank Correlation Methods* (4th ed.). Griffin.
+- Killick, R., Fearnhead, P., & Eckley, I. A. (2012). Optimal detection of changepoints with a linear computational cost. *Journal of the American Statistical Association*, 107(500), 1590–1598.
+- Lin, J. (1991). Divergence measures based on the Shannon entropy. *IEEE Transactions on Information Theory*, 37(1), 145–151.
+- Love, R., Dembry, C., Hardie, A., Brezina, V., & McEnery, T. (2017). The Spoken BNC2014. *International Journal of Corpus Linguistics*, 22(3), 319–344.
+- Lucca, D. O., & Trebbi, F. (2009). Measuring central bank communication: An automated approach with application to FOMC statements. *NBER Working Paper* 15367.
+- MacKinlay, A. C. (1997). Event studies in economics and finance. *Journal of Economic Literature*, 35(1), 13–39.
+- Mann, H. B. (1945). Nonparametric tests against trend. *Econometrica*, 13(3), 245–259.
+- McHugh, M. L. (2012). Interrater reliability: The kappa statistic. *Biochemia Medica*, 22(3), 276–282.
+- Newey, W. K., & West, K. D. (1987). A simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix. *Econometrica*, 55(3), 703–708.
+- Nuyts, J. (2001). *Epistemic Modality, Language, and Conceptualization*. John Benjamins.
+- Palmer, F. R. (1990). *Modality and the English Modals* (2nd ed.). Longman.
+- Rayson, P., & Garside, R. (2000). Comparing corpora using frequency profiling. *Proceedings of the Workshop on Comparing Corpora* (ACL), 1–6.
+- Romer, C. D., & Romer, D. H. (2000). Federal Reserve information and the behavior of interest rates. *American Economic Review*, 90(3), 429–457.
+- Sen, P. K. (1968). Estimates of the regression coefficient based on Kendall's tau. *Journal of the American Statistical Association*, 63(324), 1379–1389.
+- Simonsohn, U., Simmons, J. P., & Nelson, L. D. (2020). Specification curve analysis. *Nature Human Behaviour*, 4, 1208–1214.
+- Sinclair, J. (1991). *Corpus, Concordance, Collocation*. Oxford University Press.
+- Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. *Perspectives on Psychological Science*, 11(5), 702–712.
+- Stefanowitsch, A., & Gries, S. Th. (2003). Collostructions: Investigating the interaction of words and constructions. *International Journal of Corpus Linguistics*, 8(2), 209–243.
+- Stock, J. H., & Watson, M. W. (1999). Forecasting inflation. *Journal of Monetary Economics*, 44(2), 293–335.
+- Whaley, R. E. (2009). Understanding the VIX. *Journal of Portfolio Management*, 35(3), 98–105.
+- Wray, A. (2002). *Formulaic Language and the Lexicon*. Cambridge University Press.
+
+※ 표시는 투고 전 서지 확인 필요.
 
 ---
 
