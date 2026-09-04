@@ -25,6 +25,48 @@ REP = r24.REP; PAPER = r24.PAPER
 VERSIONS = [("V1", "C02", "성명서만", "S1"), ("V2", "C06", "성명서 + 의사록(위원회 층)", "S2"), ("V3", "C10", "성명서 + 의사록(실질 층 전부)", "S3"),
             ("V4", "C11", "4장르 정제(권장): 성명서 + 의사록 실질 층 + 의장 기자회견 + 연설", "S4"), ("V5", "C21", "의사록만(실질 층)", "S5"), ("V6", "C24", "미정제 4장르(v2 방식)", "S6")]
 UNITS = [("U2", "구문 (modal + predicate)"), ("U1", "조동사"), ("U3", "조동사 + 동사 부류")]
+VERSION_INFO = {
+    "V1": dict(why="세미나의 출발 관찰(should 소멸, will 감소, would/could 등장)이 나온 장르. 가장 강하게 편집되는 정형문이며, 의사록 없이 연구질문에 답할 수 있는지를 재는 기준선(baseline).",
+               how="회의 후 성명서 101건(비회의 성명서 4건 제외), 표결 문단 제외. 층위 1개이므로 층위 분업(L2·L7)은 해당 없음."),
+    "V2": dict(why="의사록 포함의 최소 형태. 위원회 정책조치 섹션의 결정 서술만 더한다 — 같은 회의·같은 위원회의 텍스트이면서 성명서 문장의 인용은 제외했으므로 성명서와 이중 집계되지 않는 '성명서의 확장판'.",
+               how="성명서 + 의사록 위원회 층(인용 성명서·지침·삽입 문서·표결 제외). 층위 2개."),
+    "V3": dict(why="의사록의 모든 실질 발화(스태프 리뷰·데스크 보고·참가자 견해·위원회 결정·특별 주제)를 귀속 라벨과 함께 포함. 사실 서술→심의→결정의 담화 기능 차이를 검정할 수 있는 최소 구성.",
+               how="성명서 + 의사록 실질 층 5개(규정문·명단·인용문·표결 제외). 층위 6개."),
+    "V4": dict(why="연준의 공식 발화 전체. 기자·진행자 발화를 제거한 의장 기자회견과 의장 연설을 더해, 편집된 문서(성명서)–기록(의사록)–즉흥 발화(기자회견)–준비된 발화(연설)를 한 틀에서 비교한다. 권장안.",
+               how="성명서 + 의사록 실질 층 5개 + 의장 기자회견 발화 + 의장 연설(제목·참고문헌·각주 제거). 층위 8개."),
+    "V5": dict(why="진단용 대조군. 성명서를 빼면 무엇이 남는지 — 거시 연계 신호가 의사록 층에 있다는 주장의 직접 검정. 계단(H1)은 성명서 고유이므로 해당 없음.",
+               how="의사록 실질 층 5개만. 층위 5개."),
+    "V6": dict(why="v2 방식의 재현(대조군). 기자·진행자 발화, 1월 규정문, 인용 성명서, 표결 문단을 제거하지 않은 코퍼스로, 정제가 결과를 어떻게 바꾸는지 보여 준다.",
+               how="4장르 전 층위(제외 층 포함). 층위 17개."),
+}
+
+
+def version_result_line(s):
+    if not s: return "run 없음"
+    H = s.get("H", {}); c = s.get("E5", {}).get("counts", {}); L3 = s.get("L3", {}).get("staircase_T1"); L2 = s.get("L2", {})
+    parts = []
+    if L3: parts.append(f"계단 변화점 {L3['n_cp']}개(사건 일치 {L3['n_cp_event']})")
+    if L2.get("cramers_v"): parts.append(f"층위 × 조동사 V = {L2['cramers_v']:.3f}")
+    if c: parts.append(f"확정 VIX {c['vix']['confirmed']} / CFNAI {c['cfnai']['confirmed']}, 시대 구성 {c['vix']['era_composition'] + c['cfnai']['era_composition']}, 2020 의존 {c['vix']['T1_only'] + c['cfnai']['T1_only']}")
+    top = s.get("E5", {}).get("confirmed_top", [])[:3]
+    if top: parts.append("상위 확정: " + ", ".join(f"{lab(x['key'])} {x['unit']}×{x['macro'].upper()} ρ={x['rho_T2']:+.2f}" for x in top))
+    return "; ".join(parts) + ". 가설: " + " ".join(f"{k} {pill(v['verdict'])}" for k, v in H.items())
+
+
+def versions_overview(runs, U="U2"):
+    rows = []
+    for V, cid, vname, alias in VERSIONS:
+        s = runs.get(f"{cid}_{U}"); info = VERSION_INFO[V]
+        rows.append({"버전": f"<b>{V}</b> {alias}", "구성": vname, "선택 기준(왜 이 버전인가)": info["why"], "진행(무엇으로 어떻게)": info["how"] + f" 단위 {pc.UNITS[U]} 기준으로 L1–L9·E1–E9 전 블록 실행.", "결과(핵심)": version_result_line(s)})
+    return ("<h1 style='border:none;padding:0;margin:0 0 6px' id='versions-overview'>버전 개요: 여섯 탭이 무엇이고, 왜 있으며, 무엇이 나왔나</h1>"
+            "<p class='small'>여섯 버전은 '의사록을 넣을 것인가, 어떤 층까지 넣을 것인가, 기자회견·연설을 넣을 것인가, 정제할 것인가'라는 재량 선택을 단계적으로 바꾼 것이다(§3.1 다중우주 설계). 아래 결과 열은 구문 단위(U2) 기준이며, 각 버전 탭에서 조동사·동사 부류 단위로 바꿔 볼 수 있다.</p>"
+            + tbl(pd.DataFrame(rows), "표 0. 버전별 선택 기준·진행·결과 요약 (단위 U2 기준)", reco_pred=lambda r: r["버전"].startswith("<b>V4"), max_rows=10))
+
+
+def version_intro(V, s):
+    info = VERSION_INFO[V]
+    return (f"<div class='keys' style='border-left-color:var(--muted)'><b>이 버전</b><ul><li><b>선택 기준</b>: {info['why']}</li><li><b>진행</b>: {info['how']}</li>"
+            f"<li><b>결과</b>: {version_result_line(s)}</li></ul></div>")
 NOTE_REG = "주: 회의 단위 OLS, 괄호 안은 Newey–West HAC(4 lag) 표준오차. *** p<.01, ** p<.05, * p<.10. (1) CFNAI-MA3(m−2) (2) VIX(회의 전 28일) (3) 둘 다 (4) + 실업률 갭·근원 PCE 갭 (5) + 2020-09 이후 더미 (6) 2020년 제외 (7) 1차 차분 (8) 1차 차분·2020년 제외."
 NOTE_LEDGER = "주: 확정 = Spearman ρ가 T1(2014–26)과 T2(2020 제외)에서 모두 p<.05·동부호이고 반기(2014–19, 2021–26) 부호도 같으며 토큰 ≥ 40·제로 회의 ≤ 60%. 시대 구성 = T1·T2 유의하나 반기 부호 불일치. 2020 의존 = T1에서만 유의."
 NOTE_KEY = "주: LL = log-likelihood(Rayson & Garside 2000); log ratio = 상대빈도비의 이진 로그(Hardie 2014, +0.5 평활); %DIFF = Gabrielatos & Marchi(2011); q = BH 보정 p."
@@ -143,7 +185,7 @@ def version_panel(V, cid, vname, alias, U, runs, inline, full_figs):
     H2("3.8 Kawamura et al.(2019) 재현", "e9"); body.append(r24.v_kawamura(run) + note("주: 헤징군 = would/could/may/might, 약속군 = will. 수준·1차 차분·2020 제외, HAC t."))
     H1("4. 가설 판정", "h"); body.append(r24.v_hypotheses(run))
     head = (f"<div class='vhead'><h1>{V} · {html.escape(vname)}</h1><span class='small'>{alias} · run {run} · 단위 {pc.UNITS[U]} · 층위: {', '.join(lab(l) for l in layers)}</span></div>")
-    return head + key_findings(run, s) + panel_toc(sec) + number("".join(body))
+    return head + version_intro(V, s) + key_findings(run, s) + panel_toc(sec) + number("".join(body))
 
 
 # ----------------------------------------------------------------------------------------------
@@ -154,7 +196,7 @@ def compare_panel(U, runs):
     for V, cid, vname, alias in VERSIONS:
         s = rs[V]; L1 = s.get("L1", {}).get("layers", []) if s else []
         rows.append({"버전": V, "별칭": alias, "구성": vname, "층위 수": len(s["layers"]) if s else "", "문서(층위 합)": sum(r["n_docs"] for r in L1), "토큰": sum(r["tokens"] for r in L1), "6대 조동사": sum(r["six_modal"] for r in L1)})
-    out.append(tbl(pd.DataFrame(rows), "버전 정의와 규모 (T1 2014–2026)", reco_pred=lambda r: r["버전"] == "V4"))
+    out.append(tbl(pd.DataFrame(rows), "버전 정의와 규모 (T1 2014–2026)", reco_pred=lambda r: str(r["버전"]).startswith("V4")))
     # 가설
     rows = []
     for V, cid, vname, alias in VERSIONS:
@@ -237,7 +279,7 @@ def main():
     src = PAPER / "report_v3_program.md"; meta, text = r24.parse_front_matter(src.read_text(encoding="utf-8"))
     for inline, fname in ((True, "report_tabs_artifact.html"), (True, "report_tabs.html")):
         ov_md = r24.render_narrative(overview_md(text), runs, inline=inline); ov_body, _ = r24.html_from_md(ov_md)
-        ov_body = "<p class='small'>이 탭은 요약·가설·데이터·설계·72 run 비교·논의를 담는다. 버전별 결과는 상단 탭(V1–V6), 버전 간 대조는 '비교' 탭.</p>" + ov_body
+        ov_body = versions_overview(runs) + "<hr><p class='small'>아래는 요약·가설·데이터·방법론과 학술적 근거·72 run 비교·논의·한계. 버전별 결과는 상단 탭(V1–V6), 버전 간 대조는 '비교' 탭.</p>" + ov_body
         tabs = ["<div class='tabs'><button data-v='V0'>개요</button><button data-v='VC'>비교</button>"] + [f"<button data-v='{V}' class='{'v4' if V == 'V4' else ''}' title='{html.escape(vname)}'>{V} {alias} · {html.escape(vname.split('(')[0].split(':')[0].strip())}</button>" for V, cid, vname, alias in VERSIONS] + ["</div>"]
         panels = [f"<section class='panel' data-v='V0'>{ov_body}</section>"]
         sub = lambda Vid: "<div class='subtabs'>" + "".join(f"<button data-u='{u}' class='{'on' if u == 'U2' else ''}'>{u} {html.escape(n)}</button>" for u, n in UNITS) + "</div>"

@@ -48,10 +48,10 @@ p{max-width:76ch;margin:0 0 14px}ul,ol{max-width:76ch;padding-left:22px;margin:0
 code{font-family:var(--mono);font-size:.88em;background:var(--tint);padding:1px 5px;border-radius:3px}pre{background:var(--tint);padding:12px 14px;border-radius:6px;overflow-x:auto;font-size:13px}pre code{background:none;padding:0}
 hr{border:none;border-top:1px solid var(--line);margin:32px 0}blockquote{border-left:3px solid var(--accent);margin:14px 0;padding:8px 16px;background:var(--surface)}
 .summary{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin:0 0 10px}.summary h1{border:none;padding:0;margin:0 0 12px;font-size:20px}.summary p,.summary ul,.summary ol{max-width:none}
-.reco{background:var(--accent);color:var(--accent-ink);padding:14px 18px;border-radius:6px;margin-top:6px}.reco strong,.reco em{color:inherit}
+div.reco{background:var(--accent);color:var(--accent-ink);padding:14px 18px;border-radius:6px;margin-top:6px}div.reco strong,div.reco em{color:inherit}
 .tw{overflow-x:auto;margin:12px 0 20px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}.tw .cap{font-size:12.5px;color:var(--muted);padding:8px 11px 0}
-table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5}th,td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{font-weight:600;background:var(--tint);white-space:nowrap}
-tr:last-child td{border-bottom:none}td.n,th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}tr.reco td{background:var(--hl)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;line-height:1.55}th,td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{font-weight:600;background:var(--tint);white-space:nowrap}
+tr:last-child td{border-bottom:none}td.n,th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}tr.hl td{background:var(--hl);color:var(--ink);font-weight:500}tr.hl td:first-child{border-left:4px solid var(--accent)}
 .pill{display:inline-block;padding:0 7px;border-radius:9px;font-family:var(--mono);font-size:11px;background:var(--tint)}.pill.ok{background:var(--ok);color:#fff}.pill.warn{background:var(--warn);color:#fff}.pill.na{opacity:.6}
 figure{margin:18px 0 26px}figure img{max-width:100%;border:1px solid var(--line);border-radius:4px;background:#fff;display:block}figcaption{font-size:12.5px;color:var(--muted);margin-top:6px;max-width:84ch}
 .small{font-size:13px;color:var(--muted)}a{color:var(--accent)}details{margin:10px 0}summary{cursor:pointer;font-weight:600}
@@ -85,7 +85,7 @@ def tbl(df: pd.DataFrame, caption="", reco_pred=None, max_rows=60, fmt=None) -> 
     if caption: out.append(f"<div class='cap'>{caption}</div>")
     out.append("<table><thead><tr>" + "".join(f"<th{' class=n' if pd.api.types.is_numeric_dtype(df[c]) else ''}>{html.escape(str(c))}</th>" for c in cols) + "</tr></thead><tbody>")
     for _, r in df.iterrows():
-        cls = " class='reco'" if (reco_pred and reco_pred(r)) else ""
+        cls = " class='hl'" if (reco_pred and reco_pred(r)) else ""
         cells = []
         for c in cols:
             v = r[c]

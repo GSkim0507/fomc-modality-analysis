@@ -113,3 +113,4 @@
 - [x] 15.3 렌더·검토·아티팩트 게시(로컬 `results/report_v3/`)
 - [x] 15.4 문서 HTML 변환기 `experiments/25_md_to_html.py` (docs/12 → docs/html/)
 - [x] 15.5 논문용 탭 보고서 `experiments/26_build_report_tabs.py` → `results/report_v3/report_tabs.html` (버전 V1–V6 × 단위, 비교 탭); 방법론·학술적 근거 절(§3) 확장
+- [x] 15.6 강조 행 가시성 수정, 버전 개요(선택 기준·진행·결과) 추가
