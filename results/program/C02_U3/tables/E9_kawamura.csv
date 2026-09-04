@@ -1,0 +1,55 @@
+level,key,series,spec,var,coef,se,t,p,stars,n,r2
+genre,statement,ALL,levels: CFNAI,CFNAI-MA3,-0.209,0.1461,-1.43,0.1527,,101,0.003
+genre,statement,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.2078,0.1605,-1.29,0.1953,,101,0.003
+genre,statement,ALL,levels: CFNAI + VIX,VIX,0.0023,0.0705,0.03,0.9743,,101,0.003
+genre,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0113,0.0501,-0.23,0.8212,,100,0.007
+genre,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0437,0.0534,-0.82,0.4132,,100,0.007
+genre,statement,ALL,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-2.5642,2.284,-1.12,0.2616,,91,0.028
+genre,statement,ALL,levels excl-2020: CFNAI + VIX,VIX,0.0831,0.0815,1.02,0.3078,,91,0.028
+genre,statement,ALL,Δ excl-2020,ΔCFNAI,-0.3589,1.1136,-0.32,0.7472,,90,0.006
+genre,statement,ALL,Δ excl-2020,ΔVIX,-0.04,0.0615,-0.65,0.5155,,90,0.006
+genre,statement,commit,levels: CFNAI,CFNAI-MA3,-0.6643,0.1876,-3.54,0.0004,***,101,0.054
+genre,statement,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.6926,0.2133,-3.25,0.0012,***,101,0.068
+genre,statement,commit,levels: CFNAI + VIX,VIX,-0.0556,0.0662,-0.84,0.4005,,101,0.068
+genre,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.2756,0.1311,-2.1,0.0355,**,100,0.044
+genre,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0817,0.0547,-1.49,0.1352,,100,0.044
+genre,statement,commit,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-0.1414,1.3803,-0.1,0.9184,,91,0.088
+genre,statement,commit,levels excl-2020: CFNAI + VIX,VIX,-0.1839,0.0863,-2.13,0.033,**,91,0.088
+genre,statement,commit,Δ excl-2020,ΔCFNAI,-0.6884,1.0507,-0.66,0.5124,,90,0.016
+genre,statement,commit,Δ excl-2020,ΔVIX,-0.0648,0.0564,-1.15,0.2506,,90,0.016
+genre,statement,hedge,levels: CFNAI,CFNAI-MA3,0.432,0.1028,4.2,0.0,***,101,0.021
+genre,statement,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4727,0.1042,4.54,0.0,***,101,0.047
+genre,statement,hedge,levels: CFNAI + VIX,VIX,0.0801,0.0912,0.88,0.3798,,101,0.047
+genre,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.2732,0.0833,3.28,0.001,***,100,0.109
+genre,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0204,0.0245,0.83,0.4045,,100,0.109
+genre,statement,hedge,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-2.3839,2.2479,-1.06,0.2889,,91,0.204
+genre,statement,hedge,levels excl-2020: CFNAI + VIX,VIX,0.3214,0.0619,5.19,0.0,***,91,0.204
+genre,statement,hedge,Δ excl-2020,ΔCFNAI,0.3941,0.4863,0.81,0.4177,,90,0.013
+genre,statement,hedge,Δ excl-2020,ΔVIX,0.0256,0.036,0.71,0.478,,90,0.013
+layer,statement,ALL,levels: CFNAI,CFNAI-MA3,-0.209,0.1461,-1.43,0.1527,,101,0.003
+layer,statement,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.2078,0.1605,-1.29,0.1953,,101,0.003
+layer,statement,ALL,levels: CFNAI + VIX,VIX,0.0023,0.0705,0.03,0.9743,,101,0.003
+layer,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0113,0.0501,-0.23,0.8212,,100,0.007
+layer,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0437,0.0534,-0.82,0.4132,,100,0.007
+layer,statement,ALL,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-2.5642,2.284,-1.12,0.2616,,91,0.028
+layer,statement,ALL,levels excl-2020: CFNAI + VIX,VIX,0.0831,0.0815,1.02,0.3078,,91,0.028
+layer,statement,ALL,Δ excl-2020,ΔCFNAI,-0.3589,1.1136,-0.32,0.7472,,90,0.006
+layer,statement,ALL,Δ excl-2020,ΔVIX,-0.04,0.0615,-0.65,0.5155,,90,0.006
+layer,statement,commit,levels: CFNAI,CFNAI-MA3,-0.6643,0.1876,-3.54,0.0004,***,101,0.054
+layer,statement,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.6926,0.2133,-3.25,0.0012,***,101,0.068
+layer,statement,commit,levels: CFNAI + VIX,VIX,-0.0556,0.0662,-0.84,0.4005,,101,0.068
+layer,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.2756,0.1311,-2.1,0.0355,**,100,0.044
+layer,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0817,0.0547,-1.49,0.1352,,100,0.044
+layer,statement,commit,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-0.1414,1.3803,-0.1,0.9184,,91,0.088
+layer,statement,commit,levels excl-2020: CFNAI + VIX,VIX,-0.1839,0.0863,-2.13,0.033,**,91,0.088
+layer,statement,commit,Δ excl-2020,ΔCFNAI,-0.6884,1.0507,-0.66,0.5124,,90,0.016
+layer,statement,commit,Δ excl-2020,ΔVIX,-0.0648,0.0564,-1.15,0.2506,,90,0.016
+layer,statement,hedge,levels: CFNAI,CFNAI-MA3,0.432,0.1028,4.2,0.0,***,101,0.021
+layer,statement,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4727,0.1042,4.54,0.0,***,101,0.047
+layer,statement,hedge,levels: CFNAI + VIX,VIX,0.0801,0.0912,0.88,0.3798,,101,0.047
+layer,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.2732,0.0833,3.28,0.001,***,100,0.109
+layer,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0204,0.0245,0.83,0.4045,,100,0.109
+layer,statement,hedge,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-2.3839,2.2479,-1.06,0.2889,,91,0.204
+layer,statement,hedge,levels excl-2020: CFNAI + VIX,VIX,0.3214,0.0619,5.19,0.0,***,91,0.204
+layer,statement,hedge,Δ excl-2020,ΔCFNAI,0.3941,0.4863,0.81,0.4177,,90,0.013
+layer,statement,hedge,Δ excl-2020,ΔVIX,0.0256,0.036,0.71,0.478,,90,0.013

@@ -1,0 +1,193 @@
+layer,unit,n_tokens,zero_share,spec,var,label,coef,se,p,stars,n,r2,adj_r2
+min_committee,would/copular_adj,126,0.232,(3),const,const,-0.04396,1.10248,0.96819,,99,0.21804,0.20175
+min_committee,would/copular_adj,126,0.232,(3),cfnai_ma3_lag2,CFNAI-MA3,0.38178,0.12554,0.00236,***,99,0.21804,0.20175
+min_committee,would/copular_adj,126,0.232,(3),vix_pre28,VIX,0.12877,0.06552,0.04936,**,99,0.21804,0.20175
+min_committee,would/copular_adj,126,0.232,(6) excl-2020,const,const,-1.25725,0.76726,0.10129,,91,0.36864,0.35429
+min_committee,would/copular_adj,126,0.232,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,1.18956,0.69443,0.08671,*,91,0.36864,0.35429
+min_committee,would/copular_adj,126,0.232,(6) excl-2020,vix_pre28,VIX,0.20414,0.04299,0.0,***,91,0.36864,0.35429
+min_committee,would/copular_adj,126,0.232,(7) Δ,const,const,0.00178,0.08468,0.98324,,98,0.03113,0.01073
+min_committee,would/copular_adj,126,0.232,(7) Δ,d_cfnai,ΔCFNAI,0.15008,0.11203,0.18038,,98,0.03113,0.01073
+min_committee,would/copular_adj,126,0.232,(7) Δ,d_vix,ΔVIX,-0.01101,0.02445,0.65247,,98,0.03113,0.01073
+min_committee,would/copular_adj,126,0.232,(8) Δ excl-2020,const,const,-0.05837,0.07628,0.44417,,90,0.00323,-0.01968
+min_committee,would/copular_adj,126,0.232,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.11523,0.51068,0.82149,,90,0.00323,-0.01968
+min_committee,would/copular_adj,126,0.232,(8) Δ excl-2020,d_vix,ΔVIX,0.01589,0.02747,0.56309,,90,0.00323,-0.01968
+min_committee,would/aspectual,116,0.212,(3),const,const,-0.03544,0.50461,0.94401,,99,0.21267,0.19626
+min_committee,would/aspectual,116,0.212,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.15397,0.06347,0.01528,**,99,0.21267,0.19626
+min_committee,would/aspectual,116,0.212,(3),vix_pre28,VIX,0.11487,0.02325,0.0,***,99,0.21267,0.19626
+min_committee,would/aspectual,116,0.212,(6) excl-2020,const,const,-0.30757,0.68076,0.65141,,91,0.16179,0.14274
+min_committee,would/aspectual,116,0.212,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.11933,1.19065,0.92017,,91,0.16179,0.14274
+min_committee,would/aspectual,116,0.212,(6) excl-2020,vix_pre28,VIX,0.13302,0.03701,0.00033,***,91,0.16179,0.14274
+min_committee,would/aspectual,116,0.212,(7) Δ,const,const,0.01176,0.05705,0.83671,,98,0.06957,0.04999
+min_committee,would/aspectual,116,0.212,(7) Δ,d_cfnai,ΔCFNAI,-0.21377,0.05833,0.00025,***,98,0.06957,0.04999
+min_committee,would/aspectual,116,0.212,(7) Δ,d_vix,ΔVIX,0.03399,0.03822,0.37383,,98,0.06957,0.04999
+min_committee,would/aspectual,116,0.212,(8) Δ excl-2020,const,const,-0.01106,0.06343,0.86153,,90,0.03348,0.01126
+min_committee,would/aspectual,116,0.212,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.84311,0.80077,0.2924,,90,0.03348,0.01126
+min_committee,would/aspectual,116,0.212,(8) Δ excl-2020,d_vix,ΔVIX,-0.03517,0.02818,0.2121,,90,0.03348,0.01126
+min_committee,would/activity,108,0.162,(3),const,const,0.66546,0.36124,0.06546,*,99,0.17896,0.16185
+min_committee,would/activity,108,0.162,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.22614,0.02934,0.0,***,99,0.17896,0.16185
+min_committee,would/activity,108,0.162,(3),vix_pre28,VIX,0.0682,0.0142,0.0,***,99,0.17896,0.16185
+min_committee,would/activity,108,0.162,(6) excl-2020,const,const,0.62117,0.45631,0.17343,,91,0.08723,0.06649
+min_committee,would/activity,108,0.162,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.01189,0.58729,0.98385,,91,0.08723,0.06649
+min_committee,would/activity,108,0.162,(6) excl-2020,vix_pre28,VIX,0.06843,0.02272,0.00259,***,91,0.08723,0.06649
+min_committee,would/activity,108,0.162,(7) Δ,const,const,-0.00104,0.05966,0.98613,,98,0.07659,0.05714
+min_committee,would/activity,108,0.162,(7) Δ,d_cfnai,ΔCFNAI,-0.20286,0.04833,3e-05,***,98,0.07659,0.05714
+min_committee,would/activity,108,0.162,(7) Δ,d_vix,ΔVIX,0.02632,0.02844,0.35473,,98,0.07659,0.05714
+min_committee,would/activity,108,0.162,(8) Δ excl-2020,const,const,-0.0148,0.06244,0.81258,,90,0.05751,0.03584
+min_committee,would/activity,108,0.162,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.05646,0.4216,0.89348,,90,0.05751,0.03584
+min_committee,would/activity,108,0.162,(8) Δ excl-2020,d_vix,ΔVIX,0.05914,0.02808,0.03516,**,90,0.05751,0.03584
+min_committee,would/occurrence,89,0.556,(3),const,const,2.66255,0.54283,0.0,***,99,0.10887,0.0903
+min_committee,would/occurrence,89,0.556,(3),cfnai_ma3_lag2,CFNAI-MA3,0.02972,0.04314,0.49093,,99,0.10887,0.0903
+min_committee,would/occurrence,89,0.556,(3),vix_pre28,VIX,-0.0834,0.02383,0.00047,***,99,0.10887,0.0903
+min_committee,would/occurrence,89,0.556,(6) excl-2020,const,const,2.9404,0.6512,1e-05,***,91,0.08624,0.06547
+min_committee,would/occurrence,89,0.556,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,0.45713,0.74937,0.54185,,91,0.08624,0.06547
+min_committee,would/occurrence,89,0.556,(6) excl-2020,vix_pre28,VIX,-0.0978,0.03412,0.00415,***,91,0.08624,0.06547
+min_committee,would/occurrence,89,0.556,(7) Δ,const,const,-0.0395,0.08164,0.6285,,98,0.00056,-0.02048
+min_committee,would/occurrence,89,0.556,(7) Δ,d_cfnai,ΔCFNAI,-0.00139,0.01721,0.93567,,98,0.00056,-0.02048
+min_committee,would/occurrence,89,0.556,(7) Δ,d_vix,ΔVIX,-0.0064,0.02849,0.82234,,98,0.00056,-0.02048
+min_committee,would/occurrence,89,0.556,(8) Δ excl-2020,const,const,-0.04745,0.08829,0.59102,,90,0.00217,-0.02077
+min_committee,would/occurrence,89,0.556,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.24197,0.43523,0.57823,,90,0.00217,-0.02077
+min_committee,would/occurrence,89,0.556,(8) Δ excl-2020,d_vix,ΔVIX,-0.00973,0.04617,0.83312,,90,0.00217,-0.02077
+min_committee,would/mental,71,0.414,(3),const,const,1.2458,0.5314,0.01906,**,99,0.16689,0.14953
+min_committee,would/mental,71,0.414,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.46923,0.07826,0.0,***,99,0.16689,0.14953
+min_committee,would/mental,71,0.414,(3),vix_pre28,VIX,-0.00143,0.02936,0.96111,,99,0.16689,0.14953
+min_committee,would/mental,71,0.414,(6) excl-2020,const,const,1.51486,0.5556,0.0064,***,91,0.15634,0.13717
+min_committee,would/mental,71,0.414,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-1.88426,0.47169,6e-05,***,91,0.15634,0.13717
+min_committee,would/mental,71,0.414,(6) excl-2020,vix_pre28,VIX,-0.02069,0.03201,0.51794,,91,0.15634,0.13717
+min_committee,would/mental,71,0.414,(7) Δ,const,const,0.05352,0.06724,0.42602,,98,0.098,0.07901
+min_committee,would/mental,71,0.414,(7) Δ,d_cfnai,ΔCFNAI,-0.23986,0.06167,0.0001,***,98,0.098,0.07901
+min_committee,would/mental,71,0.414,(7) Δ,d_vix,ΔVIX,0.01875,0.02668,0.48219,,98,0.098,0.07901
+min_committee,would/mental,71,0.414,(8) Δ excl-2020,const,const,0.07949,0.06938,0.25192,,90,0.00482,-0.01805
+min_committee,would/mental,71,0.414,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.19525,0.5412,0.71826,,90,0.00482,-0.01805
+min_committee,would/mental,71,0.414,(8) Δ excl-2020,d_vix,ΔVIX,0.0152,0.0391,0.69757,,90,0.00482,-0.01805
+min_committee,would/policy_action,56,0.626,(3),const,const,1.93445,0.6128,0.0016,***,99,0.10166,0.08294
+min_committee,would/policy_action,56,0.626,(3),cfnai_ma3_lag2,CFNAI-MA3,0.00838,0.02784,0.76333,,99,0.10166,0.08294
+min_committee,would/policy_action,56,0.626,(3),vix_pre28,VIX,-0.06519,0.02789,0.0194,**,99,0.10166,0.08294
+min_committee,would/policy_action,56,0.626,(6) excl-2020,const,const,2.48145,0.7158,0.00053,***,91,0.12968,0.1099
+min_committee,would/policy_action,56,0.626,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,0.31701,0.60827,0.60225,,91,0.12968,0.1099
+min_committee,would/policy_action,56,0.626,(6) excl-2020,vix_pre28,VIX,-0.09745,0.0347,0.00498,***,91,0.12968,0.1099
+min_committee,would/policy_action,56,0.626,(7) Δ,const,const,-0.03026,0.06903,0.66113,,98,0.0594,0.0396
+min_committee,would/policy_action,56,0.626,(7) Δ,d_cfnai,ΔCFNAI,-0.04051,0.03355,0.22736,,98,0.0594,0.0396
+min_committee,would/policy_action,56,0.626,(7) Δ,d_vix,ΔVIX,0.05567,0.01943,0.00416,***,98,0.0594,0.0396
+min_committee,would/policy_action,56,0.626,(8) Δ excl-2020,const,const,-0.01965,0.07432,0.79147,,90,0.08993,0.069
+min_committee,would/policy_action,56,0.626,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.95622,0.47574,0.04444,**,90,0.08993,0.069
+min_committee,would/policy_action,56,0.626,(8) Δ excl-2020,d_vix,ΔVIX,0.07293,0.02784,0.00881,***,90,0.08993,0.069
+min_committee,could/causative,55,0.465,(3),const,const,0.36534,0.56915,0.52093,,99,0.0617,0.04215
+min_committee,could/causative,55,0.465,(3),cfnai_ma3_lag2,CFNAI-MA3,0.13519,0.04072,0.0009,***,99,0.0617,0.04215
+min_committee,could/causative,55,0.465,(3),vix_pre28,VIX,0.041,0.03038,0.17714,,99,0.0617,0.04215
+min_committee,could/causative,55,0.465,(6) excl-2020,const,const,-0.66179,0.37476,0.07741,*,91,0.19808,0.17986
+min_committee,could/causative,55,0.465,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.91577,0.61218,0.13467,,91,0.19808,0.17986
+min_committee,could/causative,55,0.465,(6) excl-2020,vix_pre28,VIX,0.10427,0.02156,0.0,***,91,0.19808,0.17986
+min_committee,could/causative,55,0.465,(7) Δ,const,const,0.02757,0.03003,0.35858,,98,0.0145,-0.00625
+min_committee,could/causative,55,0.465,(7) Δ,d_cfnai,ΔCFNAI,0.05155,0.0162,0.00146,***,98,0.0145,-0.00625
+min_committee,could/causative,55,0.465,(7) Δ,d_vix,ΔVIX,-8e-05,0.00792,0.99167,,98,0.0145,-0.00625
+min_committee,could/causative,55,0.465,(8) Δ excl-2020,const,const,0.01895,0.03009,0.52879,,90,0.03125,0.00898
+min_committee,could/causative,55,0.465,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.54219,0.35655,0.12835,,90,0.03125,0.00898
+min_committee,could/causative,55,0.465,(8) Δ excl-2020,d_vix,ΔVIX,-0.00188,0.01205,0.87617,,90,0.03125,0.00898
+min_committee,would/existence,52,0.586,(3),const,const,1.44168,0.56645,0.01092,**,99,0.06975,0.05037
+min_committee,would/existence,52,0.586,(3),cfnai_ma3_lag2,CFNAI-MA3,0.09102,0.08952,0.30931,,99,0.06975,0.05037
+min_committee,would/existence,52,0.586,(3),vix_pre28,VIX,-0.03912,0.02634,0.13756,,99,0.06975,0.05037
+min_committee,would/existence,52,0.586,(6) excl-2020,const,const,2.26115,0.56065,6e-05,***,91,0.26605,0.24937
+min_committee,would/existence,52,0.586,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,1.6333,0.72901,0.02506,**,91,0.26605,0.24937
+min_committee,would/existence,52,0.586,(6) excl-2020,vix_pre28,VIX,-0.08894,0.02604,0.00064,***,91,0.26605,0.24937
+min_committee,would/existence,52,0.586,(7) Δ,const,const,-0.00021,0.04438,0.99627,,98,0.00218,-0.01883
+min_committee,would/existence,52,0.586,(7) Δ,d_cfnai,ΔCFNAI,0.01663,0.01257,0.18594,,98,0.00218,-0.01883
+min_committee,would/existence,52,0.586,(7) Δ,d_vix,ΔVIX,0.00349,0.00714,0.62479,,98,0.00218,-0.01883
+min_committee,would/existence,52,0.586,(8) Δ excl-2020,const,const,-0.01918,0.04659,0.68055,,90,0.0025,-0.02043
+min_committee,would/existence,52,0.586,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.00444,0.42749,0.99171,,90,0.0025,-0.02043
+min_committee,would/existence,52,0.586,(8) Δ excl-2020,d_vix,ΔVIX,0.00826,0.0111,0.45656,,90,0.0025,-0.02043
+statement,will/activity,132,0.01,(3),const,const,3.12221,0.63796,0.0,***,101,0.05751,0.03827
+statement,will/activity,132,0.01,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.32122,0.08321,0.00011,***,101,0.05751,0.03827
+statement,will/activity,132,0.01,(3),vix_pre28,VIX,0.01614,0.02774,0.5607,,101,0.05751,0.03827
+statement,will/activity,132,0.01,(6) excl-2020,const,const,2.0312,0.57341,0.0004,***,91,0.18145,0.16284
+statement,will/activity,132,0.01,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-2.26217,0.6966,0.00116,***,91,0.18145,0.16284
+statement,will/activity,132,0.01,(6) excl-2020,vix_pre28,VIX,0.07601,0.03127,0.01506,**,91,0.18145,0.16284
+statement,will/activity,132,0.01,(7) Δ,const,const,0.02991,0.07587,0.6934,,100,0.04964,0.03005
+statement,will/activity,132,0.01,(7) Δ,d_cfnai,ΔCFNAI,-0.11733,0.08386,0.1618,,100,0.04964,0.03005
+statement,will/activity,132,0.01,(7) Δ,d_vix,ΔVIX,-0.05174,0.05802,0.37245,,100,0.04964,0.03005
+statement,will/activity,132,0.01,(8) Δ excl-2020,const,const,0.04375,0.06828,0.52171,,90,0.01101,-0.01172
+statement,will/activity,132,0.01,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.11883,0.26944,0.65921,,90,0.01101,-0.01172
+statement,will/activity,132,0.01,(8) Δ excl-2020,d_vix,ΔVIX,0.01914,0.01976,0.33273,,90,0.01101,-0.01172
+statement,will/aspectual,126,0.327,(3),const,const,0.73053,1.30209,0.57477,,101,0.11166,0.09353
+statement,will/aspectual,126,0.327,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.06367,0.08722,0.46536,,101,0.11166,0.09353
+statement,will/aspectual,126,0.327,(3),vix_pre28,VIX,0.14659,0.05263,0.00534,***,101,0.11166,0.09353
+statement,will/aspectual,126,0.327,(6) excl-2020,const,const,-0.86442,1.34988,0.52193,,91,0.14285,0.12337
+statement,will/aspectual,126,0.327,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-2.02806,1.9591,0.30058,,91,0.14285,0.12337
+statement,will/aspectual,126,0.327,(6) excl-2020,vix_pre28,VIX,0.24151,0.06362,0.00015,***,91,0.14285,0.12337
+statement,will/aspectual,126,0.327,(7) Δ,const,const,0.02828,0.09355,0.76245,,100,0.01392,-0.00641
+statement,will/aspectual,126,0.327,(7) Δ,d_cfnai,ΔCFNAI,0.10614,0.07257,0.14358,,100,0.01392,-0.00641
+statement,will/aspectual,126,0.327,(7) Δ,d_vix,ΔVIX,-0.02212,0.03205,0.48994,,100,0.01392,-0.00641
+statement,will/aspectual,126,0.327,(8) Δ excl-2020,const,const,0.00554,0.09447,0.95319,,90,0.04982,0.02797
+statement,will/aspectual,126,0.327,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.75648,0.62668,0.22738,,90,0.04982,0.02797
+statement,will/aspectual,126,0.327,(8) Δ excl-2020,d_vix,ΔVIX,-0.06785,0.0216,0.00168,***,90,0.04982,0.02797
+statement,will/mental,105,0.257,(3),const,const,3.96696,0.795,0.0,***,101,0.21362,0.19757
+statement,will/mental,105,0.257,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.5702,0.10925,0.0,***,101,0.21362,0.19757
+statement,will/mental,105,0.257,(3),vix_pre28,VIX,-0.08098,0.04307,0.0601,*,101,0.21362,0.19757
+statement,will/mental,105,0.257,(6) excl-2020,const,const,4.96975,0.81322,0.0,***,91,0.27971,0.26334
+statement,will/mental,105,0.257,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-1.92511,0.89942,0.03232,**,91,0.27971,0.26334
+statement,will/mental,105,0.257,(6) excl-2020,vix_pre28,VIX,-0.14249,0.04475,0.00145,***,91,0.27971,0.26334
+statement,will/mental,105,0.257,(7) Δ,const,const,0.01368,0.06492,0.8331,,100,0.12996,0.11202
+statement,will/mental,105,0.257,(7) Δ,d_cfnai,ΔCFNAI,-0.29253,0.07713,0.00015,***,100,0.12996,0.11202
+statement,will/mental,105,0.257,(7) Δ,d_vix,ΔVIX,0.01179,0.01688,0.48502,,100,0.12996,0.11202
+statement,will/mental,105,0.257,(8) Δ excl-2020,const,const,0.05877,0.05952,0.3235,,90,0.00596,-0.01689
+statement,will/mental,105,0.257,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.12112,0.41682,0.77138,,90,0.00596,-0.01689
+statement,will/mental,105,0.257,(8) Δ excl-2020,d_vix,ΔVIX,0.01537,0.0211,0.46648,,90,0.00596,-0.01689
+statement,will/policy_action,57,0.614,(3),const,const,2.29427,0.57404,6e-05,***,101,0.10165,0.08332
+statement,will/policy_action,57,0.614,(3),cfnai_ma3_lag2,CFNAI-MA3,0.00781,0.04656,0.86678,,101,0.10165,0.08332
+statement,will/policy_action,57,0.614,(3),vix_pre28,VIX,-0.06826,0.02506,0.00645,***,101,0.10165,0.08332
+statement,will/policy_action,57,0.614,(6) excl-2020,const,const,2.90785,0.63675,0.0,***,91,0.11008,0.08985
+statement,will/policy_action,57,0.614,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.05677,0.65142,0.93056,,91,0.11008,0.08985
+statement,will/policy_action,57,0.614,(6) excl-2020,vix_pre28,VIX,-0.1036,0.03132,0.00094,***,91,0.11008,0.08985
+statement,will/policy_action,57,0.614,(7) Δ,const,const,-0.03749,0.06595,0.56973,,100,0.007,-0.01348
+statement,will/policy_action,57,0.614,(7) Δ,d_cfnai,ΔCFNAI,-0.01655,0.02156,0.44265,,100,0.007,-0.01348
+statement,will/policy_action,57,0.614,(7) Δ,d_vix,ΔVIX,0.02296,0.02296,0.31735,,100,0.007,-0.01348
+statement,will/policy_action,57,0.614,(8) Δ excl-2020,const,const,-0.04501,0.07334,0.53943,,90,0.01258,-0.01012
+statement,will/policy_action,57,0.614,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.3814,0.52502,0.46757,,90,0.01258,-0.01012
+statement,will/policy_action,57,0.614,(8) Δ excl-2020,d_vix,ΔVIX,0.03513,0.0352,0.31831,,90,0.01258,-0.01012
+statement,will/copular_adj,51,0.535,(3),const,const,0.81897,0.68724,0.23339,,101,0.06185,0.04271
+statement,will/copular_adj,51,0.535,(3),cfnai_ma3_lag2,CFNAI-MA3,0.30545,0.09166,0.00086,***,101,0.06185,0.04271
+statement,will/copular_adj,51,0.535,(3),vix_pre28,VIX,0.02463,0.03748,0.51097,,101,0.06185,0.04271
+statement,will/copular_adj,51,0.535,(6) excl-2020,const,const,0.01365,0.80091,0.9864,,91,0.15771,0.13856
+statement,will/copular_adj,51,0.535,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,1.68803,0.65473,0.00993,***,91,0.15771,0.13856
+statement,will/copular_adj,51,0.535,(6) excl-2020,vix_pre28,VIX,0.07724,0.04499,0.086,*,91,0.15771,0.13856
+statement,will/copular_adj,51,0.535,(7) Δ,const,const,-0.02142,0.08492,0.80084,,100,0.06903,0.04983
+statement,will/copular_adj,51,0.535,(7) Δ,d_cfnai,ΔCFNAI,0.15619,0.03049,0.0,***,100,0.06903,0.04983
+statement,will/copular_adj,51,0.535,(7) Δ,d_vix,ΔVIX,-0.03802,0.01813,0.03598,**,100,0.06903,0.04983
+statement,will/copular_adj,51,0.535,(8) Δ excl-2020,const,const,-0.05087,0.095,0.59229,,90,0.03958,0.0175
+statement,will/copular_adj,51,0.535,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.12142,0.52033,0.81548,,90,0.03958,0.0175
+statement,will/copular_adj,51,0.535,(8) Δ excl-2020,d_vix,ΔVIX,-0.05168,0.02736,0.05893,*,90,0.03958,0.0175
+statement,could/causative,50,0.505,(3),const,const,0.64181,0.89298,0.47231,,101,0.05686,0.03761
+statement,could/causative,50,0.505,(3),cfnai_ma3_lag2,CFNAI-MA3,0.22371,0.04407,0.0,***,101,0.05686,0.03761
+statement,could/causative,50,0.505,(3),vix_pre28,VIX,0.04491,0.04715,0.34081,,101,0.05686,0.03761
+statement,could/causative,50,0.505,(6) excl-2020,const,const,-1.32489,0.59119,0.02502,**,91,0.23777,0.22045
+statement,could/causative,50,0.505,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-1.14992,0.95078,0.22649,,91,0.23777,0.22045
+statement,could/causative,50,0.505,(6) excl-2020,vix_pre28,VIX,0.16567,0.0326,0.0,***,91,0.23777,0.22045
+statement,could/causative,50,0.505,(7) Δ,const,const,0.02731,0.0269,0.30993,,100,0.2652,0.25005
+statement,could/causative,50,0.505,(7) Δ,d_cfnai,ΔCFNAI,0.1392,0.03611,0.00012,***,100,0.2652,0.25005
+statement,could/causative,50,0.505,(7) Δ,d_vix,ΔVIX,-0.0064,0.00897,0.47522,,100,0.2652,0.25005
+statement,could/causative,50,0.505,(8) Δ excl-2020,const,const,0.00412,0.02263,0.85564,,90,0.00141,-0.02155
+statement,could/causative,50,0.505,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.05606,0.13106,0.66883,,90,0.00141,-0.02155
+statement,could/causative,50,0.505,(8) Δ excl-2020,d_vix,ΔVIX,7e-05,0.01176,0.99494,,90,0.00141,-0.02155
+statement,will/occurrence,47,0.644,(3),const,const,1.6371,0.66529,0.01386,**,101,0.03549,0.01581
+statement,will/occurrence,47,0.644,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.08668,0.10194,0.39517,,101,0.03549,0.01581
+statement,will/occurrence,47,0.644,(3),vix_pre28,VIX,-0.03894,0.0278,0.16126,,101,0.03549,0.01581
+statement,will/occurrence,47,0.644,(6) excl-2020,const,const,2.79494,0.79114,0.00041,***,91,0.14251,0.12302
+statement,will/occurrence,47,0.644,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,1.366,0.88259,0.12169,,91,0.14251,0.12302
+statement,will/occurrence,47,0.644,(6) excl-2020,vix_pre28,VIX,-0.10894,0.03718,0.00339,***,91,0.14251,0.12302
+statement,will/occurrence,47,0.644,(7) Δ,const,const,-0.03517,0.08254,0.67,,100,0.01781,-0.00244
+statement,will/occurrence,47,0.644,(7) Δ,d_cfnai,ΔCFNAI,-0.09698,0.06087,0.11113,,100,0.01781,-0.00244
+statement,will/occurrence,47,0.644,(7) Δ,d_vix,ΔVIX,-0.0149,0.0259,0.56512,,100,0.01781,-0.00244
+statement,will/occurrence,47,0.644,(8) Δ excl-2020,const,const,-0.04083,0.0871,0.63926,,90,0.00554,-0.01732
+statement,will/occurrence,47,0.644,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.01558,0.58094,0.9786,,90,0.00554,-0.01732
+statement,will/occurrence,47,0.644,(8) Δ excl-2020,d_vix,ΔVIX,-0.02221,0.03458,0.52055,,90,0.00554,-0.01732
+statement,would/copular_adj,46,0.545,(3),const,const,0.49928,0.91562,0.58555,,101,0.0627,0.04358
+statement,would/copular_adj,46,0.545,(3),cfnai_ma3_lag2,CFNAI-MA3,0.22118,0.04549,0.0,***,101,0.0627,0.04358
+statement,would/copular_adj,46,0.545,(3),vix_pre28,VIX,0.05004,0.04844,0.30162,,101,0.0627,0.04358
+statement,would/copular_adj,46,0.545,(6) excl-2020,const,const,-1.54176,0.58947,0.00891,***,91,0.25647,0.23957
+statement,would/copular_adj,46,0.545,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-1.23922,0.9708,0.20178,,91,0.25647,0.23957
+statement,would/copular_adj,46,0.545,(6) excl-2020,vix_pre28,VIX,0.17513,0.03245,0.0,***,91,0.25647,0.23957
+statement,would/copular_adj,46,0.545,(7) Δ,const,const,0.0393,0.02322,0.09049,*,100,0.29966,0.28522
+statement,would/copular_adj,46,0.545,(7) Δ,d_cfnai,ΔCFNAI,0.13831,0.03597,0.00012,***,100,0.29966,0.28522
+statement,would/copular_adj,46,0.545,(7) Δ,d_vix,ΔVIX,-0.00616,0.00891,0.48883,,100,0.29966,0.28522
+statement,would/copular_adj,46,0.545,(8) Δ excl-2020,const,const,0.01689,0.01816,0.35221,,90,0.00498,-0.01789
+statement,would/copular_adj,46,0.545,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.09364,0.12737,0.46225,,90,0.00498,-0.01789
+statement,would/copular_adj,46,0.545,(8) Δ excl-2020,d_vix,ΔVIX,0.00067,0.01157,0.95411,,90,0.00498,-0.01789

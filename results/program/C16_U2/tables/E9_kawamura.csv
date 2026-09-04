@@ -1,0 +1,109 @@
+level,key,series,spec,var,coef,se,t,p,stars,n,r2
+genre,minutes,ALL,levels: CFNAI,CFNAI-MA3,-0.1193,0.0721,-1.66,0.0978,*,99,0.002
+genre,minutes,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.1118,0.0699,-1.6,0.1099,,99,0.003
+genre,minutes,ALL,levels: CFNAI + VIX,VIX,0.0151,0.0456,0.33,0.7396,,99,0.003
+genre,minutes,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.2488,0.0652,-3.82,0.0001,***,98,0.014
+genre,minutes,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0287,0.0793,0.36,0.7175,,98,0.014
+genre,minutes,ALL,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-0.2252,1.4166,-0.16,0.8737,,91,0.0
+genre,minutes,ALL,levels excl-2020: CFNAI + VIX,VIX,0.005,0.0642,0.08,0.9385,,91,0.0
+genre,minutes,ALL,Δ excl-2020,ΔCFNAI,-2.0016,1.5139,-1.32,0.1861,,90,0.02
+genre,minutes,ALL,Δ excl-2020,ΔVIX,-0.0384,0.0939,-0.41,0.683,,90,0.02
+genre,minutes,commit,levels: CFNAI,CFNAI-MA3,0.0538,0.059,0.91,0.3624,,99,0.002
+genre,minutes,commit,levels: CFNAI + VIX,CFNAI-MA3,0.0472,0.0589,0.8,0.4232,,99,0.005
+genre,minutes,commit,levels: CFNAI + VIX,VIX,-0.0132,0.0187,-0.71,0.4788,,99,0.005
+genre,minutes,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.1729,0.0298,5.8,0.0,***,98,0.084
+genre,minutes,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0576,0.0251,-2.3,0.0215,**,98,0.084
+genre,minutes,commit,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-1.3281,0.7386,-1.8,0.0721,*,91,0.047
+genre,minutes,commit,levels excl-2020: CFNAI + VIX,VIX,0.0064,0.0244,0.26,0.7941,,91,0.047
+genre,minutes,commit,Δ excl-2020,ΔCFNAI,0.0889,0.4571,0.19,0.8458,,90,0.063
+genre,minutes,commit,Δ excl-2020,ΔVIX,-0.0751,0.0341,-2.2,0.0275,**,90,0.063
+genre,minutes,hedge,levels: CFNAI,CFNAI-MA3,-0.2584,0.1466,-1.76,0.0779,*,99,0.01
+genre,minutes,hedge,levels: CFNAI + VIX,CFNAI-MA3,-0.228,0.1191,-1.91,0.0557,*,99,0.025
+genre,minutes,hedge,levels: CFNAI + VIX,VIX,0.0611,0.0545,1.12,0.2621,,99,0.025
+genre,minutes,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.4765,0.0503,-9.48,0.0,***,98,0.064
+genre,minutes,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0941,0.0629,1.5,0.1348,,98,0.064
+genre,minutes,hedge,levels excl-2020: CFNAI + VIX,CFNAI-MA3,1.7656,1.164,1.52,0.1293,,91,0.021
+genre,minutes,hedge,levels excl-2020: CFNAI + VIX,VIX,-0.0034,0.0765,-0.04,0.9648,,91,0.021
+genre,minutes,hedge,Δ excl-2020,ΔCFNAI,-0.9236,1.4375,-0.64,0.5206,,90,0.006
+genre,minutes,hedge,Δ excl-2020,ΔVIX,0.0361,0.0787,0.46,0.6467,,90,0.006
+genre,speech,ALL,levels: CFNAI,CFNAI-MA3,-0.3893,0.1989,-1.96,0.0504,*,124,0.004
+genre,speech,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.3422,0.2033,-1.68,0.0923,*,124,0.006
+genre,speech,ALL,levels: CFNAI + VIX,VIX,0.0375,0.0698,0.54,0.5915,,124,0.006
+genre,speech,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.6008,0.3156,-1.9,0.057,*,123,0.007
+genre,speech,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0483,0.0771,0.63,0.5313,,123,0.007
+genre,speech,ALL,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-1.3316,1.9889,-0.67,0.5032,,118,0.009
+genre,speech,ALL,levels excl-2020: CFNAI + VIX,VIX,-0.0813,0.0966,-0.84,0.3999,,118,0.009
+genre,speech,ALL,Δ excl-2020,ΔCFNAI,0.6625,0.9505,0.7,0.4858,,117,0.004
+genre,speech,ALL,Δ excl-2020,ΔVIX,-0.1561,0.2301,-0.68,0.4976,,117,0.004
+genre,speech,commit,levels: CFNAI,CFNAI-MA3,-0.2845,0.1164,-2.44,0.0145,**,124,0.006
+genre,speech,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.1894,0.1116,-1.7,0.0895,*,124,0.03
+genre,speech,commit,levels: CFNAI + VIX,VIX,0.0756,0.0316,2.39,0.0168,**,124,0.03
+genre,speech,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.5254,0.1534,-3.43,0.0006,***,123,0.012
+genre,speech,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0043,0.1067,0.04,0.9682,,123,0.012
+genre,speech,commit,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-0.9481,1.3977,-0.68,0.4975,,118,0.012
+genre,speech,commit,levels excl-2020: CFNAI + VIX,VIX,0.0775,0.0613,1.26,0.2064,,118,0.012
+genre,speech,commit,Δ excl-2020,ΔCFNAI,-0.2897,0.6997,-0.41,0.6788,,117,0.062
+genre,speech,commit,Δ excl-2020,ΔVIX,-0.3605,0.1879,-1.92,0.0551,*,117,0.062
+genre,speech,hedge,levels: CFNAI,CFNAI-MA3,0.5569,0.1332,4.18,0.0,***,124,0.019
+genre,speech,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4359,0.1387,3.14,0.0017,***,124,0.051
+genre,speech,hedge,levels: CFNAI + VIX,VIX,-0.0963,0.0335,-2.88,0.004,***,124,0.051
+genre,speech,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.6865,0.1174,5.85,0.0,***,123,0.027
+genre,speech,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0638,0.042,-1.52,0.1286,,123,0.027
+genre,speech,hedge,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-1.0285,1.3655,-0.75,0.4513,,118,0.043
+genre,speech,hedge,levels excl-2020: CFNAI + VIX,VIX,-0.1463,0.0643,-2.27,0.0229,**,118,0.043
+genre,speech,hedge,Δ excl-2020,ΔCFNAI,1.7045,0.6248,2.73,0.0064,***,117,0.016
+genre,speech,hedge,Δ excl-2020,ΔVIX,0.0664,0.0875,0.76,0.4479,,117,0.016
+layer,min_committee,ALL,levels: CFNAI,CFNAI-MA3,-0.1193,0.0721,-1.66,0.0978,*,99,0.002
+layer,min_committee,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.1118,0.0699,-1.6,0.1099,,99,0.003
+layer,min_committee,ALL,levels: CFNAI + VIX,VIX,0.0151,0.0456,0.33,0.7396,,99,0.003
+layer,min_committee,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.2488,0.0652,-3.82,0.0001,***,98,0.014
+layer,min_committee,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0287,0.0793,0.36,0.7175,,98,0.014
+layer,min_committee,ALL,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-0.2252,1.4166,-0.16,0.8737,,91,0.0
+layer,min_committee,ALL,levels excl-2020: CFNAI + VIX,VIX,0.005,0.0642,0.08,0.9385,,91,0.0
+layer,min_committee,ALL,Δ excl-2020,ΔCFNAI,-2.0016,1.5139,-1.32,0.1861,,90,0.02
+layer,min_committee,ALL,Δ excl-2020,ΔVIX,-0.0384,0.0939,-0.41,0.683,,90,0.02
+layer,min_committee,commit,levels: CFNAI,CFNAI-MA3,0.0538,0.059,0.91,0.3624,,99,0.002
+layer,min_committee,commit,levels: CFNAI + VIX,CFNAI-MA3,0.0472,0.0589,0.8,0.4232,,99,0.005
+layer,min_committee,commit,levels: CFNAI + VIX,VIX,-0.0132,0.0187,-0.71,0.4788,,99,0.005
+layer,min_committee,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.1729,0.0298,5.8,0.0,***,98,0.084
+layer,min_committee,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0576,0.0251,-2.3,0.0215,**,98,0.084
+layer,min_committee,commit,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-1.3281,0.7386,-1.8,0.0721,*,91,0.047
+layer,min_committee,commit,levels excl-2020: CFNAI + VIX,VIX,0.0064,0.0244,0.26,0.7941,,91,0.047
+layer,min_committee,commit,Δ excl-2020,ΔCFNAI,0.0889,0.4571,0.19,0.8458,,90,0.063
+layer,min_committee,commit,Δ excl-2020,ΔVIX,-0.0751,0.0341,-2.2,0.0275,**,90,0.063
+layer,min_committee,hedge,levels: CFNAI,CFNAI-MA3,-0.2584,0.1466,-1.76,0.0779,*,99,0.01
+layer,min_committee,hedge,levels: CFNAI + VIX,CFNAI-MA3,-0.228,0.1191,-1.91,0.0557,*,99,0.025
+layer,min_committee,hedge,levels: CFNAI + VIX,VIX,0.0611,0.0545,1.12,0.2621,,99,0.025
+layer,min_committee,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.4765,0.0503,-9.48,0.0,***,98,0.064
+layer,min_committee,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0941,0.0629,1.5,0.1348,,98,0.064
+layer,min_committee,hedge,levels excl-2020: CFNAI + VIX,CFNAI-MA3,1.7656,1.164,1.52,0.1293,,91,0.021
+layer,min_committee,hedge,levels excl-2020: CFNAI + VIX,VIX,-0.0034,0.0765,-0.04,0.9648,,91,0.021
+layer,min_committee,hedge,Δ excl-2020,ΔCFNAI,-0.9236,1.4375,-0.64,0.5206,,90,0.006
+layer,min_committee,hedge,Δ excl-2020,ΔVIX,0.0361,0.0787,0.46,0.6467,,90,0.006
+layer,speech_chair,ALL,levels: CFNAI,CFNAI-MA3,-0.3893,0.1989,-1.96,0.0504,*,124,0.004
+layer,speech_chair,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.3422,0.2033,-1.68,0.0923,*,124,0.006
+layer,speech_chair,ALL,levels: CFNAI + VIX,VIX,0.0375,0.0698,0.54,0.5915,,124,0.006
+layer,speech_chair,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.6008,0.3156,-1.9,0.057,*,123,0.007
+layer,speech_chair,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0483,0.0771,0.63,0.5313,,123,0.007
+layer,speech_chair,ALL,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-1.3316,1.9889,-0.67,0.5032,,118,0.009
+layer,speech_chair,ALL,levels excl-2020: CFNAI + VIX,VIX,-0.0813,0.0966,-0.84,0.3999,,118,0.009
+layer,speech_chair,ALL,Δ excl-2020,ΔCFNAI,0.6625,0.9505,0.7,0.4858,,117,0.004
+layer,speech_chair,ALL,Δ excl-2020,ΔVIX,-0.1561,0.2301,-0.68,0.4976,,117,0.004
+layer,speech_chair,commit,levels: CFNAI,CFNAI-MA3,-0.2845,0.1164,-2.44,0.0145,**,124,0.006
+layer,speech_chair,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.1894,0.1116,-1.7,0.0895,*,124,0.03
+layer,speech_chair,commit,levels: CFNAI + VIX,VIX,0.0756,0.0316,2.39,0.0168,**,124,0.03
+layer,speech_chair,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.5254,0.1534,-3.43,0.0006,***,123,0.012
+layer,speech_chair,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0043,0.1067,0.04,0.9682,,123,0.012
+layer,speech_chair,commit,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-0.9481,1.3977,-0.68,0.4975,,118,0.012
+layer,speech_chair,commit,levels excl-2020: CFNAI + VIX,VIX,0.0775,0.0613,1.26,0.2064,,118,0.012
+layer,speech_chair,commit,Δ excl-2020,ΔCFNAI,-0.2897,0.6997,-0.41,0.6788,,117,0.062
+layer,speech_chair,commit,Δ excl-2020,ΔVIX,-0.3605,0.1879,-1.92,0.0551,*,117,0.062
+layer,speech_chair,hedge,levels: CFNAI,CFNAI-MA3,0.5569,0.1332,4.18,0.0,***,124,0.019
+layer,speech_chair,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4359,0.1387,3.14,0.0017,***,124,0.051
+layer,speech_chair,hedge,levels: CFNAI + VIX,VIX,-0.0963,0.0335,-2.88,0.004,***,124,0.051
+layer,speech_chair,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.6865,0.1174,5.85,0.0,***,123,0.027
+layer,speech_chair,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0638,0.042,-1.52,0.1286,,123,0.027
+layer,speech_chair,hedge,levels excl-2020: CFNAI + VIX,CFNAI-MA3,-1.0285,1.3655,-0.75,0.4513,,118,0.043
+layer,speech_chair,hedge,levels excl-2020: CFNAI + VIX,VIX,-0.1463,0.0643,-2.27,0.0229,**,118,0.043
+layer,speech_chair,hedge,Δ excl-2020,ΔCFNAI,1.7045,0.6248,2.73,0.0064,***,117,0.016
+layer,speech_chair,hedge,Δ excl-2020,ΔVIX,0.0664,0.0875,0.76,0.4479,,117,0.016

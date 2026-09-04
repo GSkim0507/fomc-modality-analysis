@@ -1,0 +1,1241 @@
+{
+ "cid": "C15",
+ "alias": "",
+ "name": "press_conf[chair]",
+ "layers": [
+  "pc_chair"
+ ],
+ "U": "U2",
+ "unit": "modal + predicate",
+ "unfiltered": false,
+ "errors": {},
+ "blocks_ok": [
+  "L1_corpus_description",
+  "L2_keyness_division",
+  "L3_diachronic",
+  "L4_collocation",
+  "L5_formulaicity",
+  "L6_context",
+  "L7_mnlogit",
+  "L8_be_appropriate",
+  "L9_contrasts",
+  "E1_descriptives",
+  "E2_correlations",
+  "E3_regressions",
+  "E4_construction_regressions",
+  "E5_screen_ledger",
+  "E6_leadlag",
+  "E7_event_study",
+  "E8_robustness",
+  "E9_kawamura"
+ ],
+ "L1": {
+  "layers": [
+   {
+    "layer": "pc_chair",
+    "label": "Press conf.: Chair",
+    "n_docs": 80,
+    "tokens": 533106,
+    "sentences": 26371,
+    "six_modal": 10686,
+    "nine_modal": 10944,
+    "pmw": 20044.8,
+    "ci_lo": 19666.5,
+    "ci_hi": 20428.5,
+    "per1k": 20.04
+   }
+  ],
+  "modal_pmw": {
+   "pc_chair": {
+    "will": 8142.8,
+    "would": 5865.6,
+    "could": 1174.3,
+    "can": 3020.0,
+    "should": 932.3,
+    "may": 909.8,
+    "might": 444.6,
+    "must": 35.6,
+    "shall": 3.8
+   }
+  },
+  "dp": {
+   "pc_chair": {
+    "will": 0.114,
+    "would": 0.118,
+    "could": 0.189,
+    "can": 0.142,
+    "should": 0.218,
+    "may": 0.211
+   }
+  }
+ },
+ "L2": {},
+ "L3": {
+  "mk_significant": [
+   {
+    "layer": "pc_chair",
+    "series": "can",
+    "tau": 0.262,
+    "sen_slope": 0.018,
+    "p": 0.001
+   }
+  ]
+ },
+ "L4": {
+  "main_layer": "pc_chair",
+  "attracted": {
+   "will": [
+    {
+     "predicate": "continue",
+     "obs": 243,
+     "ratio": 2.14,
+     "collostruction_strength": 59.11
+    },
+    {
+     "predicate": "watch",
+     "obs": 53,
+     "ratio": 2.37,
+     "collostruction_strength": 18.08
+    },
+    {
+     "predicate": "monitor",
+     "obs": 27,
+     "ratio": 2.46,
+     "collostruction_strength": 10.58
+    },
+    {
+     "predicate": "depend",
+     "obs": 67,
+     "ratio": 1.81,
+     "collostruction_strength": 9.67
+    },
+    {
+     "predicate": "be+appropriate",
+     "obs": 105,
+     "ratio": 1.52,
+     "collostruction_strength": 7.62
+    }
+   ],
+   "would": [
+    {
+     "predicate": "say",
+     "obs": 662,
+     "ratio": 2.55,
+     "collostruction_strength": 187.78
+    },
+    {
+     "predicate": "like",
+     "obs": 112,
+     "ratio": 3.42,
+     "collostruction_strength": 60.39
+    },
+    {
+     "predicate": "want",
+     "obs": 108,
+     "ratio": 2.91,
+     "collostruction_strength": 38.69
+    },
+    {
+     "predicate": "expect",
+     "obs": 81,
+     "ratio": 2.69,
+     "collostruction_strength": 24.56
+    },
+    {
+     "predicate": "point",
+     "obs": 62,
+     "ratio": 2.62,
+     "collostruction_strength": 17.85
+    }
+   ],
+   "could": [
+    {
+     "predicate": "impede",
+     "obs": 8,
+     "ratio": 17.07,
+     "collostruction_strength": 9.88
+    },
+    {
+     "predicate": "weaken",
+     "obs": 10,
+     "ratio": 11.38,
+     "collostruction_strength": 8.99
+    },
+    {
+     "predicate": "result",
+     "obs": 9,
+     "ratio": 10.24,
+     "collostruction_strength": 7.55
+    },
+    {
+     "predicate": "mean",
+     "obs": 11,
+     "ratio": 5.87,
+     "collostruction_strength": 5.97
+    },
+    {
+     "predicate": "could",
+     "obs": 4,
+     "ratio": 17.07,
+     "collostruction_strength": 4.93
+    }
+   ],
+   "can": [
+    {
+     "predicate": "everything",
+     "obs": 52,
+     "ratio": 6.51,
+     "collostruction_strength": 41.39
+    },
+    {
+     "predicate": "do",
+     "obs": 159,
+     "ratio": 2.63,
+     "collostruction_strength": 33.78
+    },
+    {
+     "predicate": "can",
+     "obs": 13,
+     "ratio": 6.64,
+     "collostruction_strength": 10.7
+    },
+    {
+     "predicate": "tell",
+     "obs": 34,
+     "ratio": 2.82,
+     "collostruction_strength": 8.53
+    },
+    {
+     "predicate": "see",
+     "obs": 100,
+     "ratio": 1.75,
+     "collostruction_strength": 8.12
+    }
+   ],
+   "should": [
+    {
+     "predicate": "help",
+     "obs": 21,
+     "ratio": 5.44,
+     "collostruction_strength": 9.94
+    },
+    {
+     "predicate": "direct",
+     "obs": 6,
+     "ratio": 21.5,
+     "collostruction_strength": 8.01
+    },
+    {
+     "predicate": "doubt",
+     "obs": 5,
+     "ratio": 17.92,
+     "collostruction_strength": 5.91
+    },
+    {
+     "predicate": "assume",
+     "obs": 7,
+     "ratio": 10.03,
+     "collostruction_strength": 5.68
+    },
+    {
+     "predicate": "overstate",
+     "obs": 4,
+     "ratio": 21.5,
+     "collostruction_strength": 5.33
+    }
+   ],
+   "may": [
+    {
+     "predicate": "be",
+     "obs": 38,
+     "ratio": 2.94,
+     "collostruction_strength": 8.72
+    },
+    {
+     "predicate": "be+answer",
+     "obs": 6,
+     "ratio": 22.03,
+     "collostruction_strength": 8.07
+    },
+    {
+     "predicate": "be+difficult",
+     "obs": 7,
+     "ratio": 17.14,
+     "collostruction_strength": 7.9
+    },
+    {
+     "predicate": "be+appropriate",
+     "obs": 21,
+     "ratio": 2.72,
+     "collostruction_strength": 4.56
+    },
+    {
+     "predicate": "warrant",
+     "obs": 8,
+     "ratio": 5.69,
+     "collostruction_strength": 4.27
+    }
+   ]
+  },
+  "top_predicate": {
+   "will": {
+    "predicate": "continue",
+    "share": 0.056
+   },
+   "would": {
+    "predicate": "say",
+    "share": 0.2117
+   },
+   "could": {
+    "predicate": "see",
+    "share": 0.0447
+   },
+   "can": {
+    "predicate": "do",
+    "share": 0.0988
+   },
+   "should": {
+    "predicate": "do",
+    "share": 0.0463
+   },
+   "may": {
+    "predicate": "be",
+    "share": 0.0784
+   }
+  },
+  "jsd_main": [
+   0.365,
+   0.582
+  ]
+ },
+ "L5": {
+  "note": "no statement layer"
+ },
+ "L6": {
+  "rates_main": [
+   {
+    "layer": "pc_chair",
+    "modal": "will",
+    "n": 4341,
+    "neg": 0.044,
+    "passive": 0.025,
+    "perfect": 0.006,
+    "progressive": 0.071,
+    "cond": 0.158,
+    "reported": 0.196,
+    "question": 0.024,
+    "contracted": 0.281
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "would",
+    "n": 3127,
+    "neg": 0.103,
+    "passive": 0.017,
+    "perfect": 0.02,
+    "progressive": 0.019,
+    "cond": 0.23,
+    "reported": 0.169,
+    "question": 0.025,
+    "contracted": 0.095
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "could",
+    "n": 626,
+    "neg": 0.037,
+    "passive": 0.061,
+    "perfect": 0.027,
+    "progressive": 0.011,
+    "cond": 0.291,
+    "reported": 0.142,
+    "question": 0.024,
+    "contracted": 0.0
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "can",
+    "n": 1610,
+    "neg": 0.17,
+    "passive": 0.03,
+    "perfect": 0.001,
+    "progressive": 0.003,
+    "cond": 0.195,
+    "reported": 0.153,
+    "question": 0.022,
+    "contracted": 0.0
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "should",
+    "n": 497,
+    "neg": 0.103,
+    "passive": 0.072,
+    "perfect": 0.012,
+    "progressive": 0.066,
+    "cond": 0.181,
+    "reported": 0.231,
+    "question": 0.012,
+    "contracted": 0.0
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "may",
+    "n": 485,
+    "neg": 0.101,
+    "passive": 0.058,
+    "perfect": 0.064,
+    "progressive": 0.06,
+    "cond": 0.181,
+    "reported": 0.159,
+    "question": 0.006,
+    "contracted": 0.0
+   }
+  ],
+  "chi2_significant": [
+   {
+    "layer": "pc_chair",
+    "feature": "neg",
+    "chi2": 278.1,
+    "dof": 5,
+    "p": 4.979013120427594e-58,
+    "cramers_v": 0.161
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "passive",
+    "chi2": 85.9,
+    "dof": 5,
+    "p": 4.954459693953287e-17,
+    "cramers_v": 0.09
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "perfect",
+    "chi2": 143.5,
+    "dof": 5,
+    "p": 3.1890206321807375e-29,
+    "cramers_v": 0.116
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "progressive",
+    "chi2": 224.1,
+    "dof": 5,
+    "p": 1.9732769185002582e-46,
+    "cramers_v": 0.145
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "cond",
+    "chi2": 101.4,
+    "dof": 5,
+    "p": 2.641862073648841e-20,
+    "cramers_v": 0.097
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "reported",
+    "chi2": 35.2,
+    "dof": 5,
+    "p": 1.3573543258397827e-06,
+    "cramers_v": 0.057
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "contracted",
+    "chi2": 1281.5,
+    "dof": 5,
+    "p": 6.535637721923945e-275,
+    "cramers_v": 0.346
+   }
+  ],
+  "sem_main": {
+   "will": [
+    {
+     "sem_type": "dynamic_volitional",
+     "share": 0.517
+    },
+    {
+     "sem_type": "epistemic_predictive",
+     "share": 0.483
+    }
+   ],
+   "would": [
+    {
+     "sem_type": "conditional_hypothetical",
+     "share": 0.353
+    },
+    {
+     "sem_type": "dynamic_tentative",
+     "share": 0.249
+    }
+   ],
+   "could": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 0.732
+    },
+    {
+     "sem_type": "dynamic_ability",
+     "share": 0.268
+    }
+   ],
+   "can": [
+    {
+     "sem_type": "dynamic_ability",
+     "share": 0.662
+    },
+    {
+     "sem_type": "dynamic_circumstantial",
+     "share": 0.275
+    }
+   ],
+   "should": [
+    {
+     "sem_type": "deontic_advisability",
+     "share": 0.742
+    },
+    {
+     "sem_type": "epistemic_expectation",
+     "share": 0.258
+    }
+   ],
+   "may": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 0.988
+    },
+    {
+     "sem_type": "deontic_permission",
+     "share": 0.012
+    }
+   ]
+  }
+ },
+ "L7": {
+  "pseudo_r2": 0.0632,
+  "n": 10686,
+  "llf": -14615.789045363059,
+  "layer_effects": []
+ },
+ "L8": {
+  "n": 170,
+  "counts": {
+   "pc_chair": {
+    "will": 105,
+    "would": 38,
+    "may": 21,
+    "could": 5
+   }
+  }
+ },
+ "L9": {
+  "chair_pc_chair": {
+   "chi2": 99.4,
+   "p": 7.232366782422975e-20,
+   "V": 0.096
+  }
+ },
+ "E1": {
+  "macro": [
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "CFNAI-MA3 (m−2)",
+    "N": 80,
+    "mean": -0.114,
+    "sd": 1.235,
+    "min": -7.55,
+    "max": 4.58,
+    "zero_share": NaN,
+    "AR1": 0.246
+   },
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "VIX pre-28d",
+    "N": 80,
+    "mean": 18.823,
+    "sd": 6.114,
+    "min": 10.663,
+    "max": 42.376,
+    "zero_share": NaN,
+    "AR1": 0.688
+   },
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "Unemployment gap (m−1)",
+    "N": 80,
+    "mean": 0.15,
+    "sd": 1.557,
+    "min": -1.034,
+    "max": 8.741,
+    "zero_share": NaN,
+    "AR1": 0.75
+   },
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "Core PCE gap (m−2)",
+    "N": 80,
+    "mean": 0.685,
+    "sd": 1.357,
+    "min": -1.005,
+    "max": 3.606,
+    "zero_share": NaN,
+    "AR1": 0.98
+   }
+  ],
+  "text_all": {
+   "pc_chair": {
+    "mean": 20.043,
+    "sd": 2.968,
+    "AR1": 0.186
+   }
+  }
+ },
+ "E2": {
+  "genre_all": [
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "cfnai",
+    "rho": 0.2165,
+    "p": 0.0538,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "vix",
+    "rho": 0.3188,
+    "p": 0.004,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "cfnai",
+    "rho": 0.1422,
+    "p": 0.1764,
+    "n": 92
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "vix",
+    "rho": 0.2925,
+    "p": 0.0047,
+    "n": 92
+   }
+  ],
+  "layer_all_T2": [
+   {
+    "key": "pc_chair",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302
+   },
+   {
+    "key": "pc_chair",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118
+   }
+  ]
+ },
+ "E3": {
+  "all_by_layer": {
+   "pc_chair": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3414,
+      "p": 0.0155,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1816,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3416,
+      "p": 0.0182,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1817,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     },
+     "post_fw": {
+      "coef": -0.0018,
+      "p": 0.9982,
+      "stars": "",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 2.4815,
+      "p": 0.0432,
+      "stars": "**",
+      "n": 71,
+      "r2": 0.129
+     },
+     "vix_pre28": {
+      "coef": 0.1187,
+      "p": 0.0043,
+      "stars": "***",
+      "n": 71,
+      "r2": 0.129
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": 0.7589,
+      "p": 0.0,
+      "stars": "***",
+      "n": 79,
+      "r2": 0.092
+     },
+     "d_vix": {
+      "coef": -0.0047,
+      "p": 0.9608,
+      "stars": "",
+      "n": 79,
+      "r2": 0.092
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -1.1143,
+      "p": 0.4786,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     },
+     "d_vix": {
+      "coef": 0.0764,
+      "p": 0.5203,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     }
+    }
+   }
+  }
+ },
+ "E4": {
+  "n_units": 13,
+  "significant_spec3": [
+   {
+    "layer": "pc_chair",
+    "unit": "would+say",
+    "var": "const",
+    "coef": 0.9536,
+    "p": 0.0001,
+    "n_tokens": 662
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will+continue",
+    "var": "const",
+    "coef": 0.4586,
+    "p": 0.0027,
+    "n_tokens": 243
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will+have",
+    "var": "const",
+    "coef": 0.5081,
+    "p": 0.0,
+    "n_tokens": 216
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will+see",
+    "var": "vix_pre28",
+    "coef": 0.0116,
+    "p": 0.0109,
+    "n_tokens": 177
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "can+do",
+    "var": "vix_pre28",
+    "coef": 0.0218,
+    "p": 0.0013,
+    "n_tokens": 159
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will+do",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.029,
+    "p": 0.0083,
+    "n_tokens": 151
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will+look",
+    "var": "const",
+    "coef": 0.3522,
+    "p": 0.004,
+    "n_tokens": 143
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "would+be+appropriate",
+    "var": "const",
+    "coef": 0.117,
+    "p": 0.0177,
+    "n_tokens": 38
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will+be+appropriate",
+    "var": "const",
+    "coef": 0.2558,
+    "p": 0.0201,
+    "n_tokens": 105
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will+be+appropriate",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0225,
+    "p": 0.0,
+    "n_tokens": 105
+   }
+  ]
+ },
+ "E5": {
+  "n_screen": 856,
+  "n_bh_T1": 8,
+  "counts": {
+   "vix": {
+    "confirmed": 0,
+    "era_composition": 9,
+    "T1_only": 5
+   },
+   "cfnai": {
+    "confirmed": 0,
+    "era_composition": 1,
+    "T1_only": 1
+   }
+  },
+  "confirmed_top": [],
+  "confirmed_by_layer": [],
+  "statement_confirmed_vix": 0
+ },
+ "E6": {
+  "ccf_peaks_T2": [
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.404,
+    "rho": 0.417
+   },
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "vix",
+    "k": -1,
+    "r": 0.331,
+    "rho": 0.338
+   },
+   {
+    "key": "press_conf",
+    "unit": "can",
+    "macro": "vix",
+    "k": 7,
+    "r": 0.477,
+    "rho": 0.424
+   },
+   {
+    "key": "press_conf",
+    "unit": "can+do",
+    "macro": "vix",
+    "k": -2,
+    "r": 0.348,
+    "rho": 0.242
+   },
+   {
+    "key": "press_conf",
+    "unit": "could",
+    "macro": "vix",
+    "k": -3,
+    "r": -0.382,
+    "rho": -0.354
+   },
+   {
+    "key": "press_conf",
+    "unit": "may",
+    "macro": "vix",
+    "k": 7,
+    "r": -0.306,
+    "rho": -0.285
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.268,
+    "rho": 0.269
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "vix",
+    "k": -4,
+    "r": 0.419,
+    "rho": 0.31
+   },
+   {
+    "key": "press_conf",
+    "unit": "will+continue",
+    "macro": "vix",
+    "k": 3,
+    "r": -0.309,
+    "rho": -0.3
+   },
+   {
+    "key": "press_conf",
+    "unit": "will+have",
+    "macro": "cfnai",
+    "k": -2,
+    "r": -0.293,
+    "rho": -0.328
+   },
+   {
+    "key": "press_conf",
+    "unit": "will+look",
+    "macro": "cfnai",
+    "k": 8,
+    "r": -0.304,
+    "rho": -0.293
+   },
+   {
+    "key": "press_conf",
+    "unit": "will+see",
+    "macro": "vix",
+    "k": -8,
+    "r": 0.513,
+    "rho": 0.456
+   }
+  ],
+  "granger_q10": [],
+  "granger_min_q": 0.8074972519585308,
+  "predictive_q10": [],
+  "predictive_min_q": 0.5306237498586954,
+  "n_predictive": 26
+ },
+ "E7": {
+  "layer": "pc_chair",
+  "all_series": [
+   {
+    "event": "QE3 ends",
+    "event_date": "2014-10-29",
+    "pre3": 19.907,
+    "at": 21.147,
+    "post3": 21.249
+   },
+   {
+    "event": "First hike (liftoff)",
+    "event_date": "2015-12-16",
+    "pre3": 21.249,
+    "at": 19.399,
+    "post3": 17.742
+   },
+   {
+    "event": "Normalization addendum",
+    "event_date": "2017-06-14",
+    "pre3": 17.354,
+    "at": 15.702,
+    "post3": 21.241
+   },
+   {
+    "event": "Balance-sheet runoff",
+    "event_date": "2017-10-01",
+    "pre3": 18.007,
+    "at": 18.14,
+    "post3": 19.157
+   },
+   {
+    "event": "Powell chair",
+    "event_date": "2018-02-05",
+    "pre3": 18.738,
+    "at": 23.211,
+    "post3": 17.194
+   },
+   {
+    "event": "Mid-cycle cut",
+    "event_date": "2019-07-31",
+    "pre3": 18.283,
+    "at": 16.661,
+    "post3": 18.078
+   },
+   {
+    "event": "Pandemic ZLB",
+    "event_date": "2020-03-15",
+    "pre3": 22.288,
+    "at": 18.957,
+    "post3": 23.245
+   },
+   {
+    "event": "New framework",
+    "event_date": "2020-08-27",
+    "pre3": 23.245,
+    "at": 26.235,
+    "post3": 19.779
+   },
+   {
+    "event": "Hiking cycle begins",
+    "event_date": "2022-03-16",
+    "pre3": 22.629,
+    "at": 21.311,
+    "post3": 21.137
+   },
+   {
+    "event": "Last hike",
+    "event_date": "2023-07-26",
+    "pre3": 21.234,
+    "at": 22.509,
+    "post3": 19.036
+   },
+   {
+    "event": "Cutting cycle begins",
+    "event_date": "2024-09-18",
+    "pre3": 18.987,
+    "at": 18.919,
+    "post3": 16.783
+   },
+   {
+    "event": "Framework review 2025",
+    "event_date": "2025-08-22",
+    "pre3": 19.965,
+    "at": 14.058,
+    "post3": 18.197
+   }
+  ]
+ },
+ "E8": {
+  "all_rows": [
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": 0.258,
+    "p_cfnai": 0.0302,
+    "rho_vix": 0.297,
+    "p_vix": 0.0118
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.142,
+    "p_cfnai": 0.1764,
+    "rho_vix": 0.293,
+    "p_vix": 0.0047
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": 0.141,
+    "p_cfnai": 0.2124,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.336,
+    "p_vix": 0.0023
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.271,
+    "p_cfnai": 0.0151,
+    "rho_vix": 0.397,
+    "p_vix": 0.0003
+   }
+  ]
+ },
+ "E9": {
+  "countercyclical_cells": [],
+  "genre_all": [
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI",
+    "var": "CFNAI-MA3",
+    "coef": 0.2385,
+    "t": 1.11,
+    "p": 0.2688,
+    "stars": "",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 0.312,
+    "t": 2.4,
+    "p": 0.0166,
+    "stars": "**",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.1762,
+    "t": 4.33,
+    "p": 0.0,
+    "stars": "***",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔCFNAI",
+    "coef": 0.7305,
+    "t": 8.75,
+    "p": 0.0,
+    "stars": "***",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔVIX",
+    "coef": 0.0044,
+    "t": 0.05,
+    "p": 0.9618,
+    "stars": "",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 2.6165,
+    "t": 1.99,
+    "p": 0.0462,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.106,
+    "t": 2.48,
+    "p": 0.0133,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔCFNAI",
+    "coef": -0.8923,
+    "t": -0.52,
+    "p": 0.6011,
+    "stars": "",
+    "n": 70
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔVIX",
+    "coef": 0.0714,
+    "t": 0.61,
+    "p": 0.5421,
+    "stars": "",
+    "n": 70
+   }
+  ]
+ },
+ "H": {
+  "H1": {
+   "verdict": "해당 없음",
+   "evidence": "성명서 층 없음"
+  },
+  "H2": {
+   "verdict": "해당 없음",
+   "evidence": "층위 1개"
+  },
+  "H3": {
+   "verdict": "기각",
+   "evidence": "수준 회귀에서 어떤 층위의 총밀도도 CFNAI와 유의한 음의 관계 없음; 1차 차분에서도 없음"
+  },
+  "H4": {
+   "verdict": "기각",
+   "evidence": "확정 VIX 단위 0 (비성명서 층 0, 성명서 층 0)"
+  },
+  "H5": {
+   "verdict": "기각",
+   "evidence": "Granger text→macro q<.10: 0건 (최소 q=0.8074972519585308); 예측 회귀 q<.10: 0/26 (최소 q=0.5306237498586954)"
+  }
+ },
+ "runtime_s": 7.4
+}

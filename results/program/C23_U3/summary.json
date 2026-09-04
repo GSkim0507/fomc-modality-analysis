@@ -1,0 +1,3474 @@
+{
+ "cid": "C23",
+ "alias": "",
+ "name": "minutes[substantive] + press_conf[chair]",
+ "layers": [
+  "min_staff_desk",
+  "min_staff",
+  "min_participants",
+  "min_committee",
+  "min_special",
+  "pc_chair"
+ ],
+ "U": "U3",
+ "unit": "modal + verb class",
+ "unfiltered": false,
+ "errors": {},
+ "blocks_ok": [
+  "L1_corpus_description",
+  "L2_keyness_division",
+  "L3_diachronic",
+  "L4_collocation",
+  "L5_formulaicity",
+  "L6_context",
+  "L7_mnlogit",
+  "L8_be_appropriate",
+  "L9_contrasts",
+  "E1_descriptives",
+  "E2_correlations",
+  "E3_regressions",
+  "E4_construction_regressions",
+  "E5_screen_ledger",
+  "E6_leadlag",
+  "E7_event_study",
+  "E8_robustness",
+  "E9_kawamura"
+ ],
+ "L1": {
+  "layers": [
+   {
+    "layer": "min_staff_desk",
+    "label": "Minutes: Desk/markets (staff)",
+    "n_docs": 99,
+    "tokens": 71942,
+    "sentences": 2695,
+    "six_modal": 553,
+    "nine_modal": 632,
+    "pmw": 7686.7,
+    "ci_lo": 7059.4,
+    "ci_hi": 8354.9,
+    "per1k": 7.69
+   },
+   {
+    "layer": "min_staff",
+    "label": "Minutes: staff review & outlook",
+    "n_docs": 99,
+    "tokens": 249885,
+    "sentences": 10218,
+    "six_modal": 539,
+    "nine_modal": 575,
+    "pmw": 2157.0,
+    "ci_lo": 1978.7,
+    "ci_hi": 2347.0,
+    "per1k": 2.16
+   },
+   {
+    "layer": "min_participants",
+    "label": "Minutes: participants' views",
+    "n_docs": 99,
+    "tokens": 223992,
+    "sentences": 7354,
+    "six_modal": 2756,
+    "nine_modal": 3133,
+    "pmw": 12304.0,
+    "ci_lo": 11848.9,
+    "ci_hi": 12772.1,
+    "per1k": 12.3
+   },
+   {
+    "layer": "min_committee",
+    "label": "Minutes: Committee policy action",
+    "n_docs": 99,
+    "tokens": 62833,
+    "sentences": 2093,
+    "six_modal": 958,
+    "nine_modal": 984,
+    "pmw": 15246.8,
+    "ci_lo": 14296.4,
+    "ci_hi": 16243.6,
+    "per1k": 15.25
+   },
+   {
+    "layer": "min_special",
+    "label": "Minutes: special topics",
+    "n_docs": 40,
+    "tokens": 40777,
+    "sentences": 1267,
+    "six_modal": 783,
+    "nine_modal": 864,
+    "pmw": 19202.0,
+    "ci_lo": 17880.4,
+    "ci_hi": 20595.4,
+    "per1k": 19.2
+   },
+   {
+    "layer": "pc_chair",
+    "label": "Press conf.: Chair",
+    "n_docs": 80,
+    "tokens": 533106,
+    "sentences": 26371,
+    "six_modal": 10686,
+    "nine_modal": 10944,
+    "pmw": 20044.8,
+    "ci_lo": 19666.5,
+    "ci_hi": 20428.5,
+    "per1k": 20.04
+   }
+  ],
+  "modal_pmw": {
+   "min_staff_desk": {
+    "will": 486.5,
+    "would": 4267.3,
+    "could": 1918.2,
+    "can": 69.5,
+    "should": 375.3,
+    "may": 569.9,
+    "might": 847.9,
+    "must": 55.6,
+    "shall": 194.6
+   },
+   "min_staff": {
+    "will": 64.0,
+    "would": 1308.6,
+    "could": 528.2,
+    "can": 8.0,
+    "should": 20.0,
+    "may": 228.1,
+    "might": 144.1,
+    "must": 0.0,
+    "shall": 0.0
+   },
+   "min_participants": {
+    "will": 133.9,
+    "would": 6861.9,
+    "could": 3906.4,
+    "can": 35.7,
+    "should": 665.2,
+    "may": 700.9,
+    "might": 1674.2,
+    "must": 8.9,
+    "shall": 0.0
+   },
+   "min_committee": {
+    "will": 588.9,
+    "would": 11443.0,
+    "could": 1321.0,
+    "can": 47.7,
+    "should": 1352.8,
+    "may": 493.4,
+    "might": 413.8,
+    "must": 0.0,
+    "shall": 0.0
+   },
+   "min_special": {
+    "will": 1201.7,
+    "would": 8436.1,
+    "could": 6940.2,
+    "can": 515.0,
+    "should": 1422.4,
+    "may": 686.7,
+    "might": 1814.7,
+    "must": 73.6,
+    "shall": 98.1
+   },
+   "pc_chair": {
+    "will": 8142.8,
+    "would": 5865.6,
+    "could": 1174.3,
+    "can": 3020.0,
+    "should": 932.3,
+    "may": 909.8,
+    "might": 444.6,
+    "must": 35.6,
+    "shall": 3.8
+   }
+  },
+  "dp": {
+   "min_staff_desk": {
+    "will": 0.729,
+    "would": 0.301,
+    "could": 0.418,
+    "can": 0.924,
+    "should": 0.787,
+    "may": 0.656
+   },
+   "min_staff": {
+    "will": 0.848,
+    "would": 0.207,
+    "could": 0.422,
+    "can": 0.98,
+    "should": 0.946,
+    "may": 0.521
+   },
+   "min_participants": {
+    "will": 0.741,
+    "would": 0.118,
+    "could": 0.165,
+    "can": 0.927,
+    "should": 0.368,
+    "may": 0.413
+   },
+   "min_committee": {
+    "will": 0.745,
+    "would": 0.112,
+    "could": 0.335,
+    "can": 0.962,
+    "should": 0.424,
+    "may": 0.68
+   },
+   "min_special": {
+    "will": 0.698,
+    "would": 0.176,
+    "could": 0.228,
+    "can": 0.562,
+    "should": 0.406,
+    "may": 0.521
+   },
+   "pc_chair": {
+    "will": 0.114,
+    "would": 0.118,
+    "could": 0.189,
+    "can": 0.142,
+    "should": 0.218,
+    "may": 0.211
+   }
+  }
+ },
+ "L2": {
+  "keyness_top": {
+   "min_staff_desk": [
+    {
+     "item": "will",
+     "sign": "-",
+     "LL": 347.67,
+     "log_ratio": -3.029
+    },
+    {
+     "item": "can",
+     "sign": "-",
+     "LL": 166.4,
+     "log_ratio": -4.276
+    },
+    {
+     "item": "would",
+     "sign": "-",
+     "LL": 18.87,
+     "log_ratio": -0.351
+    }
+   ],
+   "min_staff": [
+    {
+     "item": "will",
+     "sign": "-",
+     "LL": 1969.96,
+     "log_ratio": -6.189
+    },
+    {
+     "item": "would",
+     "sign": "-",
+     "LL": 1303.4,
+     "log_ratio": -2.304
+    },
+    {
+     "item": "can",
+     "sign": "-",
+     "LL": 757.31,
+     "log_ratio": -7.464
+    }
+   ],
+   "min_participants": [
+    {
+     "item": "will",
+     "sign": "-",
+     "LL": 1620.06,
+     "log_ratio": -5.101
+    },
+    {
+     "item": "can",
+     "sign": "-",
+     "LL": 614.63,
+     "log_ratio": -5.496
+    },
+    {
+     "item": "could",
+     "sign": "+",
+     "LL": 549.66,
+     "log_ratio": 1.569
+    }
+   ],
+   "min_committee": [
+    {
+     "item": "would",
+     "sign": "+",
+     "LL": 348.08,
+     "log_ratio": 1.184
+    },
+    {
+     "item": "will",
+     "sign": "-",
+     "LL": 276.3,
+     "log_ratio": -2.742
+    },
+    {
+     "item": "can",
+     "sign": "-",
+     "LL": 153.5,
+     "log_ratio": -4.722
+    }
+   ],
+   "min_special": [
+    {
+     "item": "could",
+     "sign": "+",
+     "LL": 364.97,
+     "log_ratio": 2.098
+    },
+    {
+     "item": "will",
+     "sign": "-",
+     "LL": 102.34,
+     "log_ratio": -1.686
+    },
+    {
+     "item": "would",
+     "sign": "+",
+     "LL": 62.84,
+     "log_ratio": 0.681
+    }
+   ],
+   "pc_chair": [
+    {
+     "item": "will",
+     "sign": "+",
+     "LL": 5688.61,
+     "log_ratio": 4.981
+    },
+    {
+     "item": "can",
+     "sign": "+",
+     "LL": 2242.98,
+     "log_ratio": 5.634
+    },
+    {
+     "item": "could",
+     "sign": "-",
+     "LL": 223.88,
+     "log_ratio": -0.986
+    }
+   ]
+  },
+  "chi2": 5237.3,
+  "dof": 25,
+  "p": 0.0,
+  "cramers_v": 0.254,
+  "n_layers": 6,
+  "residual_max": {
+   "min_committee": [
+    "would",
+    17.8
+   ],
+   "min_participants": [
+    "could",
+    27.0
+   ],
+   "min_special": [
+    "could",
+    17.8
+   ],
+   "min_staff": [
+    "would",
+    8.0
+   ],
+   "min_staff_desk": [
+    "could",
+    7.7
+   ],
+   "pc_chair": [
+    "will",
+    25.4
+   ]
+  }
+ },
+ "L3": {
+  "mk_significant": [
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "tau": 0.135,
+    "sen_slope": 0.018,
+    "p": 0.048
+   },
+   {
+    "layer": "min_committee",
+    "series": "can",
+    "tau": -0.051,
+    "sen_slope": 0.0,
+    "p": 0.012
+   },
+   {
+    "layer": "min_committee",
+    "series": "could",
+    "tau": 0.495,
+    "sen_slope": 0.025,
+    "p": 0.0
+   },
+   {
+    "layer": "min_committee",
+    "series": "may",
+    "tau": -0.121,
+    "sen_slope": 0.0,
+    "p": 0.024
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "tau": 0.135,
+    "sen_slope": 0.021,
+    "p": 0.047
+   },
+   {
+    "layer": "min_participants",
+    "series": "could",
+    "tau": 0.236,
+    "sen_slope": 0.021,
+    "p": 0.001
+   },
+   {
+    "layer": "min_participants",
+    "series": "should",
+    "tau": -0.197,
+    "sen_slope": -0.005,
+    "p": 0.004
+   },
+   {
+    "layer": "min_participants",
+    "series": "will",
+    "tau": -0.136,
+    "sen_slope": 0.0,
+    "p": 0.009
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "tau": -0.203,
+    "sen_slope": -0.011,
+    "p": 0.003
+   },
+   {
+    "layer": "min_staff",
+    "series": "may",
+    "tau": -0.162,
+    "sen_slope": 0.0,
+    "p": 0.01
+   },
+   {
+    "layer": "min_staff",
+    "series": "would",
+    "tau": -0.297,
+    "sen_slope": -0.011,
+    "p": 0.0
+   },
+   {
+    "layer": "pc_chair",
+    "series": "can",
+    "tau": 0.262,
+    "sen_slope": 0.018,
+    "p": 0.001
+   }
+  ]
+ },
+ "L4": {
+  "main_layer": "min_participants",
+  "attracted": {
+   "will": [
+    {
+     "predicate": "depend",
+     "obs": 5,
+     "ratio": 7.07,
+     "collostruction_strength": 3.25
+    }
+   ],
+   "would": [
+    {
+     "predicate": "be+appropriate",
+     "obs": 143,
+     "ratio": 1.57,
+     "collostruction_strength": 18.76
+    },
+    {
+     "predicate": "be+important",
+     "obs": 41,
+     "ratio": 1.75,
+     "collostruction_strength": 9.04
+    },
+    {
+     "predicate": "depend",
+     "obs": 59,
+     "ratio": 1.63,
+     "collostruction_strength": 9.0
+    },
+    {
+     "predicate": "expect",
+     "obs": 44,
+     "ratio": 1.68,
+     "collostruction_strength": 7.83
+    },
+    {
+     "predicate": "need",
+     "obs": 47,
+     "ratio": 1.59,
+     "collostruction_strength": 6.45
+    }
+   ],
+   "could": [
+    {
+     "predicate": "lead",
+     "obs": 57,
+     "ratio": 2.76,
+     "collostruction_strength": 20.48
+    },
+    {
+     "predicate": "bear",
+     "obs": 23,
+     "ratio": 2.9,
+     "collostruction_strength": 9.38
+    },
+    {
+     "predicate": "result",
+     "obs": 28,
+     "ratio": 2.26,
+     "collostruction_strength": 6.56
+    },
+    {
+     "predicate": "pose",
+     "obs": 19,
+     "ratio": 2.6,
+     "collostruction_strength": 6.19
+    },
+    {
+     "predicate": "restrain",
+     "obs": 11,
+     "ratio": 2.67,
+     "collostruction_strength": 3.9
+    }
+   ],
+   "can": [],
+   "should": [
+    {
+     "predicate": "monitor",
+     "obs": 7,
+     "ratio": 12.95,
+     "collostruction_strength": 6.91
+    },
+    {
+     "predicate": "be+principle",
+     "obs": 3,
+     "ratio": 18.5,
+     "collostruction_strength": 3.81
+    },
+    {
+     "predicate": "discuss",
+     "obs": 3,
+     "ratio": 18.5,
+     "collostruction_strength": 3.81
+    },
+    {
+     "predicate": "interpret",
+     "obs": 4,
+     "ratio": 10.57,
+     "collostruction_strength": 3.6
+    },
+    {
+     "predicate": "continue",
+     "obs": 17,
+     "ratio": 2.42,
+     "collostruction_strength": 3.33
+    }
+   ],
+   "may": [
+    {
+     "predicate": "be+stronger",
+     "obs": 3,
+     "ratio": 17.55,
+     "collostruction_strength": 3.74
+    },
+    {
+     "predicate": "be+lower",
+     "obs": 4,
+     "ratio": 8.78,
+     "collostruction_strength": 3.23
+    },
+    {
+     "predicate": "contribute",
+     "obs": 7,
+     "ratio": 4.1,
+     "collostruction_strength": 2.94
+    },
+    {
+     "predicate": "signal",
+     "obs": 3,
+     "ratio": 8.78,
+     "collostruction_strength": 2.5
+    },
+    {
+     "predicate": "reflect",
+     "obs": 5,
+     "ratio": 4.62,
+     "collostruction_strength": 2.47
+    }
+   ]
+  },
+  "top_predicate": {
+   "will": {
+    "predicate": "depend",
+    "share": 0.1667
+   },
+   "would": {
+    "predicate": "be+appropriate",
+    "share": 0.093
+   },
+   "could": {
+    "predicate": "lead",
+    "share": 0.0651
+   },
+   "can": {},
+   "should": {
+    "predicate": "continue",
+    "share": 0.1141
+   },
+   "may": {
+    "predicate": "be+appropriate",
+    "share": 0.0701
+   }
+  },
+  "jsd_main": [
+   0.449,
+   0.982
+  ]
+ },
+ "L5": {
+  "note": "no statement layer"
+ },
+ "L6": {
+  "rates_main": [
+   {
+    "layer": "min_participants",
+    "modal": "will",
+    "n": 30,
+    "neg": 0.0,
+    "passive": 0.167,
+    "perfect": 0.0,
+    "progressive": 0.033,
+    "cond": 0.267,
+    "reported": 0.767,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "min_participants",
+    "modal": "would",
+    "n": 1537,
+    "neg": 0.016,
+    "passive": 0.116,
+    "perfect": 0.005,
+    "progressive": 0.005,
+    "cond": 0.184,
+    "reported": 0.714,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "min_participants",
+    "modal": "could",
+    "n": 875,
+    "neg": 0.005,
+    "passive": 0.098,
+    "perfect": 0.016,
+    "progressive": 0.021,
+    "cond": 0.287,
+    "reported": 0.506,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "min_participants",
+    "modal": "should",
+    "n": 149,
+    "neg": 0.101,
+    "passive": 0.248,
+    "perfect": 0.0,
+    "progressive": 0.013,
+    "cond": 0.188,
+    "reported": 0.852,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "min_participants",
+    "modal": "may",
+    "n": 157,
+    "neg": 0.127,
+    "passive": 0.076,
+    "perfect": 0.255,
+    "progressive": 0.096,
+    "cond": 0.204,
+    "reported": 0.65,
+    "question": 0.0,
+    "contracted": 0.0
+   }
+  ],
+  "chi2_significant": [
+   {
+    "layer": "min_staff_desk",
+    "feature": "passive",
+    "chi2": 12.5,
+    "dof": 5,
+    "p": 0.02813701317045625,
+    "cramers_v": 0.151
+   },
+   {
+    "layer": "min_staff_desk",
+    "feature": "perfect",
+    "chi2": 84.0,
+    "dof": 5,
+    "p": 1.2239223189797658e-16,
+    "cramers_v": 0.39
+   },
+   {
+    "layer": "min_staff_desk",
+    "feature": "reported",
+    "chi2": 11.3,
+    "dof": 5,
+    "p": 0.04514530153445042,
+    "cramers_v": 0.143
+   },
+   {
+    "layer": "min_staff",
+    "feature": "neg",
+    "chi2": 35.3,
+    "dof": 5,
+    "p": 1.2942217497114031e-06,
+    "cramers_v": 0.256
+   },
+   {
+    "layer": "min_staff",
+    "feature": "passive",
+    "chi2": 29.7,
+    "dof": 5,
+    "p": 1.6733096608487354e-05,
+    "cramers_v": 0.235
+   },
+   {
+    "layer": "min_staff",
+    "feature": "perfect",
+    "chi2": 269.1,
+    "dof": 5,
+    "p": 4.2857131551304545e-56,
+    "cramers_v": 0.707
+   },
+   {
+    "layer": "min_staff",
+    "feature": "cond",
+    "chi2": 39.2,
+    "dof": 5,
+    "p": 2.1906983106622091e-07,
+    "cramers_v": 0.27
+   },
+   {
+    "layer": "min_participants",
+    "feature": "neg",
+    "chi2": 134.8,
+    "dof": 5,
+    "p": 2.289625739121462e-27,
+    "cramers_v": 0.221
+   },
+   {
+    "layer": "min_participants",
+    "feature": "passive",
+    "chi2": 32.6,
+    "dof": 5,
+    "p": 4.434312506910482e-06,
+    "cramers_v": 0.109
+   },
+   {
+    "layer": "min_participants",
+    "feature": "perfect",
+    "chi2": 420.3,
+    "dof": 5,
+    "p": 1.248194230562465e-88,
+    "cramers_v": 0.391
+   },
+   {
+    "layer": "min_participants",
+    "feature": "progressive",
+    "chi2": 79.7,
+    "dof": 5,
+    "p": 9.556811142929877e-16,
+    "cramers_v": 0.17
+   },
+   {
+    "layer": "min_participants",
+    "feature": "cond",
+    "chi2": 36.0,
+    "dof": 5,
+    "p": 9.660282560567188e-07,
+    "cramers_v": 0.114
+   },
+   {
+    "layer": "min_participants",
+    "feature": "reported",
+    "chi2": 136.2,
+    "dof": 5,
+    "p": 1.1467696768673714e-27,
+    "cramers_v": 0.222
+   },
+   {
+    "layer": "min_committee",
+    "feature": "passive",
+    "chi2": 19.0,
+    "dof": 5,
+    "p": 0.0019319542030726592,
+    "cramers_v": 0.141
+   },
+   {
+    "layer": "min_committee",
+    "feature": "perfect",
+    "chi2": 66.1,
+    "dof": 5,
+    "p": 6.495699995075914e-13,
+    "cramers_v": 0.263
+   },
+   {
+    "layer": "min_committee",
+    "feature": "cond",
+    "chi2": 111.7,
+    "dof": 5,
+    "p": 1.7537023529716978e-22,
+    "cramers_v": 0.342
+   },
+   {
+    "layer": "min_committee",
+    "feature": "reported",
+    "chi2": 122.8,
+    "dof": 5,
+    "p": 7.93972038254885e-25,
+    "cramers_v": 0.358
+   },
+   {
+    "layer": "min_special",
+    "feature": "neg",
+    "chi2": 19.8,
+    "dof": 5,
+    "p": 0.0013614958189175298,
+    "cramers_v": 0.159
+   },
+   {
+    "layer": "min_special",
+    "feature": "passive",
+    "chi2": 15.1,
+    "dof": 5,
+    "p": 0.01000567436736355,
+    "cramers_v": 0.139
+   },
+   {
+    "layer": "min_special",
+    "feature": "cond",
+    "chi2": 18.6,
+    "dof": 5,
+    "p": 0.0023146152652886247,
+    "cramers_v": 0.154
+   },
+   {
+    "layer": "min_special",
+    "feature": "reported",
+    "chi2": 26.7,
+    "dof": 5,
+    "p": 6.448418785460049e-05,
+    "cramers_v": 0.185
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "neg",
+    "chi2": 278.1,
+    "dof": 5,
+    "p": 4.979013120427594e-58,
+    "cramers_v": 0.161
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "passive",
+    "chi2": 85.9,
+    "dof": 5,
+    "p": 4.954459693953287e-17,
+    "cramers_v": 0.09
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "perfect",
+    "chi2": 143.5,
+    "dof": 5,
+    "p": 3.1890206321807375e-29,
+    "cramers_v": 0.116
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "progressive",
+    "chi2": 224.1,
+    "dof": 5,
+    "p": 1.9732769185002582e-46,
+    "cramers_v": 0.145
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "cond",
+    "chi2": 101.4,
+    "dof": 5,
+    "p": 2.641862073648841e-20,
+    "cramers_v": 0.097
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "reported",
+    "chi2": 35.2,
+    "dof": 5,
+    "p": 1.3573543258397827e-06,
+    "cramers_v": 0.057
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "contracted",
+    "chi2": 1281.5,
+    "dof": 5,
+    "p": 6.535637721923945e-275,
+    "cramers_v": 0.346
+   }
+  ],
+  "sem_main": {
+   "will": [
+    {
+     "sem_type": "epistemic_predictive",
+     "share": 0.9
+    },
+    {
+     "sem_type": "dynamic_volitional",
+     "share": 0.1
+    }
+   ],
+   "would": [
+    {
+     "sem_type": "reported_backshift",
+     "share": 0.714
+    },
+    {
+     "sem_type": "conditional_hypothetical",
+     "share": 0.273
+    }
+   ],
+   "could": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 0.945
+    },
+    {
+     "sem_type": "dynamic_ability",
+     "share": 0.055
+    }
+   ],
+   "can": [],
+   "should": [
+    {
+     "sem_type": "deontic_advisability",
+     "share": 0.839
+    },
+    {
+     "sem_type": "epistemic_expectation",
+     "share": 0.161
+    }
+   ],
+   "may": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 1.0
+    }
+   ]
+  }
+ },
+ "L7": {
+  "pseudo_r2": 0.1689,
+  "n": 16275,
+  "llf": -20558.629095749275,
+  "layer_effects": [
+   {
+    "variable": "layer_min_participants",
+    "outcome_vs_will": "could",
+    "coef": 2.528,
+    "rrr": 12.529,
+    "p": 3.9236547936818856e-20
+   },
+   {
+    "variable": "layer_min_special",
+    "outcome_vs_will": "can",
+    "coef": 1.745,
+    "rrr": 5.728,
+    "p": 0.006659720234616041
+   },
+   {
+    "variable": "layer_min_participants",
+    "outcome_vs_will": "may",
+    "coef": 1.707,
+    "rrr": 5.51,
+    "p": 8.157117927958007e-08
+   },
+   {
+    "variable": "layer_min_staff",
+    "outcome_vs_will": "may",
+    "coef": 1.129,
+    "rrr": 3.094,
+    "p": 0.0029064581610556512
+   },
+   {
+    "variable": "layer_min_staff",
+    "outcome_vs_will": "could",
+    "coef": 1.083,
+    "rrr": 2.952,
+    "p": 0.0012918074777886436
+   },
+   {
+    "variable": "layer_min_participants",
+    "outcome_vs_will": "would",
+    "coef": 1.025,
+    "rrr": 2.787,
+    "p": 4.976731151607392e-05
+   },
+   {
+    "variable": "layer_min_participants",
+    "outcome_vs_will": "should",
+    "coef": 0.883,
+    "rrr": 2.419,
+    "p": 0.0018669998140080138
+   },
+   {
+    "variable": "layer_min_special",
+    "outcome_vs_will": "could",
+    "coef": 0.748,
+    "rrr": 2.113,
+    "p": 0.0034062133618582274
+   },
+   {
+    "variable": "layer_min_special",
+    "outcome_vs_will": "should",
+    "coef": -0.684,
+    "rrr": 0.505,
+    "p": 0.014301941058715167
+   },
+   {
+    "variable": "layer_min_staff_desk",
+    "outcome_vs_will": "would",
+    "coef": -0.75,
+    "rrr": 0.472,
+    "p": 0.0025648037039818316
+   },
+   {
+    "variable": "layer_min_special",
+    "outcome_vs_will": "would",
+    "coef": -1.017,
+    "rrr": 0.362,
+    "p": 1.0007394885313326e-05
+   },
+   {
+    "variable": "layer_min_staff_desk",
+    "outcome_vs_will": "should",
+    "coef": -1.043,
+    "rrr": 0.352,
+    "p": 0.0013735219174851323
+   }
+  ]
+ },
+ "L8": {
+  "n": 462,
+  "counts": {
+   "min_committee": {
+    "will": 7,
+    "would": 63,
+    "may": 13,
+    "could": 0
+   },
+   "min_participants": {
+    "will": 2,
+    "would": 143,
+    "may": 11,
+    "could": 7
+   },
+   "min_special": {
+    "will": 1,
+    "would": 23,
+    "may": 4,
+    "could": 6
+   },
+   "min_staff": {
+    "will": 0,
+    "would": 0,
+    "may": 0,
+    "could": 1
+   },
+   "min_staff_desk": {
+    "will": 1,
+    "would": 8,
+    "may": 2,
+    "could": 0
+   },
+   "pc_chair": {
+    "will": 105,
+    "would": 38,
+    "may": 21,
+    "could": 5
+   }
+  }
+ },
+ "L9": {
+  "chair_pc_chair": {
+   "chi2": 99.4,
+   "p": 7.232366782422975e-20,
+   "V": 0.096
+  },
+  "chair_min_participants": {
+   "chi2": 22.4,
+   "p": 0.0004351181596315666,
+   "V": 0.091
+  },
+  "chair_min_committee": {
+   "chi2": 14.7,
+   "p": 0.011737231751491873,
+   "V": 0.125
+  }
+ },
+ "E1": {
+  "macro": [
+   {
+    "block": "macro",
+    "layer": "min_participants",
+    "series": "CFNAI-MA3 (m−2)",
+    "N": 99,
+    "mean": -0.089,
+    "sd": 1.112,
+    "min": -7.55,
+    "max": 4.58,
+    "zero_share": NaN,
+    "AR1": 0.25
+   },
+   {
+    "block": "macro",
+    "layer": "min_participants",
+    "series": "VIX pre-28d",
+    "N": 99,
+    "mean": 18.003,
+    "sd": 5.93,
+    "min": 10.19,
+    "max": 42.376,
+    "zero_share": NaN,
+    "AR1": 0.682
+   },
+   {
+    "block": "macro",
+    "layer": "min_participants",
+    "series": "Unemployment gap (m−1)",
+    "N": 99,
+    "mean": 0.198,
+    "sd": 1.435,
+    "min": -1.034,
+    "max": 8.741,
+    "zero_share": NaN,
+    "AR1": 0.763
+   },
+   {
+    "block": "macro",
+    "layer": "min_participants",
+    "series": "Core PCE gap (m−2)",
+    "N": 99,
+    "mean": 0.466,
+    "sd": 1.304,
+    "min": -1.005,
+    "max": 3.606,
+    "zero_share": NaN,
+    "AR1": 0.983
+   }
+  ],
+  "text_all": {
+   "min_committee": {
+    "mean": 15.236,
+    "sd": 2.998,
+    "AR1": 0.485
+   },
+   "min_participants": {
+    "mean": 12.267,
+    "sd": 2.779,
+    "AR1": 0.334
+   },
+   "min_special": {
+    "mean": 19.24,
+    "sd": 6.407,
+    "AR1": 0.41
+   },
+   "min_staff": {
+    "mean": 2.119,
+    "sd": 1.04,
+    "AR1": 0.419
+   },
+   "min_staff_desk": {
+    "mean": 6.629,
+    "sd": 5.135,
+    "AR1": 0.198
+   },
+   "pc_chair": {
+    "mean": 20.043,
+    "sd": 2.968,
+    "AR1": 0.186
+   }
+  }
+ },
+ "E2": {
+  "genre_all": [
+   {
+    "key": "minutes",
+    "period": "T1",
+    "macro": "cfnai",
+    "rho": 0.0789,
+    "p": 0.4378,
+    "n": 99
+   },
+   {
+    "key": "minutes",
+    "period": "T1",
+    "macro": "vix",
+    "rho": 0.0665,
+    "p": 0.5132,
+    "n": 99
+   },
+   {
+    "key": "minutes",
+    "period": "T2",
+    "macro": "cfnai",
+    "rho": 0.1532,
+    "p": 0.1472,
+    "n": 91
+   },
+   {
+    "key": "minutes",
+    "period": "T2",
+    "macro": "vix",
+    "rho": -0.0079,
+    "p": 0.9406,
+    "n": 91
+   },
+   {
+    "key": "minutes",
+    "period": "T3",
+    "macro": "cfnai",
+    "rho": 0.0851,
+    "p": 0.334,
+    "n": 131
+   },
+   {
+    "key": "minutes",
+    "period": "T3",
+    "macro": "vix",
+    "rho": -0.0649,
+    "p": 0.4615,
+    "n": 131
+   },
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "cfnai",
+    "rho": 0.2165,
+    "p": 0.0538,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "vix",
+    "rho": 0.3188,
+    "p": 0.004,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "cfnai",
+    "rho": 0.1422,
+    "p": 0.1764,
+    "n": 92
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "vix",
+    "rho": 0.2925,
+    "p": 0.0047,
+    "n": 92
+   }
+  ],
+  "layer_all_T2": [
+   {
+    "key": "min_committee",
+    "macro": "cfnai",
+    "rho": -0.0193,
+    "p": 0.8556
+   },
+   {
+    "key": "min_committee",
+    "macro": "vix",
+    "rho": 0.0982,
+    "p": 0.3542
+   },
+   {
+    "key": "min_participants",
+    "macro": "cfnai",
+    "rho": -0.0054,
+    "p": 0.9595
+   },
+   {
+    "key": "min_participants",
+    "macro": "vix",
+    "rho": 0.0637,
+    "p": 0.5486
+   },
+   {
+    "key": "min_special",
+    "macro": "cfnai",
+    "rho": 0.2103,
+    "p": 0.2182
+   },
+   {
+    "key": "min_special",
+    "macro": "vix",
+    "rho": -0.139,
+    "p": 0.4188
+   },
+   {
+    "key": "min_staff",
+    "macro": "cfnai",
+    "rho": 0.0919,
+    "p": 0.3861
+   },
+   {
+    "key": "min_staff",
+    "macro": "vix",
+    "rho": -0.3607,
+    "p": 0.0004
+   },
+   {
+    "key": "min_staff_desk",
+    "macro": "cfnai",
+    "rho": 0.1615,
+    "p": 0.1262
+   },
+   {
+    "key": "min_staff_desk",
+    "macro": "vix",
+    "rho": 0.1195,
+    "p": 0.2593
+   },
+   {
+    "key": "pc_chair",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302
+   },
+   {
+    "key": "pc_chair",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118
+   }
+  ]
+ },
+ "E3": {
+  "all_by_layer": {
+   "min_staff_desk": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.4193,
+      "p": 0.026,
+      "stars": "**",
+      "n": 99,
+      "r2": 0.015
+     },
+     "vix_pre28": {
+      "coef": 0.081,
+      "p": 0.3874,
+      "stars": "",
+      "n": 99,
+      "r2": 0.015
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.4781,
+      "p": 0.0358,
+      "stars": "**",
+      "n": 99,
+      "r2": 0.018
+     },
+     "vix_pre28": {
+      "coef": 0.0969,
+      "p": 0.2268,
+      "stars": "",
+      "n": 99,
+      "r2": 0.018
+     },
+     "post_fw": {
+      "coef": -0.5732,
+      "p": 0.6064,
+      "stars": "",
+      "n": 99,
+      "r2": 0.018
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 4.3483,
+      "p": 0.1441,
+      "stars": "",
+      "n": 91,
+      "r2": 0.04
+     },
+     "vix_pre28": {
+      "coef": 0.0293,
+      "p": 0.858,
+      "stars": "",
+      "n": 91,
+      "r2": 0.04
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": 0.6239,
+      "p": 0.002,
+      "stars": "***",
+      "n": 98,
+      "r2": 0.027
+     },
+     "d_vix": {
+      "coef": -0.1586,
+      "p": 0.1415,
+      "stars": "",
+      "n": 98,
+      "r2": 0.027
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": 5.5317,
+      "p": 0.2197,
+      "stars": "",
+      "n": 90,
+      "r2": 0.038
+     },
+     "d_vix": {
+      "coef": -0.2095,
+      "p": 0.2067,
+      "stars": "",
+      "n": 90,
+      "r2": 0.038
+     }
+    }
+   },
+   "min_staff": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.0316,
+      "p": 0.3398,
+      "stars": "",
+      "n": 99,
+      "r2": 0.063
+     },
+     "vix_pre28": {
+      "coef": -0.0443,
+      "p": 0.0307,
+      "stars": "**",
+      "n": 99,
+      "r2": 0.063
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.0467,
+      "p": 0.3178,
+      "stars": "",
+      "n": 99,
+      "r2": 0.179
+     },
+     "vix_pre28": {
+      "coef": -0.0232,
+      "p": 0.0968,
+      "stars": "*",
+      "n": 99,
+      "r2": 0.179
+     },
+     "post_fw": {
+      "coef": -0.764,
+      "p": 0.0031,
+      "stars": "***",
+      "n": 99,
+      "r2": 0.179
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.5004,
+      "p": 0.3091,
+      "stars": "",
+      "n": 91,
+      "r2": 0.102
+     },
+     "vix_pre28": {
+      "coef": -0.0723,
+      "p": 0.0055,
+      "stars": "***",
+      "n": 91,
+      "r2": 0.102
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": -0.0538,
+      "p": 0.0699,
+      "stars": "*",
+      "n": 98,
+      "r2": 0.006
+     },
+     "d_vix": {
+      "coef": -0.0082,
+      "p": 0.7898,
+      "stars": "",
+      "n": 98,
+      "r2": 0.006
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -0.345,
+      "p": 0.6259,
+      "stars": "",
+      "n": 90,
+      "r2": 0.025
+     },
+     "d_vix": {
+      "coef": -0.0408,
+      "p": 0.3758,
+      "stars": "",
+      "n": 90,
+      "r2": 0.025
+     }
+    }
+   },
+   "min_participants": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.2705,
+      "p": 0.0249,
+      "stars": "**",
+      "n": 99,
+      "r2": 0.081
+     },
+     "vix_pre28": {
+      "coef": 0.1185,
+      "p": 0.0664,
+      "stars": "*",
+      "n": 99,
+      "r2": 0.081
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.2784,
+      "p": 0.0678,
+      "stars": "*",
+      "n": 99,
+      "r2": 0.081
+     },
+     "vix_pre28": {
+      "coef": 0.1163,
+      "p": 0.1222,
+      "stars": "",
+      "n": 99,
+      "r2": 0.081
+     },
+     "post_fw": {
+      "coef": 0.0776,
+      "p": 0.9207,
+      "stars": "",
+      "n": 99,
+      "r2": 0.081
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.2722,
+      "p": 0.7989,
+      "stars": "",
+      "n": 91,
+      "r2": 0.003
+     },
+     "vix_pre28": {
+      "coef": 0.0241,
+      "p": 0.6601,
+      "stars": "",
+      "n": 91,
+      "r2": 0.003
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": 0.4013,
+      "p": 0.0051,
+      "stars": "***",
+      "n": 98,
+      "r2": 0.031
+     },
+     "d_vix": {
+      "coef": -0.0432,
+      "p": 0.425,
+      "stars": "",
+      "n": 98,
+      "r2": 0.031
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": 2.1831,
+      "p": 0.3476,
+      "stars": "",
+      "n": 90,
+      "r2": 0.026
+     },
+     "d_vix": {
+      "coef": -0.0816,
+      "p": 0.1914,
+      "stars": "",
+      "n": 90,
+      "r2": 0.026
+     }
+    }
+   },
+   "min_committee": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.1031,
+      "p": 0.1566,
+      "stars": "",
+      "n": 99,
+      "r2": 0.012
+     },
+     "vix_pre28": {
+      "coef": 0.0495,
+      "p": 0.2647,
+      "stars": "",
+      "n": 99,
+      "r2": 0.012
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.3684,
+      "p": 0.0001,
+      "stars": "***",
+      "n": 99,
+      "r2": 0.172
+     },
+     "vix_pre28": {
+      "coef": -0.0221,
+      "p": 0.636,
+      "stars": "",
+      "n": 99,
+      "r2": 0.172
+     },
+     "post_fw": {
+      "coef": 2.5892,
+      "p": 0.0005,
+      "stars": "***",
+      "n": 99,
+      "r2": 0.172
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.333,
+      "p": 0.82,
+      "stars": "",
+      "n": 91,
+      "r2": 0.006
+     },
+     "vix_pre28": {
+      "coef": 0.0478,
+      "p": 0.4527,
+      "stars": "",
+      "n": 91,
+      "r2": 0.006
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": -0.2674,
+      "p": 0.0005,
+      "stars": "***",
+      "n": 98,
+      "r2": 0.025
+     },
+     "d_vix": {
+      "coef": 0.0776,
+      "p": 0.3681,
+      "stars": "",
+      "n": 98,
+      "r2": 0.025
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -1.9221,
+      "p": 0.1853,
+      "stars": "",
+      "n": 90,
+      "r2": 0.016
+     },
+     "d_vix": {
+      "coef": -0.0018,
+      "p": 0.9838,
+      "stars": "",
+      "n": 90,
+      "r2": 0.016
+     }
+    }
+   },
+   "min_special": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3132,
+      "p": 0.3521,
+      "stars": "",
+      "n": 40,
+      "r2": 0.014
+     },
+     "vix_pre28": {
+      "coef": -0.085,
+      "p": 0.7215,
+      "stars": "",
+      "n": 40,
+      "r2": 0.014
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.6614,
+      "p": 0.1302,
+      "stars": "",
+      "n": 40,
+      "r2": 0.051
+     },
+     "vix_pre28": {
+      "coef": 0.0338,
+      "p": 0.8882,
+      "stars": "",
+      "n": 40,
+      "r2": 0.051
+     },
+     "post_fw": {
+      "coef": -2.8884,
+      "p": 0.3551,
+      "stars": "",
+      "n": 40,
+      "r2": 0.051
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 3.9944,
+      "p": 0.2752,
+      "stars": "",
+      "n": 36,
+      "r2": 0.031
+     },
+     "vix_pre28": {
+      "coef": -0.1737,
+      "p": 0.6108,
+      "stars": "",
+      "n": 36,
+      "r2": 0.031
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": 0.9428,
+      "p": 0.0018,
+      "stars": "***",
+      "n": 39,
+      "r2": 0.053
+     },
+     "d_vix": {
+      "coef": 0.0405,
+      "p": 0.7921,
+      "stars": "",
+      "n": 39,
+      "r2": 0.053
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -5.0832,
+      "p": 0.0,
+      "stars": "***",
+      "n": 35,
+      "r2": 0.079
+     },
+     "d_vix": {
+      "coef": 0.2243,
+      "p": 0.0724,
+      "stars": "*",
+      "n": 35,
+      "r2": 0.079
+     }
+    }
+   },
+   "pc_chair": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3414,
+      "p": 0.0155,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1816,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3416,
+      "p": 0.0182,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1817,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     },
+     "post_fw": {
+      "coef": -0.0018,
+      "p": 0.9982,
+      "stars": "",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 2.4815,
+      "p": 0.0432,
+      "stars": "**",
+      "n": 71,
+      "r2": 0.129
+     },
+     "vix_pre28": {
+      "coef": 0.1187,
+      "p": 0.0043,
+      "stars": "***",
+      "n": 71,
+      "r2": 0.129
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": 0.7589,
+      "p": 0.0,
+      "stars": "***",
+      "n": 79,
+      "r2": 0.092
+     },
+     "d_vix": {
+      "coef": -0.0047,
+      "p": 0.9608,
+      "stars": "",
+      "n": 79,
+      "r2": 0.092
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -1.1143,
+      "p": 0.4786,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     },
+     "d_vix": {
+      "coef": 0.0764,
+      "p": 0.5203,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     }
+    }
+   }
+  }
+ },
+ "E4": {
+  "n_units": 21,
+  "significant_spec3": [
+   {
+    "layer": "min_committee",
+    "unit": "would/copular_adj",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.3818,
+    "p": 0.0024,
+    "n_tokens": 126
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/copular_adj",
+    "var": "vix_pre28",
+    "coef": 0.1288,
+    "p": 0.0494,
+    "n_tokens": 126
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/aspectual",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.154,
+    "p": 0.0153,
+    "n_tokens": 116
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/aspectual",
+    "var": "vix_pre28",
+    "coef": 0.1149,
+    "p": 0.0,
+    "n_tokens": 116
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.2261,
+    "p": 0.0,
+    "n_tokens": 108
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/activity",
+    "var": "vix_pre28",
+    "coef": 0.0682,
+    "p": 0.0,
+    "n_tokens": 108
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/occurrence",
+    "var": "const",
+    "coef": 2.6625,
+    "p": 0.0,
+    "n_tokens": 89
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/occurrence",
+    "var": "vix_pre28",
+    "coef": -0.0834,
+    "p": 0.0005,
+    "n_tokens": 89
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/mental",
+    "var": "const",
+    "coef": 1.2458,
+    "p": 0.0191,
+    "n_tokens": 71
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/mental",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.4692,
+    "p": 0.0,
+    "n_tokens": 71
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/policy_action",
+    "var": "const",
+    "coef": 1.9344,
+    "p": 0.0016,
+    "n_tokens": 56
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/policy_action",
+    "var": "vix_pre28",
+    "coef": -0.0652,
+    "p": 0.0194,
+    "n_tokens": 56
+   },
+   {
+    "layer": "min_committee",
+    "unit": "could/causative",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.1352,
+    "p": 0.0009,
+    "n_tokens": 55
+   },
+   {
+    "layer": "min_committee",
+    "unit": "would/existence",
+    "var": "const",
+    "coef": 1.4417,
+    "p": 0.0109,
+    "n_tokens": 52
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/copular_adj",
+    "var": "const",
+    "coef": 0.7018,
+    "p": 0.0117,
+    "n_tokens": 321
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/copular_adj",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.1818,
+    "p": 0.0,
+    "n_tokens": 321
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/copular_adj",
+    "var": "vix_pre28",
+    "coef": 0.039,
+    "p": 0.0109,
+    "n_tokens": 321
+   },
+   {
+    "layer": "min_participants",
+    "unit": "could/causative",
+    "var": "const",
+    "coef": 0.8041,
+    "p": 0.0152,
+    "n_tokens": 248
+   },
+   {
+    "layer": "min_participants",
+    "unit": "could/causative",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.1602,
+    "p": 0.0081,
+    "n_tokens": 248
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/other",
+    "var": "const",
+    "coef": 0.7521,
+    "p": 0.0008,
+    "n_tokens": 213
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/other",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.0906,
+    "p": 0.0,
+    "n_tokens": 213
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/occurrence",
+    "var": "const",
+    "coef": 0.929,
+    "p": 0.0001,
+    "n_tokens": 187
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/occurrence",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0524,
+    "p": 0.0191,
+    "n_tokens": 187
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.0946,
+    "p": 0.0009,
+    "n_tokens": 158
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/activity",
+    "var": "vix_pre28",
+    "coef": 0.0515,
+    "p": 0.0024,
+    "n_tokens": 158
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/causative",
+    "var": "const",
+    "coef": 0.6154,
+    "p": 0.0058,
+    "n_tokens": 155
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/causative",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.049,
+    "p": 0.0137,
+    "n_tokens": 155
+   },
+   {
+    "layer": "min_participants",
+    "unit": "would/policy_action",
+    "var": "const",
+    "coef": 1.0458,
+    "p": 0.0005,
+    "n_tokens": 152
+   },
+   {
+    "layer": "min_participants",
+    "unit": "could/other",
+    "var": "const",
+    "coef": 0.6565,
+    "p": 0.0003,
+    "n_tokens": 148
+   },
+   {
+    "layer": "min_participants",
+    "unit": "could/other",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.0477,
+    "p": 0.0382,
+    "n_tokens": 148
+   },
+   {
+    "layer": "min_special",
+    "unit": "would/copular_adj",
+    "var": "vix_pre28",
+    "coef": 0.1365,
+    "p": 0.0059,
+    "n_tokens": 90
+   },
+   {
+    "layer": "min_special",
+    "unit": "could/other",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.2146,
+    "p": 0.0409,
+    "n_tokens": 68
+   },
+   {
+    "layer": "min_special",
+    "unit": "would/other",
+    "var": "const",
+    "coef": 3.3329,
+    "p": 0.0197,
+    "n_tokens": 62
+   },
+   {
+    "layer": "min_special",
+    "unit": "could/causative",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.4094,
+    "p": 0.0,
+    "n_tokens": 40
+   },
+   {
+    "layer": "min_special",
+    "unit": "would/activity",
+    "var": "const",
+    "coef": 2.0594,
+    "p": 0.0368,
+    "n_tokens": 40
+   },
+   {
+    "layer": "min_staff",
+    "unit": "would/occurrence",
+    "var": "const",
+    "coef": 0.5245,
+    "p": 0.0001,
+    "n_tokens": 103
+   },
+   {
+    "layer": "min_staff",
+    "unit": "would/policy_action",
+    "var": "const",
+    "coef": 0.4522,
+    "p": 0.0023,
+    "n_tokens": 58
+   },
+   {
+    "layer": "min_staff",
+    "unit": "could/occurrence",
+    "var": "const",
+    "coef": 0.4331,
+    "p": 0.0016,
+    "n_tokens": 43
+   },
+   {
+    "layer": "min_staff",
+    "unit": "could/occurrence",
+    "var": "vix_pre28",
+    "coef": -0.0145,
+    "p": 0.0129,
+    "n_tokens": 43
+   },
+   {
+    "layer": "min_staff",
+    "unit": "would/copular_adj",
+    "var": "const",
+    "coef": 0.2816,
+    "p": 0.0001,
+    "n_tokens": 41
+   }
+  ]
+ },
+ "E5": {
+  "n_screen": 1966,
+  "n_bh_T1": 42,
+  "counts": {
+   "vix": {
+    "confirmed": 9,
+    "era_composition": 19,
+    "T1_only": 10
+   },
+   "cfnai": {
+    "confirmed": 7,
+    "era_composition": 3,
+    "T1_only": 4
+   }
+  },
+  "confirmed_top": [
+   {
+    "level": "layer",
+    "key": "min_committee",
+    "unit": "would/copular_adj",
+    "macro": "vix",
+    "rho_T1": 0.487,
+    "p_T1": 0.0,
+    "rho_T2": 0.54,
+    "p_T2": 0.0,
+    "rho_T3": 0.422,
+    "rho_H1": 0.123,
+    "rho_H2": 0.4,
+    "n_tokens_T1": 126,
+    "zero_share_T1": 0.232,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_participants",
+    "unit": "would/activity",
+    "macro": "vix",
+    "rho_T1": 0.468,
+    "p_T1": 0.0,
+    "rho_T2": 0.489,
+    "p_T2": 0.0,
+    "rho_T3": 0.278,
+    "rho_H1": 0.312,
+    "rho_H2": 0.397,
+    "n_tokens_T1": 158,
+    "zero_share_T1": 0.303,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_committee",
+    "unit": "would/aspectual",
+    "macro": "vix",
+    "rho_T1": 0.475,
+    "p_T1": 0.0,
+    "rho_T2": 0.422,
+    "p_T2": 0.0,
+    "rho_T3": 0.271,
+    "rho_H1": 0.027,
+    "rho_H2": 0.098,
+    "n_tokens_T1": 116,
+    "zero_share_T1": 0.212,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_committee",
+    "unit": "would/existence",
+    "macro": "cfnai",
+    "rho_T1": 0.425,
+    "p_T1": 0.0,
+    "rho_T2": 0.401,
+    "p_T2": 0.0001,
+    "rho_T3": 0.38,
+    "rho_H1": 0.6,
+    "rho_H2": 0.336,
+    "n_tokens_T1": 52,
+    "zero_share_T1": 0.586,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_committee",
+    "unit": "would/mental",
+    "macro": "cfnai",
+    "rho_T1": -0.479,
+    "p_T1": 0.0,
+    "rho_T2": -0.398,
+    "p_T2": 0.0001,
+    "rho_T3": -0.407,
+    "rho_H1": -0.285,
+    "rho_H2": -0.42,
+    "n_tokens_T1": 71,
+    "zero_share_T1": 0.414,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_staff",
+    "unit": "would/policy_action",
+    "macro": "vix",
+    "rho_T1": -0.351,
+    "p_T1": 0.0004,
+    "rho_T2": -0.394,
+    "p_T2": 0.0001,
+    "rho_T3": -0.352,
+    "rho_H1": -0.155,
+    "rho_H2": -0.095,
+    "n_tokens_T1": 58,
+    "zero_share_T1": 0.535,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_committee",
+    "unit": "could",
+    "macro": "cfnai",
+    "rho_T1": -0.251,
+    "p_T1": 0.0122,
+    "rho_T2": -0.37,
+    "p_T2": 0.0003,
+    "rho_T3": -0.13,
+    "rho_H1": -0.415,
+    "rho_H2": -0.548,
+    "n_tokens_T1": 83,
+    "zero_share_T1": 0.293,
+    "category": "confirmed",
+    "unit_level": "modal"
+   },
+   {
+    "level": "layer",
+    "key": "min_staff",
+    "unit": "ALL",
+    "macro": "vix",
+    "rho_T1": -0.333,
+    "p_T1": 0.0008,
+    "rho_T2": -0.361,
+    "p_T2": 0.0004,
+    "rho_T3": -0.393,
+    "rho_H1": -0.197,
+    "rho_H2": -0.235,
+    "n_tokens_T1": 539,
+    "zero_share_T1": 0.0,
+    "category": "confirmed",
+    "unit_level": "modal"
+   },
+   {
+    "level": "layer",
+    "key": "min_participants",
+    "unit": "would/existence",
+    "macro": "cfnai",
+    "rho_T1": 0.344,
+    "p_T1": 0.0005,
+    "rho_T2": 0.342,
+    "p_T2": 0.0009,
+    "rho_T3": 0.268,
+    "rho_H1": 0.376,
+    "rho_H2": 0.352,
+    "n_tokens_T1": 93,
+    "zero_share_T1": 0.455,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_staff",
+    "unit": "would",
+    "macro": "vix",
+    "rho_T1": -0.229,
+    "p_T1": 0.0228,
+    "rho_T2": -0.32,
+    "p_T2": 0.002,
+    "rho_T3": -0.269,
+    "rho_H1": -0.262,
+    "rho_H2": -0.014,
+    "n_tokens_T1": 327,
+    "zero_share_T1": 0.071,
+    "category": "confirmed",
+    "unit_level": "modal"
+   },
+   {
+    "level": "layer",
+    "key": "min_participants",
+    "unit": "would/policy_action",
+    "macro": "vix",
+    "rho_T1": -0.268,
+    "p_T1": 0.0073,
+    "rho_T2": -0.319,
+    "p_T2": 0.0021,
+    "rho_T3": -0.324,
+    "rho_H1": -0.323,
+    "rho_H2": -0.11,
+    "n_tokens_T1": 152,
+    "zero_share_T1": 0.273,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_committee",
+    "unit": "would",
+    "macro": "cfnai",
+    "rho_T1": 0.257,
+    "p_T1": 0.0103,
+    "rho_T2": 0.304,
+    "p_T2": 0.0034,
+    "rho_T3": 0.27,
+    "rho_H1": 0.327,
+    "rho_H2": 0.278,
+    "n_tokens_T1": 719,
+    "zero_share_T1": 0.0,
+    "category": "confirmed",
+    "unit_level": "modal"
+   },
+   {
+    "level": "layer",
+    "key": "min_participants",
+    "unit": "could/activity",
+    "macro": "cfnai",
+    "rho_T1": -0.31,
+    "p_T1": 0.0018,
+    "rho_T2": -0.286,
+    "p_T2": 0.006,
+    "rho_T3": -0.245,
+    "rho_H1": -0.047,
+    "rho_H2": -0.392,
+    "n_tokens_T1": 114,
+    "zero_share_T1": 0.354,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "min_staff_desk",
+    "unit": "could",
+    "macro": "cfnai",
+    "rho_T1": 0.213,
+    "p_T1": 0.0344,
+    "rho_T2": 0.252,
+    "p_T2": 0.0161,
+    "rho_T3": 0.182,
+    "rho_H1": 0.241,
+    "rho_H2": 0.269,
+    "n_tokens_T1": 138,
+    "zero_share_T1": 0.434,
+    "category": "confirmed",
+    "unit_level": "modal"
+   },
+   {
+    "level": "layer",
+    "key": "min_participants",
+    "unit": "should",
+    "macro": "vix",
+    "rho_T1": -0.239,
+    "p_T1": 0.0174,
+    "rho_T2": -0.244,
+    "p_T2": 0.0199,
+    "rho_T3": -0.292,
+    "rho_H1": -0.085,
+    "rho_H2": -0.155,
+    "n_tokens_T1": 149,
+    "zero_share_T1": 0.283,
+    "category": "confirmed",
+    "unit_level": "modal"
+   }
+  ],
+  "confirmed_by_layer": [
+   {
+    "key": "min_committee",
+    "macro": "cfnai",
+    "n": 4
+   },
+   {
+    "key": "min_committee",
+    "macro": "vix",
+    "n": 2
+   },
+   {
+    "key": "min_participants",
+    "macro": "cfnai",
+    "n": 2
+   },
+   {
+    "key": "min_participants",
+    "macro": "vix",
+    "n": 3
+   },
+   {
+    "key": "min_staff",
+    "macro": "vix",
+    "n": 3
+   },
+   {
+    "key": "min_staff_desk",
+    "macro": "cfnai",
+    "n": 1
+   },
+   {
+    "key": "min_staff_desk",
+    "macro": "vix",
+    "n": 1
+   }
+  ],
+  "statement_confirmed_vix": 0
+ },
+ "E6": {
+  "ccf_peaks_T2": [
+   {
+    "key": "minutes",
+    "unit": "ALL",
+    "macro": "cfnai",
+    "k": -9,
+    "r": 0.244,
+    "rho": 0.298
+   },
+   {
+    "key": "minutes",
+    "unit": "could",
+    "macro": "cfnai",
+    "k": 6,
+    "r": -0.382,
+    "rho": -0.266
+   },
+   {
+    "key": "minutes",
+    "unit": "could",
+    "macro": "vix",
+    "k": 5,
+    "r": 0.346,
+    "rho": 0.243
+   },
+   {
+    "key": "minutes",
+    "unit": "may",
+    "macro": "cfnai",
+    "k": 2,
+    "r": -0.259,
+    "rho": -0.251
+   },
+   {
+    "key": "minutes",
+    "unit": "may",
+    "macro": "vix",
+    "k": -1,
+    "r": -0.234,
+    "rho": -0.227
+   },
+   {
+    "key": "minutes",
+    "unit": "should",
+    "macro": "vix",
+    "k": -2,
+    "r": -0.266,
+    "rho": -0.213
+   },
+   {
+    "key": "minutes",
+    "unit": "would",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.321,
+    "rho": 0.412
+   },
+   {
+    "key": "minutes",
+    "unit": "would/activity",
+    "macro": "vix",
+    "k": -1,
+    "r": 0.52,
+    "rho": 0.479
+   },
+   {
+    "key": "minutes",
+    "unit": "would/communication",
+    "macro": "vix",
+    "k": -3,
+    "r": -0.266,
+    "rho": -0.26
+   },
+   {
+    "key": "minutes",
+    "unit": "would/copular_adj",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.215,
+    "rho": 0.238
+   },
+   {
+    "key": "minutes",
+    "unit": "would/copular_adj",
+    "macro": "vix",
+    "k": -1,
+    "r": 0.31,
+    "rho": 0.303
+   },
+   {
+    "key": "minutes",
+    "unit": "would/mental",
+    "macro": "cfnai",
+    "k": -6,
+    "r": -0.249,
+    "rho": -0.246
+   },
+   {
+    "key": "minutes",
+    "unit": "would/mental",
+    "macro": "vix",
+    "k": 1,
+    "r": -0.284,
+    "rho": -0.286
+   },
+   {
+    "key": "minutes",
+    "unit": "would/other",
+    "macro": "vix",
+    "k": 2,
+    "r": 0.239,
+    "rho": 0.239
+   },
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.404,
+    "rho": 0.417
+   },
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "vix",
+    "k": -1,
+    "r": 0.331,
+    "rho": 0.338
+   },
+   {
+    "key": "press_conf",
+    "unit": "can",
+    "macro": "vix",
+    "k": 7,
+    "r": 0.477,
+    "rho": 0.424
+   },
+   {
+    "key": "press_conf",
+    "unit": "could",
+    "macro": "vix",
+    "k": -3,
+    "r": -0.382,
+    "rho": -0.354
+   },
+   {
+    "key": "press_conf",
+    "unit": "may",
+    "macro": "vix",
+    "k": 7,
+    "r": -0.306,
+    "rho": -0.285
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.268,
+    "rho": 0.269
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "vix",
+    "k": -4,
+    "r": 0.419,
+    "rho": 0.31
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/activity",
+    "macro": "vix",
+    "k": -7,
+    "r": 0.424,
+    "rho": 0.429
+   },
+   {
+    "key": "press_conf",
+    "unit": "would/mental",
+    "macro": "vix",
+    "k": 8,
+    "r": -0.333,
+    "rho": -0.327
+   },
+   {
+    "key": "press_conf",
+    "unit": "would/other",
+    "macro": "cfnai",
+    "k": 2,
+    "r": 0.357,
+    "rho": 0.306
+   },
+   {
+    "key": "press_conf",
+    "unit": "would/other",
+    "macro": "vix",
+    "k": 1,
+    "r": -0.306,
+    "rho": -0.354
+   }
+  ],
+  "granger_q10": [
+   {
+    "key": "press_conf",
+    "unit": "would/activity",
+    "macro": "cfnai",
+    "lag": 2,
+    "p_text_to_macro": 0.0013610113424404545,
+    "q_text_to_macro": 0.06532854443714183
+   }
+  ],
+  "granger_min_q": 0.06532854443714183,
+  "predictive_q10": [],
+  "predictive_min_q": 0.475079254019854,
+  "n_predictive": 48
+ },
+ "E7": {
+  "layer": "min_participants",
+  "all_series": [
+   {
+    "event": "QE3 ends",
+    "event_date": "2014-10-29",
+    "pre3": 8.599,
+    "at": 13.721,
+    "post3": 17.305
+   },
+   {
+    "event": "First hike (liftoff)",
+    "event_date": "2015-12-16",
+    "pre3": 10.087,
+    "at": 14.956,
+    "post3": 9.522
+   },
+   {
+    "event": "Normalization addendum",
+    "event_date": "2017-06-14",
+    "pre3": 9.813,
+    "at": 14.33,
+    "post3": 12.575
+   },
+   {
+    "event": "Balance-sheet runoff",
+    "event_date": "2017-10-01",
+    "pre3": 13.081,
+    "at": 12.815,
+    "post3": 12.482
+   },
+   {
+    "event": "Powell chair",
+    "event_date": "2018-02-05",
+    "pre3": 12.96,
+    "at": 11.379,
+    "post3": 12.184
+   },
+   {
+    "event": "Mid-cycle cut",
+    "event_date": "2019-07-31",
+    "pre3": 10.932,
+    "at": 8.391,
+    "post3": 12.354
+   },
+   {
+    "event": "Pandemic ZLB",
+    "event_date": "2020-03-15",
+    "pre3": 13.594,
+    "at": 16.113,
+    "post3": 17.973
+   },
+   {
+    "event": "New framework",
+    "event_date": "2020-08-27",
+    "pre3": 17.973,
+    "at": 17.505,
+    "post3": 10.878
+   },
+   {
+    "event": "Hiking cycle begins",
+    "event_date": "2022-03-16",
+    "pre3": 12.744,
+    "at": 10.33,
+    "post3": 12.831
+   },
+   {
+    "event": "Last hike",
+    "event_date": "2023-07-26",
+    "pre3": 13.117,
+    "at": 13.048,
+    "post3": 13.104
+   },
+   {
+    "event": "Cutting cycle begins",
+    "event_date": "2024-09-18",
+    "pre3": 12.445,
+    "at": 10.942,
+    "post3": 9.751
+   },
+   {
+    "event": "Framework review 2025",
+    "event_date": "2025-08-22",
+    "pre3": 13.751,
+    "at": 12.564,
+    "post3": 13.826
+   }
+  ]
+ },
+ "E8": {
+  "all_rows": [
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.009,
+    "p_cfnai": 0.9261,
+    "rho_vix": 0.122,
+    "p_vix": 0.2303
+   },
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": -0.019,
+    "p_cfnai": 0.8556,
+    "rho_vix": 0.098,
+    "p_vix": 0.3542
+   },
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.101,
+    "p_cfnai": 0.2492,
+    "rho_vix": 0.097,
+    "p_vix": 0.2695
+   },
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": 0.138,
+    "p_cfnai": 0.172,
+    "rho_vix": 0.122,
+    "p_vix": 0.2303
+   },
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.009,
+    "p_cfnai": 0.9261,
+    "rho_vix": 0.148,
+    "p_vix": 0.1438
+   },
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "min_committee",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.239,
+    "p_cfnai": 0.0171,
+    "rho_vix": -0.163,
+    "p_vix": 0.1065
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": -0.091,
+    "p_cfnai": 0.373,
+    "rho_vix": 0.144,
+    "p_vix": 0.1562
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": -0.005,
+    "p_cfnai": 0.9595,
+    "rho_vix": 0.064,
+    "p_vix": 0.5486
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": -0.069,
+    "p_cfnai": 0.4331,
+    "rho_vix": 0.025,
+    "p_vix": 0.7773
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": -0.191,
+    "p_cfnai": 0.0583,
+    "rho_vix": 0.144,
+    "p_vix": 0.1562
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": -0.091,
+    "p_cfnai": 0.373,
+    "rho_vix": 0.128,
+    "p_vix": 0.2066
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "min_participants",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": -0.004,
+    "p_cfnai": 0.9692,
+    "rho_vix": 0.152,
+    "p_vix": 0.1322
+   },
+   {
+    "layer": "min_special",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.196,
+    "p_cfnai": 0.2246,
+    "rho_vix": -0.161,
+    "p_vix": 0.3205
+   },
+   {
+    "layer": "min_special",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": 0.21,
+    "p_cfnai": 0.2182,
+    "rho_vix": -0.139,
+    "p_vix": 0.4188
+   },
+   {
+    "layer": "min_special",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.273,
+    "p_cfnai": 0.0576,
+    "rho_vix": -0.033,
+    "p_vix": 0.8237
+   },
+   {
+    "layer": "min_special",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": 0.229,
+    "p_cfnai": 0.1546,
+    "rho_vix": -0.161,
+    "p_vix": 0.3205
+   },
+   {
+    "layer": "min_special",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.196,
+    "p_cfnai": 0.2246,
+    "rho_vix": -0.181,
+    "p_vix": 0.2631
+   },
+   {
+    "layer": "min_special",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "min_special",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.218,
+    "p_cfnai": 0.1769,
+    "rho_vix": 0.07,
+    "p_vix": 0.6675
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.075,
+    "p_cfnai": 0.4586,
+    "rho_vix": -0.333,
+    "p_vix": 0.0008
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": 0.092,
+    "p_cfnai": 0.3861,
+    "rho_vix": -0.361,
+    "p_vix": 0.0004
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.058,
+    "p_cfnai": 0.5082,
+    "rho_vix": -0.393,
+    "p_vix": 0.0
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": 0.119,
+    "p_cfnai": 0.2413,
+    "rho_vix": -0.333,
+    "p_vix": 0.0008
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.075,
+    "p_cfnai": 0.4586,
+    "rho_vix": -0.298,
+    "p_vix": 0.0027
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "min_staff",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.141,
+    "p_cfnai": 0.164,
+    "rho_vix": -0.304,
+    "p_vix": 0.0022
+   },
+   {
+    "layer": "min_staff_desk",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.139,
+    "p_cfnai": 0.17,
+    "rho_vix": 0.139,
+    "p_vix": 0.1699
+   },
+   {
+    "layer": "min_staff_desk",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": 0.161,
+    "p_cfnai": 0.1262,
+    "rho_vix": 0.119,
+    "p_vix": 0.2593
+   },
+   {
+    "layer": "min_staff_desk",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.135,
+    "p_cfnai": 0.1235,
+    "rho_vix": 0.113,
+    "p_vix": 0.1999
+   },
+   {
+    "layer": "min_staff_desk",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": -0.005,
+    "p_cfnai": 0.9609,
+    "rho_vix": 0.139,
+    "p_vix": 0.1699
+   },
+   {
+    "layer": "min_staff_desk",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.139,
+    "p_cfnai": 0.17,
+    "rho_vix": 0.139,
+    "p_vix": 0.1708
+   },
+   {
+    "layer": "min_staff_desk",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "min_staff_desk",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.149,
+    "p_cfnai": 0.1415,
+    "rho_vix": 0.219,
+    "p_vix": 0.0292
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": 0.258,
+    "p_cfnai": 0.0302,
+    "rho_vix": 0.297,
+    "p_vix": 0.0118
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.142,
+    "p_cfnai": 0.1764,
+    "rho_vix": 0.293,
+    "p_vix": 0.0047
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": 0.141,
+    "p_cfnai": 0.2124,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.336,
+    "p_vix": 0.0023
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.271,
+    "p_cfnai": 0.0151,
+    "rho_vix": 0.397,
+    "p_vix": 0.0003
+   }
+  ]
+ },
+ "E9": {
+  "countercyclical_cells": [],
+  "genre_all": [
+   {
+    "key": "minutes",
+    "spec": "levels: CFNAI",
+    "var": "CFNAI-MA3",
+    "coef": -0.0865,
+    "t": -0.95,
+    "p": 0.3424,
+    "stars": "",
+    "n": 99
+   },
+   {
+    "key": "minutes",
+    "spec": "levels: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": -0.0871,
+    "t": -1.02,
+    "p": 0.3091,
+    "stars": "",
+    "n": 99
+   },
+   {
+    "key": "minutes",
+    "spec": "levels: CFNAI + VIX",
+    "var": "VIX",
+    "coef": -0.0011,
+    "t": -0.04,
+    "p": 0.9657,
+    "stars": "",
+    "n": 99
+   },
+   {
+    "key": "minutes",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔCFNAI",
+    "coef": 0.0426,
+    "t": 1.04,
+    "p": 0.2969,
+    "stars": "",
+    "n": 98
+   },
+   {
+    "key": "minutes",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔVIX",
+    "coef": -0.0149,
+    "t": -0.42,
+    "p": 0.6758,
+    "stars": "",
+    "n": 98
+   },
+   {
+    "key": "minutes",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 1.4417,
+    "t": 1.97,
+    "p": 0.0491,
+    "stars": "**",
+    "n": 91
+   },
+   {
+    "key": "minutes",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "VIX",
+    "coef": -0.0603,
+    "t": -2.48,
+    "p": 0.013,
+    "stars": "**",
+    "n": 91
+   },
+   {
+    "key": "minutes",
+    "spec": "Δ excl-2020",
+    "var": "ΔCFNAI",
+    "coef": 1.1301,
+    "t": 0.98,
+    "p": 0.3269,
+    "stars": "",
+    "n": 90
+   },
+   {
+    "key": "minutes",
+    "spec": "Δ excl-2020",
+    "var": "ΔVIX",
+    "coef": 0.009,
+    "t": 0.24,
+    "p": 0.808,
+    "stars": "",
+    "n": 90
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI",
+    "var": "CFNAI-MA3",
+    "coef": 0.2385,
+    "t": 1.11,
+    "p": 0.2688,
+    "stars": "",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 0.312,
+    "t": 2.4,
+    "p": 0.0166,
+    "stars": "**",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.1762,
+    "t": 4.33,
+    "p": 0.0,
+    "stars": "***",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔCFNAI",
+    "coef": 0.7305,
+    "t": 8.75,
+    "p": 0.0,
+    "stars": "***",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔVIX",
+    "coef": 0.0044,
+    "t": 0.05,
+    "p": 0.9618,
+    "stars": "",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 2.6165,
+    "t": 1.99,
+    "p": 0.0462,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.106,
+    "t": 2.48,
+    "p": 0.0133,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔCFNAI",
+    "coef": -0.8923,
+    "t": -0.52,
+    "p": 0.6011,
+    "stars": "",
+    "n": 70
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔVIX",
+    "coef": 0.0714,
+    "t": 0.61,
+    "p": 0.5421,
+    "stars": "",
+    "n": 70
+   }
+  ]
+ },
+ "H": {
+  "H1": {
+   "verdict": "해당 없음",
+   "evidence": "성명서 층 없음"
+  },
+  "H2": {
+   "verdict": "지지",
+   "evidence": "χ²=5237.3, V=0.254"
+  },
+  "H3": {
+   "verdict": "기각",
+   "evidence": "수준 회귀에서 어떤 층위의 총밀도도 CFNAI와 유의한 음의 관계 없음; 1차 차분에서도 없음"
+  },
+  "H4": {
+   "verdict": "지지",
+   "evidence": "확정 VIX 단위 9 (비성명서 층 9, 성명서 층 0)"
+  },
+  "H5": {
+   "verdict": "지지",
+   "evidence": "Granger text→macro q<.10: 1건 (최소 q=0.06532854443714183); 예측 회귀 q<.10: 0/48 (최소 q=0.475079254019854)"
+  }
+ },
+ "runtime_s": 14.5
+}

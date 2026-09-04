@@ -98,3 +98,16 @@
 - [ ] 13.2 RQ 5→3 구조로 재작성(경제학 저널 지향), 일본 §5.2 → 인용 2–3문장, 추후연구 삭제
 - [ ] 13.3 문헌 보강(be appropriate: Van linden 2012 등; 화용론: Collins 2009, Ward et al. 2003 등)
 - [ ] 13.4 draft_v3.md + .docx
+
+## Phase 14 — 전면 재실험 프로그램 v3 (D17; `docs/12_experiment_program_v3.md`)
+- [x] 14.1 설계 문서: 가설 H1–H5, 코퍼스 조합 25종, 단위 3종, 실험군 L1–L9·E1–E9, 통계 방법, 확정 규칙
+- [x] 14.2 `experiments/20_program_common.py` 코퍼스 조합 열거·로더·공통 통계
+- [x] 14.3 `experiments/21_exp_linguistic.py` L1–L9 구현
+- [x] 14.4 `experiments/22_exp_econometric.py` E1–E9 구현
+- [x] 14.5 `experiments/23_run_program.py` 전 조합 실행 → `results/program/<corpus>_<unit>/`
+- [x] 14.6 실행·검증(스모크 → 전체 75회) 및 인수인계서 기록
+
+## Phase 15 — 실험 결과보고서 HTML (D18)
+- [x] 15.1 `experiments/24_build_report_v3.py` 보고서 빌더(본문 마크다운 + 표·그림 삽입 태그 → HTML; 부록 시나리오 페이지 자동 생성)
+- [x] 15.2 본문 작성(요약·서론/가설·데이터·설계·결과 A 코퍼스 언어학·결과 B 계량경제·전 조합 비교·가설 판정·논의·한계·부록)
+- [~] 15.3 렌더·검토·아티팩트 게시(로컬 `results/report_v3/`)

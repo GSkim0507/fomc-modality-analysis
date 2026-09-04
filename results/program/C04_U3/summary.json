@@ -1,0 +1,2363 @@
+{
+ "cid": "C04",
+ "alias": "",
+ "name": "statement + press_conf[chair]",
+ "layers": [
+  "statement",
+  "pc_chair"
+ ],
+ "U": "U3",
+ "unit": "modal + verb class",
+ "unfiltered": false,
+ "errors": {},
+ "blocks_ok": [
+  "L1_corpus_description",
+  "L2_keyness_division",
+  "L3_diachronic",
+  "L4_collocation",
+  "L5_formulaicity",
+  "L6_context",
+  "L7_mnlogit",
+  "L8_be_appropriate",
+  "L9_contrasts",
+  "E1_descriptives",
+  "E2_correlations",
+  "E3_regressions",
+  "E4_construction_regressions",
+  "E5_screen_ledger",
+  "E6_leadlag",
+  "E7_event_study",
+  "E8_robustness",
+  "E9_kawamura"
+ ],
+ "L1": {
+  "layers": [
+   {
+    "layer": "statement",
+    "label": "Statement",
+    "n_docs": 101,
+    "tokens": 41906,
+    "sentences": 1697,
+    "six_modal": 770,
+    "nine_modal": 770,
+    "pmw": 18374.5,
+    "ci_lo": 17099.4,
+    "ci_hi": 19719.4,
+    "per1k": 18.37
+   },
+   {
+    "layer": "pc_chair",
+    "label": "Press conf.: Chair",
+    "n_docs": 80,
+    "tokens": 533106,
+    "sentences": 26371,
+    "six_modal": 10686,
+    "nine_modal": 10944,
+    "pmw": 20044.8,
+    "ci_lo": 19666.5,
+    "ci_hi": 20428.5,
+    "per1k": 20.04
+   }
+  ],
+  "modal_pmw": {
+   "statement": {
+    "will": 14484.8,
+    "would": 1169.3,
+    "could": 1193.1,
+    "can": 95.5,
+    "should": 787.5,
+    "may": 644.3,
+    "might": 0.0,
+    "must": 0.0,
+    "shall": 0.0
+   },
+   "pc_chair": {
+    "will": 8142.8,
+    "would": 5865.6,
+    "could": 1174.3,
+    "can": 3020.0,
+    "should": 932.3,
+    "may": 909.8,
+    "might": 444.6,
+    "must": 35.6,
+    "shall": 3.8
+   }
+  },
+  "dp": {
+   "statement": {
+    "will": 0.085,
+    "would": 0.614,
+    "could": 0.548,
+    "can": 0.944,
+    "should": 0.617,
+    "may": 0.685
+   },
+   "pc_chair": {
+    "will": 0.114,
+    "would": 0.118,
+    "could": 0.189,
+    "can": 0.142,
+    "should": 0.218,
+    "may": 0.211
+   }
+  }
+ },
+ "L2": {
+  "keyness_top": {
+   "statement": [
+    {
+     "item": "would",
+     "sign": "-",
+     "LL": 223.85,
+     "log_ratio": -2.312
+    },
+    {
+     "item": "can",
+     "sign": "-",
+     "LL": 208.62,
+     "log_ratio": -4.814
+    },
+    {
+     "item": "will",
+     "sign": "+",
+     "LL": 152.88,
+     "log_ratio": 0.832
+    }
+   ],
+   "pc_chair": [
+    {
+     "item": "would",
+     "sign": "+",
+     "LL": 223.85,
+     "log_ratio": 2.312
+    },
+    {
+     "item": "can",
+     "sign": "+",
+     "LL": 208.62,
+     "log_ratio": 4.814
+    },
+    {
+     "item": "will",
+     "sign": "-",
+     "LL": 152.88,
+     "log_ratio": -0.832
+    }
+   ]
+  },
+  "chi2": 488.9,
+  "dof": 5,
+  "p": 1.9818619595796846e-103,
+  "cramers_v": 0.207,
+  "n_layers": 2,
+  "residual_max": {
+   "pc_chair": [
+    "would",
+    3.0
+   ],
+   "statement": [
+    "will",
+    15.0
+   ]
+  }
+ },
+ "L3": {
+  "mk_significant": [
+   {
+    "layer": "pc_chair",
+    "series": "can",
+    "tau": 0.262,
+    "sen_slope": 0.018,
+    "p": 0.001
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "tau": 0.344,
+    "sen_slope": 0.067,
+    "p": 0.0
+   },
+   {
+    "layer": "statement",
+    "series": "could",
+    "tau": 0.576,
+    "sen_slope": 0.043,
+    "p": 0.0
+   },
+   {
+    "layer": "statement",
+    "series": "may",
+    "tau": -0.123,
+    "sen_slope": 0.0,
+    "p": 0.018
+   },
+   {
+    "layer": "statement",
+    "series": "should",
+    "tau": -0.394,
+    "sen_slope": 0.0,
+    "p": 0.0
+   },
+   {
+    "layer": "statement",
+    "series": "would",
+    "tau": 0.593,
+    "sen_slope": 0.043,
+    "p": 0.0
+   }
+  ],
+  "staircase_T1": {
+   "n_meetings": 101,
+   "top_units": [
+    "will/activity",
+    "will/aspectual",
+    "will/mental",
+    "will/policy_action",
+    "will/copular_adj",
+    "could/causative",
+    "will/occurrence",
+    "would/copular_adj",
+    "will/causative",
+    "will/existence",
+    "should/activity",
+    "may/causative"
+   ],
+   "n_cp": 26,
+   "n_cp_event": 17,
+   "changepoints": [
+    {
+     "period": "T1",
+     "unit": "will/activity",
+     "break_date": "2018-06-13",
+     "meeting_index": 35,
+     "share_before": 0.117,
+     "share_after": 0.292,
+     "direction": "up",
+     "nearest_event": "Powell chair",
+     "event_date": "2018-02-05",
+     "days_to_event": 128,
+     "within_1_meeting": false,
+     "responsible_sentence": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments."
+    },
+    {
+     "period": "T1",
+     "unit": "will/activity",
+     "break_date": "2020-03-23",
+     "meeting_index": 51,
+     "share_before": 0.462,
+     "share_after": 0.148,
+     "direction": "down",
+     "nearest_event": "Pandemic ZLB",
+     "event_date": "2020-03-15",
+     "days_to_event": 8,
+     "within_1_meeting": true,
+     "responsible_sentence": "In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor ma"
+    },
+    {
+     "period": "T1",
+     "unit": "will/aspectual",
+     "break_date": "2019-07-31",
+     "meeting_index": 44,
+     "share_before": 0.031,
+     "share_after": 0.26,
+     "direction": "up",
+     "nearest_event": "Mid-cycle cut",
+     "event_date": "2019-07-31",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion"
+    },
+    {
+     "period": "T1",
+     "unit": "will/mental",
+     "break_date": "2015-12-16",
+     "meeting_index": 15,
+     "share_before": 0.124,
+     "share_after": 0.219,
+     "direction": "up",
+     "nearest_event": "First hike (liftoff)",
+     "event_date": "2015-12-16",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its objectives of maximum employment and 2 percent infl"
+    },
+    {
+     "period": "T1",
+     "unit": "will/mental",
+     "break_date": "2020-09-16",
+     "meeting_index": 55,
+     "share_before": 0.204,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "New framework",
+     "event_date": "2020-08-27",
+     "days_to_event": 20,
+     "within_1_meeting": true,
+     "responsible_sentence": "In determining the timing and size of future adjustments to the target range for the federal funds rate, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 pe"
+    },
+    {
+     "period": "T1",
+     "unit": "will/mental",
+     "break_date": "2024-01-31",
+     "meeting_index": 82,
+     "share_before": 0.031,
+     "share_after": 0.146,
+     "direction": "up",
+     "nearest_event": "Last hike",
+     "event_date": "2023-07-26",
+     "days_to_event": 189,
+     "within_1_meeting": false,
+     "responsible_sentence": "In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+    },
+    {
+     "period": "T1",
+     "unit": "will/policy_action",
+     "break_date": "2018-06-13",
+     "meeting_index": 35,
+     "share_before": 0.129,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "Powell chair",
+     "event_date": "2018-02-05",
+     "days_to_event": 128,
+     "within_1_meeting": false,
+     "responsible_sentence": "The Committee continues to expect that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further."
+    },
+    {
+     "period": "T1",
+     "unit": "will/copular_adj",
+     "break_date": "2015-12-16",
+     "meeting_index": 15,
+     "share_before": 0.12,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "First hike (liftoff)",
+     "event_date": "2015-12-16",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee sees this guidance as consistent with its previous statement that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset pu"
+    },
+    {
+     "period": "T1",
+     "unit": "will/copular_adj",
+     "break_date": "2018-06-13",
+     "meeting_index": 35,
+     "share_before": 0.0,
+     "share_after": 0.292,
+     "direction": "up",
+     "nearest_event": "Powell chair",
+     "event_date": "2018-02-05",
+     "days_to_event": 128,
+     "within_1_meeting": false,
+     "responsible_sentence": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetr"
+    },
+    {
+     "period": "T1",
+     "unit": "will/copular_adj",
+     "break_date": "2019-06-19",
+     "meeting_index": 43,
+     "share_before": 0.292,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "Mid-cycle cut",
+     "event_date": "2019-07-31",
+     "days_to_event": 42,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetr"
+    },
+    {
+     "period": "T1",
+     "unit": "will/copular_adj",
+     "break_date": "2020-09-16",
+     "meeting_index": 55,
+     "share_before": 0.0,
+     "share_after": 0.116,
+     "direction": "up",
+     "nearest_event": "New framework",
+     "event_date": "2020-08-27",
+     "days_to_event": 20,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's"
+    },
+    {
+     "period": "T1",
+     "unit": "will/copular_adj",
+     "break_date": "2023-03-22",
+     "meeting_index": 75,
+     "share_before": 0.166,
+     "share_after": 0.018,
+     "direction": "down",
+     "nearest_event": "Last hike",
+     "event_date": "2023-07-26",
+     "days_to_event": 126,
+     "within_1_meeting": false,
+     "responsible_sentence": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent and anticipates that ongoing increases in the target range will be appropriate."
+    },
+    {
+     "period": "T1",
+     "unit": "could/causative",
+     "break_date": "2020-09-16",
+     "meeting_index": 55,
+     "share_before": 0.0,
+     "share_after": 0.116,
+     "direction": "up",
+     "nearest_event": "New framework",
+     "event_date": "2020-08-27",
+     "days_to_event": 20,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+     "period": "T1",
+     "unit": "will/occurrence",
+     "break_date": "2015-12-16",
+     "meeting_index": 15,
+     "share_before": 0.0,
+     "share_after": 0.122,
+     "direction": "up",
+     "nearest_event": "First hike (liftoff)",
+     "event_date": "2015-12-16",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee judges that there has been considerable improvement in labor market conditions this year, and it is reasonably confident that inflation will rise, over the medium term, to its 2 percent objective."
+    },
+    {
+     "period": "T1",
+     "unit": "will/occurrence",
+     "break_date": "2018-06-13",
+     "meeting_index": 35,
+     "share_before": 0.18,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "Powell chair",
+     "event_date": "2018-02-05",
+     "days_to_event": 128,
+     "within_1_meeting": false,
+     "responsible_sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in th"
+    },
+    {
+     "period": "T1",
+     "unit": "would/copular_adj",
+     "break_date": "2020-09-16",
+     "meeting_index": 55,
+     "share_before": 0.0,
+     "share_after": 0.116,
+     "direction": "up",
+     "nearest_event": "New framework",
+     "event_date": "2020-08-27",
+     "days_to_event": 20,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals."
+    },
+    {
+     "period": "T1",
+     "unit": "will/causative",
+     "break_date": "2015-12-16",
+     "meeting_index": 15,
+     "share_before": 0.0,
+     "share_after": 0.165,
+     "direction": "up",
+     "nearest_event": "First hike (liftoff)",
+     "event_date": "2015-12-16",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail "
+    },
+    {
+     "period": "T1",
+     "unit": "will/causative",
+     "break_date": "2018-06-13",
+     "meeting_index": 35,
+     "share_before": 0.195,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "Powell chair",
+     "event_date": "2018-02-05",
+     "days_to_event": 128,
+     "within_1_meeting": false,
+     "responsible_sentence": "The Committee continues to expect that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further."
+    },
+    {
+     "period": "T1",
+     "unit": "will/existence",
+     "break_date": "2015-12-16",
+     "meeting_index": 15,
+     "share_before": 0.0,
+     "share_after": 0.11,
+     "direction": "up",
+     "nearest_event": "First hike (liftoff)",
+     "event_date": "2015-12-16",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "However, the actual path of the federal funds rate will depend on the economic outlook as informed by incoming data."
+    },
+    {
+     "period": "T1",
+     "unit": "will/existence",
+     "break_date": "2018-06-13",
+     "meeting_index": 35,
+     "share_before": 0.117,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "Powell chair",
+     "event_date": "2018-02-05",
+     "days_to_event": 128,
+     "within_1_meeting": false,
+     "responsible_sentence": "However, the actual path of the federal funds rate will depend on the economic outlook as informed by incoming data."
+    },
+    {
+     "period": "T1",
+     "unit": "will/existence",
+     "break_date": "2020-07-29",
+     "meeting_index": 54,
+     "share_before": 0.018,
+     "share_after": 0.116,
+     "direction": "up",
+     "nearest_event": "New framework",
+     "event_date": "2020-08-27",
+     "days_to_event": 29,
+     "within_1_meeting": true,
+     "responsible_sentence": "The path of the economy will depend significantly on the course of the virus."
+    },
+    {
+     "period": "T1",
+     "unit": "will/existence",
+     "break_date": "2021-07-28",
+     "meeting_index": 62,
+     "share_before": 0.116,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "Hiking cycle begins",
+     "event_date": "2022-03-16",
+     "days_to_event": 231,
+     "within_1_meeting": false,
+     "responsible_sentence": "The path of the economy will depend significantly on the course of the virus."
+    },
+    {
+     "period": "T1",
+     "unit": "should/activity",
+     "break_date": "2014-10-29",
+     "meeting_index": 6,
+     "share_before": 0.0,
+     "share_after": 0.125,
+     "direction": "up",
+     "nearest_event": "QE3 ends",
+     "event_date": "2014-10-29",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+    },
+    {
+     "period": "T1",
+     "unit": "should/activity",
+     "break_date": "2017-06-14",
+     "meeting_index": 27,
+     "share_before": 0.107,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "Normalization addendum",
+     "event_date": "2017-06-14",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+    },
+    {
+     "period": "T1",
+     "unit": "may/causative",
+     "break_date": "2014-10-29",
+     "meeting_index": 6,
+     "share_before": 0.053,
+     "share_after": 0.139,
+     "direction": "up",
+     "nearest_event": "QE3 ends",
+     "event_date": "2014-10-29",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as norm"
+    },
+    {
+     "period": "T1",
+     "unit": "may/causative",
+     "break_date": "2015-12-16",
+     "meeting_index": 15,
+     "share_before": 0.138,
+     "share_after": 0.0,
+     "direction": "down",
+     "nearest_event": "First hike (liftoff)",
+     "event_date": "2015-12-16",
+     "days_to_event": 0,
+     "within_1_meeting": true,
+     "responsible_sentence": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as norm"
+    }
+   ]
+  },
+  "staircase_T3": {
+   "n_meetings": 133,
+   "top_units": [
+    "will/aspectual",
+    "will/activity",
+    "will/mental",
+    "will/policy_action",
+    "will/occurrence",
+    "will/copular_adj",
+    "could/causative",
+    "would/copular_adj",
+    "will/causative",
+    "will/other",
+    "should/activity",
+    "may/causative"
+   ],
+   "n_cp": 32,
+   "n_cp_event": 15,
+   "changepoints": []
+  }
+ },
+ "L4": {
+  "main_layer": "statement",
+  "attracted": {
+   "will": [
+    {
+     "predicate": "take",
+     "obs": 123,
+     "ratio": 1.27,
+     "collostruction_strength": 13.75
+    },
+    {
+     "predicate": "continue",
+     "obs": 125,
+     "ratio": 1.25,
+     "collostruction_strength": 11.37
+    },
+    {
+     "predicate": "assess",
+     "obs": 72,
+     "ratio": 1.27,
+     "collostruction_strength": 7.63
+    },
+    {
+     "predicate": "expand",
+     "obs": 34,
+     "ratio": 1.27,
+     "collostruction_strength": 3.42
+    },
+    {
+     "predicate": "monitor",
+     "obs": 32,
+     "ratio": 1.27,
+     "collostruction_strength": 3.21
+    }
+   ],
+   "would": [
+    {
+     "predicate": "be+prepared",
+     "obs": 46,
+     "ratio": 15.71,
+     "collostruction_strength": 70.18
+    }
+   ],
+   "could": [
+    {
+     "predicate": "impede",
+     "obs": 46,
+     "ratio": 15.4,
+     "collostruction_strength": 69.08
+    },
+    {
+     "predicate": "pose",
+     "obs": 4,
+     "ratio": 15.4,
+     "collostruction_strength": 4.8
+    }
+   ],
+   "can": [],
+   "should": [
+    {
+     "predicate": "help",
+     "obs": 21,
+     "ratio": 22.27,
+     "collostruction_strength": 30.9
+    },
+    {
+     "predicate": "promote",
+     "obs": 6,
+     "ratio": 23.33,
+     "collostruction_strength": 8.41
+    },
+    {
+     "predicate": "maintain",
+     "obs": 6,
+     "ratio": 17.5,
+     "collostruction_strength": 6.99
+    }
+   ],
+   "may": [
+    {
+     "predicate": "warrant",
+     "obs": 15,
+     "ratio": 12.22,
+     "collostruction_strength": 14.5
+    },
+    {
+     "predicate": "be+appropriate",
+     "obs": 10,
+     "ratio": 5.38,
+     "collostruction_strength": 5.46
+    }
+   ]
+  },
+  "top_predicate": {
+   "will": {
+    "predicate": "continue",
+    "share": 0.2059
+   },
+   "would": {
+    "predicate": "be+prepared",
+    "share": 0.9388
+   },
+   "could": {
+    "predicate": "impede",
+    "share": 0.92
+   },
+   "can": {},
+   "should": {
+    "predicate": "help",
+    "share": 0.6364
+   },
+   "may": {
+    "predicate": "warrant",
+    "share": 0.5556
+   }
+  },
+  "jsd_main": [
+   0.768,
+   1.0
+  ]
+ },
+ "L5": {
+  "half_life": {
+   "all": null,
+   "will": null,
+   "would": null,
+   "could": null,
+   "can": 1.0,
+   "should": 7.499999999999999,
+   "may": 4.0,
+   "modal_sentences": 4.479422766147513
+  },
+  "km_median": 5.0,
+  "n_cohorts": 54,
+  "one_off_share": 0.278,
+  "formulaic_share_overall": 0.831,
+  "formulaic_share_by_year": {
+   "2014": 0.786,
+   "2015": 0.866,
+   "2016": 0.944,
+   "2017": 0.68,
+   "2018": 0.8,
+   "2019": 0.71,
+   "2020": 0.699,
+   "2021": 0.855,
+   "2022": 0.898,
+   "2023": 0.855,
+   "2024": 0.946,
+   "2025": 0.939,
+   "2026": 1.0
+  },
+  "edits_by_year": {
+   "2014": {
+    "added": 3,
+    "removed": 6
+   },
+   "2015": {
+    "added": 5,
+    "removed": 5
+   },
+   "2016": {
+    "added": 1,
+    "removed": 1
+   },
+   "2017": {
+    "added": 2,
+    "removed": 3
+   },
+   "2018": {
+    "added": 2,
+    "removed": 4
+   },
+   "2019": {
+    "added": 3,
+    "removed": 4
+   },
+   "2020": {
+    "added": 16,
+    "removed": 12
+   },
+   "2021": {
+    "added": 3,
+    "removed": 4
+   },
+   "2022": {
+    "added": 0,
+    "removed": 1
+   },
+   "2023": {
+    "added": 2,
+    "removed": 2
+   },
+   "2024": {
+    "added": 4,
+    "removed": 4
+   },
+   "2025": {
+    "added": 3,
+    "removed": 2
+   },
+   "2026": {
+    "added": 0,
+    "removed": 1
+   }
+  }
+ },
+ "L6": {
+  "rates_main": [
+   {
+    "layer": "statement",
+    "modal": "will",
+    "n": 607,
+    "neg": 0.0,
+    "passive": 0.002,
+    "perfect": 0.0,
+    "progressive": 0.0,
+    "cond": 0.041,
+    "reported": 0.234,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "statement",
+    "modal": "would",
+    "n": 49,
+    "neg": 0.0,
+    "passive": 0.0,
+    "perfect": 0.0,
+    "progressive": 0.0,
+    "cond": 0.939,
+    "reported": 0.041,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "statement",
+    "modal": "could",
+    "n": 50,
+    "neg": 0.0,
+    "passive": 0.0,
+    "perfect": 0.0,
+    "progressive": 0.0,
+    "cond": 0.92,
+    "reported": 0.08,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "statement",
+    "modal": "should",
+    "n": 33,
+    "neg": 0.0,
+    "passive": 0.0,
+    "perfect": 0.0,
+    "progressive": 0.0,
+    "cond": 0.0,
+    "reported": 0.0,
+    "question": 0.0,
+    "contracted": 0.0
+   },
+   {
+    "layer": "statement",
+    "modal": "may",
+    "n": 27,
+    "neg": 0.0,
+    "passive": 0.074,
+    "perfect": 0.0,
+    "progressive": 0.0,
+    "cond": 0.037,
+    "reported": 0.074,
+    "question": 0.0,
+    "contracted": 0.0
+   }
+  ],
+  "chi2_significant": [
+   {
+    "layer": "statement",
+    "feature": "passive",
+    "chi2": 173.2,
+    "dof": 5,
+    "p": 1.519499078562259e-35,
+    "cramers_v": 0.474
+   },
+   {
+    "layer": "statement",
+    "feature": "cond",
+    "chi2": 527.8,
+    "dof": 5,
+    "p": 7.993346911647085e-112,
+    "cramers_v": 0.828
+   },
+   {
+    "layer": "statement",
+    "feature": "reported",
+    "chi2": 30.1,
+    "dof": 5,
+    "p": 1.4305910136829725e-05,
+    "cramers_v": 0.198
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "neg",
+    "chi2": 278.1,
+    "dof": 5,
+    "p": 4.979013120427594e-58,
+    "cramers_v": 0.161
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "passive",
+    "chi2": 85.9,
+    "dof": 5,
+    "p": 4.954459693953287e-17,
+    "cramers_v": 0.09
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "perfect",
+    "chi2": 143.5,
+    "dof": 5,
+    "p": 3.1890206321807375e-29,
+    "cramers_v": 0.116
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "progressive",
+    "chi2": 224.1,
+    "dof": 5,
+    "p": 1.9732769185002582e-46,
+    "cramers_v": 0.145
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "cond",
+    "chi2": 101.4,
+    "dof": 5,
+    "p": 2.641862073648841e-20,
+    "cramers_v": 0.097
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "reported",
+    "chi2": 35.2,
+    "dof": 5,
+    "p": 1.3573543258397827e-06,
+    "cramers_v": 0.057
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "contracted",
+    "chi2": 1281.5,
+    "dof": 5,
+    "p": 6.535637721923945e-275,
+    "cramers_v": 0.346
+   }
+  ],
+  "sem_main": {
+   "will": [
+    {
+     "sem_type": "epistemic_predictive",
+     "share": 0.537
+    },
+    {
+     "sem_type": "dynamic_volitional",
+     "share": 0.463
+    }
+   ],
+   "would": [
+    {
+     "sem_type": "conditional_hypothetical",
+     "share": 0.959
+    },
+    {
+     "sem_type": "reported_backshift",
+     "share": 0.041
+    }
+   ],
+   "could": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 1.0
+    }
+   ],
+   "can": [],
+   "should": [
+    {
+     "sem_type": "epistemic_expectation",
+     "share": 1.0
+    }
+   ],
+   "may": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 1.0
+    }
+   ]
+  }
+ },
+ "L7": {
+  "pseudo_r2": 0.0844,
+  "n": 11456,
+  "llf": -15129.914675978896,
+  "layer_effects": [
+   {
+    "variable": "layer_statement",
+    "outcome_vs_will": "should",
+    "coef": -0.525,
+    "rrr": 0.592,
+    "p": 0.008103109946119574
+   },
+   {
+    "variable": "layer_statement",
+    "outcome_vs_will": "may",
+    "coef": -0.629,
+    "rrr": 0.533,
+    "p": 0.0030252770736890126
+   },
+   {
+    "variable": "layer_statement",
+    "outcome_vs_will": "would",
+    "coef": -1.82,
+    "rrr": 0.162,
+    "p": 2.843625393423936e-24
+   },
+   {
+    "variable": "layer_statement",
+    "outcome_vs_will": "can",
+    "coef": -2.885,
+    "rrr": 0.056,
+    "p": 1.946316595138791e-08
+   }
+  ]
+ },
+ "L8": {
+  "n": 223,
+  "counts": {
+   "pc_chair": {
+    "will": 105,
+    "would": 38,
+    "may": 21,
+    "could": 5
+   },
+   "statement": {
+    "will": 43,
+    "would": 0,
+    "may": 10,
+    "could": 0
+   }
+  }
+ },
+ "L9": {
+  "chair_statement": {
+   "chi2": 104.7,
+   "p": 5.524610261853326e-21,
+   "V": 0.373
+  },
+  "chair_pc_chair": {
+   "chi2": 99.4,
+   "p": 7.232366782422975e-20,
+   "V": 0.096
+  }
+ },
+ "E1": {
+  "macro": [
+   {
+    "block": "macro",
+    "layer": "statement",
+    "series": "CFNAI-MA3 (m−2)",
+    "N": 101,
+    "mean": -0.09,
+    "sd": 1.101,
+    "min": -7.55,
+    "max": 4.58,
+    "zero_share": NaN,
+    "AR1": 0.25
+   },
+   {
+    "block": "macro",
+    "layer": "statement",
+    "series": "VIX pre-28d",
+    "N": 101,
+    "mean": 18.347,
+    "sd": 6.694,
+    "min": 10.19,
+    "max": 50.277,
+    "zero_share": NaN,
+    "AR1": 0.756
+   },
+   {
+    "block": "macro",
+    "layer": "statement",
+    "series": "Unemployment gap (m−1)",
+    "N": 101,
+    "mean": 0.175,
+    "sd": 1.43,
+    "min": -1.034,
+    "max": 8.741,
+    "zero_share": NaN,
+    "AR1": 0.766
+   },
+   {
+    "block": "macro",
+    "layer": "statement",
+    "series": "Core PCE gap (m−2)",
+    "N": 101,
+    "mean": 0.448,
+    "sd": 1.297,
+    "min": -1.005,
+    "max": 3.606,
+    "zero_share": NaN,
+    "AR1": 0.983
+   }
+  ],
+  "text_all": {
+   "pc_chair": {
+    "mean": 20.043,
+    "sd": 2.968,
+    "AR1": 0.186
+   },
+   "statement": {
+    "mean": 18.476,
+    "sd": 4.012,
+    "AR1": 0.814
+   }
+  }
+ },
+ "E2": {
+  "genre_all": [
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "cfnai",
+    "rho": 0.2165,
+    "p": 0.0538,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "vix",
+    "rho": 0.3188,
+    "p": 0.004,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "cfnai",
+    "rho": 0.1422,
+    "p": 0.1764,
+    "n": 92
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "vix",
+    "rho": 0.2925,
+    "p": 0.0047,
+    "n": 92
+   },
+   {
+    "key": "statement",
+    "period": "T1",
+    "macro": "cfnai",
+    "rho": -0.1242,
+    "p": 0.2158,
+    "n": 101
+   },
+   {
+    "key": "statement",
+    "period": "T1",
+    "macro": "vix",
+    "rho": 0.0613,
+    "p": 0.5425,
+    "n": 101
+   },
+   {
+    "key": "statement",
+    "period": "T2",
+    "macro": "cfnai",
+    "rho": -0.1783,
+    "p": 0.0909,
+    "n": 91
+   },
+   {
+    "key": "statement",
+    "period": "T2",
+    "macro": "vix",
+    "rho": 0.0449,
+    "p": 0.6729,
+    "n": 91
+   },
+   {
+    "key": "statement",
+    "period": "T3",
+    "macro": "cfnai",
+    "rho": -0.0964,
+    "p": 0.2697,
+    "n": 133
+   },
+   {
+    "key": "statement",
+    "period": "T3",
+    "macro": "vix",
+    "rho": -0.1156,
+    "p": 0.185,
+    "n": 133
+   }
+  ],
+  "layer_all_T2": [
+   {
+    "key": "pc_chair",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302
+   },
+   {
+    "key": "pc_chair",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118
+   },
+   {
+    "key": "statement",
+    "macro": "cfnai",
+    "rho": -0.1783,
+    "p": 0.0909
+   },
+   {
+    "key": "statement",
+    "macro": "vix",
+    "rho": 0.0449,
+    "p": 0.6729
+   }
+  ]
+ },
+ "E3": {
+  "all_by_layer": {
+   "statement": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.2078,
+      "p": 0.1953,
+      "stars": "",
+      "n": 101,
+      "r2": 0.003
+     },
+     "vix_pre28": {
+      "coef": 0.0023,
+      "p": 0.9743,
+      "stars": "",
+      "n": 101,
+      "r2": 0.003
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.7465,
+      "p": 0.0,
+      "stars": "***",
+      "n": 101,
+      "r2": 0.429
+     },
+     "vix_pre28": {
+      "coef": -0.0951,
+      "p": 0.1156,
+      "stars": "",
+      "n": 101,
+      "r2": 0.429
+     },
+     "post_fw": {
+      "coef": 5.4956,
+      "p": 0.0,
+      "stars": "***",
+      "n": 101,
+      "r2": 0.429
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": -2.5642,
+      "p": 0.2616,
+      "stars": "",
+      "n": 91,
+      "r2": 0.028
+     },
+     "vix_pre28": {
+      "coef": 0.0831,
+      "p": 0.3078,
+      "stars": "",
+      "n": 91,
+      "r2": 0.028
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": -0.0113,
+      "p": 0.8212,
+      "stars": "",
+      "n": 100,
+      "r2": 0.007
+     },
+     "d_vix": {
+      "coef": -0.0437,
+      "p": 0.4132,
+      "stars": "",
+      "n": 100,
+      "r2": 0.007
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -0.3589,
+      "p": 0.7472,
+      "stars": "",
+      "n": 90,
+      "r2": 0.006
+     },
+     "d_vix": {
+      "coef": -0.04,
+      "p": 0.5155,
+      "stars": "",
+      "n": 90,
+      "r2": 0.006
+     }
+    }
+   },
+   "pc_chair": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3414,
+      "p": 0.0155,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1816,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3416,
+      "p": 0.0182,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1817,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     },
+     "post_fw": {
+      "coef": -0.0018,
+      "p": 0.9982,
+      "stars": "",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 2.4815,
+      "p": 0.0432,
+      "stars": "**",
+      "n": 71,
+      "r2": 0.129
+     },
+     "vix_pre28": {
+      "coef": 0.1187,
+      "p": 0.0043,
+      "stars": "***",
+      "n": 71,
+      "r2": 0.129
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": 0.7589,
+      "p": 0.0,
+      "stars": "***",
+      "n": 79,
+      "r2": 0.092
+     },
+     "d_vix": {
+      "coef": -0.0047,
+      "p": 0.9608,
+      "stars": "",
+      "n": 79,
+      "r2": 0.092
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -1.1143,
+      "p": 0.4786,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     },
+     "d_vix": {
+      "coef": 0.0764,
+      "p": 0.5203,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     }
+    }
+   }
+  }
+ },
+ "E4": {
+  "n_units": 13,
+  "significant_spec3": [
+   {
+    "layer": "pc_chair",
+    "unit": "would/communication",
+    "var": "const",
+    "coef": 1.279,
+    "p": 0.0,
+    "n_tokens": 846
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/activity",
+    "var": "const",
+    "coef": 0.7109,
+    "p": 0.0369,
+    "n_tokens": 845
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.064,
+    "p": 0.0248,
+    "n_tokens": 845
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/activity",
+    "var": "vix_pre28",
+    "coef": 0.0477,
+    "p": 0.0012,
+    "n_tokens": 845
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/mental",
+    "var": "const",
+    "coef": 1.0247,
+    "p": 0.0,
+    "n_tokens": 589
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "would/mental",
+    "var": "const",
+    "coef": 0.8225,
+    "p": 0.0,
+    "n_tokens": 475
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "would/mental",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0505,
+    "p": 0.0001,
+    "n_tokens": 475
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/other",
+    "var": "const",
+    "coef": 0.3558,
+    "p": 0.0059,
+    "n_tokens": 431
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/other",
+    "var": "vix_pre28",
+    "coef": 0.0233,
+    "p": 0.0013,
+    "n_tokens": 431
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/existence",
+    "var": "const",
+    "coef": 0.4815,
+    "p": 0.0032,
+    "n_tokens": 430
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/existence",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0481,
+    "p": 0.0053,
+    "n_tokens": 430
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/existence",
+    "var": "vix_pre28",
+    "coef": 0.0177,
+    "p": 0.0307,
+    "n_tokens": 430
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "can/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.0595,
+    "p": 0.0167,
+    "n_tokens": 428
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "can/activity",
+    "var": "vix_pre28",
+    "coef": 0.0357,
+    "p": 0.0,
+    "n_tokens": 428
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/copular_adj",
+    "var": "const",
+    "coef": 0.4473,
+    "p": 0.0117,
+    "n_tokens": 400
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/copular_adj",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0655,
+    "p": 0.0087,
+    "n_tokens": 400
+   },
+   {
+    "layer": "statement",
+    "unit": "will/activity",
+    "var": "const",
+    "coef": 3.1222,
+    "p": 0.0,
+    "n_tokens": 132
+   },
+   {
+    "layer": "statement",
+    "unit": "will/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.3212,
+    "p": 0.0001,
+    "n_tokens": 132
+   },
+   {
+    "layer": "statement",
+    "unit": "will/aspectual",
+    "var": "vix_pre28",
+    "coef": 0.1466,
+    "p": 0.0053,
+    "n_tokens": 126
+   },
+   {
+    "layer": "statement",
+    "unit": "will/mental",
+    "var": "const",
+    "coef": 3.967,
+    "p": 0.0,
+    "n_tokens": 105
+   },
+   {
+    "layer": "statement",
+    "unit": "will/mental",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.5702,
+    "p": 0.0,
+    "n_tokens": 105
+   },
+   {
+    "layer": "statement",
+    "unit": "will/policy_action",
+    "var": "const",
+    "coef": 2.2943,
+    "p": 0.0001,
+    "n_tokens": 57
+   },
+   {
+    "layer": "statement",
+    "unit": "will/policy_action",
+    "var": "vix_pre28",
+    "coef": -0.0683,
+    "p": 0.0065,
+    "n_tokens": 57
+   },
+   {
+    "layer": "statement",
+    "unit": "will/copular_adj",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.3054,
+    "p": 0.0009,
+    "n_tokens": 51
+   },
+   {
+    "layer": "statement",
+    "unit": "could/causative",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.2237,
+    "p": 0.0,
+    "n_tokens": 50
+   },
+   {
+    "layer": "statement",
+    "unit": "will/occurrence",
+    "var": "const",
+    "coef": 1.6371,
+    "p": 0.0139,
+    "n_tokens": 47
+   },
+   {
+    "layer": "statement",
+    "unit": "would/copular_adj",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.2212,
+    "p": 0.0,
+    "n_tokens": 46
+   }
+  ]
+ },
+ "E5": {
+  "n_screen": 1204,
+  "n_bh_T1": 42,
+  "counts": {
+   "vix": {
+    "confirmed": 1,
+    "era_composition": 17,
+    "T1_only": 5
+   },
+   "cfnai": {
+    "confirmed": 1,
+    "era_composition": 4,
+    "T1_only": 4
+   }
+  },
+  "confirmed_top": [
+   {
+    "level": "layer",
+    "key": "statement",
+    "unit": "will/mental",
+    "macro": "vix",
+    "rho_T1": -0.368,
+    "p_T1": 0.0002,
+    "rho_T2": -0.419,
+    "p_T2": 0.0,
+    "rho_T3": -0.409,
+    "rho_H1": -0.353,
+    "rho_H2": -0.257,
+    "n_tokens_T1": 105,
+    "zero_share_T1": 0.257,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "statement",
+    "unit": "will/copular_adj",
+    "macro": "cfnai",
+    "rho_T1": 0.393,
+    "p_T1": 0.0,
+    "rho_T2": 0.338,
+    "p_T2": 0.0011,
+    "rho_T3": 0.353,
+    "rho_H1": 0.19,
+    "rho_H2": 0.386,
+    "n_tokens_T1": 51,
+    "zero_share_T1": 0.535,
+    "category": "confirmed",
+    "unit_level": "U3"
+   }
+  ],
+  "confirmed_by_layer": [
+   {
+    "key": "statement",
+    "macro": "cfnai",
+    "n": 1
+   },
+   {
+    "key": "statement",
+    "macro": "vix",
+    "n": 1
+   }
+  ],
+  "statement_confirmed_vix": 1
+ },
+ "E6": {
+  "ccf_peaks_T2": [
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.404,
+    "rho": 0.417
+   },
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "vix",
+    "k": -1,
+    "r": 0.331,
+    "rho": 0.338
+   },
+   {
+    "key": "press_conf",
+    "unit": "can",
+    "macro": "vix",
+    "k": 7,
+    "r": 0.477,
+    "rho": 0.424
+   },
+   {
+    "key": "press_conf",
+    "unit": "could",
+    "macro": "vix",
+    "k": -3,
+    "r": -0.382,
+    "rho": -0.354
+   },
+   {
+    "key": "press_conf",
+    "unit": "may",
+    "macro": "vix",
+    "k": 7,
+    "r": -0.306,
+    "rho": -0.285
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.268,
+    "rho": 0.269
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "vix",
+    "k": -4,
+    "r": 0.419,
+    "rho": 0.31
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/activity",
+    "macro": "vix",
+    "k": -7,
+    "r": 0.424,
+    "rho": 0.429
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/copular_adj",
+    "macro": "cfnai",
+    "k": -5,
+    "r": 0.322,
+    "rho": 0.363
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/copular_adj",
+    "macro": "vix",
+    "k": -4,
+    "r": 0.298,
+    "rho": 0.24
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/mental",
+    "macro": "vix",
+    "k": 1,
+    "r": 0.301,
+    "rho": 0.304
+   },
+   {
+    "key": "press_conf",
+    "unit": "would/mental",
+    "macro": "vix",
+    "k": 8,
+    "r": -0.333,
+    "rho": -0.327
+   },
+   {
+    "key": "statement",
+    "unit": "ALL",
+    "macro": "vix",
+    "k": -8,
+    "r": 0.297,
+    "rho": 0.277
+   },
+   {
+    "key": "statement",
+    "unit": "could",
+    "macro": "vix",
+    "k": -2,
+    "r": 0.501,
+    "rho": 0.498
+   },
+   {
+    "key": "statement",
+    "unit": "will",
+    "macro": "cfnai",
+    "k": 6,
+    "r": 0.232,
+    "rho": 0.313
+   },
+   {
+    "key": "statement",
+    "unit": "will",
+    "macro": "vix",
+    "k": 4,
+    "r": -0.391,
+    "rho": -0.464
+   },
+   {
+    "key": "statement",
+    "unit": "will/activity",
+    "macro": "cfnai",
+    "k": 2,
+    "r": -0.458,
+    "rho": -0.486
+   },
+   {
+    "key": "statement",
+    "unit": "will/activity",
+    "macro": "vix",
+    "k": -8,
+    "r": 0.36,
+    "rho": 0.239
+   },
+   {
+    "key": "statement",
+    "unit": "will/aspectual",
+    "macro": "vix",
+    "k": -8,
+    "r": 0.478,
+    "rho": 0.504
+   },
+   {
+    "key": "statement",
+    "unit": "will/copular_adj",
+    "macro": "cfnai",
+    "k": -4,
+    "r": 0.387,
+    "rho": 0.445
+   },
+   {
+    "key": "statement",
+    "unit": "will/copular_adj",
+    "macro": "vix",
+    "k": 2,
+    "r": 0.404,
+    "rho": 0.364
+   },
+   {
+    "key": "statement",
+    "unit": "will/mental",
+    "macro": "cfnai",
+    "k": -4,
+    "r": -0.447,
+    "rho": -0.286
+   },
+   {
+    "key": "statement",
+    "unit": "will/mental",
+    "macro": "vix",
+    "k": -8,
+    "r": -0.565,
+    "rho": -0.501
+   },
+   {
+    "key": "statement",
+    "unit": "would",
+    "macro": "vix",
+    "k": -8,
+    "r": 0.505,
+    "rho": 0.486
+   }
+  ],
+  "granger_q10": [],
+  "granger_min_q": 0.39759321457696983,
+  "predictive_q10": [],
+  "predictive_min_q": 0.5764717442311345,
+  "n_predictive": 42
+ },
+ "E7": {
+  "layer": "statement",
+  "all_series": [
+   {
+    "event": "QE3 ends",
+    "event_date": "2014-10-29",
+    "pre3": 18.884,
+    "at": 12.48,
+    "post3": 13.65
+   },
+   {
+    "event": "First hike (liftoff)",
+    "event_date": "2015-12-16",
+    "pre3": 16.424,
+    "at": 17.575,
+    "post3": 17.188
+   },
+   {
+    "event": "Normalization addendum",
+    "event_date": "2017-06-14",
+    "pre3": 20.901,
+    "at": 17.751,
+    "post3": 18.909
+   },
+   {
+    "event": "Balance-sheet runoff",
+    "event_date": "2017-10-01",
+    "pre3": 18.653,
+    "at": 18.519,
+    "post3": 19.306
+   },
+   {
+    "event": "Powell chair",
+    "event_date": "2018-02-05",
+    "pre3": 19.144,
+    "at": 19.002,
+    "post3": 13.839
+   },
+   {
+    "event": "Mid-cycle cut",
+    "event_date": "2019-07-31",
+    "pre3": 13.408,
+    "at": 14.493,
+    "post3": 11.219
+   },
+   {
+    "event": "Pandemic ZLB",
+    "event_date": "2020-03-15",
+    "pre3": 10.791,
+    "at": 16.181,
+    "post3": 17.533
+   },
+   {
+    "event": "New framework",
+    "event_date": "2020-08-27",
+    "pre3": 21.081,
+    "at": 21.226,
+    "post3": 19.747
+   },
+   {
+    "event": "Hiking cycle begins",
+    "event_date": "2022-03-16",
+    "pre3": 17.147,
+    "at": 18.051,
+    "post3": 19.03
+   },
+   {
+    "event": "Last hike",
+    "event_date": "2023-07-26",
+    "pre3": 24.017,
+    "at": 25.974,
+    "post3": 25.196
+   },
+   {
+    "event": "Cutting cycle begins",
+    "event_date": "2024-09-18",
+    "pre3": 23.611,
+    "at": 19.934,
+    "post3": 21.043
+   },
+   {
+    "event": "Framework review 2025",
+    "event_date": "2025-08-22",
+    "pre3": 22.244,
+    "at": 21.583,
+    "post3": 19.14
+   }
+  ]
+ },
+ "E8": {
+  "all_rows": [
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": 0.258,
+    "p_cfnai": 0.0302,
+    "rho_vix": 0.297,
+    "p_vix": 0.0118
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.142,
+    "p_cfnai": 0.1764,
+    "rho_vix": 0.293,
+    "p_vix": 0.0047
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": 0.141,
+    "p_cfnai": 0.2124,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.336,
+    "p_vix": 0.0023
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.271,
+    "p_cfnai": 0.0151,
+    "rho_vix": 0.397,
+    "p_vix": 0.0003
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": -0.124,
+    "p_cfnai": 0.2158,
+    "rho_vix": 0.061,
+    "p_vix": 0.5425
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": -0.178,
+    "p_cfnai": 0.0909,
+    "rho_vix": 0.045,
+    "p_vix": 0.6729
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": -0.096,
+    "p_cfnai": 0.2697,
+    "rho_vix": -0.116,
+    "p_vix": 0.185
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": -0.048,
+    "p_cfnai": 0.6363,
+    "rho_vix": 0.061,
+    "p_vix": 0.5425
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": -0.124,
+    "p_cfnai": 0.2158,
+    "rho_vix": 0.075,
+    "p_vix": 0.4561
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "statement",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.18,
+    "p_cfnai": 0.071,
+    "rho_vix": -0.18,
+    "p_vix": 0.0725
+   }
+  ]
+ },
+ "E9": {
+  "countercyclical_cells": [],
+  "genre_all": [
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI",
+    "var": "CFNAI-MA3",
+    "coef": 0.2385,
+    "t": 1.11,
+    "p": 0.2688,
+    "stars": "",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 0.312,
+    "t": 2.4,
+    "p": 0.0166,
+    "stars": "**",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.1762,
+    "t": 4.33,
+    "p": 0.0,
+    "stars": "***",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔCFNAI",
+    "coef": 0.7305,
+    "t": 8.75,
+    "p": 0.0,
+    "stars": "***",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔVIX",
+    "coef": 0.0044,
+    "t": 0.05,
+    "p": 0.9618,
+    "stars": "",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 2.6165,
+    "t": 1.99,
+    "p": 0.0462,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.106,
+    "t": 2.48,
+    "p": 0.0133,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔCFNAI",
+    "coef": -0.8923,
+    "t": -0.52,
+    "p": 0.6011,
+    "stars": "",
+    "n": 70
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔVIX",
+    "coef": 0.0714,
+    "t": 0.61,
+    "p": 0.5421,
+    "stars": "",
+    "n": 70
+   },
+   {
+    "key": "statement",
+    "spec": "levels: CFNAI",
+    "var": "CFNAI-MA3",
+    "coef": -0.209,
+    "t": -1.43,
+    "p": 0.1527,
+    "stars": "",
+    "n": 101
+   },
+   {
+    "key": "statement",
+    "spec": "levels: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": -0.2078,
+    "t": -1.29,
+    "p": 0.1953,
+    "stars": "",
+    "n": 101
+   },
+   {
+    "key": "statement",
+    "spec": "levels: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.0023,
+    "t": 0.03,
+    "p": 0.9743,
+    "stars": "",
+    "n": 101
+   },
+   {
+    "key": "statement",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔCFNAI",
+    "coef": -0.0113,
+    "t": -0.23,
+    "p": 0.8212,
+    "stars": "",
+    "n": 100
+   },
+   {
+    "key": "statement",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔVIX",
+    "coef": -0.0437,
+    "t": -0.82,
+    "p": 0.4132,
+    "stars": "",
+    "n": 100
+   },
+   {
+    "key": "statement",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": -2.5642,
+    "t": -1.12,
+    "p": 0.2616,
+    "stars": "",
+    "n": 91
+   },
+   {
+    "key": "statement",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.0831,
+    "t": 1.02,
+    "p": 0.3078,
+    "stars": "",
+    "n": 91
+   },
+   {
+    "key": "statement",
+    "spec": "Δ excl-2020",
+    "var": "ΔCFNAI",
+    "coef": -0.3589,
+    "t": -0.32,
+    "p": 0.7472,
+    "stars": "",
+    "n": 90
+   },
+   {
+    "key": "statement",
+    "spec": "Δ excl-2020",
+    "var": "ΔVIX",
+    "coef": -0.04,
+    "t": -0.65,
+    "p": 0.5155,
+    "stars": "",
+    "n": 90
+   }
+  ]
+ },
+ "H": {
+  "H1": {
+   "verdict": "지지",
+   "evidence": "변화점 26개 중 사건 ±1회의 17개; 보유율 반감기 ≥24"
+  },
+  "H2": {
+   "verdict": "지지",
+   "evidence": "χ²=488.9, V=0.207"
+  },
+  "H3": {
+   "verdict": "기각",
+   "evidence": "수준 회귀에서 어떤 층위의 총밀도도 CFNAI와 유의한 음의 관계 없음; 1차 차분에서도 없음"
+  },
+  "H4": {
+   "verdict": "부분",
+   "evidence": "확정 VIX 단위 1 (비성명서 층 0, 성명서 층 1)"
+  },
+  "H5": {
+   "verdict": "기각",
+   "evidence": "Granger text→macro q<.10: 0건 (최소 q=0.39759321457696983); 예측 회귀 q<.10: 0/42 (최소 q=0.5764717442311345)"
+  }
+ },
+ "runtime_s": 184.4
+}

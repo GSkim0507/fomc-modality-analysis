@@ -9,3 +9,12 @@ __pycache__/
 results/report/report_all.html
 results/report/report_artifact.html
 results/report/report_v3_artifact.html
+
+# programme bulk outputs (regenerate with experiments/23_run_program.py / 24_build_report_v3.py)
+results/program/*/tables/E5_screen.csv
+results/program/*/tables/E6_ccf.csv
+results/program/*/tables/E2_correlations.csv
+results/program/*/tables/L3_staircase_series_*.csv
+results/program/*/tables/L5_cohorts.csv
+results/report_v3/run_*.html
+results/report_v3/report_v3_artifact.html

@@ -1,0 +1,2063 @@
+{
+ "cid": "C14",
+ "alias": "",
+ "name": "press_conf[chair] + speech",
+ "layers": [
+  "pc_chair",
+  "speech_chair"
+ ],
+ "U": "U3",
+ "unit": "modal + verb class",
+ "unfiltered": false,
+ "errors": {},
+ "blocks_ok": [
+  "L1_corpus_description",
+  "L2_keyness_division",
+  "L3_diachronic",
+  "L4_collocation",
+  "L5_formulaicity",
+  "L6_context",
+  "L7_mnlogit",
+  "L8_be_appropriate",
+  "L9_contrasts",
+  "E1_descriptives",
+  "E2_correlations",
+  "E3_regressions",
+  "E4_construction_regressions",
+  "E5_screen_ledger",
+  "E6_leadlag",
+  "E7_event_study",
+  "E8_robustness",
+  "E9_kawamura"
+ ],
+ "L1": {
+  "layers": [
+   {
+    "layer": "pc_chair",
+    "label": "Press conf.: Chair",
+    "n_docs": 80,
+    "tokens": 533106,
+    "sentences": 26371,
+    "six_modal": 10686,
+    "nine_modal": 10944,
+    "pmw": 20044.8,
+    "ci_lo": 19666.5,
+    "ci_hi": 20428.5,
+    "per1k": 20.04
+   },
+   {
+    "layer": "speech_chair",
+    "label": "Chair speech",
+    "n_docs": 124,
+    "tokens": 234853,
+    "sentences": 9819,
+    "six_modal": 3203,
+    "nine_modal": 3453,
+    "pmw": 13638.3,
+    "ci_lo": 13170.1,
+    "ci_hi": 14119.0,
+    "per1k": 13.64
+   }
+  ],
+  "modal_pmw": {
+   "pc_chair": {
+    "will": 8142.8,
+    "would": 5865.6,
+    "could": 1174.3,
+    "can": 3020.0,
+    "should": 932.3,
+    "may": 909.8,
+    "might": 444.6,
+    "must": 35.6,
+    "shall": 3.8
+   },
+   "speech_chair": {
+    "will": 4977.6,
+    "would": 2439.8,
+    "could": 1511.6,
+    "can": 2188.6,
+    "should": 894.2,
+    "may": 1626.5,
+    "might": 621.7,
+    "must": 442.8,
+    "shall": 0.0
+   }
+  },
+  "dp": {
+   "pc_chair": {
+    "will": 0.114,
+    "would": 0.118,
+    "could": 0.189,
+    "can": 0.142,
+    "should": 0.218,
+    "may": 0.211
+   },
+   "speech_chair": {
+    "will": 0.193,
+    "would": 0.252,
+    "could": 0.325,
+    "can": 0.254,
+    "should": 0.352,
+    "may": 0.292
+   }
+  }
+ },
+ "L2": {
+  "keyness_top": {
+   "pc_chair": [
+    {
+     "item": "would",
+     "sign": "+",
+     "LL": 450.75,
+     "log_ratio": 1.264
+    },
+    {
+     "item": "will",
+     "sign": "+",
+     "LL": 243.9,
+     "log_ratio": 0.71
+    },
+    {
+     "item": "may",
+     "sign": "-",
+     "LL": 69.58,
+     "log_ratio": -0.839
+    }
+   ],
+   "speech_chair": [
+    {
+     "item": "would",
+     "sign": "-",
+     "LL": 450.75,
+     "log_ratio": -1.264
+    },
+    {
+     "item": "will",
+     "sign": "-",
+     "LL": 243.9,
+     "log_ratio": -0.71
+    },
+    {
+     "item": "may",
+     "sign": "+",
+     "LL": 69.58,
+     "log_ratio": 0.839
+    }
+   ]
+  },
+  "chi2": 460.1,
+  "dof": 5,
+  "p": 3.288649241777773e-97,
+  "cramers_v": 0.182,
+  "n_layers": 2,
+  "residual_max": {
+   "pc_chair": [
+    "would",
+    5.3
+   ],
+   "speech_chair": [
+    "may",
+    12.9
+   ]
+  }
+ },
+ "L3": {
+  "mk_significant": [
+   {
+    "layer": "pc_chair",
+    "series": "can",
+    "tau": 0.262,
+    "sen_slope": 0.018,
+    "p": 0.001
+   },
+   {
+    "layer": "speech_chair",
+    "series": "could",
+    "tau": -0.207,
+    "sen_slope": -0.018,
+    "p": 0.039
+   },
+   {
+    "layer": "speech_chair",
+    "series": "should",
+    "tau": -0.25,
+    "sen_slope": -0.014,
+    "p": 0.012
+   },
+   {
+    "layer": "speech_chair",
+    "series": "would",
+    "tau": -0.21,
+    "sen_slope": -0.026,
+    "p": 0.036
+   }
+  ]
+ },
+ "L4": {
+  "main_layer": "pc_chair",
+  "attracted": {
+   "will": [
+    {
+     "predicate": "continue",
+     "obs": 243,
+     "ratio": 2.14,
+     "collostruction_strength": 59.11
+    },
+    {
+     "predicate": "watch",
+     "obs": 53,
+     "ratio": 2.37,
+     "collostruction_strength": 18.08
+    },
+    {
+     "predicate": "monitor",
+     "obs": 27,
+     "ratio": 2.46,
+     "collostruction_strength": 10.58
+    },
+    {
+     "predicate": "depend",
+     "obs": 67,
+     "ratio": 1.81,
+     "collostruction_strength": 9.67
+    },
+    {
+     "predicate": "be+appropriate",
+     "obs": 105,
+     "ratio": 1.52,
+     "collostruction_strength": 7.62
+    }
+   ],
+   "would": [
+    {
+     "predicate": "say",
+     "obs": 662,
+     "ratio": 2.55,
+     "collostruction_strength": 187.78
+    },
+    {
+     "predicate": "like",
+     "obs": 112,
+     "ratio": 3.42,
+     "collostruction_strength": 60.39
+    },
+    {
+     "predicate": "want",
+     "obs": 108,
+     "ratio": 2.91,
+     "collostruction_strength": 38.69
+    },
+    {
+     "predicate": "expect",
+     "obs": 81,
+     "ratio": 2.69,
+     "collostruction_strength": 24.56
+    },
+    {
+     "predicate": "point",
+     "obs": 62,
+     "ratio": 2.62,
+     "collostruction_strength": 17.85
+    }
+   ],
+   "could": [
+    {
+     "predicate": "impede",
+     "obs": 8,
+     "ratio": 17.07,
+     "collostruction_strength": 9.88
+    },
+    {
+     "predicate": "weaken",
+     "obs": 10,
+     "ratio": 11.38,
+     "collostruction_strength": 8.99
+    },
+    {
+     "predicate": "result",
+     "obs": 9,
+     "ratio": 10.24,
+     "collostruction_strength": 7.55
+    },
+    {
+     "predicate": "mean",
+     "obs": 11,
+     "ratio": 5.87,
+     "collostruction_strength": 5.97
+    },
+    {
+     "predicate": "could",
+     "obs": 4,
+     "ratio": 17.07,
+     "collostruction_strength": 4.93
+    }
+   ],
+   "can": [
+    {
+     "predicate": "everything",
+     "obs": 52,
+     "ratio": 6.51,
+     "collostruction_strength": 41.39
+    },
+    {
+     "predicate": "do",
+     "obs": 159,
+     "ratio": 2.63,
+     "collostruction_strength": 33.78
+    },
+    {
+     "predicate": "can",
+     "obs": 13,
+     "ratio": 6.64,
+     "collostruction_strength": 10.7
+    },
+    {
+     "predicate": "tell",
+     "obs": 34,
+     "ratio": 2.82,
+     "collostruction_strength": 8.53
+    },
+    {
+     "predicate": "see",
+     "obs": 100,
+     "ratio": 1.75,
+     "collostruction_strength": 8.12
+    }
+   ],
+   "should": [
+    {
+     "predicate": "help",
+     "obs": 21,
+     "ratio": 5.44,
+     "collostruction_strength": 9.94
+    },
+    {
+     "predicate": "direct",
+     "obs": 6,
+     "ratio": 21.5,
+     "collostruction_strength": 8.01
+    },
+    {
+     "predicate": "doubt",
+     "obs": 5,
+     "ratio": 17.92,
+     "collostruction_strength": 5.91
+    },
+    {
+     "predicate": "assume",
+     "obs": 7,
+     "ratio": 10.03,
+     "collostruction_strength": 5.68
+    },
+    {
+     "predicate": "overstate",
+     "obs": 4,
+     "ratio": 21.5,
+     "collostruction_strength": 5.33
+    }
+   ],
+   "may": [
+    {
+     "predicate": "be",
+     "obs": 38,
+     "ratio": 2.94,
+     "collostruction_strength": 8.72
+    },
+    {
+     "predicate": "be+answer",
+     "obs": 6,
+     "ratio": 22.03,
+     "collostruction_strength": 8.07
+    },
+    {
+     "predicate": "be+difficult",
+     "obs": 7,
+     "ratio": 17.14,
+     "collostruction_strength": 7.9
+    },
+    {
+     "predicate": "be+appropriate",
+     "obs": 21,
+     "ratio": 2.72,
+     "collostruction_strength": 4.56
+    },
+    {
+     "predicate": "warrant",
+     "obs": 8,
+     "ratio": 5.69,
+     "collostruction_strength": 4.27
+    }
+   ]
+  },
+  "top_predicate": {
+   "will": {
+    "predicate": "continue",
+    "share": 0.056
+   },
+   "would": {
+    "predicate": "say",
+    "share": 0.2117
+   },
+   "could": {
+    "predicate": "see",
+    "share": 0.0447
+   },
+   "can": {
+    "predicate": "do",
+    "share": 0.0988
+   },
+   "should": {
+    "predicate": "do",
+    "share": 0.0463
+   },
+   "may": {
+    "predicate": "be",
+    "share": 0.0784
+   }
+  },
+  "jsd_main": [
+   0.365,
+   0.582
+  ]
+ },
+ "L5": {
+  "note": "no statement layer"
+ },
+ "L6": {
+  "rates_main": [
+   {
+    "layer": "pc_chair",
+    "modal": "will",
+    "n": 4341,
+    "neg": 0.044,
+    "passive": 0.025,
+    "perfect": 0.006,
+    "progressive": 0.071,
+    "cond": 0.158,
+    "reported": 0.196,
+    "question": 0.024,
+    "contracted": 0.281
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "would",
+    "n": 3127,
+    "neg": 0.103,
+    "passive": 0.017,
+    "perfect": 0.02,
+    "progressive": 0.019,
+    "cond": 0.23,
+    "reported": 0.169,
+    "question": 0.025,
+    "contracted": 0.095
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "could",
+    "n": 626,
+    "neg": 0.037,
+    "passive": 0.061,
+    "perfect": 0.027,
+    "progressive": 0.011,
+    "cond": 0.291,
+    "reported": 0.142,
+    "question": 0.024,
+    "contracted": 0.0
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "can",
+    "n": 1610,
+    "neg": 0.17,
+    "passive": 0.03,
+    "perfect": 0.001,
+    "progressive": 0.003,
+    "cond": 0.195,
+    "reported": 0.153,
+    "question": 0.022,
+    "contracted": 0.0
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "should",
+    "n": 497,
+    "neg": 0.103,
+    "passive": 0.072,
+    "perfect": 0.012,
+    "progressive": 0.066,
+    "cond": 0.181,
+    "reported": 0.231,
+    "question": 0.012,
+    "contracted": 0.0
+   },
+   {
+    "layer": "pc_chair",
+    "modal": "may",
+    "n": 485,
+    "neg": 0.101,
+    "passive": 0.058,
+    "perfect": 0.064,
+    "progressive": 0.06,
+    "cond": 0.181,
+    "reported": 0.159,
+    "question": 0.006,
+    "contracted": 0.0
+   }
+  ],
+  "chi2_significant": [
+   {
+    "layer": "pc_chair",
+    "feature": "neg",
+    "chi2": 278.1,
+    "dof": 5,
+    "p": 4.979013120427594e-58,
+    "cramers_v": 0.161
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "passive",
+    "chi2": 85.9,
+    "dof": 5,
+    "p": 4.954459693953287e-17,
+    "cramers_v": 0.09
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "perfect",
+    "chi2": 143.5,
+    "dof": 5,
+    "p": 3.1890206321807375e-29,
+    "cramers_v": 0.116
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "progressive",
+    "chi2": 224.1,
+    "dof": 5,
+    "p": 1.9732769185002582e-46,
+    "cramers_v": 0.145
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "cond",
+    "chi2": 101.4,
+    "dof": 5,
+    "p": 2.641862073648841e-20,
+    "cramers_v": 0.097
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "reported",
+    "chi2": 35.2,
+    "dof": 5,
+    "p": 1.3573543258397827e-06,
+    "cramers_v": 0.057
+   },
+   {
+    "layer": "pc_chair",
+    "feature": "contracted",
+    "chi2": 1281.5,
+    "dof": 5,
+    "p": 6.535637721923945e-275,
+    "cramers_v": 0.346
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "neg",
+    "chi2": 69.0,
+    "dof": 5,
+    "p": 1.6910398257498457e-13,
+    "cramers_v": 0.147
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "passive",
+    "chi2": 60.4,
+    "dof": 5,
+    "p": 9.998069690820707e-12,
+    "cramers_v": 0.137
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "perfect",
+    "chi2": 176.0,
+    "dof": 5,
+    "p": 3.799836771021511e-36,
+    "cramers_v": 0.234
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "progressive",
+    "chi2": 50.8,
+    "dof": 5,
+    "p": 9.443083892136605e-10,
+    "cramers_v": 0.126
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "cond",
+    "chi2": 56.3,
+    "dof": 5,
+    "p": 7.115485772824858e-11,
+    "cramers_v": 0.133
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "reported",
+    "chi2": 41.8,
+    "dof": 5,
+    "p": 6.595922500532389e-08,
+    "cramers_v": 0.114
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "question",
+    "chi2": 50.6,
+    "dof": 5,
+    "p": 1.045000701896989e-09,
+    "cramers_v": 0.126
+   },
+   {
+    "layer": "speech_chair",
+    "feature": "contracted",
+    "chi2": 11.9,
+    "dof": 5,
+    "p": 0.03637739509072835,
+    "cramers_v": 0.061
+   }
+  ],
+  "sem_main": {
+   "will": [
+    {
+     "sem_type": "dynamic_volitional",
+     "share": 0.517
+    },
+    {
+     "sem_type": "epistemic_predictive",
+     "share": 0.483
+    }
+   ],
+   "would": [
+    {
+     "sem_type": "conditional_hypothetical",
+     "share": 0.353
+    },
+    {
+     "sem_type": "dynamic_tentative",
+     "share": 0.249
+    }
+   ],
+   "could": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 0.732
+    },
+    {
+     "sem_type": "dynamic_ability",
+     "share": 0.268
+    }
+   ],
+   "can": [
+    {
+     "sem_type": "dynamic_ability",
+     "share": 0.662
+    },
+    {
+     "sem_type": "dynamic_circumstantial",
+     "share": 0.275
+    }
+   ],
+   "should": [
+    {
+     "sem_type": "deontic_advisability",
+     "share": 0.742
+    },
+    {
+     "sem_type": "epistemic_expectation",
+     "share": 0.258
+    }
+   ],
+   "may": [
+    {
+     "sem_type": "epistemic_possibility",
+     "share": 0.988
+    },
+    {
+     "sem_type": "deontic_permission",
+     "share": 0.012
+    }
+   ]
+  }
+ },
+ "L7": {
+  "pseudo_r2": 0.0617,
+  "n": 13889,
+  "llf": -19786.902493360394,
+  "layer_effects": [
+   {
+    "variable": "layer_speech_chair",
+    "outcome_vs_will": "may",
+    "coef": 0.722,
+    "rrr": 2.059,
+    "p": 3.96172621615197e-16
+   },
+   {
+    "variable": "layer_speech_chair",
+    "outcome_vs_will": "could",
+    "coef": 0.426,
+    "rrr": 1.531,
+    "p": 7.108122272720033e-07
+   },
+   {
+    "variable": "layer_speech_chair",
+    "outcome_vs_will": "can",
+    "coef": 0.279,
+    "rrr": 1.322,
+    "p": 7.166110032485848e-05
+   },
+   {
+    "variable": "layer_speech_chair",
+    "outcome_vs_will": "would",
+    "coef": -0.382,
+    "rrr": 0.682,
+    "p": 8.124533584023791e-10
+   }
+  ]
+ },
+ "L8": {
+  "n": 211,
+  "counts": {
+   "pc_chair": {
+    "will": 105,
+    "would": 38,
+    "may": 21,
+    "could": 5
+   },
+   "speech_chair": {
+    "will": 21,
+    "would": 11,
+    "may": 6,
+    "could": 2
+   }
+  }
+ },
+ "L9": {
+  "chair_pc_chair": {
+   "chi2": 99.4,
+   "p": 7.232366782422975e-20,
+   "V": 0.096
+  }
+ },
+ "E1": {
+  "macro": [
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "CFNAI-MA3 (m−2)",
+    "N": 80,
+    "mean": -0.114,
+    "sd": 1.235,
+    "min": -7.55,
+    "max": 4.58,
+    "zero_share": NaN,
+    "AR1": 0.246
+   },
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "VIX pre-28d",
+    "N": 80,
+    "mean": 18.823,
+    "sd": 6.114,
+    "min": 10.663,
+    "max": 42.376,
+    "zero_share": NaN,
+    "AR1": 0.688
+   },
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "Unemployment gap (m−1)",
+    "N": 80,
+    "mean": 0.15,
+    "sd": 1.557,
+    "min": -1.034,
+    "max": 8.741,
+    "zero_share": NaN,
+    "AR1": 0.75
+   },
+   {
+    "block": "macro",
+    "layer": "pc_chair",
+    "series": "Core PCE gap (m−2)",
+    "N": 80,
+    "mean": 0.685,
+    "sd": 1.357,
+    "min": -1.005,
+    "max": 3.606,
+    "zero_share": NaN,
+    "AR1": 0.98
+   }
+  ],
+  "text_all": {
+   "pc_chair": {
+    "mean": 20.043,
+    "sd": 2.968,
+    "AR1": 0.186
+   },
+   "speech_chair": {
+    "mean": 12.787,
+    "sd": 4.789,
+    "AR1": -0.044
+   }
+  }
+ },
+ "E2": {
+  "genre_all": [
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "cfnai",
+    "rho": 0.2165,
+    "p": 0.0538,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T1",
+    "macro": "vix",
+    "rho": 0.3188,
+    "p": 0.004,
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T2",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118,
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "cfnai",
+    "rho": 0.1422,
+    "p": 0.1764,
+    "n": 92
+   },
+   {
+    "key": "press_conf",
+    "period": "T3",
+    "macro": "vix",
+    "rho": 0.2925,
+    "p": 0.0047,
+    "n": 92
+   },
+   {
+    "key": "speech",
+    "period": "T1",
+    "macro": "cfnai",
+    "rho": -0.0957,
+    "p": 0.2906,
+    "n": 124
+   },
+   {
+    "key": "speech",
+    "period": "T1",
+    "macro": "vix",
+    "rho": -0.0171,
+    "p": 0.8507,
+    "n": 124
+   },
+   {
+    "key": "speech",
+    "period": "T2",
+    "macro": "cfnai",
+    "rho": -0.0742,
+    "p": 0.4246,
+    "n": 118
+   },
+   {
+    "key": "speech",
+    "period": "T2",
+    "macro": "vix",
+    "rho": -0.0742,
+    "p": 0.4242,
+    "n": 118
+   },
+   {
+    "key": "speech",
+    "period": "T3",
+    "macro": "cfnai",
+    "rho": -0.1314,
+    "p": 0.084,
+    "n": 174
+   },
+   {
+    "key": "speech",
+    "period": "T3",
+    "macro": "vix",
+    "rho": -0.0076,
+    "p": 0.9209,
+    "n": 174
+   }
+  ],
+  "layer_all_T2": [
+   {
+    "key": "pc_chair",
+    "macro": "cfnai",
+    "rho": 0.2575,
+    "p": 0.0302
+   },
+   {
+    "key": "pc_chair",
+    "macro": "vix",
+    "rho": 0.2973,
+    "p": 0.0118
+   },
+   {
+    "key": "speech_chair",
+    "macro": "cfnai",
+    "rho": -0.0742,
+    "p": 0.4246
+   },
+   {
+    "key": "speech_chair",
+    "macro": "vix",
+    "rho": -0.0742,
+    "p": 0.4242
+   }
+  ]
+ },
+ "E3": {
+  "all_by_layer": {
+   "pc_chair": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3414,
+      "p": 0.0155,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1816,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": 0.3416,
+      "p": 0.0182,
+      "stars": "**",
+      "n": 80,
+      "r2": 0.151
+     },
+     "vix_pre28": {
+      "coef": 0.1817,
+      "p": 0.0,
+      "stars": "***",
+      "n": 80,
+      "r2": 0.151
+     },
+     "post_fw": {
+      "coef": -0.0018,
+      "p": 0.9982,
+      "stars": "",
+      "n": 80,
+      "r2": 0.151
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": 2.4815,
+      "p": 0.0432,
+      "stars": "**",
+      "n": 71,
+      "r2": 0.129
+     },
+     "vix_pre28": {
+      "coef": 0.1187,
+      "p": 0.0043,
+      "stars": "***",
+      "n": 71,
+      "r2": 0.129
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": 0.7589,
+      "p": 0.0,
+      "stars": "***",
+      "n": 79,
+      "r2": 0.092
+     },
+     "d_vix": {
+      "coef": -0.0047,
+      "p": 0.9608,
+      "stars": "",
+      "n": 79,
+      "r2": 0.092
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": -1.1143,
+      "p": 0.4786,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     },
+     "d_vix": {
+      "coef": 0.0764,
+      "p": 0.5203,
+      "stars": "",
+      "n": 70,
+      "r2": 0.014
+     }
+    }
+   },
+   "speech_chair": {
+    "(3)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.4404,
+      "p": 0.0408,
+      "stars": "**",
+      "n": 124,
+      "r2": 0.014
+     },
+     "vix_pre28": {
+      "coef": 0.062,
+      "p": 0.3755,
+      "stars": "",
+      "n": 124,
+      "r2": 0.014
+     }
+    },
+    "(5)": {
+     "cfnai_ma3_lag2": {
+      "coef": -0.3659,
+      "p": 0.1119,
+      "stars": "",
+      "n": 124,
+      "r2": 0.018
+     },
+     "vix_pre28": {
+      "coef": 0.0756,
+      "p": 0.2596,
+      "stars": "",
+      "n": 124,
+      "r2": 0.018
+     },
+     "post_fw": {
+      "coef": -0.601,
+      "p": 0.4359,
+      "stars": "",
+      "n": 124,
+      "r2": 0.018
+     }
+    },
+    "(6) excl-2020": {
+     "cfnai_ma3_lag2": {
+      "coef": -2.0399,
+      "p": 0.2259,
+      "stars": "",
+      "n": 118,
+      "r2": 0.01
+     },
+     "vix_pre28": {
+      "coef": -0.046,
+      "p": 0.6211,
+      "stars": "",
+      "n": 118,
+      "r2": 0.01
+     }
+    },
+    "(7) Δ": {
+     "d_cfnai": {
+      "coef": -0.6562,
+      "p": 0.0451,
+      "stars": "**",
+      "n": 123,
+      "r2": 0.01
+     },
+     "d_vix": {
+      "coef": 0.0676,
+      "p": 0.3553,
+      "stars": "",
+      "n": 123,
+      "r2": 0.01
+     }
+    },
+    "(8) Δ excl-2020": {
+     "d_cfnai": {
+      "coef": 0.605,
+      "p": 0.4817,
+      "stars": "",
+      "n": 117,
+      "r2": 0.003
+     },
+     "d_vix": {
+      "coef": -0.1318,
+      "p": 0.5472,
+      "stars": "",
+      "n": 117,
+      "r2": 0.003
+     }
+    }
+   }
+  }
+ },
+ "E4": {
+  "n_units": 13,
+  "significant_spec3": [
+   {
+    "layer": "pc_chair",
+    "unit": "would/communication",
+    "var": "const",
+    "coef": 1.279,
+    "p": 0.0,
+    "n_tokens": 846
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/activity",
+    "var": "const",
+    "coef": 0.7109,
+    "p": 0.0369,
+    "n_tokens": 845
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.064,
+    "p": 0.0248,
+    "n_tokens": 845
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/activity",
+    "var": "vix_pre28",
+    "coef": 0.0477,
+    "p": 0.0012,
+    "n_tokens": 845
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/mental",
+    "var": "const",
+    "coef": 1.0247,
+    "p": 0.0,
+    "n_tokens": 589
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "would/mental",
+    "var": "const",
+    "coef": 0.8225,
+    "p": 0.0,
+    "n_tokens": 475
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "would/mental",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0505,
+    "p": 0.0001,
+    "n_tokens": 475
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/other",
+    "var": "const",
+    "coef": 0.3558,
+    "p": 0.0059,
+    "n_tokens": 431
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/other",
+    "var": "vix_pre28",
+    "coef": 0.0233,
+    "p": 0.0013,
+    "n_tokens": 431
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/existence",
+    "var": "const",
+    "coef": 0.4815,
+    "p": 0.0032,
+    "n_tokens": 430
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/existence",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0481,
+    "p": 0.0053,
+    "n_tokens": 430
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/existence",
+    "var": "vix_pre28",
+    "coef": 0.0177,
+    "p": 0.0307,
+    "n_tokens": 430
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "can/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.0595,
+    "p": 0.0167,
+    "n_tokens": 428
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "can/activity",
+    "var": "vix_pre28",
+    "coef": 0.0357,
+    "p": 0.0,
+    "n_tokens": 428
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/copular_adj",
+    "var": "const",
+    "coef": 0.4473,
+    "p": 0.0117,
+    "n_tokens": 400
+   },
+   {
+    "layer": "pc_chair",
+    "unit": "will/copular_adj",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.0655,
+    "p": 0.0087,
+    "n_tokens": 400
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/other",
+    "var": "const",
+    "coef": 0.7921,
+    "p": 0.046,
+    "n_tokens": 253
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.2847,
+    "p": 0.0,
+    "n_tokens": 179
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/activity",
+    "var": "vix_pre28",
+    "coef": 0.0403,
+    "p": 0.0,
+    "n_tokens": 179
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "would/other",
+    "var": "const",
+    "coef": 0.7652,
+    "p": 0.0004,
+    "n_tokens": 158
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "would/other",
+    "var": "cfnai_ma3_lag2",
+    "coef": 0.1034,
+    "p": 0.0,
+    "n_tokens": 158
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "can/other",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.2748,
+    "p": 0.0,
+    "n_tokens": 155
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/occurrence",
+    "var": "const",
+    "coef": 0.6292,
+    "p": 0.0,
+    "n_tokens": 119
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/occurrence",
+    "var": "vix_pre28",
+    "coef": -0.0135,
+    "p": 0.0064,
+    "n_tokens": 119
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/communication",
+    "var": "const",
+    "coef": 0.5988,
+    "p": 0.0,
+    "n_tokens": 117
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/aspectual",
+    "var": "const",
+    "coef": 0.471,
+    "p": 0.0173,
+    "n_tokens": 114
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "will/aspectual",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.1493,
+    "p": 0.0,
+    "n_tokens": 114
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "can/activity",
+    "var": "const",
+    "coef": 0.3728,
+    "p": 0.048,
+    "n_tokens": 109
+   },
+   {
+    "layer": "speech_chair",
+    "unit": "can/activity",
+    "var": "cfnai_ma3_lag2",
+    "coef": -0.152,
+    "p": 0.0008,
+    "n_tokens": 109
+   }
+  ]
+ },
+ "E5": {
+  "n_screen": 1804,
+  "n_bh_T1": 14,
+  "counts": {
+   "vix": {
+    "confirmed": 3,
+    "era_composition": 12,
+    "T1_only": 5
+   },
+   "cfnai": {
+    "confirmed": 1,
+    "era_composition": 3,
+    "T1_only": 3
+   }
+  },
+  "confirmed_top": [
+   {
+    "level": "layer",
+    "key": "speech_chair",
+    "unit": "could/other",
+    "macro": "vix",
+    "rho_T1": -0.227,
+    "p_T1": 0.0112,
+    "rho_T2": -0.228,
+    "p_T2": 0.013,
+    "rho_T3": -0.139,
+    "rho_H1": -0.209,
+    "rho_H2": -0.077,
+    "n_tokens_T1": 81,
+    "zero_share_T1": 0.597,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "speech_chair",
+    "unit": "will/occurrence",
+    "macro": "vix",
+    "rho_T1": -0.235,
+    "p_T1": 0.0085,
+    "rho_T2": -0.219,
+    "p_T2": 0.0174,
+    "rho_T3": -0.138,
+    "rho_H1": -0.159,
+    "rho_H2": -0.212,
+    "n_tokens_T1": 119,
+    "zero_share_T1": 0.548,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "speech_chair",
+    "unit": "will/activity",
+    "macro": "cfnai",
+    "rho_T1": -0.218,
+    "p_T1": 0.0149,
+    "rho_T2": -0.193,
+    "p_T2": 0.036,
+    "rho_T3": -0.178,
+    "rho_H1": -0.196,
+    "rho_H2": -0.158,
+    "n_tokens_T1": 179,
+    "zero_share_T1": 0.306,
+    "category": "confirmed",
+    "unit_level": "U3"
+   },
+   {
+    "level": "layer",
+    "key": "speech_chair",
+    "unit": "should",
+    "macro": "vix",
+    "rho_T1": -0.193,
+    "p_T1": 0.0321,
+    "rho_T2": -0.191,
+    "p_T2": 0.0387,
+    "rho_T3": -0.059,
+    "rho_H1": -0.039,
+    "rho_H2": -0.155,
+    "n_tokens_T1": 210,
+    "zero_share_T1": 0.452,
+    "category": "confirmed",
+    "unit_level": "modal"
+   }
+  ],
+  "confirmed_by_layer": [
+   {
+    "key": "speech_chair",
+    "macro": "cfnai",
+    "n": 1
+   },
+   {
+    "key": "speech_chair",
+    "macro": "vix",
+    "n": 3
+   }
+  ],
+  "statement_confirmed_vix": 0
+ },
+ "E6": {
+  "ccf_peaks_T2": [
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.404,
+    "rho": 0.417
+   },
+   {
+    "key": "press_conf",
+    "unit": "ALL",
+    "macro": "vix",
+    "k": -1,
+    "r": 0.331,
+    "rho": 0.338
+   },
+   {
+    "key": "press_conf",
+    "unit": "can",
+    "macro": "vix",
+    "k": 7,
+    "r": 0.477,
+    "rho": 0.424
+   },
+   {
+    "key": "press_conf",
+    "unit": "can/activity",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.387,
+    "rho": 0.346
+   },
+   {
+    "key": "press_conf",
+    "unit": "can/activity",
+    "macro": "vix",
+    "k": 7,
+    "r": 0.446,
+    "rho": 0.422
+   },
+   {
+    "key": "press_conf",
+    "unit": "could",
+    "macro": "vix",
+    "k": -3,
+    "r": -0.382,
+    "rho": -0.354
+   },
+   {
+    "key": "press_conf",
+    "unit": "may",
+    "macro": "vix",
+    "k": 7,
+    "r": -0.306,
+    "rho": -0.285
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.268,
+    "rho": 0.269
+   },
+   {
+    "key": "press_conf",
+    "unit": "will",
+    "macro": "vix",
+    "k": -4,
+    "r": 0.419,
+    "rho": 0.31
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/activity",
+    "macro": "vix",
+    "k": -7,
+    "r": 0.424,
+    "rho": 0.429
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/mental",
+    "macro": "vix",
+    "k": 1,
+    "r": 0.301,
+    "rho": 0.304
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/other",
+    "macro": "cfnai",
+    "k": -3,
+    "r": 0.399,
+    "rho": 0.32
+   },
+   {
+    "key": "press_conf",
+    "unit": "will/other",
+    "macro": "vix",
+    "k": -9,
+    "r": 0.384,
+    "rho": 0.297
+   },
+   {
+    "key": "press_conf",
+    "unit": "would/other",
+    "macro": "cfnai",
+    "k": 2,
+    "r": 0.357,
+    "rho": 0.306
+   },
+   {
+    "key": "press_conf",
+    "unit": "would/other",
+    "macro": "vix",
+    "k": 1,
+    "r": -0.306,
+    "rho": -0.354
+   },
+   {
+    "key": "speech",
+    "unit": "can/activity",
+    "macro": "vix",
+    "k": -5,
+    "r": -0.183,
+    "rho": -0.186
+   },
+   {
+    "key": "speech",
+    "unit": "could",
+    "macro": "vix",
+    "k": 1,
+    "r": -0.213,
+    "rho": -0.207
+   },
+   {
+    "key": "speech",
+    "unit": "will",
+    "macro": "vix",
+    "k": 2,
+    "r": 0.301,
+    "rho": 0.216
+   },
+   {
+    "key": "speech",
+    "unit": "will/activity",
+    "macro": "vix",
+    "k": -5,
+    "r": 0.373,
+    "rho": 0.267
+   },
+   {
+    "key": "speech",
+    "unit": "would",
+    "macro": "cfnai",
+    "k": -6,
+    "r": -0.186,
+    "rho": -0.197
+   },
+   {
+    "key": "speech",
+    "unit": "would",
+    "macro": "vix",
+    "k": 0,
+    "r": -0.199,
+    "rho": -0.222
+   }
+  ],
+  "granger_q10": [],
+  "granger_min_q": 0.13331098802952612,
+  "predictive_q10": [],
+  "predictive_min_q": 0.38121500488104404,
+  "n_predictive": 48
+ },
+ "E7": {
+  "layer": "pc_chair",
+  "all_series": [
+   {
+    "event": "QE3 ends",
+    "event_date": "2014-10-29",
+    "pre3": 19.907,
+    "at": 21.147,
+    "post3": 21.249
+   },
+   {
+    "event": "First hike (liftoff)",
+    "event_date": "2015-12-16",
+    "pre3": 21.249,
+    "at": 19.399,
+    "post3": 17.742
+   },
+   {
+    "event": "Normalization addendum",
+    "event_date": "2017-06-14",
+    "pre3": 17.354,
+    "at": 15.702,
+    "post3": 21.241
+   },
+   {
+    "event": "Balance-sheet runoff",
+    "event_date": "2017-10-01",
+    "pre3": 18.007,
+    "at": 18.14,
+    "post3": 19.157
+   },
+   {
+    "event": "Powell chair",
+    "event_date": "2018-02-05",
+    "pre3": 18.738,
+    "at": 23.211,
+    "post3": 17.194
+   },
+   {
+    "event": "Mid-cycle cut",
+    "event_date": "2019-07-31",
+    "pre3": 18.283,
+    "at": 16.661,
+    "post3": 18.078
+   },
+   {
+    "event": "Pandemic ZLB",
+    "event_date": "2020-03-15",
+    "pre3": 22.288,
+    "at": 18.957,
+    "post3": 23.245
+   },
+   {
+    "event": "New framework",
+    "event_date": "2020-08-27",
+    "pre3": 23.245,
+    "at": 26.235,
+    "post3": 19.779
+   },
+   {
+    "event": "Hiking cycle begins",
+    "event_date": "2022-03-16",
+    "pre3": 22.629,
+    "at": 21.311,
+    "post3": 21.137
+   },
+   {
+    "event": "Last hike",
+    "event_date": "2023-07-26",
+    "pre3": 21.234,
+    "at": 22.509,
+    "post3": 19.036
+   },
+   {
+    "event": "Cutting cycle begins",
+    "event_date": "2024-09-18",
+    "pre3": 18.987,
+    "at": 18.919,
+    "post3": 16.783
+   },
+   {
+    "event": "Framework review 2025",
+    "event_date": "2025-08-22",
+    "pre3": 19.965,
+    "at": 14.058,
+    "post3": 18.197
+   }
+  ]
+ },
+ "E8": {
+  "all_rows": [
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": 0.258,
+    "p_cfnai": 0.0302,
+    "rho_vix": 0.297,
+    "p_vix": 0.0118
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": 0.142,
+    "p_cfnai": 0.1764,
+    "rho_vix": 0.293,
+    "p_vix": 0.0047
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": 0.141,
+    "p_cfnai": 0.2124,
+    "rho_vix": 0.319,
+    "p_vix": 0.004
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": 0.216,
+    "p_cfnai": 0.0538,
+    "rho_vix": 0.336,
+    "p_vix": 0.0023
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "pc_chair",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": 0.271,
+    "p_cfnai": 0.0151,
+    "rho_vix": 0.397,
+    "p_vix": 0.0003
+   },
+   {
+    "layer": "speech_chair",
+    "series": "ALL",
+    "variant": "baseline per1k, T1",
+    "rho_cfnai": -0.096,
+    "p_cfnai": 0.2906,
+    "rho_vix": -0.017,
+    "p_vix": 0.8507
+   },
+   {
+    "layer": "speech_chair",
+    "series": "ALL",
+    "variant": "per1k, excl-2020",
+    "rho_cfnai": -0.074,
+    "p_cfnai": 0.4246,
+    "rho_vix": -0.074,
+    "p_vix": 0.4242
+   },
+   {
+    "layer": "speech_chair",
+    "series": "ALL",
+    "variant": "per1k, 2010–2026",
+    "rho_cfnai": -0.131,
+    "p_cfnai": 0.084,
+    "rho_vix": -0.008,
+    "p_vix": 0.9209
+   },
+   {
+    "layer": "speech_chair",
+    "series": "ALL",
+    "variant": "CFNAI lag 1",
+    "rho_cfnai": -0.083,
+    "p_cfnai": 0.3587,
+    "rho_vix": -0.017,
+    "p_vix": 0.8507
+   },
+   {
+    "layer": "speech_chair",
+    "series": "ALL",
+    "variant": "VIX inter-meeting",
+    "rho_cfnai": -0.096,
+    "p_cfnai": 0.2906,
+    "rho_vix": -0.019,
+    "p_vix": 0.8358
+   },
+   {
+    "layer": "speech_chair",
+    "series": "ALL",
+    "variant": "share (N2)",
+    "rho_cfnai": NaN,
+    "p_cfnai": NaN,
+    "rho_vix": NaN,
+    "p_vix": NaN
+   },
+   {
+    "layer": "speech_chair",
+    "series": "ALL",
+    "variant": "count (N3)",
+    "rho_cfnai": -0.002,
+    "p_cfnai": 0.9803,
+    "rho_vix": -0.257,
+    "p_vix": 0.0039
+   }
+  ]
+ },
+ "E9": {
+  "countercyclical_cells": [],
+  "genre_all": [
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI",
+    "var": "CFNAI-MA3",
+    "coef": 0.2385,
+    "t": 1.11,
+    "p": 0.2688,
+    "stars": "",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 0.312,
+    "t": 2.4,
+    "p": 0.0166,
+    "stars": "**",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.1762,
+    "t": 4.33,
+    "p": 0.0,
+    "stars": "***",
+    "n": 80
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔCFNAI",
+    "coef": 0.7305,
+    "t": 8.75,
+    "p": 0.0,
+    "stars": "***",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔVIX",
+    "coef": 0.0044,
+    "t": 0.05,
+    "p": 0.9618,
+    "stars": "",
+    "n": 79
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": 2.6165,
+    "t": 1.99,
+    "p": 0.0462,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.106,
+    "t": 2.48,
+    "p": 0.0133,
+    "stars": "**",
+    "n": 71
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔCFNAI",
+    "coef": -0.8923,
+    "t": -0.52,
+    "p": 0.6011,
+    "stars": "",
+    "n": 70
+   },
+   {
+    "key": "press_conf",
+    "spec": "Δ excl-2020",
+    "var": "ΔVIX",
+    "coef": 0.0714,
+    "t": 0.61,
+    "p": 0.5421,
+    "stars": "",
+    "n": 70
+   },
+   {
+    "key": "speech",
+    "spec": "levels: CFNAI",
+    "var": "CFNAI-MA3",
+    "coef": -0.3893,
+    "t": -1.96,
+    "p": 0.0504,
+    "stars": "*",
+    "n": 124
+   },
+   {
+    "key": "speech",
+    "spec": "levels: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": -0.3422,
+    "t": -1.68,
+    "p": 0.0923,
+    "stars": "*",
+    "n": 124
+   },
+   {
+    "key": "speech",
+    "spec": "levels: CFNAI + VIX",
+    "var": "VIX",
+    "coef": 0.0375,
+    "t": 0.54,
+    "p": 0.5915,
+    "stars": "",
+    "n": 124
+   },
+   {
+    "key": "speech",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔCFNAI",
+    "coef": -0.6008,
+    "t": -1.9,
+    "p": 0.057,
+    "stars": "*",
+    "n": 123
+   },
+   {
+    "key": "speech",
+    "spec": "Δ: ΔCFNAI + ΔVIX",
+    "var": "ΔVIX",
+    "coef": 0.0483,
+    "t": 0.63,
+    "p": 0.5313,
+    "stars": "",
+    "n": 123
+   },
+   {
+    "key": "speech",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "CFNAI-MA3",
+    "coef": -1.3316,
+    "t": -0.67,
+    "p": 0.5032,
+    "stars": "",
+    "n": 118
+   },
+   {
+    "key": "speech",
+    "spec": "levels excl-2020: CFNAI + VIX",
+    "var": "VIX",
+    "coef": -0.0813,
+    "t": -0.84,
+    "p": 0.3999,
+    "stars": "",
+    "n": 118
+   },
+   {
+    "key": "speech",
+    "spec": "Δ excl-2020",
+    "var": "ΔCFNAI",
+    "coef": 0.6625,
+    "t": 0.7,
+    "p": 0.4858,
+    "stars": "",
+    "n": 117
+   },
+   {
+    "key": "speech",
+    "spec": "Δ excl-2020",
+    "var": "ΔVIX",
+    "coef": -0.1561,
+    "t": -0.68,
+    "p": 0.4976,
+    "stars": "",
+    "n": 117
+   }
+  ]
+ },
+ "H": {
+  "H1": {
+   "verdict": "해당 없음",
+   "evidence": "성명서 층 없음"
+  },
+  "H2": {
+   "verdict": "지지",
+   "evidence": "χ²=460.1, V=0.182"
+  },
+  "H3": {
+   "verdict": "기각",
+   "evidence": "수준 회귀에서 어떤 층위의 총밀도도 CFNAI와 유의한 음의 관계 없음; 1차 차분에서도 없음"
+  },
+  "H4": {
+   "verdict": "지지",
+   "evidence": "확정 VIX 단위 3 (비성명서 층 3, 성명서 층 0)"
+  },
+  "H5": {
+   "verdict": "기각",
+   "evidence": "Granger text→macro q<.10: 0건 (최소 q=0.13331098802952612); 예측 회귀 q<.10: 0/48 (최소 q=0.38121500488104404)"
+  }
+ },
+ "runtime_s": 11.6
+}

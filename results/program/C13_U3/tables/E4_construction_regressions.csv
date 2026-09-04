@@ -1,0 +1,97 @@
+layer,unit,n_tokens,zero_share,spec,var,label,coef,se,p,stars,n,r2,adj_r2
+speech_chair,will/other,253,0.258,(3),const,const,0.79207,0.39697,0.04601,**,124,0.0139,-0.0024
+speech_chair,will/other,253,0.258,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.04605,0.0491,0.34839,,124,0.0139,-0.0024
+speech_chair,will/other,253,0.258,(3),vix_pre28,VIX,0.02377,0.02115,0.26109,,124,0.0139,-0.0024
+speech_chair,will/other,253,0.258,(6) excl-2020,const,const,1.35279,0.37978,0.00037,***,118,0.00107,-0.0163
+speech_chair,will/other,253,0.258,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.00587,0.57499,0.99185,,118,0.00107,-0.0163
+speech_chair,will/other,253,0.258,(6) excl-2020,vix_pre28,VIX,-0.01052,0.021,0.61641,,118,0.00107,-0.0163
+speech_chair,will/other,253,0.258,(7) Δ,const,const,-0.00802,0.08085,0.92099,,123,0.00554,-0.01104
+speech_chair,will/other,253,0.258,(7) Δ,d_cfnai,ΔCFNAI,-0.11619,0.0492,0.0182,**,123,0.00554,-0.01104
+speech_chair,will/other,253,0.258,(7) Δ,d_vix,ΔVIX,0.02006,0.05374,0.70893,,123,0.00554,-0.01104
+speech_chair,will/other,253,0.258,(8) Δ excl-2020,const,const,-0.0247,0.09201,0.78833,,117,0.0625,0.04605
+speech_chair,will/other,253,0.258,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.25893,0.31141,0.40571,,117,0.0625,0.04605
+speech_chair,will/other,253,0.258,(8) Δ excl-2020,d_vix,ΔVIX,-0.17228,0.07133,0.01573,**,117,0.0625,0.04605
+speech_chair,will/activity,179,0.306,(3),const,const,0.17596,0.17402,0.31197,,124,0.13129,0.11693
+speech_chair,will/activity,179,0.306,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.28474,0.06133,0.0,***,124,0.13129,0.11693
+speech_chair,will/activity,179,0.306,(3),vix_pre28,VIX,0.04033,0.00973,3e-05,***,124,0.13129,0.11693
+speech_chair,will/activity,179,0.306,(6) excl-2020,const,const,-0.04459,0.30492,0.88374,,118,0.05614,0.03973
+speech_chair,will/activity,179,0.306,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.66097,0.64617,0.30636,,118,0.05614,0.03973
+speech_chair,will/activity,179,0.306,(6) excl-2020,vix_pre28,VIX,0.05353,0.02005,0.0076,***,118,0.05614,0.03973
+speech_chair,will/activity,179,0.306,(7) Δ,const,const,0.01825,0.05492,0.73961,,123,0.09231,0.07718
+speech_chair,will/activity,179,0.306,(7) Δ,d_cfnai,ΔCFNAI,-0.45722,0.10905,3e-05,***,123,0.09231,0.07718
+speech_chair,will/activity,179,0.306,(7) Δ,d_vix,ΔVIX,0.02119,0.01733,0.22132,,123,0.09231,0.07718
+speech_chair,will/activity,179,0.306,(8) Δ excl-2020,const,const,-0.00294,0.05219,0.95505,,117,0.01624,-0.00102
+speech_chair,will/activity,179,0.306,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.56967,0.29225,0.05126,*,117,0.01624,-0.00102
+speech_chair,will/activity,179,0.306,(8) Δ excl-2020,d_vix,ΔVIX,-0.00943,0.05912,0.87333,,117,0.01624,-0.00102
+speech_chair,would/other,158,0.435,(3),const,const,0.7652,0.21462,0.00036,***,124,0.01917,0.00296
+speech_chair,would/other,158,0.435,(3),cfnai_ma3_lag2,CFNAI-MA3,0.10343,0.02238,0.0,***,124,0.01917,0.00296
+speech_chair,would/other,158,0.435,(3),vix_pre28,VIX,-0.00741,0.01084,0.49433,,124,0.01917,0.00296
+speech_chair,would/other,158,0.435,(6) excl-2020,const,const,1.16983,0.26058,1e-05,***,118,0.03093,0.01408
+speech_chair,would/other,158,0.435,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,0.29714,0.28488,0.29692,,118,0.03093,0.01408
+speech_chair,would/other,158,0.435,(6) excl-2020,vix_pre28,VIX,-0.03222,0.01343,0.01646,**,118,0.03093,0.01408
+speech_chair,would/other,158,0.435,(7) Δ,const,const,0.02807,0.04783,0.55724,,123,0.01533,-0.00108
+speech_chair,would/other,158,0.435,(7) Δ,d_cfnai,ΔCFNAI,0.11401,0.04916,0.02039,**,123,0.01533,-0.00108
+speech_chair,would/other,158,0.435,(7) Δ,d_vix,ΔVIX,0.00841,0.01158,0.46746,,123,0.01533,-0.00108
+speech_chair,would/other,158,0.435,(8) Δ excl-2020,const,const,0.03193,0.04943,0.51837,,117,0.02693,0.00986
+speech_chair,would/other,158,0.435,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.54258,0.18978,0.00425,***,117,0.02693,0.00986
+speech_chair,would/other,158,0.435,(8) Δ excl-2020,d_vix,ΔVIX,-0.03051,0.03264,0.34987,,117,0.02693,0.00986
+speech_chair,can/other,155,0.395,(3),const,const,0.37256,0.22247,0.094,*,124,0.0906,0.07557
+speech_chair,can/other,155,0.395,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.27475,0.05092,0.0,***,124,0.0906,0.07557
+speech_chair,can/other,155,0.395,(3),vix_pre28,VIX,0.01747,0.01078,0.10493,,124,0.0906,0.07557
+speech_chair,can/other,155,0.395,(6) excl-2020,const,const,0.81165,0.30609,0.00801,***,118,0.00533,-0.01197
+speech_chair,can/other,155,0.395,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,0.30677,0.38906,0.43041,,118,0.00533,-0.01197
+speech_chair,can/other,155,0.395,(6) excl-2020,vix_pre28,VIX,-0.00836,0.01673,0.61725,,118,0.00533,-0.01197
+speech_chair,can/other,155,0.395,(7) Δ,const,const,0.00471,0.04947,0.92416,,123,0.13307,0.11862
+speech_chair,can/other,155,0.395,(7) Δ,d_cfnai,ΔCFNAI,-0.42661,0.08818,0.0,***,123,0.13307,0.11862
+speech_chair,can/other,155,0.395,(7) Δ,d_vix,ΔVIX,0.0302,0.01133,0.0077,***,123,0.13307,0.11862
+speech_chair,can/other,155,0.395,(8) Δ excl-2020,const,const,0.00224,0.05177,0.9655,,117,0.03199,0.01501
+speech_chair,can/other,155,0.395,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.50053,0.15802,0.00154,***,117,0.03199,0.01501
+speech_chair,can/other,155,0.395,(8) Δ excl-2020,d_vix,ΔVIX,0.05219,0.02677,0.05123,*,117,0.03199,0.01501
+speech_chair,will/occurrence,119,0.548,(3),const,const,0.62917,0.10712,0.0,***,124,0.02068,0.0045
+speech_chair,will/occurrence,119,0.548,(3),cfnai_ma3_lag2,CFNAI-MA3,0.01588,0.02479,0.5217,,124,0.02068,0.0045
+speech_chair,will/occurrence,119,0.548,(3),vix_pre28,VIX,-0.01349,0.00495,0.00638,***,124,0.02068,0.0045
+speech_chair,will/occurrence,119,0.548,(6) excl-2020,const,const,0.5724,0.20895,0.00615,***,118,0.02405,0.00708
+speech_chair,will/occurrence,119,0.548,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.38776,0.31445,0.21752,,118,0.02405,0.00708
+speech_chair,will/occurrence,119,0.548,(6) excl-2020,vix_pre28,VIX,-0.01079,0.01254,0.38928,,118,0.02405,0.00708
+speech_chair,will/occurrence,119,0.548,(7) Δ,const,const,-0.00258,0.03247,0.93663,,123,0.00946,-0.00705
+speech_chair,will/occurrence,119,0.548,(7) Δ,d_cfnai,ΔCFNAI,0.04677,0.017,0.00593,***,123,0.00946,-0.00705
+speech_chair,will/occurrence,119,0.548,(7) Δ,d_vix,ΔVIX,-0.01254,0.00829,0.13056,,123,0.00946,-0.00705
+speech_chair,will/occurrence,119,0.548,(8) Δ excl-2020,const,const,0.00591,0.03531,0.86709,,117,0.0048,-0.01265
+speech_chair,will/occurrence,119,0.548,(8) Δ excl-2020,d_cfnai,ΔCFNAI,0.20514,0.13977,0.14218,,117,0.0048,-0.01265
+speech_chair,will/occurrence,119,0.548,(8) Δ excl-2020,d_vix,ΔVIX,-0.00874,0.03059,0.77504,,117,0.0048,-0.01265
+speech_chair,will/communication,117,0.508,(3),const,const,0.59881,0.11049,0.0,***,124,0.01323,-0.00308
+speech_chair,will/communication,117,0.508,(3),cfnai_ma3_lag2,CFNAI-MA3,0.02331,0.01904,0.22089,,124,0.01323,-0.00308
+speech_chair,will/communication,117,0.508,(3),vix_pre28,VIX,-0.00922,0.00494,0.06192,*,124,0.01323,-0.00308
+speech_chair,will/communication,117,0.508,(6) excl-2020,const,const,0.58556,0.19871,0.00321,***,118,0.00993,-0.00728
+speech_chair,will/communication,117,0.508,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.17613,0.24615,0.47428,,118,0.00993,-0.00728
+speech_chair,will/communication,117,0.508,(6) excl-2020,vix_pre28,VIX,-0.00886,0.01107,0.42334,,118,0.00993,-0.00728
+speech_chair,will/communication,117,0.508,(7) Δ,const,const,-0.00254,0.03343,0.93935,,123,0.01238,-0.00408
+speech_chair,will/communication,117,0.508,(7) Δ,d_cfnai,ΔCFNAI,0.01747,0.01611,0.2783,,123,0.01238,-0.00408
+speech_chair,will/communication,117,0.508,(7) Δ,d_vix,ΔVIX,-0.01525,0.00732,0.03731,**,123,0.01238,-0.00408
+speech_chair,will/communication,117,0.508,(8) Δ excl-2020,const,const,-0.00605,0.03476,0.86176,,117,0.00587,-0.01157
+speech_chair,will/communication,117,0.508,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.01889,0.14094,0.8934,,117,0.00587,-0.01157
+speech_chair,will/communication,117,0.508,(8) Δ excl-2020,d_vix,ΔVIX,-0.02022,0.02899,0.48546,,117,0.00587,-0.01157
+speech_chair,will/aspectual,114,0.492,(3),const,const,0.47104,0.1979,0.01731,**,124,0.02622,0.01013
+speech_chair,will/aspectual,114,0.492,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.14933,0.02927,0.0,***,124,0.02622,0.01013
+speech_chair,will/aspectual,114,0.492,(3),vix_pre28,VIX,0.00289,0.0103,0.77918,,124,0.02622,0.01013
+speech_chair,will/aspectual,114,0.492,(6) excl-2020,const,const,0.46811,0.38183,0.22021,,118,0.00628,-0.011
+speech_chair,will/aspectual,114,0.492,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,-0.33314,0.35648,0.35004,,118,0.00628,-0.011
+speech_chair,will/aspectual,114,0.492,(6) excl-2020,vix_pre28,VIX,0.00314,0.02312,0.89194,,118,0.00628,-0.011
+speech_chair,will/aspectual,114,0.492,(7) Δ,const,const,-0.00183,0.04447,0.96723,,123,0.03816,0.02213
+speech_chair,will/aspectual,114,0.492,(7) Δ,d_cfnai,ΔCFNAI,-0.21738,0.04222,0.0,***,123,0.03816,0.02213
+speech_chair,will/aspectual,114,0.492,(7) Δ,d_vix,ΔVIX,0.00472,0.01423,0.73993,,123,0.03816,0.02213
+speech_chair,will/aspectual,114,0.492,(8) Δ excl-2020,const,const,-0.0066,0.04872,0.89229,,117,0.01329,-0.00402
+speech_chair,will/aspectual,114,0.492,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.16798,0.13467,0.21226,,117,0.01329,-0.00402
+speech_chair,will/aspectual,114,0.492,(8) Δ excl-2020,d_vix,ΔVIX,-0.03408,0.04398,0.43847,,117,0.01329,-0.00402
+speech_chair,can/activity,109,0.484,(3),const,const,0.37282,0.18859,0.04805,**,124,0.03107,0.01506
+speech_chair,can/activity,109,0.484,(3),cfnai_ma3_lag2,CFNAI-MA3,-0.15196,0.04526,0.00079,***,124,0.03107,0.01506
+speech_chair,can/activity,109,0.484,(3),vix_pre28,VIX,0.00897,0.01056,0.39561,,124,0.03107,0.01506
+speech_chair,can/activity,109,0.484,(6) excl-2020,const,const,0.78524,0.30613,0.01032,**,118,0.00916,-0.00807
+speech_chair,can/activity,109,0.484,(6) excl-2020,cfnai_ma3_lag2,CFNAI-MA3,0.31074,0.44025,0.48029,,118,0.00916,-0.00807
+speech_chair,can/activity,109,0.484,(6) excl-2020,vix_pre28,VIX,-0.01606,0.01708,0.34702,,118,0.00916,-0.00807
+speech_chair,can/activity,109,0.484,(7) Δ,const,const,0.01331,0.04977,0.78919,,123,0.00371,-0.0129
+speech_chair,can/activity,109,0.484,(7) Δ,d_cfnai,ΔCFNAI,-0.07354,0.02806,0.00876,***,123,0.00371,-0.0129
+speech_chair,can/activity,109,0.484,(7) Δ,d_vix,ΔVIX,-0.00145,0.01045,0.88938,,123,0.00371,-0.0129
+speech_chair,can/activity,109,0.484,(8) Δ excl-2020,const,const,0.02037,0.05404,0.70619,,117,0.00033,-0.01721
+speech_chair,can/activity,109,0.484,(8) Δ excl-2020,d_cfnai,ΔCFNAI,-0.03959,0.2301,0.86338,,117,0.00033,-0.01721
+speech_chair,can/activity,109,0.484,(8) Δ excl-2020,d_vix,ΔVIX,0.00675,0.0353,0.84833,,117,0.00033,-0.01721

@@ -1,0 +1,181 @@
+level,key,series,spec,var,coef,se,t,p,stars,n,r2
+genre,minutes,ALL,levels: CFNAI,CFNAI-MA3,-0.0865,0.0912,-0.95,0.3424,,99,0.003
+genre,minutes,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.0871,0.0856,-1.02,0.3091,,99,0.003
+genre,minutes,ALL,levels: CFNAI + VIX,VIX,-0.0011,0.0266,-0.04,0.9657,,99,0.003
+genre,minutes,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.0426,0.0409,1.04,0.2969,,98,0.002
+genre,minutes,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0149,0.0356,-0.42,0.6758,,98,0.002
+genre,minutes,commit,levels: CFNAI,CFNAI-MA3,0.0112,0.0094,1.19,0.2345,,99,0.001
+genre,minutes,commit,levels: CFNAI + VIX,CFNAI-MA3,0.0059,0.0098,0.6,0.5457,,99,0.033
+genre,minutes,commit,levels: CFNAI + VIX,VIX,-0.0106,0.0046,-2.31,0.0207,**,99,0.033
+genre,minutes,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.0148,0.0085,1.73,0.0836,*,98,0.041
+genre,minutes,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.02,0.0098,-2.03,0.0425,**,98,0.041
+genre,minutes,hedge,levels: CFNAI,CFNAI-MA3,-0.0939,0.0914,-1.03,0.3043,,99,0.006
+genre,minutes,hedge,levels: CFNAI + VIX,CFNAI-MA3,-0.0845,0.0778,-1.09,0.2777,,99,0.013
+genre,minutes,hedge,levels: CFNAI + VIX,VIX,0.0189,0.0239,0.79,0.4286,,99,0.013
+genre,minutes,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.0425,0.0423,1.0,0.3152,,98,0.001
+genre,minutes,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0015,0.0299,0.05,0.9591,,98,0.001
+genre,press_conf,ALL,levels: CFNAI,CFNAI-MA3,0.2385,0.2157,1.11,0.2688,,80,0.01
+genre,press_conf,ALL,levels: CFNAI + VIX,CFNAI-MA3,0.312,0.1302,2.4,0.0166,**,80,0.14
+genre,press_conf,ALL,levels: CFNAI + VIX,VIX,0.1762,0.0407,4.33,0.0,***,80,0.14
+genre,press_conf,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.7305,0.0835,8.75,0.0,***,79,0.083
+genre,press_conf,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0044,0.0919,0.05,0.9618,,79,0.083
+genre,press_conf,commit,levels: CFNAI,CFNAI-MA3,0.2885,0.0948,3.04,0.0023,***,80,0.02
+genre,press_conf,commit,levels: CFNAI + VIX,CFNAI-MA3,0.3533,0.061,5.79,0.0,***,80,0.158
+genre,press_conf,commit,levels: CFNAI + VIX,VIX,0.1553,0.0423,3.67,0.0002,***,80,0.158
+genre,press_conf,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.6886,0.1345,5.12,0.0,***,79,0.128
+genre,press_conf,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0604,0.0636,-0.95,0.3424,,79,0.128
+genre,press_conf,hedge,levels: CFNAI,CFNAI-MA3,0.1083,0.078,1.39,0.1653,,80,0.004
+genre,press_conf,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.0811,0.1052,0.77,0.4404,,80,0.041
+genre,press_conf,hedge,levels: CFNAI + VIX,VIX,-0.065,0.0323,-2.01,0.0445,**,80,0.041
+genre,press_conf,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.0496,0.1686,0.29,0.7684,,79,0.001
+genre,press_conf,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0138,0.0761,0.18,0.8557,,79,0.001
+genre,speech,ALL,levels: CFNAI,CFNAI-MA3,-0.3893,0.1989,-1.96,0.0504,*,124,0.004
+genre,speech,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.3422,0.2033,-1.68,0.0923,*,124,0.006
+genre,speech,ALL,levels: CFNAI + VIX,VIX,0.0375,0.0698,0.54,0.5915,,124,0.006
+genre,speech,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.6008,0.3156,-1.9,0.057,*,123,0.007
+genre,speech,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0483,0.0771,0.63,0.5313,,123,0.007
+genre,speech,commit,levels: CFNAI,CFNAI-MA3,-0.2845,0.1164,-2.44,0.0145,**,124,0.006
+genre,speech,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.1894,0.1116,-1.7,0.0895,*,124,0.03
+genre,speech,commit,levels: CFNAI + VIX,VIX,0.0756,0.0316,2.39,0.0168,**,124,0.03
+genre,speech,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.5254,0.1534,-3.43,0.0006,***,123,0.012
+genre,speech,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0043,0.1067,0.04,0.9682,,123,0.012
+genre,speech,hedge,levels: CFNAI,CFNAI-MA3,0.5569,0.1332,4.18,0.0,***,124,0.019
+genre,speech,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4359,0.1387,3.14,0.0017,***,124,0.051
+genre,speech,hedge,levels: CFNAI + VIX,VIX,-0.0963,0.0335,-2.88,0.004,***,124,0.051
+genre,speech,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.6865,0.1174,5.85,0.0,***,123,0.027
+genre,speech,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0638,0.042,-1.52,0.1286,,123,0.027
+genre,statement,ALL,levels: CFNAI,CFNAI-MA3,-0.209,0.1461,-1.43,0.1527,,101,0.003
+genre,statement,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.2078,0.1605,-1.29,0.1953,,101,0.003
+genre,statement,ALL,levels: CFNAI + VIX,VIX,0.0023,0.0705,0.03,0.9743,,101,0.003
+genre,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0113,0.0501,-0.23,0.8212,,100,0.007
+genre,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0437,0.0534,-0.82,0.4132,,100,0.007
+genre,statement,commit,levels: CFNAI,CFNAI-MA3,-0.6643,0.1876,-3.54,0.0004,***,101,0.054
+genre,statement,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.6926,0.2133,-3.25,0.0012,***,101,0.068
+genre,statement,commit,levels: CFNAI + VIX,VIX,-0.0556,0.0662,-0.84,0.4005,,101,0.068
+genre,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.2756,0.1311,-2.1,0.0355,**,100,0.044
+genre,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0817,0.0547,-1.49,0.1352,,100,0.044
+genre,statement,hedge,levels: CFNAI,CFNAI-MA3,0.432,0.1028,4.2,0.0,***,101,0.021
+genre,statement,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4727,0.1042,4.54,0.0,***,101,0.047
+genre,statement,hedge,levels: CFNAI + VIX,VIX,0.0801,0.0912,0.88,0.3798,,101,0.047
+genre,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.2732,0.0833,3.28,0.001,***,100,0.109
+genre,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0204,0.0245,0.83,0.4045,,100,0.109
+layer,min_committee,ALL,levels: CFNAI,CFNAI-MA3,-0.1193,0.0721,-1.66,0.0978,*,99,0.002
+layer,min_committee,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.1118,0.0699,-1.6,0.1099,,99,0.003
+layer,min_committee,ALL,levels: CFNAI + VIX,VIX,0.0151,0.0456,0.33,0.7396,,99,0.003
+layer,min_committee,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.2488,0.0652,-3.82,0.0001,***,98,0.014
+layer,min_committee,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0287,0.0793,0.36,0.7175,,98,0.014
+layer,min_committee,commit,levels: CFNAI,CFNAI-MA3,0.0538,0.059,0.91,0.3624,,99,0.002
+layer,min_committee,commit,levels: CFNAI + VIX,CFNAI-MA3,0.0472,0.0589,0.8,0.4232,,99,0.005
+layer,min_committee,commit,levels: CFNAI + VIX,VIX,-0.0132,0.0187,-0.71,0.4788,,99,0.005
+layer,min_committee,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.1729,0.0298,5.8,0.0,***,98,0.084
+layer,min_committee,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0576,0.0251,-2.3,0.0215,**,98,0.084
+layer,min_committee,hedge,levels: CFNAI,CFNAI-MA3,-0.2584,0.1466,-1.76,0.0779,*,99,0.01
+layer,min_committee,hedge,levels: CFNAI + VIX,CFNAI-MA3,-0.228,0.1191,-1.91,0.0557,*,99,0.025
+layer,min_committee,hedge,levels: CFNAI + VIX,VIX,0.0611,0.0545,1.12,0.2621,,99,0.025
+layer,min_committee,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.4765,0.0503,-9.48,0.0,***,98,0.064
+layer,min_committee,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0941,0.0629,1.5,0.1348,,98,0.064
+layer,min_participants,ALL,levels: CFNAI,CFNAI-MA3,-0.3037,0.1646,-1.84,0.0651,*,99,0.014
+layer,min_participants,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.2675,0.1272,-2.1,0.0355,**,99,0.037
+layer,min_participants,ALL,levels: CFNAI + VIX,VIX,0.0728,0.0689,1.06,0.2906,,99,0.037
+layer,min_participants,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.3477,0.1593,2.18,0.0291,**,98,0.024
+layer,min_participants,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0497,0.0458,-1.09,0.2773,,98,0.024
+layer,min_participants,commit,levels: CFNAI,CFNAI-MA3,-0.0167,0.0085,-1.98,0.0477,**,99,0.006
+layer,min_participants,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.0184,0.0089,-2.06,0.0393,**,99,0.012
+layer,min_participants,commit,levels: CFNAI + VIX,VIX,-0.0033,0.0027,-1.22,0.2221,,99,0.012
+layer,min_participants,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0221,0.0117,-1.89,0.0586,*,98,0.014
+layer,min_participants,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0025,0.0046,-0.55,0.5844,,98,0.014
+layer,min_participants,hedge,levels: CFNAI,CFNAI-MA3,-0.2483,0.1801,-1.38,0.1679,,99,0.011
+layer,min_participants,hedge,levels: CFNAI + VIX,CFNAI-MA3,-0.2011,0.1326,-1.52,0.1293,,99,0.056
+layer,min_participants,hedge,levels: CFNAI + VIX,VIX,0.0949,0.0615,1.54,0.1225,,99,0.056
+layer,min_participants,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.3679,0.1208,3.05,0.0023,***,98,0.027
+layer,min_participants,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.03,0.0429,-0.7,0.4842,,98,0.027
+layer,min_special,ALL,levels: CFNAI,CFNAI-MA3,0.3325,0.2281,1.46,0.1449,,40,0.006
+layer,min_special,ALL,levels: CFNAI + VIX,CFNAI-MA3,0.2939,0.394,0.75,0.4557,,40,0.007
+layer,min_special,ALL,levels: CFNAI + VIX,VIX,-0.0364,0.2423,-0.15,0.8806,,40,0.007
+layer,min_special,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,1.0061,0.2435,4.13,0.0,***,39,0.079
+layer,min_special,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.1967,0.1451,1.36,0.1753,,39,0.079
+layer,min_special,commit,levels: CFNAI,CFNAI-MA3,0.2203,0.1209,1.82,0.0684,*,40,0.007
+layer,min_special,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.0001,0.0905,-0.0,0.9991,,40,0.076
+layer,min_special,commit,levels: CFNAI + VIX,VIX,-0.2082,0.1243,-1.67,0.094,*,40,0.076
+layer,min_special,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0338,0.1802,-0.19,0.8514,,39,0.054
+layer,min_special,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.2003,0.1171,-1.71,0.0872,*,39,0.054
+layer,min_special,hedge,levels: CFNAI,CFNAI-MA3,-0.0251,0.2165,-0.12,0.9075,,40,0.0
+layer,min_special,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.0685,0.4136,0.17,0.8685,,40,0.004
+layer,min_special,hedge,levels: CFNAI + VIX,VIX,0.0884,0.2542,0.35,0.728,,40,0.004
+layer,min_special,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.7998,0.3126,2.56,0.0105,**,39,0.059
+layer,min_special,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.2883,0.1774,1.63,0.1041,,39,0.059
+layer,min_staff,ALL,levels: CFNAI,CFNAI-MA3,-0.0367,0.0423,-0.87,0.3856,,99,0.001
+layer,min_staff,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.0627,0.0347,-1.81,0.0706,*,99,0.078
+layer,min_staff,ALL,levels: CFNAI + VIX,VIX,-0.0523,0.0229,-2.29,0.0223,**,99,0.078
+layer,min_staff,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0682,0.026,-2.62,0.0088,***,98,0.011
+layer,min_staff,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.014,0.031,-0.45,0.6512,,98,0.011
+layer,min_staff,commit,levels: CFNAI,CFNAI-MA3,0.0042,0.0039,1.06,0.2884,,99,0.001
+layer,min_staff,commit,levels: CFNAI + VIX,CFNAI-MA3,0.0046,0.0048,0.96,0.3364,,99,0.002
+layer,min_staff,commit,levels: CFNAI + VIX,VIX,0.001,0.0038,0.25,0.8016,,99,0.002
+layer,min_staff,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0093,0.0058,-1.6,0.1095,,98,0.031
+layer,min_staff,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0091,0.009,1.01,0.3136,,98,0.031
+layer,min_staff,hedge,levels: CFNAI,CFNAI-MA3,-0.047,0.042,-1.12,0.2635,,99,0.002
+layer,min_staff,hedge,levels: CFNAI + VIX,CFNAI-MA3,-0.074,0.0344,-2.15,0.0315,**,99,0.086
+layer,min_staff,hedge,levels: CFNAI + VIX,VIX,-0.0542,0.0244,-2.22,0.0263,**,99,0.086
+layer,min_staff,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0556,0.0236,-2.35,0.0187,**,98,0.018
+layer,min_staff,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0238,0.0302,-0.79,0.4315,,98,0.018
+layer,min_staff_desk,ALL,levels: CFNAI,CFNAI-MA3,0.3462,0.2621,1.32,0.1865,,99,0.004
+layer,min_staff_desk,ALL,levels: CFNAI + VIX,CFNAI-MA3,0.3857,0.2183,1.77,0.0773,*,99,0.011
+layer,min_staff_desk,ALL,levels: CFNAI + VIX,VIX,0.0794,0.1117,0.71,0.4771,,99,0.011
+layer,min_staff_desk,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.582,0.2831,2.06,0.0398,**,98,0.021
+layer,min_staff_desk,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.1592,0.1206,-1.32,0.1866,,98,0.021
+layer,min_staff_desk,commit,levels: CFNAI,CFNAI-MA3,0.0621,0.0258,2.41,0.0161,**,99,0.005
+layer,min_staff_desk,commit,levels: CFNAI + VIX,CFNAI-MA3,0.0543,0.0338,1.6,0.1086,,99,0.015
+layer,min_staff_desk,commit,levels: CFNAI + VIX,VIX,-0.0157,0.0168,-0.94,0.3483,,99,0.015
+layer,min_staff_desk,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0121,0.0627,-0.19,0.8471,,98,0.013
+layer,min_staff_desk,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0322,0.0358,-0.9,0.3689,,98,0.013
+layer,min_staff_desk,hedge,levels: CFNAI,CFNAI-MA3,0.1805,0.2073,0.87,0.384,,99,0.002
+layer,min_staff_desk,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.2303,0.1673,1.38,0.1685,,99,0.016
+layer,min_staff_desk,hedge,levels: CFNAI + VIX,VIX,0.1002,0.0909,1.1,0.2701,,99,0.016
+layer,min_staff_desk,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.5213,0.1807,2.89,0.0039,***,98,0.025
+layer,min_staff_desk,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.1573,0.0903,-1.74,0.0814,*,98,0.025
+layer,pc_chair,ALL,levels: CFNAI,CFNAI-MA3,0.2385,0.2157,1.11,0.2688,,80,0.01
+layer,pc_chair,ALL,levels: CFNAI + VIX,CFNAI-MA3,0.312,0.1302,2.4,0.0166,**,80,0.14
+layer,pc_chair,ALL,levels: CFNAI + VIX,VIX,0.1762,0.0407,4.33,0.0,***,80,0.14
+layer,pc_chair,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.7305,0.0835,8.75,0.0,***,79,0.083
+layer,pc_chair,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0044,0.0919,0.05,0.9618,,79,0.083
+layer,pc_chair,commit,levels: CFNAI,CFNAI-MA3,0.2885,0.0948,3.04,0.0023,***,80,0.02
+layer,pc_chair,commit,levels: CFNAI + VIX,CFNAI-MA3,0.3533,0.061,5.79,0.0,***,80,0.158
+layer,pc_chair,commit,levels: CFNAI + VIX,VIX,0.1553,0.0423,3.67,0.0002,***,80,0.158
+layer,pc_chair,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.6886,0.1345,5.12,0.0,***,79,0.128
+layer,pc_chair,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0604,0.0636,-0.95,0.3424,,79,0.128
+layer,pc_chair,hedge,levels: CFNAI,CFNAI-MA3,0.1083,0.078,1.39,0.1653,,80,0.004
+layer,pc_chair,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.0811,0.1052,0.77,0.4404,,80,0.041
+layer,pc_chair,hedge,levels: CFNAI + VIX,VIX,-0.065,0.0323,-2.01,0.0445,**,80,0.041
+layer,pc_chair,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.0496,0.1686,0.29,0.7684,,79,0.001
+layer,pc_chair,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0138,0.0761,0.18,0.8557,,79,0.001
+layer,speech_chair,ALL,levels: CFNAI,CFNAI-MA3,-0.3893,0.1989,-1.96,0.0504,*,124,0.004
+layer,speech_chair,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.3422,0.2033,-1.68,0.0923,*,124,0.006
+layer,speech_chair,ALL,levels: CFNAI + VIX,VIX,0.0375,0.0698,0.54,0.5915,,124,0.006
+layer,speech_chair,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.6008,0.3156,-1.9,0.057,*,123,0.007
+layer,speech_chair,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0483,0.0771,0.63,0.5313,,123,0.007
+layer,speech_chair,commit,levels: CFNAI,CFNAI-MA3,-0.2845,0.1164,-2.44,0.0145,**,124,0.006
+layer,speech_chair,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.1894,0.1116,-1.7,0.0895,*,124,0.03
+layer,speech_chair,commit,levels: CFNAI + VIX,VIX,0.0756,0.0316,2.39,0.0168,**,124,0.03
+layer,speech_chair,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.5254,0.1534,-3.43,0.0006,***,123,0.012
+layer,speech_chair,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0043,0.1067,0.04,0.9682,,123,0.012
+layer,speech_chair,hedge,levels: CFNAI,CFNAI-MA3,0.5569,0.1332,4.18,0.0,***,124,0.019
+layer,speech_chair,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4359,0.1387,3.14,0.0017,***,124,0.051
+layer,speech_chair,hedge,levels: CFNAI + VIX,VIX,-0.0963,0.0335,-2.88,0.004,***,124,0.051
+layer,speech_chair,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.6865,0.1174,5.85,0.0,***,123,0.027
+layer,speech_chair,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0638,0.042,-1.52,0.1286,,123,0.027
+layer,statement,ALL,levels: CFNAI,CFNAI-MA3,-0.209,0.1461,-1.43,0.1527,,101,0.003
+layer,statement,ALL,levels: CFNAI + VIX,CFNAI-MA3,-0.2078,0.1605,-1.29,0.1953,,101,0.003
+layer,statement,ALL,levels: CFNAI + VIX,VIX,0.0023,0.0705,0.03,0.9743,,101,0.003
+layer,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.0113,0.0501,-0.23,0.8212,,100,0.007
+layer,statement,ALL,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0437,0.0534,-0.82,0.4132,,100,0.007
+layer,statement,commit,levels: CFNAI,CFNAI-MA3,-0.6643,0.1876,-3.54,0.0004,***,101,0.054
+layer,statement,commit,levels: CFNAI + VIX,CFNAI-MA3,-0.6926,0.2133,-3.25,0.0012,***,101,0.068
+layer,statement,commit,levels: CFNAI + VIX,VIX,-0.0556,0.0662,-0.84,0.4005,,101,0.068
+layer,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,-0.2756,0.1311,-2.1,0.0355,**,100,0.044
+layer,statement,commit,Δ: ΔCFNAI + ΔVIX,ΔVIX,-0.0817,0.0547,-1.49,0.1352,,100,0.044
+layer,statement,hedge,levels: CFNAI,CFNAI-MA3,0.432,0.1028,4.2,0.0,***,101,0.021
+layer,statement,hedge,levels: CFNAI + VIX,CFNAI-MA3,0.4727,0.1042,4.54,0.0,***,101,0.047
+layer,statement,hedge,levels: CFNAI + VIX,VIX,0.0801,0.0912,0.88,0.3798,,101,0.047
+layer,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔCFNAI,0.2732,0.0833,3.28,0.001,***,100,0.109
+layer,statement,hedge,Δ: ΔCFNAI + ΔVIX,ΔVIX,0.0204,0.0245,0.83,0.4045,,100,0.109
