@@ -19,7 +19,7 @@
 - Python: `.venv` (Python 3.9, spaCy 3.7 + en_core_web_sm). 실행: `.venv/bin/python experiments/<script>.py`
 - 시스템 python3(3.9)에는 spaCy 없음. Homebrew python3.14는 spaCy 미지원 → 3.9 venv 사용.
 - PDF 텍스트 추출: `pdftotext`(poppler) / `pypdf`
-- **저장소 정책(2026-09-04 재변경): GSkim0507 계정의 새 원격 레포 사용.** 기존 airlab-tsw 레포는 사용자가 삭제(로컬 origin 제거됨). `gh repo create GSkim0507/fomc-modality-analysis` 시도 → GSkim0507의 fine-grained PAT에 레포 생성 권한 없음(`Resource not accessible by personal access token (createRepository)`) → 사용자 재인증(OAuth `gh auth login`) 또는 웹에서 레포 생성 후 원격 추가 필요.
+- **저장소(2026-09-04 확정): https://github.com/GSkim0507/fomc-modality-analysis (private).** 기존 airlab-tsw 레포는 사용자가 삭제. 첫 시도는 GSkim0507의 fine-grained PAT에 레포 생성 권한이 없어 실패했고, 사용자가 제공한 classic PAT를 `gh auth login --with-token`으로 gh 키체인에만 저장(파일·문서에 기록하지 않음)한 뒤 생성·푸시 완료. 이후 Phase 경계마다 커밋·푸시 재개.
 
 ## 3. 데이터 메모
 - `FOMC_corpus/{statements,minutes,transcripts,speeches}/*.json` — 필드: doc_id, doc_type, date, chair, text, word_count 등
