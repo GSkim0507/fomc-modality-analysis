@@ -41,6 +41,7 @@
 | 2026-08-28 | 8 | 논문 초안 v1 작성(영문, paper/draft_v1.md + .docx; 약 8,500단어; 초록·서론·배경·방법·결과(표 8·그림 9)·논의·결론·참고문헌·부록). 다음 단계: 비OA 문헌 반영, 2인 코딩 검증(κ), 저널 양식 맞춤, 저자·소속 기입 | paper/ |
 | 2026-08-31 | 9 | v2 완성: be-후행어 해소(01 개정, 91.9%), 거시 정렬(06, FRED CFNAI/VIX/갭), 상관·FDR 스크린(07), 시차·Granger·예측(08), 적대적 검증 워크플로(발견 28건→검증 12건, 인공물 다수 처형)+비평 잔여항목 실행(09, G1–G6), 문헌 근거 워크플로(EVIDENCE_feedback3.md), docs/07 종합, 초안 v2(paper/draft_v2.md+.docx). 핵심: 상관 축은 VIX(불확실성)이지 CFNAI(실물) 아님(Kawamura 비전이); fair-weather 보류/위기 채택/심의 관용구 3기제; would be appropriate=살아있는 심의 신호; 예측력 증분 없음(F3 0/113) | Phase 9 커밋들, docs/07, paper/draft_v2 |
 | 2026-08-31 | 9+ | 비OA 처리: Nuyts·Hyland 원문 수령(검증), 사용자 제공 3번째 파일은 오다운로드(ESP editorial)로 판명 — Donohue 미확보(정확 DOI 10.1016/j.esp.2005.02.009), Deng et al. 2024+Resche 2015로 대체. Leech 2003→Leech 2004(OA), Millar 2009→Bowie et al. 2013(OA, Millar 2차 인용 유지)로 교체. draft_v2 인용·참고문헌 갱신, docx 재생성 | literature/, docs/05, paper/draft_v2 |
+| 2026-09-04 | 10.0 | 논문 미팅(지도교수) 녹취·팀 피드백 4건 분석 → 재실험 전략 docs/08. 층위 감사(qa_layer_audit.py → QA1–QA4): 기자회견 조동사 토큰의 19.7%가 기자 발화(could 48%, might 50%), 의사록 be+appropriate는 will=위원회 섹션(50/58)·would=참가자 섹션(142/247) → 교수님 will/would 질문의 답. Phase 10–13 계획 수립(TASKS.md) | docs/08, experiments/qa_layer_audit.py, results/tables/QA1–QA4 |
 
 ### ⚠ 2026-08-31 레포 삭제·재생성 사건
 - Phase 9.1–9.3 푸시 시 GitHub 레포(airlab-tsw/fomc-modality-analysis)가 원격에서 존재하지 않음(404). airlab-tsw·GSkim0507 계정 어디에도 이름 변경/이전 흔적 없음 → 삭제된 것으로 판단.
@@ -54,9 +55,19 @@
 - D7. (v2) 거시 정합: 주검정 = CFNAI-MA3(실시간 2개월 래그) + VIX(회의 전 28일 평균) — Kawamura 비교가능성. 실업률갭·근원PCE갭은 강건성 전용. 2020년 제외·2010-2026 확장·Spearman을 강건성 축으로 사용.
 - D5. 조동사 추이의 1차 설명 가설 = 정형 문장(boilerplate) 편집 이벤트(docs/02 §3). 실험 6.4에서 문장 재사용률로 정량 검정.
 - D3. 주 분석 장르 = Statement(세미나 관찰의 원천). Minutes·Press Conference·Speech는 장르 대조·강건성 분석.
+- D8. (제안, 2026-09-04) 의사록: 층위(섹션) 라벨을 붙여 포함하고 statement-only(S1) 결과를 항상 병기. minutes-only는 불가(세미나 원 관찰과 계단식 편집이 성명서 현상). 명분은 docs/08 §4 — **팀 수용 여부 확인 필요**.
+- D9. (제안) 코로나 2020: 포함(T1)·제외(T2) 두 버전 병기, T1에서만 튀는 결과는 "코로나 시기 반응"으로 서술. Figure 4(계단)는 T1만.
+- D10. (제안) 주 코퍼스 = S4(4장르, 기자·진행자 제거, 귀속 라벨); S1·S2 비교 열.
+- D11. (제안) 분석 단위 = 구문(modal+predicate)으로 전 RQ 통일; 조동사 단위는 "집계 시 은폐" 비교 열로만. RQ 5→3(인벤토리 / 구문 계단 / 구문×거시), 선행성은 부록.
+- D12. (교수님 발언) 타깃 저널 = 경제학(JEL E58). Kawamura 비교는 인용 수준.
+- D13. ECB 비교는 fallback으로만 준비.
+- D14. 화용론 축(will/would vs can/could)은 교수님 문헌 검토 후 포함 결정; X-D 대조표만 준비.
 - D4. 조동사 판별은 spaCy `tag_ == "MD"` + 축약형(’ll/’d) 복원 + 표면형 정규화(ca n't 등).
 
 ## 6. 미해결 / 사용자 확인 필요
+- (2026-09-04) D8 의사록 포함 명분(docs/08 §4)에 대한 팀 수용 여부.
+- (2026-09-04) 이미지로 공유된 다른 세션의 화자 분절기(80문서 5,250턴 검증)는 이 레포에 없음 → Phase 10.2에서 재작성(qa_layer_audit.py의 정규식이 동일 수치 재현: 의장 2,194 / 기자 2,186 / 진행자 848턴).
+- (2026-09-04) 회의에서 언급된 'E2(ECB?) 코퍼스'는 이 레포에 없음. 위치 확인 필요(D13 fallback용).
 - 비OA 논문 5편 원문 필요: Leech 2003, Millar 2009, Hyland 1996, Donohue 2006, Nuyts 2001 (docs/05 §2). 브라우저 수동 다운로드 4편: Cannon 2015, Doh et al. 2022, Resche 2004, VerbNet thesis (docs/05 §3).
 - 의미 유형(epistemic/deontic/dynamic) 휴리스틱은 저자 60문장 표본에서 ≈90% 일치. 논문 투고 전 2인 코딩(κ)으로 대체 권장 — `results/tables/D7_validation_sample.csv`(200문장)에 수작업 열 준비됨.
 - `experiments/common.py`의 동사 의미 부류 사전(VERB_CLASS)은 저자 정의. Biber et al.(1999) 원 분류표와 대조 검토 필요.
