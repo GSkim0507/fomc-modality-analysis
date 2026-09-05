@@ -59,6 +59,7 @@ figure{margin:18px 0 26px}figure img{max-width:100%;border:1px solid var(--line)
 @media print{body{background:#fff;color:#000}.wrap{padding:0}.layout{display:block}aside.toc{display:none}.tw{overflow:visible;border:none}}
 """
 NUM_RE = re.compile(r"^\s*[+\-−–]?\s*[\d.,]+%?\s*(\*{0,3})?\s*$|^\s*—\s*$|^\s*≥\s*\d+\s*$")
+HTML_CELL_RE = re.compile(r"</?(?:br|span|b|i|em|strong|sub|sup|a|code)\b[^>]*>")
 
 
 # ----------------------------------------------------------------------------------------------
@@ -95,7 +96,10 @@ def tbl(df: pd.DataFrame, caption="", reco_pred=None, max_rows=60, fmt=None) -> 
             elif isinstance(v, (int, np.integer)): cells.append(f"<td class='n'>{v:,}</td>")
             else:
                 s = "" if v is None or (isinstance(v, float) and np.isnan(v)) else str(v)
-                cells.append(f"<td{' class=n' if NUM_RE.match(s) else ''}>{html.escape(s)}</td>" if not s.startswith("<") else f"<td>{s}</td>")
+                # 셀이 <로 '시작'할 때만 원문 삽입하면, "+0.266<br><span…>(0.230)</span>" 처럼
+                # 숫자로 시작하는 회귀 셀이 통째로 이스케이프되어 태그가 글자로 보인다.
+                # 태그가 문자열 어디에 있든 원문으로 넣는다.
+                cells.append(f"<td>{s}</td>" if HTML_CELL_RE.search(s) else f"<td{' class=n' if NUM_RE.match(s) else ''}>{html.escape(s)}</td>")
         out.append(f"<tr{cls}>" + "".join(cells) + "</tr>")
     out.append("</tbody></table></div>"); return "".join(out)
 
