@@ -33,6 +33,8 @@ DEFAULT_CID, UNIT = "C11", "U2"
 LABELS = {cid: name for cid, name, _ in SCEN}
 
 CSS_EXTRA = """
+/* 한국어 조판: 단어 중간 줄바꿈 금지 (제목이 "설명하는/가"로 갈라지던 문제) */
+main :is(h1,h2,h3,p,li,td,th,figcaption), aside.toc a, .masthead .sub{word-break:keep-all;overflow-wrap:break-word}
 .scn{margin:16px 0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow:hidden}
 .scntabs{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--line);background:var(--bg)}
 .scntabs button{font:inherit;font-size:13px;padding:9px 16px;border:0;border-right:1px solid var(--line);
